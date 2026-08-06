@@ -44,6 +44,14 @@ been labeled yet.
 - [Reproducibility guide](docs/REPRODUCIBILITY.md)
 - [Project structure and reviewer path](docs/PROJECT_STRUCTURE.md)
 
+### Dashboard preview
+
+![Executive overview](docs/assets/streamlit-executive-overview.png)
+
+| Agent Copilot | Supervisor Board |
+| --- | --- |
+| ![Agent Copilot](docs/assets/streamlit-agent-copilot.png) | ![Supervisor Board](docs/assets/streamlit-supervisor-board.png) |
+
 The Streamlit app reads the same checked-in analytical artifacts as the
 self-contained HTML fallbacks. No API key, GPU, or LLM is required.
 
