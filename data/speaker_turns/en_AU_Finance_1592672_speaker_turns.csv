@@ -1,0 +1,171 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Finance_1592672,1,agent,channel1,1,0.0,19.16,"Good morning, you've reached Commonwealth Financial Service, this is Danielle speaking,"
+en_AU_Finance_1592672,2,customer,channel2,1,0.0,29.16,I'm actually calling because I'm interested in applying for an investment loan.
+en_AU_Finance_1592672,3,agent,channel1,2,19.16,26.16,how may I help you today?
+en_AU_Finance_1592672,4,agent,channel1,3,26.16,40.52,"Yes, okay, good morning Maria, I'd be able to help you with that of course, so investment"
+en_AU_Finance_1592672,5,customer,channel2,2,29.16,50.52,I've been looking to expand my portfolio but I'm a bit short on liquid funds at the moment.
+en_AU_Finance_1592672,6,agent,channel1,4,40.52,45.48,"loans are quite popular with our clients looking to grow their portfolios, so just to confirm"
+en_AU_Finance_1592672,7,agent,channel1,5,45.48,52.48,are you looking to invest in residential property shares or managed funds?
+en_AU_Finance_1592672,8,customer,channel2,3,50.52,52.92,Primarily shares actually.
+en_AU_Finance_1592672,9,agent,channel1,6,52.48,75.4,"Oh look, it's so great that you're looking at diversifying, yeah absolutely, so those"
+en_AU_Finance_1592672,10,customer,channel2,4,52.92,58.8,I do already have a few properties in Melbourne and Sydney but I do think that there's some
+en_AU_Finance_1592672,11,customer,channel2,5,58.8,61.92,good opportunities in the market right now.
+en_AU_Finance_1592672,12,customer,channel2,6,61.92,62.92,You know what I mean?
+en_AU_Finance_1592672,13,customer,channel2,7,62.92,69.08,So especially with some of the mining stocks that are bouncing back if you've been looking
+en_AU_Finance_1592672,14,customer,channel2,8,69.08,75.08,at the market.
+en_AU_Finance_1592672,15,agent,channel1,7,75.4,81.88,"mining stocks have definitely made a balance since recent times, but before we do go into"
+en_AU_Finance_1592672,16,agent,channel1,8,81.88,88.4,the details can I actually just read about one the other day that there's a lot of gold stores
+en_AU_Finance_1592672,17,agent,channel1,9,88.4,94.64,"that have been found, but yeah sorry, before we do go into details can I just please confirm"
+en_AU_Finance_1592672,18,agent,channel1,10,94.64,100.76,"a few things for security purposes, so starting off with can you give me your date of birth"
+en_AU_Finance_1592672,19,agent,channel1,11,100.76,107.76,please and your current residential address?
+en_AU_Finance_1592672,20,customer,channel2,9,105.48,109.76,It's 15th of March 1982.
+en_AU_Finance_1592672,21,agent,channel1,12,107.76,121.64,"Oh perfect, so your are prices, okay great, thank you Maria, now let's talk about the"
+en_AU_Finance_1592672,22,customer,channel2,10,109.76,115.32,My address is 47 Riverside Drive Turinga Queensland.
+en_AU_Finance_1592672,23,agent,channel1,13,121.64,128.8,"investment loan, so to qualify for an investment loan with us there are several key requirements,"
+en_AU_Finance_1592672,24,agent,channel1,14,128.8,133.52,"what we'll need to do first is assess your current financial position, including your"
+en_AU_Finance_1592672,25,agent,channel1,15,133.52,139.4,"income, existing assets and any outstanding debts, do you currently have an income from"
+en_AU_Finance_1592672,26,customer,channel2,11,135.08,145.76,"Oh yes, I work full-time as a pharmacist in Tawang."
+en_AU_Finance_1592672,27,agent,channel1,16,139.4,158.04,"employment or a business, okay excellent, so stable employment definitely works in"
+en_AU_Finance_1592672,28,customer,channel2,12,145.76,150.72,I've been there for about eight years now so my income is pretty stable.
+en_AU_Finance_1592672,29,customer,channel2,13,150.72,154.48,"I earn around 110,000 a year before tax."
+en_AU_Finance_1592672,30,agent,channel1,17,158.04,163.44,"your favour, what we'll need is also to look at your existing asset, so you mentioned you"
+en_AU_Finance_1592672,31,agent,channel1,18,163.44,185.4,"have some properties in Melbourne and in Sydney,"
+en_AU_Finance_1592672,32,customer,channel2,14,166.08,168.36,"Yeah, that's right."
+en_AU_Finance_1592672,33,customer,channel2,15,168.36,174.84,So I've got a two bedroom unit in Brunswick that's tenanted and a townhouse in Paramatta
+en_AU_Finance_1592672,34,customer,channel2,16,174.84,177.96,that's also bringing in a rental income.
+en_AU_Finance_1592672,35,customer,channel2,17,177.96,183.76,Both are mortgaged but the loans are being covered by the rent plus a big extra.
+en_AU_Finance_1592672,36,agent,channel1,19,185.96,189.4,"so that's good to hear, so the fact that you're already servicing investment property"
+en_AU_Finance_1592672,37,agent,channel1,20,189.4,194.6,"shows you understand the responsibilities involved, now for an investment loan specifically"
+en_AU_Finance_1592672,38,agent,channel1,21,194.6,200.04,"for shares we typically lend up to 70% of the value of the investment, so this can"
+en_AU_Finance_1592672,39,customer,channel2,18,195.08,216.36,"Okay, that makes sense."
+en_AU_Finance_1592672,40,agent,channel1,22,200.04,205.0,"vary depending on the type of shares you're looking at, so for example Maria, the blue"
+en_AU_Finance_1592672,41,agent,channel1,23,205.0,210.52,"chip ASX companies like BHP, ComBank, all words, they generally allow for higher"
+en_AU_Finance_1592672,42,agent,channel1,24,210.6,213.24,"lending ratios compared to the smaller cap stocks,"
+en_AU_Finance_1592672,43,customer,channel2,19,216.36,223.68,I was actually looking at expanding my holdings in some of the big miners like BHP or Fortescue
+en_AU_Finance_1592672,44,customer,channel2,20,224.68,228.16,Maybe some of the big banks.
+en_AU_Finance_1592672,45,customer,channel2,21,228.16,229.84,What sort of interest rates are we talking about?
+en_AU_Finance_1592672,46,agent,channel1,25,230.6,234.92,"yeah great choices with the blue chips, you know they're definitely safer there,"
+en_AU_Finance_1592672,47,agent,channel1,26,234.92,242.6,so currently our investment loan rates for shares start around 7.85% per annum for variable
+en_AU_Finance_1592672,48,agent,channel1,27,242.6,248.76,"rate loans, look if you prefer a fixed rate for certainty we have three year fixed options"
+en_AU_Finance_1592672,49,agent,channel1,28,248.76,255.24,at around 7.45% though these rates are subject to change and depend on your individual
+en_AU_Finance_1592672,50,customer,channel2,22,254.68,264.88,So about 7.85% variable that's a bit higher than my property loans but I suppose that's
+en_AU_Finance_1592672,51,agent,channel1,29,255.24,257.24,"circumstances and the loan amount,"
+en_AU_Finance_1592672,52,customer,channel2,23,264.88,266.56,"because shares are more volatile, right?"
+en_AU_Finance_1592672,53,agent,channel1,30,267.16,272.6,"exactly right, Maria, look shares are considered a higher risk security compared to properties,"
+en_AU_Finance_1592672,54,agent,channel1,31,272.6,278.36,"so the rates reflect that, however if you're interested in sorry if you're investing"
+en_AU_Finance_1592672,55,agent,channel1,32,278.36,283.48,"in quality companies with good dividend yields, many of our clients find the returns"
+en_AU_Finance_1592672,56,agent,channel1,33,283.56,288.92,"more than compensate for the slightly higher interest rate, plus you can claim the interest"
+en_AU_Finance_1592672,57,customer,channel2,24,283.68,296.84,"Yes, that's what my accountant mentioned."
+en_AU_Finance_1592672,58,agent,channel1,34,288.92,291.64,"as a tax deduction against your investment income,"
+en_AU_Finance_1592672,59,customer,channel2,25,296.84,300.28,"Speaking of dividends, can you tell me about repayment terms?"
+en_AU_Finance_1592672,60,customer,channel2,26,300.28,303.96,I'd really like to keep my cash flow as flexible as possible.
+en_AU_Finance_1592672,61,agent,channel1,35,304.92,308.84,"absolutely, so we offer quite a bit of flexibility with our investment loans,"
+en_AU_Finance_1592672,62,agent,channel1,36,309.4,316.52,"you can choose interest only repayments for up to 10 years, which keeps your monthly payments"
+en_AU_Finance_1592672,63,customer,channel2,27,313.68,340.08,"Okay, look, I would say that the interest only option sounds appealing."
+en_AU_Finance_1592672,64,agent,channel1,37,316.52,322.92,"lower and maximizes your cash flow, after that period so after the 10 years the loan converts"
+en_AU_Finance_1592672,65,agent,channel1,38,322.92,329.72,"to principal and interest repayments, alternatively you can opt for principal and interest from the"
+en_AU_Finance_1592672,66,agent,channel1,39,329.72,332.44,"start if you prefer to pay down the loan faster,"
+en_AU_Finance_1592672,67,customer,channel2,28,340.08,343.28,"What would the repayments look like if I borrowed, say, 150K?"
+en_AU_Finance_1592672,68,agent,channel1,40,344.36,348.36,"yeah let me just um please sorry just give me a moment I'll calculate that for you,"
+en_AU_Finance_1592672,69,agent,channel1,41,349.48,358.36,"so at 7.85% on the principal of $150,000 with interest only repayments you'd be looking at"
+en_AU_Finance_1592672,70,agent,channel1,42,358.36,366.84,"approximately $980 per month or about $11,700 per year, now keep in mind that's just the interest"
+en_AU_Finance_1592672,71,agent,channel1,43,366.84,383.0,"component and it's tax deductible, that's correct so with our variable rate loans you can make"
+en_AU_Finance_1592672,72,customer,channel2,29,371.08,376.88,"Yeah, you know what, thinking about it, it's actually quite manageable and I assume I can"
+en_AU_Finance_1592672,73,customer,channel2,30,376.88,381.08,"make extra payments, right, if the dividends are good."
+en_AU_Finance_1592672,74,customer,channel2,31,381.08,404.08,"Yeah, look, the variable rate with flexibility sounds better for what I need."
+en_AU_Finance_1592672,75,agent,channel1,44,383.08,389.88,"unlimited additional repayments without penalty, if you go with a fixed rate there are generally"
+en_AU_Finance_1592672,76,agent,channel1,45,389.88,403.64,some restrictions but we can discuss those options in more detail if you are interested
+en_AU_Finance_1592672,77,customer,channel2,32,404.08,409.08,"Now, I wanted to ask you about something else if that's okay."
+en_AU_Finance_1592672,78,customer,channel2,33,409.08,415.08,Can you give me any updates on the stock performance of some specific companies?
+en_AU_Finance_1592672,79,agent,channel1,46,413.32,415.64,so
+en_AU_Finance_1592672,80,customer,channel2,34,415.08,424.08,"I'm particularly interested in BHP, Fortescue Minerals, sorry Fortescue Metals and also A&Z Bank, that's right."
+en_AU_Finance_1592672,81,agent,channel1,47,425.32,429.72,yeah so I can certainly understand why you'd want that information Maria but I need to be up front
+en_AU_Finance_1592672,82,agent,channel1,48,429.72,434.76,"with you, as a lending specialist I'm not a licensed financial advisor so I can't provide"
+en_AU_Finance_1592672,83,agent,channel1,49,434.76,441.24,"specific investment advice or detailed stock analysis, what I can tell you is that we have"
+en_AU_Finance_1592672,84,customer,channel2,35,439.08,457.08,"Oh, I see, okay, so you can't tell me if it's a good time to buy, right?"
+en_AU_Finance_1592672,85,agent,channel1,50,441.24,447.72,resources available through our online banking platform where you can access real-time market data
+en_AU_Finance_1592672,86,agent,channel1,51,447.72,450.76,"and stock prices for all ASX listed companies,"
+en_AU_Finance_1592672,87,agent,channel1,52,457.72,463.24,"no unfortunately not as that would be financial advisor and not qualified to provide that,"
+en_AU_Finance_1592672,88,agent,channel1,53,463.24,468.12,"however I can definitely point you in the right direction for monitoring your investments,"
+en_AU_Finance_1592672,89,agent,channel1,54,468.84,484.04,have you used the Comsec app or the ASX website before?
+en_AU_Finance_1592672,90,customer,channel2,36,470.08,480.08,"Yeah, I've used Consec a bit, but I'm not really across all the features."
+en_AU_Finance_1592672,91,customer,channel2,37,480.08,483.08,How do I monitor stock updates regularly?
+en_AU_Finance_1592672,92,customer,channel2,38,483.08,488.08,"I don't want to be checking it every five minutes, but I do want to stay informed."
+en_AU_Finance_1592672,93,agent,channel1,55,488.92,493.88,"Yep that's an excellent question, look there are several ways to stay on top of your investments"
+en_AU_Finance_1592672,94,agent,channel1,56,493.96,498.68,"without it becoming a full-time job, first through your Comsec platform you can set up"
+en_AU_Finance_1592672,95,agent,channel1,57,498.68,505.32,"price alerts for specific stocks, so for example you can get a notification if BHP drops below or"
+en_AU_Finance_1592672,96,customer,channel2,39,499.08,512.08,That sounds really useful.
+en_AU_Finance_1592672,97,agent,channel1,58,505.32,510.28,"wise above a certain price point, you can also set up alerts for company announcements,"
+en_AU_Finance_1592672,98,customer,channel2,40,512.08,515.08,Is there a limit to how many alerts I can set?
+en_AU_Finance_1592672,99,agent,channel1,59,516.36,521.72,"no limit at all, look you can also subscribe to market newsletters through the platform,"
+en_AU_Finance_1592672,100,agent,channel1,60,521.72,527.48,the ASX does release a daily market wrap-up and that also summarizes what you know days trading
+en_AU_Finance_1592672,101,agent,channel1,61,528.36,534.2,"which stocks moved the most and any sort of significant news, so it's delivered to your"
+en_AU_Finance_1592672,102,customer,channel2,41,529.08,538.08,That sounds perfect.
+en_AU_Finance_1592672,103,agent,channel1,62,534.2,549.4,"email each afternoon after market close, yeah of course so the ASX company pages show all"
+en_AU_Finance_1592672,104,customer,channel2,42,538.08,541.08,And what about dividend announcements?
+en_AU_Finance_1592672,105,customer,channel2,43,541.08,547.08,"Yeah, you know what, that's really important for my investment strategy."
+en_AU_Finance_1592672,106,agent,channel1,63,549.4,554.28,upcoming dividend dates and you'll receive notifications if you're holding shares through
+en_AU_Finance_1592672,107,agent,channel1,64,554.28,561.8,"Comsec, you can also check the financial section of the ABC news website or the AFR which both have"
+en_AU_Finance_1592672,108,customer,channel2,44,559.08,572.08,"This is really helpful, Danielle."
+en_AU_Finance_1592672,109,agent,channel1,65,561.8,567.96,"good coverage of ASX announcements, many investors will also use apps like Simply Wall Street or"
+en_AU_Finance_1592672,110,agent,channel1,66,567.96,580.36,"MarketWatch to track their portfolios,"
+en_AU_Finance_1592672,111,customer,channel2,45,572.08,575.08,I think I'm getting a clearer picture of how it all works.
+en_AU_Finance_1592672,112,customer,channel2,46,575.08,583.08,"But to be really honest, I feel like I should probably speak with someone who can give me proper investment advice before committing to anything."
+en_AU_Finance_1592672,113,agent,channel1,67,584.84,590.92,"yeah look that's a very sensible approach Maria, I would definitely recommend it, we have financial"
+en_AU_Finance_1592672,114,customer,channel2,47,589.08,611.08,"Yeah, I think that I'd like to arrange it."
+en_AU_Finance_1592672,115,agent,channel1,68,590.92,596.76,advisors who specialize in investment strategies and can help you make informed decisions about
+en_AU_Finance_1592672,116,agent,channel1,69,596.76,602.44,"which shares to purchase with your loan, they can also look at your overall financial situation"
+en_AU_Finance_1592672,117,agent,channel1,70,602.44,605.48,"and make sure an investment loan aligns with your long-term goals,"
+en_AU_Finance_1592672,118,customer,channel2,48,611.08,618.08,How does that really work? How do I set that up?
+en_AU_Finance_1592672,119,agent,channel1,71,614.12,619.0,"yeah okay so I can help you with that, so what we can do I can arrange a follow-up"
+en_AU_Finance_1592672,120,customer,channel2,49,618.08,639.08,"I think face-to-face would be better, especially for something like this."
+en_AU_Finance_1592672,121,agent,channel1,72,619.0,624.84,"appointment for you with one of our investment advisors, they're based in our Brisbane"
+en_AU_Finance_1592672,122,agent,channel1,73,624.84,631.24,"CBD office on Queen Street, Maria would you prefer a face-to-face meeting or would you like to do it"
+en_AU_Finance_1592672,123,agent,channel1,74,631.24,645.08,"over the phone or a video call, yeah look absolutely I understand, let me check the"
+en_AU_Finance_1592672,124,customer,channel2,50,639.08,650.08,I like to be able to ask questions and see documents properly.
+en_AU_Finance_1592672,125,agent,channel1,75,645.08,649.72,"availability, generally speaking would mornings or afternoons work better for you,"
+en_AU_Finance_1592672,126,customer,channel2,51,650.08,672.08,"I think afternoons would work better. I usually finish around 3.30, so any time really after 4 would be ideal."
+en_AU_Finance_1592672,127,agent,channel1,76,658.76,665.0,"perfect, so we do have availability next Thursday the 12th of December at 4 30 p.m. with our senior"
+en_AU_Finance_1592672,128,agent,channel1,77,665.0,671.4,"advisor David Patterson, he specializes in share portfolios and investment lending would that"
+en_AU_Finance_1592672,129,agent,channel1,78,671.4,675.4,"suit you,"
+en_AU_Finance_1592672,130,customer,channel2,52,672.08,676.08,Thursday the 12th at 4.30.
+en_AU_Finance_1592672,131,customer,channel2,53,676.08,681.08,Let me just check my calendar.
+en_AU_Finance_1592672,132,customer,channel2,54,681.08,704.08,I can head into the city after work.
+en_AU_Finance_1592672,133,agent,channel1,79,688.52,693.72,"okay excellent I'll book that in for you, so the office Maria do you have a pen, I mean we will"
+en_AU_Finance_1592672,134,agent,channel1,80,693.72,699.24,"send the information in the email but the office is at level 15 180 Queen Street,"
+en_AU_Finance_1592672,135,agent,channel1,81,699.24,703.48,"right knee King George Square, our busway station if you're catching public transport,"
+en_AU_Finance_1592672,136,customer,channel2,55,704.08,727.08,"Oh, good, that's easy for me. Should I bring anything to the meeting?"
+en_AU_Finance_1592672,137,agent,channel1,82,708.52,714.44,"that's a great question, if you could bring recent pay slips, your last two tax returns,"
+en_AU_Finance_1592672,138,agent,channel1,83,714.44,719.72,statements for your existing property loans and any current investment statements that
+en_AU_Finance_1592672,139,agent,channel1,84,719.72,724.68,"would be very helpful, if you have superannuation statements as well David can give"
+en_AU_Finance_1592672,140,agent,channel1,85,724.68,730.92,"you a more holistic view of your financial position,"
+en_AU_Finance_1592672,141,customer,channel2,56,727.08,753.08,"No worries. Okay, I can organise all of that. And just to clarify, will the advisor be able to help me actually apply for the loan or is it just advice?"
+en_AU_Finance_1592672,142,agent,channel1,86,735.4,740.28,"David can definitely help you with both, so he'll provide investment advice first"
+en_AU_Finance_1592672,143,agent,channel1,87,740.28,744.04,and if you decide to proceed with the loan you can process the application during the
+en_AU_Finance_1592672,144,agent,channel1,88,744.04,749.0,"meeting or shortly after, just to let you know the approval process typically takes between"
+en_AU_Finance_1592672,145,agent,channel1,89,749.08,752.92,"three to five business days, sometimes faster if your documentation is in order,"
+en_AU_Finance_1592672,146,customer,channel2,57,753.08,779.08,"Oh, that's great. And is there any fee for the advisor?"
+en_AU_Finance_1592672,147,agent,channel1,90,758.6,763.8,"so the initial consultation is complimentary, if you decide to proceed with ongoing advisory"
+en_AU_Finance_1592672,148,agent,channel1,91,763.8,768.6,"services however David will discuss the fee structure with you but there's no obligation,"
+en_AU_Finance_1592672,149,agent,channel1,92,769.24,774.04,the investment loan itself has standard establishment fees of around $600 plus
+en_AU_Finance_1592672,150,agent,channel1,93,774.04,789.08,"valuation fees if applicable, though these are often waived during promotional periods,"
+en_AU_Finance_1592672,151,customer,channel2,58,779.08,791.08,"Okay, that's all pretty reasonable, I think. I think I've got everything I need for now, so just to recap, I'm meeting with David Patterson next Thursday the 12th at 4.30pm."
+en_AU_Finance_1592672,152,customer,channel2,59,791.08,816.08,"I think he said in the Queen Street office, and I just need to bring my financial documents that you mentioned, right?"
+en_AU_Finance_1592672,153,agent,channel1,94,797.64,802.04,"that's exactly right Maria, so I'll send you a confirmation email within the next few minutes"
+en_AU_Finance_1592672,154,agent,channel1,95,802.04,808.44,"that'll include all the details anyway, it'll also have David's contact information and a checklist"
+en_AU_Finance_1592672,155,agent,channel1,96,808.44,814.12,"of those documents I mentioned earlier on the call to bring, you'll also receive an SMS reminder"
+en_AU_Finance_1592672,156,agent,channel1,97,814.12,824.76,"the day before your appointment, you're very welcome Maria, I'm glad I could help, now"
+en_AU_Finance_1592672,157,customer,channel2,60,816.08,829.08,"Perfect, thanks so much for your help, Danielle. You've been really clear and really helpful."
+en_AU_Finance_1592672,158,agent,channel1,98,824.76,829.0,aside from that is there anything else I can assist you with today or
+en_AU_Finance_1592672,159,customer,channel2,61,829.08,840.08,"So, are you guys connected to ComBank, like if I've got any questions about my banking?"
+en_AU_Finance_1592672,160,agent,channel1,99,839.88,844.76,"no I'm not connected directly, we're not connected, sorry we are a separate department,"
+en_AU_Finance_1592672,161,agent,channel1,100,844.76,852.04,we aren't directly connected with them however I can of course transfer your call if you need
+en_AU_Finance_1592672,162,agent,channel1,101,852.36,857.08,if you do need to actually speak with anyone else to the main line and then you can select
+en_AU_Finance_1592672,163,agent,channel1,102,857.08,866.28,"the options from there, does that make sense? No worries, look Maria it's been so great speaking"
+en_AU_Finance_1592672,164,customer,channel2,62,859.08,880.08,"Oh, that would be awesome. Could you please transfer me through?"
+en_AU_Finance_1592672,165,agent,channel1,103,866.28,871.4,"with you, I hope good luck with everything with your meeting with David, but don't worry he'll"
+en_AU_Finance_1592672,166,agent,channel1,104,871.4,877.32,"take great care of you, so thank you so much for choosing Commonwealth Financial Services,"
+en_AU_Finance_1592672,167,agent,channel1,105,877.32,879.32,have a lovely rest of your day
+en_AU_Finance_1592672,168,customer,channel2,63,880.08,898.08,"Yeah, thanks so much, Danielle. You've made everything so simple and easy. I really appreciate it. Enjoy your day as well, and I guess I'll maybe speak to you again sometime in the future."
+en_AU_Finance_1592672,169,agent,channel1,106,893.56,900.52,"no worries, I'm just going to pop you through Maria now to that main line and good luck, take care"
+en_AU_Finance_1592672,170,customer,channel2,64,898.08,914.08,Thank you. Bye.

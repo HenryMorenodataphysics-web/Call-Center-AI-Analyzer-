@@ -1,0 +1,88 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_RealEstate_1590625,1,customer,channel2,1,0.0,20.56,"Hi, there. I'm just calling to inquire about some of your apartments over in the Osborne"
+en_CA_RealEstate_1590625,2,agent,channel1,1,0.0,22.0,"Hello, this is Liz speaking."
+en_CA_RealEstate_1590625,3,customer,channel2,2,20.56,35.96,"neighborhood. Okay, so I'm looking for somewhere that is not going to jump in price. And I'm"
+en_CA_RealEstate_1590625,4,agent,channel1,2,22.0,24.0,"Oh, wonderful."
+en_CA_RealEstate_1590625,5,agent,channel1,3,24.0,25.0,Great.
+en_CA_RealEstate_1590625,6,agent,channel1,4,25.0,28.0,So tell me a little bit about what you're looking for.
+en_CA_RealEstate_1590625,7,customer,channel2,3,35.96,40.68,"looking to stay somewhere for about three years. And so, for example, where I am right"
+en_CA_RealEstate_1590625,8,customer,channel2,4,40.68,45.6,now is they're talking about doing a bunch of building maintenance and renovations.
+en_CA_RealEstate_1590625,9,customer,channel2,5,45.6,49.32,And so they're already projecting that they're going to jump the rent in a couple months.
+en_CA_RealEstate_1590625,10,customer,channel2,6,49.44,55.04,I am not about that. I have a pretty solid budget scheduled plan. And so I want somewhere
+en_CA_RealEstate_1590625,11,agent,channel1,5,55.0,84.0,"Okay, got it."
+en_CA_RealEstate_1590625,12,customer,channel2,7,55.04,59.76,"that's going to be consistent for at least the next three years. And price wise, I'm looking"
+en_CA_RealEstate_1590625,13,customer,channel2,8,59.76,65.72,"at like, I prefer, I prefer a two bedroom, but I don't think that's realistic. So at"
+en_CA_RealEstate_1590625,14,customer,channel2,9,65.72,74.44,"least a one bedroom around, like under 2000, like 1200 is my magic number. But realistically,"
+en_CA_RealEstate_1590625,15,customer,channel2,10,74.44,80.08,"up to 2000 a month, that does already include most utilities."
+en_CA_RealEstate_1590625,16,agent,channel1,6,85.0,92.0,"Okay, so we definitely have some stock based off of what you're looking into."
+en_CA_RealEstate_1590625,17,agent,channel1,7,92.0,95.0,So you mentioned Osborn Village area.
+en_CA_RealEstate_1590625,18,agent,channel1,8,95.0,106.0,"It's, you know, it's kind of unique. There's some newer buildings that have gone up in recent years and then there's some more sort of historical character buildings."
+en_CA_RealEstate_1590625,19,customer,channel2,11,105.44,118.28,"I'm pretty open with that. Like, I think something brand new would be out of my price range. But"
+en_CA_RealEstate_1590625,20,agent,channel1,9,106.0,113.0,Do you have like a preference when it comes to that? Are you pretty open?
+en_CA_RealEstate_1590625,21,agent,channel1,10,113.0,139.0,Okay.
+en_CA_RealEstate_1590625,22,customer,channel2,12,118.28,125.8,"something that's too much older is going to have obviously upcoming maintenance to meet, to"
+en_CA_RealEstate_1590625,23,customer,channel2,13,125.8,129.2,meet the requirements that it needs. So I'm thinking if you have anything that's been
+en_CA_RealEstate_1590625,24,customer,channel2,14,129.2,135.96,"built in maybe the last 10 to 15 years, I think that's a better window for kind of where I'm"
+en_CA_RealEstate_1590625,25,customer,channel2,15,135.96,145.76,hoping to settle down for three years. So what it looks like is less important to me than
+en_CA_RealEstate_1590625,26,agent,channel1,11,139.0,151.0,"Okay, sure."
+en_CA_RealEstate_1590625,27,customer,channel2,16,146.32,150.32,"overall the like, the life cycle of the unit."
+en_CA_RealEstate_1590625,28,agent,channel1,12,151.0,166.0,"Okay. And what are there any particular amenities you're looking for? For example, gym, pool, underground parking, or just outdoor parking or."
+en_CA_RealEstate_1590625,29,customer,channel2,17,167.04,172.48,Either parking would be great outdoor or underground would be awesome. If that was included
+en_CA_RealEstate_1590625,30,customer,channel2,18,172.56,176.68,"in the rental price, that would be even better. But I'm not having to keep tacking on extra"
+en_CA_RealEstate_1590625,31,customer,channel2,19,176.68,181.36,things. I also do have a cat. And so it has to be cat friendly.
+en_CA_RealEstate_1590625,32,agent,channel1,13,181.0,191.0,"Ah, okay. That definitely narrows it down. For better or for worse. But yeah, definitely."
+en_CA_RealEstate_1590625,33,agent,channel1,14,191.0,199.0,"All of our properties do require a pet, a non-refundable pet deposit."
+en_CA_RealEstate_1590625,34,agent,channel1,15,199.0,214.0,"But generally, well, because you're a cat. You know, not totally destructive."
+en_CA_RealEstate_1590625,35,customer,channel2,20,203.44,211.92,"Oh, no, no, I can't basically just sit and look out the window all day long."
+en_CA_RealEstate_1590625,36,agent,channel1,16,214.0,221.0,"Oh, cute. Okay."
+en_CA_RealEstate_1590625,37,customer,channel2,21,217.28,220.72,And are there any units that have in sweet laundry?
+en_CA_RealEstate_1590625,38,agent,channel1,17,221.0,232.0,"Okay. Yes, we definitely have that. It is generally a higher cost to the rent compared to ones that have the laundry on the floor and the basement."
+en_CA_RealEstate_1590625,39,agent,channel1,18,232.0,238.0,But I can definitely look at those.
+en_CA_RealEstate_1590625,40,customer,channel2,22,232.48,233.6,Okay.
+en_CA_RealEstate_1590625,41,agent,channel1,19,238.0,247.0,"Okay, so based on the parameters that you've given me, we have about six properties."
+en_CA_RealEstate_1590625,42,agent,channel1,20,247.0,266.0,"And I think what would be best is if I were to send you an email with all the details that list all the amenities that you can kind of compare and contrast them, you'll be able to see the price."
+en_CA_RealEstate_1590625,43,customer,channel2,23,262.48,269.48,"Thank you very much for your time, and I'll see you in the next video."
+en_CA_RealEstate_1590625,44,agent,channel1,21,266.0,275.0,There's links to detailed photos of all the buildings as well so you can get a sense of what it looks like.
+en_CA_RealEstate_1590625,45,agent,channel1,22,275.0,282.0,I'm going to only send you the ones that are in your budget range and that are pet friendly.
+en_CA_RealEstate_1590625,46,agent,channel1,23,282.0,305.0,And then what you can do is email me back to let me know if any of those properties are of interest to you.
+en_CA_RealEstate_1590625,47,customer,channel2,24,292.48,298.44,"Okay, and are all when are these available or is there a range because it looks like mid-November"
+en_CA_RealEstate_1590625,48,customer,channel2,25,298.44,303.66,"Would they be ready December 1st, or are they more like January units or tomorrow?"
+en_CA_RealEstate_1590625,49,agent,channel1,24,305.0,322.0,It's a range. So I'll definitely include when the lease begins on the summary that I sent you.
+en_CA_RealEstate_1590625,50,customer,channel2,26,315.8,320.84,"Okay, and are they annual leases or can I get one that's a full three-year term?"
+en_CA_RealEstate_1590625,51,agent,channel1,25,322.0,338.0,For all annual.
+en_CA_RealEstate_1590625,52,customer,channel2,27,323.0,325.0,Okay
+en_CA_RealEstate_1590625,53,customer,channel2,28,325.08,327.08,Were any of these buildings?
+en_CA_RealEstate_1590625,54,customer,channel2,29,327.32,328.36,like
+en_CA_RealEstate_1590625,55,customer,channel2,30,328.36,335.16,"Yes, you can smoke in the buildings because I have really bad asthma so it has to be like very clearly non-smoking with like"
+en_CA_RealEstate_1590625,56,customer,channel2,31,336.08,338.08,Good ventilation
+en_CA_RealEstate_1590625,57,agent,channel1,26,338.0,345.0,"For sure. Yes, all of our properties are now non smoking properties."
+en_CA_RealEstate_1590625,58,customer,channel2,32,344.12,351.52,"Okay, that should be good and I'm trying to think there's anything else to ask. Well, I still have you on the phone here"
+en_CA_RealEstate_1590625,59,agent,channel1,27,345.0,351.0,Yeah.
+en_CA_RealEstate_1590625,60,agent,channel1,28,351.0,363.0,"Yeah, for sure."
+en_CA_RealEstate_1590625,61,customer,channel2,33,353.44,355.44,I
+en_CA_RealEstate_1590625,62,customer,channel2,34,357.2,362.6,Don't know are there any like additional offers or like upcoming offers the blight
+en_CA_RealEstate_1590625,63,agent,channel1,29,363.0,376.0,"Yeah, one of our buildings actually is currently doing a promotion where if you sign a 12 months lease you get one month free."
+en_CA_RealEstate_1590625,64,customer,channel2,35,373.36,376.0,"Oh, okay, is that one on our list?"
+en_CA_RealEstate_1590625,65,agent,channel1,30,376.0,390.0,"Yes, it definitely is. It's a bit of an older building though and that's why we're offering that incentive, but you might find that despite that you might still like the building."
+en_CA_RealEstate_1590625,66,customer,channel2,36,382.84,384.84,Okay
+en_CA_RealEstate_1590625,67,agent,channel1,31,390.0,408.0,"And you can definitely, you know, once you've narrowed it down, we can schedule some viewings and you can see whether that meets your needs or not."
+en_CA_RealEstate_1590625,68,customer,channel2,37,400.64,407.0,Great and we're all six of these options one bedrooms or were there any two bedrooms that fit into these categories
+en_CA_RealEstate_1590625,69,agent,channel1,32,408.0,430.0,Let's see. Most of them are one bedroom but a couple of them have like a den sort of or like a it's not exactly a bedroom but like an office or storage or if you have a huge wardrobe you have a giant closet depending
+en_CA_RealEstate_1590625,70,customer,channel2,38,413.48,415.48,Okay
+en_CA_RealEstate_1590625,71,customer,channel2,39,420.24,422.24,Like an office
+en_CA_RealEstate_1590625,72,customer,channel2,40,428.28,430.28,"Nice, okay"
+en_CA_RealEstate_1590625,73,agent,channel1,33,430.0,446.0,"on what you want to use that space for. So, yeah, definitely go over the summary and let me know what you think."
+en_CA_RealEstate_1590625,74,customer,channel2,41,436.12,438.12,"Okay, that sounds good"
+en_CA_RealEstate_1590625,75,customer,channel2,42,439.12,445.12,And then our viewings just like Monday to Friday during the day time work. Is there any chance to view them on the weekend?
+en_CA_RealEstate_1590625,76,agent,channel1,34,446.0,455.0,"Yep, we can arrange for weekend viewings. It will necessarily be with me. It might be with the property manager on site, but."
+en_CA_RealEstate_1590625,77,agent,channel1,35,455.0,460.0,"Yeah, we can definitely arrange that."
+en_CA_RealEstate_1590625,78,customer,channel2,43,457.68,459.68,"Okay, perfect"
+en_CA_RealEstate_1590625,79,agent,channel1,36,460.0,475.0,"Okay, so just for me to send the summary, I'll need to grab your email quick and then that we're good to go."
+en_CA_RealEstate_1590625,80,customer,channel2,44,468.12,471.04,Sounds good. It's P. R. O. F
+en_CA_RealEstate_1590625,81,customer,channel2,45,472.76,479.4,Then the word homeless H O M L E S S at yahoo.ca
+en_CA_RealEstate_1590625,82,agent,channel1,37,476.0,479.0,Okay.
+en_CA_RealEstate_1590625,83,agent,channel1,38,479.0,481.0,Okay.
+en_CA_RealEstate_1590625,84,agent,channel1,39,481.0,487.0,"Good. All right. Well, I hope you have a great rest of your day and thanks so much for calling."
+en_CA_RealEstate_1590625,85,customer,channel2,46,486.04,488.04,"Awesome, thank you. Bye"
+en_CA_RealEstate_1590625,86,agent,channel1,40,487.0,489.0,Bye.
+en_CA_RealEstate_1590625,87,customer,channel2,47,498.12,500.12,You

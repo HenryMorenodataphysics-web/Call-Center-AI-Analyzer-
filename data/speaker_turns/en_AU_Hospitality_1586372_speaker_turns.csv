@@ -1,0 +1,56 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Hospitality_1586372,1,agent,channel1,1,0.0,18.0,Good morning. Thank you for calling Fantastic Resorts. How can I help you?
+en_AU_Hospitality_1586372,2,customer,channel2,1,0.0,25.12,"Oh hi, my name is Jenny and I've pre-paid a hotel reservation but our travel plans have"
+en_AU_Hospitality_1586372,3,customer,channel2,2,25.12,34.32,sadly changed unexpectedly and we won't be staying this time and just wondering whether we qualify
+en_AU_Hospitality_1586372,4,agent,channel1,2,30.0,42.8,"Sure. I can have a look for you, Jenny. And can I just check how you made the booking?"
+en_AU_Hospitality_1586372,5,customer,channel2,3,34.32,49.72,for a cancellation refund or not through the website
+en_AU_Hospitality_1586372,6,agent,channel1,3,42.8,47.04,Was it through our website or was it through booking.com or any other platform?
+en_AU_Hospitality_1586372,7,customer,channel2,4,49.72,68.76,yep it's five four nine one two three one four yeah
+en_AU_Hospitality_1586372,8,agent,channel1,4,50.0,53.6,Your website? I can try and test it. That normally makes it a lot easier.
+en_AU_Hospitality_1586372,9,agent,channel1,5,54.24,58.8,So do you have your booking number with you?
+en_AU_Hospitality_1586372,10,agent,channel1,6,64.08,77.2,"Yep. 2314, was it? Okay. Oh, okay. Your trip is coming up very soon. Okay."
+en_AU_Hospitality_1586372,11,agent,channel1,7,77.6,85.76,Would you be open to a credit so you can actually change the dates or come at a future time?
+en_AU_Hospitality_1586372,12,customer,channel2,5,79.72,92.56,um a credit would actually be a good idea we would be open to a credit
+en_AU_Hospitality_1586372,13,agent,channel1,8,92.48,99.84,"Okay. All right. So what I'll do. So you want the full credit, right?"
+en_AU_Hospitality_1586372,14,customer,channel2,6,92.56,100.88,yeah
+en_AU_Hospitality_1586372,15,agent,channel1,9,100.8,109.04,"Okay. What we'll do, you will need to provide me with some information and I'll create that"
+en_AU_Hospitality_1586372,16,agent,channel1,10,109.04,115.44,credit voucher for you. And then I can email it through to you. Normally our credit vouchers are
+en_AU_Hospitality_1586372,17,agent,channel1,11,115.44,126.32,valid for 36 months. So you can use it at any point in time. But what I'll note here is you can
+en_AU_Hospitality_1586372,18,customer,channel2,7,122.56,137.4,ah yeah yes good
+en_AU_Hospitality_1586372,19,agent,channel1,12,126.4,133.04,only book them once. You can't keep on changing the dates on the credits.
+en_AU_Hospitality_1586372,20,agent,channel1,13,134.96,147.28,Is that all right? Okay. Perfect. So the start date of the 36 months will be as of today. We
+en_AU_Hospitality_1586372,21,agent,channel1,14,147.28,157.2,don't back date them. So that will give you additional time and I will have to do the cancellation. There
+en_AU_Hospitality_1586372,22,customer,channel2,8,152.56,169.32,no that's so good
+en_AU_Hospitality_1586372,23,agent,channel1,15,157.2,165.28,might be a small fee that we deduct that you paid for the booking. I will just need to confirm
+en_AU_Hospitality_1586372,24,agent,channel1,16,165.28,169.92,that. Do you mind if I put you on hold for a second? Okay.
+en_AU_Hospitality_1586372,25,agent,channel1,17,170.72,186.0,"Okay. Great news, Jenny. You can get the full credit. Just bear with me and I'll create the"
+en_AU_Hospitality_1586372,26,customer,channel2,9,182.56,200.52,yep so it's Jennifer O'Brien
+en_AU_Hospitality_1586372,27,agent,channel1,18,186.0,194.0,credit voucher for you and I'll email that one through in a second. What I will need from you is
+en_AU_Hospitality_1586372,28,agent,channel1,19,194.0,204.8,your full name. Jennifer and her name is O'Brien and your date of birth.
+en_AU_Hospitality_1586372,29,customer,channel2,10,200.52,219.52,8th of July 1983 uh it's 31 Gray Street
+en_AU_Hospitality_1586372,30,agent,channel1,20,210.56,212.96,"And can I have your full address, please?"
+en_AU_Hospitality_1586372,31,agent,channel1,21,212.96,229.92,"Grace Street, yep. G-R-E-Y is that or E-Y? E-Y, Grace Street in Sydney and the postcode?"
+en_AU_Hospitality_1586372,32,customer,channel2,11,220.48,235.2,Gray Street Sydney yeah yeah EY it's two four one five
+en_AU_Hospitality_1586372,33,agent,channel1,22,230.8,239.2,"Two, four, one, five. Thank you so much for that, Jenny. And can I have your email address?"
+en_AU_Hospitality_1586372,34,customer,channel2,12,235.2,250.68,yep so it's Jenny all lower cases triple one 2018 at Outlook.com
+en_AU_Hospitality_1586372,35,agent,channel1,23,239.2,255.52,"Yes. Yep. Yep. Yes, that book.com. Fantastic. And your best contact number?"
+en_AU_Hospitality_1586372,36,customer,channel2,13,250.68,263.12,it would be 04 219 1634
+en_AU_Hospitality_1586372,37,agent,channel1,24,255.52,271.44,"Yep. Yep. Great. Thank you for that, Jenny. So what I'll do now, we will create this voucher"
+en_AU_Hospitality_1586372,38,agent,channel1,25,271.44,278.32,"and we'll send it to your email account. It might take a minute or two for it to come through,"
+en_AU_Hospitality_1586372,39,agent,channel1,26,278.32,284.88,but I will need your confirmation that you have received it. Just give me a second and
+en_AU_Hospitality_1586372,40,customer,channel2,14,280.68,294.04,that's okay
+en_AU_Hospitality_1586372,41,agent,channel1,27,284.96,300.8,I'll prepare this and we'll email it through just a second. I'll need to put you on hold for now.
+en_AU_Hospitality_1586372,42,agent,channel1,28,302.72,309.92,All right. So this should be in your inbox now. Do you mind checking for me?
+en_AU_Hospitality_1586372,43,customer,channel2,15,310.68,323.48,no problem I'll just check oh yeah there it is yeah yeah
+en_AU_Hospitality_1586372,44,agent,channel1,29,315.36,326.0,"Fant, think you've got that? Yeah. Okay. So what I'll do now, all of your bookings from our system"
+en_AU_Hospitality_1586372,45,agent,channel1,30,326.0,331.92,"is canceled. You don't have any booking and then you've got the credit voucher, which is valid for"
+en_AU_Hospitality_1586372,46,agent,channel1,31,331.92,339.12,"36 months and you can book with us anytime. If you have any problems with booking on the website,"
+en_AU_Hospitality_1586372,47,agent,channel1,32,339.12,346.88,"considering we just created a voucher for you, you might need to book it via phone because there is"
+en_AU_Hospitality_1586372,48,customer,channel2,16,340.68,357.64,yeah yeah
+en_AU_Hospitality_1586372,49,agent,channel1,33,346.88,354.88,"a little, sometimes we have a system glitch, which doesn't allow payments by voucher numbers,"
+en_AU_Hospitality_1586372,50,agent,channel1,34,354.88,360.4,if that makes sense. So you might need to give us a call back and I apologize for any convenience
+en_AU_Hospitality_1586372,51,customer,channel2,17,357.64,364.64,"No, that's perfectly fine."
+en_AU_Hospitality_1586372,52,agent,channel1,35,360.4,368.24,"that this calls us for you. Okay. Thank you so much, Jenny, and hopefully it all goes well for"
+en_AU_Hospitality_1586372,53,customer,channel2,18,364.64,371.64,"Awesome, thank you."
+en_AU_Hospitality_1586372,54,agent,channel1,36,368.24,378.24,you. Thank you.
+en_AU_Hospitality_1586372,55,customer,channel2,19,387.64,394.64,Thank you.

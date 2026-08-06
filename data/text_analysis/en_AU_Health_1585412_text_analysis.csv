@@ -1,0 +1,96 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Health_1585412,1,agent,channel1,1,0.0,20.78,"Good morning. This is five star hospital. Sorry, had a bit of a crazy morning. This is five",positive,0.6466,False,False,False,False,False
+en_AU_Health_1585412,2,customer,channel2,1,0.0,29.92,"Hi, this, I'm a patient of yours, my name is Jeff Edge.",neutral,0.6561,False,False,False,False,False
+en_AU_Health_1585412,3,agent,channel1,2,20.78,42.46,"star pathology. How can I help you? Absolutely, Jeff, if you could just give me one second,",positive,0.6361,False,False,True,False,False
+en_AU_Health_1585412,4,customer,channel2,2,29.92,55.92,"And I'd like to make a booking of an appointment, please.",neutral,0.8236,False,False,False,False,False
+en_AU_Health_1585412,5,agent,channel1,3,42.46,51.34,"I'll have a look in our system for you. And yes, I've got your patient information here.",neutral,0.7926,False,False,False,False,False
+en_AU_Health_1585412,6,agent,channel1,4,51.34,68.5,"What type of appointment were we looking to make today? Yeah, absolutely. So we can do",positive,0.5776,False,False,True,False,False
+en_AU_Health_1585412,7,customer,channel2,3,55.92,83.92,"Okay, so I have to schedule a, um, a telemedicine consultation. Is that a possibility?",neutral,0.9285,False,False,False,False,False
+en_AU_Health_1585412,8,agent,channel1,5,69.46,75.78,"just an audio consult, so just over the phone. Or if it is preferable for you, we can have a",neutral,0.8223,False,False,False,False,False
+en_AU_Health_1585412,9,agent,channel1,6,76.9,82.42,video call as well. It depends sort of what the appointment is being made for.,neutral,0.9337,False,False,False,False,False
+en_AU_Health_1585412,10,customer,channel2,4,83.92,103.92,"Okay, so I have a chronic situation here. My condition isn't that great. Yeah, it's, it's quite, kind of personal. So I'm not too sure or feel very comfortable to talk to you about it. But anyway, it's a chronic situation.",negative,0.8815,False,False,False,False,False
+en_AU_Health_1585412,11,customer,channel2,5,103.92,125.92,"Um, I go, I'm with Dr. Bull. So, um, if, if I can keep Dr. Bull, that'll be great because, um, we have, I've been, been there for kind of, gosh, now about 12 years I've been going there. So I feel confident and comfortable talking to him about this, this situation.",positive,0.8626,False,False,False,False,False
+en_AU_Health_1585412,12,customer,channel2,6,125.92,133.92,"Um, now is Dr. Bull available this week?",neutral,0.957,False,False,False,False,False
+en_AU_Health_1585412,13,agent,channel1,7,129.14,141.06,I can certainly have a look for you. Give me one second.,neutral,0.6955,False,False,False,False,False
+en_AU_Health_1585412,14,agent,channel1,8,144.98,156.82,It looks like we have an appointment slot open at 9.30 this Saturday or at 2pm this Sunday.,neutral,0.8794,False,False,False,False,False
+en_AU_Health_1585412,15,customer,channel2,7,155.92,183.92,"Um, how long are the appointments? I think remembering it to zoom, if preferably zoom, how long, um, have you got, is he available?",neutral,0.9139,False,False,False,False,False
+en_AU_Health_1585412,16,agent,channel1,9,156.9,158.26,Do either of those work for you?,neutral,0.8968,False,False,True,False,False
+en_AU_Health_1585412,17,agent,channel1,10,170.34,176.9,"Yeah, so we allow up to 30 minutes for the consult over the telemedicine consult over Zoom.",neutral,0.8331,False,False,False,False,False
+en_AU_Health_1585412,18,agent,channel1,11,178.74,186.1,"If you do need a bit longer, as long as it's not an extra 30 minutes, it should be fine if",neutral,0.7604,False,False,False,False,False
+en_AU_Health_1585412,19,customer,channel2,8,183.92,203.92,"Okay. Now I haven't seen, um, though for quite some time and, um, I've been under the bulk billing system. Um, am I still applicable for bulk billing?",neutral,0.7492,False,False,False,False,False
+en_AU_Health_1585412,20,agent,channel1,12,186.1,188.74,needed. But we generally book you in for about 30 minutes.,neutral,0.837,False,False,False,False,False
+en_AU_Health_1585412,21,customer,channel2,9,203.92,232.92,"Okay. And, and he said he's available. Is it, is there any availability during the weekday rather than a weekend? Is it anything?",neutral,0.876,False,False,False,False,False
+en_AU_Health_1585412,22,agent,channel1,13,205.46,212.26,"Yes, absolutely. So we're one of the few clinics at the moment that still has",positive,0.6025,False,False,False,False,False
+en_AU_Health_1585412,23,agent,channel1,14,213.14,221.3,"the bulk billing scheme. So all of your appointment would come under that, definitely.",neutral,0.8971,False,False,False,False,False
+en_AU_Health_1585412,24,agent,channel1,15,221.38,240.1,"Unfortunately, not for your doctor, Dr. Bill. He's booked out",negative,0.7322,False,False,False,False,False
+en_AU_Health_1585412,25,customer,channel2,10,232.92,261.92,"Hmm. Okay. Let me, let me say that I'll have to, um, I'll have to make some room.",neutral,0.7453,False,False,False,False,False
+en_AU_Health_1585412,26,agent,channel1,16,241.46,248.26,"pretty much the entire weekday. Even on the weekends, he only really has that",neutral,0.8145,False,False,False,False,False
+en_AU_Health_1585412,27,agent,channel1,17,248.26,261.06,"9.30 slot on the Saturday and the 2pm slot on the Sunday, unfortunately.",negative,0.6115,False,False,False,False,False
+en_AU_Health_1585412,28,agent,channel1,18,261.3,284.98,Absolutely. I'll book you in for 30 minutes on Sunday. Just double checking the 2pm,neutral,0.5452,False,False,False,False,False
+en_AU_Health_1585412,29,customer,channel2,11,261.92,289.92,"I'll have to make some arrangements. Yeah. So I'm just thinking ahead while I talk to you here. Um, yeah, I'll probably be able, um, to do the Sunday one. Can you possibly book me another Sunday one please?",neutral,0.6287,False,False,False,False,False
+en_AU_Health_1585412,30,agent,channel1,19,284.98,288.66,timeframe works for you. So that would be from 2pm to 2.30pm.,neutral,0.8634,False,False,False,False,False
+en_AU_Health_1585412,31,customer,channel2,12,289.92,311.92,"Okay. Now that, that'll be fine. Yeah, sure. Now I have, um, so bulk billing is fine. I need to get my prescription. I need to get a refill for my prescription that I have going there.",neutral,0.4926,False,False,False,False,False
+en_AU_Health_1585412,32,agent,channel1,20,292.02,294.82,Perfect. I'll book you in for Dr. Bill then.,positive,0.9215,False,False,False,False,False
+en_AU_Health_1585412,33,agent,channel1,21,296.1,299.86,Is there anything else I can help you with while we're on the phone?,neutral,0.8981,False,False,True,True,False
+en_AU_Health_1585412,34,customer,channel2,13,311.92,323.92,"Um, do I have to come in and pick it up the prescription or are you possible other, um, post it to me or email it to me? Um, is that a possibility?",neutral,0.9425,False,False,False,False,False
+en_AU_Health_1585412,35,agent,channel1,22,321.38,331.46,"Yeah, absolutely. So we do have a prescription script on file for you.",neutral,0.5165,False,False,False,False,False
+en_AU_Health_1585412,36,agent,channel1,23,334.42,338.42,We can email it to you. Let me just check that we've got your email on system.,neutral,0.8654,False,False,False,False,False
+en_AU_Health_1585412,37,agent,channel1,24,339.7,344.34,"Yes, we could also post it to you if that would be preferable to you. But we can",neutral,0.7238,False,False,False,False,False
+en_AU_Health_1585412,38,customer,channel2,14,341.92,370.92,"Okay. So they, the prescription that I need to get, um, to get picked up is like, it's, I'll probably be there for spell it to you. It's, um, it's not just for this. My condition is my mouth right.",neutral,0.8159,False,False,False,False,False
+en_AU_Health_1585412,39,agent,channel1,25,344.34,349.54,absolutely authorize that script. You would just have to go in person to actually get,neutral,0.5809,False,False,False,False,False
+en_AU_Health_1585412,40,agent,channel1,26,349.54,361.54,the script filled at a pharmacy.,neutral,0.89,False,False,False,False,False
+en_AU_Health_1585412,41,customer,channel2,15,370.92,387.92,"Um, and it's B, E, N, Z, R, C, A, O, N, E, and they're lozenges that they're still available for me to, um, get emailed.",neutral,0.8128,False,False,False,False,False
+en_AU_Health_1585412,42,agent,channel1,27,380.02,395.54,Absolutely. So we do still have that medicine scripted to you.,negative,0.485,False,False,False,False,False
+en_AU_Health_1585412,43,agent,channel1,28,395.54,401.54,"So you might not get it for a little while, the script. You'll get it before the end of",neutral,0.6932,False,False,False,False,False
+en_AU_Health_1585412,44,customer,channel2,16,400.92,429.92,"Okay. The little issue that I have there is that I've been, I've been very good at this one. And I've, um,",positive,0.8028,False,False,False,False,False
+en_AU_Health_1585412,45,agent,channel1,29,401.54,409.14,the day. I just need to authorize it with both the local pharmacist as well as Dr. Bill himself.,neutral,0.7997,False,False,False,False,False
+en_AU_Health_1585412,46,agent,channel1,30,410.5,417.54,"So I will file that to get that sorted for you. And as soon as that's all authorized,",neutral,0.8223,False,False,False,False,False
+en_AU_Health_1585412,47,agent,channel1,31,417.54,431.54,we'll send that through to your email. Or we can do postal if that's your preference as well.,neutral,0.9109,False,False,False,False,False
+en_AU_Health_1585412,48,customer,channel2,17,430.92,448.92,"run out and I really need it desperately. Um, is Dr. Bill in today? Are you able to see him, like, even in the next hour or so? Because, um, it's a pretty desperate situation. And I, I know I shouldn't have, shouldn't have left the dislike, but I have.",negative,0.6213,False,False,False,False,False
+en_AU_Health_1585412,49,agent,channel1,32,439.54,457.22,"Absolutely. I will put a rush on this one for you. As soon as we end the phone call,",positive,0.5383,False,False,False,False,False
+en_AU_Health_1585412,50,customer,channel2,18,449.92,451.92,"Is it, is it possible that I can get it in the next hour?",neutral,0.843,False,False,False,False,False
+en_AU_Health_1585412,51,agent,channel1,33,457.22,462.66,I'll personally take the script to get it authorized from him. So you'll receive it,neutral,0.6644,False,False,False,False,False
+en_AU_Health_1585412,52,customer,channel2,19,459.92,474.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Health_1585412,53,agent,channel1,34,463.46,469.38,"within the hour before, say, seven o'clock at the latest, just to give you an ample",neutral,0.9199,False,False,False,False,False
+en_AU_Health_1585412,54,agent,channel1,35,469.38,476.34,time to get down to the chemist and refill that script. Yeah.,neutral,0.6419,False,False,False,False,False
+en_AU_Health_1585412,55,customer,channel2,20,475.92,502.92,"Now the next question that I have is, um, so this is a bit, a bit sensitive for me all the situation. But anyway, um, I need the lab tests. I need to get lab tests done for this situation. And, um, I have a, a streptococcalus bacteria infection and I need to get the, um, get it, the testing and get sent to the lab.",neutral,0.5608,False,False,False,False,False
+en_AU_Health_1585412,56,customer,channel2,21,502.92,521.92,"Um, again, do I need to come in for the necessary forms or are you able to send me the forms or, um, do I wait for the appointment, uh, to, to see if, um, well, even then, um, do I still need to have the lab tests done?",neutral,0.9192,False,False,False,False,False
+en_AU_Health_1585412,57,agent,channel1,36,523.62,528.58,"Really, really good question. I'm sorry to hear about your condition as well.",positive,0.7986,False,False,False,False,False
+en_AU_Health_1585412,58,agent,channel1,37,528.58,536.66,"Strip throat is no joke. It's truly awful. In terms of the lab tests themselves,",negative,0.9472,False,False,False,False,False
+en_AU_Health_1585412,59,customer,channel2,22,532.92,537.92,"Um, um, do I need to get the lab tests done for this situation?",neutral,0.8129,False,False,False,False,False
+en_AU_Health_1585412,60,agent,channel1,38,536.66,544.58,I don't see on your record here that we have authorized any tests previously for it.,neutral,0.6263,False,False,False,False,False
+en_AU_Health_1585412,61,agent,channel1,39,545.3,551.7,It could be the case that Dr. Bill will authorize them with the telemedicine,neutral,0.8955,False,False,False,False,False
+en_AU_Health_1585412,62,agent,channel1,40,552.26,563.94,consultation on Sunday. We can send you the forms to fill out to authorize for our in-house,neutral,0.8915,False,False,False,False,False
+en_AU_Health_1585412,63,customer,channel2,23,562.92,567.92,"Um, um, do I need the lab tests done for this situation?",neutral,0.8155,False,False,False,False,False
+en_AU_Health_1585412,64,agent,channel1,41,563.94,570.98,pathologists to begin processing as soon as we receive the sample. So just getting a bit,neutral,0.8882,False,False,False,False,False
+en_AU_Health_1585412,65,agent,channel1,42,570.98,576.82,of the red tape and bureaucracy out of the way there. I can also email that to you with your,neutral,0.8395,False,False,False,False,False
+en_AU_Health_1585412,66,agent,channel1,43,577.78,585.38,"authorization for your script refill. In terms of the actual lab tests themselves,",neutral,0.9284,False,False,False,False,False
+en_AU_Health_1585412,67,agent,channel1,44,585.38,595.14,it's likely that Dr. Bill will ask for a swab sample of the infected area. So it's just as,neutral,0.9152,False,False,False,False,False
+en_AU_Health_1585412,68,customer,channel2,24,592.92,597.92,"Um, um, do I need the lab tests done for this situation?",neutral,0.8155,False,False,False,False,False
+en_AU_Health_1585412,69,agent,channel1,45,595.14,600.26,simple as putting a cotton swab into the infected area and putting that in a little,neutral,0.8312,False,False,False,False,False
+en_AU_Health_1585412,70,agent,channel1,46,601.62,609.86,biohazard capsule. Not too dissimilar from a COVID test if you remember those. Pretty hard to forget,neutral,0.6179,False,False,False,False,False
+en_AU_Health_1585412,71,agent,channel1,47,609.86,615.86,"them. But yes, we can organize all that for you. But we would need to get his",neutral,0.8484,False,False,False,False,False
+en_AU_Health_1585412,72,agent,channel1,48,616.82,621.62,consult and authorization out of the way before we can actually issue the test to you.,neutral,0.7987,False,False,False,False,False
+en_AU_Health_1585412,73,customer,channel2,25,622.92,632.92,"Okay. And I think thanks, thanks for that. This, um, tell me just come to mind. I can't do the Sunday. Um, what was the time for the Saturday?",neutral,0.5102,False,False,False,False,False
+en_AU_Health_1585412,74,customer,channel2,26,632.92,658.92,"Okay. So if I can do, do it this way, put me down for the Saturday 9 30 and put me on a standby. Should there be any cancellations that come up?",neutral,0.9224,False,False,False,False,False
+en_AU_Health_1585412,75,agent,channel1,49,633.54,640.58,"Yeah, absolutely. There's no worries there. We do have the 9.30 a.m. on the Saturday still",positive,0.6666,False,False,False,False,False
+en_AU_Health_1585412,76,agent,channel1,50,640.58,651.3,available if that works for you.,neutral,0.6959,False,False,False,False,False
+en_AU_Health_1585412,77,customer,channel2,27,658.92,667.92,"What is your procedure for cancellations? Do you have a waitlist for cancellations for, um, other, your, the other patients for Dr. Bell?",neutral,0.928,False,False,False,False,False
+en_AU_Health_1585412,78,agent,channel1,51,670.58,677.14,"Just because you've been a patient for so long and have been recurringly seeing Dr. Bill,",neutral,0.8493,False,False,False,False,False
+en_AU_Health_1585412,79,agent,channel1,52,677.14,685.38,I'm absolutely comfortable to put you on for 9.30 to 10 on the Saturday morning. And I'll also,positive,0.8328,False,False,False,False,False
+en_AU_Health_1585412,80,agent,channel1,53,685.38,692.18,"block out that Sunday appointment as well just in case. Now, if you do end up attending",neutral,0.8539,False,False,False,False,False
+en_AU_Health_1585412,81,customer,channel2,28,688.92,705.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Health_1585412,82,agent,channel1,54,692.18,699.86,"your Saturday appointment, then I will fill the Sunday appointment with someone else.",neutral,0.9157,False,False,False,False,False
+en_AU_Health_1585412,83,agent,channel1,55,699.86,703.62,"So long as there's no major complications with the Saturday consult,",neutral,0.7809,False,False,False,False,False
+en_AU_Health_1585412,84,agent,channel1,56,703.62,712.58,does that sound like something that could work for you?,neutral,0.788,False,False,True,False,False
+en_AU_Health_1585412,85,customer,channel2,29,705.92,722.92,"It does. Is it possible that I could go on a standby for during the week if somebody cancels during the week and you can give me a phone call and, um, I can be there within half an hour. Um, that works for you.",neutral,0.8432,False,False,False,False,False
+en_AU_Health_1585412,86,customer,channel2,30,722.92,739.92,"So basically what I'm asking for is to go on standby for the week. I'll take the Saturday one. If there's something that I'm not aware of for the Saturday one would have to come to another arrangement. But at the moment that I'm happy to do that, if that works, that works for you.",neutral,0.7772,False,False,False,False,False
+en_AU_Health_1585412,87,agent,channel1,57,730.66,749.14,Absolutely. I'll put you down as a standby or a backfill for any cancellations during the week,neutral,0.7184,False,False,False,False,False
+en_AU_Health_1585412,88,agent,channel1,58,750.58,759.14,"and specifically for Dr. Bill as well. And yeah, we'll give you a call on the number",neutral,0.7974,False,False,False,False,False
+en_AU_Health_1585412,89,customer,channel2,31,752.92,777.92,"Oh, yep. Sure. So it's 04077730384.",neutral,0.5879,False,False,False,False,False
+en_AU_Health_1585412,90,agent,channel1,59,759.14,764.42,on file. I just wanted to double check that the number you're calling from today is the same number,neutral,0.8845,False,False,False,False,False
+en_AU_Health_1585412,91,agent,channel1,60,764.42,781.46,that you've provided previously. Wonderful. All right. I've booked that all in for you.,positive,0.9629,False,False,False,False,False
+en_AU_Health_1585412,92,customer,channel2,32,777.92,794.92,Thank you very much for your help today. Have a great day. Thank you.,positive,0.9873,False,False,False,False,False
+en_AU_Health_1585412,93,agent,channel1,61,781.46,786.66,I will put a rush on this script and get you that authorization so you can get the relief that,neutral,0.5744,False,False,False,False,False
+en_AU_Health_1585412,94,agent,channel1,62,786.66,802.98,you need. No worries. I hope you feel better soon. Goodbye.,positive,0.6293,False,False,False,False,False
+en_AU_Health_1585412,95,customer,channel2,33,807.92,817.92,Thank you.,positive,0.8345,False,False,False,False,False

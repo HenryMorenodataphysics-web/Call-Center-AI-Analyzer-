@@ -1,0 +1,119 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_AU_DeliveryService_1585416,channel1,1,0.0,17.56,"Hey there, this is Jim from ATP Delivery Services."
+en_AU_DeliveryService_1585416,channel1,2,60.0,76.0,"Absolutely, I can understand your apprehension there, John, and I can know that some other companies don't take their shipping as seriously, not to throw dirt on the competition."
+en_AU_DeliveryService_1585416,channel1,3,76.0,88.0,"In terms of our services for fragile packages, we really want to go above and beyond just for circumstances like yourself, where the items, if they were damaged, are irreplaceable."
+en_AU_DeliveryService_1585416,channel1,4,88.0,105.0,"So it does depend on the size of the package naturally, but all of our packaging is triple insulated against both temperature, moisture, and sort of what's it called, force as well."
+en_AU_DeliveryService_1585416,channel1,5,105.0,120.0,"So we have a specially designed corrugated cardboard, which compresses in a way to mitigate force and to be airtight, watertight, and heat resistant, once fully sealed."
+en_AU_DeliveryService_1585416,channel1,6,120.0,128.0,We will also wrap your package in multiple layers of our specially patented bubble wrap.
+en_AU_DeliveryService_1585416,channel1,7,128.0,147.0,"And the way our bubble wrap is different is we have much smaller bubbles in the actual wrap itself, and that allows the force to be absorbed over a larger surface area, but broken into smaller pieces, which means that the force is absorbed more efficiently."
+en_AU_DeliveryService_1585416,channel1,8,148.0,163.0,Is there any other sort of queries you have at the moment?
+en_AU_DeliveryService_1585416,channel1,9,163.0,172.0,"So we really do pride ourselves on our drivers and our freighting services, treating every package as if it were fragile."
+en_AU_DeliveryService_1585416,channel1,10,172.0,179.0,So we have expertly specialized trained drivers and freight operators.
+en_AU_DeliveryService_1585416,channel1,11,179.0,185.0,"So they are not packaged separately, but they are packaged individually."
+en_AU_DeliveryService_1585416,channel1,12,185.0,213.0,"This is to protect, again, smaller items being crushed and things like that, but all of our drivers take exceptional care to not damage any of the deliveries on their journey."
+en_AU_DeliveryService_1585416,channel1,13,213.0,219.0,"Really, really good question and a really good way to break it down is that percentage statistic."
+en_AU_DeliveryService_1585416,channel1,14,219.0,234.0,"So we send around three and a half million packages per calendar year, and of those packages, probably about one and a half million of them are labeled and registered as fragile."
+en_AU_DeliveryService_1585416,channel1,15,235.0,242.0,"And of the fragile items, less than 1% of 1%."
+en_AU_DeliveryService_1585416,channel1,16,242.0,249.0,So 0.001% of them arrived in any sort of damaged state.
+en_AU_DeliveryService_1585416,channel1,17,249.0,258.0,"And of the broader packages that we freight, the statistic goes up by a magnitude of 10."
+en_AU_DeliveryService_1585416,channel1,18,258.0,264.0,So 0.001% of the total packages arrived in a damaged state.
+en_AU_DeliveryService_1585416,channel1,19,264.0,271.0,So there is very little concern for your package being damaged.
+en_AU_DeliveryService_1585416,channel1,20,280.0,281.0,Absolutely.
+en_AU_DeliveryService_1585416,channel1,21,281.0,296.0,"So in the fragile label for your package, insurance against damages during transit are actually covered in there, and that's completely comprehensive."
+en_AU_DeliveryService_1585416,channel1,22,296.0,310.0,"So if your item does not arrive in the exact same state that you sent it in, then we give you a full refund of the shipping plus the value of the item."
+en_AU_DeliveryService_1585416,channel1,23,310.0,313.0,Plus 10% of the item.
+en_AU_DeliveryService_1585416,channel1,24,340.0,369.0,"Absolutely a good question and it's a very good way of keeping the tracking, not this tracking, sorry, the freight company responsible for the stages of the transit of your item."
+en_AU_DeliveryService_1585416,channel1,25,369.0,377.0,So our tracking is down to within 10 meters of accuracy.
+en_AU_DeliveryService_1585416,channel1,26,377.0,388.0,"Once you get your tracking link, your tracking code, and that is from the immediate moment that it is deposited in our depot until it arrives at your door."
+en_AU_DeliveryService_1585416,channel1,27,388.0,402.0,"So we have very, very accurate, very, very consistent tracking options, and we'll update you in every single major stage of the transit as well."
+en_AU_DeliveryService_1585416,channel1,28,402.0,412.0,"So this is done with our tracking label itself has a small microchip, and it also has a barcode."
+en_AU_DeliveryService_1585416,channel1,29,412.0,423.0,"So when the package arrives at each major depot or switchover or whatever stage it may be, then needed to be scanned into our system."
+en_AU_DeliveryService_1585416,channel1,30,423.0,439.0,"And assuming that the driver for whatever reason didn't scan it into the system, that little microchip in the label allows us to track it to within that 10 meter of accuracy to know at real time, exactly where your packages."
+en_AU_DeliveryService_1585416,channel1,31,439.0,462.0,"So there is no risk of your package being lost, unless there was a catastrophic failure and there was no microchip and no barcode scanned, which as far as my knowledge goes I've been with the company for four years now there has never been a package that has been lost completely."
+en_AU_DeliveryService_1585416,channel1,32,462.0,472.0,"It's up to the customer's preference. So originally we do email them and we do send them a text via SMS, but you can customize it to your preference."
+en_AU_DeliveryService_1585416,channel1,33,472.0,474.0,"So if you only want email updates, we can do that."
+en_AU_DeliveryService_1585416,channel1,34,474.0,477.0,"If you only want text updates, we can do that."
+en_AU_DeliveryService_1585416,channel1,35,477.0,481.0,We can even give you a call once it's arrived in your state or country.
+en_AU_DeliveryService_1585416,channel1,36,481.0,489.0,"So it is totally up to the preference of the customer, but by default we notify them by both SMS and by email."
+en_AU_DeliveryService_1585416,channel1,37,492.0,508.0,"Yeah, really good question there as well."
+en_AU_DeliveryService_1585416,channel1,38,508.0,519.0,"So our standard delivery rate for deliveries within Australia is seven days, seven business days."
+en_AU_DeliveryService_1585416,channel1,39,519.0,527.0,"So most packages arrive sooner than that, but our standard fare is about seven business days."
+en_AU_DeliveryService_1585416,channel1,40,527.0,532.0,We do also have the option to express ship.
+en_AU_DeliveryService_1585416,channel1,41,532.0,536.0,"Now, just because it's faster does not mean it is any less safe."
+en_AU_DeliveryService_1585416,channel1,42,536.0,544.0,"All of the drivers are held to an extremely high standard and given rigorous, rigorous expertise training."
+en_AU_DeliveryService_1585416,channel1,43,544.0,551.0,So just because it's coming faster doesn't necessarily mean it's coming any more dangerous or any less safely.
+en_AU_DeliveryService_1585416,channel1,44,551.0,566.0,It just is the mode of transport that it is used.
+en_AU_DeliveryService_1585416,channel1,45,566.0,568.0,It does cost more.
+en_AU_DeliveryService_1585416,channel1,46,568.0,571.0,I wouldn't necessarily say a lot more.
+en_AU_DeliveryService_1585416,channel1,47,571.0,582.0,"So for our standard package, so that's packages within 30 cubed centimetres for surface area."
+en_AU_DeliveryService_1585416,channel1,48,582.0,593.0,The shipping on that is about $13.99 for our standard delivery.
+en_AU_DeliveryService_1585416,channel1,49,593.0,598.0,"For the express, it's $17.99, so $18."
+en_AU_DeliveryService_1585416,channel1,50,598.0,606.0,And the delivery time expectation is within three business days of placing the order.
+en_AU_DeliveryService_1585416,channel1,51,606.0,608.0,So yeah.
+en_AU_DeliveryService_1585416,channel1,52,623.0,636.0,Really awesome question.
+en_AU_DeliveryService_1585416,channel1,53,636.0,641.0,"Once again, I can totally understand why this would be important to you because of your past experience."
+en_AU_DeliveryService_1585416,channel1,54,641.0,645.0,But we really do pride ourselves on making promises that we keep.
+en_AU_DeliveryService_1585416,channel1,55,645.0,653.0,"So if your delivery is not delivered within the expected timeframe, especially for express,"
+en_AU_DeliveryService_1585416,channel1,56,653.0,661.0,if express will refund you the full shipping amount plus reimburse you 10% of the items value.
+en_AU_DeliveryService_1585416,channel1,57,661.0,666.0,"If it is the standard shipping, we just give you a full refund of the shipping cost."
+en_AU_DeliveryService_1585416,channel1,58,675.0,698.0,Absolutely.
+en_AU_DeliveryService_1585416,channel1,59,698.0,704.0,"So as I was saying previously, it doesn't matter how quickly you want the package."
+en_AU_DeliveryService_1585416,channel1,60,704.0,706.0,We care about getting it to you safely.
+en_AU_DeliveryService_1585416,channel1,61,706.0,708.0,We want no damage.
+en_AU_DeliveryService_1585416,channel1,62,708.0,715.0,"We want, you know, in case like yourself, it's a priceless family heirloom or just irreplaceable."
+en_AU_DeliveryService_1585416,channel1,63,715.0,717.0,We don't want it to be damaged.
+en_AU_DeliveryService_1585416,channel1,64,717.0,731.0,"So we package all of the items per the mode of transport, but all of them go through the stages that I previously explained with the corrugated cardboard and the bubble wrap and the heat resistance and all of that."
+en_AU_DeliveryService_1585416,channel1,65,731.0,739.0,"All of its package the same way because we found that if we don't compromise on the packaging, it shouldn't matter, you know, how it's transported."
+en_AU_DeliveryService_1585416,channel1,66,739.0,743.0,And it seems to be the case with our statistics for package damage.
+en_AU_DeliveryService_1585416,channel1,67,761.0,769.0,Absolutely.
+en_AU_DeliveryService_1585416,channel1,68,769.0,771.0,"Really, really, really good question there."
+en_AU_DeliveryService_1585416,channel1,69,771.0,777.0,So we do not compromise on the quality and the safety of your packages.
+en_AU_DeliveryService_1585416,channel1,70,777.0,786.0,So we will not deliver to areas that do not have access within a within a radius of our ATP drivers.
+en_AU_DeliveryService_1585416,channel1,71,786.0,794.0,"So, yeah, so that that is probably the one limiting factor of our company that we are actively working to improve."
+en_AU_DeliveryService_1585416,channel1,72,794.0,810.0,"And as we expand, we'll diminish, but we only use our own drivers."
+en_AU_DeliveryService_1585416,channel1,73,810.0,813.0,Absolutely.
+en_AU_DeliveryService_1585416,channel1,74,813.0,814.0,"No problem, mate."
+en_AU_DeliveryService_1585416,channel1,75,814.0,816.0,I'm glad to have you as an ATP customer.
+en_AU_DeliveryService_1585416,channel1,76,816.0,818.0,You have a great rest of your day.
+en_AU_DeliveryService_1585416,channel2,1,0.0,27.56,"Hi there, Jim. I've been calling around and I've got a really, very sensitive and fragile"
+en_AU_DeliveryService_1585416,channel2,2,27.56,34.0,package that I need to get across Australia. You're not the first that I've called because
+en_AU_DeliveryService_1585416,channel2,3,34.0,41.96,"I've had parts of it, instances where my packages haven't got through it, and I've had dramas"
+en_AU_DeliveryService_1585416,channel2,4,41.96,47.36,about insurance coverage and sometimes they've been very sensitive to family alarms and that
+en_AU_DeliveryService_1585416,channel2,5,47.36,55.36,"and you can't replace them. So I'm really, really want to know just how protective"
+en_AU_DeliveryService_1585416,channel2,6,55.36,62.36,"you, your company, the ATPers on fragile packages."
+en_AU_DeliveryService_1585416,channel2,7,85.36,92.36,Thank you.
+en_AU_DeliveryService_1585416,channel2,8,115.36,140.36,Thank you.
+en_AU_DeliveryService_1585416,channel2,9,140.36,169.36,"Well, do your fragile packages go separately to the other ones or they're all packed altogether?"
+en_AU_DeliveryService_1585416,channel2,10,169.36,198.36,Thank you.
+en_AU_DeliveryService_1585416,channel2,11,198.36,223.36,"What is, in no honesty here, what would be your percentage of in a year of damaged product?"
+en_AU_DeliveryService_1585416,channel2,12,253.36,279.36,"Okay, and do you have different insurance coverage rates?"
+en_AU_DeliveryService_1585416,channel2,13,279.36,306.36,Okay.
+en_AU_DeliveryService_1585416,channel2,14,306.36,323.36,So obviously you guys have a great track record when it comes to delivering the goods as they
+en_AU_DeliveryService_1585416,channel2,15,323.36,331.86,"left. Now, the next question I want to, without to know is, so in the past, I've given"
+en_AU_DeliveryService_1585416,channel2,16,331.86,338.86,a company a package and you don't hear from them again. And whoever receives it will let
+en_AU_DeliveryService_1585416,channel2,17,338.86,342.86,"me know that they've got it, or I have to find them to ask them if they've got it."
+en_AU_DeliveryService_1585416,channel2,18,342.86,350.86,"What is your tracking procedure and your updating as you go along? Like how do you,"
+en_AU_DeliveryService_1585416,channel2,19,350.86,379.86,how do you guys operate in terms of giving us updates on the product?
+en_AU_DeliveryService_1585416,channel2,20,379.86,408.86,And how do you do that?
+en_AU_DeliveryService_1585416,channel2,21,408.86,437.86,Okay.
+en_AU_DeliveryService_1585416,channel2,22,437.86,466.86,And how do you notify as you go along as a text or as an email?
+en_AU_DeliveryService_1585416,channel2,23,466.86,495.86,"Okay, that's good. Now, what about delivery times?"
+en_AU_DeliveryService_1585416,channel2,24,495.86,502.86,You are guessing your standard delivery time and then how does that compare to your express
+en_AU_DeliveryService_1585416,channel2,25,502.86,529.86,shipping options?
+en_AU_DeliveryService_1585416,channel2,26,529.86,558.86,Okay.
+en_AU_DeliveryService_1585416,channel2,27,558.86,584.86,So they express shipping costs a lot more.
+en_AU_DeliveryService_1585416,channel2,28,584.86,611.86,Okay.
+en_AU_DeliveryService_1585416,channel2,29,611.86,631.86,So how do you compensate your customers if it doesn't get there within the specific time
+en_AU_DeliveryService_1585416,channel2,30,631.86,660.86,you've designated?
+en_AU_DeliveryService_1585416,channel2,31,661.86,669.86,Okay.
+en_AU_DeliveryService_1585416,channel2,32,669.86,680.86,"That sounded very good. Now, you mentioned earlier about packaging. If I do not use your express"
+en_AU_DeliveryService_1585416,channel2,33,681.86,694.86,"delivery, does it change the type of packaging you use between the normal delivery and express?"
+en_AU_DeliveryService_1585416,channel2,34,694.86,723.86,Is it the same packaging for both?
+en_AU_DeliveryService_1585416,channel2,35,724.86,744.86,Okay.
+en_AU_DeliveryService_1585416,channel2,36,744.86,750.86,"Now, this sounded very good. I think I've covered everything in my mind. There's only one thing"
+en_AU_DeliveryService_1585416,channel2,37,750.86,757.86,"that I'd like to know is do you only use your drivers, your ATP drivers, or do you give it"
+en_AU_DeliveryService_1585416,channel2,38,757.86,762.86,to in areas where you do not have ATP drivers? Do you give it to somebody else to transport
+en_AU_DeliveryService_1585416,channel2,39,762.86,791.86,and therefore it will change your whole dynamics of your company?
+en_AU_DeliveryService_1585416,channel2,40,792.86,805.86,"That's excellent. Well, I'll use you guys. I'm glad I don't have to keep calling around now."
+en_AU_DeliveryService_1585416,channel2,41,805.86,811.86,That sounds actually fantastic. But we're from ATP. Well done. Thank you very much for all your
+en_AU_DeliveryService_1585416,channel2,42,811.86,834.86,"information today. Thank you, you too."

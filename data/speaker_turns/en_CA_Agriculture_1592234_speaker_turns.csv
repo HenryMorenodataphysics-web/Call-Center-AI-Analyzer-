@@ -1,0 +1,124 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_Agriculture_1592234,1,agent,channel1,1,0.0,16.16,"Hello, thank you for calling the farming workshop."
+en_CA_Agriculture_1592234,2,customer,channel2,1,0.0,24.92,"Well, my name is Dorothy Brown and my husband and I are working on a farm and we're out"
+en_CA_Agriculture_1592234,3,agent,channel1,2,16.16,17.16,My name is Bob.
+en_CA_Agriculture_1592234,4,agent,channel1,3,17.16,18.0,How can I help you today?
+en_CA_Agriculture_1592234,5,customer,channel2,2,24.92,37.96,here in the prairies and we have not really farmed before but we thought we'd like to get into that and so
+en_CA_Agriculture_1592234,6,customer,channel2,3,40.36,49.24,we bought a small I don't know how many acre farm and we'd like to work it but we don't really
+en_CA_Agriculture_1592234,7,customer,channel2,4,49.24,60.68,well we could use some real guidance is there any workshops or anything available for for new farmers or
+en_CA_Agriculture_1592234,8,agent,channel1,4,60.0,69.48,"Yeah, so we do offer a wide variety of different workshops that can give guidance to people"
+en_CA_Agriculture_1592234,9,agent,channel1,5,69.48,72.32,that are new to farming.
+en_CA_Agriculture_1592234,10,agent,channel1,6,72.32,78.16,"And basically what they talk about is sustainable farming techniques, be able to like what type"
+en_CA_Agriculture_1592234,11,agent,channel1,7,78.16,86.8,"of crops would yield the most produce, what time to do it, what types of crops to plant"
+en_CA_Agriculture_1592234,12,customer,channel2,5,79.24,80.7,you
+en_CA_Agriculture_1592234,13,agent,channel1,8,86.8,92.96,"in one field, and then the next year change it because of different minerals and things"
+en_CA_Agriculture_1592234,14,agent,channel1,9,92.96,94.48,to give the land a rest.
+en_CA_Agriculture_1592234,15,agent,channel1,10,94.48,100.92,So we offer all this information to people such as yourself that have recently wanted
+en_CA_Agriculture_1592234,16,agent,channel1,11,100.92,104.84,"to become farmers, that it wasn't generational, they've recently bought a farm and they"
+en_CA_Agriculture_1592234,17,agent,channel1,12,104.84,107.76,"wanted to start growing things, crops."
+en_CA_Agriculture_1592234,18,agent,channel1,13,107.76,132.44,"So that's what we're here for, for this type of plant such as yourself."
+en_CA_Agriculture_1592234,19,customer,channel2,6,109.48,111.48,know
+en_CA_Agriculture_1592234,20,customer,channel2,7,115.08,122.76,is it a specified type farming because our farm is going to be corn can I get
+en_CA_Agriculture_1592234,21,customer,channel2,8,123.56,131.48,information on corn only or do do you cover a variety in these workshops how does that part work
+en_CA_Agriculture_1592234,22,agent,channel1,14,132.44,137.0,Well the workshops more or less are tailored depending on the needs and the produce and
+en_CA_Agriculture_1592234,23,agent,channel1,15,137.0,141.72,crops that the farmers that are joining it are looking for.
+en_CA_Agriculture_1592234,24,customer,channel2,9,139.24,140.14,you
+en_CA_Agriculture_1592234,25,agent,channel1,16,141.72,148.48,"So what we offer, for example, for corn, we also offer things that not just corn but"
+en_CA_Agriculture_1592234,26,agent,channel1,17,148.48,154.52,"a wide variety of different products as well, different crops explanations."
+en_CA_Agriculture_1592234,27,agent,channel1,18,154.52,158.28,"For example, we do offer guidance on crop rotation to improve yield."
+en_CA_Agriculture_1592234,28,agent,channel1,19,158.28,163.2,"So as I mentioned before, if you have corn usually what you will do is you"
+en_CA_Agriculture_1592234,29,agent,channel1,20,163.2,170.76,will have the corn in one field for a year or two and then switch it out with a soybean
+en_CA_Agriculture_1592234,30,customer,channel2,10,169.24,170.62,you
+en_CA_Agriculture_1592234,31,agent,channel1,21,170.76,175.36,product because you want to yield the best crop.
+en_CA_Agriculture_1592234,32,agent,channel1,22,175.36,180.96,"You don't want to keep using the same soil over and over again, year after year, you need"
+en_CA_Agriculture_1592234,33,agent,channel1,23,180.96,181.96,to switch it out.
+en_CA_Agriculture_1592234,34,agent,channel1,24,181.96,187.16,So all this information is in our workshops that are tailored specifically to the clients
+en_CA_Agriculture_1592234,35,agent,channel1,25,187.16,189.0,that are coming in.
+en_CA_Agriculture_1592234,36,agent,channel1,26,189.0,194.92,"So we have someone on corn, if you're looking for soybean, you're looking for other different"
+en_CA_Agriculture_1592234,37,agent,channel1,27,194.92,198.72,types of farming and things such as that.
+en_CA_Agriculture_1592234,38,agent,channel1,28,198.72,224.2,So it's really tailored to the needs of the client.
+en_CA_Agriculture_1592234,39,customer,channel2,11,199.48,210.2,So when when are these workshops are they at a time when a farmer can go to them because
+en_CA_Agriculture_1592234,40,customer,channel2,12,211.24,215.4,in farming business you're often busy all the time so
+en_CA_Agriculture_1592234,41,customer,channel2,13,217.8,222.76,would it be like in the winter time or or how does that part work
+en_CA_Agriculture_1592234,42,agent,channel1,29,224.2,231.68,So the workshops basically are tailored to the schedules of the client themselves.
+en_CA_Agriculture_1592234,43,customer,channel2,14,229.24,230.62,you
+en_CA_Agriculture_1592234,44,agent,channel1,30,231.68,235.32,"As you mentioned, so it depends really when you'd like to start it."
+en_CA_Agriculture_1592234,45,agent,channel1,31,235.32,239.52,"If you have more downtime, they don't take that much time and they're more hands-on than"
+en_CA_Agriculture_1592234,46,agent,channel1,32,239.52,240.52,anything else.
+en_CA_Agriculture_1592234,47,agent,channel1,33,240.52,246.72,It's done via remote so you don't actually have to go to a place specifically.
+en_CA_Agriculture_1592234,48,agent,channel1,34,246.72,253.12,They're tailored to the clients and their time frames that work best with our instructors.
+en_CA_Agriculture_1592234,49,agent,channel1,35,253.12,259.24,We also offer different information regarding different subsidies and things from the government
+en_CA_Agriculture_1592234,50,customer,channel2,15,259.24,260.12,you
+en_CA_Agriculture_1592234,51,agent,channel1,36,259.24,262.84,that they provide as well that can help you get started.
+en_CA_Agriculture_1592234,52,agent,channel1,37,262.84,269.56,"Purchasing equipment, their financing options, banking options, when it might best to take"
+en_CA_Agriculture_1592234,53,agent,channel1,38,269.56,276.04,"a loan, if you use certain types of fertilizer, all this type of information is inside."
+en_CA_Agriculture_1592234,54,agent,channel1,39,276.04,281.0,"So for example, we give information based on financing for farm equipment because if"
+en_CA_Agriculture_1592234,55,agent,channel1,40,281.0,288.12,"you're really trying to produce and you have a quite big property with your farm, we offer"
+en_CA_Agriculture_1592234,56,agent,channel1,41,288.12,294.12,information to be able to lease equipment rather than buy equipment because buying this equipment
+en_CA_Agriculture_1592234,57,customer,channel2,16,289.24,314.2,I see how do you address the question of
+en_CA_Agriculture_1592234,58,agent,channel1,42,294.12,299.84,"is relatively expensive, especially for people that have just started into the farming"
+en_CA_Agriculture_1592234,59,agent,channel1,43,299.84,300.84,industry.
+en_CA_Agriculture_1592234,60,agent,channel1,44,301.2,328.64,We offer a wide variety of different information on all this.
+en_CA_Agriculture_1592234,61,customer,channel2,17,314.2,326.6,fertilizer or if we would like to do a farm that is totally organic what do we need in that regard
+en_CA_Agriculture_1592234,62,agent,channel1,45,328.64,332.44,"We offer basically, we have a wide variety of different suppliers and things that work"
+en_CA_Agriculture_1592234,63,agent,channel1,46,332.44,334.88,with us as well that we recommend.
+en_CA_Agriculture_1592234,64,agent,channel1,47,334.88,339.16,"We can give you basically what times to be able to put the fertilizer on, what types"
+en_CA_Agriculture_1592234,65,agent,channel1,48,339.16,345.96,"would be the best for organic type farming, if you have any animals, and things like that."
+en_CA_Agriculture_1592234,66,customer,channel2,18,344.2,344.7,you
+en_CA_Agriculture_1592234,67,agent,channel1,49,345.96,352.04,"There also could be information based on that, like free range for chickens and for"
+en_CA_Agriculture_1592234,68,agent,channel1,50,352.04,354.68,porcs and for dairy farmers.
+en_CA_Agriculture_1592234,69,agent,channel1,51,354.68,359.88,"So like I said, it's not simply just crops, but it's also a wide variety of different"
+en_CA_Agriculture_1592234,70,agent,channel1,52,359.88,376.36,information that you'd need to be able to really get started here.
+en_CA_Agriculture_1592234,71,customer,channel2,19,367.32,368.04,okay so
+en_CA_Agriculture_1592234,72,customer,channel2,20,368.84,374.84,um if I would like to start right away when would be the earliest I could start
+en_CA_Agriculture_1592234,73,agent,channel1,53,376.36,384.28,So we have an opening this Thursday here at 10 a.m.
+en_CA_Agriculture_1592234,74,customer,channel2,21,376.68,377.88,with these workshops
+en_CA_Agriculture_1592234,75,customer,channel2,22,377.88,391.72,so
+en_CA_Agriculture_1592234,76,agent,channel1,54,384.28,388.8,"If you'd like to start, because right now we're in the winter season, most of the farmers"
+en_CA_Agriculture_1592234,77,agent,channel1,55,388.8,397.48,are starting to have already started or ended their harvesting season.
+en_CA_Agriculture_1592234,78,customer,channel2,23,397.0,397.72,harvesting
+en_CA_Agriculture_1592234,79,agent,channel1,56,397.48,403.72,So basically what we are doing right now is we offer the workshops at a discounted
+en_CA_Agriculture_1592234,80,agent,channel1,57,403.72,408.92,"price, because more farmers have a little bit more time to read up and to see the new"
+en_CA_Agriculture_1592234,81,customer,channel2,24,407.88,437.68,"Okay, so when it comes to the financing part of farming,"
+en_CA_Agriculture_1592234,82,agent,channel1,58,408.92,411.84,"techniques, because farming is an ever-evolving industry."
+en_CA_Agriculture_1592234,83,agent,channel1,59,411.84,416.76,"I don't know if you know this, but there's always new techniques coming out, new to"
+en_CA_Agriculture_1592234,84,agent,channel1,60,416.76,425.28,"maximize crop yields, to minimize drought issues and irrigation."
+en_CA_Agriculture_1592234,85,agent,channel1,61,425.28,429.2,All these techniques are all things that you will want to know to be able to get
+en_CA_Agriculture_1592234,86,agent,channel1,62,429.2,430.24,started.
+en_CA_Agriculture_1592234,87,customer,channel2,25,437.68,451.52,is it just a provincial programs or are there provincial and federal programs or are there
+en_CA_Agriculture_1592234,88,customer,channel2,26,451.52,459.16,no programs and how much do they put in or will they give us?
+en_CA_Agriculture_1592234,89,agent,channel1,63,460.2,466.0,"Well, for farming, it is largely financed in many different ways."
+en_CA_Agriculture_1592234,90,agent,channel1,64,466.0,470.84,So you have provincial programs and federal programs as well.
+en_CA_Agriculture_1592234,91,customer,channel2,27,467.68,481.12,"Okay, so when it comes to the funding, is it just a provincial program or is it just a"
+en_CA_Agriculture_1592234,92,agent,channel1,65,470.84,476.64,"So they do provide financial aid, because farmers are definitely important to the agriculture"
+en_CA_Agriculture_1592234,93,agent,channel1,66,476.64,479.2,and the prosperity of Canada.
+en_CA_Agriculture_1592234,94,agent,channel1,67,479.2,484.48,"So the fact is, is that what you're going to want to do is we'll go over in much"
+en_CA_Agriculture_1592234,95,customer,channel2,28,481.12,493.72,provincial program or is it just a provincial program or is it just a provincial program or
+en_CA_Agriculture_1592234,96,agent,channel1,68,484.48,490.28,"detail what type of things you qualify, what type of things you don't qualify, because"
+en_CA_Agriculture_1592234,97,agent,channel1,69,490.28,495.4,"it depends on the size of the farm, depends on the size of yield that you're looking"
+en_CA_Agriculture_1592234,98,customer,channel2,29,493.72,511.0,is it just a provincial program or is it just a provincial program or is it just a provincial
+en_CA_Agriculture_1592234,99,agent,channel1,70,495.4,499.64,"to produce, what type of corn or crops that you're looking to grow."
+en_CA_Agriculture_1592234,100,agent,channel1,71,499.64,504.12,So we work with our partners as well as in the financial industry and banking industries
+en_CA_Agriculture_1592234,101,agent,channel1,72,504.12,508.76,"to be able to really help us give the best deals to the farmers, to be able to get"
+en_CA_Agriculture_1592234,102,agent,channel1,73,508.76,512.32,started and to continue financing for many years to come.
+en_CA_Agriculture_1592234,103,customer,channel2,30,511.0,529.44,Hmm. That's really good to know. So would I get any help with building things? I'm not
+en_CA_Agriculture_1592234,104,agent,channel1,74,512.32,516.96,So all workshops all entail all of that information for you all in one package.
+en_CA_Agriculture_1592234,105,customer,channel2,31,529.44,540.24,"sure that the burn and the equipment there that we have purchased, there is some there,"
+en_CA_Agriculture_1592234,106,customer,channel2,32,540.24,542.68,but what if we want more or different?
+en_CA_Agriculture_1592234,107,agent,channel1,75,543.32,550.16,"Well, basically, we don't have contracting services, but we do have quite a few different"
+en_CA_Agriculture_1592234,108,agent,channel1,76,550.16,555.24,people that we've worked together over the years that we do highly recommend.
+en_CA_Agriculture_1592234,109,agent,channel1,77,555.24,560.52,"So we don't take part in that, but we can sort of direct you to the right people"
+en_CA_Agriculture_1592234,110,agent,channel1,78,560.52,566.36,"that we have confidence in to be able to help out, get repairs done, fix up certain"
+en_CA_Agriculture_1592234,111,agent,channel1,79,566.36,571.12,"things that need to be done, because we understand that farms are limited sometimes in the"
+en_CA_Agriculture_1592234,112,customer,channel2,33,570.24,598.24,"Okay, so that's good to know. I guess what we'll try to do is we'll take the 10 o'clock spot on"
+en_CA_Agriculture_1592234,113,agent,channel1,80,571.12,578.8,"funds. So we don't do that per se ourselves, but we can definitely help out to direct some"
+en_CA_Agriculture_1592234,114,agent,channel1,81,578.8,580.4,people that we do have confidence in.
+en_CA_Agriculture_1592234,115,customer,channel2,34,598.24,605.44,"Thursday. My husband and I, there's both of us that would be there. Is it charged per person? Is"
+en_CA_Agriculture_1592234,116,agent,channel1,82,601.12,627.12,"It's charged per session, basically, it's not charged per person. So you and your husband are both invited to come here, the here, the lecture, like I said, we do have the online option as well, if that's easier to be able to, because we're in the city."
+en_CA_Agriculture_1592234,117,customer,channel2,35,605.44,610.32,it charged per session? What is that all about?
+en_CA_Agriculture_1592234,118,agent,channel1,83,627.12,634.36,"If that's something that you cannot attend in person, we're more than happy to be able to provide a link and can email you all the information that you need."
+en_CA_Agriculture_1592234,119,customer,channel2,36,628.24,651.84,"Okay, I'm very satisfied with your explanations and and and helpfulness. So would you mind booking"
+en_CA_Agriculture_1592234,120,agent,channel1,84,634.36,663.6,"Not at all. I have all the information right here that you provided earlier, and I'll be able to get started. And I got you booked right now for Thursday at 10am."
+en_CA_Agriculture_1592234,121,customer,channel2,37,651.84,679.6,"us for Thursday then, please? Thank you very much. Bye."
+en_CA_Agriculture_1592234,122,agent,channel1,85,663.6,669.84,So we'd be happy to see you either in person or online. I'll send the information for both just in case.
+en_CA_Agriculture_1592234,123,agent,channel1,86,674.2,677.04,Have a great day. Thank you for calling. Bye.

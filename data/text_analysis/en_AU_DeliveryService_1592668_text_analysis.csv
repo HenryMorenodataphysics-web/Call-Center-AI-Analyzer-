@@ -1,0 +1,231 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_DeliveryService_1592668,1,agent,channel1,1,0.0,20.24,"Good afternoon, you've reached Swift and Shift Chorias.",positive,0.8526,False,False,False,False,False
+en_AU_DeliveryService_1592668,2,customer,channel2,1,0.0,28.84,"Hi Daniel, yeah I'm calling because I'm getting a bit worried, let me explain.",neutral,0.5577,False,False,False,False,False
+en_AU_DeliveryService_1592668,3,agent,channel1,2,20.24,21.24,My name is Danielle.,neutral,0.8506,False,False,False,False,False
+en_AU_DeliveryService_1592668,4,agent,channel1,3,21.24,26.24,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_AU_DeliveryService_1592668,5,agent,channel1,4,26.24,37.92,"Look, I'm so sorry to hear that.",negative,0.9018,False,False,False,False,False
+en_AU_DeliveryService_1592668,6,customer,channel2,2,28.84,43.84,I had a package and it was supposed to arrive yesterday and it still hasn't shown up.,negative,0.8017,False,False,False,False,False
+en_AU_DeliveryService_1592668,7,agent,channel1,5,37.92,40.6,I can definitely help you track that down.,neutral,0.6585,False,False,False,False,False
+en_AU_DeliveryService_1592668,8,agent,channel1,6,40.6,44.24,"Can I start by getting your name, please?",neutral,0.8598,False,False,True,False,False
+en_AU_DeliveryService_1592668,9,customer,channel2,3,43.84,60.56,"Yeah it's Maria Santoro, my tracking number, is that the number, yeah hang on, is it the",neutral,0.7409,False,False,False,False,False
+en_AU_DeliveryService_1592668,10,agent,channel1,7,44.24,48.4,"Okay, thank you, Maria.",positive,0.8586,False,False,False,False,False
+en_AU_DeliveryService_1592668,11,agent,channel1,8,48.4,52.8,Do you have your tracking number handy at all?,neutral,0.9456,False,False,True,False,False
+en_AU_DeliveryService_1592668,12,agent,channel1,9,52.8,64.8,Correct.,neutral,0.601,False,False,False,False,False
+en_AU_DeliveryService_1592668,13,customer,channel2,4,60.56,85.56,one that starts in SE? Alright so SE 47892341AU.,neutral,0.9031,False,False,False,False,False
+en_AU_DeliveryService_1592668,14,agent,channel1,10,64.8,75.72,"Yep, so perfect.",positive,0.978,False,False,False,False,False
+en_AU_DeliveryService_1592668,15,agent,channel1,11,75.72,85.32,"Just to confirm, I have Sierra Echo 47892341 Alfa Umbrella.",neutral,0.8816,False,False,False,False,False
+en_AU_DeliveryService_1592668,16,agent,channel1,12,85.32,88.84,Just give me a moment while I pull that up in our system.,neutral,0.7076,False,False,False,False,False
+en_AU_DeliveryService_1592668,17,customer,channel2,5,85.56,104.04,"Yeah that's right, I'm going to my accountant's office in Parramatta, I mean sorry it's going",neutral,0.6143,False,False,False,False,False
+en_AU_DeliveryService_1592668,18,agent,channel1,13,88.84,91.96,"Okay, I can see it here.",neutral,0.7033,False,False,False,False,False
+en_AU_DeliveryService_1592668,19,agent,channel1,14,91.96,98.92,"This one was sent from your address in Newtown to, it looks like it might be Paramatter.",neutral,0.8957,False,False,False,False,False
+en_AU_DeliveryService_1592668,20,agent,channel1,15,98.92,124.96,"Yeah, look, I completely understand, Maria, tax documents are definitely time sensitive,",neutral,0.609,False,True,False,False,False
+en_AU_DeliveryService_1592668,21,customer,channel2,6,104.04,110.12,"to my accountant's office in Parramatta, look I'm going to be honest I'm really stressed",negative,0.7731,False,False,False,False,False
+en_AU_DeliveryService_1592668,22,customer,channel2,7,110.12,114.28,"about this because it's got important documents in there, my tax paperwork for the financial",neutral,0.6467,False,False,False,False,False
+en_AU_DeliveryService_1592668,23,customer,channel2,8,114.28,138.6,"year, you know end of financial year has just passed, I just need to get to it ASAP.",neutral,0.5406,False,False,False,False,False
+en_AU_DeliveryService_1592668,24,agent,channel1,16,124.96,127.16,especially this time of year.,negative,0.4977,False,False,False,False,False
+en_AU_DeliveryService_1592668,25,agent,channel1,17,127.16,130.92,Let me trace down exactly where your package is right now.,neutral,0.85,False,False,False,False,False
+en_AU_DeliveryService_1592668,26,agent,channel1,18,130.92,133.28,"Right, okay.",neutral,0.6004,False,False,False,False,False
+en_AU_DeliveryService_1592668,27,agent,channel1,19,133.28,138.24,So I can see that it's left down Marikul Depot on Monday morning as scheduled.,neutral,0.9189,False,False,False,False,False
+en_AU_DeliveryService_1592668,28,agent,channel1,20,138.24,148.12,"Yeah, look, sorry, Maria, you're not on the right.",negative,0.7915,False,False,False,False,False
+en_AU_DeliveryService_1592668,29,customer,channel2,9,139.6,157.52,"That's two days ago, it should have been there by Tuesday Arvo at the latest.",neutral,0.8379,False,False,False,False,False
+en_AU_DeliveryService_1592668,30,agent,channel1,21,148.12,150.0,I apologize for the delay.,negative,0.6078,False,True,False,False,False
+en_AU_DeliveryService_1592668,31,agent,channel1,22,150.0,153.8,"Let me just see what's happened, what's gone down.",neutral,0.8491,False,False,False,False,False
+en_AU_DeliveryService_1592668,32,agent,channel1,23,153.8,157.4,"Give me a moment, please, while I look into it.",neutral,0.8035,False,False,False,False,False
+en_AU_DeliveryService_1592668,33,agent,channel1,24,157.4,162.16,"Okay, Maria, sorry, are you there?",neutral,0.7643,False,False,True,False,False
+en_AU_DeliveryService_1592668,34,agent,channel1,25,162.16,165.12,"Right, okay, I can see the issue now.",neutral,0.6765,False,False,False,False,False
+en_AU_DeliveryService_1592668,35,agent,channel1,26,165.12,169.16,"Basically, your package was on the delivery truck Tuesday morning.",neutral,0.8891,False,False,False,False,False
+en_AU_DeliveryService_1592668,36,agent,channel1,27,169.16,172.6,There was a significant delay due to roadworks on Paramatter Road.,negative,0.5369,False,False,False,False,False
+en_AU_DeliveryService_1592668,37,agent,channel1,28,172.6,176.92,"Apparently, they've got major resurfacing happening near Homebush.",neutral,0.8375,False,False,False,False,False
+en_AU_DeliveryService_1592668,38,agent,channel1,29,176.92,180.36,"That'll be a fucking fur, that'll be, sorry.",negative,0.9366,False,False,False,False,False
+en_AU_DeliveryService_1592668,39,agent,channel1,30,181.32,192.92,"Yeah, so there's major resurfacing happening near Homebush.",neutral,0.7294,False,False,False,False,False
+en_AU_DeliveryService_1592668,40,customer,channel2,10,187.52,209.52,"Oh man, that road's always a nightmare, so you're telling me it's just sitting there,",negative,0.858,False,False,False,False,False
+en_AU_DeliveryService_1592668,41,agent,channel1,31,192.92,194.72,Tell me about it.,neutral,0.7895,False,False,False,False,False
+en_AU_DeliveryService_1592668,42,agent,channel1,32,194.72,196.52,"So look, here's the thing.",neutral,0.7869,False,False,False,False,False
+en_AU_DeliveryService_1592668,43,agent,channel1,33,196.52,200.8,"Because of the delay, the driver wasn't able to complete all deliveries on Tuesday.",negative,0.7216,False,False,False,False,False
+en_AU_DeliveryService_1592668,44,agent,channel1,34,200.8,205.56,So your package was returned to our Civil Water Distribution Centre and it's currently,neutral,0.8451,False,False,False,False,False
+en_AU_DeliveryService_1592668,45,agent,channel1,35,205.56,206.56,sitting there now.,neutral,0.9107,False,False,False,False,False
+en_AU_DeliveryService_1592668,46,customer,channel2,11,209.52,216.08,"like when is it actually going to be delivered then, what are we paying for, it's just",negative,0.7815,False,False,False,False,False
+en_AU_DeliveryService_1592668,47,agent,channel1,36,210.36,220.84,"So look, Maria, you did book our standard service.",neutral,0.7237,False,False,False,False,False
+en_AU_DeliveryService_1592668,48,customer,channel2,12,216.08,217.08,sitting there.,neutral,0.8358,False,False,False,False,False
+en_AU_DeliveryService_1592668,49,customer,channel2,13,217.08,238.32,"Hello but I needed it there yesterday, my accountant's already chasing me about it, is there any way",neutral,0.4819,False,False,False,False,False
+en_AU_DeliveryService_1592668,50,agent,channel1,37,220.84,224.52,"It would go back out on the next scheduled delivery run to Paramatter, which would be",neutral,0.9137,False,False,False,False,False
+en_AU_DeliveryService_1592668,51,agent,channel1,38,224.52,226.4,"tomorrow, Thursday.",neutral,0.8682,False,False,False,False,False
+en_AU_DeliveryService_1592668,52,agent,channel1,39,226.4,233.4,You'll be looking at a delivery time sometime between 9am and 5pm.,neutral,0.9079,False,False,False,False,False
+en_AU_DeliveryService_1592668,53,agent,channel1,40,233.4,247.12,"Look, I completely hear you, Maria, and I want to help you get this sorted.",positive,0.5888,False,False,False,False,False
+en_AU_DeliveryService_1592668,54,customer,channel2,14,238.32,255.08,"we can speed this up, please, I mean what are my options here Danielle?",neutral,0.704,False,False,False,False,False
+en_AU_DeliveryService_1592668,55,agent,channel1,41,247.12,250.52,I understand that these documents are important.,positive,0.5584,False,True,False,False,False
+en_AU_DeliveryService_1592668,56,agent,channel1,42,250.52,252.72,Let me just have a look at what we can do.,neutral,0.7971,False,False,False,False,False
+en_AU_DeliveryService_1592668,57,agent,channel1,43,252.72,254.84,"If you give me a moment, please.",neutral,0.5524,False,False,False,False,False
+en_AU_DeliveryService_1592668,58,agent,channel1,44,254.84,260.2,"Okay, Maria, are you there?",neutral,0.9221,False,False,True,False,False
+en_AU_DeliveryService_1592668,59,customer,channel2,15,255.08,281.44,"Sure, yeah, this afternoon, okay so what sort of time frame are we talking?",neutral,0.6573,False,False,False,False,False
+en_AU_DeliveryService_1592668,60,agent,channel1,45,260.2,264.88,"All right, we do have a couple of options for expedited delivery.",positive,0.5138,False,False,False,False,False
+en_AU_DeliveryService_1592668,61,agent,channel1,46,264.88,268.76,"First option, we can have a same-day courier service where we can have it picked up from",neutral,0.6712,False,False,False,False,False
+en_AU_DeliveryService_1592668,62,agent,channel1,47,268.76,272.56,Civil Water and then delivered directly to Paramatter this afternoon.,neutral,0.9146,False,False,False,False,False
+en_AU_DeliveryService_1592668,63,agent,channel1,48,272.56,275.72,That would be an additional $45 plus GST.,neutral,0.8182,False,False,False,False,False
+en_AU_DeliveryService_1592668,64,agent,channel1,49,275.72,285.48,"Yep, so if we dispatch it now and I can flag it as priority while we're on the phone, you'd",neutral,0.7876,False,False,False,False,False
+en_AU_DeliveryService_1592668,65,customer,channel2,16,281.44,307.8,"Okay, and what's the other option?",neutral,0.8897,False,False,False,False,False
+en_AU_DeliveryService_1592668,66,agent,channel1,50,285.48,289.16,be looking at delivery by around 4.30pm to 5pm today.,neutral,0.87,False,False,False,False,False
+en_AU_DeliveryService_1592668,67,agent,channel1,51,289.16,294.72,The driver would go straight from Civil Water to your accountant's office in Paramatter.,neutral,0.9399,False,False,False,False,False
+en_AU_DeliveryService_1592668,68,agent,channel1,52,294.72,301.4,"Yep, so the other option is our Express Morning service.",neutral,0.7836,False,False,False,False,False
+en_AU_DeliveryService_1592668,69,agent,channel1,53,301.4,306.28,We'd have it on the first delivery run tomorrow morning with guaranteed delivery by 10.30am.,neutral,0.4996,False,False,False,False,False
+en_AU_DeliveryService_1592668,70,agent,channel1,54,306.28,326.24,So that's $25 plus GST.,neutral,0.8552,False,False,False,False,False
+en_AU_DeliveryService_1592668,71,customer,channel2,17,307.8,317.0,"Hmm, look I really need him to have it today if possible, he's got appointments booked all",neutral,0.5333,False,False,False,False,False
+en_AU_DeliveryService_1592668,72,customer,channel2,18,317.0,323.08,"day tomorrow, I won't be able to look at it until Friday otherwise, can you guarantee",neutral,0.5271,False,False,False,False,False
+en_AU_DeliveryService_1592668,73,customer,channel2,19,323.08,325.2,the same day delivery by 5pm?,neutral,0.9318,False,False,False,False,False
+en_AU_DeliveryService_1592668,74,agent,channel1,55,326.24,332.4,"I can guarantee it Maria, our same-day couriers have a 98% on-time success rate and the run",positive,0.8521,False,False,False,False,False
+en_AU_DeliveryService_1592668,75,agent,channel1,56,332.4,335.96,from Civil Water to Paramatter would normally take about 40 minutes.,neutral,0.9335,False,False,False,False,False
+en_AU_DeliveryService_1592668,76,agent,channel1,57,335.96,340.32,"So even with traffic, we'd have plenty of buffer time.",neutral,0.5611,False,False,False,False,False
+en_AU_DeliveryService_1592668,77,customer,channel2,20,337.8,353.8,"Wait a minute, so because you guys were late in the first place, would there be any chance",neutral,0.586,False,False,False,False,False
+en_AU_DeliveryService_1592668,78,agent,channel1,58,340.32,345.48,I can mark this as priority as I said and to make good since we were responsible for,positive,0.6848,False,False,False,False,False
+en_AU_DeliveryService_1592668,79,agent,channel1,59,345.48,346.44,the initial delay.,neutral,0.6789,False,False,False,False,False
+en_AU_DeliveryService_1592668,80,customer,channel2,21,353.8,360.6,of a discount on that expedited service?,neutral,0.8394,False,False,False,False,False
+en_AU_DeliveryService_1592668,81,agent,channel1,60,356.24,358.64,"Look, that's a really fair question.",positive,0.8342,False,False,False,False,False
+en_AU_DeliveryService_1592668,82,agent,channel1,61,358.64,367.44,"Let me just check, sorry, with my manager and I'll get back to you.",neutral,0.8348,False,False,False,False,False
+en_AU_DeliveryService_1592668,83,customer,channel2,22,360.6,386.6,"Okay, oh man, these bloody couriers, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes,",negative,0.6827,False,False,False,False,False
+en_AU_DeliveryService_1592668,84,agent,channel1,62,367.44,372.52,Let me just pop you on hold.,neutral,0.8715,False,False,False,False,False
+en_AU_DeliveryService_1592668,85,agent,channel1,63,372.52,378.12,"Maria, are you there?",neutral,0.9416,False,False,True,False,False
+en_AU_DeliveryService_1592668,86,agent,channel1,64,378.12,380.64,"Okay, thank you for holding.",positive,0.749,False,False,False,False,False
+en_AU_DeliveryService_1592668,87,agent,channel1,65,380.64,386.96,"Look, I've spoken with my supervisor, excellent news because, well for you, because the delay",positive,0.9574,False,False,False,False,False
+en_AU_DeliveryService_1592668,88,customer,channel2,23,386.6,403.06,"that's brilliant, thank you so much, I really appreciate that.",positive,0.9747,False,False,False,False,False
+en_AU_DeliveryService_1592668,89,agent,channel1,66,386.96,392.0,"was on our end with the road work situation, my supervisor has approved waving the expedited",neutral,0.7424,False,False,False,False,False
+en_AU_DeliveryService_1592668,90,agent,channel1,67,392.0,400.12,fee entirely and we'll get your package to Paramatter by 5pm today with no extra charge.,neutral,0.7645,False,False,False,False,False
+en_AU_DeliveryService_1592668,91,agent,channel1,68,400.12,405.24,"Look, you're very welcome.",positive,0.9625,False,False,False,False,False
+en_AU_DeliveryService_1592668,92,agent,channel1,69,405.24,409.12,It's the least we can do given the situation and of course these documents are really,neutral,0.6414,False,False,False,False,False
+en_AU_DeliveryService_1592668,93,agent,channel1,70,409.12,410.12,important.,neutral,0.5755,False,False,False,False,False
+en_AU_DeliveryService_1592668,94,agent,channel1,71,410.12,413.76,"Now look, what I'll need to do is confirm the delivery address in Paramatter.",neutral,0.8817,False,False,False,False,False
+en_AU_DeliveryService_1592668,95,agent,channel1,72,413.76,420.12,What's the full address of your accountant's office?,neutral,0.9521,False,False,True,False,False
+en_AU_DeliveryService_1592668,96,customer,channel2,24,416.6,427.64,Hang on let me grab that. It is sweet seven one five six church street,positive,0.8214,False,False,False,False,False
+en_AU_DeliveryService_1592668,97,agent,channel1,73,420.12,423.12,Excellent.,positive,0.9053,False,False,False,False,False
+en_AU_DeliveryService_1592668,98,agent,channel1,74,423.12,437.12,"So just to confirm, that's Suite 7156, 156 Church Street, Paramatter and is there a",neutral,0.9382,False,False,False,False,False
+en_AU_DeliveryService_1592668,99,customer,channel2,25,427.64,443.0,parameter. Yep it's Henderson and Associates.,neutral,0.8596,False,False,False,False,False
+en_AU_DeliveryService_1592668,100,agent,channel1,75,437.12,440.12,business name?,neutral,0.8668,False,False,True,False,False
+en_AU_DeliveryService_1592668,101,agent,channel1,76,440.12,443.64,Perfect.,positive,0.9075,False,False,False,False,False
+en_AU_DeliveryService_1592668,102,customer,channel2,26,443.0,455.96,Yeah hang on I'll grab that from my phone. It's nine six eight seven four five two,neutral,0.7816,False,False,False,False,False
+en_AU_DeliveryService_1592668,103,agent,channel1,77,443.64,447.12,And is there a contact number for the office just in case the driver needs to call when,neutral,0.9326,False,False,False,False,False
+en_AU_DeliveryService_1592668,104,agent,channel1,78,447.12,450.12,they arrive?,neutral,0.9116,False,False,True,False,False
+en_AU_DeliveryService_1592668,105,agent,channel1,79,450.12,464.6,"Perfect, so just to confirm, 96874521 and what's the best contact number for you, Maria,",positive,0.8743,False,False,False,False,False
+en_AU_DeliveryService_1592668,106,customer,channel2,27,455.96,465.96,one.,neutral,0.6815,False,False,False,False,False
+en_AU_DeliveryService_1592668,107,agent,channel1,80,464.6,471.6,in case we need to reach you about the delivery?,neutral,0.9377,False,False,True,False,False
+en_AU_DeliveryService_1592668,108,customer,channel2,28,466.84,475.96,Oh that would be my mobile um 0412765893. It's the number I'm calling on now if you can see that.,neutral,0.9031,False,False,False,False,False
+en_AU_DeliveryService_1592668,109,agent,channel1,81,471.6,473.6,Excellent.,positive,0.9053,False,False,False,False,False
+en_AU_DeliveryService_1592668,110,agent,channel1,82,473.6,479.76,"So, okay, I've got everything updated in the system.",positive,0.546,False,False,False,False,False
+en_AU_DeliveryService_1592668,111,agent,channel1,83,479.76,484.44,Your package is now flagged for same day priority courier service from our Silverwater,neutral,0.8305,False,False,False,False,False
+en_AU_DeliveryService_1592668,112,agent,channel1,84,484.44,490.08,"depot to Henderson and Associates in Paramatter, delivery by 5pm today.",neutral,0.9173,False,False,False,False,False
+en_AU_DeliveryService_1592668,113,customer,channel2,29,485.96,502.84,Perfect and just to be absolutely clear this is definitely going to arrive today,positive,0.9861,False,False,False,False,False
+en_AU_DeliveryService_1592668,114,agent,channel1,85,490.56,495.76,"Maria, you'll also receive an SMS notification when the driver is about 30 minutes away and",neutral,0.9101,False,False,False,False,False
+en_AU_DeliveryService_1592668,115,agent,channel1,86,495.76,506.56,another one when it's been successfully delivered.,positive,0.5795,False,False,False,False,False
+en_AU_DeliveryService_1592668,116,customer,channel2,30,503.48,511.96,because I need to let the accountant know.,neutral,0.8767,False,False,False,False,False
+en_AU_DeliveryService_1592668,117,agent,channel1,87,506.56,509.44,"Yes Maria, I can confirm it will definitely arrive today.",positive,0.8931,False,False,False,False,False
+en_AU_DeliveryService_1592668,118,agent,channel1,88,509.44,513.96,The driver will be dispatched within the next 20 minutes from Silverwater based on,neutral,0.9319,False,False,False,False,False
+en_AU_DeliveryService_1592668,119,agent,channel1,89,513.96,518.48,current traffic conditions and I'm checking Google Maps for you right now.,neutral,0.9327,False,False,False,False,False
+en_AU_DeliveryService_1592668,120,customer,channel2,31,515.96,535.96,I can't even tell you what a relief that is honestly I was starting to have a panic attack.,positive,0.5458,False,False,False,False,False
+en_AU_DeliveryService_1592668,121,agent,channel1,90,518.48,526.48,"They'd arrive in Paramatter by approximately 415 to 445, well before your 5pm commitment.",neutral,0.9184,False,False,False,False,False
+en_AU_DeliveryService_1592668,122,agent,channel1,91,532.48,536.48,"Yeah, look, we don't want you having a panic attack, but I can completely understand",negative,0.6298,False,False,False,False,False
+en_AU_DeliveryService_1592668,123,customer,channel2,32,536.2,550.68,Um actually yeah just one more thing why was there so much impact from the road works like don't you,negative,0.6637,False,False,False,False,False
+en_AU_DeliveryService_1592668,124,agent,channel1,92,536.48,538.48,how stressful this would be for you.,negative,0.7736,False,False,True,False,False
+en_AU_DeliveryService_1592668,125,agent,channel1,93,538.48,540.48,Tax documents are nothing to muck around with.,negative,0.6586,False,False,False,False,False
+en_AU_DeliveryService_1592668,126,agent,channel1,94,540.48,543.48,Is there anything I can help you with today?,neutral,0.8547,False,False,True,True,False
+en_AU_DeliveryService_1592668,127,agent,channel1,95,543.48,545.48,Other than that?,neutral,0.8823,False,False,True,False,False
+en_AU_DeliveryService_1592668,128,agent,channel1,96,549.48,554.48,"Yeah, look, that's a really great question.",positive,0.9807,False,False,False,False,False
+en_AU_DeliveryService_1592668,129,customer,channel2,33,550.68,555.96,guys usually plan for that kind of thing?,neutral,0.8934,False,False,False,False,False
+en_AU_DeliveryService_1592668,130,agent,channel1,97,554.48,558.48,"Normally our drivers do have an alternate route mapped out, particularly for",neutral,0.8756,False,False,False,False,False
+en_AU_DeliveryService_1592668,131,agent,channel1,98,558.48,562.48,"Paramatter Road, since it's always got something going on.",neutral,0.7417,False,False,False,False,False
+en_AU_DeliveryService_1592668,132,agent,channel1,99,562.48,565.48,What happened in this particular case was that the road works weren't on our,neutral,0.5174,False,False,True,False,False
+en_AU_DeliveryService_1592668,133,agent,channel1,100,565.48,569.48,scheduled notifications from Transport New South Wales.,neutral,0.9426,False,False,False,False,False
+en_AU_DeliveryService_1592668,134,customer,channel2,34,565.96,587.96,Okay that makes sense at least you sorted it out.,neutral,0.5025,False,False,False,False,False
+en_AU_DeliveryService_1592668,135,agent,channel1,101,569.48,573.48,"They started Monday night unexpectedly, so Tuesday morning our driver got caught",negative,0.661,False,False,False,False,False
+en_AU_DeliveryService_1592668,136,agent,channel1,102,573.48,575.48,in the back up with no warning.,neutral,0.6144,False,False,False,False,False
+en_AU_DeliveryService_1592668,137,agent,channel1,103,575.48,579.48,We've since updated all our routes throughout that area and our drivers are,neutral,0.7321,False,False,False,False,False
+en_AU_DeliveryService_1592668,138,agent,channel1,104,579.48,583.48,now using Victoria Road as the main arterial instead.,neutral,0.9101,False,False,False,False,False
+en_AU_DeliveryService_1592668,139,agent,channel1,105,587.48,588.48,"Yup, definitely.",positive,0.5845,False,False,False,False,False
+en_AU_DeliveryService_1592668,140,agent,channel1,106,588.48,592.48,"And look, as an additional gesture of goodwill and for the inconvenience,",neutral,0.5468,False,False,False,False,False
+en_AU_DeliveryService_1592668,141,agent,channel1,107,592.48,596.48,"I'm going to add $20 credit to your account, so you'll see that reflected",neutral,0.626,False,False,False,False,False
+en_AU_DeliveryService_1592668,142,customer,channel2,35,595.96,611.96,Oh you didn't have to do that Danielle but thank you that's a real that's that's top's customer service.,positive,0.6482,False,False,False,False,False
+en_AU_DeliveryService_1592668,143,agent,channel1,108,596.48,600.48,in your next invoice or if your pay-as-you-go customer will apply it,neutral,0.8944,False,False,False,False,False
+en_AU_DeliveryService_1592668,144,agent,channel1,109,600.48,602.48,to your next shipment.,neutral,0.8024,False,False,False,False,False
+en_AU_DeliveryService_1592668,145,agent,channel1,110,606.48,611.48,"Yeah, look, Maria, it's our pleasure.",positive,0.931,False,False,False,False,False
+en_AU_DeliveryService_1592668,146,agent,channel1,111,611.48,614.48,"We understand how important this was, and of course you did pay for a",neutral,0.5947,False,False,False,False,False
+en_AU_DeliveryService_1592668,147,agent,channel1,112,614.48,616.48,service that didn't deliver.,negative,0.8352,False,False,False,False,False
+en_AU_DeliveryService_1592668,148,agent,channel1,113,616.48,620.48,We do really want to make sure that our customers are feeling like they're,positive,0.7058,False,False,False,False,False
+en_AU_DeliveryService_1592668,149,agent,channel1,114,620.48,625.48,"valued, we value your business, and if there's anything else that we can do",positive,0.5894,False,False,False,False,False
+en_AU_DeliveryService_1592668,150,agent,channel1,115,625.48,628.48,to help you feel looked after.,positive,0.6323,False,False,False,False,False
+en_AU_DeliveryService_1592668,151,customer,channel2,36,625.96,641.96,Um no I think that's everything you've been really helpful Danielle and sorry I was a bit frustrated earlier in the call too.,positive,0.7157,True,False,False,False,False
+en_AU_DeliveryService_1592668,152,agent,channel1,116,628.48,632.48,"Now, aside from the delivery, is there anything else I can help you with",neutral,0.887,False,False,False,True,False
+en_AU_DeliveryService_1592668,153,agent,channel1,117,632.48,633.48,today?,neutral,0.8298,False,False,True,False,False
+en_AU_DeliveryService_1592668,154,agent,channel1,118,636.48,638.48,"Okay, perfect.",positive,0.9282,False,False,False,False,False
+en_AU_DeliveryService_1592668,155,agent,channel1,119,640.48,643.48,"No, look, it's completely understandable.",positive,0.6333,False,False,False,False,False
+en_AU_DeliveryService_1592668,156,agent,channel1,120,643.48,646.48,Tax time is stressful for everyone.,negative,0.7259,False,False,False,False,False
+en_AU_DeliveryService_1592668,157,agent,channel1,121,646.48,650.48,"So just to recap everything, so your package with your tracking number",neutral,0.9048,False,False,False,False,False
+en_AU_DeliveryService_1592668,158,agent,channel1,122,650.48,660.48,"ending in one AU, so that's SE 47892341AU is being dispatched via",neutral,0.9401,False,False,False,False,False
+en_AU_DeliveryService_1592668,159,customer,channel2,37,655.96,683.96,Perfect thank you so much for sorting this out.,positive,0.9696,False,False,False,False,False
+en_AU_DeliveryService_1592668,160,agent,channel1,123,660.48,666.48,"same-day courier to Henderson and Associates, sweet 7156",neutral,0.7308,False,False,False,False,False
+en_AU_DeliveryService_1592668,161,agent,channel1,124,666.48,668.48,Church Street Power Matter.,neutral,0.8937,False,False,False,False,False
+en_AU_DeliveryService_1592668,162,agent,channel1,125,668.48,671.48,"You'll also get guaranteed delivery by 5pm today, and I've",positive,0.5499,False,False,False,False,False
+en_AU_DeliveryService_1592668,163,agent,channel1,126,671.48,673.48,e-marked it with priority.,neutral,0.8414,False,False,False,False,False
+en_AU_DeliveryService_1592668,164,agent,channel1,127,673.48,677.48,"You'll get SMS notifications for both dispatch and delivery,",neutral,0.8425,False,False,False,False,False
+en_AU_DeliveryService_1592668,165,agent,channel1,128,677.48,680.48,and we've added $20 to your account.,neutral,0.6404,False,False,False,False,False
+en_AU_DeliveryService_1592668,166,agent,channel1,129,683.48,685.48,"Look, Maria, you're very welcome.",positive,0.963,False,False,False,False,False
+en_AU_DeliveryService_1592668,167,agent,channel1,130,685.48,687.48,"Look, I hope your tax return goes smoothly.",positive,0.8153,False,False,False,False,False
+en_AU_DeliveryService_1592668,168,customer,channel2,38,685.96,687.96,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_DeliveryService_1592668,169,agent,channel1,131,687.48,692.48,"By the way, I was going to suggest, given that you will receive the",neutral,0.7325,False,False,False,False,True
+en_AU_DeliveryService_1592668,170,agent,channel1,132,692.48,698.48,"SMS notification from us, if you wanted to, we advise our customers",neutral,0.8005,False,False,False,False,False
+en_AU_DeliveryService_1592668,171,agent,channel1,133,698.48,703.48,"for services like this, it's often a great idea to call the",positive,0.903,False,False,False,False,False
+en_AU_DeliveryService_1592668,172,agent,channel1,134,703.48,705.48,person on the receiving end.,neutral,0.718,False,False,False,False,False
+en_AU_DeliveryService_1592668,173,agent,channel1,135,705.48,709.48,That way someone can be ready and waiting and avoid any further,neutral,0.6791,False,False,False,False,False
+en_AU_DeliveryService_1592668,174,agent,channel1,136,709.48,715.48,"delays, because sometimes we know that these, especially Power",neutral,0.6701,False,False,False,False,False
+en_AU_DeliveryService_1592668,175,agent,channel1,137,715.48,720.48,"Matter Road Church Street locations, can be quite difficult",negative,0.4956,False,False,False,False,False
+en_AU_DeliveryService_1592668,176,customer,channel2,39,715.96,741.96,You know what that's a really good idea Danielle so as soon as I get off the phone I'm going to call the accountant and let them know that as soon as I get the sms that they'll be approaching is that right?,positive,0.8865,False,False,False,False,False
+en_AU_DeliveryService_1592668,177,agent,channel1,138,720.48,722.48,for our drivers.,neutral,0.8004,False,False,False,False,False
+en_AU_DeliveryService_1592668,178,agent,channel1,139,722.48,725.48,So someone being out there already on hand is very helpful for,positive,0.7758,False,False,False,False,False
+en_AU_DeliveryService_1592668,179,agent,channel1,140,725.48,726.48,"them, too.",neutral,0.8373,False,False,False,False,False
+en_AU_DeliveryService_1592668,180,agent,channel1,141,726.48,728.48,I know how important these documents are for you.,positive,0.7923,False,False,False,False,False
+en_AU_DeliveryService_1592668,181,agent,channel1,142,728.48,735.48,"That's where they'll have, it's within that 20-minute window,",neutral,0.8397,False,False,False,False,False
+en_AU_DeliveryService_1592668,182,agent,channel1,143,735.48,738.48,"or basically say, like, our driver's 20 minutes away.",neutral,0.7957,False,False,False,False,False
+en_AU_DeliveryService_1592668,183,agent,channel1,144,738.48,742.48,"So what you'll do, give them the call on the phone this",neutral,0.8857,False,False,False,False,False
+en_AU_DeliveryService_1592668,184,agent,channel1,145,742.48,743.48,afternoon.,neutral,0.7243,False,False,False,False,False
+en_AU_DeliveryService_1592668,185,agent,channel1,146,743.48,746.48,"Just let them know that, basically, they will, you know,",neutral,0.7198,False,False,False,False,False
+en_AU_DeliveryService_1592668,186,customer,channel2,40,745.96,749.96,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_DeliveryService_1592668,187,agent,channel1,147,746.48,750.48,"you'll get a text message to say it's 20 minutes away, and you'll",neutral,0.8283,False,False,False,False,False
+en_AU_DeliveryService_1592668,188,agent,channel1,148,750.48,752.48,give them a call then.,neutral,0.8797,False,False,False,False,False
+en_AU_DeliveryService_1592668,189,agent,channel1,149,752.48,756.48,"And then tell them to be around or in the vicinity of, or at",neutral,0.8028,False,False,False,False,False
+en_AU_DeliveryService_1592668,190,agent,channel1,150,756.48,759.48,"least someone by the phone, just because, you know, how these",neutral,0.829,False,False,False,False,False
+en_AU_DeliveryService_1592668,191,agent,channel1,151,759.48,762.48,"things happen, people are missed, and, you know, they go away",negative,0.4985,False,False,False,False,False
+en_AU_DeliveryService_1592668,192,agent,channel1,152,762.48,763.48,and something happens.,neutral,0.736,False,False,False,False,False
+en_AU_DeliveryService_1592668,193,agent,channel1,153,763.48,766.48,"So, you know, it's a very important thing to know,",positive,0.7532,False,False,False,False,False
+en_AU_DeliveryService_1592668,194,agent,channel1,154,766.48,768.48,especially when you're on the phone.,neutral,0.6982,False,False,False,False,False
+en_AU_DeliveryService_1592668,195,agent,channel1,155,768.48,771.48,"You know, it's a very important thing to know.",positive,0.7963,False,False,False,False,False
+en_AU_DeliveryService_1592668,196,agent,channel1,156,771.48,773.48,"Just because, you know, how these things happen, people are",neutral,0.7005,False,False,False,False,False
+en_AU_DeliveryService_1592668,197,agent,channel1,157,773.48,777.48,"missed, and, you know, they go away and someone's there, but the",neutral,0.6371,False,False,False,False,False
+en_AU_DeliveryService_1592668,198,customer,channel2,41,775.96,793.96,Yeah well I mean I think because it's an office and I know that they've got nine to five hours with a receptionist there nine to five I think we're okay as long as it makes it there by five p.m.,neutral,0.5556,False,False,False,False,False
+en_AU_DeliveryService_1592668,199,agent,channel1,158,777.48,780.48,"driver can't find them, and then we don't want any other delays,",negative,0.8373,False,False,False,False,False
+en_AU_DeliveryService_1592668,200,agent,channel1,159,780.48,782.48,"you know, with your package.",neutral,0.8455,False,False,False,False,False
+en_AU_DeliveryService_1592668,201,customer,channel2,42,793.96,805.96,But can I ask you look I hate to be sort of a negative Nancy but what would happen if it doesn't make it there by five p.m. and the office closes?,neutral,0.5946,False,False,False,False,False
+en_AU_DeliveryService_1592668,202,agent,channel1,160,802.48,805.48,"So, it should definitely be there because it's on that",positive,0.5228,False,False,False,False,False
+en_AU_DeliveryService_1592668,203,agent,channel1,161,805.48,807.48,priority service.,neutral,0.6992,False,False,False,False,False
+en_AU_DeliveryService_1592668,204,agent,channel1,162,807.48,811.48,"More so, it's just about having someone, you know, ready around",neutral,0.6933,False,False,False,False,False
+en_AU_DeliveryService_1592668,205,agent,channel1,163,811.48,812.48,on hand.,neutral,0.7856,False,False,False,False,False
+en_AU_DeliveryService_1592668,206,agent,channel1,164,812.48,815.48,"It's fantastic that there is a receptionist that is, you know,",positive,0.956,False,False,False,False,False
+en_AU_DeliveryService_1592668,207,agent,channel1,165,815.48,818.48,able to take those calls and be there.,neutral,0.8595,False,False,False,False,False
+en_AU_DeliveryService_1592668,208,agent,channel1,166,818.48,822.48,"We also took your number, if you recall, on the call, like",neutral,0.9197,False,False,False,False,False
+en_AU_DeliveryService_1592668,209,agent,channel1,167,822.48,826.48,"earlier on our call, and that was so that if there is or are",neutral,0.8898,False,False,False,False,False
+en_AU_DeliveryService_1592668,210,customer,channel2,43,823.96,845.96,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_DeliveryService_1592668,211,agent,channel1,168,826.48,830.48,"any issues with getting, you know, a hold of someone at the",neutral,0.8703,False,False,False,False,False
+en_AU_DeliveryService_1592668,212,agent,channel1,169,830.48,833.48,"power matter office, I can instruct the driver to give",neutral,0.8869,False,False,False,False,False
+en_AU_DeliveryService_1592668,213,agent,channel1,170,833.48,837.48,"you a call straight away, and then that way they can call",neutral,0.8041,False,False,False,False,False
+en_AU_DeliveryService_1592668,214,agent,channel1,171,837.48,840.48,"you, and then, you know, you can see if anything has",neutral,0.8723,False,False,False,False,False
+en_AU_DeliveryService_1592668,215,agent,channel1,172,840.48,842.48,happened with you first.,neutral,0.8966,False,False,False,False,False
+en_AU_DeliveryService_1592668,216,agent,channel1,173,842.48,845.48,"That's only if we can't get through to them, of course.",negative,0.6818,False,False,False,False,False
+en_AU_DeliveryService_1592668,217,customer,channel2,44,845.96,869.96,Okay and so do I have to pay for a re-delivery fee if they don't make it by five p.m.,neutral,0.5821,False,False,False,False,False
+en_AU_DeliveryService_1592668,218,agent,channel1,174,853.48,856.48,"Look, Maria, if it doesn't get there today, I can assure",neutral,0.4718,False,False,False,False,False
+en_AU_DeliveryService_1592668,219,agent,channel1,175,856.48,859.48,"you, you know, I'll speak with my supervisor to",neutral,0.8703,False,False,False,False,False
+en_AU_DeliveryService_1592668,220,agent,channel1,176,859.48,863.48,"confirm one second, but, you know, I think we should be",neutral,0.787,False,False,False,False,False
+en_AU_DeliveryService_1592668,221,agent,channel1,177,863.48,867.48,"able to get that through to you, you know, you without",neutral,0.7465,False,False,False,False,False
+en_AU_DeliveryService_1592668,222,agent,channel1,178,867.48,870.48,additional costs to you if that happened.,negative,0.55,False,False,False,False,False
+en_AU_DeliveryService_1592668,223,customer,channel2,45,869.96,888.96,Okay look um you can never be too sure and you know once these things start to go wrong they just seem to go down this rabbit hole Danielle as you know um so I just want to make sure that these documents get to my accountant and I can just finish my tax return um and just be done with it.,neutral,0.6168,False,False,False,False,False
+en_AU_DeliveryService_1592668,224,customer,channel2,46,888.96,895.96,But thank you so much for being so helpful.,positive,0.9711,False,False,False,False,False
+en_AU_DeliveryService_1592668,225,agent,channel1,179,889.48,892.48,"Yeah, of course, no worries.",positive,0.7985,False,False,False,False,False
+en_AU_DeliveryService_1592668,226,agent,channel1,180,892.48,895.48,"Look, Maria, is there anything else I can help you with today?",neutral,0.7943,False,False,True,True,False
+en_AU_DeliveryService_1592668,227,customer,channel2,47,895.96,901.96,No thank you so much take care.,positive,0.8481,False,False,False,False,False
+en_AU_DeliveryService_1592668,228,agent,channel1,181,898.48,899.48,You're welcome.,positive,0.8279,False,False,False,False,False
+en_AU_DeliveryService_1592668,229,agent,channel1,182,899.48,901.48,Good luck with your tax return.,positive,0.9356,False,False,False,False,False
+en_AU_DeliveryService_1592668,230,customer,channel2,48,901.96,913.96,Thanks.,positive,0.7303,False,False,False,False,False

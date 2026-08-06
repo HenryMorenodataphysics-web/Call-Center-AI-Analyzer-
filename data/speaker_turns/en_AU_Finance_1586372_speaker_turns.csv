@@ -1,0 +1,60 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Finance_1586372,1,agent,channel1,1,0.0,20.84,"Thank you for my NG, my name is Mary, and how can I assist you today?"
+en_AU_Finance_1586372,2,customer,channel2,1,0.0,29.98,"Hi Mom, it's Jenny and I'm just looking at um maybe looking at getting them"
+en_AU_Finance_1586372,3,customer,channel2,2,29.98,44.88,investment loan out. I'm actually just looking at expending my portfolio but I
+en_AU_Finance_1586372,4,agent,channel1,2,30.0,39.0,Okay. Do you currently have any other loans willing?
+en_AU_Finance_1586372,5,customer,channel2,3,44.88,50.48,don't have very much liquidate liquidity and I'm not sure whether that's going to
+en_AU_Finance_1586372,6,agent,channel1,3,48.0,49.0,Sure.
+en_AU_Finance_1586372,7,agent,channel1,4,49.0,63.0,"Look, I understand you're interested in applying for an investment loan to expand your portfolio, but need some additional liquidity."
+en_AU_Finance_1586372,8,customer,channel2,4,50.48,52.48,be a problem or not.
+en_AU_Finance_1586372,9,agent,channel1,5,63.0,85.0,"Yeah. I can certainly help you with that. To start, look, investment loans are going to clients who meet certain eligibility requirements, including like his link, an acceptable credit history and some of the sufficient collateral or existing assets."
+en_AU_Finance_1586372,10,customer,channel2,5,80.48,109.48,Yes.
+en_AU_Finance_1586372,11,agent,channel1,6,85.0,93.0,And I just check that you can hear me okay. I think there's a little bit.
+en_AU_Finance_1586372,12,agent,channel1,7,97.0,107.0,"Okay. All right. But to go ahead with this, can I get some information from you on any accounts that you're holding with it?"
+en_AU_Finance_1586372,13,customer,channel2,6,109.48,118.48,"Let's do it again. Oh yes I do, yes."
+en_AU_Finance_1586372,14,agent,channel1,8,110.0,112.0,Do you have any accounts with us?
+en_AU_Finance_1586372,15,agent,channel1,9,112.0,117.0,Do you have an account number that I can have?
+en_AU_Finance_1586372,16,customer,channel2,7,118.48,129.48,The account number is 495123459.
+en_AU_Finance_1586372,17,agent,channel1,10,124.0,129.0,"Perfect. Thank you so much for that. And Jenny, was it?"
+en_AU_Finance_1586372,18,customer,channel2,8,129.48,158.48,That was yes.
+en_AU_Finance_1586372,19,agent,channel1,11,131.0,133.0,Okay. Fantastic. Thank you.
+en_AU_Finance_1586372,20,agent,channel1,12,134.0,146.0,"Okay. Look, interest rates and repayments can vary depending on the loan amount, your financial profile, and type of investment you plan to make."
+en_AU_Finance_1586372,21,agent,channel1,13,147.0,157.0,Our rates are typically very competitive. And now what type of investment are we looking at?
+en_AU_Finance_1586372,22,customer,channel2,9,158.48,174.48,I'm thinking maybe property investment. Nothing too risky as this is one of my
+en_AU_Finance_1586372,23,agent,channel1,14,164.0,170.0,"Okay. Sure. So, sorry, say that again."
+en_AU_Finance_1586372,24,customer,channel2,10,175.48,203.48,first investments so I don't want to risky to start with.
+en_AU_Finance_1586372,25,agent,channel1,15,177.0,178.0,Sure.
+en_AU_Finance_1586372,26,agent,channel1,16,183.0,188.0,"Look, I can help you with that. And there are some information available on our website as well."
+en_AU_Finance_1586372,27,agent,channel1,17,189.0,201.0,"I'm one of the investment specialists. And if I get from you, I can put my credit rates and some details and then I can talk to you through our application with this."
+en_AU_Finance_1586372,28,customer,channel2,11,203.48,211.48,Okay that'd be great.
+en_AU_Finance_1586372,29,agent,channel1,18,205.0,210.0,All right. And do you know how much of investment you're looking for?
+en_AU_Finance_1586372,30,agent,channel1,19,211.0,225.0,"Okay. So, could I get your animal income and some information like that and then I can input all of that into an online trading quarter?"
+en_AU_Finance_1586372,31,customer,channel2,12,211.48,235.48,No I'm not quite sure sorry.
+en_AU_Finance_1586372,32,agent,channel1,20,226.0,233.0,"Can we get you some of the information? Otherwise, I'm thinking stock performances?"
+en_AU_Finance_1586372,33,agent,channel1,21,234.0,239.0,"Yeah, all right."
+en_AU_Finance_1586372,34,customer,channel2,13,235.48,244.48,That sounds like a good idea.
+en_AU_Finance_1586372,35,agent,channel1,22,241.0,243.0,"Yes, are you there?"
+en_AU_Finance_1586372,36,agent,channel1,23,243.0,270.0,"Look, generally speaking, the banks would like to see like your regular income from your employment and that needs to verify that you have been with the company for some time and you're not in your probation period or anything like that."
+en_AU_Finance_1586372,37,customer,channel2,14,244.48,257.48,What are the requirements to qualify for the loan?
+en_AU_Finance_1586372,38,agent,channel1,24,271.0,285.0,"And then depending on your income and your dependencies and life like circumstances, we can calculate and tell you how much you're eligible to borrow."
+en_AU_Finance_1586372,39,customer,channel2,15,274.48,287.48,Okay great.
+en_AU_Finance_1586372,40,agent,channel1,25,285.0,314.0,"And all of that will depend on what type of a loan you're going for, whether you were talking about a 30-year loan or what, and then your interest repayments, whether you're talking about like fixed terms or principal and interest, interest only, then depending on all of these factors, your repayments can be different."
+en_AU_Finance_1586372,41,customer,channel2,16,304.48,317.48,Okay sounds good.
+en_AU_Finance_1586372,42,agent,channel1,26,316.0,342.0,"The other thing that I would mention is we have a calculator on our right that is also very helpful, but if I get some basic information from you, I can input them into our system or if you want, the other option is to give you an appointment with one of our specialists or advisers once you collect all of your information."
+en_AU_Finance_1586372,43,customer,channel2,17,334.48,363.48,Um that sounds like a good idea. I think I'd like to arrange a follow up.
+en_AU_Finance_1586372,44,agent,channel1,27,343.0,348.0,And then you can discuss all your possible details with them.
+en_AU_Finance_1586372,45,agent,channel1,28,355.0,358.0,"Okay, alright, we can definitely do that."
+en_AU_Finance_1586372,46,agent,channel1,29,360.0,368.0,Let me have a look at the advisers availability and then they can discuss the investment loan options in more detail with you.
+en_AU_Finance_1586372,47,customer,channel2,18,364.48,387.48,Probably next week will be better.
+en_AU_Finance_1586372,48,agent,channel1,30,369.0,376.0,"Okay, would you prefer something this week or next week?"
+en_AU_Finance_1586372,49,agent,channel1,31,379.0,386.0,"Okay, next week looks pretty good. I can fit you in pretty much any day. Any preference with me around?"
+en_AU_Finance_1586372,50,customer,channel2,19,387.48,397.48,Any day's fine.
+en_AU_Finance_1586372,51,agent,channel1,32,388.0,396.0,"Any day? Okay, fantastic. So how about I put you in on Wednesday morning at 10am with Adrian?"
+en_AU_Finance_1586372,52,customer,channel2,20,397.48,412.48,That sounds great. Yes please.
+en_AU_Finance_1586372,53,agent,channel1,33,399.0,412.0,"Okay, so Jenny, so what I will do, if none of your information has changed, I've put your email account here, which is an Outlook one, is that correct?"
+en_AU_Finance_1586372,54,customer,channel2,21,412.48,428.48,Yeah that's correct.
+en_AU_Finance_1586372,55,agent,channel1,34,414.0,424.0,"Fantastic, I will send you a confirmation if you're booking shortly to your email address and you can talk to Adrian about this on Wednesday next week."
+en_AU_Finance_1586372,56,agent,channel1,35,425.0,428.0,Was there anything else I can ask you to do today?
+en_AU_Finance_1586372,57,customer,channel2,22,428.48,436.48,No that's all for today thank you.
+en_AU_Finance_1586372,58,agent,channel1,36,431.0,436.0,"Thanks, thanks for calling us and we look forward to helping you with your investment."
+en_AU_Finance_1586372,59,customer,channel2,23,436.48,439.48,Thanks.

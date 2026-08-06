@@ -1,0 +1,66 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Energy_1586372,1,agent,channel1,1,0.0,10.0,"Hi, thanks for contacting Origin Energy. My name is Emily Her. Can I help you today?",positive,0.6995,False,False,True,False,False
+en_AU_Energy_1586372,2,customer,channel2,1,0.0,15.28,"Hi, my name is Jenny and I'm just moving to a new address and I'm looking at getting electricity",neutral,0.8434,False,False,False,False,False
+en_AU_Energy_1586372,3,agent,channel1,2,10.0,26.52,"Hi, Jenny. Yeah, sure. I can definitely help you with that. Can I ask if you would like",positive,0.8009,False,False,False,False,False
+en_AU_Energy_1586372,4,customer,channel2,2,15.28,34.28,"into my house. And I was wondering if you could help me with that? Oh no, I'd like to be a",neutral,0.5944,False,False,False,False,False
+en_AU_Energy_1586372,5,agent,channel1,3,26.52,35.96,"to transfer to your new home, your existing energy, or you are a new customer? New customer,",neutral,0.9251,False,False,True,False,False
+en_AU_Energy_1586372,6,customer,channel2,3,34.28,61.28,"new customer, please. At the moment it's the only one. We're just doing it slowly, yep.",neutral,0.4995,False,False,False,False,False
+en_AU_Energy_1586372,7,agent,channel1,4,35.96,42.92,"okay. So for new customers, we'll need to set up your account and we have a couple of options here",neutral,0.8436,False,False,False,False,False
+en_AU_Energy_1586372,8,agent,channel1,5,42.92,50.36,"that you can choose from. But before I proceed with that, electricity is the only connection that",neutral,0.8481,False,False,False,False,False
+en_AU_Energy_1586372,9,agent,channel1,6,50.44,64.04,"you're after today. Okay, no problem. So I will need to receive some information from you. Can",neutral,0.5043,False,False,False,False,False
+en_AU_Energy_1586372,10,customer,channel2,4,62.28,86.28,"Yeah, it's Jennifer Carol O'Brien. Oh, it will be yes. Yes.",positive,0.9195,False,False,False,False,False
+en_AU_Energy_1586372,11,agent,channel1,7,64.04,73.72,you please come from your full name for me? Yep. And you will be the account holder.,neutral,0.6619,False,False,True,False,False
+en_AU_Energy_1586372,12,agent,channel1,8,74.12,82.92,The solar. Yep. Okay. Yep. And what is your residential address? Is that a residential,neutral,0.8469,False,False,True,False,False
+en_AU_Energy_1586372,13,agent,channel1,9,82.92,87.56,"address that you are connecting? I said you knew your home. Yeah. Okay, what's the full address,",neutral,0.8965,False,False,True,False,False
+en_AU_Energy_1586372,14,customer,channel2,5,86.28,101.28,"It will be 31 David Street, Sydney. 41225.",neutral,0.94,False,False,False,False,False
+en_AU_Energy_1586372,15,agent,channel1,10,87.56,109.32,"please? What's the post coming? Okay, thank you so much. And what's your best contact number, Jenny?",positive,0.6719,False,False,True,False,False
+en_AU_Energy_1586372,16,customer,channel2,6,101.28,118.28,04 419 2514. Yeah.,neutral,0.7678,False,False,False,False,False
+en_AU_Energy_1586372,17,agent,channel1,11,109.32,126.2,"Yeah. 2514, was it? Okay. And would you like us to put your email address on the account?",neutral,0.8811,False,False,True,False,False
+en_AU_Energy_1586372,18,customer,channel2,7,118.28,129.28,"Yeah. Um, yes, please. Yes, yes.",positive,0.8604,False,False,False,False,False
+en_AU_Energy_1586372,19,agent,channel1,12,126.2,146.52,"Yeah. Okay, what's your email address? Yep. Yep. Yep. Okay, fantastic. Thank you so much.",positive,0.9837,False,False,True,False,False
+en_AU_Energy_1586372,20,customer,channel2,8,129.28,143.28,"It's Jenny, all lower cases, triple one, 2018 at Outlock.com.",neutral,0.882,False,False,False,False,False
+en_AU_Energy_1586372,21,agent,channel1,13,147.16,156.92,"And can I also receive, can I also confirm that you wouldn't have any additional",neutral,0.8474,False,False,False,False,False
+en_AU_Energy_1586372,22,agent,channel1,14,158.36,170.28,"account holders here? All right, that's not a problem. I will need to also check with you if",neutral,0.6763,False,False,True,False,False
+en_AU_Energy_1586372,23,customer,channel2,9,160.28,175.28,"No, yeah, no, it's just me.",neutral,0.6452,False,False,False,False,False
+en_AU_Energy_1586372,24,agent,channel1,15,170.36,174.68,you have any assisted medical equipment in the house.,neutral,0.8902,False,False,False,False,False
+en_AU_Energy_1586372,25,customer,channel2,10,175.28,181.28,I do. I have a make alarm. Yeah.,neutral,0.6848,False,False,False,False,False
+en_AU_Energy_1586372,26,agent,channel1,16,178.76,188.6,Yeah. Okay. All right. So we just need to make a note of that in case of any emergencies and,neutral,0.7569,False,False,False,False,False
+en_AU_Energy_1586372,27,agent,channel1,17,188.6,200.36,any outages. All right. Okay. The good news is there is service available in your area and we,positive,0.7338,False,False,False,False,False
+en_AU_Energy_1586372,28,agent,channel1,18,200.36,210.28,can go ahead with this connection. I just need to get some more details from you. So when would,neutral,0.8493,False,False,False,False,False
+en_AU_Energy_1586372,29,customer,channel2,11,205.28,234.28,"Um, well, we move in on Wednesday. So I would really like it available the day before, so Tuesday, the next Tuesday, so the fifth of November.",positive,0.7576,False,False,False,False,False
+en_AU_Energy_1586372,30,agent,channel1,19,210.36,220.36,you like the electricity to be available at your new address? Sure.,neutral,0.7516,False,False,True,False,False
+en_AU_Energy_1586372,31,agent,channel1,20,228.12,232.84,That's not a problem at all. We can actually connect them as soon as like this afternoon for,positive,0.653,False,False,False,False,False
+en_AU_Energy_1586372,32,agent,channel1,21,232.84,240.04,"you. So next Tuesday, I will put that as your connection. So your billings will start from the",neutral,0.9406,False,False,False,False,False
+en_AU_Energy_1586372,33,customer,channel2,12,234.28,247.28,Okay. Yeah.,neutral,0.6615,False,False,False,False,False
+en_AU_Energy_1586372,34,agent,channel1,22,240.04,258.12,"fifth and yeah, sure. There is, but it's very minimal. It's about $12 for the installation",neutral,0.7441,False,False,False,False,False
+en_AU_Energy_1586372,35,customer,channel2,13,247.28,260.28,"Um, just a question, sorry. Are there any installation charges?",neutral,0.7221,False,False,False,False,False
+en_AU_Energy_1586372,36,agent,channel1,23,258.12,267.32,and it's a one-off fee. This will get added to your first bill and then from there on and there,neutral,0.8948,False,False,False,False,False
+en_AU_Energy_1586372,37,customer,channel2,14,260.28,265.28,"Okay, cool. No, that's all right.",positive,0.6148,False,False,False,False,False
+en_AU_Energy_1586372,38,customer,channel2,15,265.28,271.28,"Oh, yeah.",neutral,0.4814,False,False,False,False,False
+en_AU_Energy_1586372,39,agent,channel1,24,267.32,284.52,won't be any other charges on that. Yes. So our billing services is done on a quarterly basis,neutral,0.8617,False,False,False,False,False
+en_AU_Energy_1586372,40,customer,channel2,16,271.28,300.28,"Um, just about the billing cycles. How does it present itself like? How does it go?",neutral,0.9255,False,False,False,False,False
+en_AU_Energy_1586372,41,agent,channel1,25,285.08,293.64,and what will happen is generally it's on there is a monthly fee and like the service fee and then,neutral,0.8981,False,False,False,False,False
+en_AU_Energy_1586372,42,agent,channel1,26,293.64,299.4,there is a usage fee. Obviously usage will be dependent on you and all of these is provided in,neutral,0.9086,False,False,False,False,False
+en_AU_Energy_1586372,43,agent,channel1,27,299.4,306.28,the breakdown format. So you will actually receive all of those on your bills. Would you like to,neutral,0.9005,False,False,False,False,False
+en_AU_Energy_1586372,44,customer,channel2,17,300.28,327.28,"Um, online, please.",neutral,0.8213,False,False,False,False,False
+en_AU_Energy_1586372,45,agent,channel1,28,307.08,316.2,receive your bills on a paper format or online? Online. Okay. So that will come to your email that,neutral,0.9069,False,False,True,False,False
+en_AU_Energy_1586372,46,agent,channel1,29,316.2,322.68,"you provided and all the due dates and the cycles and the dates that are charged, including the",neutral,0.9207,False,False,False,False,False
+en_AU_Energy_1586372,47,agent,channel1,30,322.76,325.88,peak and unpeak hours will be listed in your bills.,neutral,0.92,False,False,False,False,False
+en_AU_Energy_1586372,48,customer,channel2,18,327.28,333.28,Cool. And do you just one more question? Do you have any optional plans?,positive,0.535,False,False,False,False,False
+en_AU_Energy_1586372,49,customer,channel2,19,333.28,336.28,"Oh, are they all the same?",neutral,0.7041,False,False,False,False,False
+en_AU_Energy_1586372,50,agent,channel1,31,335.32,342.68,"No, no, no. We do have two options and we have a deal for this month that it's called the green",neutral,0.804,False,False,False,False,False
+en_AU_Energy_1586372,51,agent,channel1,32,342.68,351.96,savings. So the green savings is very suitable for people who don't really use a lot of energy,positive,0.7292,False,False,False,False,False
+en_AU_Energy_1586372,52,agent,channel1,33,351.96,359.0,"throughout the day. You know, like we have a lot of people who are not at home throughout the day and",neutral,0.8255,False,False,False,False,False
+en_AU_Energy_1586372,53,agent,channel1,34,359.0,367.4,most of the electricity usage is at night and this will give them a lot of bonuses in that sense.,positive,0.5065,False,False,False,False,False
+en_AU_Energy_1586372,54,customer,channel2,20,363.28,379.28,Right.,neutral,0.6264,False,False,False,False,False
+en_AU_Energy_1586372,55,agent,channel1,35,367.4,373.16,So what that means is the rates applied throughout the days are slightly cheaper.,neutral,0.7864,False,False,False,False,False
+en_AU_Energy_1586372,56,agent,channel1,36,374.44,378.6,So that will really depend on your lifestyle. Is that the one that you would like to go?,neutral,0.8829,False,False,True,False,False
+en_AU_Energy_1586372,57,agent,channel1,37,379.0,388.92,"Your home all day. So if you're home all day, I suggest our regular services would probably suit you best.",positive,0.7162,False,False,False,False,False
+en_AU_Energy_1586372,58,customer,channel2,21,379.28,389.28,"Um, no, I'm home all day.",neutral,0.7958,False,False,False,False,False
+en_AU_Energy_1586372,59,customer,channel2,22,389.28,411.28,"All right, that sounds like a plan. Thank you.",positive,0.8864,False,False,False,False,False
+en_AU_Energy_1586372,60,agent,channel1,38,391.88,400.36,"Okay, no problem. So Jenny, you will receive a confirmation of your account creation as well as",positive,0.5051,False,False,False,False,True
+en_AU_Energy_1586372,61,agent,channel1,39,400.36,406.68,the installation date that is booked for you next Tuesday in your email account soon. And,neutral,0.885,False,False,False,False,False
+en_AU_Energy_1586372,62,agent,channel1,40,407.24,410.36,"if you have any other questions, please feel free to call us back.",neutral,0.8192,False,False,False,False,False
+en_AU_Energy_1586372,63,customer,channel2,23,411.28,415.28,"Okay, that'd be great. Thank you.",positive,0.9731,False,False,False,False,False
+en_AU_Energy_1586372,64,agent,channel1,41,413.08,422.6,"Thank you and good luck with the move. Thanks, bye-bye.",positive,0.9404,False,False,False,False,False
+en_AU_Energy_1586372,65,customer,channel2,24,415.28,421.28,Thank you. Bye.,positive,0.5915,False,False,False,False,False

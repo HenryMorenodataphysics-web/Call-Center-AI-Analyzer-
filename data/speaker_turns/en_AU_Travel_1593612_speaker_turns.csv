@@ -1,0 +1,110 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Travel_1593612,1,agent,channel1,1,0.0,17.92,"Good morning, thank you for calling Darling Husky Resorts."
+en_AU_Travel_1593612,2,customer,channel2,1,0.0,29.84,"Hi Filomena, my name is Sally, um, I'm planning a ski trip"
+en_AU_Travel_1593612,3,agent,channel1,2,17.92,21.76,"This is Philomena speaking, how can I assist you today?"
+en_AU_Travel_1593612,4,customer,channel2,2,29.84,37.28,"for my family. I've got two beautiful daughters and one son. Um, and I wanted to book a ski resort"
+en_AU_Travel_1593612,5,agent,channel1,3,30.0,48.4,"Of course, I'd be happy to assist with your ski trip. Can you tell me the ages of your children please?"
+en_AU_Travel_1593612,6,customer,channel2,3,37.28,40.56,"package for us with you. Um, can you help me with that?"
+en_AU_Travel_1593612,7,customer,channel2,4,50.08,58.72,"So I've got two beautiful twins. Um, they're 10, both 10, both the girls are 10. They're lovely."
+en_AU_Travel_1593612,8,customer,channel2,5,58.72,68.4,"They're Alan Charlotte and my son, he's five. His name, his name is Ben. He's a bit of a ratbag, but"
+en_AU_Travel_1593612,9,agent,channel1,4,60.0,89.84,"Absolutely, so for a party of five, can you advise on the approximate date you're wanting to book for?"
+en_AU_Travel_1593612,10,customer,channel2,6,68.4,76.48,"you know, still a bit of an angel. Um, and I've also got my husband, I forgot to mention my husband,"
+en_AU_Travel_1593612,11,customer,channel2,7,76.48,84.16,"bloody old Roger. Anyway, um, yeah, I think that's what I was meant to tell you."
+en_AU_Travel_1593612,12,customer,channel2,8,88.72,94.88,I think I'm going to book for
+en_AU_Travel_1593612,13,agent,channel1,5,90.0,110.24,"Absolutely, early August. I can have a look at potential dates, but maybe something from"
+en_AU_Travel_1593612,14,customer,channel2,9,97.12,106.56,"a wake in August, early August, I think."
+en_AU_Travel_1593612,15,customer,channel2,10,106.56,120.4,"Yeah, that sounds good. Pull out the school, the kids from school for a week. You know the drill."
+en_AU_Travel_1593612,16,agent,channel1,6,110.24,123.52,"about the third until the ninth? Certainly, let me check the availability for your dates."
+en_AU_Travel_1593612,17,agent,channel1,7,125.12,130.64,"So we have several ski packages that we offer for our family. We have our family ski package,"
+en_AU_Travel_1593612,18,agent,channel1,8,130.64,136.72,"which includes lodging, lift tickets, equipment rental and lessons. Would you like more information"
+en_AU_Travel_1593612,19,customer,channel2,11,136.56,150.4,"Yeah, that'd be great. Thank you."
+en_AU_Travel_1593612,20,agent,channel1,9,136.72,140.08,on that package as I believe that's the one best suited for you?
+en_AU_Travel_1593612,21,agent,channel1,10,144.16,149.12,"Absolutely, so our family ski package includes lodging, so you'll get to stay one of our crazy"
+en_AU_Travel_1593612,22,agent,channel1,11,149.12,157.36,"mountain view cabins, which can accommodate up to four people. So we also have the lift ticket,"
+en_AU_Travel_1593612,23,agent,channel1,12,157.36,162.72,"so this includes a five-day lift ticket for the entire family, so everyone can ski"
+en_AU_Travel_1593612,24,agent,channel1,13,163.28,168.96,as much as they like. It includes equipment rental. We provide either ski or snowboarding
+en_AU_Travel_1593612,25,customer,channel2,12,166.56,180.4,Yeah.
+en_AU_Travel_1593612,26,agent,channel1,14,168.96,176.72,"rentals for everyone in your family, including helmets, skis, poles and boots of all ages."
+en_AU_Travel_1593612,27,agent,channel1,15,176.72,183.28,This package also includes a two-hour group lesson for the children. We also offer private lessons
+en_AU_Travel_1593612,28,customer,channel2,13,181.36,200.24,"Look, love, I want to put the kids in ski lessons for all days. Is that possible at all?"
+en_AU_Travel_1593612,29,agent,channel1,16,183.28,188.0,for adults if you're interested. This package is a great value because it bundles everything
+en_AU_Travel_1593612,30,agent,channel1,17,188.0,200.8,"you'd need for a seamless experience. Absolutely, that will occur an additional cost,"
+en_AU_Travel_1593612,31,agent,channel1,18,200.8,209.68,so we offer two-hour ski sessions either in the morning or for the afternoon. So would you like
+en_AU_Travel_1593612,32,customer,channel2,14,201.52,206.24,"Oh yeah, that's fine."
+en_AU_Travel_1593612,33,agent,channel1,19,209.68,215.92,to have a variety of times or would you like to have a consistent time?
+en_AU_Travel_1593612,34,customer,channel2,15,211.36,224.32,"Look, love, they're not going to school that week. And so I believe that they should be in ski lessons"
+en_AU_Travel_1593612,35,agent,channel1,20,218.16,245.12,"So would you like to have them in multiple ski lessons a day? As I said, we usually have a"
+en_AU_Travel_1593612,36,customer,channel2,16,224.32,229.12,"when they're meant to be in school. They're going to take the whole week off school, may as"
+en_AU_Travel_1593612,37,customer,channel2,17,229.12,235.36,"well just chuck them in some lessons anyway. So let's say, can we put them in from, you know,"
+en_AU_Travel_1593612,38,customer,channel2,18,235.36,243.2,9 a.m. to 3.30 p.m.
+en_AU_Travel_1593612,39,agent,channel1,21,245.12,252.48,"two-hour group lesson for children, so we do recommend not overworking the children"
+en_AU_Travel_1593612,40,agent,channel1,22,253.44,258.4,because it can be emotionally taxing and mentally taxing on them. So we could do a two-hour
+en_AU_Travel_1593612,41,agent,channel1,23,258.4,263.92,"session in the morning, grant them a lunch break, which would be obviously with the parents,"
+en_AU_Travel_1593612,42,agent,channel1,24,263.92,268.48,and then proceed sort of following up on the skills that they learnt in the morning from
+en_AU_Travel_1593612,43,customer,channel2,19,265.36,285.2,"Oh, I really, I really said on them being in all day, but I guess I'll just have to make"
+en_AU_Travel_1593612,44,agent,channel1,25,268.48,273.28,a morning session. They'll be able to fine-tune and practice more in an afternoon session
+en_AU_Travel_1593612,45,agent,channel1,26,273.28,282.8,if that's something you'd like to potentially book.
+en_AU_Travel_1593612,46,agent,channel1,27,282.8,310.4,"Not in your parcel one, but in our main lodge, we do have an indoor pool and an indoor"
+en_AU_Travel_1593612,47,customer,channel2,20,285.2,294.72,"it work. I might have to bring the nanny up with us. And also, do you by any chance have a spa"
+en_AU_Travel_1593612,48,customer,channel2,21,295.84,299.04,"available, a spa room available on the Lodge?"
+en_AU_Travel_1593612,49,agent,channel1,28,310.4,314.0,"steam room, which is a part of our fitness centre."
+en_AU_Travel_1593612,50,customer,channel2,22,315.92,323.28,Do you by any chance have any lodging available with a private spa?
+en_AU_Travel_1593612,51,agent,channel1,29,324.08,331.92,"No, we don't. That is not something that we offer."
+en_AU_Travel_1593612,52,customer,channel2,23,327.84,331.28,That's okay. I guess I'll just have to deal with what you've got.
+en_AU_Travel_1593612,53,agent,channel1,30,332.16,345.84,"Absolutely. So for the dates that you're looking to book, we have a winter special package, which"
+en_AU_Travel_1593612,54,customer,channel2,24,333.28,337.04,"And with the food, is there a food package available at all?"
+en_AU_Travel_1593612,55,customer,channel2,25,345.52,375.12,"Okay, beautiful. And because I am now going to"
+en_AU_Travel_1593612,56,agent,channel1,31,345.84,355.6,"gives you 20% off our family ski package. That also does include breakfast and dinner,"
+en_AU_Travel_1593612,57,agent,channel1,32,356.48,364.4,"lunch. There is multiple places around, and we do have multiple restaurants within the ski resort"
+en_AU_Travel_1593612,58,agent,channel1,33,364.4,369.2,that you can seek lunch from. We also do have room service as well available.
+en_AU_Travel_1593612,59,agent,channel1,34,369.84,387.76,"Well, the lodging is available. It can accommodate up to six people. So because you are currently a"
+en_AU_Travel_1593612,60,customer,channel2,26,375.2,381.04,"have to bring my nanny, I'm going to have to book another room, aren't I?"
+en_AU_Travel_1593612,61,agent,channel1,35,387.76,394.48,"family or a part of your five, your nanny could stay with you, or otherwise we could book an additional room if you'd like."
+en_AU_Travel_1593612,62,customer,channel2,27,396.64,401.44,"Oh, the galities say that I have to have her in separate accommodations. So I'm just going"
+en_AU_Travel_1593612,63,agent,channel1,36,399.2,416.88,"Well, we currently have an early word booking discount of up to 15% if you reserve your package"
+en_AU_Travel_1593612,64,customer,channel2,28,401.52,406.32,to have to do separate accommodations. So just chuck that on. But would you be able to give me a
+en_AU_Travel_1593612,65,customer,channel2,29,406.32,417.36,seasonal discount or a package discount for that one as well?
+en_AU_Travel_1593612,66,agent,channel1,37,416.88,424.08,"more than 30 days in advance. And so since you're booking for the winter season, that will be"
+en_AU_Travel_1593612,67,customer,channel2,30,417.36,423.36,Okay.
+en_AU_Travel_1593612,68,agent,channel1,38,424.08,432.96,applicable to you.
+en_AU_Travel_1593612,69,customer,channel2,31,426.8,433.28,"All right, I guess I'll just have to do that. And then we're cancelling or rescheduling if my kids"
+en_AU_Travel_1593612,70,customer,channel2,32,433.84,440.0,"are super naughty over the winter school holidays, I will threaten to cancel this trip."
+en_AU_Travel_1593612,71,customer,channel2,33,441.44,445.84,"What's your cancellation policies? Because I don't want to, you know, mess myself around."
+en_AU_Travel_1593612,72,customer,channel2,34,446.56,452.48,"I want to be like, yeah, we're not going if you do that. And I want to know my limit"
+en_AU_Travel_1593612,73,customer,channel2,35,452.48,455.36,"how long I can say that for in the holidays, you know."
+en_AU_Travel_1593612,74,agent,channel1,39,454.4,461.44,"Yeah, absolutely. So if you need to cancel or reschedule for any issues, you can do so up to 14 days"
+en_AU_Travel_1593612,75,agent,channel1,40,461.44,469.76,before your schedule arrival for a full refund. Cancellations made within a 14-day period of
+en_AU_Travel_1593612,76,agent,channel1,41,469.76,475.92,your arrival date will incur a 50% charge of the total booking. And then for cancellations made
+en_AU_Travel_1593612,77,agent,channel1,42,475.92,480.96,"within 72 hours of your arrival, the deposit is non-refundable."
+en_AU_Travel_1593612,78,customer,channel2,36,476.64,488.32,"All right. And how much is my deposit? Actually, sorry, I haven't even asked you how much the whole"
+en_AU_Travel_1593612,79,agent,channel1,43,484.08,499.6,"Yep, absolutely. So for your initial package that we'll be adding, that comes to a total of"
+en_AU_Travel_1593612,80,customer,channel2,37,488.32,491.12,thing is. What are you doing?
+en_AU_Travel_1593612,81,agent,channel1,44,499.6,510.96,"$1,400 for the week. That is without the discount. So with the 15% off discount, it does bring it"
+en_AU_Travel_1593612,82,customer,channel2,38,505.84,534.32,"All right, all right. And when do I have to pay that by?"
+en_AU_Travel_1593612,83,agent,channel1,45,510.96,518.4,"to a total of $1,190. But if you are needing to book an additional room for your nanny,"
+en_AU_Travel_1593612,84,agent,channel1,46,518.4,525.52,"that will bring up the total, which will be another $300. So it would actually bring your total"
+en_AU_Travel_1593612,85,agent,channel1,47,527.04,528.64,"to $1,400."
+en_AU_Travel_1593612,86,agent,channel1,48,529.04,548.16,"We can book that now if you'd like, or if you'd like to think about it. We can be booked up until 14"
+en_AU_Travel_1593612,87,customer,channel2,39,536.24,565.2,"All right, all right. What I'm going to have to do is just"
+en_AU_Travel_1593612,88,agent,channel1,49,548.16,554.24,"days beforehand, but we can't guarantee that the package will still exist as it could sell out."
+en_AU_Travel_1593612,89,agent,channel1,50,554.24,559.84,"And if it's not booked at least 30 days beforehand, you do lose the discount."
+en_AU_Travel_1593612,90,customer,channel2,40,565.36,570.64,discuss this with the hubby. But would you be able to email me all those details? Could you just tell
+en_AU_Travel_1593612,91,customer,channel2,41,570.64,576.08,"me those details again? First of all, sorry. And then could you also send that through to me in an"
+en_AU_Travel_1593612,92,customer,channel2,42,576.08,583.76,"email with what discount I'll be receiving with that? Then I'll send it through to my hubby,"
+en_AU_Travel_1593612,93,customer,channel2,43,583.76,591.6,Roger. Talk about it with Roger tonight. Doesn't need much to get him going with a ski trip.
+en_AU_Travel_1593612,94,agent,channel1,51,584.24,601.28,"Absolutely. So all of the details that you've requested, they will be sent in the confirmation"
+en_AU_Travel_1593612,95,customer,channel2,44,591.6,597.6,And then do I need to call you back? Or do I just pay online?
+en_AU_Travel_1593612,96,agent,channel1,52,602.32,606.16,"or, well, the requested email. It's not a confirmation code yet. So you do have the"
+en_AU_Travel_1593612,97,agent,channel1,53,606.16,611.04,"option to book everything. Otherwise, you can give us a call as well. But just to"
+en_AU_Travel_1593612,98,agent,channel1,54,611.04,617.2,"reconfirm everything that you've requested, you are seeking the family winter ski package"
+en_AU_Travel_1593612,99,agent,channel1,55,617.2,623.04,from the dates of the 3rd of August to the 9th of August. You'll be staying in one of our lodges
+en_AU_Travel_1593612,100,customer,channel2,45,621.6,645.36,Awesome. That sounds lovely. Could you send that through to my email? Talk about it with Roger tonight
+en_AU_Travel_1593612,101,agent,channel1,56,623.04,628.32,as a party of five. And we just have as requested the basic room for your nanny
+en_AU_Travel_1593612,102,agent,channel1,57,629.52,640.88,"and the total package for everything is $1,490 for your duration stay with us."
+en_AU_Travel_1593612,103,agent,channel1,58,641.04,651.36,"Absolutely. We'll have that all included. So that will include details about your lodging,"
+en_AU_Travel_1593612,104,customer,channel2,46,645.36,657.12,and I'll get straight back to you.
+en_AU_Travel_1593612,105,agent,channel1,59,651.36,657.92,"the lesson schedules, the lift tickets, and any other additional information"
+en_AU_Travel_1593612,106,agent,channel1,60,657.92,662.08,can be found on our website. So I'll send that over to you. Thank you so much for calling
+en_AU_Travel_1593612,107,agent,channel1,61,662.08,677.12,Darlinghurst ski resorts. Have a lovely day. Thank you. Goodbye.
+en_AU_Travel_1593612,108,customer,channel2,47,665.68,671.12,Thanks. Love you too. See you later. Bye.
+en_AU_Travel_1593612,109,customer,channel2,48,675.36,685.12,Bye.

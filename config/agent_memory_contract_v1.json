@@ -1,0 +1,47 @@
+{
+  "contract_version": "1.0.0",
+  "purpose": "Deterministic accumulated agent memory for evidence-backed coaching.",
+  "default_business_id": "demo_customer_service",
+  "sample_confidence_thresholds": {
+    "moderate_min_calls": 20,
+    "high_min_calls": 50
+  },
+  "pattern_rules": {
+    "minimum_evidence_calls": 3,
+    "maximum_patterns_per_group": 2
+  },
+  "behaviors": [
+    {
+      "id": "empathy",
+      "label": "Empathy",
+      "source_field": "agent_empathy_turns",
+      "portfolio_benchmark": 0.6
+    },
+    {
+      "id": "probing",
+      "label": "Probing",
+      "source_field": "agent_probing_turns",
+      "portfolio_benchmark": 0.85
+    },
+    {
+      "id": "ownership",
+      "label": "Ownership",
+      "source_field": "agent_ownership_turns",
+      "portfolio_benchmark": 0.7
+    },
+    {
+      "id": "next_steps",
+      "label": "Next steps",
+      "source_field": "agent_next_steps_turns",
+      "portfolio_benchmark": 0.7
+    }
+  ],
+  "guardrails": [
+    "Agent Memory contains descriptive portfolio evidence, not an employee score.",
+    "Conversation risk remains an uncalibrated review-priority proxy.",
+    "Portfolio coaching benchmarks are demonstration assumptions, not employer policy.",
+    "Current source domains are parsed from dataset call IDs and are not approved business call types.",
+    "The current dataset has call sequence but no governed event timestamps or prior memory snapshots.",
+    "Low-sample and context-specific patterns must not be generalized or used for automated employment decisions."
+  ]
+}

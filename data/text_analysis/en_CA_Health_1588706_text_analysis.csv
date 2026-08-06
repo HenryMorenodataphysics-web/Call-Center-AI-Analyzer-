@@ -1,0 +1,107 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Health_1588706,1,agent,channel1,1,0.0,14.16,"Hello, and welcome to the Health Association.",positive,0.8494,False,False,False,False,False
+en_CA_Health_1588706,2,customer,channel2,1,0.0,25.32,"Hi, I'm just calling to schedule a consultation with one of your online doctors for a chronic",neutral,0.8451,False,False,False,False,False
+en_CA_Health_1588706,3,agent,channel1,2,14.16,15.16,My name is Julia.,neutral,0.8721,False,False,False,False,False
+en_CA_Health_1588706,4,agent,channel1,3,15.16,27.44,How can I help you?,neutral,0.8413,False,False,True,False,False
+en_CA_Health_1588706,5,customer,channel2,2,25.32,49.76,condition that I have. I do not. I would be able to do this over the phone. I'm not,negative,0.562,False,False,False,False,False
+en_CA_Health_1588706,6,agent,channel1,4,27.44,28.44,We can do that.,positive,0.5895,False,False,False,False,False
+en_CA_Health_1588706,7,agent,channel1,5,28.44,31.44,Do you have an account with us already?,neutral,0.9317,False,False,True,False,False
+en_CA_Health_1588706,8,agent,channel1,6,31.44,38.0,"Okay, so then you'll need to go to our website and create an account.",neutral,0.9163,False,False,False,False,False
+en_CA_Health_1588706,9,agent,channel1,7,38.0,45.44,"And from there, I can help you schedule a consultation, or we can do that, or you can",neutral,0.7438,False,False,False,True,False
+en_CA_Health_1588706,10,agent,channel1,8,45.44,48.44,do that yourself online.,neutral,0.83,False,False,False,False,False
+en_CA_Health_1588706,11,agent,channel1,9,48.44,53.4,"Yep, that is totally fine.",positive,0.8992,False,False,False,False,False
+en_CA_Health_1588706,12,customer,channel2,3,49.76,61.76,"very comfortable working with things online. Yes, I think actually my son just helped me",positive,0.9387,False,False,False,False,False
+en_CA_Health_1588706,13,agent,channel1,10,53.4,59.4,Are you familiar with how to create an account?,neutral,0.9518,False,False,True,False,False
+en_CA_Health_1588706,14,agent,channel1,11,59.4,75.4,"Okay, can you tell me the username associated with your account, please?",neutral,0.9151,False,False,True,False,False
+en_CA_Health_1588706,15,customer,channel2,4,61.76,78.76,"create it, so we should be good to go to schedule the appointment. Yes, it's O-W-E-N-H-E-L-T-H.",neutral,0.5427,False,False,False,False,False
+en_CA_Health_1588706,16,agent,channel1,12,75.4,91.4,"Okay, just to confirm that is O-N-H-E-L-T-H, okay.",neutral,0.6112,False,False,False,False,False
+en_CA_Health_1588706,17,customer,channel2,5,78.76,87.76,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Health_1588706,18,customer,channel2,6,87.76,110.76,"June 19, 1959. AB 372949HH-ON.",neutral,0.9166,False,False,False,False,False
+en_CA_Health_1588706,19,agent,channel1,13,91.4,99.8,"And can you confirm your date of birth, please?",neutral,0.9216,False,False,True,False,False
+en_CA_Health_1588706,20,agent,channel1,14,99.8,106.8,"And your health card number, please?",neutral,0.8992,False,False,True,False,False
+en_CA_Health_1588706,21,agent,channel1,15,106.8,112.48,"Okay, perfect, that is a match.",positive,0.965,False,False,False,False,False
+en_CA_Health_1588706,22,customer,channel2,7,110.76,133.76,"Dermatologist. Would you be able to have any availability this week, or I guess next week",neutral,0.9024,False,False,False,False,False
+en_CA_Health_1588706,23,agent,channel1,16,112.48,117.76,"So yes, you'd like to schedule a consultation.",neutral,0.8372,False,False,False,False,False
+en_CA_Health_1588706,24,agent,channel1,17,117.76,122.2,What type of doctor are you looking for?,neutral,0.9196,False,False,True,False,False
+en_CA_Health_1588706,25,agent,channel1,18,123.2,135.2,"Okay, and when would you like this appointment?",neutral,0.9398,False,False,True,False,False
+en_CA_Health_1588706,26,customer,channel2,8,133.76,157.76,since it's Friday?,neutral,0.9307,False,False,False,False,False
+en_CA_Health_1588706,27,agent,channel1,19,135.2,141.2,"Absolutely, so we're mostly first come first serve.",neutral,0.6581,False,False,False,False,False
+en_CA_Health_1588706,28,agent,channel1,20,141.2,148.2,"So what that means is you'll, you will submit your request for a consultation.",neutral,0.9114,False,False,False,False,False
+en_CA_Health_1588706,29,agent,channel1,21,148.2,151.2,"And as a doctor becomes available, you will wait in the queue.",neutral,0.8288,False,False,False,False,False
+en_CA_Health_1588706,30,agent,channel1,22,151.2,160.2,And then the doctor will arrive and ask you a bunch of questions.,neutral,0.727,False,False,False,False,False
+en_CA_Health_1588706,31,customer,channel2,9,157.76,178.76,And how long will I have to wait in the queue?,negative,0.6958,False,False,False,False,False
+en_CA_Health_1588706,32,agent,channel1,23,160.2,163.2,"That varies, but we're generally very quick.",positive,0.684,False,False,False,False,False
+en_CA_Health_1588706,33,agent,channel1,24,163.2,168.2,Less than 20 minutes is how we work.,neutral,0.6637,False,False,False,False,False
+en_CA_Health_1588706,34,agent,channel1,25,168.2,180.2,"If it ends up being more than that, then we will have them reach out to you personally afterwards.",neutral,0.9138,False,False,False,False,False
+en_CA_Health_1588706,35,customer,channel2,10,178.76,185.76,"Okay, because my friend recommended me to your service, and they've been speaking with",neutral,0.7396,False,False,False,False,False
+en_CA_Health_1588706,36,agent,channel1,26,180.2,196.2,Thank you.,positive,0.8345,False,False,False,False,False
+en_CA_Health_1588706,37,customer,channel2,11,185.76,192.76,"Dr. Bramson, and so I just wanted to see if I would be able to also request him directly",neutral,0.8731,False,False,False,False,False
+en_CA_Health_1588706,38,customer,channel2,12,192.76,211.76,instead of having to get a random doctor assigned to me. Yes.,neutral,0.5155,False,False,False,False,False
+en_CA_Health_1588706,39,agent,channel1,27,196.2,198.2,"Yeah, let me look into that.",neutral,0.7767,False,False,False,False,False
+en_CA_Health_1588706,40,agent,channel1,28,198.2,201.2,"Dr. Bramson, you said.",neutral,0.9031,False,False,False,False,False
+en_CA_Health_1588706,41,agent,channel1,29,201.2,204.2,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Health_1588706,42,agent,channel1,30,204.2,214.2,The next appointment availability will be on Wednesday at 2 30.,neutral,0.9418,False,False,False,False,False
+en_CA_Health_1588706,43,customer,channel2,13,211.76,231.76,"Yes, that should work. Yes, you can. Yes, yeah. If you just do that, that email, that username,",positive,0.8705,False,False,False,False,False
+en_CA_Health_1588706,44,agent,channel1,31,214.2,218.2,"Okay, then I will book you in.",neutral,0.7046,False,False,False,False,False
+en_CA_Health_1588706,45,agent,channel1,32,218.2,225.2,Would I be able to send you a confirmation at that same email address that you provided me?,neutral,0.928,False,False,True,False,False
+en_CA_Health_1588706,46,agent,channel1,33,225.2,228.2,Or rather.,neutral,0.7123,False,False,False,False,False
+en_CA_Health_1588706,47,agent,channel1,34,228.2,234.2,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Health_1588706,48,customer,channel2,14,231.76,245.76,"but at gmail.com, you can send it there. Is there anything I need to do to prepare for this",neutral,0.8602,False,False,False,False,False
+en_CA_Health_1588706,49,agent,channel1,35,234.2,236.2,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Health_1588706,50,agent,channel1,36,236.2,241.2,"Okay, that should be arriving into your inbox shortly.",neutral,0.5805,False,False,False,False,False
+en_CA_Health_1588706,51,agent,channel1,37,241.2,249.2,And.,neutral,0.6558,False,False,False,False,False
+en_CA_Health_1588706,52,customer,channel2,15,245.76,249.76,"appointment, or will it be fine just to show up as is?",neutral,0.8463,False,False,False,False,False
+en_CA_Health_1588706,53,agent,channel1,38,249.2,253.2,Yes. So that is also included in your confirmation email.,neutral,0.7521,False,False,False,False,False
+en_CA_Health_1588706,54,agent,channel1,39,253.2,259.2,"It tells you everything you need to bring to your appointment, including your health card number.",neutral,0.8646,False,False,False,False,False
+en_CA_Health_1588706,55,agent,channel1,40,259.2,263.2,And some other form of identification.,neutral,0.8655,False,False,False,False,False
+en_CA_Health_1588706,56,customer,channel2,16,261.76,289.76,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Health_1588706,57,agent,channel1,41,263.2,267.2,As well as the current medications that you're on.,neutral,0.7054,False,False,False,False,False
+en_CA_Health_1588706,58,agent,channel1,42,267.2,272.2,How long you've had the condition that you want to discuss what the condition is.,neutral,0.8681,False,False,True,False,False
+en_CA_Health_1588706,59,agent,channel1,43,272.2,280.2,"And so on, just like general information that will help the doctor get up to speed as quickly as possible.",neutral,0.716,False,False,False,False,False
+en_CA_Health_1588706,60,agent,channel1,44,280.2,286.2,And you will be taken to a form to fill that out.,neutral,0.8603,False,False,False,False,False
+en_CA_Health_1588706,61,agent,channel1,45,286.2,290.2,Once you click the confirmation email.,neutral,0.8812,False,False,False,False,False
+en_CA_Health_1588706,62,customer,channel2,17,289.76,314.76,And how long does the appointment usually last?,neutral,0.9376,False,False,False,False,False
+en_CA_Health_1588706,63,agent,channel1,46,290.2,294.2,So you'll fill out all that information that will get sent to the doctor.,neutral,0.8591,False,False,False,False,False
+en_CA_Health_1588706,64,agent,channel1,47,294.2,299.2,And they will be able to review that before your appointment.,neutral,0.8785,False,False,False,False,False
+en_CA_Health_1588706,65,agent,channel1,48,299.2,303.2,Confirm those details at your appointment with you once it begins.,neutral,0.9204,False,False,False,False,False
+en_CA_Health_1588706,66,agent,channel1,49,303.2,311.2,And then then your appointment commences.,neutral,0.901,False,False,False,False,False
+en_CA_Health_1588706,67,agent,channel1,50,311.2,332.2,I've booked you in for 30 minutes to start. Would you like me to extend that to longer?,neutral,0.8841,False,False,True,False,False
+en_CA_Health_1588706,68,customer,channel2,18,314.76,324.76,Okay. I think 30 minutes should be fine. I want to make sure that I'm getting seen in an,neutral,0.625,False,False,False,False,False
+en_CA_Health_1588706,69,customer,channel2,19,324.76,328.76,"appropriate amount of time, because often doctors seem to be in a hurry and then you",neutral,0.6816,False,False,False,False,False
+en_CA_Health_1588706,70,customer,channel2,20,328.76,349.76,only get five minutes out of them before you rush out the door.,neutral,0.7209,False,False,False,False,False
+en_CA_Health_1588706,71,agent,channel1,51,332.2,341.2,"I understand that is why we have this wonderful service here where we're very considerate of doctors times, but also patients times.",positive,0.942,False,True,False,False,False
+en_CA_Health_1588706,72,agent,channel1,52,341.2,356.2,And we want to make sure that we have the appropriate length of appointments and that doctors show up at their appointment times.,neutral,0.622,False,False,False,False,False
+en_CA_Health_1588706,73,customer,channel2,21,349.76,369.76,"Great, thank you. And then would I also be able to get a prescription refill through you right now?",positive,0.9065,False,False,False,False,False
+en_CA_Health_1588706,74,agent,channel1,53,356.2,358.2,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_CA_Health_1588706,75,agent,channel1,54,358.2,366.2,Just go over to that section in your profile.,neutral,0.8788,False,False,False,False,False
+en_CA_Health_1588706,76,agent,channel1,55,366.2,381.2,"Okay, and which prescription, which needs to be refilled sir.",neutral,0.905,False,False,False,False,False
+en_CA_Health_1588706,77,customer,channel2,22,369.76,376.76,"I can't remember the name of it, but it's an antibiotic ointment that I use for my skin.",neutral,0.8499,False,False,False,False,False
+en_CA_Health_1588706,78,customer,channel2,23,376.76,385.76,"I'm just running low, and you should be on there.",neutral,0.634,False,False,False,False,False
+en_CA_Health_1588706,79,agent,channel1,56,381.2,388.2,"Okay, do you know the last time you refilled it?",neutral,0.9456,False,False,True,False,False
+en_CA_Health_1588706,80,customer,channel2,24,385.76,399.76,It was about two months ago.,neutral,0.9028,False,False,False,False,False
+en_CA_Health_1588706,81,agent,channel1,57,388.2,393.2,"Okay, I do see one for two months ago, approximately.",neutral,0.8548,False,False,False,False,False
+en_CA_Health_1588706,82,agent,channel1,58,393.2,403.2,The other ones are much older. So it is safe to assume that the two month ago one is the one that you want.,neutral,0.7359,False,False,False,False,False
+en_CA_Health_1588706,83,customer,channel2,25,399.76,417.76,"Yeah, I think I'm looking at the bottle and it says amoxicillin.",neutral,0.7476,False,False,False,False,False
+en_CA_Health_1588706,84,agent,channel1,59,403.2,407.2,"Perfect. Yeah, that could that checks out.",positive,0.9675,False,False,False,False,False
+en_CA_Health_1588706,85,agent,channel1,60,407.2,425.2,So I will trigger the refill for you and you'll get an email of your prescription pickup that you can send to the pharmacy of your choice.,neutral,0.8808,False,False,False,False,False
+en_CA_Health_1588706,86,customer,channel2,26,417.76,422.76,"Perfect, thank you. And then if I need to get lab tests done, obviously this is an online",positive,0.8708,False,False,False,False,False
+en_CA_Health_1588706,87,customer,channel2,27,422.76,447.76,"service, so how does that work?",neutral,0.8595,False,False,False,False,False
+en_CA_Health_1588706,88,agent,channel1,61,425.2,432.2,So lab tests will be requisitioned for you from your doctor.,neutral,0.9208,False,False,False,False,False
+en_CA_Health_1588706,89,agent,channel1,62,432.2,443.2,"So, following your consultation that you have on Wednesday, the doctor will either request or not some specific lab tests for you.",neutral,0.9373,False,False,False,False,False
+en_CA_Health_1588706,90,agent,channel1,63,443.2,454.2,And those will be sent to you electronically to print off.,neutral,0.8874,False,False,False,False,False
+en_CA_Health_1588706,91,customer,channel2,28,447.76,451.76,"And then do I just need to find a place myself to get them done, or will they pick a specific",neutral,0.8495,False,False,False,False,False
+en_CA_Health_1588706,92,agent,channel1,64,454.2,467.2,"And on the test. So for example, for lab for blood tests, there are usually many around in any area.",neutral,0.8737,False,False,False,False,False
+en_CA_Health_1588706,93,agent,channel1,65,467.2,478.2,"So you'll be able to locate the closest one to you and make either make an appointment with them or walk in, depending on the type of clinic.",neutral,0.8468,False,False,False,False,False
+en_CA_Health_1588706,94,customer,channel2,29,477.76,492.76,one?,neutral,0.7703,False,False,False,False,False
+en_CA_Health_1588706,95,agent,channel1,66,478.2,503.2,"But if it is something more like something, maybe an ultrasound that will go through us, depending on how close you are to one of our facilities.",neutral,0.9232,False,False,False,False,False
+en_CA_Health_1588706,96,customer,channel2,30,492.76,505.76,"Okay, that sounds good. Thank you. So just to confirm, I have an appointment at 2.30 on Wednesday.",positive,0.9101,False,False,False,False,False
+en_CA_Health_1588706,97,agent,channel1,67,503.2,512.2,That is correct.,neutral,0.5046,False,False,False,False,False
+en_CA_Health_1588706,98,customer,channel2,31,505.76,509.76,And then they will let me know if I need any lab work done.,neutral,0.9139,False,False,False,False,False
+en_CA_Health_1588706,99,customer,channel2,32,509.76,533.76,And I just need to fill out the forms that are in the confirmation email.,neutral,0.8525,False,False,False,False,False
+en_CA_Health_1588706,100,agent,channel1,68,512.2,514.2,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Health_1588706,101,agent,channel1,69,514.2,527.2,"And from there, from there, it will tell you how you would like to meet this doctor so you can do it over the phone or you could do it over video chat.",neutral,0.8983,False,False,False,False,False
+en_CA_Health_1588706,102,agent,channel1,70,527.2,537.2,And those the link to the video chat will be sent to you if you select that option.,neutral,0.9079,False,False,False,False,False
+en_CA_Health_1588706,103,customer,channel2,33,533.76,539.76,"Okay, that sounds good to me. Thank you for your help today.",positive,0.9684,False,False,False,False,False
+en_CA_Health_1588706,104,agent,channel1,71,537.2,546.2,You're very welcome.,positive,0.9397,False,False,False,False,False
+en_CA_Health_1588706,105,customer,channel2,34,539.76,564.76,"And I guess I won't be seeing you, but thank you again. Bye-bye.",neutral,0.4199,False,False,False,False,False
+en_CA_Health_1588706,106,agent,channel1,72,546.2,565.2,Let me know if you have any more questions. Feel free to call us.,neutral,0.7165,False,False,False,False,False

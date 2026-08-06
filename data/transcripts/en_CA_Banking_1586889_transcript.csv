@@ -1,0 +1,76 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_Banking_1586889,channel1,1,0.0,20.56,"Oh, good afternoon. Thank you for calling North Star Bank customer care. My name is Emily. How can I help you today?"
+en_CA_Banking_1586889,channel1,2,30.0,48.4,"Absolutely. Mr. Carter, I can help you with that. Before we start, can I verify your identity for security purposes?"
+en_CA_Banking_1586889,channel1,3,49.4,54.44,Could you confirm your date of birth and the last four digits of your checking account number?
+en_CA_Banking_1586889,channel1,4,60.0,80.56,"Okay, perfect. Thank you for confirming that. So I've got your account pulled up now. So you'd like to set up an automatic transfer if you're checking to your new savings account, correct?"
+en_CA_Banking_1586889,channel1,5,91.0,103.0,"Okay, does the smart move? Yeah, consistent savings make projects like that a lot easier to handle. So how much would you like to transfer each month?"
+en_CA_Banking_1586889,channel1,6,104.0,118.0,"Great. And would you like that transfer to a cure on a specific date each month? Like, for example, right after you get your paycheck?"
+en_CA_Banking_1586889,channel1,7,118.0,147.0,"Okay. So just to confirm, you'd like to automatically transfer $400 from your checking account ending in 2046 to your savings account ending in 3172 on the second of each month starting in November."
+en_CA_Banking_1586889,channel1,8,149.0,162.0,"Okay, so just let me set that up for you. Okay, that's been entered. Before I finalize it, do you want this transfer to continue indefinitely or would you like to stop it after a certain number of months?"
+en_CA_Banking_1586889,channel1,9,162.0,190.0,"Okay, sounds good. I'll keep it open-ended. Okay, all set. So the first transfer will be scheduled for November 2, 2025, in the amount of $400 Canadian. So you'll see it reflected in your savings account within one business day after that."
+en_CA_Banking_1586889,channel1,10,193.0,218.0,"Oh, good question. Yes, there's a few limits in place, depending on the type of account. So for the regular checking and savings account, like yours, so the maximum automated transfers $10,000 per month."
+en_CA_Banking_1586889,channel1,11,218.0,222.0,"So since you're transferring $400, you're well within the limit."
+en_CA_Banking_1586889,channel1,12,222.0,243.0,"Yeah, for sure. So you can just adjust or cancel the transfer at any time through the mobile app or online banking. So it's at the top in the transfer section."
+en_CA_Banking_1586889,channel1,13,243.0,255.0,So you tap on scheduled transfers and then you'll be able to edit the details. But also you can also call us if you need it so that we can and we can change it for you.
+en_CA_Banking_1586889,channel1,14,255.0,284.0,"Yeah, let me double check. Yeah, so it's confirmed. The first transfer is scheduled for November 2, and afterwards it will continue monthly. So soon you're going to get a confirmation email and a text notification."
+en_CA_Banking_1586889,channel1,15,285.0,288.0,One day before each scheduled transfer.
+en_CA_Banking_1586889,channel1,16,288.0,316.0,"Yeah, absolutely. So you can pause or skip one or more of the scheduled transfers anytime. So you can do that on your online account or by giving us a quick call."
+en_CA_Banking_1586889,channel1,17,317.0,325.0,"So when you pause, the schedule will remain saved. You just skip the select month and then you can resume whenever you're ready."
+en_CA_Banking_1586889,channel1,18,325.0,343.0,"Exactly. So the pause option keeps things flexible, especially if there's like an adjustment like traveling or unexpected expense."
+en_CA_Banking_1586889,channel1,19,355.0,368.0,"Yeah, I can imagine that renovations have a way of growing as they go. What kind of renovation are you planning if you if you don't mind me asking?"
+en_CA_Banking_1586889,channel1,20,386.0,400.0,"Oh, that's a really smart approach, setting up to avoid unnecessary debt and then having a dedicated savings account for that goal. It's good. It keeps you motivated keeps you organized."
+en_CA_Banking_1586889,channel1,21,400.0,425.0,"Yeah, I love that. Also, North Star Bank offers a home project savings bonus. So if you maintain automatic transfers for six months or more, you can get an extra 0.5 0.5% for the following three months. Would you like me to enroll you in that?"
+en_CA_Banking_1586889,channel1,22,431.0,445.0,"So, okay, done. You're now enrolled. So the system will automatically track your transfer history and apply the bonus rate once you've made six consecutive transfers."
+en_CA_Banking_1586889,channel1,23,445.0,458.0,"Yeah, you're very welcome, Mr. Carter. So I can summarize what we've done what we've done today."
+en_CA_Banking_1586889,channel1,24,458.0,472.0,"So we set up an automatic transfer of $400 from your checking to your savings account. It's going to start on November 2, 2025 and repeat monthly until further notice."
+en_CA_Banking_1586889,channel1,25,473.0,483.0,"You're enrolled in the home project savings bonus program and you can pause, change, or cancel your transfers any time online or by phone."
+en_CA_Banking_1586889,channel1,26,483.0,492.0,And a confirmation text and email will be sent to you shortly. Does everything sound correct so far?
+en_CA_Banking_1586889,channel1,27,493.0,504.0,"Okay, great. So is there anything else I can help you with today? Like maybe checking your balance or setting up any alerts?"
+en_CA_Banking_1586889,channel1,28,516.0,518.0,"Yeah, of course. Let me take a quick look."
+en_CA_Banking_1586889,channel1,29,522.0,537.0,"Pardon. Okay, I see your savings account. It says here it's fully linked to your online profile, but sometimes new accounts take 24 to 48 hours to appear in the mobile app, but it's active."
+en_CA_Banking_1586889,channel1,30,537.0,542.0,So you should be able to view both accounts under the My Accounts tab.
+en_CA_Banking_1586889,channel1,31,542.0,558.0,"Okay, sounds good. So once your first transfer goes through, you'll also see the automatic transfer summary appear at the bottom of the dashboard."
+en_CA_Banking_1586889,channel1,32,558.0,567.0,"But if you have any questions or want to change anything, you can always call us 24-7 or use the in-app chat feature."
+en_CA_Banking_1586889,channel1,33,573.0,583.0,"Oh, it's my pleasure, Mr. Carter. I'm glad we could get that set up for you."
+en_CA_Banking_1586889,channel1,34,583.0,591.0,"So before we wrap up, would you like me to send you a monthly reminder summary of your savings progress?"
+en_CA_Banking_1586889,channel1,35,591.0,604.0,"Okay, great. So I've enabled that. You'll get a brief update email at the end of each month showing how much you've saved so far toward your renovation goal."
+en_CA_Banking_1586889,channel1,36,610.0,616.0,"Happy to help. Thank you for banking with Nordster, Mr. Carter. We appreciate your loyalty."
+en_CA_Banking_1586889,channel1,37,616.0,620.0,Is there anything else I can help you with before I let you go?
+en_CA_Banking_1586889,channel1,38,627.0,631.0,"Oh, you too, Mr. Carter, and good luck with your kitchen renovation."
+en_CA_Banking_1586889,channel1,39,631.0,636.0,So thanks for calling Nordster Bank. We look forward to serving you again soon.
+en_CA_Banking_1586889,channel1,40,646.0,650.0,Thank you.
+en_CA_Banking_1586889,channel2,1,0.0,29.12,"Hi, Emily. Good afternoon. My name is James Scarter. I have a checking account with your"
+en_CA_Banking_1586889,channel2,2,29.44,37.2,bank and they just opened a new saving account last week. I went to set up an automatic monthly
+en_CA_Banking_1586889,channel2,3,37.2,40.32,transfer between the two.
+en_CA_Banking_1586889,channel2,4,40.32,65.84,"Sure. My date of birth is October 12, 1983. And the last four digits are 2046."
+en_CA_Banking_1586889,channel2,5,71.28,89.36,That's right. I'm planning on renovation later next year. So I want to start putting some money aside
+en_CA_Banking_1586889,channel2,6,89.44,98.56,every month automatically.
+en_CA_Banking_1586889,channel2,7,105.28,112.56,I was thinking about $400 a month to start.
+en_CA_Banking_1586889,channel2,8,119.6,127.12,Yeah. That's a good idea. Exactly. That's exactly what I want. So I get paid on the first. So let's set
+en_CA_Banking_1586889,channel2,9,127.12,134.56,it for the second on every month just to be safe.
+en_CA_Banking_1586889,channel2,10,134.56,151.76,That's right.
+en_CA_Banking_1586889,channel2,11,164.56,177.76,Let's just keep it going until I say otherwise.
+en_CA_Banking_1586889,channel2,12,177.76,200.96,"Excellent. And out of curiosity, is there a limit on how much I can transfer automatically each month?"
+en_CA_Banking_1586889,channel2,13,207.76,230.96,"Nice. Got it. That's plenty. And if I ever wanted to change that amount later, can I do it online?"
+en_CA_Banking_1586889,channel2,14,237.76,256.96,Excellent.
+en_CA_Banking_1586889,channel2,15,256.96,264.96,Excellent. Could you confirm again that the first one's definitely scheduled for the second?
+en_CA_Banking_1586889,channel2,16,267.76,288.96,Excellent.
+en_CA_Banking_1586889,channel2,17,288.96,292.96,Nice. That gives me peace of mind. Nice.
+en_CA_Banking_1586889,channel2,18,292.96,304.16,"Now, just in case, say I run into a month where I need to pause the transfers temporarily. Is that possible?"
+en_CA_Banking_1586889,channel2,19,322.96,332.16,"Perfect. So I wouldn't have to delete it completely and start over, right?"
+en_CA_Banking_1586889,channel2,20,332.64,354.0,"Good. Good to know. I like that. I'm trying to build up my savings gradually, but sometimes"
+en_CA_Banking_1586889,channel2,21,354.08,367.84,renovation costs can pop up earlier than planned.
+en_CA_Banking_1586889,channel2,22,370.8,381.44,"No problem. The kitchen, new cabinets, lowering maybe new appliance if the budget allows."
+en_CA_Banking_1586889,channel2,23,382.4,393.28,My wife and I figured it's better to start saving now than to rely on credit line later.
+en_CA_Banking_1586889,channel2,24,401.92,407.28,Exactly. That's what we're going for.
+en_CA_Banking_1586889,channel2,25,412.4,423.28,Excellent.
+en_CA_Banking_1586889,channel2,26,427.84,433.28,"Oh, I didn't know about that. Yeah, please. That sounds great."
+en_CA_Banking_1586889,channel2,27,441.44,453.28,Nice. Thanks for letting me know. That's a great incentive.
+en_CA_Banking_1586889,channel2,28,471.44,495.28,Everything sounds perfect.
+en_CA_Banking_1586889,channel2,29,501.6,511.36,"Yes, please. Could you check that my saving account is linked properly in the app?"
+en_CA_Banking_1586889,channel2,30,512.0,515.28,I had a bit of trouble seeing it earlier this week.
+en_CA_Banking_1586889,channel2,31,531.44,551.28,Perfect. I'll check again after this call.
+en_CA_Banking_1586889,channel2,32,561.44,581.28,"Nice. That's great. Oh, you've been really, really helpful, Emily. Thank you for walking through everything."
+en_CA_Banking_1586889,channel2,33,591.6,593.28,"Yes, please. That sounds good."
+en_CA_Banking_1586889,channel2,34,605.36,621.28,Awesome. I appreciate that little extra motivation.
+en_CA_Banking_1586889,channel2,35,621.44,633.28,"Nope. That's all for now. Thanks again, Emily. Have a great afternoon."

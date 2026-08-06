@@ -1,0 +1,147 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_Food_1588697,1,agent,channel1,1,0.0,15.44,"Hello, and welcome to the Food Association."
+en_CA_Food_1588697,2,customer,channel2,1,0.0,27.0,"Hi, I was calling to look into how much it would cost for a catering lunch for my company."
+en_CA_Food_1588697,3,agent,channel1,2,15.44,16.44,My name is Julia.
+en_CA_Food_1588697,4,agent,channel1,3,16.44,20.44,How can I help you?
+en_CA_Food_1588697,5,agent,channel1,4,20.44,22.44,Okay.
+en_CA_Food_1588697,6,agent,channel1,5,23.44,28.44,Okay.
+en_CA_Food_1588697,7,customer,channel2,2,27.0,43.0,"We have had catered lunches before, but their prices have gone up recently and so we're just looking around at other options."
+en_CA_Food_1588697,8,agent,channel1,6,28.44,44.44,Have you had a catered sponge bath before?
+en_CA_Food_1588697,9,customer,channel2,3,43.0,56.0,"34, possibly 35, but usually 34."
+en_CA_Food_1588697,10,agent,channel1,7,44.44,51.44,And how many people would this be for?
+en_CA_Food_1588697,11,agent,channel1,8,51.44,53.44,Okay.
+en_CA_Food_1588697,12,agent,channel1,9,53.44,59.44,"And where are you located, sir?"
+en_CA_Food_1588697,13,customer,channel2,4,56.0,71.0,We're in Massachusetts.
+en_CA_Food_1588697,14,agent,channel1,10,59.44,61.44,Okay.
+en_CA_Food_1588697,15,agent,channel1,11,61.44,67.44,Can you provide me like the first three?
+en_CA_Food_1588697,16,agent,channel1,12,67.44,75.44,"Or I guess the full zip code, please?"
+en_CA_Food_1588697,17,customer,channel2,5,71.0,92.0,"Yes, 73294."
+en_CA_Food_1588697,18,agent,channel1,13,75.44,77.44,Okay.
+en_CA_Food_1588697,19,agent,channel1,14,77.44,83.44,Just trying to figure out how far away you are from us.
+en_CA_Food_1588697,20,agent,channel1,15,83.44,85.44,Okay.
+en_CA_Food_1588697,21,agent,channel1,16,85.44,92.44,Would you be able to tell me if there is a kitchen available or we need to have everything prepared and simply dropped off?
+en_CA_Food_1588697,22,customer,channel2,6,92.0,99.0,Everything prepared and simply dropped off is easier since we're going to be doing this outside.
+en_CA_Food_1588697,23,customer,channel2,7,99.0,117.0,"Additionally, if we could have a good amount of covers for the food so that insects and stuff like that can't get into them while we're not serving."
+en_CA_Food_1588697,24,agent,channel1,17,105.44,110.44,Can do that.
+en_CA_Food_1588697,25,agent,channel1,18,110.44,115.44,And would you be requiring us to be servers or will you take care of that?
+en_CA_Food_1588697,26,customer,channel2,8,117.0,130.0,"I believe we can take care of that. So if we can have just the food delivered along with serving utensils and possibly heating elements if needed, that would be great."
+en_CA_Food_1588697,27,customer,channel2,9,130.0,138.0,And then we can serve and then you guys can come and pick up the equipment after we're finished.
+en_CA_Food_1588697,28,agent,channel1,19,135.44,144.44,Okay.
+en_CA_Food_1588697,29,customer,channel2,10,138.0,146.0,"The entire event should only last about three hours, so we'll only need the equipment for that long."
+en_CA_Food_1588697,30,agent,channel1,20,144.44,154.44,And what are the times of the event?
+en_CA_Food_1588697,31,customer,channel2,11,146.0,166.0,It'll be from 12 to three on June 13th.
+en_CA_Food_1588697,32,agent,channel1,21,154.44,156.44,Okay.
+en_CA_Food_1588697,33,agent,channel1,22,156.44,161.44,We are available that day so that works out.
+en_CA_Food_1588697,34,agent,channel1,23,161.44,174.44,"And let me just confirm with you, there will be 34 or 35 people."
+en_CA_Food_1588697,35,customer,channel2,12,166.0,185.0,"Yes, so food, enough food for at least I would say 40 would be good to make sure that we have enough for everybody."
+en_CA_Food_1588697,36,agent,channel1,24,174.44,175.44,Okay.
+en_CA_Food_1588697,37,agent,channel1,25,175.44,176.44,Hello.
+en_CA_Food_1588697,38,agent,channel1,26,176.44,183.44,You went for 40 people and you only need the food itself dropped off along with utensils.
+en_CA_Food_1588697,39,customer,channel2,13,185.0,206.0,"Yes, that's correct. We do have some dietary restrictions. However, several of our members are vegan and so we would like to have some vegan options for them, as well as any meat that's prepared should also be kosher and halal to accommodate any of our members of different faiths."
+en_CA_Food_1588697,40,agent,channel1,27,205.44,206.44,Okay.
+en_CA_Food_1588697,41,customer,channel2,14,206.0,216.0,"And then finally, we do have one person who is also has celiac disease and so needs a gluten free option."
+en_CA_Food_1588697,42,agent,channel1,28,206.44,209.44,We will be kind of doing that.
+en_CA_Food_1588697,43,agent,channel1,29,209.44,210.44,Okay.
+en_CA_Food_1588697,44,agent,channel1,30,210.44,212.44,And what are the times of the event?
+en_CA_Food_1588697,45,agent,channel1,31,212.44,213.44,Okay.
+en_CA_Food_1588697,46,agent,channel1,32,213.44,214.44,Okay.
+en_CA_Food_1588697,47,agent,channel1,33,214.44,215.44,Okay.
+en_CA_Food_1588697,48,agent,channel1,34,215.44,216.44,Okay.
+en_CA_Food_1588697,49,customer,channel2,15,216.0,225.0,"But that can be a separate meal. It doesn't have to be the same meal and everything is gluten free. If you can do that, that will be preferred so they don't get ostracized."
+en_CA_Food_1588697,50,agent,channel1,35,216.44,217.44,Okay.
+en_CA_Food_1588697,51,agent,channel1,36,217.44,219.44,And what are the times of the event?
+en_CA_Food_1588697,52,agent,channel1,37,219.44,220.44,Okay.
+en_CA_Food_1588697,53,agent,channel1,38,220.44,221.44,Okay.
+en_CA_Food_1588697,54,agent,channel1,39,221.44,223.44,And what are the times of the event?
+en_CA_Food_1588697,55,agent,channel1,40,223.44,224.44,Okay.
+en_CA_Food_1588697,56,agent,channel1,41,224.44,225.44,Okay.
+en_CA_Food_1588697,57,customer,channel2,16,225.0,253.0,But it would be okay if we also had just a side meal for them that was different from the others and well protected for gluten.
+en_CA_Food_1588697,58,agent,channel1,42,225.44,226.44,Okay.
+en_CA_Food_1588697,59,agent,channel1,43,226.44,228.44,"So, let me just get started."
+en_CA_Food_1588697,60,agent,channel1,44,228.44,229.44,Okay.
+en_CA_Food_1588697,61,agent,channel1,45,229.44,230.44,Okay.
+en_CA_Food_1588697,62,agent,channel1,46,230.44,231.44,Okay.
+en_CA_Food_1588697,63,agent,channel1,47,231.44,245.68,"Yes, we do have options for meals that would accommodate such dietary restrictions, but"
+en_CA_Food_1588697,64,agent,channel1,48,245.68,248.48,those will be separate.
+en_CA_Food_1588697,65,agent,channel1,49,248.48,255.88,They wouldn't be the same meal that everybody else has.
+en_CA_Food_1588697,66,customer,channel2,17,253.0,268.0,"Okay, that is fine. One celiac, three or four vegetarian or vegan, sorry, so we should do maybe four or five of those meals."
+en_CA_Food_1588697,67,agent,channel1,50,255.88,259.8,So you said you have one celiac.
+en_CA_Food_1588697,68,customer,channel2,18,268.0,293.0,"And then the rest of the food should be halal and kosher if possible. So I would say 35 meals of halal and kosher, no dietary restrictions other than that, five meals of vegan and one gluten free meal."
+en_CA_Food_1588697,69,agent,channel1,51,285.88,302.52,"Okay, so 34 then of the regular meal, okay, 34 of the regular one celiac and five of the"
+en_CA_Food_1588697,70,customer,channel2,19,293.0,317.0,"Yes, you're correct. Yes."
+en_CA_Food_1588697,71,agent,channel1,52,302.52,308.84,"vegan and gluten-free one, okay, we can do that."
+en_CA_Food_1588697,72,agent,channel1,53,308.84,313.88,And I think what we'll do is we'll package those separately and mark them for you so
+en_CA_Food_1588697,73,agent,channel1,54,313.88,321.12,"that it's clear which ones are which, okay."
+en_CA_Food_1588697,74,customer,channel2,20,317.0,319.0,Thank you. That would be helpful.
+en_CA_Food_1588697,75,agent,channel1,55,321.12,329.6,And have you had a chance to look at the different packages we offer for what's in these meals
+en_CA_Food_1588697,76,agent,channel1,56,329.6,335.4,or would you like to go through that?
+en_CA_Food_1588697,77,customer,channel2,21,330.0,337.0,"No, could you give me some ideas of kind of different price points and what would come with each of those price points?"
+en_CA_Food_1588697,78,agent,channel1,57,336.4,347.36,"Yes, so our most basic one or our cheapest one that we have is two salads, three mains,"
+en_CA_Food_1588697,79,customer,channel2,22,347.0,365.0,Is this per person? Or is this you would just prepare enough food for that many people that would be split between these options?
+en_CA_Food_1588697,80,agent,channel1,58,347.36,359.64,"and two like option of either rice, potatoes, or beans."
+en_CA_Food_1588697,81,agent,channel1,59,359.64,374.52,"The latter, so that is our like most basic and the salads, you have an option of a few."
+en_CA_Food_1588697,82,customer,channel2,23,365.0,367.0,Okay.
+en_CA_Food_1588697,83,agent,channel1,60,374.52,384.16,"So there's the classic Caesar salad, there's garden salad, there's Mediterranean salad."
+en_CA_Food_1588697,84,agent,channel1,61,384.16,389.6,"I am forgetting what the other ones are, but I can pull those up for you in a moment."
+en_CA_Food_1588697,85,agent,channel1,62,389.6,407.52,"If you'd like, and then for the mains we have chicken, beef, pork, salmon, and lamb."
+en_CA_Food_1588697,86,customer,channel2,24,396.0,407.0,And is there any price difference between the mains or is that based just on prep package?
+en_CA_Food_1588697,87,agent,channel1,63,407.52,416.96,The lamb and salmon are an additional $12 per person.
+en_CA_Food_1588697,88,customer,channel2,25,415.0,416.0,"Wow, okay."
+en_CA_Food_1588697,89,agent,channel1,64,416.96,431.4,"Yes, so that's our base package and our other packages are an additional $20 per person"
+en_CA_Food_1588697,90,customer,channel2,26,425.0,447.0,So you didn't mention how much the base package cost.
+en_CA_Food_1588697,91,agent,channel1,65,431.4,435.4,and those include desserts as well.
+en_CA_Food_1588697,92,agent,channel1,66,435.4,443.52,We have a few different options there and you can add on another main.
+en_CA_Food_1588697,93,agent,channel1,67,447.4,453.96,"Oh, my apologies, the base package would be $55 per person."
+en_CA_Food_1588697,94,customer,channel2,27,448.0,459.0,$55 per person and then an additional $20 for the desserts and additional main.
+en_CA_Food_1588697,95,agent,channel1,68,459.4,460.4,Correct.
+en_CA_Food_1588697,96,customer,channel2,28,460.0,474.0,All right. And then you guys would be able to deliver when the meal starts and then also and then set up and then come back when the meal ends and pick it up.
+en_CA_Food_1588697,97,agent,channel1,69,460.4,482.76,"That is correct, but we'll have to book you in for like the food will be there for those"
+en_CA_Food_1588697,98,agent,channel1,70,482.76,485.84,"three hours that you mentioned, 12 to three."
+en_CA_Food_1588697,99,agent,channel1,71,485.84,494.72,So we have to arrive an hour earlier to set up the food and the tents that you mentioned
+en_CA_Food_1588697,100,customer,channel2,29,486.0,487.0,Yes.
+en_CA_Food_1588697,101,customer,channel2,30,489.0,509.0,Would the food get rather cold after an hour of sitting out after it's been prepared or are you guys preparing it there?
+en_CA_Food_1588697,102,agent,channel1,72,494.72,498.12,and then another hour on the other side for a takedown.
+en_CA_Food_1588697,103,agent,channel1,73,498.12,509.6,So it'll be it'll be a total booking of five hours.
+en_CA_Food_1588697,104,agent,channel1,74,509.6,516.2,We'll be preparing it back at our facility and then transporting it.
+en_CA_Food_1588697,105,agent,channel1,75,516.2,522.16,It should arrive 15 minutes before your event or or even later.
+en_CA_Food_1588697,106,customer,channel2,31,520.0,528.0,Okay.
+en_CA_Food_1588697,107,agent,channel1,76,522.16,526.72,"So right right at the start of your event or 15 minutes earlier, but we will be setting"
+en_CA_Food_1588697,108,agent,channel1,77,526.72,533.4,up the tents and making sure we have all the other utensils and stuff prepared for you
+en_CA_Food_1588697,109,agent,channel1,78,533.4,533.84,as well.
+en_CA_Food_1588697,110,customer,channel2,32,535.0,537.0,Okay. That sounds fine to me.
+en_CA_Food_1588697,111,customer,channel2,33,537.0,546.0,"Is there any way I'd be able to get access to a sample menu, whether I come to your facility or you guys come here for me to try some stuff out and pick from the menu?"
+en_CA_Food_1588697,112,agent,channel1,79,539.6,555.0,"Absolutely, we have a tasting dinner type of thing that happens every month on the last"
+en_CA_Food_1588697,113,agent,channel1,80,555.0,559.76,Thursday of the month.
+en_CA_Food_1588697,114,customer,channel2,34,558.0,559.0,Okay.
+en_CA_Food_1588697,115,agent,channel1,81,559.76,566.16,Luckily that seems to be coming up for you so you or whoever it is at your company
+en_CA_Food_1588697,116,agent,channel1,82,566.16,569.76,can come and try.
+en_CA_Food_1588697,117,customer,channel2,35,567.0,591.0,And then would that cost extra to come taste it? Because I just don't know if we decided to go a different option or different route. How much would that charge us?
+en_CA_Food_1588697,118,agent,channel1,83,569.76,574.12,We have two seats available per booking.
+en_CA_Food_1588697,119,agent,channel1,84,574.12,580.12,So it would be you and somebody else who can come or just two people from your company
+en_CA_Food_1588697,120,agent,channel1,85,580.12,591.56,will come and try the food.
+en_CA_Food_1588697,121,agent,channel1,86,591.56,593.04,This is actually free.
+en_CA_Food_1588697,122,agent,channel1,87,593.04,597.24,We're very confident that you will choose us.
+en_CA_Food_1588697,123,agent,channel1,88,597.24,615.16,So there will be no cost associated with that.
+en_CA_Food_1588697,124,customer,channel2,36,598.0,615.0,"Wonderful. Okay. In that case, I think I will just confirm that you guys are available on June 13 from 12 to 3 and then we can go ahead and schedule that in and we should be good to go from there."
+en_CA_Food_1588697,125,agent,channel1,89,615.16,619.36,"So like I said earlier, it would be between 11 and four actually."
+en_CA_Food_1588697,126,customer,channel2,37,619.0,621.0,Yes. Yes.
+en_CA_Food_1588697,127,agent,channel1,90,619.68,624.68,"Yes, I have confirmed that that is free."
+en_CA_Food_1588697,128,agent,channel1,91,624.68,627.68,Would you like me to tentatively book that for you?
+en_CA_Food_1588697,129,agent,channel1,92,627.68,636.68,And we can confirm that once you decide on the catering option do you want to go with?
+en_CA_Food_1588697,130,customer,channel2,38,628.0,637.0,Yeah. I think that would be best. Thank you.
+en_CA_Food_1588697,131,agent,channel1,93,636.68,641.68,"Okay, is there an email that you want me to send that to for confirmation?"
+en_CA_Food_1588697,132,customer,channel2,39,643.0,654.0,Yes. You can send it to oanowenlunchlunch at gmail.ca
+en_CA_Food_1588697,133,agent,channel1,94,649.36,659.36,"Okay, just to confirm that is ohinlunch at gmail.ca."
+en_CA_Food_1588697,134,customer,channel2,40,658.0,661.0,Yes.
+en_CA_Food_1588697,135,agent,channel1,95,659.36,662.36,"Okay, perfect."
+en_CA_Food_1588697,136,agent,channel1,96,662.36,669.36,That confirmation should have been sent to you that the times have been booked for 11
+en_CA_Food_1588697,137,agent,channel1,97,669.36,675.36,to four on June 13th.
+en_CA_Food_1588697,138,customer,channel2,41,674.0,676.0,I do see that. Yes.
+en_CA_Food_1588697,139,agent,channel1,98,675.36,676.36,Perfect.
+en_CA_Food_1588697,140,agent,channel1,99,676.36,694.36,And you'll see at the bottom of the email footer that you have the option to book the tasting.
+en_CA_Food_1588697,141,customer,channel2,42,688.0,693.0,"Okay. I'll go ahead and do that now. But I think for now, I think that's all I need from you."
+en_CA_Food_1588697,142,agent,channel1,100,694.36,698.36,"Okay, in that case have a great day."
+en_CA_Food_1588697,143,customer,channel2,43,696.0,700.0,Okay. Thank you very much. Bye.
+en_CA_Food_1588697,144,agent,channel1,101,698.36,699.36,Bye.
+en_CA_Food_1588697,145,agent,channel1,102,706.36,708.36,Thank you.
+en_CA_Food_1588697,146,customer,channel2,44,717.0,720.0,Thank you.

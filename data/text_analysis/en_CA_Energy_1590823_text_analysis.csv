@@ -1,0 +1,136 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Energy_1590823,1,agent,channel1,1,0.0,22.0,"Good morning, Mrs. Canada Energy, how may I help you?",positive,0.7824,False,False,True,False,False
+en_CA_Energy_1590823,2,customer,channel2,1,0.0,27.84,"Hi there, I'm just calling this set up for my cabin which I'm actually going to be",neutral,0.6963,False,False,False,False,False
+en_CA_Energy_1590823,3,agent,channel1,2,22.0,48.08,"Okay, I'll need to get a few details from you and then we can check into whether we're able",neutral,0.8702,False,False,False,False,False
+en_CA_Energy_1590823,4,customer,channel2,2,27.84,32.52,retiring to and using as my new home so we just finished building it but now I need to,neutral,0.7077,False,False,False,False,False
+en_CA_Energy_1590823,5,customer,channel2,3,32.52,37.52,"figure out how to get it hooked up to the nearby power line for the lift up, which can help me.",neutral,0.749,False,False,False,False,False
+en_CA_Energy_1590823,6,customer,channel2,4,37.52,66.4,"Sure, it's 462, Blueberry and Lightning, it's in Lactobani and it was a tree lot before and",neutral,0.7883,False,False,False,False,False
+en_CA_Energy_1590823,7,agent,channel1,3,48.08,55.2,to hook up power and if so how to go about it. So first could you share with me the address of your,neutral,0.9241,False,False,False,False,False
+en_CA_Energy_1590823,8,agent,channel1,4,55.2,63.84,"cabins? Okay, okay.",neutral,0.8051,False,False,True,False,False
+en_CA_Energy_1590823,9,customer,channel2,5,66.4,78.4,"our neighbors do have power, I think it's very couple, I mean we're connected but yeah it was a tree lot and it doesn't currently have a good power.",neutral,0.6447,False,False,False,False,False
+en_CA_Energy_1590823,10,agent,channel1,5,78.32,84.96,"Okay, and so along blueberry lanes is there can you see visible power poles like at some of the",neutral,0.9369,False,False,False,False,False
+en_CA_Energy_1590823,11,customer,channel2,6,78.4,90.4,"Yeah, it's a conference room.",neutral,0.8374,False,False,False,False,False
+en_CA_Energy_1590823,12,agent,channel1,6,84.96,97.36,"other properties? Okay, all right, got it. So that matches what I have in our database and just",neutral,0.765,False,False,True,False,False
+en_CA_Energy_1590823,13,agent,channel1,7,97.36,104.72,"looking at where the existing connections are. Yeah, exactly, it looks like across the street",neutral,0.8824,False,False,False,False,False
+en_CA_Energy_1590823,14,agent,channel1,8,104.72,112.4,we would be able to tie into that line for you. Now there because there is like a crew that,neutral,0.8543,False,False,False,False,False
+en_CA_Energy_1590823,15,customer,channel2,7,108.4,137.4,"Okay, and is it built?",neutral,0.9096,False,False,False,False,False
+en_CA_Energy_1590823,16,agent,channel1,9,112.48,120.56,would have to come out to set up that connection for you. There is a cost associated with hooking up,neutral,0.7993,False,False,False,False,False
+en_CA_Energy_1590823,17,agent,channel1,10,120.56,129.36,the power because it's a new connection as well as you will need a new meter installed and the meter,neutral,0.8885,False,False,False,False,False
+en_CA_Energy_1590823,18,agent,channel1,11,129.36,134.88,is what just like you have at your other at your current home there's a meter that measures how,neutral,0.936,False,False,False,False,False
+en_CA_Energy_1590823,19,agent,channel1,12,134.88,149.2,"much energy you use. Yes, it's built in the exact same way and you have a few options for your payment",neutral,0.6985,False,False,False,False,False
+en_CA_Energy_1590823,20,customer,channel2,8,138.4,157.4,"Okay, and is it built the same as in the day because it is like a continuous line?",neutral,0.9089,False,False,False,False,False
+en_CA_Energy_1590823,21,agent,channel1,13,149.2,155.28,cycles which will go through in a couple minutes but in terms of how it's built it's the exact,neutral,0.8572,False,False,False,False,False
+en_CA_Energy_1590823,22,agent,channel1,14,155.28,166.96,same as in the city. For sure.,neutral,0.8831,False,False,False,False,False
+en_CA_Energy_1590823,23,customer,channel2,9,157.4,172.4,"Okay, perfect, and then yeah I'm just wondering if there's like different, I don't want to call them packages but like how much is this going to cost to set it up and in this sense of like full-time living for half a year.",neutral,0.6574,False,False,False,False,False
+en_CA_Energy_1590823,24,agent,channel1,15,172.32,179.44,"Okay, so to have the line extended to your home it's going to depend on how many meters",neutral,0.9242,False,False,False,False,False
+en_CA_Energy_1590823,25,agent,channel1,16,179.44,191.28,of line it is from the cabinet itself to the existing power line. So I can give you an estimate,neutral,0.9129,False,False,False,False,False
+en_CA_Energy_1590823,26,customer,channel2,10,187.4,200.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,27,agent,channel1,17,191.28,199.12,based on between 10 and 30 meters or is it a lot more than 30 meters do you think?,neutral,0.9294,False,False,True,False,False
+en_CA_Energy_1590823,28,agent,channel1,18,199.92,216.64,"60 meters. Okay, so between 60 to 100 meters including all of the parts including the meter",neutral,0.8656,False,False,False,False,False
+en_CA_Energy_1590823,29,customer,channel2,11,200.4,209.4,"It might be further, we're like down here in the water so we'll be like 16 minutes.",neutral,0.9042,False,False,False,False,False
+en_CA_Energy_1590823,30,customer,channel2,12,209.4,236.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,31,agent,channel1,19,216.64,222.88,"including the labor that will come to about $3,000 and that's a one-time fee",neutral,0.824,False,False,False,False,False
+en_CA_Energy_1590823,32,agent,channel1,20,222.88,233.52,and that also includes like setting up your account and everything. So unfortunately there,negative,0.7268,False,False,False,False,False
+en_CA_Energy_1590823,33,agent,channel1,21,233.52,240.08,is some set up costs with setting up a new property that hasn't been electrified before,neutral,0.8479,False,False,False,False,False
+en_CA_Energy_1590823,34,customer,channel2,13,236.4,256.4,"Okay, and my husband wanted to ask about if there's a way to, I mean maybe this is more about the billing cycle than it is about the set up but maybe it is part of the set up.",neutral,0.8564,False,False,False,False,False
+en_CA_Energy_1590823,35,agent,channel1,22,242.16,246.8,but then once you're set up you won't incur fees like that again.,neutral,0.7649,False,False,False,False,False
+en_CA_Energy_1590823,36,customer,channel2,14,257.4,269.4,And he wants to do solar panels on the roof because it's so spacing and so we get all that southern sun and so he wanted to do solar panels to kind of offset the cost of electricity.,neutral,0.7503,False,False,False,False,False
+en_CA_Energy_1590823,37,customer,channel2,15,269.4,285.4,Is that something that has to be figured out at the time of set up or is that something that is kind of separate like how does that work?,neutral,0.8803,False,False,False,False,False
+en_CA_Energy_1590823,38,agent,channel1,23,283.28,290.48,If you put in any alternative whether it's solar or wind that ties that will just simply tie into,neutral,0.732,False,False,False,False,False
+en_CA_Energy_1590823,39,customer,channel2,16,286.4,311.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,40,agent,channel1,24,290.48,295.36,your existing line. So you still have to set up the existing line in the first place,neutral,0.8832,False,False,False,False,False
+en_CA_Energy_1590823,41,agent,channel1,25,296.08,301.28,and then a certified electrician would be able to tie it in if you add that if you add solar,neutral,0.8687,False,False,False,False,False
+en_CA_Energy_1590823,42,agent,channel1,26,301.28,306.88,or anything like that in the future and before we end our call today I will explain to you,neutral,0.8971,False,False,False,False,False
+en_CA_Energy_1590823,43,agent,channel1,27,307.84,310.08,some of the options that you have with that as well.,neutral,0.8943,False,False,False,False,False
+en_CA_Energy_1590823,44,customer,channel2,17,311.4,339.4,That's good.,positive,0.9621,False,False,False,False,False
+en_CA_Energy_1590823,45,agent,channel1,28,312.08,318.16,"Yeah, so for the initial setup I can put in the request to our technical team",neutral,0.8519,False,False,False,False,False
+en_CA_Energy_1590823,46,agent,channel1,29,318.8,325.44,and then they will get back to you they'll call you directly to find a time that works best,neutral,0.7253,False,False,False,False,False
+en_CA_Energy_1590823,47,agent,channel1,30,326.32,330.8,and this type of setup usually takes about a day to complete,negative,0.556,False,False,False,False,False
+en_CA_Energy_1590823,48,agent,channel1,31,331.76,338.4,um and ideally you would be available and on site when that happens,neutral,0.7592,False,False,False,False,False
+en_CA_Energy_1590823,49,customer,channel2,18,339.4,344.4,"All right, do they work on me again?",neutral,0.7696,False,False,False,False,False
+en_CA_Energy_1590823,50,agent,channel1,32,342.8,349.2,they do not unfortunately yeah it's just our it's just emergencies that they do on weekends,neutral,0.5177,False,False,False,False,False
+en_CA_Energy_1590823,51,customer,channel2,19,344.4,350.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,52,customer,channel2,20,350.4,370.4,Do you know roughly how far out they're working right now?,neutral,0.9638,False,False,False,False,False
+en_CA_Energy_1590823,53,agent,channel1,33,354.48,356.4,looks like it's about two and a half weeks,neutral,0.9111,False,False,False,False,False
+en_CA_Energy_1590823,54,agent,channel1,34,357.2,359.2,yeah,neutral,0.5349,False,False,False,False,False
+en_CA_Energy_1590823,55,agent,channel1,35,362.56,367.76,and they do need to take a trip out to the property ahead of time just to do the measurements,neutral,0.8685,False,False,False,False,False
+en_CA_Energy_1590823,56,agent,channel1,36,367.76,369.92,and finalize the quote.,neutral,0.8979,False,False,False,False,False
+en_CA_Energy_1590823,57,customer,channel2,21,370.4,391.4,"Okay, that sounds good.",positive,0.95,False,False,False,False,False
+en_CA_Energy_1590823,58,agent,channel1,37,372.4,378.8,"Yeah, so I've put in the request to our technical team like I said they'll call you",neutral,0.8452,False,False,False,False,False
+en_CA_Energy_1590823,59,agent,channel1,38,379.76,384.64,to set up those the you don't need to be there when they do the quote when they go to,neutral,0.8485,False,False,False,False,False
+en_CA_Energy_1590823,60,agent,channel1,39,384.64,402.0,take the measurements but it's best if you're there the day that they do the actual install.,neutral,0.8154,False,False,False,False,False
+en_CA_Energy_1590823,61,customer,channel2,22,391.4,392.4,"Okay, that sounds good.",positive,0.95,False,False,False,False,False
+en_CA_Energy_1590823,62,customer,channel2,23,392.4,399.4,And just to confirm like do I need to pay on the app or is this part of the billing cycle or how does that work?,neutral,0.9178,False,False,False,False,False
+en_CA_Energy_1590823,63,customer,channel2,24,399.4,404.4,Because I know obviously for the next little while we're going to use what we're like to see when we're there somewhere.,neutral,0.802,False,False,False,False,False
+en_CA_Energy_1590823,64,customer,channel2,25,404.4,419.4,You can not see the list there.,neutral,0.5886,False,False,False,False,False
+en_CA_Energy_1590823,65,agent,channel1,40,406.96,412.64,Right so the installation costs are going to be up front and then,neutral,0.781,False,False,False,False,False
+en_CA_Energy_1590823,66,agent,channel1,41,412.96,417.52,um then your regular billing will start with the with the regular billing cycle.,neutral,0.9315,False,False,False,False,False
+en_CA_Energy_1590823,67,customer,channel2,26,419.4,437.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,68,agent,channel1,42,421.76,429.12,Okay so in terms of plans um are you going to be using electrical heat,neutral,0.9368,False,False,False,False,False
+en_CA_Energy_1590823,69,agent,channel1,43,429.12,436.56,or are you using a combination of like wood stove electrical gas like how are you heating your cabin?,neutral,0.928,False,False,True,False,False
+en_CA_Energy_1590823,70,agent,channel1,44,436.56,449.36,Okay and typically how many people will be staying there?,neutral,0.9518,False,False,True,False,False
+en_CA_Energy_1590823,71,customer,channel2,27,437.4,450.4,"And then it'll be a combination because we have a wood stove in the main open area, but then we have one electrical seat for like the back section.",neutral,0.8759,False,False,False,False,False
+en_CA_Energy_1590823,72,customer,channel2,28,450.4,479.4,Yeah.,neutral,0.5798,False,False,False,False,False
+en_CA_Energy_1590823,73,agent,channel1,45,452.72,460.88,Okay and that will be for most of the year okay um so based on that information um I,neutral,0.734,False,False,False,False,False
+en_CA_Energy_1590823,74,agent,channel1,46,460.88,466.24,would suggest the primary dwelling plan since you will be living there pretty much full time,neutral,0.8236,False,False,False,False,False
+en_CA_Energy_1590823,75,agent,channel1,47,466.56,475.36,and you will be um using electricity at least partially to to heat it um is it does it have,neutral,0.9083,False,False,False,False,False
+en_CA_Energy_1590823,76,agent,channel1,48,475.36,478.88,modern insulation or is it a more of an older cabin?,neutral,0.8938,False,False,True,False,False
+en_CA_Energy_1590823,77,customer,channel2,29,479.4,486.4,"I know it's pretty new, it's modern in that sense, but we also do have a hot tub so that might hold for more.",positive,0.5119,False,False,False,False,False
+en_CA_Energy_1590823,78,agent,channel1,49,484.16,485.36,Okay let's,neutral,0.4954,False,False,False,False,False
+en_CA_Energy_1590823,79,agent,channel1,50,486.24,494.8,I understand okay yeah so definitely a primary,positive,0.6438,False,True,False,False,False
+en_CA_Energy_1590823,80,customer,channel2,30,486.4,508.4,That's why my husband wanted the solar panels to help offset those costs.,positive,0.5015,False,False,False,False,False
+en_CA_Energy_1590823,81,agent,channel1,51,494.8,502.16,dwelling plan makes the most sense um given the information that you've provided um,neutral,0.758,False,False,False,False,False
+en_CA_Energy_1590823,82,agent,channel1,52,502.16,510.08,there we also have plans for like for when people live part time uh like 50 percent or less,neutral,0.8463,False,False,False,False,False
+en_CA_Energy_1590823,83,customer,channel2,31,508.4,528.4,"Yeah, I think so.",neutral,0.6086,False,False,False,False,False
+en_CA_Energy_1590823,84,agent,channel1,53,510.08,514.0,at a particular dwelling but it sounds like you're going to be there more than 50 percent,neutral,0.8277,False,False,False,False,False
+en_CA_Energy_1590823,85,agent,channel1,54,514.0,524.48,of the time. Okay and then uh that rate will be the same per kilowatt hour as what you currently,neutral,0.9169,False,False,False,False,False
+en_CA_Energy_1590823,86,agent,channel1,55,524.48,527.84,have in your primary in your home that you're living now.,neutral,0.9009,False,False,False,False,False
+en_CA_Energy_1590823,87,customer,channel2,32,528.4,557.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,88,agent,channel1,56,530.72,538.24,Okay so um right you had asked about solar we actually do offer some energy,neutral,0.8245,False,False,False,False,False
+en_CA_Energy_1590823,89,agent,channel1,57,538.96,547.68,efficiency incentives and green energy incentives um we do work with a a local company that does,neutral,0.8117,False,False,False,False,False
+en_CA_Energy_1590823,90,agent,channel1,58,549.28,555.68,solar panels um I can definitely send their information over to you but it's really going,neutral,0.6646,False,False,False,False,False
+en_CA_Energy_1590823,91,agent,channel1,59,555.68,562.56,to depend on how tree the lot is whether there's like open access to sun.,neutral,0.8964,False,False,False,False,False
+en_CA_Energy_1590823,92,customer,channel2,33,557.4,570.4,"Now it should be, if the plan is to put them on the roof, like facing the lake, it should be pretty open.",neutral,0.697,False,False,False,False,False
+en_CA_Energy_1590823,93,customer,channel2,34,570.4,597.4,I'm just wondering does that mean it has to be attached to a version of the generator?,neutral,0.9085,False,False,False,False,False
+en_CA_Energy_1590823,94,agent,channel1,60,570.88,580.88,Okay uh there's kind of like a like a no not a generator but there's a battery system that,neutral,0.8609,False,False,False,False,False
+en_CA_Energy_1590823,95,agent,channel1,61,580.88,587.2,basically stores the energy while the sun is shining and then you use the energy that's stored in,neutral,0.8437,False,False,False,False,False
+en_CA_Energy_1590823,96,agent,channel1,62,587.2,595.76,that battery um when you need it and then when you when there isn't enough stored energy like let's,neutral,0.499,False,False,False,False,False
+en_CA_Energy_1590823,97,agent,channel1,63,595.76,603.12,say there's a couple cloudy days um you would be using the the electricity from the grid.,neutral,0.824,False,False,False,False,False
+en_CA_Energy_1590823,98,customer,channel2,35,597.4,604.4,No.,neutral,0.561,False,False,False,False,False
+en_CA_Energy_1590823,99,agent,channel1,64,603.92,613.2,Yeah yeah um so yeah I'll send that information off to you and so you can definitely take a look,neutral,0.5767,False,False,False,False,False
+en_CA_Energy_1590823,100,customer,channel2,36,604.4,605.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,101,customer,channel2,37,605.4,631.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,102,agent,channel1,65,613.68,622.16,at at that um as you're making your decisions on how you want to move forward um but for now um,neutral,0.9217,False,False,False,False,False
+en_CA_Energy_1590823,103,agent,channel1,66,622.24,634.0,um I'll need to get your contact your phone number um and your email address so that uh,neutral,0.9264,False,False,False,False,False
+en_CA_Energy_1590823,104,customer,channel2,38,631.4,658.4,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Energy_1590823,105,agent,channel1,67,634.0,640.4,the cut the technical team will be able to contact you and then to your email address I will send,neutral,0.9073,False,False,False,False,False
+en_CA_Energy_1590823,106,agent,channel1,68,640.4,653.44,the quote for the setup and uh and then you'll be able to uh there'll be a link on the email that I,neutral,0.8734,False,False,False,False,False
+en_CA_Energy_1590823,107,agent,channel1,69,653.44,661.12,send you so that you can add it shows you how to add your new your your cabin to your existing,neutral,0.8877,False,False,False,False,False
+en_CA_Energy_1590823,108,customer,channel2,39,658.4,687.4,"Okay, that sounds great.",positive,0.9794,False,False,False,False,False
+en_CA_Energy_1590823,109,agent,channel1,70,662.0,665.52,account with us so that you're not creating a brand new account.,neutral,0.8681,False,False,False,False,False
+en_CA_Energy_1590823,110,agent,channel1,71,666.16,672.16,Yeah and then you'll be able to use your your online billing and all those other,neutral,0.8078,False,False,False,False,False
+en_CA_Energy_1590823,111,agent,channel1,72,672.72,681.36,services that you're currently using so it should be somewhat seamless uh once once it's all,neutral,0.6599,False,False,False,False,False
+en_CA_Energy_1590823,112,agent,channel1,73,681.36,687.76,installed so uh yeah I just need your email and your phone number and then and then I think,neutral,0.8895,False,False,False,False,False
+en_CA_Energy_1590823,113,customer,channel2,40,687.4,702.4,"Okay, so my email is Jessica, 3649 at hotmail.com.",neutral,0.8742,False,False,False,False,False
+en_CA_Energy_1590823,114,agent,channel1,74,687.76,690.4,that's um that's everything for today.,neutral,0.6866,False,False,False,False,False
+en_CA_Energy_1590823,115,agent,channel1,75,698.0,701.12,Okay okay,neutral,0.4883,False,False,False,False,False
+en_CA_Energy_1590823,116,agent,channel1,76,701.12,708.48,okay,neutral,0.5299,False,False,False,False,False
+en_CA_Energy_1590823,117,customer,channel2,41,702.4,721.4,And my phone number is 420-369-4827.,neutral,0.8689,False,False,False,False,False
+en_CA_Energy_1590823,118,agent,channel1,77,709.12,716.16,yep okay great so I've got that in I've got that in now,positive,0.962,False,False,False,False,False
+en_CA_Energy_1590823,119,agent,channel1,78,716.16,728.48,and yeah you should be hearing from both me and the technical team very soon.,neutral,0.578,False,False,False,False,False
+en_CA_Energy_1590823,120,customer,channel2,42,721.4,734.4,"Okay, awesome. Well, thank you so much. This seemed pretty seamless and I look forward to reading about those green options and panels because I definitely like, you know, with how the economy is going these days, I'd love to be able to support local with",positive,0.9852,False,False,False,False,False
+en_CA_Energy_1590823,121,agent,channel1,79,732.08,734.48,Okay,positive,0.5179,False,False,False,False,False
+en_CA_Energy_1590823,122,customer,channel2,43,734.4,749.4,"a Canadian product, but I also, you know, I've been reading into it and seeing if there's any, you know, sometimes even Manitoba Hydro, they'll give out like, oh, what's the word, efficiency incentive.",neutral,0.8243,False,False,False,False,False
+en_CA_Energy_1590823,123,agent,channel1,80,735.76,744.48,yeah,neutral,0.5349,False,False,False,False,False
+en_CA_Energy_1590823,124,agent,channel1,81,748.4,756.48,yeah,neutral,0.5349,False,False,False,False,False
+en_CA_Energy_1590823,125,customer,channel2,44,749.4,756.4,"So I know that there's some out there that have some like Canadian incentives, but if you're going with the Canadian product, there's like extra warranty or stuff like that.",neutral,0.8521,False,False,False,False,False
+en_CA_Energy_1590823,126,customer,channel2,45,756.4,763.4,"So we can definitely do our research and we want to, we want to do it smart and plan long term cost saving.",positive,0.6548,False,False,False,False,False
+en_CA_Energy_1590823,127,agent,channel1,82,761.12,769.12,"Yeah, definitely. And the good news is that every year the solar cells are improving their",positive,0.969,False,False,False,False,False
+en_CA_Energy_1590823,128,customer,channel2,46,763.4,792.4,"Yeah, especially in our hospitals because it would be great for that to be self-sustaining in itself with just sunlight. It's great.",positive,0.9534,False,False,False,False,False
+en_CA_Energy_1590823,129,agent,channel1,83,769.12,777.12,efficiency and your clients are starting to see a return on investment much quicker than,positive,0.7875,False,False,False,False,False
+en_CA_Energy_1590823,130,agent,channel1,84,777.12,786.12,"say even five or ten years ago. So for a lot of folks, solar makes a lot of sense. So",neutral,0.5659,False,False,False,False,False
+en_CA_Energy_1590823,131,agent,channel1,85,786.12,800.12,yes. Definitely. Is there any other questions or anything else I can help you with today?,neutral,0.5429,False,False,True,True,False
+en_CA_Energy_1590823,132,customer,channel2,47,792.4,802.4,"Yeah, I think that's pretty good.",positive,0.9759,False,False,False,False,False
+en_CA_Energy_1590823,133,agent,channel1,86,800.12,806.12,"All right. Well, you have yourself a great day and thanks for calling us.",positive,0.9769,False,False,False,False,False
+en_CA_Energy_1590823,134,customer,channel2,48,802.4,805.4,Thanks. Bye.,neutral,0.5038,False,False,False,False,False
+en_CA_Energy_1590823,135,agent,channel1,87,806.12,808.12,Bye.,neutral,0.6078,False,False,False,False,False

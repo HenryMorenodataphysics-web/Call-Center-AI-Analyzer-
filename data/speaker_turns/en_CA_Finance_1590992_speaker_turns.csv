@@ -1,0 +1,94 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_Finance_1590992,1,customer,channel2,1,0.0,12.5,I'm interested in applying for an investment loan.
+en_CA_Finance_1590992,2,agent,channel1,1,0.0,21.04,Thank you for calling. This is Great Wealth Investing. How can I help you?
+en_CA_Finance_1590992,3,customer,channel2,2,12.5,18.74,"I'm looking to expand my portfolio, but I don't want to liquidate my current asset as"
+en_CA_Finance_1590992,4,customer,channel2,3,18.74,29.7,of right now.
+en_CA_Finance_1590992,5,agent,channel1,2,21.04,27.32,I see. Okay. So you're not looking to liquidate your current assets. May I ask what you're
+en_CA_Finance_1590992,6,agent,channel1,3,27.32,49.52,looking to do? Okay. Absolutely. So would you want maybe a 10 or what we have is 25 to 30
+en_CA_Finance_1590992,7,customer,channel2,4,29.7,38.5,"I really want to grow long-term, so I'm trying to figure out the smartest borrowing structure,"
+en_CA_Finance_1590992,8,customer,channel2,5,38.5,46.58,not just the biggest loan.
+en_CA_Finance_1590992,9,customer,channel2,6,46.58,63.3,"Yeah, a 20-year would be max."
+en_CA_Finance_1590992,10,agent,channel1,4,49.52,55.44,year amortization? Like is there a certain amount of years that you're looking to aim
+en_CA_Finance_1590992,11,agent,channel1,5,55.56,75.84,"for? Okay. Okay. I can. Okay. Well, based on your portfolio size, a margin, a margin loan is"
+en_CA_Finance_1590992,12,customer,channel2,7,63.3,90.9,I get the qualification requirements if I do qualify for the loan.
+en_CA_Finance_1590992,13,agent,channel1,6,75.84,82.64,"often the quickest solution for enhancing your portfolio. And in order to qualify, you need"
+en_CA_Finance_1590992,14,agent,channel1,7,82.64,102.4,"a minimum of 25,000 to put down. Is that okay with you? Okay. Yeah, it can be. But, you know,"
+en_CA_Finance_1590992,15,customer,channel2,8,90.9,111.62,"Yeah, that's fine. I just want to make sure that it would be secured by my portfolio."
+en_CA_Finance_1590992,16,agent,channel1,8,102.4,110.48,"like I said, in order to qualify, you need a minimum of 25,000. So yeah. As long as you can. Go"
+en_CA_Finance_1590992,17,agent,channel1,9,110.48,126.08,"ahead. Usually around, usually around 30% of the total value. Does that work with you?"
+en_CA_Finance_1590992,18,customer,channel2,9,111.62,133.54,That would be the interest rates and the terms on repaying.
+en_CA_Finance_1590992,19,agent,channel1,10,126.08,141.08,"Oh, actually, sorry. That was that was for I thought you were talking about another one of our"
+en_CA_Finance_1590992,20,customer,channel2,10,133.54,153.34,What are the repayment terms?
+en_CA_Finance_1590992,21,agent,channel1,11,141.08,146.56,"loans. No, so the the term actually, I'm just looking at it here. It says that it's"
+en_CA_Finance_1590992,22,agent,channel1,12,147.36,162.64,"it says that it's going to be it's sorry 15%. Yes. Okay. Actually, your file shows something"
+en_CA_Finance_1590992,23,agent,channel1,13,162.64,171.0,different. My apologies. It says 7.25% prime rate. There is no set replacement. And you pay the
+en_CA_Finance_1590992,24,agent,channel1,14,171.0,179.64,"interest monthly. And the principal is repaid at your at your description. So it's 7.25%. Sorry,"
+en_CA_Finance_1590992,25,agent,channel1,15,179.64,199.96,but that's the 100% confirmation with with this one here. Yes. Yes. Yes. Yes. That's correct.
+en_CA_Finance_1590992,26,customer,channel2,11,183.34,205.74,"Okay, so it's a lot better than 15%. 7.25 prime monthly, and the term is 20 years."
+en_CA_Finance_1590992,27,agent,channel1,16,200.84,207.8,"Some people do push it to 30 years. Just, you know, to give them some balance."
+en_CA_Finance_1590992,28,customer,channel2,12,205.74,235.34,"Okay, let's see here."
+en_CA_Finance_1590992,29,agent,channel1,17,209.64,214.28,"It, you know, we also have customers who get mortgage loans through us. So it really just"
+en_CA_Finance_1590992,30,agent,channel1,18,214.28,218.84,"depends on what you want to do. But if you like, I'm just the customer service agent,"
+en_CA_Finance_1590992,31,agent,channel1,19,218.84,225.64,"but I can get you scheduled in with one of our actual advisors, and they can sit down and"
+en_CA_Finance_1590992,32,agent,channel1,20,225.64,229.72,speak to you about all this and try to figure out what the best options are for you.
+en_CA_Finance_1590992,33,agent,channel1,21,230.44,232.12,"But yeah, whatever."
+en_CA_Finance_1590992,34,customer,channel2,13,235.34,256.5,"Are there any repayments allowed without any penalties, you know, or is that to talk to an"
+en_CA_Finance_1590992,35,agent,channel1,22,247.72,252.6,"So we're repayment terms and all that stuff that usually goes through the advisors,"
+en_CA_Finance_1590992,36,agent,channel1,23,252.6,257.32,but I can hopefully try to just give you a little bit of information here about that.
+en_CA_Finance_1590992,37,agent,channel1,24,257.32,261.88,"Just give me one moment if you don't mind. Okay, thank you."
+en_CA_Finance_1590992,38,agent,channel1,25,267.08,275.48,"Yeah. So for the repayment terms, yeah, so it is flexible. It is it is flexible. I know that,"
+en_CA_Finance_1590992,39,agent,channel1,26,275.48,279.72,"but typically if you want to get into the nitty-gritty and all the details,"
+en_CA_Finance_1590992,40,agent,channel1,27,279.72,286.68,"I would have to book you in with an advisor. But yeah, before we I get you booked in,"
+en_CA_Finance_1590992,41,customer,channel2,14,286.5,287.5,investor?
+en_CA_Finance_1590992,42,agent,channel1,28,287.48,290.2,are you just looking for one loan or multiple loans?
+en_CA_Finance_1590992,43,customer,channel2,15,287.5,298.82,"Well, I've been keeping an eye on a few companies, so I'm wondering if you guys provide stock"
+en_CA_Finance_1590992,44,customer,channel2,16,298.82,316.18,performance updates and alerts through your guys' service.
+en_CA_Finance_1590992,45,agent,channel1,29,304.36,311.8,"Oh, yes, we do. We do offer that. So we have an app. We do have an app that you can follow along"
+en_CA_Finance_1590992,46,agent,channel1,30,311.8,318.28,"and look at your stock performance and any updates and all that stuff. Additionally,"
+en_CA_Finance_1590992,47,customer,channel2,17,316.18,339.46,"No, I don't."
+en_CA_Finance_1590992,48,agent,channel1,31,318.92,325.8,"you can also go on our website to check our any stock performances. But yeah, you can definitely"
+en_CA_Finance_1590992,49,agent,channel1,32,325.8,330.92,do that. But we prefer you using our app because it gets updated right away. The
+en_CA_Finance_1590992,50,agent,channel1,33,330.92,337.56,website will take a couple days to get updated. But do you have Great Wealth app downloaded?
+en_CA_Finance_1590992,51,customer,channel2,18,339.46,360.9,"I'm a little behind my time here with electronics, but maybe my friend can help me out with that."
+en_CA_Finance_1590992,52,agent,channel1,34,342.28,356.44,"Okay, absolutely. If you like, I can walk you through the process. So do you have an iOS or"
+en_CA_Finance_1590992,53,agent,channel1,35,356.44,364.04,"do you have an Android iPhone or iPhone? Okay, wonderful. So if you just go to the app store"
+en_CA_Finance_1590992,54,customer,channel2,19,360.9,389.5,"Okay, yep, yep, no, I have that's good, and that's it all I have to do."
+en_CA_Finance_1590992,55,agent,channel1,36,364.04,370.28,"and type in Great Space and then Wealth, it's going to be the first option. You just download"
+en_CA_Finance_1590992,56,agent,channel1,37,370.36,377.96,it. You do have to log in with the password and also the email address you were given.
+en_CA_Finance_1590992,57,agent,channel1,38,378.68,382.92,Every one of our customers were given an email address and password. Did you get that?
+en_CA_Finance_1590992,58,agent,channel1,39,384.6,391.8,"You did. Okay, wonderful. You did. Okay. Oh, yes, that's all. As soon as you log in,"
+en_CA_Finance_1590992,59,customer,channel2,20,389.5,416.18,"Oh, okay. Awesome. Well, I will do that, and maybe I can schedule a call with an agent"
+en_CA_Finance_1590992,60,agent,channel1,40,391.8,397.8,you will be getting all those updates as well. And it will ask you if you want to turn on
+en_CA_Finance_1590992,61,agent,channel1,41,397.8,402.36,"your notifications, just click Yes. And you'll get all those updates and stock performances and all"
+en_CA_Finance_1590992,62,agent,channel1,42,402.36,424.84,"that through the app directly. Oh, yes, absolutely. I can do that for you right now, actually. I have"
+en_CA_Finance_1590992,63,customer,channel2,21,416.18,439.9,"or an advisor, sorry, to discuss the portfolio in more detail, is that possible?"
+en_CA_Finance_1590992,64,agent,channel1,43,424.84,435.0,our calendar open and the students we have available is the 30th of this month at 10.30 am. Does that
+en_CA_Finance_1590992,65,agent,channel1,44,435.0,446.36,"work with you? Or do you need something later? So the 30th, that actually falls on a Sunday."
+en_CA_Finance_1590992,66,customer,channel2,22,439.9,464.82,What day is that of the week?
+en_CA_Finance_1590992,67,agent,channel1,45,446.36,452.68,"He's in on weekends usually, but we can also do, if weekends don't work for you, we can also"
+en_CA_Finance_1590992,68,agent,channel1,46,452.68,460.12,do from the 24th to the 28th. The 24th falls on a Monday. The 28th falls on a Friday. So any time
+en_CA_Finance_1590992,69,agent,channel1,47,460.12,466.92,"between that week we can do, but he usually for weekends. Okay. What day during the week"
+en_CA_Finance_1590992,70,customer,channel2,23,464.82,492.78,"Okay. Let's go Wednesday, the 26th, yeah, let's go 12 o'clock."
+en_CA_Finance_1590992,71,agent,channel1,48,466.92,477.88,"works best for you between the 24th and the 28th? Wednesday? Okay, wonderful. And just looking"
+en_CA_Finance_1590992,72,agent,channel1,49,477.96,490.92,"at the time schedule here, there is 10.30, 11.00 am, 11.30, 12.00 pm, 12.30, which one?"
+en_CA_Finance_1590992,73,agent,channel1,50,493.4,496.2,"12.00? Okay, I'll go ahead and book you in here."
+en_CA_Finance_1590992,74,agent,channel1,51,500.84,507.32,"Okay. All right, wonderful. And just really quickly, could you confirm your email address here?"
+en_CA_Finance_1590992,75,agent,channel1,52,507.88,511.88,Okay.
+en_CA_Finance_1590992,76,customer,channel2,24,522.78,550.3,"Yes, awesome. And you guys will email me everything will be like what's included there, like loan"
+en_CA_Finance_1590992,77,agent,channel1,53,526.12,529.16,"Wonderful. Okay. Thank you for that. I'm just going to confirm,"
+en_CA_Finance_1590992,78,agent,channel1,54,529.16,531.8,just to be sure that we have that correctly. So we have
+en_CA_Finance_1590992,79,agent,channel1,55,532.36,540.68,"Rebecca, R-E-B is in bike-e-c-c-a-2-3-at-shaw.com."
+en_CA_Finance_1590992,80,agent,channel1,56,543.24,543.72,Okay.
+en_CA_Finance_1590992,81,customer,channel2,25,550.3,567.66,"payments, the interest rates, or the advisor just going to go over all that with me."
+en_CA_Finance_1590992,82,agent,channel1,57,552.36,552.68,Yes.
+en_CA_Finance_1590992,83,agent,channel1,58,556.04,560.2,"Yeah, so the advisor, he has all those details. So what he's going to do is break down"
+en_CA_Finance_1590992,84,agent,channel1,59,560.2,565.48,all of the options available and what would essentially be the best option for you in your
+en_CA_Finance_1590992,85,agent,channel1,60,565.48,571.8,"needs. So he's going to go over that. And yeah, the email shows you where exactly to meet him when"
+en_CA_Finance_1590992,86,customer,channel2,26,567.66,591.74,"I haven't looked, but I'm sure it will be there. I can look after I get up the phone. I'm not"
+en_CA_Finance_1590992,87,agent,channel1,61,571.8,576.36,"you get to the building, because we're in a complex, it's a little bit confusing and our unit"
+en_CA_Finance_1590992,88,agent,channel1,62,576.36,580.68,"can be kind of hard to find, but the email will tell you exactly where to find your advisor"
+en_CA_Finance_1590992,89,agent,channel1,63,580.68,585.08,once you get here. But did you get the confirmation email already?
+en_CA_Finance_1590992,90,agent,channel1,64,591.16,598.68,"Okay. No worries. If not, just feel free to give us a call, but you're all booked in."
+en_CA_Finance_1590992,91,customer,channel2,27,591.74,609.34,"good at. Okay, awesome. That's great. Thank you so much for your help. No, no, that's great."
+en_CA_Finance_1590992,92,agent,channel1,65,603.0,606.68,You're welcome. Thank you for your time. And was there anything else I could help you with?
+en_CA_Finance_1590992,93,agent,channel1,66,608.76,611.48,Okay. Okay. Okay. Bye-bye.

@@ -1,0 +1,64 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Technology_1586372,1,agent,channel1,1,0.0,17.04,"Bye, Hank, and I'll see you.",neutral,0.5169,False,False,False,False,False
+en_AU_Technology_1586372,2,customer,channel2,1,0.0,21.48,"Oh hi, I've just got my laptop here and I've just seen an update on it and now it's just",neutral,0.5583,False,False,False,False,False
+en_AU_Technology_1586372,3,customer,channel2,2,21.48,32.08,not it's not starting up like it powers up but the screen is just black so like you can't,negative,0.6088,False,False,False,False,False
+en_AU_Technology_1586372,4,agent,channel1,2,30.0,40.88,"Okay, is that a laptop that you purchased through us? Yeah, can I ask when you purchased",neutral,0.8982,False,False,True,False,False
+en_AU_Technology_1586372,5,customer,channel2,3,32.08,59.24,see anything. Yes it is. About six months ago. Yeah it came up and it told me it was timed,neutral,0.8429,False,False,False,False,False
+en_AU_Technology_1586372,6,agent,channel1,3,40.88,51.96,"it? Okay, so it should be still under the warranty. Let's go through some steps together",neutral,0.6993,False,False,True,False,False
+en_AU_Technology_1586372,7,agent,channel1,4,52.04,57.0,and see what you've done. So did you say you just updated the laptop?,neutral,0.9176,False,False,True,False,False
+en_AU_Technology_1586372,8,customer,channel2,4,59.24,71.6,updated so I pressed update and now it's just screen is black. I did and it's nothing it's,negative,0.6251,False,False,False,False,False
+en_AU_Technology_1586372,9,agent,channel1,5,65.64,69.32,So did you try to restart it or turn it off and on?,neutral,0.9228,False,False,True,False,False
+en_AU_Technology_1586372,10,agent,channel1,6,70.04,75.24,"Okay, did you try to",neutral,0.8692,False,False,False,False,False
+en_AU_Technology_1586372,11,customer,channel2,5,71.6,94.56,just not responding at all. Yes I have tried that as well and it didn't work. Nothing it,negative,0.8621,False,False,False,False,False
+en_AU_Technology_1586372,12,agent,channel1,7,77.4,84.76,do the hard start as in hold the start on and off button for 10 seconds?,neutral,0.9222,False,False,True,False,False
+en_AU_Technology_1586372,13,agent,channel1,8,87.56,88.84,"Okay, and what happens then?",neutral,0.8879,False,False,True,False,False
+en_AU_Technology_1586372,14,agent,channel1,9,92.04,93.4,What happens when you do that?,neutral,0.7246,False,False,True,False,False
+en_AU_Technology_1586372,15,customer,channel2,6,94.56,103.36,"just doesn't turn on doesn't turn off. It just stays black. No sound, no nothing. Is it charged?",negative,0.7844,False,False,False,False,False
+en_AU_Technology_1586372,16,agent,channel1,10,100.28,101.56,Is it in charge?,neutral,0.91,False,False,True,False,False
+en_AU_Technology_1586372,17,customer,channel2,7,103.76,108.68,Yeah it's charged. It is.,neutral,0.6404,False,False,False,False,False
+en_AU_Technology_1586372,18,agent,channel1,11,103.96,107.88,"Yeah, and is it connected to the power at the moment?",neutral,0.9487,False,False,True,False,False
+en_AU_Technology_1586372,19,customer,channel2,8,108.68,135.48,Yeah I can do that.,positive,0.6849,False,False,False,False,False
+en_AU_Technology_1586372,20,agent,channel1,12,109.64,111.48,"Oh, that is very strange.",negative,0.8439,False,False,False,False,False
+en_AU_Technology_1586372,21,agent,channel1,13,114.28,121.8,"Can you disconnect the power, connect it again, try to hold the power button down for 10 seconds",neutral,0.8928,False,False,True,False,False
+en_AU_Technology_1586372,22,agent,channel1,14,121.8,128.68,"with me and tell me exactly how the light is treating, whether it's flashing, whether it's",neutral,0.8301,False,False,False,False,False
+en_AU_Technology_1586372,23,agent,channel1,15,128.76,134.28,"like on, remains on, goes off. Can you do that and take me through it?",neutral,0.7299,False,False,True,False,False
+en_AU_Technology_1586372,24,customer,channel2,9,138.68,159.08,So the light nothing happened. No light was on so it just stayed off. It's just the same as it was it's,negative,0.5223,False,False,False,False,False
+en_AU_Technology_1586372,25,agent,channel1,16,153.4,155.08,"Okay, yeah.",neutral,0.682,False,False,False,False,False
+en_AU_Technology_1586372,26,agent,channel1,17,159.08,164.76,The light didn't go on and off at all?,neutral,0.6839,False,False,True,False,False
+en_AU_Technology_1586372,27,customer,channel2,10,159.08,184.4,"just completely black. No, no. Oh the light's gone off now. Yeah.",negative,0.6329,False,False,False,False,False
+en_AU_Technology_1586372,28,agent,channel1,18,166.68,173.72,"Okay, so you were saying that the computer, the device is on, but the screen stays black.",neutral,0.8405,False,False,False,False,False
+en_AU_Technology_1586372,29,agent,channel1,19,173.72,178.6,"What do you mean when you say screen, the device is on if the light is also off?",neutral,0.865,False,False,True,False,False
+en_AU_Technology_1586372,30,agent,channel1,20,181.64,184.28,"Okay, but you can't turn back on again.",neutral,0.7314,False,False,False,False,False
+en_AU_Technology_1586372,31,agent,channel1,21,184.52,191.0,"Right, okay, that's not good. So everything seems to be off now.",negative,0.9256,False,False,False,False,False
+en_AU_Technology_1586372,32,customer,channel2,11,190.0,191.44,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Technology_1586372,33,agent,channel1,22,192.6,199.96,"Okay, if it is all off and you can't turn it back on, I actually don't know how",negative,0.7384,False,False,False,False,False
+en_AU_Technology_1586372,34,agent,channel1,23,201.08,206.36,I can help you with that over the phone. Would you be able to bring it in at some point?,neutral,0.8566,False,False,True,True,False
+en_AU_Technology_1586372,35,customer,channel2,12,206.08,210.4,Um yeah do you know if it would be covered under warranty?,neutral,0.9324,False,False,False,False,False
+en_AU_Technology_1586372,36,agent,channel1,24,206.36,218.04,"Generally speaking, these type of issues, I will need to work out what the problem with it is,",negative,0.6383,False,False,False,False,False
+en_AU_Technology_1586372,37,customer,channel2,13,210.4,237.4,"Okay, do you know how long you would need it for?",neutral,0.9432,False,False,False,False,False
+en_AU_Technology_1586372,38,agent,channel1,25,218.6,225.64,"but these type of issues are only covered for six months, so we'll need to have a look and see what",neutral,0.6288,False,False,False,False,False
+en_AU_Technology_1586372,39,agent,channel1,26,225.64,228.92,the purchase date on this item is.,neutral,0.943,False,False,False,False,False
+en_AU_Technology_1586372,40,agent,channel1,27,237.32,243.4,"So then again, it really depends what the problem is. Generally speaking, you should",neutral,0.7067,False,False,False,False,False
+en_AU_Technology_1586372,41,customer,channel2,14,237.4,262.4,"Okay, because the problem is I live out in the middle of nowhere.",negative,0.7083,False,False,False,False,False
+en_AU_Technology_1586372,42,agent,channel1,28,243.4,249.64,"drop it off with us and we can have it located within two to three business days,",neutral,0.7707,False,False,False,False,False
+en_AU_Technology_1586372,43,agent,channel1,29,251.08,257.64,but it also depends if we can repair it in-house or we need any replacement parts for it.,neutral,0.7863,False,False,False,False,False
+en_AU_Technology_1586372,44,customer,channel2,15,262.4,270.4,So I was actually wondering if how to ship my laptop to you guys but doing it safely.,neutral,0.691,False,False,False,False,False
+en_AU_Technology_1586372,45,agent,channel1,30,263.08,263.48,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Technology_1586372,46,agent,channel1,31,266.52,280.44,"Well, we don't really provide any services as such. We have had customers in the past that",negative,0.5317,False,False,False,False,False
+en_AU_Technology_1586372,47,agent,channel1,32,280.44,287.72,use just the post for that and obviously there are like safe packages that you can get and express,neutral,0.7349,False,False,False,False,False
+en_AU_Technology_1586372,48,agent,channel1,33,287.72,292.36,"ones that you can get, but we do not provide any warranty if they're further damages to your",negative,0.5785,False,False,False,False,False
+en_AU_Technology_1586372,49,agent,channel1,34,292.36,302.04,"items. So if you want to do that, that's fine and if you want, you will need to provide a return",neutral,0.839,False,False,False,False,False
+en_AU_Technology_1586372,50,customer,channel2,16,292.4,318.4,"Okay, all right. Yeah.",positive,0.6133,False,False,False,False,False
+en_AU_Technology_1586372,51,agent,channel1,35,302.68,310.52,"parcel packaging, so if you want us to then post it back to you, but that might take a little bit",neutral,0.9245,False,False,False,False,False
+en_AU_Technology_1586372,52,agent,channel1,36,310.52,317.64,longer to basically send it because we don't generally provide that service to our customers.,neutral,0.5076,False,False,False,False,False
+en_AU_Technology_1586372,53,customer,channel2,17,318.4,343.4,"No, that's okay. I think I'll come to town one day and drop it off.",neutral,0.6019,False,False,False,False,False
+en_AU_Technology_1586372,54,agent,channel1,37,318.44,328.76,"Okay, no problem, but just be mindful if you're leaving it with us, it will take two to three",neutral,0.7713,False,False,False,False,False
+en_AU_Technology_1586372,55,agent,channel1,38,328.76,334.12,"business days if there are repairs, but if there are replacement parts needed, it will be longer",neutral,0.635,False,False,False,False,False
+en_AU_Technology_1586372,56,agent,channel1,39,334.84,341.4,"and that all depends if it is still under warranty or not. If it isn't, you mentioned you",neutral,0.7827,False,False,False,False,False
+en_AU_Technology_1586372,57,agent,channel1,40,341.4,350.04,"purchased it about six months ago, so I would check that and try to bring it in if it's still",neutral,0.8692,False,False,False,False,False
+en_AU_Technology_1586372,58,customer,channel2,18,343.4,361.4,"Okay, that'd be great. Cool. Yeah.",positive,0.9807,False,False,False,False,False
+en_AU_Technology_1586372,59,agent,channel1,41,350.04,360.44,"within the warranty period sooner than later. Okay, was there anything else that I can help you with?",neutral,0.8683,False,False,True,True,False
+en_AU_Technology_1586372,60,customer,channel2,19,361.4,369.4,That's all for the moment. Thank you.,positive,0.7024,False,False,False,False,False
+en_AU_Technology_1586372,61,agent,channel1,42,363.96,368.76,"No problem, sorry, I couldn't help and let us know if there is anything else you need from us.",neutral,0.5484,False,False,False,False,False
+en_AU_Technology_1586372,62,agent,channel1,43,368.76,377.48,"No problem, bye.",neutral,0.6457,False,False,False,False,False
+en_AU_Technology_1586372,63,customer,channel2,20,369.4,377.4,I will. Thank you. Bye.,positive,0.6677,False,False,False,False,False

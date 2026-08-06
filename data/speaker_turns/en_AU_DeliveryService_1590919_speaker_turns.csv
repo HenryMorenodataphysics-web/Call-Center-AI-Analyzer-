@@ -1,0 +1,108 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_DeliveryService_1590919,1,agent,channel1,1,0.0,17.0,Good evening. Welcome to having one customer support. You're speaking with Tom. How can
+en_AU_DeliveryService_1590919,2,customer,channel2,1,0.0,25.26,"Tom, I'm a bit stressed out and annoyed to be honest with you, I've ordered a TV from"
+en_AU_DeliveryService_1590919,3,agent,channel1,2,17.0,19.0,I help you today?
+en_AU_DeliveryService_1590919,4,customer,channel2,2,25.26,32.06,"you guys, got a big 75 inch TV, had it delivered, I've opened it up and you're never going to"
+en_AU_DeliveryService_1590919,5,customer,channel2,3,32.06,33.26,believe what I've found.
+en_AU_DeliveryService_1590919,6,agent,channel1,3,35.0,42.0,"Well, first of all, I'd just like to ask how you day was, but we'll start there and then we'll move into the issue that"
+en_AU_DeliveryService_1590919,7,customer,channel2,4,41.26,44.86,"Oh well it's not very good Tom, I'll tell you that much, it's not very good."
+en_AU_DeliveryService_1590919,8,customer,channel2,5,45.66,51.42,"So the reason it's not good is because I finally got my TV delivered, I've been waiting,"
+en_AU_DeliveryService_1590919,9,agent,channel1,4,47.0,70.0,I would have absolutely cracked it if that happened to me. No pun intended. But I am extremely sorry that that has
+en_AU_DeliveryService_1590919,10,customer,channel2,6,51.42,57.98,it's been on backlog for weeks and weeks and I've had to sit by and be in my new place with no TV
+en_AU_DeliveryService_1590919,11,customer,channel2,7,58.62,61.98,"and now it's got a crack in it, can you believe it?"
+en_AU_DeliveryService_1590919,12,agent,channel1,5,70.0,82.0,"happened. At Harvey Norman, we pride ourselves on customer service as well as the proficiency of our delivery staff, even though it is by a third party."
+en_AU_DeliveryService_1590919,13,agent,channel1,6,82.0,95.0,Just so I can bring up your order and we'll get this sorted right away for you. Could you please tell me what the 18th letter of your email address from last year was?
+en_AU_DeliveryService_1590919,14,agent,channel1,7,95.0,105.0,Great. Thank you very much. And just your postcode ending in one from Queensland.
+en_AU_DeliveryService_1590919,15,agent,channel1,8,111.0,122.0,"Perfect. Thanks very much. I appreciate you confirming that. I do understand this is a very frustrating time, particularly as I can see. Yeah, you were on backlog for 12 weeks there."
+en_AU_DeliveryService_1590919,16,customer,channel2,8,111.58,129.58,Yeah.
+en_AU_DeliveryService_1590919,17,agent,channel1,9,122.0,137.0,"Yeah, it has been a long time. Before we do get stuck into the issue of the crack in the screen, was everything else okay with it? Did it fit in the space okay? And how was the delivery agent?"
+en_AU_DeliveryService_1590919,18,customer,channel2,9,129.58,143.3,"Well, the delivery agent wasn't great because they cracked the screen or someone's cracked"
+en_AU_DeliveryService_1590919,19,customer,channel2,10,143.3,144.86,the screen.
+en_AU_DeliveryService_1590919,20,customer,channel2,11,144.86,145.86,Everything fits fine.
+en_AU_DeliveryService_1590919,21,customer,channel2,12,145.86,150.7,"I just, I can't believe how frustrated I am after waiting so long."
+en_AU_DeliveryService_1590919,22,customer,channel2,13,150.7,156.42,"And if you tell me I have to wait another 12 weeks, I think I might lose my mind."
+en_AU_DeliveryService_1590919,23,agent,channel1,10,153.0,171.0,"Okay, I'm just having a look here. Because we do pride ourselves on our delivery service, we did get voted number one by choice last year. We do take photos of the product before it leaves the distribution centre and actually when it's"
+en_AU_DeliveryService_1590919,24,customer,channel2,14,156.42,180.22,"No, it was thought."
+en_AU_DeliveryService_1590919,25,agent,channel1,11,171.0,186.0,delivered. And I can see here that there's a photo and it was actually in good condition when the delivery agents dropped it off. You are standing in the photo with the uncracked TV.
+en_AU_DeliveryService_1590919,26,customer,channel2,15,180.22,193.1,"It's not an uncracked TV, you've only got a photo of the box and then they left."
+en_AU_DeliveryService_1590919,27,customer,channel2,16,193.1,196.86,"They didn't help us unpack it at all and as soon as we opened it, there's a crack in the"
+en_AU_DeliveryService_1590919,28,customer,channel2,17,196.86,202.06,screen and I don't appreciate that you're trying to act as if we've done it or something
+en_AU_DeliveryService_1590919,29,agent,channel1,12,201.0,226.0,"Okay, I'm really sorry about the confusion here. I'm absolutely not trying to lay blame at all, because we do have a video of you and a photo with you from the dash cam of the driver and you lifting it out and packing it from the box and lifting it into your house."
+en_AU_DeliveryService_1590919,30,customer,channel2,18,202.06,213.42,"because we seriously just opened up the box, who's crack?"
+en_AU_DeliveryService_1590919,31,customer,channel2,19,213.42,230.46,"No, they delivered it into my lounge room."
+en_AU_DeliveryService_1590919,32,customer,channel2,20,231.18,246.06,Are you sure you're looking at the right account?
+en_AU_DeliveryService_1590919,33,agent,channel1,13,232.0,245.0,"Yeah, like I definitely am because you confirmed your details. The box was unpacked at the bottom of your front steps and she both carried it into the living room."
+en_AU_DeliveryService_1590919,34,agent,channel1,14,246.0,265.0,"Sorry, steps is probably the wrong term to use over the well into the front door. There is a step up, I should have said. Yeah, because we do have the cameras on all of our agents just to make sure these things don't happen."
+en_AU_DeliveryService_1590919,35,customer,channel2,21,246.06,274.06,"No I don't have steps, so you're definitely looking at the wrong place."
+en_AU_DeliveryService_1590919,36,agent,channel1,15,265.0,284.0,"So I'm just wondering, potentially, have you been out of the house since it was delivered or have there been any guests around? Okay, this is a bit of an unfortunate one. I will have to escalate this just to see what we could do."
+en_AU_DeliveryService_1590919,37,customer,channel2,22,274.06,293.74,No.
+en_AU_DeliveryService_1590919,38,agent,channel1,16,284.0,292.0,Could I book in time for one of our servicing to come out to your property to take a look at that?
+en_AU_DeliveryService_1590919,39,agent,channel1,17,292.0,308.0,"Well, it's not something that we do usually offer, but because I can see you're quite a loyal customer with us, and I completely understand the issue here."
+en_AU_DeliveryService_1590919,40,customer,channel2,23,293.74,297.02,"To come and look at the TV, I've never heard of anything like this before."
+en_AU_DeliveryService_1590919,41,customer,channel2,24,297.02,300.38,"I can send you photos, I can send you videos of what it looks like."
+en_AU_DeliveryService_1590919,42,agent,channel1,18,309.0,321.0,"We would absolutely love to give you that in person service and just be able to deal with this face to face rather than having to make you pack it up, send it off and wait even longer."
+en_AU_DeliveryService_1590919,43,agent,channel1,19,321.0,329.0,Like we'll be able to send somebody out in the next 24 hours just to have a quick chat with you and take a look at to see if it's something that can be repaired perhaps on site.
+en_AU_DeliveryService_1590919,44,customer,channel2,25,327.58,333.02,I'm so confused.
+en_AU_DeliveryService_1590919,45,customer,channel2,26,333.02,336.38,"I've ordered something from you guys, I've had it delivered."
+en_AU_DeliveryService_1590919,46,customer,channel2,27,336.38,338.38,There's a huge crack in the screen.
+en_AU_DeliveryService_1590919,47,agent,channel1,20,338.0,363.0,Thank you.
+en_AU_DeliveryService_1590919,48,customer,channel2,28,338.38,342.7,You're going to send someone out here and possibly repair something that's broken.
+en_AU_DeliveryService_1590919,49,customer,channel2,29,342.7,344.38,I haven't used it for five minutes.
+en_AU_DeliveryService_1590919,50,customer,channel2,30,344.38,346.78,It's like we haven't even got it out of the box yet.
+en_AU_DeliveryService_1590919,51,customer,channel2,31,346.78,348.06,It hasn't even been turned on.
+en_AU_DeliveryService_1590919,52,customer,channel2,32,348.06,349.9,The stickers are still all over it.
+en_AU_DeliveryService_1590919,53,customer,channel2,33,350.46,354.3,So I just don't understand why we wouldn't just replace it because
+en_AU_DeliveryService_1590919,54,customer,channel2,34,354.94,357.02,it's bad enough that we've waited 12 weeks.
+en_AU_DeliveryService_1590919,55,customer,channel2,35,357.02,360.46,It's bad enough that the delivery drivers have come through and just left it.
+en_AU_DeliveryService_1590919,56,customer,channel2,36,361.34,370.14,Like I'm a bit I'm a bit frustrated to be honest with you.
+en_AU_DeliveryService_1590919,57,agent,channel1,21,363.0,381.0,"I completely understand, and I am sorry. This is how you're feeling over the situation, but because we do have those photos in the video of the installation, that's why we're just needing to"
+en_AU_DeliveryService_1590919,58,customer,channel2,37,380.46,382.7,This is why I don't think you're looking at my account.
+en_AU_DeliveryService_1590919,59,agent,channel1,22,381.0,391.0,do that.
+en_AU_DeliveryService_1590919,60,customer,channel2,38,382.7,390.54,Nothing was installed and it was like my place is in a lift.
+en_AU_DeliveryService_1590919,61,agent,channel1,23,391.0,408.0,"So yeah, and that's what I mean. You've gone through the front door without driver, but that's okay. And that's why I would like to send somebody out to just show you the footage and just investigate it together so we can work out where along the way it's gone wrong."
+en_AU_DeliveryService_1590919,62,agent,channel1,24,408.0,419.0,"Obviously, what I'm seeing here isn't of an acceptable level and I completely agree if it's if you're saying it's not right."
+en_AU_DeliveryService_1590919,63,customer,channel2,39,412.7,428.54,"Yeah, I think it definitely does need to be escalated."
+en_AU_DeliveryService_1590919,64,agent,channel1,25,419.0,429.0,That's why we'd like to escalate this further and just send out one of our representatives to look at it better.
+en_AU_DeliveryService_1590919,65,agent,channel1,26,429.0,443.0,"Thank you. Yeah, it's I mean, especially since the new stranger things came out, I can only imagine that's what you're jumping a bit to start watching so we can get a representative out."
+en_AU_DeliveryService_1590919,66,agent,channel1,27,443.0,455.0,"Actually, we've got it. We've got some time within the within the next three hours if you're at home at the moment, and we can get someone out there almost straight away."
+en_AU_DeliveryService_1590919,67,customer,channel2,40,443.42,458.54,"Yeah, that's fine."
+en_AU_DeliveryService_1590919,68,agent,channel1,28,455.0,465.0,"Okay, perfect. So I've got your address here could you just confirm the street name for me."
+en_AU_DeliveryService_1590919,69,customer,channel2,41,463.02,472.54,"Yeah, it's McGrath straight."
+en_AU_DeliveryService_1590919,70,agent,channel1,29,466.0,474.0,So I booked in Daniel. So Daniel will be coming out to have a chat to you about this one.
+en_AU_DeliveryService_1590919,71,customer,channel2,42,472.7,490.94,"Yeah, I don't want it fixed."
+en_AU_DeliveryService_1590919,72,agent,channel1,30,474.0,484.0,"Potentially, if it is just a crack screen, it's actually not as hard to replace as used to be. So potentially, we may be able to fix that for you on site."
+en_AU_DeliveryService_1590919,73,agent,channel1,31,484.0,489.0,"Otherwise, we'll be able to talk next steps when Daniel gets there."
+en_AU_DeliveryService_1590919,74,customer,channel2,43,490.94,493.82,I want a brand new TV like I've paid for.
+en_AU_DeliveryService_1590919,75,customer,channel2,44,493.82,495.58,So that's just kind of where I'm at.
+en_AU_DeliveryService_1590919,76,agent,channel1,32,495.0,498.0,Thank you.
+en_AU_DeliveryService_1590919,77,customer,channel2,45,495.58,500.14,So what you guys decide to do after that is like on you guys.
+en_AU_DeliveryService_1590919,78,customer,channel2,46,500.14,504.94,But I will take this to the ACCC because you can't just deliver me something.
+en_AU_DeliveryService_1590919,79,customer,channel2,47,504.94,508.06,It's cracked and expect me to have a repaired item.
+en_AU_DeliveryService_1590919,80,customer,channel2,48,508.06,512.3,Like that just goes against all all the laws in Victoria.
+en_AU_DeliveryService_1590919,81,customer,channel2,49,512.3,516.86,"So I'm not taking anything, but you can send your little man out here"
+en_AU_DeliveryService_1590919,82,customer,channel2,50,516.86,518.62,and he can come and have a look at it.
+en_AU_DeliveryService_1590919,83,customer,channel2,51,518.62,523.66,But the end result is going to be a new TV to replace what the damage has been done
+en_AU_DeliveryService_1590919,84,customer,channel2,52,523.66,526.94,because I haven't even looked at this TV for more than two seconds
+en_AU_DeliveryService_1590919,85,agent,channel1,33,525.0,538.0,I absolutely know what you mean. And that's why we do have these protocols in place for us to video and take photos of the delivery in action.
+en_AU_DeliveryService_1590919,86,customer,channel2,53,526.94,528.06,without it being ruined.
+en_AU_DeliveryService_1590919,87,customer,channel2,54,528.06,528.7,Do you know what I mean?
+en_AU_DeliveryService_1590919,88,customer,channel2,55,530.94,543.02,"Yeah, I've got cameras too."
+en_AU_DeliveryService_1590919,89,agent,channel1,34,538.0,550.0,So we don't end up in situations similar to
+en_AU_DeliveryService_1590919,90,customer,channel2,56,543.02,544.94,We'll compare notes.
+en_AU_DeliveryService_1590919,91,customer,channel2,57,544.94,546.14,We'll be able to have a look.
+en_AU_DeliveryService_1590919,92,customer,channel2,58,546.14,559.98,"And I bet you you've got the wrong account there, young man."
+en_AU_DeliveryService_1590919,93,agent,channel1,35,550.0,561.0,"Well, I do apologize. And it is a very stressful situation, particularly for having such a high value item damaged before you've even been able to take the stickers off it."
+en_AU_DeliveryService_1590919,94,customer,channel2,59,560.54,571.98,"All right, sounds good."
+en_AU_DeliveryService_1590919,95,agent,channel1,36,561.0,572.0,"Please rest assured, we are getting somebody out there within the next three hours and we're going to do everything we can to make this right for you, Laura."
+en_AU_DeliveryService_1590919,96,agent,channel1,37,572.0,582.0,"Thanks very much. And I can see that you actually received $100 credit with the purchase that TV, but you haven't activated that yet."
+en_AU_DeliveryService_1590919,97,agent,channel1,38,582.0,588.0,So I will just get Daniel to talk you through how to access that too when he gets there.
+en_AU_DeliveryService_1590919,98,customer,channel2,60,587.26,587.98,All righties.
+en_AU_DeliveryService_1590919,99,agent,channel1,39,588.0,596.0,"Outside of that, quite big issue, is there anything else I can help you with before we end the call today?"
+en_AU_DeliveryService_1590919,100,customer,channel2,61,590.94,599.74,"Oh, look, we're going to not get stuck into anything else."
+en_AU_DeliveryService_1590919,101,customer,channel2,62,599.74,602.54,Let's just get this one sorted and we can go from there.
+en_AU_DeliveryService_1590919,102,agent,channel1,40,603.0,609.0,"All right, well, Daniel has your number, he has your address, and he'll be with you shortly."
+en_AU_DeliveryService_1590919,103,customer,channel2,63,607.9,608.78,All righties.
+en_AU_DeliveryService_1590919,104,customer,channel2,64,608.78,609.26,Thank you.
+en_AU_DeliveryService_1590919,105,agent,channel1,41,609.0,612.0,"Thanks for calling, Laura."
+en_AU_DeliveryService_1590919,106,customer,channel2,65,611.82,615.98,Take care.
+en_AU_DeliveryService_1590919,107,customer,channel2,66,620.14,627.98,Thank you.

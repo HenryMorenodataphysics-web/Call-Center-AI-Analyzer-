@@ -1,0 +1,78 @@
+{
+  "status": "blocked",
+  "contract_version": "1.0.0",
+  "target": {
+    "name": "survey_positive",
+    "type": "binary",
+    "population": "Calls with a completed and successfully linked customer survey.",
+    "positive_value": 1,
+    "negative_value": 0,
+    "interpretation": "Conditional probability that a completed survey is positive.",
+    "does_not_measure": [
+      "Probability that a customer completes a survey",
+      "Official QA performance",
+      "Current conversation_risk_v1 heuristic",
+      "Synthetic portfolio CSAT, NPS, QA, or Five Stars fixtures"
+    ]
+  },
+  "profile": {
+    "analyzed_calls": 100,
+    "outcome_rows": 30,
+    "completed_survey_labels": 0,
+    "synthetic_completed_survey_rows": 30,
+    "positive_labels": 0,
+    "negative_labels": 0,
+    "agents_with_labels": 0,
+    "survey_types": [],
+    "label_definition_versions": []
+  },
+  "training_gates": {
+    "minimum_labeled_calls": 80,
+    "minimum_positive_calls": 20,
+    "minimum_negative_calls": 20,
+    "minimum_agents": 8,
+    "maximum_survey_types_per_model": 1,
+    "require_single_label_definition_version": true
+  },
+  "feature_columns": [
+    "call_duration_min",
+    "turns_per_minute",
+    "agent_talk_share",
+    "negative_customer_rate",
+    "customer_frustration_rate",
+    "high_intensity_customer_rate",
+    "agent_empathy_rate",
+    "agent_probing_rate",
+    "agent_ownership_rate",
+    "agent_next_steps_rate",
+    "signal_coverage_confidence"
+  ],
+  "excluded_feature_families": [
+    "agent identity or name",
+    "survey fields or post-call outcomes",
+    "synthetic demo KPIs",
+    "conversation_risk_v1 score and level",
+    "free-text transcript or customer personal data"
+  ],
+  "issues": [
+    {
+      "severity": "blocking",
+      "code": "SYNTHETIC_LABELS_NOT_ALLOWED",
+      "message": "Synthetic survey rows may test plumbing but cannot train or validate the real-outcome model.",
+      "evidence": {
+        "rows": 30
+      }
+    },
+    {
+      "severity": "blocking",
+      "code": "NO_REAL_SURVEY_LABELS",
+      "message": "No completed real survey labels are available; training and probability display remain disabled."
+    }
+  ],
+  "generated_at": "2026-07-15T04:30:11+00:00",
+  "source_paths": {
+    "calls": "data\\final_outputs\\all_calls_summary.csv",
+    "outcomes": "data\\outcomes\\fixtures\\synthetic_surveys_normalized.csv",
+    "modeling_dataset": "data\\modeling\\synthetic_fixture_should_not_exist.csv"
+  }
+}

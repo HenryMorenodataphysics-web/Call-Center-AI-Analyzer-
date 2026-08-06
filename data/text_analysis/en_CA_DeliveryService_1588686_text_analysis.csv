@@ -1,0 +1,128 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_DeliveryService_1588686,1,agent,channel1,1,0.0,15.92,"Hello, and thank you for calling the delivery service.",positive,0.7785,False,False,False,False,False
+en_CA_DeliveryService_1588686,2,customer,channel2,1,0.0,26.28,"Hi, I would like to schedule a delivery for pickup at my residence and delivery to a business,",neutral,0.879,False,False,False,False,False
+en_CA_DeliveryService_1588686,3,agent,channel1,2,15.92,16.92,My name is Julia.,neutral,0.8721,False,False,False,False,False
+en_CA_DeliveryService_1588686,4,agent,channel1,3,16.92,17.56,Happy to help you.,positive,0.9579,False,False,False,False,False
+en_CA_DeliveryService_1588686,5,customer,channel2,2,26.28,37.64,but this package is very fragile and so I wanted to make sure that it got there safely.,neutral,0.6164,False,False,False,False,False
+en_CA_DeliveryService_1588686,6,agent,channel1,4,31.0,33.0,"Okay, no problem.",positive,0.6071,False,False,False,False,False
+en_CA_DeliveryService_1588686,7,agent,channel1,5,33.0,36.0,What is the departure address?,neutral,0.9304,False,False,True,False,False
+en_CA_DeliveryService_1588686,8,customer,channel2,3,37.64,64.92,"It's 413 the Street Street, that's D-E-S-T-R-E-E-T Street and postal code is L-9-H-1-F-2.",neutral,0.9104,False,False,False,False,False
+en_CA_DeliveryService_1588686,9,agent,channel1,6,43.0,44.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,10,agent,channel1,7,44.0,47.0,"Can I have the postal code as well, please?",neutral,0.8632,False,False,True,False,False
+en_CA_DeliveryService_1588686,11,agent,channel1,8,53.0,54.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,12,agent,channel1,9,54.0,56.0,Can I have the postal code?,neutral,0.9051,False,False,True,False,False
+en_CA_DeliveryService_1588686,13,agent,channel1,10,67.0,72.0,"Okay, just to confirm the postal code is L nine H.",neutral,0.877,False,False,False,False,False
+en_CA_DeliveryService_1588686,14,customer,channel2,4,67.64,88.12,"Yes, 1-F-2, yes.",neutral,0.6157,False,False,False,False,False
+en_CA_DeliveryService_1588686,15,agent,channel1,11,72.0,73.0,One.,neutral,0.5991,False,False,False,False,False
+en_CA_DeliveryService_1588686,16,agent,channel1,12,73.0,75.0,No.,neutral,0.561,False,False,False,False,False
+en_CA_DeliveryService_1588686,17,agent,channel1,13,75.0,78.0,One F two.,neutral,0.8357,False,False,False,False,False
+en_CA_DeliveryService_1588686,18,agent,channel1,14,78.0,83.0,Perfect. Okay.,positive,0.957,False,False,False,False,False
+en_CA_DeliveryService_1588686,19,agent,channel1,15,83.0,84.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,20,agent,channel1,16,84.0,87.0,And the delivery address.,neutral,0.8685,False,False,False,False,False
+en_CA_DeliveryService_1588686,21,agent,channel1,17,87.0,109.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,22,customer,channel2,5,88.12,118.04,"Delivery address will be 116-300-116-300 Business Avenue, yes, it's 116-300 Business Avenue.",neutral,0.8706,False,False,False,False,False
+en_CA_DeliveryService_1588686,23,agent,channel1,18,109.0,117.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,24,agent,channel1,19,117.0,118.0,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_DeliveryService_1588686,25,agent,channel1,20,118.0,119.0,And.,neutral,0.6558,False,False,False,False,False
+en_CA_DeliveryService_1588686,26,customer,channel2,6,118.04,143.32,"Delivery from 416 D-E-S-T-R-E-T Street, the departure address, the one that is being delivered to N-2-R-4-B-1.",neutral,0.9274,False,False,False,False,False
+en_CA_DeliveryService_1588686,27,agent,channel1,21,123.0,124.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_DeliveryService_1588686,28,agent,channel1,22,124.0,126.0,And the postal code of the delivery address.,neutral,0.8887,False,False,False,False,False
+en_CA_DeliveryService_1588686,29,agent,channel1,23,130.0,131.0,No.,neutral,0.561,False,False,False,False,False
+en_CA_DeliveryService_1588686,30,agent,channel1,24,133.0,134.0,Correct.,neutral,0.601,False,False,False,False,False
+en_CA_DeliveryService_1588686,31,agent,channel1,25,139.0,146.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,32,agent,channel1,26,146.0,150.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,33,customer,channel2,7,148.04,171.48,"4-B-1, kind of like OB-1, Kenobi from Star Wars, yes, extremely fragile and I can't stress that",negative,0.6076,False,False,False,False,False
+en_CA_DeliveryService_1588686,34,agent,channel1,27,150.0,155.0,To confirm it is N two R.,neutral,0.9298,False,False,False,False,False
+en_CA_DeliveryService_1588686,35,agent,channel1,28,155.0,156.0,One B four.,neutral,0.7511,False,False,False,False,False
+en_CA_DeliveryService_1588686,36,agent,channel1,29,156.0,161.0,Or B one.,neutral,0.8302,False,False,False,False,False
+en_CA_DeliveryService_1588686,37,agent,channel1,30,161.0,162.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_DeliveryService_1588686,38,agent,channel1,31,162.0,163.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_DeliveryService_1588686,39,agent,channel1,32,163.0,165.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_CA_DeliveryService_1588686,40,agent,channel1,33,165.0,166.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,41,agent,channel1,34,166.0,178.0,And you said this was a fragile package.,negative,0.7713,False,False,False,False,False
+en_CA_DeliveryService_1588686,42,customer,channel2,8,171.48,184.68,enough because if this package gets damaged it might not be safe for everyone involved.,negative,0.8314,False,False,False,False,False
+en_CA_DeliveryService_1588686,43,agent,channel1,35,178.0,179.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,44,agent,channel1,36,179.0,181.0,Do you have.,neutral,0.8553,False,False,True,False,False
+en_CA_DeliveryService_1588686,45,agent,channel1,37,181.0,190.0,Were you able to consult our website about how to package this?,neutral,0.9386,False,False,True,False,False
+en_CA_DeliveryService_1588686,46,customer,channel2,9,184.68,192.76,I did and it wasn't good enough so I packaged it even better myself.,negative,0.5495,False,False,False,False,False
+en_CA_DeliveryService_1588686,47,agent,channel1,38,190.0,191.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,48,agent,channel1,39,191.0,193.0,So it is already packaged and ready to go.,neutral,0.7315,False,False,False,False,False
+en_CA_DeliveryService_1588686,49,agent,channel1,40,193.0,200.0,We just needed the.,neutral,0.6893,False,False,False,False,False
+en_CA_DeliveryService_1588686,50,customer,channel2,10,193.08,198.6,"Yes, it'll be extremely safe as long as it does not get turned beyond 10 degrees to either side.",positive,0.6259,False,False,False,False,False
+en_CA_DeliveryService_1588686,51,agent,channel1,41,200.0,203.0,"Okay. I understand. Thank you, sir.",positive,0.6819,False,True,False,False,False
+en_CA_DeliveryService_1588686,52,agent,channel1,42,203.0,205.0,All right.,neutral,0.5239,False,False,False,False,False
+en_CA_DeliveryService_1588686,53,agent,channel1,43,205.0,208.0,And what are the dimensions of this package?,neutral,0.9234,False,False,True,False,False
+en_CA_DeliveryService_1588686,54,customer,channel2,11,207.96,217.88,"It is four feet in length, three feet in width and three feet in depth.",neutral,0.8416,False,False,False,False,False
+en_CA_DeliveryService_1588686,55,customer,channel2,12,217.88,243.0,"It weighs about four metric tons, extremely fragile. If it gets tilted the device may not survive the journey to its destination.",negative,0.8446,False,False,False,False,False
+en_CA_DeliveryService_1588686,56,agent,channel1,44,223.0,228.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,57,agent,channel1,45,228.0,248.0,And yet it is fragile.,negative,0.6269,False,False,False,False,False
+en_CA_DeliveryService_1588686,58,customer,channel2,13,247.88,271.0,It was transported to me in lots of small boxes in parts and then I assembled it myself with a bit of enriching and then now it needs to be transported to 116-300 Business Avenue to care of General Kenobi.,neutral,0.7917,False,False,False,False,False
+en_CA_DeliveryService_1588686,59,agent,channel1,46,248.0,250.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,60,agent,channel1,47,250.0,279.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,61,customer,channel2,14,277.88,307.24,"No, it is not a joke. I would also like to express some interest about fast delivery options.",neutral,0.6188,False,False,False,False,False
+en_CA_DeliveryService_1588686,62,agent,channel1,48,279.0,293.0,Let me check with my manager for a moment.,neutral,0.9089,False,False,False,True,False
+en_CA_DeliveryService_1588686,63,agent,channel1,49,293.0,299.0,"All right, sir. Is this, is this a joke?",neutral,0.6104,False,False,True,False,False
+en_CA_DeliveryService_1588686,64,agent,channel1,50,299.0,301.0,Because.,neutral,0.6766,False,False,False,False,False
+en_CA_DeliveryService_1588686,65,agent,channel1,51,301.0,317.0,It seems.,neutral,0.7097,False,False,False,False,False
+en_CA_DeliveryService_1588686,66,customer,channel2,15,308.12,325.24,"How often, how quickly do you think you could be able to get it there? Is overnight shipping available and what would the extra charge be for that?",neutral,0.9185,False,False,False,False,False
+en_CA_DeliveryService_1588686,67,agent,channel1,52,317.0,321.0,Overnight shipping is available until.,neutral,0.8501,False,False,False,False,False
+en_CA_DeliveryService_1588686,68,agent,channel1,53,321.0,323.0,4pm.,neutral,0.8132,False,False,False,False,False
+en_CA_DeliveryService_1588686,69,agent,channel1,54,323.0,327.0,On business days.,neutral,0.8199,False,False,False,False,False
+en_CA_DeliveryService_1588686,70,customer,channel2,16,325.96,339.64,And what about picking up the package? Because they're picking it up for my house.,neutral,0.7783,False,False,False,False,False
+en_CA_DeliveryService_1588686,71,agent,channel1,55,327.0,330.0,So if you drop off your package.,neutral,0.9019,False,False,False,False,False
+en_CA_DeliveryService_1588686,72,agent,channel1,56,330.0,332.0,After 4pm.,neutral,0.8868,False,False,False,False,False
+en_CA_DeliveryService_1588686,73,agent,channel1,57,332.0,341.0,Then it won't have to be delivered the next day.,neutral,0.7113,False,False,False,False,False
+en_CA_DeliveryService_1588686,74,agent,channel1,58,341.0,347.0,Yes. So you would have to schedule pick up online or buy phone with us.,neutral,0.9081,False,False,False,False,False
+en_CA_DeliveryService_1588686,75,agent,channel1,59,347.0,352.0,We can do that right now if you like.,neutral,0.6249,False,False,False,False,False
+en_CA_DeliveryService_1588686,76,customer,channel2,17,350.2,351.24,"I would like to, yes.",positive,0.5748,False,False,False,False,False
+en_CA_DeliveryService_1588686,77,agent,channel1,60,352.0,354.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,78,agent,channel1,61,354.0,358.0,When would you like to schedule a pickup for.,neutral,0.9175,False,False,True,False,False
+en_CA_DeliveryService_1588686,79,customer,channel2,18,355.56,361.8,"Tomorrow, as soon as possible.",neutral,0.6168,False,False,False,False,False
+en_CA_DeliveryService_1588686,80,agent,channel1,62,358.0,363.0,Tomorrow at what time.,neutral,0.9331,False,False,False,False,False
+en_CA_DeliveryService_1588686,81,agent,channel1,63,363.0,372.0,"Okay, we have a slot available at 8am.",neutral,0.7328,False,False,False,False,False
+en_CA_DeliveryService_1588686,82,customer,channel2,19,366.2,370.76,"Yes, that will be fine. They'll have to come into the garage to get it though. It can't be left out in the rain.",neutral,0.6273,False,False,False,False,False
+en_CA_DeliveryService_1588686,83,customer,channel2,20,370.76,393.4,"Yes, fragile in that you just, it needs to stay in the configuration that it is in the package. It cannot be tilted beyond 10 degrees to either side.",neutral,0.7045,False,False,False,False,False
+en_CA_DeliveryService_1588686,84,agent,channel1,64,372.0,374.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1588686,85,agent,channel1,65,374.0,377.0,And how.,neutral,0.8258,False,False,False,False,False
+en_CA_DeliveryService_1588686,86,agent,channel1,66,377.0,382.0,You said this was a very heavy fragile object.,negative,0.6297,False,False,False,False,False
+en_CA_DeliveryService_1588686,87,customer,channel2,21,393.4,406.04,"And it is mostly made of metal and so it is quite heavy, but it should still be kept in relatively, or sensitive hands.",negative,0.6848,False,False,False,False,False
+en_CA_DeliveryService_1588686,88,agent,channel1,67,407.0,412.0,Okay. I will check if we have the appropriate machinery to handle this type of load.,neutral,0.8045,False,False,False,False,False
+en_CA_DeliveryService_1588686,89,agent,channel1,68,412.0,421.0,Let me ask my manager.,neutral,0.8588,False,False,False,False,False
+en_CA_DeliveryService_1588686,90,agent,channel1,69,421.0,429.0,"All right, we do have a fork lift available that should be able to lift it into the.",neutral,0.712,False,False,False,False,False
+en_CA_DeliveryService_1588686,91,customer,channel2,22,423.56,449.56,"Yes, it should be fine. So long as I'm able to purchase some insurance for my package and house if something goes wrong.",neutral,0.6139,False,False,False,False,False
+en_CA_DeliveryService_1588686,92,agent,channel1,70,429.0,432.0,Transportation truck.,neutral,0.8469,False,False,False,False,False
+en_CA_DeliveryService_1588686,93,agent,channel1,71,432.0,449.0,Is that something that you agree with as a method to put it in.,neutral,0.9024,False,False,False,False,False
+en_CA_DeliveryService_1588686,94,agent,channel1,72,449.0,457.0,And your house.,neutral,0.8181,False,False,False,False,False
+en_CA_DeliveryService_1588686,95,customer,channel2,23,450.28,455.16,"Sorry, yeah, just insurance in general would be would be good.",neutral,0.5351,False,False,False,False,False
+en_CA_DeliveryService_1588686,96,agent,channel1,73,457.0,461.0,So insurance for your house would not be through us.,neutral,0.5896,False,False,False,False,False
+en_CA_DeliveryService_1588686,97,agent,channel1,74,461.0,464.0,We are simply the delivery service.,neutral,0.7731,False,False,False,False,False
+en_CA_DeliveryService_1588686,98,agent,channel1,75,464.0,467.0,But we can offer you some.,neutral,0.7497,False,False,False,False,False
+en_CA_DeliveryService_1588686,99,agent,channel1,76,467.0,474.0,Additional insurance for your package.,neutral,0.8315,False,False,False,False,False
+en_CA_DeliveryService_1588686,100,customer,channel2,24,469.72,471.72,And how much would that be?,neutral,0.8682,False,False,False,False,False
+en_CA_DeliveryService_1588686,101,agent,channel1,77,474.0,478.0,For the dimensions of your package and the weight.,neutral,0.8503,False,False,False,False,False
+en_CA_DeliveryService_1588686,102,agent,channel1,78,478.0,488.0,"So that would be about $2,000.",neutral,0.8818,False,False,False,False,False
+en_CA_DeliveryService_1588686,103,customer,channel2,25,480.28,488.28,"That should be fine, but I'll need an itemized receipt in order to get reimbursed by the business.",neutral,0.8368,False,False,False,False,False
+en_CA_DeliveryService_1588686,104,agent,channel1,79,488.0,490.0,We can absolutely do that.,positive,0.9247,False,False,False,False,False
+en_CA_DeliveryService_1588686,105,agent,channel1,80,490.0,492.0,Would you like that sent by email.,neutral,0.9193,False,False,False,False,False
+en_CA_DeliveryService_1588686,106,customer,channel2,26,492.28,508.28,"Yes, please. You can send it to O W E N D E S T R E E T H O M E at yahoo.net.",positive,0.6266,False,False,False,False,False
+en_CA_DeliveryService_1588686,107,agent,channel1,81,508.0,537.0,"All right, could you confirm that for me one more time, please.",neutral,0.6631,False,False,False,False,False
+en_CA_DeliveryService_1588686,108,customer,channel2,27,509.56,533.88,"Yes, O W E N O N, as in my first name, D E S T R E E T, district as in my address H O M E as in home where I live at yahoo, the obsolete website.net as in network.",neutral,0.7633,False,False,False,False,False
+en_CA_DeliveryService_1588686,109,agent,channel1,82,537.0,543.0,I will send you that itemized receipt for the insurance.,neutral,0.8934,False,False,False,False,False
+en_CA_DeliveryService_1588686,110,customer,channel2,28,539.88,555.88,Wonderful. And when would they be expecting to deliver that by same day?,positive,0.9369,False,False,False,False,False
+en_CA_DeliveryService_1588686,111,agent,channel1,83,543.0,558.0,And you can pay for that when the delivery truck arrives tomorrow at 8am.,neutral,0.8725,False,False,False,False,False
+en_CA_DeliveryService_1588686,112,agent,channel1,84,558.0,569.0,They can do that at the same day.,neutral,0.8597,False,False,False,False,False
+en_CA_DeliveryService_1588686,113,customer,channel2,29,561.08,567.88,"Okay, wonderful. And then would I be able to get tracking updates as this package is being delivered?",positive,0.935,False,False,False,False,False
+en_CA_DeliveryService_1588686,114,agent,channel1,85,569.0,570.0,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_CA_DeliveryService_1588686,115,customer,channel2,30,569.56,598.92,"All right, that will be fine. I'll be refreshing that urgently throughout the day of the delivery.",positive,0.6423,False,False,False,False,False
+en_CA_DeliveryService_1588686,116,agent,channel1,86,570.0,573.0,Once the package is.,neutral,0.8274,False,False,False,False,False
+en_CA_DeliveryService_1588686,117,agent,channel1,87,573.0,580.0,"Once the delivery people arrive, they will put a tracking code on the package.",neutral,0.8995,False,False,False,False,False
+en_CA_DeliveryService_1588686,118,agent,channel1,88,580.0,586.0,And give you the associated receipt with that that has the tracking number on the bottom.,neutral,0.9287,False,False,False,False,False
+en_CA_DeliveryService_1588686,119,agent,channel1,89,586.0,590.0,And you just enter that into the tracker on our website.,neutral,0.8903,False,False,False,False,False
+en_CA_DeliveryService_1588686,120,agent,channel1,90,590.0,613.0,And that will tell you exactly what is going on.,neutral,0.7088,False,False,False,False,False
+en_CA_DeliveryService_1588686,121,customer,channel2,31,600.04,611.4,"Thank you very much, James. And when you if you need any more information from me, please give me a call or email me, and I'll be awaiting the delivery people at 8am tomorrow.",positive,0.7861,False,False,False,False,False
+en_CA_DeliveryService_1588686,122,agent,channel1,91,613.0,620.0,Good. Can you please confirm that you received the email for the insurance.,neutral,0.509,False,False,False,False,False
+en_CA_DeliveryService_1588686,123,customer,channel2,32,618.12,620.92,"I did, yes.",neutral,0.7264,False,False,False,False,False
+en_CA_DeliveryService_1588686,124,agent,channel1,92,620.0,622.0,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_DeliveryService_1588686,125,agent,channel1,93,622.0,636.0,"Okay, then the delivery people will arrive at 8am tomorrow at your home address and deliver it to your requested delivery address.",neutral,0.8418,False,False,False,False,False
+en_CA_DeliveryService_1588686,126,customer,channel2,33,629.56,642.12,Thank you very much. You too.,positive,0.9698,False,False,False,False,False
+en_CA_DeliveryService_1588686,127,agent,channel1,94,636.0,638.0,Have a great day.,positive,0.9729,False,False,False,False,False

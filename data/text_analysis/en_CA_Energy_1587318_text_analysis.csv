@@ -1,0 +1,88 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Energy_1587318,1,agent,channel1,1,0.0,17.56,"Good morning, thank you for calling GreenFlow Energy, this is Michelle speaking, how may",positive,0.9412,False,False,False,False,False
+en_CA_Energy_1587318,2,customer,channel2,1,0.0,25.76,I'm Michelle. Good morning. My name is John. I just moved into a new home and I went to,positive,0.6036,False,False,False,False,False
+en_CA_Energy_1587318,3,agent,channel1,2,17.56,40.32,"I help you today? Yeah, absolutely John, congrats on your new home, you're right, an energy audit",positive,0.9652,False,False,True,False,False
+en_CA_Energy_1587318,4,customer,channel2,2,25.76,32.8,schedule a home energy audit. I've heard it's a good first step before installing solar panel.,positive,0.6738,False,False,False,False,False
+en_CA_Energy_1587318,5,customer,channel2,3,32.8,59.68,It's a 126 maple grove lane in Riverview.,neutral,0.9294,False,False,False,False,False
+en_CA_Energy_1587318,6,agent,channel1,3,40.32,46.56,is a great way to understand how efficiently your home uses energy before deciding on solar,positive,0.6912,False,False,False,False,False
+en_CA_Energy_1587318,7,agent,channel1,4,46.56,61.4,"panel installation. Can I have your full address to check audit availability in your area? Oh,",neutral,0.8984,False,False,True,False,False
+en_CA_Energy_1587318,8,agent,channel1,5,61.4,71.84,"got it. Okay, let me pull up your area schedule. Okay, we have so there's an opening next Wednesday",neutral,0.7507,False,False,False,False,False
+en_CA_Energy_1587318,9,customer,channel2,4,62.8,79.68,Right afternoon would be perfect.,positive,0.9658,False,False,False,False,False
+en_CA_Energy_1587318,10,agent,channel1,6,71.92,83.76,"at 10am or Friday at 2pm, which would work better for you? Great, so I booked you for Friday",positive,0.9084,False,False,True,False,False
+en_CA_Energy_1587318,11,agent,channel1,7,83.76,91.4,"at 2pm, you'll receive a confirmation email shortly after our call. So the audit usually",neutral,0.8751,False,False,False,False,False
+en_CA_Energy_1587318,12,agent,channel1,8,91.4,98.6,"takes about 60 to 90 minutes, and one of our certified energy specialists will he'll look",neutral,0.8169,False,False,False,False,False
+en_CA_Energy_1587318,13,customer,channel2,5,92.8,115.12,"Yes, please. I'd like to know what to expect.",neutral,0.5068,False,False,False,False,False
+en_CA_Energy_1587318,14,agent,channel1,9,98.6,105.12,"at your insulation, appliances, windows and heating systems and see if there's any energy loss or",neutral,0.7499,False,False,False,False,False
+en_CA_Energy_1587318,15,agent,channel1,10,105.12,111.6,inefficiencies. Would you like me to explain what happens during the audit in a bit more detail?,neutral,0.9233,False,False,True,False,False
+en_CA_Energy_1587318,16,agent,channel1,11,111.6,124.4,"Yeah, sure. So during the audit, the technician uses special tools like a blower door test",neutral,0.8636,False,False,False,False,False
+en_CA_Energy_1587318,17,customer,channel2,6,122.8,152.72,"Hmm, that sounds good. Okay, speaking of solar panels,",positive,0.9181,False,False,False,False,False
+en_CA_Energy_1587318,18,agent,channel1,12,124.6,130.88,"and infrared cameras to detect heat leaks. So they're also going to look at your furnace,",neutral,0.8851,False,False,False,False,False
+en_CA_Energy_1587318,19,agent,channel1,13,130.88,137.28,"water heater and any air conditioning units, then after you'll get a full report with recommendations.",neutral,0.914,False,False,False,False,False
+en_CA_Energy_1587318,20,agent,channel1,14,137.28,144.12,"So some might be simple fixes like adding weather stripping, but others could be upgrades like",neutral,0.8431,False,False,False,False,False
+en_CA_Energy_1587318,21,agent,channel1,15,144.12,162.2,"switching to energy efficient lighting or installing solar panels. Yeah, we do. So we partner with",neutral,0.7327,False,False,False,False,False
+en_CA_Energy_1587318,22,customer,channel2,7,152.72,158.48,I want to ask about installation. Does the green floor handle that too?,neutral,0.9334,False,False,False,False,False
+en_CA_Energy_1587318,23,agent,channel1,16,162.2,169.96,certified solar technicians to provide a complete solar installation service. So once your energy,neutral,0.6403,False,False,False,False,False
+en_CA_Energy_1587318,24,agent,channel1,17,169.96,177.76,"audit is done, we can get a customized solar proposal for your property. So it'll show your",neutral,0.7914,False,False,False,False,False
+en_CA_Energy_1587318,25,agent,channel1,18,177.76,184.12,"potential energy savings system size and installation costs, plus any government rebates that are",neutral,0.8521,False,False,False,False,False
+en_CA_Energy_1587318,26,customer,channel2,8,183.68,192.88,"Okay, nice. So do you have the do you happen to know how long it usually takes to get solar",neutral,0.6444,False,False,False,False,False
+en_CA_Energy_1587318,27,agent,channel1,19,184.12,204.96,"available. Oh, good question. So after you approve the proposal, it usually takes three to five weeks",neutral,0.6143,False,False,False,False,False
+en_CA_Energy_1587318,28,customer,channel2,9,192.88,208.8,panels installed from start to finish?,neutral,0.9454,False,False,False,False,False
+en_CA_Energy_1587318,29,agent,channel1,20,204.96,212.48,"for the entire process. And that includes permit approval, system design and installation. And the",neutral,0.8745,False,False,False,False,False
+en_CA_Energy_1587318,30,customer,channel2,10,208.8,224.72,"Okay, that's reasonable. Are there financial or payment plans available for the solar panels?",neutral,0.8442,False,False,False,False,False
+en_CA_Energy_1587318,31,agent,channel1,21,212.52,217.28,"actual installation itself takes about one to two days, depending on your roof size.",neutral,0.8195,False,False,False,False,False
+en_CA_Energy_1587318,32,agent,channel1,22,217.28,235.08,"Yeah, so we offer a few flexible options. So you can either purchase the system outright",neutral,0.5743,False,False,False,False,False
+en_CA_Energy_1587318,33,agent,channel1,23,235.52,244.08,"and finance it over 10 to 15 years, or you can lease it with a fixed monthly rate. Many homeowners",neutral,0.8763,False,False,False,False,False
+en_CA_Energy_1587318,34,customer,channel2,11,238.8,258.72,"Hmm, makes sense. Okay, I'll wait for the audit report first then decide. In the meantime,",neutral,0.767,False,False,False,False,False
+en_CA_Energy_1587318,35,agent,channel1,24,244.08,250.52,pick financing because the monthly payments are often offset by savings on their electricity bills.,neutral,0.7822,False,False,False,False,False
+en_CA_Energy_1587318,36,customer,channel2,12,258.72,264.56,could you tell me a bit about your energy saving plans? I'd like to see if there's one that suits,neutral,0.7038,False,False,False,False,False
+en_CA_Energy_1587318,37,customer,channel2,13,264.56,267.6,my household.,neutral,0.777,False,False,False,False,False
+en_CA_Energy_1587318,38,agent,channel1,25,266.08,275.44,"Yeah, of course. So we offer three main energy saving plans. So the first is the smart saver plan. So",positive,0.6791,False,False,False,False,False
+en_CA_Energy_1587318,39,agent,channel1,26,275.44,280.8,"it's for homes that use energy mainly during off peak hours, like evenings and weekends.",neutral,0.9212,False,False,False,False,False
+en_CA_Energy_1587318,40,agent,channel1,27,280.8,287.64,The eco balance plan. So it's a fixed rate plan with carbon offsets built in. So it's great,positive,0.963,False,False,False,False,False
+en_CA_Energy_1587318,41,agent,channel1,28,287.64,294.84,if you want predictable bills and a greener footprint. And there's a solar plus plan ideal,positive,0.6462,False,False,False,False,False
+en_CA_Energy_1587318,42,customer,channel2,14,295.04,320.8,"Yes, please. That would be very helpful. And do I just move in so I'm still freaking out my energy",positive,0.6469,False,False,False,False,False
+en_CA_Energy_1587318,43,agent,channel1,29,295.08,301.8,if you plan to install solar panels. And it includes net metering benefits. So that means you can earn,positive,0.6749,False,False,False,False,False
+en_CA_Energy_1587318,44,agent,channel1,30,301.8,310.72,credits for access energy you produce. So do you want me to estimate what plan might work best for,neutral,0.8632,False,False,False,False,False
+en_CA_Energy_1587318,45,agent,channel1,31,310.72,327.44,"your usage pattern? Yeah, that's totally fine. So since you're new to the property, I can give you a",positive,0.6599,False,False,True,False,False
+en_CA_Energy_1587318,46,customer,channel2,15,320.8,323.84,habits?,neutral,0.8639,False,False,False,False,False
+en_CA_Energy_1587318,47,agent,channel1,32,327.44,333.96,general idea based on your home size. So can I ask how many people live with you and roughly how,neutral,0.9173,False,False,False,False,False
+en_CA_Energy_1587318,48,agent,channel1,33,333.96,348.52,"big your home is? Oh, perfect. So for a two person household in that size range, the eco balance plan",positive,0.8891,False,False,True,False,False
+en_CA_Energy_1587318,49,customer,channel2,16,335.52,345.84,"Yeah, just me and my wife for now. And the house is about 2000 square feet.",neutral,0.7809,False,False,False,False,False
+en_CA_Energy_1587318,50,agent,channel1,34,348.52,354.88,might be the best start. So it offers a stable rate year round and supports renewable energy,positive,0.9217,False,False,False,False,False
+en_CA_Energy_1587318,51,customer,channel2,17,350.8,369.44,"Okay, sounds reasonable. And how does building work with that plan? I'm trying to set up",neutral,0.6808,False,False,False,False,False
+en_CA_Energy_1587318,52,agent,channel1,35,354.88,360.6,initiatives. So you can always switch to the solar plus plan later once your solar system is,neutral,0.8154,False,False,False,False,False
+en_CA_Energy_1587318,53,agent,channel1,36,360.6,380.64,"active. Yeah, absolutely, we can do that. So our billing cycle runs monthly. Starting on the day your",positive,0.5604,False,False,False,False,False
+en_CA_Energy_1587318,54,customer,channel2,18,369.44,378.08,"everything for automatic payments, if possible.",neutral,0.7637,False,False,False,False,False
+en_CA_Energy_1587318,55,agent,channel1,37,380.64,386.96,"service is activated, you'll receive your first payment about four weeks after activation. So you",neutral,0.7897,False,False,False,False,False
+en_CA_Energy_1587318,56,agent,channel1,38,387.0,393.32,can pay through online banking credit card or automatic withdrawal from your checking account. And most,neutral,0.7973,False,False,False,False,False
+en_CA_Energy_1587318,57,agent,channel1,39,393.32,399.4,customers choose the paperless billing option as well. And that lets you track your usage and payments,neutral,0.7897,False,False,False,False,False
+en_CA_Energy_1587318,58,agent,channel1,40,399.4,413.48,"online. Oh, you can set it up today. So once we activate your account, I'll give you a link to",neutral,0.6956,False,False,False,False,True
+en_CA_Energy_1587318,59,customer,channel2,19,400.4,408.08,Great. Can I set that up today or do I need to wait until after the energy audit?,positive,0.7973,False,False,False,False,False
+en_CA_Energy_1587318,60,agent,channel1,41,413.52,429.08,your email. So you can register and select your preferred payment method. So once the audit is,neutral,0.8911,False,False,False,False,False
+en_CA_Energy_1587318,61,customer,channel2,20,418.96,426.08,"Perfect. So speaking of activation, how quickly can the energy service start after the audit?",positive,0.7976,False,False,False,False,False
+en_CA_Energy_1587318,62,agent,channel1,42,429.08,435.68,"complete, and you confirm the plan you'd like, we can activate your service within two business days. So",neutral,0.5261,False,False,False,False,False
+en_CA_Energy_1587318,63,customer,channel2,21,429.44,452.32,"Okay, that's faster than I expected. And in case I go ahead with solar later, would there be any",positive,0.6829,False,False,False,False,False
+en_CA_Energy_1587318,64,agent,channel1,43,435.68,441.92,"if your home's wiring and meter are set up for standard supply, activation is almost immediate. There's",neutral,0.7188,False,False,False,False,False
+en_CA_Energy_1587318,65,agent,channel1,44,441.92,460.8,"no technician visit required. Oh, not at all. So the transition is seamless. We'll just connect your",positive,0.5855,False,False,False,False,False
+en_CA_Energy_1587318,66,customer,channel2,22,452.32,456.08,disruption to my energy service?,negative,0.548,False,False,False,False,False
+en_CA_Energy_1587318,67,customer,channel2,23,460.16,476.8,"Got it. That's very efficient. By the way, do you provide any support if something goes wrong,",positive,0.58,False,False,False,False,False
+en_CA_Energy_1587318,68,agent,channel1,45,460.8,466.88,solar system to the existing grid through a bidirectional meter so you can use and sell,neutral,0.9122,False,False,False,False,False
+en_CA_Energy_1587318,69,agent,channel1,46,466.92,487.48,"back energy automatically. Yeah, we do. So every solar system we install has free remote monitoring for",neutral,0.7389,False,False,False,False,False
+en_CA_Energy_1587318,70,customer,channel2,24,476.8,484.16,like system monitoring or maintenance?,neutral,0.873,False,False,False,False,False
+en_CA_Energy_1587318,71,customer,channel2,25,484.16,505.52,That's good. That's reassuring. I like that there's ongoing support.,positive,0.956,False,False,False,False,False
+en_CA_Energy_1587318,72,agent,channel1,47,487.48,493.56,performance tracking. And it has an optional maintenance plan that covers annual inspections and,neutral,0.8383,False,False,False,False,False
+en_CA_Energy_1587318,73,agent,channel1,48,493.6,508.32,"repairs. So we have a customer support line that's open 24 7 for any service issues. Yeah, we pride ourselves",positive,0.6687,False,False,False,False,False
+en_CA_Energy_1587318,74,agent,channel1,49,508.32,515.92,"on that. So before we wrap up, let me summarize. So your home energy audit is booked for Friday at",neutral,0.94,False,False,False,False,False
+en_CA_Energy_1587318,75,customer,channel2,26,514.16,539.76,"Yeah, that's perfect, Michelle. Thank you so much for walking through everything. And you made this",positive,0.9825,False,False,False,False,False
+en_CA_Energy_1587318,76,agent,channel1,50,515.96,524.76,"2pm. You're interested in renewing, sorry, reviewing the Eco Balance plan after the audit. And I'll send a",neutral,0.8552,False,False,False,False,False
+en_CA_Energy_1587318,77,agent,channel1,51,524.76,529.64,confirmation email with your appointment details and a link to create your online account for,neutral,0.8998,False,False,False,False,False
+en_CA_Energy_1587318,78,agent,channel1,52,529.64,544.88,"billing setup. Does everything look good so far? You're very welcome, John. I'm glad I could",positive,0.9801,False,False,True,False,False
+en_CA_Energy_1587318,79,customer,channel2,27,539.76,549.36,process really easy. Yep.,positive,0.9225,False,False,False,False,False
+en_CA_Energy_1587318,80,agent,channel1,53,544.88,551.48,"help. And once your audit report is ready, I'll give you a follow up call to go over the findings and",neutral,0.7933,False,False,False,False,False
+en_CA_Energy_1587318,81,customer,channel2,28,549.68,564.96,"Well, everything's good. Thank you again for your time.",positive,0.966,False,False,False,False,False
+en_CA_Energy_1587318,82,agent,channel1,54,551.48,556.72,next steps for solar options. Is there anything else I can assist you with today?,neutral,0.9042,False,False,True,False,False
+en_CA_Energy_1587318,83,agent,channel1,55,561.64,566.76,"Oh, it's a it's been a pleasure speaking with you. So welcome again to your new home. And thanks",positive,0.9854,False,False,False,False,False
+en_CA_Energy_1587318,84,agent,channel1,56,566.76,569.84,for choosing Green Slow Energy. Have a good day.,positive,0.9483,False,False,False,False,False
+en_CA_Energy_1587318,85,customer,channel2,29,570.56,576.96,Thank you. You too have a wonderful day.,positive,0.9738,False,False,False,False,False
+en_CA_Energy_1587318,86,agent,channel1,57,574.88,576.56,Thanks.,positive,0.7303,False,False,False,False,False
+en_CA_Energy_1587318,87,customer,channel2,30,579.36,584.96,Thank you.,positive,0.8345,False,False,False,False,False

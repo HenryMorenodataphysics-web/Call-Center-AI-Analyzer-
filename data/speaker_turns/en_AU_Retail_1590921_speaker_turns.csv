@@ -1,0 +1,108 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Retail_1590921,1,agent,channel1,1,0.0,20.0,"Hi, every time customer service, you're speaking with Tom, what can I do for you today?"
+en_AU_Retail_1590921,2,customer,channel2,1,0.0,24.72,"Hi, Tom. Look, I've just got a Herald Sun subscription that my dad had signed up to"
+en_AU_Retail_1590921,3,agent,channel1,2,20.0,38.0,"Right, okay, so that's quite a reason for cancelling."
+en_AU_Retail_1590921,4,customer,channel2,2,24.88,32.72,fair while ago and basically he's passed away and we just need to cancel the subscription.
+en_AU_Retail_1590921,5,agent,channel1,3,38.0,42.0,Let's see if we can get this sorted out for you.
+en_AU_Retail_1590921,6,customer,channel2,3,39.04,43.04,I know.
+en_AU_Retail_1590921,7,agent,channel1,4,42.0,48.0,"Before we get started, I'll just need to verify the account details."
+en_AU_Retail_1590921,8,customer,channel2,4,43.04,53.04,Yeah.
+en_AU_Retail_1590921,9,agent,channel1,5,48.0,70.0,"The security question that I can see linked to this phone number was star sign and the postcode, please."
+en_AU_Retail_1590921,10,customer,channel2,5,58.08,69.92,"Yeah, so Tom Jones for the name on the account. His star sign is Scorpio. Was there something else?"
+en_AU_Retail_1590921,11,agent,channel1,6,70.0,73.0,"No, that's the three things, right?"
+en_AU_Retail_1590921,12,agent,channel1,7,73.0,77.0,"So another subscription lost to unforeseeable events, all right?"
+en_AU_Retail_1590921,13,customer,channel2,6,73.04,89.04,"Yeah, no, no one else needs a subscription."
+en_AU_Retail_1590921,14,agent,channel1,8,77.0,81.0,So is that the only reason you're looking to cancel the subscription?
+en_AU_Retail_1590921,15,agent,channel1,9,81.0,88.0,Is it not something you want to give to a family member?
+en_AU_Retail_1590921,16,agent,channel1,10,88.0,91.0,"Okay, well, I'll process the cancellation."
+en_AU_Retail_1590921,17,agent,channel1,11,91.0,94.0,"It only takes a moment, unlike some stories."
+en_AU_Retail_1590921,18,agent,channel1,12,94.0,99.0,"But that sounds like a difficult time, so let's go ahead and we'll get it sorted for you."
+en_AU_Retail_1590921,19,agent,channel1,13,99.0,106.0,"At least that's one less thing to worry about, even if the subscription seems to have outlived him."
+en_AU_Retail_1590921,20,customer,channel2,7,103.04,119.44,"Oh, look, he had a Herald Sun subscription since as long as I can remember. It's just,"
+en_AU_Retail_1590921,21,agent,channel1,14,106.0,109.0,Do you know if he enjoyed the subscription?
+en_AU_Retail_1590921,22,agent,channel1,15,109.0,112.0,Did he ever mention it to any of you?
+en_AU_Retail_1590921,23,customer,channel2,8,119.44,123.36,"you know, the paper he always read and he's stuck with his tried and true paper."
+en_AU_Retail_1590921,24,agent,channel1,16,124.0,141.0,"All right, well, if circumstances change, we're also here for living customers too."
+en_AU_Retail_1590921,25,customer,channel2,9,125.36,130.24,"Yeah, it's pretty sad when I think about it, but yeah, he always had his paper, you know,"
+en_AU_Retail_1590921,26,customer,channel2,10,130.32,138.24,every week delivered. So nothing changed over that time. Yeah.
+en_AU_Retail_1590921,27,agent,channel1,17,141.0,146.0,Do you know if he's accessed his rewards program at all?
+en_AU_Retail_1590921,28,agent,channel1,18,146.0,151.0,"Because that would still be available for the next two months, even after the subscriptions canceled."
+en_AU_Retail_1590921,29,agent,channel1,19,151.0,179.0,"Yeah, so essentially I died because he only called us yesterday to update his payment method."
+en_AU_Retail_1590921,30,customer,channel2,11,152.4,156.32,I wouldn't say he's used anything like that. He was pretty old school.
+en_AU_Retail_1590921,31,customer,channel2,12,156.64,163.44,"You know, like your older parents, older generation tend to be like just pretty stuck with"
+en_AU_Retail_1590921,32,customer,channel2,13,163.44,168.32,"his reading his old school paper. I think most of us will, you know, look for online stories these days."
+en_AU_Retail_1590921,33,customer,channel2,14,168.72,187.04,"Yeah, I was, I'd like to say it was kind of sudden, but we knew it was coming for a little while. So,"
+en_AU_Retail_1590921,34,agent,channel1,20,179.0,200.0,"Okay, well, the flyers cancel subscriptions, I think, would be on the lifetime plan, but that's okay."
+en_AU_Retail_1590921,35,customer,channel2,15,187.84,193.04,"you know, he had a bit of dementia. He was doing a lot of random things. So I couldn't"
+en_AU_Retail_1590921,36,customer,channel2,16,193.04,195.04,really tell you why.
+en_AU_Retail_1590921,37,agent,channel1,21,200.0,203.0,We can certainly help you out with that.
+en_AU_Retail_1590921,38,agent,channel1,22,203.0,218.0,Do you know if there were any family members linked to this subscription?
+en_AU_Retail_1590921,39,customer,channel2,17,208.8,215.52,Don't believe they would have been my mom passed away already. So it's just my dad left and I think
+en_AU_Retail_1590921,40,customer,channel2,18,215.52,217.04,he was just the last one on the account.
+en_AU_Retail_1590921,41,agent,channel1,23,218.0,232.0,"Well, from the linking that I can actually see here, she contacted us this morning, actually, without another last-minute passing."
+en_AU_Retail_1590921,42,customer,channel2,19,223.04,231.04,"No, my mom died a year ago."
+en_AU_Retail_1590921,43,agent,channel1,24,232.0,241.0,"Okay, because I can see, yeah, she definitely called us this morning just to change her payment details as well."
+en_AU_Retail_1590921,44,agent,channel1,25,241.0,248.0,"So it's quite interesting, but I appreciate you sharing that with me."
+en_AU_Retail_1590921,45,agent,channel1,26,248.0,258.0,"Before I do go ahead and cancel that, we can look at a discounted subscription offer if you did want to move that into your name."
+en_AU_Retail_1590921,46,customer,channel2,20,253.04,257.04,What does it involve?
+en_AU_Retail_1590921,47,agent,channel1,27,258.0,266.0,"Well, it's just a dollar a day for the first 28 days, and that includes unlimited access to unrivaled journalism,"
+en_AU_Retail_1590921,48,agent,channel1,28,266.0,271.0,"breaking news, as well as the up to the minute sports statistics."
+en_AU_Retail_1590921,49,agent,channel1,29,271.0,280.0,"You'll get access to the plus rewards portal, which is your destination for exclusives, events, and extras only available to herald sun members."
+en_AU_Retail_1590921,50,agent,channel1,30,280.0,284.0,You can also read stories across the news called network.
+en_AU_Retail_1590921,51,customer,channel2,21,283.2,290.16,"Okay, I don't know. There's that guy that does all those Herald Sun rules and that is pretty annoying."
+en_AU_Retail_1590921,52,customer,channel2,22,290.72,296.0,So I don't know if I want to spend too much extra time with the Herald Sun itself.
+en_AU_Retail_1590921,53,agent,channel1,31,296.0,315.0,"All right, well, just out of curiosity, what type of news or content do you like to consume?"
+en_AU_Retail_1590921,54,customer,channel2,23,298.16,301.76,"Yeah, probably not for me to be honest. I don't know if anyone else in the family"
+en_AU_Retail_1590921,55,customer,channel2,24,301.76,309.28,"wants it. I can definitely ask them. But yeah, no, I think I'm okay. We just need to get it cancelled."
+en_AU_Retail_1590921,56,customer,channel2,25,314.0,326.08,"Um, kind of random stuff like, you know, I don't even know, like, I think it's just stuff that pops"
+en_AU_Retail_1590921,57,agent,channel1,32,326.0,342.0,"Well, we do have the state election coming up next year, and given how dry that is, I think you'd probably enjoy reading a lot about that."
+en_AU_Retail_1590921,58,customer,channel2,26,326.08,331.28,up in my feed. A fair bit of political stuff at the moment seems to be in the algorithm.
+en_AU_Retail_1590921,59,agent,channel1,33,342.0,350.0,"We will have in-depth analysis, opinion, as well as unbeatable coverage in the lead-up to and on state election day,"
+en_AU_Retail_1590921,60,customer,channel2,27,343.04,366.08,"I'm not part of that, like, a dollar a day thing."
+en_AU_Retail_1590921,61,agent,channel1,34,350.0,355.0,particularly with Jess Wilson just being voted in as the liberal leader.
+en_AU_Retail_1590921,62,agent,channel1,35,355.0,366.0,Are you sure you wouldn't like to access that just so you stay well informed before the election really ramps up?
+en_AU_Retail_1590921,63,agent,channel1,36,366.0,374.0,"So that would come for 50 cents extra for the election package, but we could discount that based on your father's long-term membership by 25 cents."
+en_AU_Retail_1590921,64,customer,channel2,28,373.04,390.08,"Yeah, no, it's not really selling me to be honest with you. It doesn't really sound overly appealing."
+en_AU_Retail_1590921,65,agent,channel1,37,374.0,381.0,"So yeah, like we can do it for 25 cents extra, so a dollar a day plus 25 cents a week."
+en_AU_Retail_1590921,66,agent,channel1,38,381.0,390.0,You can work out the maths on that one.
+en_AU_Retail_1590921,67,agent,channel1,39,390.0,400.0,"Okay, well, I do need to let you know that your father was on a year-to-year contract, so there is still another eight months left."
+en_AU_Retail_1590921,68,agent,channel1,40,400.0,405.0,"On that, he did sign the terms conditions as well as the declaration that was witnessed."
+en_AU_Retail_1590921,69,customer,channel2,29,403.68,420.16,"Uh, under Victorian law, that is not going to fly and I can guarantee you that I've spoken"
+en_AU_Retail_1590921,70,agent,channel1,41,405.0,424.0,So there is still another eight months of that contract left that would still need to be paid out today.
+en_AU_Retail_1590921,71,customer,channel2,30,420.16,428.08,to his lawyers. So anything that is in his name due to his passing can be cancelled.
+en_AU_Retail_1590921,72,agent,channel1,42,424.0,432.0,"Wow, it seems like you've made quite a lot of progress if your father only passed yesterday and you've already spoken to your lawyers about Harold Sunson's description."
+en_AU_Retail_1590921,73,customer,channel2,31,433.36,438.0,"No, I've spoken to them about all their subscriptions and they gave me legal advice today"
+en_AU_Retail_1590921,74,customer,channel2,32,438.0,444.0,"on everything that he was signed up to his electricity and gas, his internet. I've had"
+en_AU_Retail_1590921,75,customer,channel2,33,444.0,449.36,"to call everybody, get everything sorted. So yeah, that was the first advice is get all"
+en_AU_Retail_1590921,76,customer,channel2,34,449.36,454.0,the affairs in order and that was the legal advice that was given to me. So I would like
+en_AU_Retail_1590921,77,customer,channel2,35,454.0,464.96,to cancel that due to his passing as he's no longer alive.
+en_AU_Retail_1590921,78,agent,channel1,43,454.0,467.0,"Okay, well, I can actually see here that the contractor in you wanted to go through this morning, so you've called in a little bit too late."
+en_AU_Retail_1590921,79,agent,channel1,44,467.0,477.0,So that payment has actually just been taken from his card and we do have a strict no refund policy.
+en_AU_Retail_1590921,80,customer,channel2,36,474.0,476.96,"That's fine, I will take this further because that's not the law."
+en_AU_Retail_1590921,81,agent,channel1,45,477.0,485.0,"Okay, well, it is the law when the contract is signed."
+en_AU_Retail_1590921,82,customer,channel2,37,477.92,489.92,Not when someone's not alive anymore and you can look that up.
+en_AU_Retail_1590921,83,agent,channel1,46,485.0,500.0,"Okay, well, I've been through the same thing myself and I can tell you now that the contract is binding, it was agreed to."
+en_AU_Retail_1590921,84,customer,channel2,38,494.64,498.96,It's fine. I don't need to have this argument with you. You're wrong. I'll take this further
+en_AU_Retail_1590921,85,customer,channel2,39,498.96,503.44,and I'm happy to escalate it to your manager. Like this is a really hard time at the moment.
+en_AU_Retail_1590921,86,agent,channel1,47,500.0,525.0,"Okay, well, okay."
+en_AU_Retail_1590921,87,customer,channel2,40,503.44,507.52,It's difficult enough as it is and you've been quite rude and you don't understand what
+en_AU_Retail_1590921,88,customer,channel2,41,507.52,511.12,you're talking about and you need to go and learn a little bit more about your role
+en_AU_Retail_1590921,89,customer,channel2,42,511.12,515.76,"before you start educating customers about things. Okay, so I just want to cancel it."
+en_AU_Retail_1590921,90,customer,channel2,43,515.76,521.28,"That's it. And yeah, that's fine. I don't want to hear any more of like the extra things"
+en_AU_Retail_1590921,91,customer,channel2,44,521.28,525.12,and things like that. Can we just get like into this cancellation process?
+en_AU_Retail_1590921,92,agent,channel1,48,525.0,532.0,"Yeah, absolutely. I will need to advise that there is a cancellation fee of $85 and that is due today."
+en_AU_Retail_1590921,93,agent,channel1,49,532.0,550.0,"And that will need to come off a separate card if your father allegedly isn't around to verify the payment to come off his card, so you'll need to pay that now."
+en_AU_Retail_1590921,94,customer,channel2,45,541.28,547.2,"No, that won't be happening and I don't appreciate the allegedly either. So I do want to escalate"
+en_AU_Retail_1590921,95,customer,channel2,46,547.2,549.44,this cause to someone else that I can speak to.
+en_AU_Retail_1590921,96,agent,channel1,50,550.0,561.0,"Well, I am the manager. I'm also the editor. Also print the paper, so there is no one else to take this to."
+en_AU_Retail_1590921,97,customer,channel2,47,559.12,569.12,That's fine. I'll take it further. We'll go to the ombudsman.
+en_AU_Retail_1590921,98,agent,channel1,51,561.0,569.0,"Okay, I haven't had that quite a few times, so you can use your threats also into confirmation of this call."
+en_AU_Retail_1590921,99,agent,channel1,52,569.0,575.0,"But if you would like to continue the subscription, just let us know."
+en_AU_Retail_1590921,100,customer,channel2,48,574.32,575.12,"No, thank you."
+en_AU_Retail_1590921,101,agent,channel1,53,575.0,580.0,Is there anything else I can help you with today outside of this call?
+en_AU_Retail_1590921,102,customer,channel2,49,578.16,580.16,"No, thank you."
+en_AU_Retail_1590921,103,agent,channel1,54,580.0,590.0,"All right, well, for now, we'll keep that subscription going until you do reach out and allegedly take it further to cancel that one."
+en_AU_Retail_1590921,104,agent,channel1,55,590.0,594.0,"Thanks, Laura. I really appreciate it."
+en_AU_Retail_1590921,105,customer,channel2,50,592.16,594.16,Goodbye.
+en_AU_Retail_1590921,106,agent,channel1,56,605.0,608.0,Thank you.
+en_AU_Retail_1590921,107,customer,channel2,51,607.2,610.16,Okay.

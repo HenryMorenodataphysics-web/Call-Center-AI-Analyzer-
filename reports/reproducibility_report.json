@@ -1,0 +1,422 @@
+{
+  "status": "pass",
+  "generated_at_utc": "2026-08-06T18:02:01+00:00",
+  "scope": "lightweight_portfolio_demo",
+  "excluded_runtime": [
+    "raw-audio transcription and model downloads",
+    "Hugging Face sentiment inference",
+    "llama.cpp and Qwen local inference",
+    "survey model training while real-label readiness is blocked"
+  ],
+  "environment": {
+    "python": "3.12.10",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "executable": "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe"
+  },
+  "steps": [
+    {
+      "name": "Automated unit and integration tests",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "return_code": 0,
+      "duration_seconds": 8.57,
+      "status": "pass",
+      "stdout_tail": "[copilot-web] 127.0.0.1 - \"GET /api/agents HTTP/1.1\" 200 -\n[copilot-web] 127.0.0.1 - \"POST /api/chat HTTP/1.1\" 200 -\nLoading: call_1_call_summary.csv\nLoading: call_2_call_summary.csv",
+      "stderr_tail": "2026-08-06 13:01:48.861 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager\n............................................2026-08-06 13:01:50.558 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager\n........................\n----------------------------------------------------------------------\nRan 68 tests in 1.898s\n\nOK"
+    },
+    {
+      "name": "Analytical contract validation",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "src/validation/validate_analytical_contract.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 2.516,
+      "status": "pass",
+      "stdout_tail": "{\n  \"status\": \"pass\",\n  \"contract_version\": \"1.0.0\",\n  \"validated_at_utc\": \"2026-08-06T18:01:53.740102+00:00\",\n  \"profile\": {\n    \"calls\": 100,\n    \"agents\": 10,\n    \"turn_rows\": 11056\n  },\n  \"blocking_issue_count\": 0,\n  \"warning_count\": 1,\n  \"issues\": [\n    {\n      \"severity\": \"warning\",\n      \"check\": \"risk_rubric.calibration_status\",\n      \"message\": \"The heuristic risk rubric has no ground-truth calibration.\",\n      \"evidence\": {\n        \"high_risk_calls\": 0,\n        \"maximum_score\": 47,\n        \"required_action\": \"Calibrate only after real labeled outcomes exist.\"\n      }\n    }\n  ]\n}\nJSON report: C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\data\\validation\\analytical_contract_validation.json\nMarkdown report: C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\data\\validation\\analytical_contract_validation.md",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Agent dashboard canonical artifact",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.dashboard.build_kpi_dashboard"
+      ],
+      "return_code": 0,
+      "duration_seconds": 0.154,
+      "status": "pass",
+      "stdout_tail": "Wrote C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\dashboard\\artifact.json with 100 calls, 30 agent-stage KPI rows, and explicit synthetic-demo provenance.",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Supervisor dashboard canonical artifact",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.dashboard.build_supervisor_dashboard"
+      ],
+      "return_code": 0,
+      "duration_seconds": 0.132,
+      "status": "pass",
+      "stdout_tail": "Wrote C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\dashboard\\supervisor_artifact.json with 30 agent-stage rows.",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Agent Memory v1 canonical artifact",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.personalization.build_agent_memory"
+      ],
+      "return_code": 0,
+      "duration_seconds": 0.103,
+      "status": "pass",
+      "stdout_tail": "Agent Memory v1: 10 agents, 100 calls, 30 cumulative memory rows\nArtifact: dashboard\\agent_memory_artifact.json",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Knowledge ingestion dependency smoke",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-c",
+        "from langchain_core.documents import Document; from langchain_text_splitters import RecursiveCharacterTextSplitter; from pypdf import PdfReader; import docx2txt; assert RecursiveCharacterTextSplitter(chunk_size=20, chunk_overlap=2)"
+      ],
+      "return_code": 0,
+      "duration_seconds": 3.202,
+      "status": "pass",
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Synthetic survey fixture normalization",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.outcomes.import_synthetic_surveys"
+      ],
+      "return_code": 0,
+      "duration_seconds": 0.092,
+      "status": "pass",
+      "stdout_tail": "{\n  \"status\": \"fixture_only\",\n  \"profile\": {\n    \"rows\": 30,\n    \"columns\": 19,\n    \"matched_calls\": 30,\n    \"coverage_of_100_calls\": 0.3,\n    \"agents\": 10,\n    \"rows_per_agent\": {\n      \"Agent_001\": 3,\n      \"Agent_002\": 3,\n      \"Agent_003\": 3,\n      \"Agent_004\": 3,\n      \"Agent_005\": 3,\n      \"Agent_006\": 3,\n      \"Agent_007\": 3,\n      \"Agent_008\": 3,\n      \"Agent_009\": 3,\n      \"Agent_010\": 3\n    },\n    \"agent_call_numbers\": {\n      \"1\": 10,\n      \"4\": 10,\n      \"8\": 10\n    },\n    \"synthetic_rows\": 30,\n    \"blank_call_ids\": 30,\n    \"positive_synthetic_labels\": 22,\n    \"negative_synthetic_labels\": 8,\n    \"outcome_classes\": {\n      \"high_satisfaction\": 9,\n      \"low_satisfaction\": 8,\n      \"moderate_satisfaction\": 13\n    },\n    \"unique_comments\": 11,\n    \"nps_label_mismatches\": 0,\n    \"agent_name_mismatches\": 0\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Synthetic survey representativeness artifact",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.outcomes.survey_representativeness"
+      ],
+      "return_code": 0,
+      "duration_seconds": 0.722,
+      "status": "pass",
+      "stdout_tail": "{\n  \"status\": \"synthetic_fixture_only\",\n  \"agents\": 10,\n  \"calls\": 100,\n  \"synthetic_surveys\": 30,\n  \"real_labels\": 0\n}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "Real survey readiness gate",
+      "command": [
+        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
+        "-m",
+        "src.outcomes.survey_dataset"
+      ],
+      "return_code": 0,
+      "duration_seconds": 0.08,
+      "status": "pass",
+      "stdout_tail": "{\n  \"status\": \"blocked\",\n  \"profile\": {\n    \"analyzed_calls\": 100,\n    \"outcome_rows\": 100,\n    \"completed_survey_labels\": 0,\n    \"synthetic_completed_survey_rows\": 0,\n    \"positive_labels\": 0,\n    \"negative_labels\": 0,\n    \"agents_with_labels\": 0,\n    \"survey_types\": [],\n    \"label_definition_versions\": []\n  },\n  \"issues\": [\n    {\n      \"severity\": \"blocking\",\n      \"code\": \"NO_REAL_SURVEY_LABELS\",\n      \"message\": \"No completed real survey labels are available; training and probability display remain disabled.\"\n    }\n  ]\n}",
+      "stderr_tail": ""
+    }
+  ],
+  "checks": [
+    {
+      "code": "METADATA_CALL_COUNT",
+      "status": "pass",
+      "message": "Metadata contains exactly 100 calls."
+    },
+    {
+      "code": "ANALYZED_CALL_COUNT",
+      "status": "pass",
+      "message": "Canonical call summary contains exactly 100 calls."
+    },
+    {
+      "code": "UNIQUE_CALL_IDS",
+      "status": "pass",
+      "message": "All canonical call IDs are unique."
+    },
+    {
+      "code": "AGENT_COUNT",
+      "status": "pass",
+      "message": "The portfolio sample contains exactly 10 agents."
+    },
+    {
+      "code": "CONTRACT_STATUS",
+      "status": "pass",
+      "message": "Analytical contract validation passes."
+    },
+    {
+      "code": "TURN_COUNT",
+      "status": "pass",
+      "message": "The contract reconciles 11,056 fused turns."
+    },
+    {
+      "code": "AGENT_PROVENANCE",
+      "status": "pass",
+      "message": "Agent dashboard preserves fixture provenance."
+    },
+    {
+      "code": "SUPERVISOR_PROVENANCE",
+      "status": "pass",
+      "message": "Supervisor dashboard preserves fixture provenance."
+    },
+    {
+      "code": "REAL_SURVEY_GATE",
+      "status": "pass",
+      "message": "Real survey modeling remains blocked because no governed labels exist."
+    },
+    {
+      "code": "SYNTHETIC_SURVEY_GATE",
+      "status": "pass",
+      "message": "All 30 supplied survey rows remain fixture-only."
+    },
+    {
+      "code": "SURVEY_REPRESENTATIVENESS_GATE",
+      "status": "pass",
+      "message": "Survey representativeness reconciles 100 calls and 30 synthetic surveys while preserving zero real labels."
+    },
+    {
+      "code": "AGENT_MEMORY_POPULATION",
+      "status": "pass",
+      "message": "Agent Memory v1 reconciles 30 cumulative agent-stage rows to all 100 calls."
+    },
+    {
+      "code": "AGENT_MEMORY_BOUNDARY",
+      "status": "pass",
+      "message": "Agent Memory preserves low sample confidence and the initial-snapshot-only boundary."
+    },
+    {
+      "code": "KNOWLEDGE_INGESTION_CONTRACT",
+      "status": "pass",
+      "message": "Knowledge ingestion is business-scoped, local-only, and limited to four approved formats."
+    },
+    {
+      "code": "RISK_PILOT_SIZE",
+      "status": "pass",
+      "message": "Human risk-review pilot contains 30 calls."
+    },
+    {
+      "code": "RISK_PILOT_UNIQUE_CALLS",
+      "status": "pass",
+      "message": "Human risk-review pilot contains 30 unique calls."
+    },
+    {
+      "code": "RISK_PILOT_BLINDING",
+      "status": "pass",
+      "message": "Human review sheet excludes proxy scores, flags, bands, and reason codes."
+    },
+    {
+      "code": "RISK_PILOT_AGENT_COVERAGE",
+      "status": "pass",
+      "message": "Human risk-review pilot contains three calls for each of ten agents."
+    },
+    {
+      "code": "ARTIFACT_DASHBOARD_KPI_PERFORMANCE_TRACKER_HTML",
+      "status": "pass",
+      "message": "Required artifact exists: dashboard/kpi_performance_tracker.html"
+    },
+    {
+      "code": "ARTIFACT_DASHBOARD_SUPERVISOR_BOARD_HTML",
+      "status": "pass",
+      "message": "Required artifact exists: dashboard/supervisor_board.html"
+    },
+    {
+      "code": "ARTIFACT_DASHBOARD_ARTIFACT_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: dashboard/artifact.json"
+    },
+    {
+      "code": "ARTIFACT_DASHBOARD_SUPERVISOR_ARTIFACT_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: dashboard/supervisor_artifact.json"
+    },
+    {
+      "code": "ARTIFACT_DASHBOARD_SURVEY_REPRESENTATIVENESS_ARTIFACT_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: dashboard/survey_representativeness_artifact.json"
+    },
+    {
+      "code": "ARTIFACT_DASHBOARD_AGENT_MEMORY_ARTIFACT_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: dashboard/agent_memory_artifact.json"
+    },
+    {
+      "code": "ARTIFACT_CONFIG_KNOWLEDGE_INGESTION_CONTRACT_V1_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: config/knowledge_ingestion_contract_v1.json"
+    },
+    {
+      "code": "ARTIFACT_REPORTS_SYNTHETIC_SURVEY_QUALITY_REPORT_HTML",
+      "status": "pass",
+      "message": "Required artifact exists: reports/synthetic_survey_quality_report.html"
+    },
+    {
+      "code": "ARTIFACT_DATA_VALIDATION_ANALYTICAL_CONTRACT_VALIDATION_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: data/validation/analytical_contract_validation.json"
+    },
+    {
+      "code": "ARTIFACT_DATA_VALIDATION_SURVEY_PREDICTION_READINESS_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: data/validation/survey_prediction_readiness.json"
+    },
+    {
+      "code": "ARTIFACT_DOCS_AI_ANALYZER_TECHNICAL_DESIGN_PDF",
+      "status": "pass",
+      "message": "Required artifact exists: docs/AI_Analyzer_Technical_Design.pdf"
+    },
+    {
+      "code": "ARTIFACT_DOCS_RISK_PROXY_VALIDATION_PILOT_MD",
+      "status": "pass",
+      "message": "Required artifact exists: docs/risk_proxy_validation_pilot.md"
+    },
+    {
+      "code": "ARTIFACT_DATA_VALIDATION_RISK_REVIEW_PILOT_BLINDED_CSV",
+      "status": "pass",
+      "message": "Required artifact exists: data/validation/risk_review_pilot_blinded.csv"
+    },
+    {
+      "code": "ARTIFACT_DATA_VALIDATION_RISK_REVIEW_PILOT_KEY_CSV",
+      "status": "pass",
+      "message": "Required artifact exists: data/validation/risk_review_pilot_key.csv"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "dashboard/kpi_performance_tracker.html",
+      "required": true,
+      "exists": true,
+      "bytes": 458799,
+      "sha256": "f4ee3db0387876020c21bbadb5cc8acacf3fdd6b193fc4c0f8c5205f6ca97f8c"
+    },
+    {
+      "path": "dashboard/supervisor_board.html",
+      "required": true,
+      "exists": true,
+      "bytes": 497188,
+      "sha256": "1df1a617115fa25a0f968b82ae5bfc85a5130031fc6770a6a089b9224e297cfd"
+    },
+    {
+      "path": "dashboard/artifact.json",
+      "required": true,
+      "exists": true,
+      "bytes": 861057,
+      "sha256": "b67aafec9c502a3fe3b04cd2a28326762ffa3093f08a5eade7646b8c625f2124"
+    },
+    {
+      "path": "dashboard/supervisor_artifact.json",
+      "required": true,
+      "exists": true,
+      "bytes": 134025,
+      "sha256": "17bb81d0da9431fbaa405718ea78147b23c930feb13f8189dc8d203fe231565b"
+    },
+    {
+      "path": "dashboard/survey_representativeness_artifact.json",
+      "required": true,
+      "exists": true,
+      "bytes": 141635,
+      "sha256": "4bd138394d8430901e4488961ceb22edcfcf8d56aadd20b7a0f6cec3afcc7c5f"
+    },
+    {
+      "path": "dashboard/agent_memory_artifact.json",
+      "required": true,
+      "exists": true,
+      "bytes": 314868,
+      "sha256": "0df103223c0767f623cee0933b9924bc6b5d52ac83eda8817d86b7f051d480cf"
+    },
+    {
+      "path": "config/knowledge_ingestion_contract_v1.json",
+      "required": true,
+      "exists": true,
+      "bytes": 1505,
+      "sha256": "0897c965012a1b27288161846c69834882b2bc0053f4388552057141fa7a3c4e"
+    },
+    {
+      "path": "reports/synthetic_survey_quality_report.html",
+      "required": true,
+      "exists": true,
+      "bytes": 406788,
+      "sha256": "2be70b13eefdf392e2d4aec7a7d8617b498cdb1d10ed208ad3aabb406c1dbdc6"
+    },
+    {
+      "path": "data/validation/analytical_contract_validation.json",
+      "required": true,
+      "exists": true,
+      "bytes": 620,
+      "sha256": "25168aad9dfc185cb6ce13d8446c6727b2cd4e60b8a58549183b4999c36c9d63"
+    },
+    {
+      "path": "data/validation/survey_prediction_readiness.json",
+      "required": true,
+      "exists": true,
+      "bytes": 2241,
+      "sha256": "b77f761cfcd50bcd994c3d19c3df77f2f500a21f70f8a4a340be85a39683407b"
+    },
+    {
+      "path": "docs/AI_Analyzer_Technical_Design.pdf",
+      "required": true,
+      "exists": true,
+      "bytes": 127602,
+      "sha256": "9266f180e12fe478e10d23d7a960230b61b8d2043bac8d9a9e24517be774cc8e"
+    },
+    {
+      "path": "docs/risk_proxy_validation_pilot.md",
+      "required": true,
+      "exists": true,
+      "bytes": 2474,
+      "sha256": "f8bb136594eb43364f23c25402208dde9cc00119378e8375cb0a713521be146e"
+    },
+    {
+      "path": "data/validation/risk_review_pilot_blinded.csv",
+      "required": true,
+      "exists": true,
+      "bytes": 7669,
+      "sha256": "796243c18394523d850fb71ddaefe55c2605ed0eceee9b0689afa91d04c6ef5a"
+    },
+    {
+      "path": "data/validation/risk_review_pilot_key.csv",
+      "required": true,
+      "exists": true,
+      "bytes": 2694,
+      "sha256": "8f101347a47b4b4b9c0fddc56e764235b01308ae72dfbbf58c52e7ea8eeccdc4"
+    },
+    {
+      "path": "models/qwen3-4b/Qwen3-4B-Q4_K_M.gguf",
+      "required": false,
+      "exists": true,
+      "bytes": 2497280256,
+      "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5"
+    },
+    {
+      "path": "tools/llama.cpp/llama-server.exe",
+      "required": false,
+      "exists": true,
+      "bytes": 9216,
+      "sha256": "ce876e81e0a25e5a036f8365561337c9032628678a86b3de25dffc76a60b6839"
+    }
+  ],
+  "summary": {
+    "calls": 100,
+    "agents": 10,
+    "turn_rows": 11056,
+    "test_count": 68,
+    "real_survey_labels": 0,
+    "synthetic_survey_rows": 30
+  }
+}

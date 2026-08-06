@@ -1,0 +1,160 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Entertainment_1585414,1,agent,channel1,1,0.0,21.0,Hello there. I was wondering if I could speak to Stephen about some potential concert tickets.
+en_AU_Entertainment_1585414,2,customer,channel2,1,0.0,28.4,"Hi there, Steven, you got Steven here, and thank you very much for calling me."
+en_AU_Entertainment_1585414,3,customer,channel2,2,28.56,35.6,"Now, I've got some inquiries to make about getting tickets for this concert."
+en_AU_Entertainment_1585414,4,agent,channel1,2,30.0,55.0,I was wondering if I could speak to Stephen about some potential concert tickets.
+en_AU_Entertainment_1585414,5,customer,channel2,3,36.64,46.8,"I'm not aware of the group, or some friends are already keen, and I'm not too sure if you've ever"
+en_AU_Entertainment_1585414,6,customer,channel2,4,46.8,55.36,"heard of the group that you probably have. It's very new on the Australian circuit, and they've"
+en_AU_Entertainment_1585414,7,agent,channel1,3,55.0,84.0,"Yeah, absolutely. I'm really glad that you brought up the Arctic guerrillas there because"
+en_AU_Entertainment_1585414,8,customer,channel2,5,55.36,63.28,"been playing at a lot of pubs and old-age pensioners halls and all that, and they've just been sort of"
+en_AU_Entertainment_1585414,9,customer,channel2,6,63.28,72.4,working their way up. I think it's gorillas or monkeys or something like that.
+en_AU_Entertainment_1585414,10,customer,channel2,7,72.4,84.72,"Are you aware of them, and have you got them on your list for upcoming events?"
+en_AU_Entertainment_1585414,11,agent,channel1,4,84.0,89.0,"they're a really awesome local band. Like you said, they've been playing at pubs,"
+en_AU_Entertainment_1585414,12,agent,channel1,5,89.0,94.0,"been getting everyone hyped, getting really good energy, having drinks thrown at them in a good way."
+en_AU_Entertainment_1585414,13,agent,channel1,6,94.0,102.0,They've been really rocking the local scene. Now would be an awesome time to book them in
+en_AU_Entertainment_1585414,14,agent,channel1,7,102.0,107.0,before they start really blowing up and ticket prices become exorbitant.
+en_AU_Entertainment_1585414,15,agent,channel1,8,107.0,112.0,We could absolutely have a look at booking you in for one of the festivals that they're playing at.
+en_AU_Entertainment_1585414,16,agent,channel1,9,112.0,133.0,"Maybe the Arctic Circle event, that could be something that might interest you."
+en_AU_Entertainment_1585414,17,customer,channel2,8,115.36,132.72,"Can you tell us a little bit more about that, please?"
+en_AU_Entertainment_1585414,18,agent,channel1,10,133.0,145.0,Absolutely. The Arctic Circle event is a multi-artist event held in the Sunset View amphitheater.
+en_AU_Entertainment_1585414,19,agent,channel1,11,145.0,154.0,"It's a really awesome venue, very natural, very open, and especially being in the season that we're in."
+en_AU_Entertainment_1585414,20,agent,channel1,12,155.0,162.0,Absolutely wonderful weather for it. Gorgeous views of the sunset over the valley as well.
+en_AU_Entertainment_1585414,21,agent,channel1,13,162.0,168.0,"But to tell you a bit more about the Arctic Circle event, it's, as I said before, multi-artist."
+en_AU_Entertainment_1585414,22,agent,channel1,14,168.0,177.0,"We've got Arctic guerrillas, we have the Antarctic seals, we also have the polar bears."
+en_AU_Entertainment_1585414,23,agent,channel1,15,177.0,183.0,"All snow-themed artists, but all very different genres as well."
+en_AU_Entertainment_1585414,24,agent,channel1,16,183.0,191.0,"As I was speaking about before the Arctic guerrillas, very rocky, very high energy, very in-your-face,"
+en_AU_Entertainment_1585414,25,agent,channel1,17,191.0,196.0,really wicked performers bring awesome energy and doesn't sound like the studio version
+en_AU_Entertainment_1585414,26,agent,channel1,18,196.0,200.0,that you'd see here on vinyl or on Spotify.
+en_AU_Entertainment_1585414,27,agent,channel1,19,200.0,205.0,And then the polar bears are a lot more surf rocky.
+en_AU_Entertainment_1585414,28,agent,channel1,20,205.0,210.0,"Maybe psychedelic rock might be a better way to describe their music, a bit more laid-back,"
+en_AU_Entertainment_1585414,29,agent,channel1,21,210.0,218.0,"a little bit more experimental, a bit of a longer song, but has multiple tone shifts in it."
+en_AU_Entertainment_1585414,30,agent,channel1,22,218.0,227.0,"And then the Antarctic seals are very funky and 70s, 80s, heavy funk."
+en_AU_Entertainment_1585414,31,agent,channel1,23,227.0,231.0,So a really good mix of music there.
+en_AU_Entertainment_1585414,32,agent,channel1,24,231.0,237.0,"So yeah, wonderful venue, awesome artists, and pretty reasonable price as well."
+en_AU_Entertainment_1585414,33,customer,channel2,9,235.36,248.32,"Yeah, that sounds fantastic. I mean, the enthusiasm that I'm getting from you,"
+en_AU_Entertainment_1585414,34,agent,channel1,25,237.0,240.0,So we do have different sort of packages.
+en_AU_Entertainment_1585414,35,agent,channel1,26,240.0,244.0,Is that something that you might be interested in looking into?
+en_AU_Entertainment_1585414,36,customer,channel2,10,248.96,254.0,I actually really want to get the guys together and come along to this festival.
+en_AU_Entertainment_1585414,37,customer,channel2,11,254.0,260.88,"Now, what I'd like to know is that there's a bunch of us that are keen. Do you have VIP"
+en_AU_Entertainment_1585414,38,agent,channel1,27,257.0,268.0,Absolutely.
+en_AU_Entertainment_1585414,39,customer,channel2,12,260.88,278.24,passes for the Arctic Festival?
+en_AU_Entertainment_1585414,40,agent,channel1,28,268.0,273.0,"So for Arctic Circle, we have individual backstage passes."
+en_AU_Entertainment_1585414,41,agent,channel1,29,273.0,279.0,"So if you only really want to meet and greet with one of the artists, one of the bands,"
+en_AU_Entertainment_1585414,42,agent,channel1,30,279.0,287.0,"we could do that, but there's also a full VIP access to meet and greet with all of the artists."
+en_AU_Entertainment_1585414,43,agent,channel1,31,287.0,295.0,And those VIP tickets include the absolute best seats in the house at the very front near the stage
+en_AU_Entertainment_1585414,44,agent,channel1,32,295.0,302.0,"on the amphitheater as well as exclusive signed merch from each of the artists,"
+en_AU_Entertainment_1585414,45,agent,channel1,33,302.0,307.0,"which includes a vinyl and a shirt, as well as obviously a meet and greet"
+en_AU_Entertainment_1585414,46,agent,channel1,34,307.0,311.0,getting a chance to go backstage and hang out with them.
+en_AU_Entertainment_1585414,47,agent,channel1,35,311.0,315.0,You can be there for the soundcheck before everyone arrives.
+en_AU_Entertainment_1585414,48,agent,channel1,36,315.0,323.0,"Yeah, it's a really, really awesome package and just a totally one-of-a-kind experience."
+en_AU_Entertainment_1585414,49,customer,channel2,13,320.88,332.96,That sounds really exceptional. I've got one of the guys that is keen to come along to this
+en_AU_Entertainment_1585414,50,customer,channel2,14,332.96,340.96,festival. He plays in a band as well. What is your procedure? You know that we've been to
+en_AU_Entertainment_1585414,51,agent,channel1,37,337.0,365.0,Absolutely.
+en_AU_Entertainment_1585414,52,customer,channel2,15,340.96,346.32,"some concerts where the band picks somebody from the audience, and they come up on a stage."
+en_AU_Entertainment_1585414,53,customer,channel2,16,346.32,353.12,"Can we be made like if we wear a certain top or shirt or something like that, get picked out?"
+en_AU_Entertainment_1585414,54,customer,channel2,17,353.12,359.76,"So a friend who's not very well, I don't want to get too much into that, but is it possible"
+en_AU_Entertainment_1585414,55,customer,channel2,18,359.76,376.16,he could be picked out to go on stage? What's your procedure there?
+en_AU_Entertainment_1585414,56,agent,channel1,38,365.0,372.0,"So firstly, I'd like to give condolences for your friends."
+en_AU_Entertainment_1585414,57,agent,channel1,39,372.0,381.0,"It's awful that he's sick, but we can 100% sort of liaise with the artists"
+en_AU_Entertainment_1585414,58,customer,channel2,19,376.32,388.16,Can we be made like if we wear a certain top or shirt or something like that?
+en_AU_Entertainment_1585414,59,agent,channel1,40,381.0,384.0,and maybe work something out so that he could come up and play.
+en_AU_Entertainment_1585414,60,agent,channel1,41,384.0,390.0,I know that the Arctic Gorillaz are very open to picking audience members to play.
+en_AU_Entertainment_1585414,61,agent,channel1,42,390.0,394.0,"They've done it with multiple of their previous sets,"
+en_AU_Entertainment_1585414,62,agent,channel1,43,394.0,396.0,especially in pubs.
+en_AU_Entertainment_1585414,63,agent,channel1,44,396.0,400.0,They like to do this thing where they spin around and point at a random person
+en_AU_Entertainment_1585414,64,agent,channel1,45,400.0,403.0,and then they get them up on the drums or something.
+en_AU_Entertainment_1585414,65,agent,channel1,46,403.0,406.0,"It's hilarious, but it's really good."
+en_AU_Entertainment_1585414,66,agent,channel1,47,406.0,411.0,We could absolutely work something out for your friend group and your friend as well.
+en_AU_Entertainment_1585414,67,agent,channel1,48,411.0,415.0,And you could maybe garner a closer relationship with that VIP package
+en_AU_Entertainment_1585414,68,agent,channel1,49,415.0,418.0,if that's something you were interested in as well.
+en_AU_Entertainment_1585414,69,customer,channel2,20,419.12,422.08,"Oh, yeah, that sounds absolutely fantastic. Thanks for that."
+en_AU_Entertainment_1585414,70,customer,channel2,21,423.28,432.24,Can you give me a breakdown then on your pricing and also what the availability of in the certain
+en_AU_Entertainment_1585414,71,agent,channel1,50,424.0,437.0,"Yeah, absolutely."
+en_AU_Entertainment_1585414,72,customer,channel2,22,432.24,448.32,"areas? I presume you also have a match, but"
+en_AU_Entertainment_1585414,73,agent,channel1,51,437.0,443.0,"So the Sunset View amphitheater, it's sort of set as a semi-circle."
+en_AU_Entertainment_1585414,74,agent,channel1,52,443.0,448.0,"So you have these built-in stone steps, which act as the seats."
+en_AU_Entertainment_1585414,75,agent,channel1,53,449.0,453.0,"And then in the middle, the center of the stage in front of the fence,"
+en_AU_Entertainment_1585414,76,agent,channel1,54,453.0,459.0,there's this awesome sort of recessed area where you can really get around each other
+en_AU_Entertainment_1585414,77,agent,channel1,55,459.0,464.0,"and really march and go crazy, especially to some of Arctic Gorillaz songs."
+en_AU_Entertainment_1585414,78,agent,channel1,56,464.0,468.0,"They get pretty heavy, so definitely lots of opportunity for that."
+en_AU_Entertainment_1585414,79,agent,channel1,57,468.0,475.0,"In terms of pricing, we sort of do it in five row groups."
+en_AU_Entertainment_1585414,80,agent,channel1,58,475.0,479.0,"So as the furthest row back, which is like row 20 to 15,"
+en_AU_Entertainment_1585414,81,agent,channel1,59,479.0,483.0,they go for about $30 to $40.
+en_AU_Entertainment_1585414,82,agent,channel1,60,483.0,489.0,"And then as you get closer, it goes up in about $50 increments."
+en_AU_Entertainment_1585414,83,agent,channel1,61,489.0,497.0,"So by the time you're at the VIP seats, you're getting maybe like $200 seats"
+en_AU_Entertainment_1585414,84,agent,channel1,62,497.0,501.0,included in your all-access bundle.
+en_AU_Entertainment_1585414,85,agent,channel1,63,501.0,511.0,"In terms of availability, the Arctic Circle event is only on for the weekend after this weekend."
+en_AU_Entertainment_1585414,86,agent,channel1,64,511.0,520.0,"So we would say, I think it's the Friday the 3rd up to the Sunday the 5th."
+en_AU_Entertainment_1585414,87,agent,channel1,65,520.0,522.0,So that's the only days that they're playing.
+en_AU_Entertainment_1585414,88,agent,channel1,66,522.0,527.0,And it is sort of in the local area naturally.
+en_AU_Entertainment_1585414,89,customer,channel2,23,522.24,542.4,absolutely no problem at all. The guys are really keen to get out there. The VIP ticket
+en_AU_Entertainment_1585414,90,agent,channel1,67,527.0,532.0,So does that work for you in terms of planning?
+en_AU_Entertainment_1585414,91,customer,channel2,24,542.4,547.28,enables us just to clarification to get onto the backstage and meet up
+en_AU_Entertainment_1585414,92,customer,channel2,25,547.28,556.96,"with the with the Arctic gorillas, the Arctic pathogens, the Arctic base. I think you said"
+en_AU_Entertainment_1585414,93,customer,channel2,26,556.96,562.96,there really we can meet up with them and just hang out with them for a period of time. Is there a
+en_AU_Entertainment_1585414,94,agent,channel1,68,557.0,568.0,"Yeah, really good question there."
+en_AU_Entertainment_1585414,95,customer,channel2,27,562.96,574.64,time limit today?
+en_AU_Entertainment_1585414,96,agent,channel1,69,568.0,576.0,So I think one of the really awesome parts about that is you get early access to the venue
+en_AU_Entertainment_1585414,97,agent,channel1,70,576.0,578.0,when no one else will be there.
+en_AU_Entertainment_1585414,98,agent,channel1,71,578.0,584.0,"So it'll just be you, like obviously the audio engineers and all the people,"
+en_AU_Entertainment_1585414,99,agent,channel1,72,584.0,589.0,"staff for the show, but it'll just be you and your group with the artists themselves."
+en_AU_Entertainment_1585414,100,agent,channel1,73,589.0,592.0,And that's an hour access early.
+en_AU_Entertainment_1585414,101,agent,channel1,74,592.0,597.0,So you can spend an hour with those artists sort of talking and hanging out.
+en_AU_Entertainment_1585414,102,customer,channel2,28,592.96,618.64,"Oh, fantastic. This is getting better all the time."
+en_AU_Entertainment_1585414,103,agent,channel1,75,597.0,600.0,Maybe your friend wants to jam with them a little bit.
+en_AU_Entertainment_1585414,104,agent,channel1,76,600.0,603.0,I think that would be a really wicked experience.
+en_AU_Entertainment_1585414,105,agent,channel1,77,603.0,607.0,"But yeah, you get exclusive access to them for that full hour basically."
+en_AU_Entertainment_1585414,106,agent,channel1,78,607.0,610.0,"And then after that, you can still hang out backstage,"
+en_AU_Entertainment_1585414,107,agent,channel1,79,610.0,615.0,but naturally the artists will be getting ready and doing sound checks and things like that.
+en_AU_Entertainment_1585414,108,customer,channel2,29,619.44,630.88,"Okay, now the guys are keen. What about seating arrangements that we can get up and walk around?"
+en_AU_Entertainment_1585414,109,customer,channel2,30,630.88,636.64,"Is there seats that the seats fold back? Is it dangerous? I mean, what is it like if we"
+en_AU_Entertainment_1585414,110,customer,channel2,31,636.64,641.12,take a seat rather than a mosh pit or somewhere else where you can stand on the banks or something
+en_AU_Entertainment_1585414,111,agent,channel1,80,641.0,646.0,"Yeah, so really good question there as well."
+en_AU_Entertainment_1585414,112,customer,channel2,32,641.12,654.8,like that?
+en_AU_Entertainment_1585414,113,agent,channel1,81,646.0,654.0,"So as I was saying before, the seats are kind of like stone cutouts in the sort of semi-circular shape of the amphitheater."
+en_AU_Entertainment_1585414,114,agent,channel1,82,654.0,660.0,"But on the bands that we'll be assigning to people, there's like a numbering system."
+en_AU_Entertainment_1585414,115,agent,channel1,83,660.0,663.0,So you'll have a band that corresponds to the seat.
+en_AU_Entertainment_1585414,116,agent,channel1,84,663.0,667.0,"Unfortunately, because they are set in stone, literally speaking,"
+en_AU_Entertainment_1585414,117,agent,channel1,85,667.0,673.0,we can't do folding or sort of like seat changes and things like that.
+en_AU_Entertainment_1585414,118,customer,channel2,33,671.12,699.84,"Okay, now the"
+en_AU_Entertainment_1585414,119,agent,channel1,86,673.0,678.0,"In terms of safety, we have a really, really good medical team on site."
+en_AU_Entertainment_1585414,120,agent,channel1,87,678.0,685.0,"We've done all of our fire prep and we have really, really good security on board as well."
+en_AU_Entertainment_1585414,121,agent,channel1,88,685.0,687.0,I can personally vouch for the security team.
+en_AU_Entertainment_1585414,122,agent,channel1,89,687.0,691.0,I've worked with them on multiple events and multiple venues.
+en_AU_Entertainment_1585414,123,agent,channel1,90,691.0,693.0,These guys are absolute class.
+en_AU_Entertainment_1585414,124,agent,channel1,91,693.0,698.0,"So yeah, no worries in that regard."
+en_AU_Entertainment_1585414,125,customer,channel2,34,700.56,709.44,"sounding good. As I said, we're keen, but what happens if we need to cancel for unexpected"
+en_AU_Entertainment_1585414,126,customer,channel2,35,709.44,717.52,happening? What happens if we have to cancel? Do we get refunded? Will it be rescheduled?
+en_AU_Entertainment_1585414,127,customer,channel2,36,717.52,735.2,Will you be able to reschedule if it rains? All these unknowns. How are the unknowns covered?
+en_AU_Entertainment_1585414,128,agent,channel1,92,724.0,727.0,"Really, really good question there as well."
+en_AU_Entertainment_1585414,129,agent,channel1,93,727.0,732.0,I think the refund and exchange policy is something that we can be really proud of here.
+en_AU_Entertainment_1585414,130,agent,channel1,94,732.0,737.0,"So in terms of personal, personal scheduling issues,"
+en_AU_Entertainment_1585414,131,agent,channel1,95,737.0,744.0,we will give you a full refund up to 24 hours before the day that it starts.
+en_AU_Entertainment_1585414,132,agent,channel1,96,744.0,751.0,"So if you had issues and you notified us about them on the Thursday before the start of the event,"
+en_AU_Entertainment_1585414,133,agent,channel1,97,751.0,756.0,"100% refund, no questions asked, your money back, happy days."
+en_AU_Entertainment_1585414,134,agent,channel1,98,756.0,763.0,"If there is severe weather and we have to reschedule the actual event itself,"
+en_AU_Entertainment_1585414,135,agent,channel1,99,763.0,766.0,we'll give you a couple of different options.
+en_AU_Entertainment_1585414,136,agent,channel1,100,766.0,769.0,We'll give you the option to have a full refund.
+en_AU_Entertainment_1585414,137,agent,channel1,101,769.0,773.0,We could give you the option to refund in sort of like a store credit
+en_AU_Entertainment_1585414,138,agent,channel1,102,773.0,778.0,"so you could buy tickets equal to the value of the tickets that you purchased originally,"
+en_AU_Entertainment_1585414,139,customer,channel2,37,777.52,793.12,"That's fantastic. Yeah, I'm gonna confirm in a sec, but just who's the main band? Who's the"
+en_AU_Entertainment_1585414,140,agent,channel1,103,778.0,782.0,or we can just transfer your tickets to the rescheduled date.
+en_AU_Entertainment_1585414,141,agent,channel1,104,782.0,787.0,So you're pretty well covered for any sort of unexpected circumstances.
+en_AU_Entertainment_1585414,142,customer,channel2,38,793.12,808.72,last group up on the stage?
+en_AU_Entertainment_1585414,143,agent,channel1,105,797.0,799.0,"Yeah, so that would be the Arctic Gorillas."
+en_AU_Entertainment_1585414,144,agent,channel1,106,799.0,802.0,They're the main show for this event.
+en_AU_Entertainment_1585414,145,agent,channel1,107,802.0,808.0,We have 45 minutes from door opening where people can kind of like go around
+en_AU_Entertainment_1585414,146,agent,channel1,108,808.0,814.0,"and get food and get merch, and then the Antarctic seals will play."
+en_AU_Entertainment_1585414,147,agent,channel1,109,814.0,818.0,"And then after them, there'll be a 15-minute intermission."
+en_AU_Entertainment_1585414,148,agent,channel1,110,818.0,824.0,"And then the polar bears and then they'll go for 45 minutes, 15-minute intermission."
+en_AU_Entertainment_1585414,149,customer,channel2,39,823.12,842.8,"That's fantastic. Also, I'll just go ahead online here and pay for the ticket and that's"
+en_AU_Entertainment_1585414,150,agent,channel1,111,824.0,827.0,And then the Arctic Gorillas will play for an hour and 45 minutes
+en_AU_Entertainment_1585414,151,agent,channel1,112,827.0,831.0,with a 15-minute intermission in the middle there as well.
+en_AU_Entertainment_1585414,152,agent,channel1,113,831.0,835.0,So all up about four or five hours altogether.
+en_AU_Entertainment_1585414,153,customer,channel2,40,842.8,855.52,fine with you. Excellent. Thank you very much for all your advice. It was brilliant.
+en_AU_Entertainment_1585414,154,agent,channel1,114,844.0,846.0,Absolutely.
+en_AU_Entertainment_1585414,155,agent,channel1,115,846.0,849.0,"Yeah, just go ahead and book in with you and your group"
+en_AU_Entertainment_1585414,156,agent,channel1,116,849.0,852.0,and we'll send you a confirmation email as soon as we receive payment.
+en_AU_Entertainment_1585414,157,customer,channel2,41,855.52,866.24,Thank you.
+en_AU_Entertainment_1585414,158,agent,channel1,117,856.0,858.0,"No worries, mate. Enjoy the event."
+en_AU_Entertainment_1585414,159,agent,channel1,118,861.0,864.0,Thank you.

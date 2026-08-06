@@ -1,0 +1,171 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_RealEstate_1588709,channel1,1,0.0,15.56,Hello and welcome to the real estate agency.
+en_CA_RealEstate_1588709,channel1,2,15.56,16.56,My name is Julia.
+en_CA_RealEstate_1588709,channel1,3,16.56,21.16,How can I help you?
+en_CA_RealEstate_1588709,channel1,4,21.16,30.68,"Okay, we can definitely look at that for you."
+en_CA_RealEstate_1588709,channel1,5,30.68,34.68,What's the area you're located in?
+en_CA_RealEstate_1588709,channel1,6,34.68,35.68,Vancouver.
+en_CA_RealEstate_1588709,channel1,7,35.68,36.68,Okay.
+en_CA_RealEstate_1588709,channel1,8,36.68,38.2,Let me see.
+en_CA_RealEstate_1588709,channel1,9,38.2,43.08,And what brings you to Vancouver?
+en_CA_RealEstate_1588709,channel1,10,52.16,53.16,Very good.
+en_CA_RealEstate_1588709,channel1,11,53.16,56.16,"Congratulations, sir."
+en_CA_RealEstate_1588709,channel1,12,56.16,57.16,Okay.
+en_CA_RealEstate_1588709,channel1,13,57.16,62.16,And you said two to three bedroom apartments.
+en_CA_RealEstate_1588709,channel1,14,62.16,64.16,Fully furnished.
+en_CA_RealEstate_1588709,channel1,15,64.16,65.16,Okay.
+en_CA_RealEstate_1588709,channel1,16,65.16,67.16,I can definitely filter by those.
+en_CA_RealEstate_1588709,channel1,17,67.16,73.16,And would you like a realtor to help you support you in this transition?
+en_CA_RealEstate_1588709,channel1,18,73.16,74.16,Okay.
+en_CA_RealEstate_1588709,channel1,19,74.16,78.16,We can definitely connect you with one.
+en_CA_RealEstate_1588709,channel1,20,78.16,80.16,No.
+en_CA_RealEstate_1588709,channel1,21,80.16,88.16,"All of the compensation for the realtor comes out of the sellers or the,"
+en_CA_RealEstate_1588709,channel1,22,88.16,95.16,"those, those supplying the rentals."
+en_CA_RealEstate_1588709,channel1,23,95.16,99.16,"Okay, so I will connect you with."
+en_CA_RealEstate_1588709,channel1,24,99.16,101.16,With the.
+en_CA_RealEstate_1588709,channel1,25,101.16,103.16,With James here.
+en_CA_RealEstate_1588709,channel1,26,103.16,107.16,He'll be a realtor and you'll be hearing from him.
+en_CA_RealEstate_1588709,channel1,27,107.16,112.16,"He'll be a realtor or a call sometime today or tomorrow to confirm any,"
+en_CA_RealEstate_1588709,channel1,28,112.16,116.16,any bookings that you have.
+en_CA_RealEstate_1588709,channel1,29,116.16,119.16,Okay.
+en_CA_RealEstate_1588709,channel1,30,119.16,123.16,So Vancouver two to three bedroom apartments.
+en_CA_RealEstate_1588709,channel1,31,123.16,125.16,Fully furnished.
+en_CA_RealEstate_1588709,channel1,32,125.16,128.16,"Yes, we have a few currently available."
+en_CA_RealEstate_1588709,channel1,33,128.16,133.16,That I will add to the list to give to James.
+en_CA_RealEstate_1588709,channel1,34,133.16,134.16,Okay.
+en_CA_RealEstate_1588709,channel1,35,134.16,135.16,Okay.
+en_CA_RealEstate_1588709,channel1,36,135.16,137.16,We can definitely do that.
+en_CA_RealEstate_1588709,channel1,37,137.16,151.16,Are there any other criteria that James should be aware of?
+en_CA_RealEstate_1588709,channel1,38,151.16,177.16,Okay.
+en_CA_RealEstate_1588709,channel1,39,177.16,180.16,We can definitely do that.
+en_CA_RealEstate_1588709,channel1,40,180.16,181.16,One cat.
+en_CA_RealEstate_1588709,channel1,41,181.16,184.16,One parking space.
+en_CA_RealEstate_1588709,channel1,42,184.16,186.16,Non smoking.
+en_CA_RealEstate_1588709,channel1,43,186.16,190.16,Do you have any kids?
+en_CA_RealEstate_1588709,channel1,44,190.16,193.16,Okay.
+en_CA_RealEstate_1588709,channel1,45,193.16,205.16,And you do not have any of your own furniture that you're bringing.
+en_CA_RealEstate_1588709,channel1,46,205.16,207.16,Okay.
+en_CA_RealEstate_1588709,channel1,47,207.16,224.16,And next I ask about price range.
+en_CA_RealEstate_1588709,channel1,48,224.16,227.16,"Okay, I think that is definitely feasible."
+en_CA_RealEstate_1588709,channel1,49,227.16,234.16,Let me add that to the list.
+en_CA_RealEstate_1588709,channel1,50,234.16,237.16,"Yes, I see there are multiple availabilities."
+en_CA_RealEstate_1588709,channel1,51,237.16,241.16,There's even this one that only we have access to right now.
+en_CA_RealEstate_1588709,channel1,52,241.16,244.16,It hasn't been listed yet on the market.
+en_CA_RealEstate_1588709,channel1,53,244.16,259.16,Would you like to look into ones like that first?
+en_CA_RealEstate_1588709,channel1,54,259.16,265.16,"Yes, I can see this one is about 25 minutes bus ride from the"
+en_CA_RealEstate_1588709,channel1,55,265.16,267.16,university.
+en_CA_RealEstate_1588709,channel1,56,267.16,272.16,And otherwise ticks all the boxes except parking currently is
+en_CA_RealEstate_1588709,channel1,57,272.16,276.16,not listed in this listing.
+en_CA_RealEstate_1588709,channel1,58,276.16,279.16,That would be that would have to be something that you speak to
+en_CA_RealEstate_1588709,channel1,59,279.16,280.16,James about.
+en_CA_RealEstate_1588709,channel1,60,280.16,282.16,We'll contact the seller.
+en_CA_RealEstate_1588709,channel1,61,282.16,285.16,Or it'll be.
+en_CA_RealEstate_1588709,channel1,62,285.16,286.16,Okay.
+en_CA_RealEstate_1588709,channel1,63,286.16,289.16,I'm going to ask you a couple of questions to the seller directly
+en_CA_RealEstate_1588709,channel1,64,289.16,296.16,when you go and visit.
+en_CA_RealEstate_1588709,channel1,65,296.16,302.16,"Judging by the photos, it looks like it is a room like a."
+en_CA_RealEstate_1588709,channel1,66,302.16,304.16,Not not in the building.
+en_CA_RealEstate_1588709,channel1,67,304.16,306.16,It's like a.
+en_CA_RealEstate_1588709,channel1,68,306.16,308.16,It's part of a house.
+en_CA_RealEstate_1588709,channel1,69,308.16,324.16,This one is asking for 2200.
+en_CA_RealEstate_1588709,channel1,70,324.16,328.16,"But again, there's nothing about parking and actually nothing about"
+en_CA_RealEstate_1588709,channel1,71,328.16,330.16,utilities either.
+en_CA_RealEstate_1588709,channel1,72,330.16,333.16,So that will have to be something that you negotiate with the
+en_CA_RealEstate_1588709,channel1,73,333.16,335.16,seller.
+en_CA_RealEstate_1588709,channel1,74,335.16,354.16,And get that information from them.
+en_CA_RealEstate_1588709,channel1,75,354.16,358.16,"Yeah, this one we can schedule right now."
+en_CA_RealEstate_1588709,channel1,76,358.16,362.16,The ones from the realtor like he will just be helping you find
+en_CA_RealEstate_1588709,channel1,77,362.16,363.16,more.
+en_CA_RealEstate_1588709,channel1,78,363.16,365.16,More refined locations.
+en_CA_RealEstate_1588709,channel1,79,365.16,368.16,I just see like very broadly.
+en_CA_RealEstate_1588709,channel1,80,368.16,372.16,"What the locations are, but these, this one really master"
+en_CA_RealEstate_1588709,channel1,81,372.16,373.16,criteria.
+en_CA_RealEstate_1588709,channel1,82,373.16,380.16,So I wanted to share it with you right away.
+en_CA_RealEstate_1588709,channel1,83,380.16,382.16,"Yes, we can."
+en_CA_RealEstate_1588709,channel1,84,382.16,393.16,So what day would be available for you?
+en_CA_RealEstate_1588709,channel1,85,393.16,397.16,"Okay, I suggest going as early as possible so that you can get"
+en_CA_RealEstate_1588709,channel1,86,397.16,401.16,your foot in the door and make a decision quickly because
+en_CA_RealEstate_1588709,channel1,87,401.16,409.16,sometimes these listings go really fast.
+en_CA_RealEstate_1588709,channel1,88,409.16,415.16,So if you want available for tomorrow.
+en_CA_RealEstate_1588709,channel1,89,415.16,424.16,It is at 4pm.
+en_CA_RealEstate_1588709,channel1,90,424.16,425.16,"Okay, perfect."
+en_CA_RealEstate_1588709,channel1,91,425.16,426.16,I will do that.
+en_CA_RealEstate_1588709,channel1,92,426.16,429.16,And I'll make a note for James that has been scheduled.
+en_CA_RealEstate_1588709,channel1,93,429.16,432.16,So I'll make sure that he reaches out to you as soon as he's
+en_CA_RealEstate_1588709,channel1,94,432.16,437.16,done his next meeting.
+en_CA_RealEstate_1588709,channel1,95,437.16,440.16,And I'll make sure that you do a confirmation of that to our
+en_CA_RealEstate_1588709,channel1,96,440.16,457.16,particular email.
+en_CA_RealEstate_1588709,channel1,97,457.16,459.16,Okay.
+en_CA_RealEstate_1588709,channel1,98,459.16,471.16,One more time for me please.
+en_CA_RealEstate_1588709,channel1,99,471.16,473.16,Okay.
+en_CA_RealEstate_1588709,channel1,100,473.16,476.16,"All right, I send that confirmation off to you."
+en_CA_RealEstate_1588709,channel1,101,476.16,502.16,You should receive it shortly.
+en_CA_RealEstate_1588709,channel1,102,502.16,505.16,So James the realtor will be your primary contact from the
+en_CA_RealEstate_1588709,channel1,103,505.16,509.16,time he contacts you onwards.
+en_CA_RealEstate_1588709,channel1,104,509.16,515.16,But if there's any other listings that you see on our
+en_CA_RealEstate_1588709,channel1,105,515.16,521.16,website that you would like to book to see before James contacts
+en_CA_RealEstate_1588709,channel1,106,521.16,529.16,"you, then I can happily do that and schedule you for those."
+en_CA_RealEstate_1588709,channel1,107,529.16,544.16,That is correct.
+en_CA_RealEstate_1588709,channel1,108,544.16,547.16,He will give you a call after his next meeting is done.
+en_CA_RealEstate_1588709,channel1,109,547.16,550.16,So you will get to meet that way through the phone.
+en_CA_RealEstate_1588709,channel1,110,550.16,556.16,But he is not available to go out to any locations today.
+en_CA_RealEstate_1588709,channel1,111,556.16,561.16,But he will be there with you tomorrow before you enter into
+en_CA_RealEstate_1588709,channel1,112,561.16,573.16,the rental.
+en_CA_RealEstate_1588709,channel1,113,573.16,574.16,No problem.
+en_CA_RealEstate_1588709,channel1,114,574.16,578.16,I hope it all works out for you.
+en_CA_RealEstate_1588709,channel1,115,578.16,579.16,You too.
+en_CA_RealEstate_1588709,channel1,116,579.16,580.16,Bye.
+en_CA_RealEstate_1588709,channel2,1,0.0,18.56,Hi there.
+en_CA_RealEstate_1588709,channel2,2,18.56,24.76,"I was just calling to inquire about your availability of fully furnished apartments, two bedroom"
+en_CA_RealEstate_1588709,channel2,3,24.76,44.84,"or three bedroom apartments for my wife and I, Vancouver."
+en_CA_RealEstate_1588709,channel2,4,44.84,49.32,"We've lived here our whole lives, but we got married recently and we're just looking"
+en_CA_RealEstate_1588709,channel2,5,49.32,54.8,to find our own place to stay.
+en_CA_RealEstate_1588709,channel2,6,54.8,57.8,Thank you.
+en_CA_RealEstate_1588709,channel2,7,57.8,73.24,"Yes, I'm fully furnished."
+en_CA_RealEstate_1588709,channel2,8,73.24,77.04,"Yes, please."
+en_CA_RealEstate_1588709,channel2,9,77.12,91.88,So long as that doesn't cost us extra.
+en_CA_RealEstate_1588709,channel2,10,91.88,105.08,"Okay, that sounds good."
+en_CA_RealEstate_1588709,channel2,11,105.08,114.52,Okay.
+en_CA_RealEstate_1588709,channel2,12,114.52,114.72,Thank you.
+en_CA_RealEstate_1588709,channel2,13,136.08,145.04,"Something close to the University of Vancouver could be nice, UBC, and I"
+en_CA_RealEstate_1588709,channel2,14,145.04,157.44,guess preferably not to downtown.
+en_CA_RealEstate_1588709,channel2,15,157.44,164.84,"We do have one car, so we will need some parking, so we'll have to worry about that."
+en_CA_RealEstate_1588709,channel2,16,165.84,174.8,"And then we also have one cat, so we will need places that are pet-friendly and they"
+en_CA_RealEstate_1588709,channel2,17,174.8,188.8,have to be non-smoking.
+en_CA_RealEstate_1588709,channel2,18,188.8,189.8,Not at the moment.
+en_CA_RealEstate_1588709,channel2,19,195.84,204.6,"No, yeah, we're going to start with fully furnished and then not have to worry about"
+en_CA_RealEstate_1588709,channel2,20,204.6,212.4,it for now.
+en_CA_RealEstate_1588709,channel2,21,212.4,219.6,"So we're still relatively new to the Vancouver rental market, but our upper range we're"
+en_CA_RealEstate_1588709,channel2,22,219.6,249.52,"hoping for is no more than $2,500 a month, all-inclusive."
+en_CA_RealEstate_1588709,channel2,23,249.52,258.44,"Yes, I think that could be nice, as long as they are actually good locations, that should be fine."
+en_CA_RealEstate_1588709,channel2,24,279.52,306.44,"And is this our apartment building, or is this a floor of an apartment or a room in the house?"
+en_CA_RealEstate_1588709,channel2,25,307.36,317.36,"Okay, that would be preferred actually, so I think that would be nice."
+en_CA_RealEstate_1588709,channel2,26,317.36,320.36,And how much are they asking for rent?
+en_CA_RealEstate_1588709,channel2,27,337.36,342.36,"Okay, that should be fine."
+en_CA_RealEstate_1588709,channel2,28,342.36,349.36,And then I was also just curious about how soon we would be able to get out to visit this place.
+en_CA_RealEstate_1588709,channel2,29,349.36,354.36,"Is that something we can schedule with you, or do we have to wait and discuss it with the realtor?"
+en_CA_RealEstate_1588709,channel2,30,367.36,386.36,"Okay, and so can we schedule that right now?"
+en_CA_RealEstate_1588709,channel2,31,386.36,394.36,"It's Friday, so any time between Monday and Wednesday next week would be preferred?"
+en_CA_RealEstate_1588709,channel2,32,395.28,407.28,"Okay, do they have weekend availability then?"
+en_CA_RealEstate_1588709,channel2,33,407.28,414.28,"Yeah, that should be fine, what time?"
+en_CA_RealEstate_1588709,channel2,34,414.28,415.28,4pm.
+en_CA_RealEstate_1588709,channel2,35,415.28,417.28,"Yeah, I think we can do that."
+en_CA_RealEstate_1588709,channel2,36,417.28,423.28,"Yeah, if you could schedule us in for that, that would be nice."
+en_CA_RealEstate_1588709,channel2,37,423.28,430.28,"Okay, that sounds good."
+en_CA_RealEstate_1588709,channel2,38,430.28,451.28,"Yes, you can send it to my email, it's O-N-O-W-E-N-H-O-O-S-I-N-G at hotmail.org."
+en_CA_RealEstate_1588709,channel2,39,451.28,480.28,O-O-N-O-W-E-N-H-O-O-S-I-N-G at hotmail.ca.
+en_CA_RealEstate_1588709,channel2,40,480.28,483.28,"I just got it, yep, so that should be good."
+en_CA_RealEstate_1588709,channel2,41,483.28,488.28,"Okay, then I think that's everything I need from you."
+en_CA_RealEstate_1588709,channel2,42,488.28,496.28,"If this location doesn't work out, should we be scheduling or future visits and finding"
+en_CA_RealEstate_1588709,channel2,43,496.28,508.28,"new locations with James the realtor, or should I be calling back here to schedule them with you?"
+en_CA_RealEstate_1588709,channel2,44,508.28,526.28,Okay.
+en_CA_RealEstate_1588709,channel2,45,526.28,531.28,"Okay, and then he's also going to be coming with us to the viewing tomorrow?"
+en_CA_RealEstate_1588709,channel2,46,531.28,536.28,"Okay, would you be able to, oh maybe I can schedule this with him, but is he available"
+en_CA_RealEstate_1588709,channel2,47,536.28,546.28,to meet briefly beforehand so we can get to meet him before we go into business?
+en_CA_RealEstate_1588709,channel2,48,546.28,562.28,Okay.
+en_CA_RealEstate_1588709,channel2,49,562.28,564.28,"Okay, sounds good."
+en_CA_RealEstate_1588709,channel2,50,564.28,571.28,"That should be fine, and I think that's everything I need here, so I will let you go,"
+en_CA_RealEstate_1588709,channel2,51,571.28,576.28,but thank you for your help.
+en_CA_RealEstate_1588709,channel2,52,576.28,577.28,Thank you.
+en_CA_RealEstate_1588709,channel2,53,577.28,592.28,Have a good day.
+en_CA_RealEstate_1588709,channel2,54,592.28,602.28,Thank you.

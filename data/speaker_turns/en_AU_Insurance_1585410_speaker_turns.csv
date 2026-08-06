@@ -1,0 +1,87 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Insurance_1585410,1,agent,channel1,1,0.0,21.28,Hello there. I was wondering if I could speak to Bob. This is Jim from Premium Content
+en_AU_Insurance_1585410,2,customer,channel2,1,0.0,29.98,"Yeah, hi. Yes, of course. Thank you for returning my call. Um, I'm a part of party. We'll"
+en_AU_Insurance_1585410,3,agent,channel1,2,21.28,23.28,Insurance.
+en_AU_Insurance_1585410,4,customer,channel2,2,30.34,36.62,policy holder with your company. And I've done some renovation to my place. And I just want to go
+en_AU_Insurance_1585410,5,customer,channel2,3,36.62,43.78,through all the implications of that. Just to check my insurance policy if it would be covered for
+en_AU_Insurance_1585410,6,customer,channel2,4,43.78,49.54,"what I've done. If you like, I can go through all the renovation areas and then maybe you can"
+en_AU_Insurance_1585410,7,customer,channel2,5,49.54,53.1,update me on what I need to do from there.
+en_AU_Insurance_1585410,8,agent,channel1,3,51.28,76.28,"Yeah, absolutely Bob. So we can go through that with you. So some of the main things that we would need to know in terms of the renovations is sort of how much did it cost? How much square footage and value is it going to add to your property if you're aware of at the moment?"
+en_AU_Insurance_1585410,9,agent,channel1,4,76.28,92.28,And sort of if you're looking to change any plans or change your premiums or excess or anything like that. So if you could just sort of give me a ballpark estimate of what kind of value or square footage it's added to your property.
+en_AU_Insurance_1585410,10,customer,channel2,6,79.54,101.82,"All right. So what we did was we there was two areas that we worked on. Um, we added another room"
+en_AU_Insurance_1585410,11,customer,channel2,7,102.38,111.1,pretty much we converted our garage into another room. And we also renovated the shit into make it
+en_AU_Insurance_1585410,12,agent,channel1,5,106.28,116.28,Okay.
+en_AU_Insurance_1585410,13,customer,channel2,8,111.1,122.82,into a what is known as a granny flat. So the cost for all that was the cost was more involved
+en_AU_Insurance_1585410,14,customer,channel2,9,122.82,133.02,"with looking after my partners mom rather than anything else. So the cost was 120,000 for all of"
+en_AU_Insurance_1585410,15,customer,channel2,10,133.02,140.54,"it. However, it didn't increase the value of the house by that much at the current market rates"
+en_AU_Insurance_1585410,16,agent,channel1,6,136.28,146.28,Thank you.
+en_AU_Insurance_1585410,17,customer,channel2,11,140.54,146.78,anyway. So that's that's where we are. So we've improved obviously I'll send you all the
+en_AU_Insurance_1585410,18,customer,channel2,12,146.78,155.06,"details of it's come to renovate 120. And yeah, I can send you the details on that. So with that in"
+en_AU_Insurance_1585410,19,customer,channel2,13,155.06,163.26,"mind then, um, what how will I go about I can update my coverage for the new granny flat and the"
+en_AU_Insurance_1585410,20,customer,channel2,14,163.26,165.7,new converted garage with you now.
+en_AU_Insurance_1585410,21,agent,channel1,7,166.28,183.28,"Yeah, absolutely. So in terms of the value, that all makes sense. That sounds about right. I understand where you're coming from with not necessarily renovating to increase renting or anything like that, but to take care of loved ones."
+en_AU_Insurance_1585410,22,agent,channel1,8,183.28,202.28,"I understand. In terms of updating the coverage, definitely send us some updated information just because there's different risks involved compared from a shed and a garage to a granny flat and an additional room."
+en_AU_Insurance_1585410,23,customer,channel2,15,193.26,223.18,"Okay. I will have these two, two questions."
+en_AU_Insurance_1585410,24,agent,channel1,9,202.28,229.28,"So in terms of your coverage, we'll definitely need to get those updated details just so we can sort of discuss how that will affect your coverage and sort of the rates that that would entail."
+en_AU_Insurance_1585410,25,customer,channel2,16,224.18,232.78,"I need to cover here. The first one is that we've had the policy going, Oh, I probably had no 8010 years."
+en_AU_Insurance_1585410,26,agent,channel1,10,229.28,258.28,Okay.
+en_AU_Insurance_1585410,27,customer,channel2,17,233.18,241.18,And we've never even really looked at it to see that needs to upgraded or anything like that. So the
+en_AU_Insurance_1585410,28,customer,channel2,18,241.18,247.06,first thing we'd like to know is should it should we have upgraded it at any stage? What are the
+en_AU_Insurance_1585410,29,customer,channel2,19,247.06,254.82,other great options do you have? And then be how will whatever you suggest that we upgrade if we go
+en_AU_Insurance_1585410,30,customer,channel2,20,254.82,263.38,ahead with the upgrade? How do you think that will be affected by the renovations? And we've also
+en_AU_Insurance_1585410,31,agent,channel1,11,258.28,259.28,Thank you.
+en_AU_Insurance_1585410,32,customer,channel2,21,263.38,270.74,that the house is far more secure now or so I didn't forget to add that we added a fence
+en_AU_Insurance_1585410,33,customer,channel2,22,270.74,279.06,"around the property as well. So with all that in mind, I what we have what other policies should we"
+en_AU_Insurance_1585410,34,customer,channel2,23,279.06,284.26,"look at because we haven't looked at it for a long time and be whatever you suggest. Now,"
+en_AU_Insurance_1585410,35,customer,channel2,24,284.26,290.66,"would that be sufficient for us to go ahead with the added security, the garage being changed"
+en_AU_Insurance_1585410,36,agent,channel1,12,288.28,317.28,"Yeah, of course, I totally understand there Bob and really good questions as well."
+en_AU_Insurance_1585410,37,customer,channel2,25,291.7,296.9,"into a another room and the granny flat. The granny, the granny is it just is pretty much"
+en_AU_Insurance_1585410,38,customer,channel2,26,296.9,303.86,"just a one bedroom with a kitchen lounge. And as I said, I will send you the details and some"
+en_AU_Insurance_1585410,39,customer,channel2,27,303.86,312.82,"pictures if you like. But it's not extravagant, but it's just there to cater for the mom."
+en_AU_Insurance_1585410,40,agent,channel1,13,318.28,338.28,"So in terms of the current plan that you've got, you actually are subscribed to our gold, our gold standard plan at the moment. So that's really good. It gives you a really competitive rate for your premium and the excess I think is pretty reasonable for the level of coverage."
+en_AU_Insurance_1585410,41,agent,channel1,14,338.28,356.28,"Just in terms of adding an additional or two additional living spaces, I would recommend going to our diamond or our platinum plan, just because it gives you more peace of mind in terms of total coverage for any sort of scenario."
+en_AU_Insurance_1585410,42,agent,channel1,15,356.28,381.28,"So this includes natural disasters. It includes home break ins. It even includes fires, you know, say, say an appliance malfunctions and, you know, something, something goes wrong and the house catches fire there and even just, even if it's not a natural disaster but it could be, you know, your roof's leaking and your contents gets damaged."
+en_AU_Insurance_1585410,43,agent,channel1,16,381.28,396.28,"So that would be what I'd recommend there. And it would keep your excess at the same level. You would pay a little bit of a higher premium. But your coverage would be much, much more comprehensive."
+en_AU_Insurance_1585410,44,customer,channel2,28,386.9,398.02,So
+en_AU_Insurance_1585410,45,agent,channel1,17,396.28,411.28,"And in terms of the added security of the fence, that's awesome. That would actually be contributing towards lowering your rates, your premium. So that's a really, really awesome effort from you guys there."
+en_AU_Insurance_1585410,46,customer,channel2,29,398.02,420.6,I've got the other question I should bring up is how does our insurance be affected in
+en_AU_Insurance_1585410,47,customer,channel2,30,420.6,426.62,regards to the actual property size obviously the same but now the
+en_AU_Insurance_1585410,48,agent,channel1,18,426.28,451.28,"Not necessarily. Once you've sent through the details, we can sort of hash out that to a finer detail. But off the top of my head, it wouldn't necessarily change anything drastically."
+en_AU_Insurance_1585410,49,customer,channel2,31,426.62,434.18,"residence is bigger, the square footage there has changed. Is our policy"
+en_AU_Insurance_1585410,50,customer,channel2,32,434.18,437.9,affected at all by that?
+en_AU_Insurance_1585410,51,customer,channel2,33,450.6,460.76,"Okay this is one that somebody, a friend of mine at work, we're talking about this"
+en_AU_Insurance_1585410,52,agent,channel1,19,456.28,485.28,Thank you.
+en_AU_Insurance_1585410,53,customer,channel2,34,460.76,469.92,said I should bring up with you is now my mum-in-law is pretty old and is age
+en_AU_Insurance_1585410,54,customer,channel2,35,469.92,476.16,affected because there's more likely to have a cause damage I don't know
+en_AU_Insurance_1585410,55,customer,channel2,36,476.2,481.04,accidentally dropping you know breaking something and we're having to climb for
+en_AU_Insurance_1585410,56,customer,channel2,37,481.04,487.52,this age of factor when it comes into our insurance.
+en_AU_Insurance_1585410,57,agent,channel1,20,486.28,504.28,"It can be for some other insurance companies that they may have different company policies. But for us at premium insurance, we don't discriminate for against age. It's, you know, it's not something that you can control is basically our outlook on that."
+en_AU_Insurance_1585410,58,agent,channel1,21,504.28,519.28,"And especially if you've taken steps to sort of navigate around that, we don't hold it against you. It's not necessarily your fault. As long as it's not egregious, you know, like as long as your grandma didn't take your Ferrari out in total."
+en_AU_Insurance_1585410,59,customer,channel2,38,506.16,529.8,Yeah yeah yeah okay okay and okay let's get a little bit of peace of mind there
+en_AU_Insurance_1585410,60,agent,channel1,22,519.28,541.28,"You know, it's, you know, nothing like that. But yeah."
+en_AU_Insurance_1585410,61,customer,channel2,39,529.8,538.96,now how long will it take you to get for us to receive the confirmation for this
+en_AU_Insurance_1585410,62,customer,channel2,40,538.96,542.92,updated coverage of our policy?
+en_AU_Insurance_1585410,63,agent,channel1,23,542.28,556.28,"Yeah, really good question there. So as soon as you switch over to the plan and you do your initial payment, we'll send you through a confirmation email that day, usually it's received within a couple minutes at most a couple of hours."
+en_AU_Insurance_1585410,64,agent,channel1,24,556.28,577.28,"It'll have a comprehensive list of all the events and actual contents that are covered by the insurance and we'll even give you a little breakdown on how much you're saving just over time with with the insurance as well. So not very long, usually within 24 hours at the most."
+en_AU_Insurance_1585410,65,customer,channel2,41,559.8,586.48,"Okay I've got a double-headed question here what documentations, different"
+en_AU_Insurance_1585410,66,agent,channel1,25,586.28,608.28,"Yeah, so what sort of documentation do you need so we would need if possible if you could provide the original or not the original but a copy of the architects planning for the renovations."
+en_AU_Insurance_1585410,67,customer,channel2,42,586.48,592.24,documentations will you need for this renovation? I'll come to the other one after
+en_AU_Insurance_1585410,68,customer,channel2,43,592.24,595.6,I'll answer that one
+en_AU_Insurance_1585410,69,agent,channel1,26,608.28,626.28,Just some invoices as well with the tradesmen that were working on the renovations or if you did it yourself. Just some documentation of the invoices there or not necessarily the invoices but the receipts of the materials and the goods and things like that.
+en_AU_Insurance_1585410,70,agent,channel1,27,626.28,643.28,So just just sort of evidence of the amount of money that went into it and just sort of the final plans for it as well is kind of mainly what we need and if you could supply photos as well that's that's really awesome supplementary materials as well.
+en_AU_Insurance_1585410,71,customer,channel2,44,646.52,654.68,the other question was in the event that we have to have to claim what is the what
+en_AU_Insurance_1585410,72,customer,channel2,45,654.68,659.88,kind of information would you require and what is the process involved if we
+en_AU_Insurance_1585410,73,agent,channel1,28,657.28,683.28,"Yeah, so that's kind of the crux of what it all comes down to in the claim process naturally it depends on how much you're claiming and sort of what the cause is for the claim being made, but we'll basically just get you to provide evidence of ownership of the contents."
+en_AU_Insurance_1585410,74,customer,channel2,46,659.88,662.64,don't need to make a claim?
+en_AU_Insurance_1585410,75,agent,channel1,29,684.28,704.28,But like prior to the event similar to the materials for changing the plan as well we would just ask if you could provide some photo evidence and that sort of stuff so just we can get a comprehensive idea of exactly the extent of the damage and sort of what the total value would be as well.
+en_AU_Insurance_1585410,76,agent,channel1,30,705.28,717.28,Naturally we'll be in contact with you the all every step of the way just to make sure that you're doing all right and just making the process as simple and as comfortable as possible.
+en_AU_Insurance_1585410,77,agent,channel1,31,717.28,743.28,"Yeah, so it can vary depending on one the materials that are damaged the content that's damaged the cause and also the total amount being claimed as well naturally it also it also does depend on the claim as well."
+en_AU_Insurance_1585410,78,customer,channel2,47,719.88,727.56,In that particular case how long does it normally take to resolve issues?
+en_AU_Insurance_1585410,79,agent,channel1,32,743.28,768.28,"So yeah larger claims tend to take a little bit longer generally they're resolved within a month, but usually they're tracked a bit faster, especially if the if the claim is making their payments and providing their evidence quite quickly it really fast tracks the process, but generally within a month or so."
+en_AU_Insurance_1585410,80,customer,channel2,48,749.88,776.52,Thank you very much for that information and again thank you for calling me back
+en_AU_Insurance_1585410,81,agent,channel1,33,773.28,788.28,Yeah absolutely it's been a pleasure Bob and I look forward to hearing from you have a good day mate.
+en_AU_Insurance_1585410,82,customer,channel2,49,776.68,782.48,and resolved it now we can just get on and supply you with all the documentation
+en_AU_Insurance_1585410,83,customer,channel2,50,782.48,785.28,photos and then.
+en_AU_Insurance_1585410,84,customer,channel2,51,788.64,792.76,You too thank you bye bye
+en_AU_Insurance_1585410,85,customer,channel2,52,802.24,805.36,no good
+en_AU_Insurance_1585410,86,agent,channel1,34,803.28,805.28,Thank you.

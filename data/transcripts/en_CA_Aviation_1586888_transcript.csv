@@ -1,0 +1,61 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_Aviation_1586888,channel1,1,0.0,19.0,"Good afternoon, thank you for calling Sky Vista Airlines, this is Sarah speaking, how can I help you today?"
+en_CA_Aviation_1586888,channel1,2,30.0,46.0,"Yeah, of course, Mr. Miller, I can help you with that. Could I have your booking reference or ticket numbers so I can locate your flight details?"
+en_CA_Aviation_1586888,channel1,3,46.0,58.0,"Okay, thank you. Please give me a moment. Will I pull that up?"
+en_CA_Aviation_1586888,channel1,4,58.0,70.0,"Okay, I see your reservation here. You're flying from Vancouver to Toronto on November 5th, flight SV 238 in economy class, correct?"
+en_CA_Aviation_1586888,channel1,5,71.0,79.0,Perfect. And you mentioned you'd like to add an extra bag. Could you tell me how many bags you're planning to bring in total?
+en_CA_Aviation_1586888,channel1,6,79.0,108.0,"Okay, got it. Totally understandable. Okay, so for your route, the fee for an additional check bag is $65 Canadian if paid online in advance or $80 at the airport."
+en_CA_Aviation_1586888,channel1,7,108.0,132.0,So would you like me to go ahead and add that now?
+en_CA_Aviation_1586888,channel1,8,132.0,150.0,"Okay, that's a great question, I understand. So while baggage fees, they usually apply to all economy passengers, we do sometimes discount them for frequent flyers or premium members, so I can check your profile for eligibility."
+en_CA_Aviation_1586888,channel1,9,150.0,162.0,"Okay, so it looks like you're a silver tier member with us. Congratulations on that. But unfortunately, the free second bag starts at gold tier."
+en_CA_Aviation_1586888,channel1,10,162.0,178.0,But I can offer you a 20% discount since you're booking it through the call center today.
+en_CA_Aviation_1586888,channel1,11,178.0,187.0,"Exactly, yeah, that would be $52 added to your total."
+en_CA_Aviation_1586888,channel1,12,187.0,201.0,"Absolutely. So before I finalize it, can I confirm the payment method? Do you want to use the same Visa card here that's on your account? It says there's one in zero, it ends in 0842."
+en_CA_Aviation_1586888,channel1,13,201.0,214.0,That's linked to your booking.
+en_CA_Aviation_1586888,channel1,14,214.0,221.0,"Okay, perfect. Give me one moment while I process that."
+en_CA_Aviation_1586888,channel1,15,221.0,228.0,"Okay, that's gone through successfully."
+en_CA_Aviation_1586888,channel1,16,228.0,253.0,So you'll get an updated e-ticket and payment receipt by email within the next few minutes.
+en_CA_Aviation_1586888,channel1,17,253.0,267.0,"Okay, let me check availability for you. Yes, there's still some premium economy seats open for that flight. So the upgrade fee from economy is $145 Canadian."
+en_CA_Aviation_1586888,channel1,18,267.0,280.0,"So it includes extra leg room, priority boarding and an upgraded meal service."
+en_CA_Aviation_1586888,channel1,19,280.0,290.0,"Yeah, absolutely. So you can redeem 6,000 sky miles points for that route, which would cover the upgrade fee."
+en_CA_Aviation_1586888,channel1,20,290.0,301.0,"And currently it says you have 6,450 points, so you just have enough."
+en_CA_Aviation_1586888,channel1,21,301.0,308.0,"Okay, great choice. So I'll go ahead and apply the upgrade using your points."
+en_CA_Aviation_1586888,channel1,22,308.0,328.0,"Okay, that's done. So you've been upgraded to premium economy seat 14A. So that's a window seat near the front of the cabin."
+en_CA_Aviation_1586888,channel1,23,328.0,335.0,"Yeah, sure. So here's a quick summary of your updated booking."
+en_CA_Aviation_1586888,channel1,24,335.0,355.0,"David Miller, name, flight, SV 238 Vancouver to Toronto, November 5, 820 AM departure, cabin premium economy seat 14A, check baggage, two bags total, one included and one added with a discount,"
+en_CA_Aviation_1586888,channel1,25,355.0,373.0,"a payment $52 Canadian for the extra bag, processed successfully, upgrade, redeemed 6,000 sky miles points for seat upgrade, and so, and you'll receive a confirmation email shortly with your new e-ticket and updated itinerary."
+en_CA_Aviation_1586888,channel1,26,385.0,410.0,"Oh, you're very welcome. Is there anything else I can help you with before we end the call?"
+en_CA_Aviation_1586888,channel1,27,410.0,435.0,"Okay, yeah, that's a great idea. So the good news is that premium economy passengers automatically receive priority boarding group two, so you'll be among the first to board after business class."
+en_CA_Aviation_1586888,channel1,28,435.0,462.0,"Yeah, so we offer gate assistance and luggage support if you request it in advance. So I can even add a note to your booking asking for light assistance at boarding and arrival, so then an airport staff member can help you handle or transport your bags if you need it."
+en_CA_Aviation_1586888,channel1,29,463.0,480.0,"Okay, done. So, okay, so it's added under special service request, so you'll also see it on your boarding pass."
+en_CA_Aviation_1586888,channel1,30,480.0,496.0,"It's a pleasure, Mr. Miller. But before you go, do you want me to send a text confirmation to you as well in addition to the email?"
+en_CA_Aviation_1586888,channel1,31,496.0,502.0,"Perfect, okay, done. You'll get both within a few minutes."
+en_CA_Aviation_1586888,channel1,32,502.0,516.0,Thank you again for flying with SkyVista Airlines. We wish you a pleasant trip to Toronto. Is there anything else I can check for you today?
+en_CA_Aviation_1586888,channel1,33,516.0,534.0,"You too, Mr. Miller. Safe travels, and thank you for choosing SkyVista Airlines."
+en_CA_Aviation_1586888,channel2,1,0.0,28.96,"Hi, sir. Good afternoon. My name is David Miller. I have applied book with Sky Vista"
+en_CA_Aviation_1586888,channel2,2,28.96,36.0,next week to Toronto. And I wanted to ask about adding an extra bag to my reservation.
+en_CA_Aviation_1586888,channel2,3,46.56,52.64,"Yep, it's SV7429M."
+en_CA_Aviation_1586888,channel2,4,58.96,71.6,That's right.
+en_CA_Aviation_1586888,channel2,5,81.6,86.56,"I will have two check bags. The original ticket includes one,"
+en_CA_Aviation_1586888,channel2,6,86.56,103.2,but I need another because I'm traveling for business and carrying some product samples.
+en_CA_Aviation_1586888,channel2,7,103.2,122.4,"Okay, yeah. Let's go ahead with it. But I was wondering, is there any way to reduce or wave"
+en_CA_Aviation_1586888,channel2,8,122.4,129.76,"that fee? It's a business trip and my company already covers most travel costs, but I'm trying to keep"
+en_CA_Aviation_1586888,channel2,9,129.76,134.4,expenses low.
+en_CA_Aviation_1586888,channel2,10,159.76,176.4,"Oh, that's wonderful. Thank you. So that brings it down to about, what, 50 something dollars?"
+en_CA_Aviation_1586888,channel2,11,182.8,186.0,"Okay, that works. Go ahead and add it, please."
+en_CA_Aviation_1586888,channel2,12,189.76,206.4,"Yes. Yes, please."
+en_CA_Aviation_1586888,channel2,13,219.92,244.56,"Excellent. Excellent. Thank you, sir. While I have you, is there any chance of upgrading my seat?"
+en_CA_Aviation_1586888,channel2,14,245.52,261.2,"I was thinking maybe to premium economy, if there's parties, of course."
+en_CA_Aviation_1586888,channel2,15,261.2,279.84,That sounds tempting. Is there any way to use points for the upgrade?
+en_CA_Aviation_1586888,channel2,16,291.2,309.84,"Oh, just made it. Let's do it."
+en_CA_Aviation_1586888,channel2,17,309.84,328.48,Perfect. That's exactly what I want. Could you confirm everything for me just to make sure I'm all set?
+en_CA_Aviation_1586888,channel2,18,369.84,384.0,"That's wonderful. Perfect. I really appreciate how smoothly you ended, end all that, Sarah. Thank you"
+en_CA_Aviation_1586888,channel2,19,384.0,400.64,"very much. Actually, yes. Since it's a business trip, I have some presentation material with me."
+en_CA_Aviation_1586888,channel2,20,401.84,409.12,Is there a way to get priority boarding so I can settle in early and have space in the overhead
+en_CA_Aviation_1586888,channel2,21,409.12,416.24,bins?
+en_CA_Aviation_1586888,channel2,22,424.48,433.12,"Perfect. And just in case, are there any special assistance options? Say, someone's carrying"
+en_CA_Aviation_1586888,channel2,23,433.12,441.12,heavy items.
+en_CA_Aviation_1586888,channel2,24,455.28,461.28,"That would be great. Very helpful. Please go ahead and add that note, please."
+en_CA_Aviation_1586888,channel2,25,463.12,477.28,"Excellent. You really covered everything I needed, Sarah. Thank you so much."
+en_CA_Aviation_1586888,channel2,26,477.28,497.44,"Yes, please. That would be great. You can send it to the number ending in 7731, please."
+en_CA_Aviation_1586888,channel2,27,507.28,523.44,That's all. You've been great. Thanks again. Have a nice day.

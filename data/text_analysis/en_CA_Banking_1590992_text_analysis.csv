@@ -1,0 +1,93 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Banking_1590992,1,agent,channel1,1,0.0,5.0,Thank you for calling Greenville Bank. This is Julia. How can I help you?,neutral,0.5846,False,False,True,False,False
+en_CA_Banking_1590992,2,customer,channel2,1,0.0,13.44,Yeah. Hi there. I need to transfer some money from my savings account into my checking account,neutral,0.8589,False,False,False,False,False
+en_CA_Banking_1590992,3,customer,channel2,2,13.44,19.32,urgently here. I've got a couple of days and I don't want anything to bounce.,negative,0.585,False,False,False,False,False
+en_CA_Banking_1590992,4,agent,channel1,2,21.0,29.0,"I see. Okay, absolutely. I can definitely help you with that. Just to be sure, can I confirm your first name?",positive,0.6407,False,False,True,False,False
+en_CA_Banking_1590992,5,customer,channel2,3,29.56,30.92,"Yeah, my name is Betty.",neutral,0.6486,False,False,False,False,False
+en_CA_Banking_1590992,6,agent,channel1,3,30.0,43.0,"Betty, okay. Is that spelled B-E-T-T-Y? Okay. Thank you, Betty. And is this phone number that you're calling from the same number on your account?",positive,0.5529,False,False,True,False,False
+en_CA_Banking_1590992,7,customer,channel2,4,36.0,36.24,Yeah.,neutral,0.5798,False,False,False,False,False
+en_CA_Banking_1590992,8,agent,channel1,4,43.0,52.0,Okay. All right. Thank you. All right. And how much are you looking to transfer today?,positive,0.5207,False,False,True,False,False
+en_CA_Banking_1590992,9,customer,channel2,5,44.0,44.52,"Yes, it is.",neutral,0.6667,False,False,False,False,False
+en_CA_Banking_1590992,10,agent,channel1,5,52.0,64.0,"You do have a limit on your account here. It looks like you have a limit of $10,000 per day to transfer.",neutral,0.9021,False,False,False,False,False
+en_CA_Banking_1590992,11,customer,channel2,6,54.52,55.68,What is there a limit?,neutral,0.8511,False,False,False,False,False
+en_CA_Banking_1590992,12,customer,channel2,7,63.64,63.88,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,13,agent,channel1,6,64.0,89.0,"Okay. $500, okay. And okay. Okay. All right. So I will do that for you. I do have a couple questions, security questions, just to make sure that we are going about this process correctly.",positive,0.5776,False,False,False,False,False
+en_CA_Banking_1590992,14,customer,channel2,8,64.92,65.64,I don't need that much.,neutral,0.5884,False,False,False,False,False
+en_CA_Banking_1590992,15,customer,channel2,9,68.16,72.48,"Yeah, I would be $500 is all I need to transfer.",neutral,0.7566,False,False,False,False,False
+en_CA_Banking_1590992,16,customer,channel2,10,74.28,75.72,Mm-hmm.,neutral,0.8153,False,False,False,False,False
+en_CA_Banking_1590992,17,agent,channel1,7,89.0,99.0,I just need you to confirm. Where is your current employer on your file with us?,neutral,0.9372,False,False,True,False,False
+en_CA_Banking_1590992,18,customer,channel2,11,90.4,90.6,Yep.,neutral,0.5717,False,False,False,False,False
+en_CA_Banking_1590992,19,customer,channel2,12,99.0,99.64,What is my,neutral,0.6651,False,False,False,False,False
+en_CA_Banking_1590992,20,agent,channel1,8,99.0,113.0,"Or who is your current, sorry, who is your current employer? What is the name of your current employer? These are just some security questions I have to ask in order to proceed with your bank account.",neutral,0.867,False,False,True,False,False
+en_CA_Banking_1590992,21,customer,channel2,13,103.68,112.32,"Yeah, it's blind and budget.",negative,0.6658,False,False,False,False,False
+en_CA_Banking_1590992,22,agent,channel1,9,113.0,125.0,Blinds and budget. Okay. Okay. Thank you for that. That's been confirmed. And what was your last purchase on your account?,positive,0.5406,False,False,True,False,False
+en_CA_Banking_1590992,23,customer,channel2,14,124.08,125.28,What was my last purchase?,neutral,0.927,False,False,False,False,False
+en_CA_Banking_1590992,24,agent,channel1,10,125.0,145.0,What was the amount of your last purchase?,neutral,0.9411,False,False,True,False,False
+en_CA_Banking_1590992,25,customer,channel2,15,125.28,138.4,"I think it was at the grocery store, and I don't remember exactly, but I think it was",neutral,0.8243,False,False,False,False,False
+en_CA_Banking_1590992,26,customer,channel2,16,138.4,141.8,around $80 or so.,neutral,0.846,False,False,False,False,False
+en_CA_Banking_1590992,27,customer,channel2,17,141.8,147.88,"I don't know that I don't have my receipt in front of me, so.",neutral,0.6217,False,False,False,False,False
+en_CA_Banking_1590992,28,agent,channel1,11,145.0,155.0,"Okay. Well, we do have to confirm in order to proceed. Are you able to log in by any chance and just double check to see how much was the last?",neutral,0.9281,False,False,True,False,False
+en_CA_Banking_1590992,29,customer,channel2,18,148.38,157.88,"Yeah, yeah, login here. Just give me a second.",neutral,0.5594,False,False,False,False,False
+en_CA_Banking_1590992,30,agent,channel1,12,155.0,175.0,"Okay. Oh, yes. No worries. Take your time.",positive,0.5552,False,False,False,False,False
+en_CA_Banking_1590992,31,customer,channel2,19,170.88,174.88,"Sorry, it's being really slow here.",negative,0.79,False,False,False,False,False
+en_CA_Banking_1590992,32,agent,channel1,13,175.0,199.0,"Oh, no worries. I get it. Even on my end, I just been having so much slow technical issues from this morning. Take your time.",negative,0.5275,False,False,False,False,False
+en_CA_Banking_1590992,33,customer,channel2,20,177.88,204.88,"Okay, I'm in and it was $80.84 and 23 cents.",neutral,0.622,False,False,False,False,False
+en_CA_Banking_1590992,34,agent,channel1,14,199.0,212.0,Okay. Thank you for confirming that. And my last question in order to finally proceed with your account. What was the name of the company you purchased with?,neutral,0.665,False,False,True,False,False
+en_CA_Banking_1590992,35,customer,channel2,21,204.88,211.88,Where I bought it at the grocery store.,neutral,0.8998,False,False,False,False,False
+en_CA_Banking_1590992,36,customer,channel2,22,211.88,218.88,Value value foods.,positive,0.5348,False,False,False,False,False
+en_CA_Banking_1590992,37,agent,channel1,15,212.0,220.0,"The grocery store. Okay. Yes. So it's a grocery store, but what is the name of the grocery store?",neutral,0.8342,False,False,True,False,False
+en_CA_Banking_1590992,38,customer,channel2,23,218.88,238.88,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,39,agent,channel1,16,220.0,231.0,Value foods. Okay. Perfect. Thank you for that. So I finally gained access to your account. I can go ahead and help you with transferring $500.,positive,0.9125,False,False,False,False,False
+en_CA_Banking_1590992,40,agent,channel1,17,231.0,245.0,"Okay. And just so you know, once it does get transferred, the funds will show up immediately. And then you should be good to go after that.",neutral,0.7409,False,False,False,False,False
+en_CA_Banking_1590992,41,customer,channel2,24,238.88,253.88,"Okay, so it's immediate. It won't take like a few hours or something.",neutral,0.6357,False,False,False,False,False
+en_CA_Banking_1590992,42,agent,channel1,18,245.0,254.0,"Actually, sometimes it does take a few hours, but because this is only 500, it shouldn't. So you should get it within a few seconds actually.",neutral,0.6361,False,False,False,False,False
+en_CA_Banking_1590992,43,customer,channel2,25,253.88,266.88,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,44,agent,channel1,19,254.0,264.0,"So we can also set up a reoccurring transfer for any frequency, weekly, bi-weekly, monthly. Would you like to set up something like that?",neutral,0.8993,False,False,True,False,False
+en_CA_Banking_1590992,45,agent,channel1,20,264.0,272.0,Or is it just like a one-time transfer that you're looking to do? And that's all for you.,neutral,0.8595,False,False,True,False,False
+en_CA_Banking_1590992,46,customer,channel2,26,266.88,277.88,"Yeah. No, this is just a one time thing. But thank you.",positive,0.5471,False,False,False,False,False
+en_CA_Banking_1590992,47,agent,channel1,21,272.0,287.0,You're welcome. Yeah. So let me go ahead and do that for you. Just give me one second while I...,positive,0.7205,False,False,False,False,False
+en_CA_Banking_1590992,48,customer,channel2,27,277.88,306.88,"Yeah, no problem. I'm just wondering if I'll get a text or an email for right away.",neutral,0.7137,False,False,False,False,False
+en_CA_Banking_1590992,49,agent,channel1,22,287.0,296.0,"So once it is transferred, we don't typically send any like notifications regarding any transfers for security reasons.",neutral,0.8801,False,False,False,False,False
+en_CA_Banking_1590992,50,agent,channel1,23,296.0,309.0,"But if you would like those notifications, just go to your settings, log into your app, go to your settings, and there's a way you can turn on notification transfers or for transfers and stuff like that.",neutral,0.8349,False,False,False,False,False
+en_CA_Banking_1590992,51,customer,channel2,28,306.88,335.88,"Okay, so I will get the confirmation, but I just have to put it up in my in the app.",neutral,0.7837,False,False,False,False,False
+en_CA_Banking_1590992,52,agent,channel1,24,309.0,322.0,So that's how you can request that. But typically you wouldn't get it unless you have that setting turned on. Yes.,neutral,0.8788,False,False,False,False,False
+en_CA_Banking_1590992,53,agent,channel1,25,322.0,329.0,"So if you like, you can do that now because I didn't do the transfer yet for you, but I can wait and you can just...",neutral,0.7508,False,False,False,False,False
+en_CA_Banking_1590992,54,agent,channel1,26,329.0,339.0,"If you really want to get that confirmation, you can just go in your settings. I can tell you where to go to find it, and then I can just go ahead and proceed with the transfer for you.",neutral,0.843,False,False,False,False,False
+en_CA_Banking_1590992,55,customer,channel2,29,336.88,344.88,"Okay. Yeah. And, and like you said, you said you could set up the automatic transfer.",neutral,0.8314,False,False,False,False,False
+en_CA_Banking_1590992,56,agent,channel1,27,339.0,352.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Banking_1590992,57,customer,channel2,30,344.88,360.88,"If I decide do that, do I just have to call back in or can I do that online?",neutral,0.9239,False,False,False,False,False
+en_CA_Banking_1590992,58,agent,channel1,28,352.0,361.0,"Well, yeah, so you can do it online as well actually. So you can do it directly through the app. There's a way you can set up automatic transfers.",neutral,0.7462,False,False,False,False,False
+en_CA_Banking_1590992,59,customer,channel2,31,360.88,375.88,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,60,agent,channel1,29,361.0,371.0,Typically people do this for their savings account. They do an automatic transfer to their savings account of about $50 to $100 just to save some money.,neutral,0.8095,False,False,False,False,False
+en_CA_Banking_1590992,61,agent,channel1,30,371.0,384.0,"So that's definitely an option as well, if that's something you want to do in the near future.",positive,0.7571,False,False,False,False,False
+en_CA_Banking_1590992,62,customer,channel2,32,375.88,390.88,"Okay. And if I do set that up, is there a way of causing or changing at any time?",neutral,0.8644,False,False,False,False,False
+en_CA_Banking_1590992,63,agent,channel1,31,384.0,392.0,"Yeah, so you are free to cancel it anytime, so it's not mandatory to keep... It's definitely not mandatory.",neutral,0.6327,False,False,False,False,False
+en_CA_Banking_1590992,64,customer,channel2,33,390.88,409.88,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,65,agent,channel1,32,392.0,403.0,There's no charge or anything as well to cancel it. All you would do is go into the settings to cancel reoccurring transfers or you can also call us.,neutral,0.8167,False,False,False,False,False
+en_CA_Banking_1590992,66,agent,channel1,33,403.0,412.0,"I know some people don't have time to go to the app and do it themselves, so you can also call us and we can just turn it off for you.",neutral,0.6942,False,False,False,False,False
+en_CA_Banking_1590992,67,customer,channel2,34,409.88,428.88,Okay. So there's no fees or automatic transfers just to clarify.,neutral,0.8638,False,False,False,False,False
+en_CA_Banking_1590992,68,agent,channel1,34,412.0,428.0,"Yeah, so there's no fees for that and all you have to do is just go through the app or just call us in order to get that done and we can get that process for you or the app itself.",neutral,0.7198,False,False,False,False,False
+en_CA_Banking_1590992,69,agent,channel1,35,428.0,443.0,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_CA_Banking_1590992,70,customer,channel2,35,428.88,454.88,"Okay. Awesome. And you know, I'm just trying to be really organized here this year with my money and every time I forget to transfer I end up like stressing out at the last minute, like today.",positive,0.5094,False,False,False,False,False
+en_CA_Banking_1590992,71,agent,channel1,36,443.0,447.0,"Yeah, well, you know what? We're always here to help, so no worries at all.",positive,0.8943,False,False,True,False,False
+en_CA_Banking_1590992,72,agent,channel1,37,447.0,452.0,And then I can actually go ahead and process that $500 transfer you right now.,neutral,0.6315,False,False,False,False,False
+en_CA_Banking_1590992,73,agent,channel1,38,452.0,457.0,Is that something you're still looking to do right now or would you like to wait until?,neutral,0.9125,False,False,True,False,False
+en_CA_Banking_1590992,74,customer,channel2,36,454.88,469.88,"Yeah, that would be amazing.",positive,0.9788,False,False,False,False,False
+en_CA_Banking_1590992,75,agent,channel1,39,457.0,460.0,"Okay, all right.",neutral,0.5129,False,False,False,False,False
+en_CA_Banking_1590992,76,agent,channel1,40,460.0,468.0,"Okay, all right. So I'm going to go ahead and do this now and actually I can actually turn on the settings so that you get a notification as well.",neutral,0.5109,False,False,False,False,False
+en_CA_Banking_1590992,77,agent,channel1,41,468.0,487.0,"So you're aware of the transfer notification, so I just went ahead and I turned that on in your account and then now I'm just going to process the transfer of $500.",neutral,0.8419,False,False,False,False,False
+en_CA_Banking_1590992,78,customer,channel2,37,469.88,477.88,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_Banking_1590992,79,customer,channel2,38,477.88,496.88,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,80,agent,channel1,42,487.0,494.0,"Excellent. Okay, I did go ahead and I did go ahead and change that for you.",positive,0.7807,False,False,False,False,False
+en_CA_Banking_1590992,81,agent,channel1,43,494.0,502.0,"Did you, did you get any notification?",neutral,0.9465,False,False,True,False,False
+en_CA_Banking_1590992,82,customer,channel2,39,496.88,506.88,"Hold on. Well, I haven't looked yet. Let me go on here.",neutral,0.815,False,False,False,False,False
+en_CA_Banking_1590992,83,agent,channel1,44,502.0,518.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,84,customer,channel2,40,506.88,511.88,Here we get.,neutral,0.7389,False,False,False,False,False
+en_CA_Banking_1590992,85,customer,channel2,41,511.88,532.88,"Yes, it is there. Awesome. You are amazing. Thank you for doing that so quickly.",positive,0.9831,False,False,False,False,False
+en_CA_Banking_1590992,86,agent,channel1,45,518.0,535.0,"You're very, very welcome. I'm happy I was able to assist you with that. But yeah, going forward, if you do need help regarding setting up reoccurring transfers, you can just, usually people just give us a call like I said, so you can give us a call or just go through the app.",positive,0.9323,False,False,False,False,False
+en_CA_Banking_1590992,87,customer,channel2,42,532.88,535.88,Perfect. I love it.,positive,0.9777,False,False,False,False,False
+en_CA_Banking_1590992,88,agent,channel1,46,535.0,543.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Banking_1590992,89,customer,channel2,43,535.88,545.88,"Thank you so much. And yeah, I guess I don't need anything else. If I do, I will give you a show.",positive,0.8286,False,False,False,False,False
+en_CA_Banking_1590992,90,agent,channel1,47,543.0,546.0,"Okay, thank you for calling. You have a wonderful day.",positive,0.9846,False,False,False,False,False
+en_CA_Banking_1590992,91,customer,channel2,44,545.88,547.88,Thank you. Bye bye.,positive,0.4943,False,False,False,False,False
+en_CA_Banking_1590992,92,agent,channel1,48,546.0,548.0,Thank you.,positive,0.8345,False,False,False,False,False

@@ -1,0 +1,77 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_DeliveryService_1590620,channel1,1,0.0,25.0,"Hello, Canada Post, I want to help you."
+en_CA_DeliveryService_1590620,channel1,2,25.0,38.0,"Okay, one moment, please."
+en_CA_DeliveryService_1590620,channel1,3,38.0,42.0,I'm going to open our tracking.
+en_CA_DeliveryService_1590620,channel1,4,42.0,47.0,"Okay, do you have the tracking number on hand?"
+en_CA_DeliveryService_1590620,channel1,5,47.0,54.0,"Okay, please read it out to me and I'll repeat it back to you."
+en_CA_DeliveryService_1590620,channel1,6,55.0,70.0,"X1-8-T, B5-1-6, MZHM, okay, got it."
+en_CA_DeliveryService_1590620,channel1,7,70.0,88.0,"Okay, sure, one second, let me just pull it up."
+en_CA_DeliveryService_1590620,channel1,8,88.0,91.0,I understand.
+en_CA_DeliveryService_1590620,channel1,9,91.0,108.0,"Okay, I see that it's in the sorting center in Mississauga and that it's meant to be going to Ottawa."
+en_CA_DeliveryService_1590620,channel1,10,108.0,127.0,It's scheduled to be loaded onto the truck today.
+en_CA_DeliveryService_1590620,channel1,11,127.0,134.0,"Yeah, I would assume it would arrive more probably afternoon."
+en_CA_DeliveryService_1590620,channel1,12,134.0,142.0,"As you know, there's been some rolling strikes with our staff and unfortunately that has caused some delays."
+en_CA_DeliveryService_1590620,channel1,13,142.0,145.0,I do apologize for that.
+en_CA_DeliveryService_1590620,channel1,14,145.0,165.0,"Unfortunately, it's impacting everyone negatively and I apologize that we're not meeting your needs."
+en_CA_DeliveryService_1590620,channel1,15,165.0,173.0,"Unfortunately, once it's already in that pipeline, we can't remove it."
+en_CA_DeliveryService_1590620,channel1,16,173.0,184.0,It's kind of like it would have to be done when the package was dropped off in the first place at a service center.
+en_CA_DeliveryService_1590620,channel1,17,184.0,198.0,"So unfortunately, we can't change the system that it's already in that pipeline."
+en_CA_DeliveryService_1590620,channel1,18,198.0,204.0,"Yeah, unfortunately."
+en_CA_DeliveryService_1590620,channel1,19,204.0,219.0,"I wish we could do that for you, but unfortunately our system isn't set up to change the service after the package has been accepted."
+en_CA_DeliveryService_1590620,channel1,20,219.0,231.0,But what I can do is I can send you a link that shows more detailed information about the tracking.
+en_CA_DeliveryService_1590620,channel1,21,231.0,244.0,Would that be something you would be interested in?
+en_CA_DeliveryService_1590620,channel1,22,244.0,246.0,Right.
+en_CA_DeliveryService_1590620,channel1,23,246.0,261.0,"Okay, let me get that prepared for you. Just give me one moment here."
+en_CA_DeliveryService_1590620,channel1,24,261.0,273.0,"Okay, and I'm going to need your email address so that I can send this to you if you don't mind."
+en_CA_DeliveryService_1590620,channel1,25,273.0,301.0,"Okay, I've got it."
+en_CA_DeliveryService_1590620,channel1,26,301.0,310.0,It's just going to show you more detail than you would normally see in the Canada Post when you go to track a package.
+en_CA_DeliveryService_1590620,channel1,27,310.0,323.0,It's still through Canada Post. It's just a more detailed look like you'll be able to track the location of the last mile truck as it's headed to your office.
+en_CA_DeliveryService_1590620,channel1,28,323.0,336.0,"And that way, you know, we can also set up alerts so that it will send you a text when it's, you know, say 10 stops away."
+en_CA_DeliveryService_1590620,channel1,29,336.0,347.0,"And then the office staff would be able to, you'd be able to alert them that it's coming."
+en_CA_DeliveryService_1590620,channel1,30,347.0,376.0,"Again, I do apologize for the delay, but hopefully at least knowing exactly where the packages will be helpful to you."
+en_CA_DeliveryService_1590620,channel1,31,376.0,389.0,"Definitely. Yes, let me give you the service center."
+en_CA_DeliveryService_1590620,channel1,32,389.0,398.0,I have a direct contact that's in the Ottawa dispatch center.
+en_CA_DeliveryService_1590620,channel1,33,399.0,409.0,"Normally we don't give out test numbers, but since your case is exceptional, I think it's okay for me to do so."
+en_CA_DeliveryService_1590620,channel1,34,409.0,414.0,"All right, so do you have a paper handy to take down the number?"
+en_CA_DeliveryService_1590620,channel1,35,414.0,427.0,"Okay, it's 403-695-7892."
+en_CA_DeliveryService_1590620,channel1,36,427.0,432.0,And make sure you ask for Barbara.
+en_CA_DeliveryService_1590620,channel1,37,432.0,445.0,"She's wonderful. So yeah, is there anything else I can help you with today?"
+en_CA_DeliveryService_1590620,channel1,38,445.0,453.0,"Okay, again, I apologize for the delay and I hope you have a good rest of your day."
+en_CA_DeliveryService_1590620,channel1,39,453.0,455.0,Bye.
+en_CA_DeliveryService_1590620,channel2,1,0.0,19.0,Hi there.
+en_CA_DeliveryService_1590620,channel2,2,19.0,24.0,"I had a package that was scheduled to arrive, but it has not arrived yet."
+en_CA_DeliveryService_1590620,channel2,3,24.0,27.0,And I'm just kind of wondering where it's at because I don't have any updates on the
+en_CA_DeliveryService_1590620,channel2,4,27.0,31.0,package and I need it.
+en_CA_DeliveryService_1590620,channel2,5,31.0,46.0,And so how do I find it?
+en_CA_DeliveryService_1590620,channel2,6,46.0,51.0,I do.
+en_CA_DeliveryService_1590620,channel2,7,51.0,76.0,"This is X1, 8, T, B5, 1, 6, MZ, HN, N at the end like Normand."
+en_CA_DeliveryService_1590620,channel2,8,76.0,80.0,"Yeah, I unfortunately really need these like yesterday."
+en_CA_DeliveryService_1590620,channel2,9,80.0,83.0,"So if we can find it and maybe reroute it, I don't know."
+en_CA_DeliveryService_1590620,channel2,10,83.0,86.0,But it has my divorce papers in it.
+en_CA_DeliveryService_1590620,channel2,11,86.0,115.0,And I really need new documents.
+en_CA_DeliveryService_1590620,channel2,12,115.0,117.0,Is there a reason that it's been delayed?
+en_CA_DeliveryService_1590620,channel2,13,117.0,122.0,"Like it was supposed, it's Monday now and it was supposed to arrive at its destination on Friday."
+en_CA_DeliveryService_1590620,channel2,14,122.0,144.0,And so it's probably not even going to get there today if it's still in the sorting center.
+en_CA_DeliveryService_1590620,channel2,15,144.0,162.0,Are there any options to make it arrive today for Mississauga?
+en_CA_DeliveryService_1590620,channel2,16,162.0,163.0,Like does it have to go on the truck?
+en_CA_DeliveryService_1590620,channel2,17,163.0,165.0,Can we fly it?
+en_CA_DeliveryService_1590620,channel2,18,165.0,193.0,Can we fly it?
+en_CA_DeliveryService_1590620,channel2,19,193.0,222.0,So I can't change it from like ground travel to air travel so it gets to Ottawa this afternoon.
+en_CA_DeliveryService_1590620,channel2,20,222.0,238.0,"Yeah, I need to know like exactly when it arrives or if it's going to be late."
+en_CA_DeliveryService_1590620,channel2,21,238.0,251.0,I need to give the office a heads up because no one's going to be there to receive it if it gets there after 4pm.
+en_CA_DeliveryService_1590620,channel2,22,251.0,267.0,Okay.
+en_CA_DeliveryService_1590620,channel2,23,267.0,289.0,"Sure, it's L-A-W-O-S-S-I-C-E-911 at gmail.com."
+en_CA_DeliveryService_1590620,channel2,24,289.0,291.0,And so quick question.
+en_CA_DeliveryService_1590620,channel2,25,291.0,318.0,"With this new tracking link, is it still through the same regular Canada Post portal or like what is it going to show me that's different?"
+en_CA_DeliveryService_1590620,channel2,26,318.0,347.0,"Okay, I mean, yeah, that's something that's better."
+en_CA_DeliveryService_1590620,channel2,27,347.0,360.0,For sure.
+en_CA_DeliveryService_1590620,channel2,28,360.0,368.0,And is there a direct contact number I can call if it seems to be delayed again?
+en_CA_DeliveryService_1590620,channel2,29,368.0,397.0,"Like I know with the rolling strikes, no one can really confirm anything but I need to not lose this package and I need it to get there as soon as possible."
+en_CA_DeliveryService_1590620,channel2,30,397.0,412.0,I do.
+en_CA_DeliveryService_1590620,channel2,31,412.0,421.0,I do. Go ahead.
+en_CA_DeliveryService_1590620,channel2,32,421.0,426.0,Yeah.
+en_CA_DeliveryService_1590620,channel2,33,426.0,430.0,"Okay, perfect."
+en_CA_DeliveryService_1590620,channel2,34,430.0,439.0,"Okay, even better."
+en_CA_DeliveryService_1590620,channel2,35,439.0,451.0,"That's all. We'll just hopefully get this package going and if not, I will call Barbara."
+en_CA_DeliveryService_1590620,channel2,36,451.0,453.0,Great. Thanks.
+en_CA_DeliveryService_1590620,channel2,37,453.0,466.0,Bye.

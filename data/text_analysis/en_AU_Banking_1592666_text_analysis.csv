@@ -1,0 +1,242 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Banking_1592666,1,agent,channel1,1,0.0,20.4,"Good afternoon, you've reached Commonwealth Customer Care.",positive,0.6994,False,False,False,False,False
+en_AU_Banking_1592666,2,customer,channel2,1,0.0,29.54,"Hi, Danielle, my name is Maria Nguyen, look, I need to transfer some money from my savings",neutral,0.8637,False,False,False,False,False
+en_AU_Banking_1592666,3,agent,channel1,2,20.4,21.4,My name is Danielle.,neutral,0.8506,False,False,False,False,False
+en_AU_Banking_1592666,4,agent,channel1,3,21.4,28.4,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_AU_Banking_1592666,5,agent,channel1,4,28.4,39.88,"Yeah, you've come through to the right place, so I can help you with that, Maria.",positive,0.7247,False,False,False,True,False
+en_AU_Banking_1592666,6,customer,channel2,2,29.54,34.54,"account to my everyday account, pretty urgently, if that's possible.",neutral,0.7445,False,False,False,False,False
+en_AU_Banking_1592666,7,agent,channel1,5,39.88,46.32,"Before we get started, I need to verify your identity, of course, for security purposes.",neutral,0.8365,False,False,False,False,False
+en_AU_Banking_1592666,8,agent,channel1,6,46.32,56.32,Can we please start with your date of birth?,neutral,0.9347,False,False,True,False,False
+en_AU_Banking_1592666,9,customer,channel2,3,47.54,54.54,"Oh, yeah, yeah, for sure. It's 15th March 1987.",positive,0.6982,False,False,False,False,False
+en_AU_Banking_1592666,10,agent,channel1,7,56.32,57.32,"Perfect, thank you.",positive,0.9737,False,False,False,False,False
+en_AU_Banking_1592666,11,agent,channel1,8,57.32,64.32,And can you confirm the postcode on your account for me?,neutral,0.9042,False,False,True,False,False
+en_AU_Banking_1592666,12,customer,channel2,4,59.54,66.54,"I think if my address is correct, it's 2046, we're in Haberfield.",neutral,0.8951,False,False,False,False,False
+en_AU_Banking_1592666,13,agent,channel1,9,64.32,68.56,"Yes, lovely.",positive,0.9642,False,False,False,False,False
+en_AU_Banking_1592666,14,agent,channel1,10,68.56,69.56,"Thank you, Maria.",positive,0.9322,False,False,False,False,False
+en_AU_Banking_1592666,15,agent,channel1,11,69.56,70.56,All right.,neutral,0.5239,False,False,False,False,False
+en_AU_Banking_1592666,16,agent,channel1,12,70.56,72.12,I've got your accounts pulled up here.,neutral,0.8607,False,False,False,False,False
+en_AU_Banking_1592666,17,agent,channel1,13,72.12,76.96,I can see you've got your net bank saver and your smart access account with us.,positive,0.5204,False,False,False,False,False
+en_AU_Banking_1592666,18,agent,channel1,14,76.96,83.12,Which would you like to transfer between today?,neutral,0.9471,False,False,True,False,False
+en_AU_Banking_1592666,19,customer,channel2,5,78.54,80.54,"Oh, yeah, that's right. Yeah.",positive,0.8304,False,False,False,False,False
+en_AU_Banking_1592666,20,customer,channel2,6,81.54,86.54,"Yeah, look, I need to move money from the net bank saver into the smart access.",neutral,0.6703,False,False,False,False,False
+en_AU_Banking_1592666,21,agent,channel1,15,83.12,105.12,"Yeah, absolutely.",positive,0.4347,False,False,False,False,False
+en_AU_Banking_1592666,22,customer,channel2,7,86.54,89.54,"I've just got some bills that need to be paid today, actually.",neutral,0.7331,False,False,False,False,False
+en_AU_Banking_1592666,23,customer,channel2,8,90.54,99.54,"The electricity bill is from Origin and it just came through and it's just, it's much higher than I expected with all the cold weather we've been having.",negative,0.834,False,False,False,False,False
+en_AU_Banking_1592666,24,customer,channel2,9,100.54,102.54,You know how it is with the heaters running constantly.,neutral,0.7223,False,False,False,False,False
+en_AU_Banking_1592666,25,agent,channel1,16,105.12,107.12,I hear you.,neutral,0.6599,False,False,False,False,False
+en_AU_Banking_1592666,26,agent,channel1,17,108.12,110.12,"My bill was shocking last month, too.",negative,0.9388,False,False,False,False,False
+en_AU_Banking_1592666,27,agent,channel1,18,110.12,113.12,"The winter really does make a difference, doesn't it?",neutral,0.4656,False,False,True,False,False
+en_AU_Banking_1592666,28,agent,channel1,19,113.12,117.12,So you need those funds available today to pay your bills.,neutral,0.7897,False,False,False,False,False
+en_AU_Banking_1592666,29,agent,channel1,20,117.12,119.12,I completely understand the urgency.,neutral,0.5977,False,True,False,False,False
+en_AU_Banking_1592666,30,customer,channel2,10,117.54,127.54,Let me just check the bill again and do some quick calculations.,neutral,0.8419,False,False,False,False,False
+en_AU_Banking_1592666,31,agent,channel1,21,119.12,122.12,"Look, Maria, how much are you looking to transfer across?",neutral,0.9149,False,False,True,False,False
+en_AU_Banking_1592666,32,customer,channel2,11,128.54,132.54,"Okay, look, I think I need to move 2500 today, please.",neutral,0.684,False,False,False,False,False
+en_AU_Banking_1592666,33,customer,channel2,12,133.54,138.54,That should cover the power bill and then my Foxtel payment that's coming out tomorrow as well.,neutral,0.7082,False,False,False,False,False
+en_AU_Banking_1592666,34,agent,channel1,22,137.12,138.12,"Yeah, absolutely.",positive,0.4347,False,False,False,False,False
+en_AU_Banking_1592666,35,agent,channel1,23,138.12,139.12,"Look, no problem at all.",positive,0.7932,False,False,False,False,False
+en_AU_Banking_1592666,36,agent,channel1,24,139.12,143.12,"And just so you're aware, Maria, because we're transferring just between your own accounts,",neutral,0.8747,False,False,False,False,False
+en_AU_Banking_1592666,37,agent,channel1,25,143.12,148.12,"they're processed instantly, so the money will be in your smart access account straight",neutral,0.5838,False,False,False,False,False
+en_AU_Banking_1592666,38,customer,channel2,13,146.54,160.54,"Oh, that's great. I was worried that I'd have to wait a day or something.",positive,0.5557,False,False,False,False,False
+en_AU_Banking_1592666,39,agent,channel1,26,148.12,149.12,away.,neutral,0.6561,False,False,False,False,False
+en_AU_Banking_1592666,40,agent,channel1,27,149.12,164.12,You'll also be able to use it for your BPay payments whenever you need to immediately.,neutral,0.6604,False,False,False,False,False
+en_AU_Banking_1592666,41,customer,channel2,14,161.54,168.54,"Like actually, while I'm thinking about it, is there a limit on how much I can transfer in a day just in case I need to move more money around in the future?",neutral,0.8657,False,False,False,False,False
+en_AU_Banking_1592666,42,agent,channel1,28,164.12,172.12,"Yeah, look, Maria, of course, that's a really good question.",positive,0.9658,False,False,False,False,False
+en_AU_Banking_1592666,43,agent,channel1,29,172.12,177.12,"So for transfers between your own accounts with us, there's actually no daily limit.",neutral,0.778,False,False,False,False,False
+en_AU_Banking_1592666,44,customer,channel2,15,176.54,177.54,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Banking_1592666,45,agent,channel1,30,177.12,182.12,You can move as much as you like between your net bank saver account and your smart access.,neutral,0.7353,False,False,False,False,False
+en_AU_Banking_1592666,46,agent,channel1,31,182.12,187.12,"However, if you were transferring to another bank or to someone else's account, there",neutral,0.8937,False,False,True,False,False
+en_AU_Banking_1592666,47,agent,channel1,32,187.12,190.12,would be different limits depending on how you are making the transfer.,neutral,0.8874,False,False,False,False,False
+en_AU_Banking_1592666,48,agent,channel1,33,190.12,198.12,"Through NetBank or the ComBank app, you can transfer up to $20,000 per day to other people",neutral,0.8524,False,False,False,False,False
+en_AU_Banking_1592666,49,agent,channel1,34,198.12,200.12,or institutions.,neutral,0.6755,False,False,False,False,False
+en_AU_Banking_1592666,50,agent,channel1,35,200.12,215.12,"If you needed to go higher than that, you would need to call us or visit a branch.",neutral,0.8797,False,False,False,False,False
+en_AU_Banking_1592666,51,customer,channel2,16,204.54,205.54,Right.,neutral,0.6264,False,False,False,False,False
+en_AU_Banking_1592666,52,customer,channel2,17,205.54,207.54,"Okay, that's good to know.",positive,0.8634,False,False,False,False,False
+en_AU_Banking_1592666,53,customer,channel2,18,208.54,214.54,"I sometimes help my mum out with her bills, so that's really handy, but for today 2500 would be fine.",positive,0.6703,False,False,False,False,False
+en_AU_Banking_1592666,54,agent,channel1,36,215.12,216.12,Perfect.,positive,0.9075,False,False,False,False,False
+en_AU_Banking_1592666,55,agent,channel1,37,216.12,217.12,"Okay, great.",positive,0.9292,False,False,False,False,False
+en_AU_Banking_1592666,56,agent,channel1,38,217.12,222.12,"So just to confirm, you mentioned you needed this for bill payments.",neutral,0.8793,False,False,False,False,False
+en_AU_Banking_1592666,57,agent,channel1,39,222.12,233.12,Are you paying these through BPay or Direct Debit?,neutral,0.9456,False,False,True,False,False
+en_AU_Banking_1592666,58,customer,channel2,19,225.54,232.54,The Origin one I'll pay through BP today and the Foxtel one just comes out automatically tomorrow morning.,neutral,0.8915,False,False,False,False,False
+en_AU_Banking_1592666,59,agent,channel1,40,233.12,234.12,"Okay, excellent.",positive,0.943,False,False,False,False,False
+en_AU_Banking_1592666,60,agent,channel1,41,234.12,236.12,"So look, you'll have plenty of time.",positive,0.8514,False,False,False,False,False
+en_AU_Banking_1592666,61,customer,channel2,20,235.54,254.54,"Yep, that's right.",positive,0.7371,False,False,False,False,False
+en_AU_Banking_1592666,62,agent,channel1,42,236.12,240.12,"Right, let me just process this transfer for you now.",neutral,0.8745,False,False,False,False,False
+en_AU_Banking_1592666,63,agent,channel1,43,240.12,246.12,"I'm moving $2,500 from your NetBank saver account, ending in $7392.",neutral,0.8606,False,False,False,False,False
+en_AU_Banking_1592666,64,agent,channel1,44,246.12,250.12,"To your smart access account, ending in $4156.",neutral,0.9019,False,False,False,False,False
+en_AU_Banking_1592666,65,agent,channel1,45,250.12,254.12,Could you please confirm that's correct?,neutral,0.8715,False,False,True,False,False
+en_AU_Banking_1592666,66,agent,channel1,46,254.12,255.12,"Okay, beautiful.",positive,0.942,False,False,False,False,False
+en_AU_Banking_1592666,67,agent,channel1,47,255.12,259.12,"Right, so just about to process that now for you.",neutral,0.8373,False,False,False,False,False
+en_AU_Banking_1592666,68,agent,channel1,48,259.12,263.12,"One moment, please.",neutral,0.5025,False,False,False,False,False
+en_AU_Banking_1592666,69,customer,channel2,21,259.54,260.54,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Banking_1592666,70,agent,channel1,49,263.12,264.12,"Okay, Maria, done.",neutral,0.7814,False,False,False,False,False
+en_AU_Banking_1592666,71,agent,channel1,50,264.12,266.12,The transfer is complete.,neutral,0.5309,False,False,False,False,False
+en_AU_Banking_1592666,72,customer,channel2,22,265.54,280.54,"Oh, that's brilliant. So I can go ahead and pay that bill right now, right?",positive,0.9555,False,False,False,False,False
+en_AU_Banking_1592666,73,agent,channel1,51,266.12,268.12,"You'll have $2,500.",neutral,0.7805,False,False,False,False,False
+en_AU_Banking_1592666,74,agent,channel1,52,268.12,275.12,"So $2,500 is now in your smart access account and available for you to use immediately.",neutral,0.5076,False,False,False,False,False
+en_AU_Banking_1592666,75,agent,channel1,53,275.12,276.12,"Yeah, absolutely.",positive,0.4347,False,False,False,False,False
+en_AU_Banking_1592666,76,agent,channel1,54,276.12,288.12,"So you can do it through the ComBank app, NetBank Online, or even over the phone with BPay if",neutral,0.871,False,False,False,False,False
+en_AU_Banking_1592666,77,agent,channel1,55,288.12,289.12,you prefer.,neutral,0.7792,False,False,False,False,False
+en_AU_Banking_1592666,78,agent,channel1,56,289.12,290.12,The funds are there.,neutral,0.7665,False,False,False,False,False
+en_AU_Banking_1592666,79,customer,channel2,23,289.54,292.54,That is such a relief. Thank you so much.,positive,0.9666,False,False,False,False,False
+en_AU_Banking_1592666,80,agent,channel1,57,290.12,301.12,They're ready to go for you.,neutral,0.6006,False,False,False,False,False
+en_AU_Banking_1592666,81,customer,channel2,24,292.54,294.54,I hate those reminder notices from Origin.,negative,0.9401,False,False,False,False,False
+en_AU_Banking_1592666,82,customer,channel2,25,295.54,300.54,"Actually, Danielle, you might be able to help me with just something else I've just thought of.",neutral,0.5143,False,False,False,False,False
+en_AU_Banking_1592666,83,agent,channel1,58,301.12,311.12,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Banking_1592666,84,customer,channel2,26,301.54,309.54,This is the third time in like the last couple of months I've had to call in and move money around because I've forgotten to transfer enough to cover my bills.,negative,0.8586,False,False,False,False,False
+en_AU_Banking_1592666,85,customer,channel2,27,310.54,316.54,Is there a way that I can set up some kind of automatic transfer like maybe move a certain amount every fortnight or something?,neutral,0.9359,False,False,False,False,False
+en_AU_Banking_1592666,86,agent,channel1,59,311.12,320.12,"Oh, yes, absolutely.",positive,0.9085,False,False,False,False,False
+en_AU_Banking_1592666,87,agent,channel1,60,320.12,322.12,"Look, you're definitely not alone in that.",neutral,0.4816,False,False,False,False,False
+en_AU_Banking_1592666,88,agent,channel1,61,322.12,325.12,It's one of the most common things people set up.,negative,0.605,False,False,False,False,False
+en_AU_Banking_1592666,89,customer,channel2,28,322.54,341.54,"Okay, so can you run me through those options?",neutral,0.9106,False,False,False,False,False
+en_AU_Banking_1592666,90,agent,channel1,62,325.12,327.12,So it's called an automatic transfer.,neutral,0.9081,False,False,False,False,False
+en_AU_Banking_1592666,91,agent,channel1,63,327.12,333.12,We can arrange what's called a recurring transfer or a scheduled transfer for you.,neutral,0.8974,False,False,False,False,False
+en_AU_Banking_1592666,92,agent,channel1,64,333.12,337.12,"There are a couple of different ways we can do this, depending on what works and what's",neutral,0.6968,False,False,False,False,False
+en_AU_Banking_1592666,93,agent,channel1,65,337.12,342.12,best for you.,positive,0.8293,False,False,False,False,False
+en_AU_Banking_1592666,94,agent,channel1,66,342.12,343.12,"Yeah, look, absolutely.",positive,0.51,False,False,False,False,False
+en_AU_Banking_1592666,95,agent,channel1,67,343.12,348.12,"So with the first option, it's a regular recurring transfer where you choose an amount",neutral,0.9417,False,False,False,False,False
+en_AU_Banking_1592666,96,agent,channel1,68,348.12,349.12,and a frequency.,neutral,0.8342,False,False,False,False,False
+en_AU_Banking_1592666,97,agent,channel1,69,349.12,356.12,"So you could have, say, $500 transferred from your savings to your everyday account every",neutral,0.8542,False,False,False,False,False
+en_AU_Banking_1592666,98,customer,channel2,29,352.54,374.54,"Yeah, that could work. What are the other options?",neutral,0.5588,False,False,False,False,False
+en_AU_Banking_1592666,99,agent,channel1,70,356.12,360.12,fortnight or every month or even weekly if you wanted.,neutral,0.7968,False,False,False,False,False
+en_AU_Banking_1592666,100,agent,channel1,71,360.12,362.12,That happens automatically.,neutral,0.7174,False,False,False,False,False
+en_AU_Banking_1592666,101,agent,channel1,72,362.12,367.12,So on the date you choose and you can set it up with a start date and even an end date,neutral,0.9113,False,False,False,False,False
+en_AU_Banking_1592666,102,agent,channel1,73,367.12,375.12,if you wanted or just let it run indefinitely.,neutral,0.8388,False,False,False,False,False
+en_AU_Banking_1592666,103,agent,channel1,74,375.12,376.12,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Banking_1592666,104,agent,channel1,75,376.12,378.12,So the other option is a bit more flexible.,neutral,0.5777,False,False,False,False,False
+en_AU_Banking_1592666,105,agent,channel1,76,378.12,381.12,You can set up what we call a keep a balance transfer.,neutral,0.8866,False,False,False,False,False
+en_AU_Banking_1592666,106,agent,channel1,77,381.12,387.12,"So for example, you could say you wanted to keep a minimum of $1,000 in your smart access",neutral,0.843,False,False,False,False,False
+en_AU_Banking_1592666,107,customer,channel2,30,382.54,403.54,"Yeah, that makes sense. Okay, I like the sound of the second one actually.",positive,0.905,False,False,False,False,False
+en_AU_Banking_1592666,108,agent,channel1,78,387.12,388.12,account at all times.,neutral,0.8229,False,False,False,False,False
+en_AU_Banking_1592666,109,agent,channel1,79,388.12,393.12,Then if your balance drops below that will automatically top it up from your savings account.,neutral,0.8679,False,False,False,False,False
+en_AU_Banking_1592666,110,agent,channel1,80,393.12,397.12,"That way you're never caught short, but you're not moving money unnecessarily,",neutral,0.6294,False,False,False,False,False
+en_AU_Banking_1592666,111,agent,channel1,81,397.12,399.12,like unnecessarily if you don't have to.,negative,0.637,False,False,False,False,False
+en_AU_Banking_1592666,112,customer,channel2,31,404.54,408.54,So it would just top up automatically if I get too low.,neutral,0.8429,False,False,False,False,False
+en_AU_Banking_1592666,113,agent,channel1,82,409.12,410.12,Exactly right.,neutral,0.4676,False,False,False,False,False
+en_AU_Banking_1592666,114,agent,channel1,83,410.12,416.12,So what it does is it checks your balance and then if your balance drops below whatever threshold,neutral,0.892,False,False,False,False,False
+en_AU_Banking_1592666,115,customer,channel2,32,412.54,432.54,"Yeah, that sounds perfect for me, Danielle.",positive,0.9772,False,False,False,False,False
+en_AU_Banking_1592666,116,agent,channel1,84,416.12,420.12,"you'll set, it'll transfer the difference across from your savings.",neutral,0.8599,False,False,False,False,False
+en_AU_Banking_1592666,117,agent,channel1,85,420.12,424.12,"Some people find it gives them a bit more peace of mind, especially for bill payments.",positive,0.7608,False,False,False,False,False
+en_AU_Banking_1592666,118,agent,channel1,86,424.12,428.12,So they don't have to continuously check and make sure you know that there's a set amount,neutral,0.7928,False,False,False,False,False
+en_AU_Banking_1592666,119,agent,channel1,87,428.12,431.12,in the account before money gets taken out.,neutral,0.8509,False,False,False,False,False
+en_AU_Banking_1592666,120,customer,channel2,33,433.54,447.54,"My pay goes into the smart access, but then I usually move most of it into savings across, you know, I'll transfer the difference across from, you know, but sometimes I forget to move enough back.",neutral,0.8449,False,False,False,False,False
+en_AU_Banking_1592666,121,agent,channel1,88,438.12,454.12,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Banking_1592666,122,customer,channel2,34,448.54,452.54,How much can I set it to top up to?,neutral,0.9367,False,False,False,False,False
+en_AU_Banking_1592666,123,agent,channel1,89,454.12,456.12,So you can set whatever amount works for you.,neutral,0.7219,False,False,False,False,False
+en_AU_Banking_1592666,124,agent,channel1,90,456.12,461.12,"A lot of people do somewhere between $1,000 and $2,000, but it really depends on your",neutral,0.8207,False,False,False,False,False
+en_AU_Banking_1592666,125,agent,channel1,91,461.12,462.12,regular expenses.,neutral,0.7284,False,False,False,False,False
+en_AU_Banking_1592666,126,agent,channel1,92,462.12,463.12,What were you thinking?,neutral,0.8692,False,False,True,False,False
+en_AU_Banking_1592666,127,customer,channel2,35,462.54,477.54,"I don't know, like, could I set it to maintain 1500? You know, that should cover my regular bills, things like groceries, things like that without me having to worry.",neutral,0.6582,False,False,False,False,False
+en_AU_Banking_1592666,128,agent,channel1,93,480.12,481.12,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Banking_1592666,129,agent,channel1,94,481.12,483.12,"Look, absolutely $1,500 is perfect.",positive,0.9704,False,False,False,False,False
+en_AU_Banking_1592666,130,agent,channel1,95,483.12,488.12,"Now I can set up the parameters for you right now over the phone, but you need to log into",neutral,0.9049,False,False,False,False,False
+en_AU_Banking_1592666,131,agent,channel1,96,488.12,493.12,NetBank or the ComBank app to give final authorization for the recurring transfer.,neutral,0.9137,False,False,False,False,False
+en_AU_Banking_1592666,132,customer,channel2,36,492.54,521.54,"Oh, I can do it in the app myself. I've got it on my phone. Do I just go to transfers? Like, which part do I go to?",neutral,0.8786,False,False,False,False,False
+en_AU_Banking_1592666,133,agent,channel1,97,493.12,497.12,"It's just an extra security measure we have in place, of course.",neutral,0.8275,False,False,False,False,False
+en_AU_Banking_1592666,134,agent,channel1,98,497.12,502.12,"So if you put, or actually Maria, if you prefer, I can talk you through setting it up yourself",neutral,0.8968,False,False,False,False,False
+en_AU_Banking_1592666,135,agent,channel1,99,502.12,503.12,right now.,neutral,0.8178,False,False,False,False,False
+en_AU_Banking_1592666,136,agent,channel1,100,503.12,507.12,"Look, it only takes a couple of minutes and it's really straightforward.",positive,0.8881,False,False,False,False,False
+en_AU_Banking_1592666,137,agent,channel1,101,515.12,517.12,"Yeah, that's exactly it.",neutral,0.4534,False,False,False,False,False
+en_AU_Banking_1592666,138,agent,channel1,102,517.12,523.12,"So if you open your ComBank app, have you, are you opening the app now?",neutral,0.9357,False,False,True,False,False
+en_AU_Banking_1592666,139,customer,channel2,37,522.54,541.54,"Yep. Yep. Okay, yep.",positive,0.799,False,False,False,False,False
+en_AU_Banking_1592666,140,agent,channel1,103,523.12,524.12,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Banking_1592666,141,agent,channel1,104,524.12,525.12,"Okay, great.",positive,0.9292,False,False,False,False,False
+en_AU_Banking_1592666,142,agent,channel1,105,525.12,536.12,"So yeah, if you open the ComBank app, then you go to transfer.",neutral,0.9189,False,False,False,False,False
+en_AU_Banking_1592666,143,agent,channel1,106,536.12,544.12,So then you'll see an option that says manage recurring transfers or set up recurring transfer.,neutral,0.9283,False,False,False,False,False
+en_AU_Banking_1592666,144,customer,channel2,38,541.54,548.54,"I think, yep, okay.",positive,0.7877,False,False,False,False,False
+en_AU_Banking_1592666,145,agent,channel1,107,544.12,545.12,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Banking_1592666,146,agent,channel1,108,545.12,548.12,So tap on that and you'll be able to set up the automatic top up.,neutral,0.8721,False,False,False,False,False
+en_AU_Banking_1592666,147,customer,channel2,39,548.54,570.54,"All right, can I hang on? I just want to make sure I'm in the right area. So I'm in the app. I can see transfer money and then, oh, yep, I can see it. Scheduled, I transfer. Is that it?",neutral,0.6422,False,False,False,False,False
+en_AU_Banking_1592666,148,agent,channel1,109,560.12,561.12,"Yep, that's the one.",positive,0.6051,False,False,False,False,False
+en_AU_Banking_1592666,149,agent,channel1,110,561.12,567.12,So now what you'll want to do is select your NetBank saver as the from account and,neutral,0.9177,False,False,False,False,False
+en_AU_Banking_1592666,150,agent,channel1,111,567.12,570.12,your smart access as the to account.,neutral,0.8357,False,False,False,False,False
+en_AU_Banking_1592666,151,customer,channel2,40,570.54,589.54,"Okay, I get so mixed up with the account names. Yeah. Okay. Thanks, Danielle. Done.",neutral,0.5679,False,False,False,False,False
+en_AU_Banking_1592666,152,agent,channel1,112,575.12,579.12,"Okay, excellent.",positive,0.943,False,False,False,False,False
+en_AU_Banking_1592666,153,agent,channel1,113,579.12,582.12,So now you should see some options for how you want the transfer to work.,neutral,0.9018,False,False,False,False,False
+en_AU_Banking_1592666,154,agent,channel1,114,582.12,587.12,One of them will say something like maintain minimum balance or keep my balance at.,neutral,0.8073,False,False,False,False,False
+en_AU_Banking_1592666,155,agent,channel1,115,587.12,588.12,That's the one you want.,neutral,0.7268,False,False,False,False,False
+en_AU_Banking_1592666,156,agent,channel1,116,588.12,589.12,Can you see that?,neutral,0.9014,False,False,True,False,False
+en_AU_Banking_1592666,157,customer,channel2,41,589.54,598.54,"Hold on. Let me, I'm just, I'm really not good with this sort of tech stuff.",negative,0.8151,False,False,False,False,False
+en_AU_Banking_1592666,158,customer,channel2,42,598.54,618.54,"Oh, yeah, I can see it. Okay. So I keep my balance at a minimum amount. Perfect. So I just put 1500 here.",positive,0.6446,False,False,False,False,False
+en_AU_Banking_1592666,159,agent,channel1,117,605.12,607.12,"Yep, that's exactly right.",positive,0.873,False,False,False,False,False
+en_AU_Banking_1592666,160,agent,channel1,118,607.12,611.12,And what it'll do is it'll ask you to confirm which account to transfer from.,neutral,0.8021,False,False,False,False,False
+en_AU_Banking_1592666,161,agent,channel1,119,611.12,615.12,"If you go below that amount, that'll be your savings account.",neutral,0.767,False,False,False,False,False
+en_AU_Banking_1592666,162,customer,channel2,43,618.54,644.54,"Oh, got it. Okay, done. All right. So do I need to set a minimum transfer amount or anything?",neutral,0.7645,False,False,False,False,False
+en_AU_Banking_1592666,163,agent,channel1,120,623.12,625.12,"Look, good thinking.",positive,0.9225,False,False,False,False,False
+en_AU_Banking_1592666,164,agent,channel1,121,625.12,631.12,"Yes, you can set a maximum if you want, which is handy if you want to make sure you're",positive,0.4979,False,False,False,False,False
+en_AU_Banking_1592666,165,agent,channel1,122,631.12,633.12,not accidentally draining your savings.,neutral,0.6023,False,False,False,False,False
+en_AU_Banking_1592666,166,agent,channel1,123,633.12,637.12,"A lot of people set it to something like $2,000 or $3,000.",neutral,0.8353,False,False,False,False,False
+en_AU_Banking_1592666,167,agent,channel1,124,637.12,642.12,"That way if something unusual happens, it won't transfer your entire savings across.",neutral,0.8093,False,False,False,False,False
+en_AU_Banking_1592666,168,agent,channel1,125,642.12,644.12,"Oh, how lovely.",positive,0.96,False,False,False,False,False
+en_AU_Banking_1592666,169,agent,channel1,126,644.12,647.12,"Yeah, look, the gold coast is beautiful in January.",positive,0.978,False,False,False,False,False
+en_AU_Banking_1592666,170,customer,channel2,44,644.54,655.54,"Oh, that's what I meant maximum. Yeah, that's really smart. I'll set it to 2000 max just to be safe. I've got a bit of a buffer in my savings that I want to keep for emergencies.",positive,0.7716,False,False,False,False,False
+en_AU_Banking_1592666,171,agent,channel1,127,647.12,651.12,"Look, great idea to keep that emergency fund separate.",positive,0.956,False,False,False,False,False
+en_AU_Banking_1592666,172,agent,channel1,128,651.12,652.12,"Look, right, Maria?",neutral,0.7511,False,False,True,False,False
+en_AU_Banking_1592666,173,agent,channel1,129,652.12,655.12,"So once you set that maximum, you should do the same thing.",neutral,0.851,False,False,False,False,False
+en_AU_Banking_1592666,174,agent,channel1,130,655.12,659.12,So you can set a maximum if you want to make sure you're not accidentally draining,neutral,0.7784,False,False,False,False,False
+en_AU_Banking_1592666,175,customer,channel2,45,655.54,683.54,"We're hoping to go up to the Gold Coast, for example. That's one thing. Maybe January. Yeah.",neutral,0.6805,False,False,False,False,False
+en_AU_Banking_1592666,176,agent,channel1,131,659.12,660.12,your savings account.,neutral,0.8108,False,False,False,False,False
+en_AU_Banking_1592666,177,agent,channel1,132,660.12,664.12,And then you can set a maximum if you want to make sure you're not accidentally,neutral,0.844,False,False,False,False,False
+en_AU_Banking_1592666,178,agent,channel1,133,664.12,666.12,draining your savings account.,neutral,0.5694,False,False,False,False,False
+en_AU_Banking_1592666,179,agent,channel1,134,666.12,669.12,So you can set a maximum if you want to make sure you're not accidentally,neutral,0.8402,False,False,False,False,False
+en_AU_Banking_1592666,180,agent,channel1,135,669.12,670.12,draining your savings account.,neutral,0.5694,False,False,False,False,False
+en_AU_Banking_1592666,181,agent,channel1,136,670.12,671.12,"Look, right, Maria?",neutral,0.7511,False,False,True,False,False
+en_AU_Banking_1592666,182,agent,channel1,137,671.12,675.12,"So once you set that maximum, you should just need to review and confirm the",neutral,0.9015,False,False,False,False,False
+en_AU_Banking_1592666,183,agent,channel1,138,675.12,678.12,"details, then you'll be all set up.",neutral,0.7061,False,False,False,False,False
+en_AU_Banking_1592666,184,agent,channel1,139,678.12,681.12,Was there something else sorry that you mentioned?,negative,0.6593,False,False,True,False,False
+en_AU_Banking_1592666,185,agent,channel1,140,681.12,683.12,I don't know if I cut you off there a bit earlier.,neutral,0.6563,False,False,False,False,False
+en_AU_Banking_1592666,186,customer,channel2,46,683.54,688.54,"I don't know. It's okay. I just got a bit nervous, Danielle, with this stuff. Like I just feel like I'm going to do something wrong.",negative,0.7466,False,False,False,False,False
+en_AU_Banking_1592666,187,customer,channel2,47,688.54,700.54,"But it's asking me to review everything. It's saying maintain $1500 minimum in smart access, transfer from net bank saver, maximum transfer 2000.",neutral,0.7477,False,False,False,False,False
+en_AU_Banking_1592666,188,agent,channel1,141,699.12,716.12,Perfect.,positive,0.9075,False,False,False,False,False
+en_AU_Banking_1592666,189,customer,channel2,48,700.54,708.54,That all looks right. So I just hit confirm and it's asking for my net bank password. Hang on a sec.,neutral,0.7225,False,False,False,False,False
+en_AU_Banking_1592666,190,customer,channel2,49,708.54,714.54,"Yep. Okay, done. Oh, it says recurring transfer set up successfully.",positive,0.8679,False,False,False,False,False
+en_AU_Banking_1592666,191,agent,channel1,142,716.12,718.12,"So look, Maria, you're all sorted.",positive,0.8714,False,False,False,False,False
+en_AU_Banking_1592666,192,agent,channel1,143,718.12,723.12,"Look from now on, if your smart access balance drops below $1,500, what will",neutral,0.5872,False,False,False,False,False
+en_AU_Banking_1592666,193,agent,channel1,144,723.12,728.12,happen is the system will automatically top it up right from your savings and,neutral,0.8121,False,False,False,False,False
+en_AU_Banking_1592666,194,agent,channel1,145,728.12,731.12,"up to a maximum of $2,000 at a time.",neutral,0.9194,False,False,False,False,False
+en_AU_Banking_1592666,195,agent,channel1,146,731.12,737.12,"So it's never going to transfer over $2,000, you know, in one session for you.",neutral,0.4952,False,False,False,False,False
+en_AU_Banking_1592666,196,agent,channel1,147,737.12,742.12,You'll get a notification as well on your app whenever your transfer happens.,neutral,0.8893,False,False,False,False,False
+en_AU_Banking_1592666,197,customer,channel2,50,738.54,748.54,"That's brilliant. You know, I wish I'd known about this month ago. You would have saved me a lot of stressful phone calls.",positive,0.8973,False,False,False,False,False
+en_AU_Banking_1592666,198,agent,channel1,148,742.12,749.12,So you'll always know when it's kicked in.,neutral,0.6773,False,False,False,False,False
+en_AU_Banking_1592666,199,agent,channel1,149,749.12,752.12,"Well, look, I mean, look to the future.",neutral,0.6687,False,False,False,False,False
+en_AU_Banking_1592666,200,agent,channel1,150,752.12,755.12,You don't have to call us again for this same need.,negative,0.6484,False,False,False,False,False
+en_AU_Banking_1592666,201,agent,channel1,151,755.12,759.12,"And of course, as you know, you can change it, you know, whenever you need,",positive,0.4925,False,False,False,False,False
+en_AU_Banking_1592666,202,agent,channel1,152,759.12,761.12,but we are here if you do need to.,neutral,0.5752,False,False,False,False,False
+en_AU_Banking_1592666,203,agent,channel1,153,761.12,765.12,No need to worry about it.,neutral,0.6053,False,False,False,False,False
+en_AU_Banking_1592666,204,agent,channel1,154,765.12,767.12,"Oh, it does actually say that.",neutral,0.702,False,False,False,False,False
+en_AU_Banking_1592666,205,agent,channel1,155,767.12,771.12,"You know, again, just a reminder, if you know you wanted to stop it from",neutral,0.6884,False,False,False,False,False
+en_AU_Banking_1592666,206,customer,channel2,51,768.54,786.54,"Awesome. Okay, thanks so much. So just to make sure I've got everything right, the 2500 I needed today is ready in my account, and I can pay my bills now, right?",positive,0.9545,False,False,False,False,False
+en_AU_Banking_1592666,207,agent,channel1,156,771.12,774.12,"happening, you can always turn it off completely if you wanted to go back",neutral,0.7296,False,False,False,False,False
+en_AU_Banking_1592666,208,agent,channel1,157,774.12,784.12,to those manual transfers.,neutral,0.7893,False,False,False,False,False
+en_AU_Banking_1592666,209,agent,channel1,158,785.12,787.12,Correct.,neutral,0.601,False,False,False,False,False
+en_AU_Banking_1592666,210,agent,channel1,159,787.12,788.12,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Banking_1592666,211,agent,channel1,160,788.12,793.12,"So you're $2,500 in your smart account as we speak available immediately.",neutral,0.6703,False,False,False,False,False
+en_AU_Banking_1592666,212,agent,channel1,161,793.12,795.12,That's the one you and I did over the phone.,neutral,0.904,False,False,False,False,False
+en_AU_Banking_1592666,213,agent,channel1,162,795.12,800.12,And you can go ahead and make your BP a payment to origin and your,neutral,0.8349,False,False,False,False,False
+en_AU_Banking_1592666,214,customer,channel2,52,799.54,809.54,"Okay. And the automatic transfer will just keep my balance chopped up from now on. Like, does that stop today?",neutral,0.6026,False,False,False,False,False
+en_AU_Banking_1592666,215,agent,channel1,163,800.12,809.12,Foxtel payment tomorrow will go through without any issues.,positive,0.6113,False,False,False,False,False
+en_AU_Banking_1592666,216,agent,channel1,164,809.12,811.12,"Yes, that's exactly right.",positive,0.8803,False,False,False,False,False
+en_AU_Banking_1592666,217,customer,channel2,53,809.54,835.54,"Okay. So like tomorrow when Foxtel comes out, and my balance goes below 2500, really like that should happen right away.",neutral,0.5061,False,False,False,False,False
+en_AU_Banking_1592666,218,agent,channel1,165,811.12,815.12,"Look, anytime you drop below $1,500, it will automatically transfer funds",neutral,0.7176,False,False,False,False,False
+en_AU_Banking_1592666,219,agent,channel1,166,815.12,820.12,"from your savings to bring you back up to that level up to $2,000 at a time.",neutral,0.8185,False,False,False,False,False
+en_AU_Banking_1592666,220,agent,channel1,167,820.12,824.12,You'll never have to worry about being short for those bills again.,negative,0.4693,False,False,False,False,False
+en_AU_Banking_1592666,221,agent,channel1,168,824.12,836.12,"And as for when it starts, yep, that's all ready to go.",neutral,0.5294,False,False,False,False,False
+en_AU_Banking_1592666,222,agent,channel1,169,836.12,847.12,Yes.,neutral,0.5811,False,False,False,False,False
+en_AU_Banking_1592666,223,customer,channel2,54,836.54,859.54,"That is so awesome. Such a weight off my mind. You've been so helpful, Danielle. Oh my goodness. Thank you so much for your time.",positive,0.9846,False,False,False,False,False
+en_AU_Banking_1592666,224,agent,channel1,170,847.12,848.12,"You're very welcome, Maria.",positive,0.9652,False,False,False,False,False
+en_AU_Banking_1592666,225,agent,channel1,171,848.12,851.12,I'm just so glad we could get it all sorted for you today.,positive,0.9683,False,False,False,False,False
+en_AU_Banking_1592666,226,agent,channel1,172,851.12,854.12,"And, you know, of course, such a bonus that this is not something you",positive,0.5755,False,False,False,False,False
+en_AU_Banking_1592666,227,agent,channel1,173,854.12,856.12,need to do in the future.,neutral,0.8264,False,False,False,False,False
+en_AU_Banking_1592666,228,agent,channel1,174,856.12,864.12,"Whilst I've got you, is there anything else I can help you with?",neutral,0.7254,False,False,True,True,False
+en_AU_Banking_1592666,229,customer,channel2,55,859.54,862.54,"No, no, I think that's everything. You've been really wonderful.",positive,0.9697,False,False,False,False,False
+en_AU_Banking_1592666,230,agent,channel1,175,864.12,865.12,Lovely.,positive,0.9466,False,False,False,False,False
+en_AU_Banking_1592666,231,agent,channel1,176,865.12,867.12,"Look, you have a great rest of your day.",positive,0.9738,False,False,False,False,False
+en_AU_Banking_1592666,232,agent,channel1,177,867.12,870.12,Enjoy getting set up for that Gold Coast trip.,positive,0.9358,False,False,False,False,False
+en_AU_Banking_1592666,233,agent,channel1,178,870.12,873.12,"And of course, thank you for banking with Australia's favourite bank,",positive,0.9799,False,False,False,False,False
+en_AU_Banking_1592666,234,agent,channel1,179,873.12,886.12,"Comben, Maria.",neutral,0.8706,False,False,False,False,False
+en_AU_Banking_1592666,235,customer,channel2,56,873.54,884.54,"Thanks, Danielle. Oh, one last thing, Danielle. Sometimes there's a survey when I have a call with you guys. Is there going to be a survey because I'd love to give you some really good feedback?",positive,0.9617,False,False,False,False,False
+en_AU_Banking_1592666,236,agent,channel1,180,886.12,888.12,"Oh, look, that would be so lovely.",positive,0.9792,False,False,False,False,False
+en_AU_Banking_1592666,237,agent,channel1,181,888.12,892.12,"Yeah, look, you'll get a text message from us to your confirmed mobile",neutral,0.735,False,False,False,False,False
+en_AU_Banking_1592666,238,customer,channel2,57,889.54,900.54,Thanks. Thanks for that. See ya.,positive,0.9567,False,False,False,False,False
+en_AU_Banking_1592666,239,agent,channel1,182,892.12,895.12,number ending in 034.,neutral,0.9204,False,False,False,False,False
+en_AU_Banking_1592666,240,agent,channel1,183,895.12,902.12,And you can just follow the link in prompts and it takes about two minutes.,neutral,0.5874,False,False,False,False,False
+en_AU_Banking_1592666,241,agent,channel1,184,902.12,903.12,Thank you. Bye.,positive,0.5915,False,False,False,False,False

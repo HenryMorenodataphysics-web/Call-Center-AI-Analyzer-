@@ -1,0 +1,75 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Health_1591707,1,agent,channel1,1,0.0,19.12,"Good evening, welcome to Pet Binanza Warehouse, Richmond, this is Tom, how can I help you?",positive,0.6275,False,False,True,False,False
+en_AU_Health_1591707,2,customer,channel2,1,0.0,26.4,"Hey Tom, my name's Laura, my cat Taylor comes to see you guys.",neutral,0.7041,False,False,False,False,False
+en_AU_Health_1591707,3,customer,channel2,2,26.4,32.36,"We haven't been in for about, it's probably been about a year now, last time we were in",neutral,0.6533,False,False,False,False,False
+en_AU_Health_1591707,4,customer,channel2,3,32.36,39.72,"she had this really like pretty serious cough and it never went away, well I don't say never,",negative,0.7314,False,False,False,False,False
+en_AU_Health_1591707,5,customer,channel2,4,39.72,45.84,"it was about two months that she was coughing and we came in, we did a bunch of tests and",neutral,0.8119,False,False,False,False,False
+en_AU_Health_1591707,6,customer,channel2,5,45.84,50.24,then we finally gave her some medication and the cough went away.,neutral,0.5068,False,False,False,False,False
+en_AU_Health_1591707,7,customer,channel2,6,50.24,55.08,So it's probably been a year as I was saying and the cough has kind of come back.,neutral,0.6753,False,False,False,False,False
+en_AU_Health_1591707,8,customer,channel2,7,55.08,59.32,So I just kind of wanted to bring her in and see what's going on.,neutral,0.8108,False,False,False,False,False
+en_AU_Health_1591707,9,customer,channel2,8,59.32,65.56,"I'm assuming it's the same thing as last time, but yeah we'd love to come in and just be",positive,0.6527,False,False,False,False,False
+en_AU_Health_1591707,10,agent,channel1,2,60.0,78.0,"Yeah, I'm no worries at all. What was Taylor's registration number? Just so I can pull up her history here and take a look for you.",neutral,0.7057,False,False,True,False,False
+en_AU_Health_1591707,11,customer,channel2,9,65.56,68.52,sure and grab some medication if needed.,neutral,0.84,False,False,False,False,False
+en_AU_Health_1591707,12,customer,channel2,10,68.52,78.68,Is that the six digit number?,neutral,0.9315,False,False,False,False,False
+en_AU_Health_1591707,13,agent,channel1,3,78.0,84.0,"Yeah, but just the last three will be okay.",positive,0.5841,False,False,False,False,False
+en_AU_Health_1591707,14,customer,channel2,11,79.64,89.64,"Okay cool, yeah it's 368.",neutral,0.5115,False,False,False,False,False
+en_AU_Health_1591707,15,agent,channel1,4,84.0,90.0,Is that Taylor Pumpkin?,neutral,0.9173,False,False,True,False,False
+en_AU_Health_1591707,16,customer,channel2,12,89.64,98.64,Yes.,neutral,0.5811,False,False,False,False,False
+en_AU_Health_1591707,17,agent,channel1,5,90.0,97.0,"Sorry, what type of breed is she? We've just recently updated our system and I don't think that's carried through.",negative,0.6567,False,False,True,False,False
+en_AU_Health_1591707,18,customer,channel2,13,98.64,105.92,"We actually got her from there, she's a long-haired cat, I'm not really sure, she's not anything",neutral,0.784,False,False,False,False,False
+en_AU_Health_1591707,19,customer,channel2,14,105.92,113.04,"too exotic, we adopted her from there so yeah.",neutral,0.5552,False,False,False,False,False
+en_AU_Health_1591707,20,agent,channel1,6,114.0,120.0,"That must have been when we had our Pet Binanza cat adoption drive that year. Yes, I do remember that.",neutral,0.6901,False,False,False,False,False
+en_AU_Health_1591707,21,agent,channel1,7,120.0,127.0,"Well, I'm sorry to hear that Taylor's not feeling too well. I'm just looking back through her medical history.",negative,0.8731,False,False,False,False,False
+en_AU_Health_1591707,22,agent,channel1,8,127.0,136.0,"Yeah, so it seems the last time that we saw her, she was an outdoor cat. I know that the laws have recently changed which prohibit cats from being outdoors at all times.",neutral,0.7298,False,False,False,False,False
+en_AU_Health_1591707,23,agent,channel1,9,136.0,149.0,Did she remain indoors 24-7 these days?,neutral,0.9539,False,False,True,False,False
+en_AU_Health_1591707,24,customer,channel2,15,136.92,144.8,"Yeah, yeah she's definitely indoors, she's a bit older now so I don't even know if she'd",neutral,0.7724,False,False,False,False,False
+en_AU_Health_1591707,25,customer,channel2,16,144.8,148.8,"get much, get out too far if she tried to go outside anyways.",neutral,0.6328,False,False,False,False,False
+en_AU_Health_1591707,26,agent,channel1,10,149.0,163.0,"Okay, not a problem at all. It's mainly just to see if she is socialising with other cats just in case there was a risk of transmission from things getting picked up in the mainstream of Melbourne for these poor cats.",neutral,0.6236,False,False,False,False,False
+en_AU_Health_1591707,27,agent,channel1,11,163.0,168.0,"So, and how long did you say that the cat would return for?",neutral,0.9529,False,False,True,False,False
+en_AU_Health_1591707,28,customer,channel2,17,166.92,174.52,"Look, she's been coughing for about a week now, so obviously I didn't want to wait as long",negative,0.7776,False,False,False,False,False
+en_AU_Health_1591707,29,customer,channel2,18,174.52,182.44,"as last time so that she's constantly coughing kind of happens say about two, three times",neutral,0.7315,False,False,False,False,False
+en_AU_Health_1591707,30,customer,channel2,19,182.44,187.56,a day that we kind of noticed that she'll get up and she's just coughing and it's very,neutral,0.5811,False,False,False,False,False
+en_AU_Health_1591707,31,customer,channel2,20,187.56,193.16,"like dry, raspy kind of cough, she doesn't cough anything up so it's not like it's",neutral,0.5949,False,False,False,False,False
+en_AU_Health_1591707,32,agent,channel1,12,193.0,220.0,"And do you notice a more active physical activity or is it at certain times of the day, perhaps evenings when things start to cool down or is it just sort of sporadic?",neutral,0.9011,False,False,True,False,False
+en_AU_Health_1591707,33,customer,channel2,21,193.16,200.16,"a hairball or something like that, she just coughs.",neutral,0.5874,False,False,False,False,False
+en_AU_Health_1591707,34,customer,channel2,22,206.92,212.44,"It's pretty random, she's not a very active cat, like most cats they you know sleep pretty",neutral,0.5268,False,False,False,False,False
+en_AU_Health_1591707,35,customer,channel2,23,212.44,218.68,"much all day and night it feels like, but yeah she's not doing too much so it's kind of",neutral,0.7999,False,False,False,False,False
+en_AU_Health_1591707,36,customer,channel2,24,218.68,225.68,just really random.,negative,0.5624,False,False,False,False,False
+en_AU_Health_1591707,37,agent,channel1,13,220.0,234.0,"Well, South Seas Couch Potatoes is what I like to call them. So, is it sort of more of like an exasperated cause like she's struggling or it's just something persistent with pretty much any movement?",neutral,0.6681,False,False,True,False,False
+en_AU_Health_1591707,38,customer,channel2,25,235.52,241.72,"It does sound like she's struggling a little bit, it's pretty much the same as last time",negative,0.7266,False,False,False,False,False
+en_AU_Health_1591707,39,customer,channel2,26,241.72,247.8,"when she was coughing, I'm not sure exactly what the diagnosis was or anything like that",neutral,0.584,False,False,False,False,False
+en_AU_Health_1591707,40,customer,channel2,27,247.88,254.16,"but I think it had something to do partly with allergies, but yeah it does sound like she's",neutral,0.4941,False,False,False,False,False
+en_AU_Health_1591707,41,agent,channel1,14,251.0,272.0,"Yeah, well, I can see last time we did put her on a strict weight and free diet, which did seem to help. But then at the time she was an outdoor cat and then it looks like she contracted a type of kennel cough which has usually restricted more to dogs.",neutral,0.6675,False,False,False,False,False
+en_AU_Health_1591707,42,customer,channel2,28,254.16,261.16,"struggling a little bit, I imagine it to like humans with asthma.",neutral,0.6731,False,False,False,False,False
+en_AU_Health_1591707,43,customer,channel2,29,261.16,269.16,"No, just the one cat that's all we've got.",neutral,0.653,False,False,False,False,False
+en_AU_Health_1591707,44,agent,channel1,15,272.0,279.0,Is there a dog in your house?,neutral,0.9362,False,False,True,False,False
+en_AU_Health_1591707,45,agent,channel1,16,279.0,290.0,"Okay, that's all right. Well, why don't we get Taylor booked in for a checkup ASAP? Of course these things don't get easier that often they get and given it has been some time since we've seen her.",neutral,0.7187,False,False,True,False,False
+en_AU_Health_1591707,46,agent,channel1,17,290.0,300.0,We might as well do a routine checkup. We can even look at her teeth and just her overall health as well as checking out what's behind this pesky cough.,neutral,0.6904,False,False,False,False,False
+en_AU_Health_1591707,47,customer,channel2,30,292.16,299.16,"Yeah, that sounds really good, thank you.",positive,0.9873,False,False,False,False,False
+en_AU_Health_1591707,48,agent,channel1,18,301.0,311.0,Not a problem. Did you have a time in mind when you would work for you?,neutral,0.8027,False,False,True,False,False
+en_AU_Health_1591707,49,customer,channel2,31,305.16,312.16,"Yeah, so what's kind of the latest you're open?",neutral,0.9223,False,False,False,False,False
+en_AU_Health_1591707,50,agent,channel1,19,311.0,322.0,"So we are up until nine o'clock each night. We also do have an emergency after hours care, although obviously that's traditionally reserved for emergency services for pets.",neutral,0.8995,False,False,False,False,False
+en_AU_Health_1591707,51,customer,channel2,32,321.16,328.16,"Look, the fact that you're open pretty late is amazing, anytime after 4pm is good midweek",positive,0.9708,False,False,False,False,False
+en_AU_Health_1591707,52,agent,channel1,20,322.0,347.0,"However, yeah, anytime, seven days a week up until 9pm, we are booking up fairly quickly in the lead up to Christmas. So if you did want to get in on a weekend, probably within the next two weeks would be recommended.",positive,0.634,False,False,True,False,False
+en_AU_Health_1591707,53,customer,channel2,33,328.16,335.16,and then anytime on the weekend would work.,neutral,0.6789,False,False,False,False,False
+en_AU_Health_1591707,54,customer,channel2,34,336.16,342.16,"Yeah, first one available to be honest, I want to get her in as soon as possible, so I'm",positive,0.7481,False,False,False,False,False
+en_AU_Health_1591707,55,customer,channel2,35,342.16,346.16,going to get her in as soon as possible.,neutral,0.8094,False,False,False,False,False
+en_AU_Health_1591707,56,customer,channel2,36,346.16,353.16,"I'm going to get her in as soon as possible, I'm going to get her in as soon as possible.",positive,0.5993,False,False,False,False,False
+en_AU_Health_1591707,57,agent,channel1,21,347.0,363.0,"Okay, well if you just wanted to pick a date, I'll check my calendar this side and we can get it all booked in.",neutral,0.7914,False,False,False,False,False
+en_AU_Health_1591707,58,customer,channel2,37,354.16,359.16,"Yeah, first one available to be honest, I want to get her in as soon as possible, so say tomorrow",positive,0.6441,False,False,False,False,False
+en_AU_Health_1591707,59,customer,channel2,38,359.16,366.16,"would be fantastic and if not, just the first time after that.",positive,0.9409,False,False,False,False,False
+en_AU_Health_1591707,60,agent,channel1,22,363.0,378.0,"Yep. Okay. Well, why don't we say 6.50pm tomorrow at our Richmond warehouse. We do ask you to arrive just 15 to 20 minutes early so we can get Taylor all settled as well as checked in just before her checkup.",neutral,0.7423,False,False,False,False,False
+en_AU_Health_1591707,61,agent,channel1,23,378.0,391.0,And we do require prepayment. There is a $95 consultation fee and you can claim on the spot through your pet's health insurance as well if that's something that you do have.,neutral,0.8571,False,False,False,False,False
+en_AU_Health_1591707,62,customer,channel2,39,383.16,398.16,"Yeah, another problem, I'm happy to do that, there should be a card on files still I believe.",positive,0.5857,False,False,False,False,False
+en_AU_Health_1591707,63,agent,channel1,24,391.0,412.0,"Yes, I do see that one here. Just so we can take that one securely, you will get an automated text message by 8am tomorrow morning. If you could just click on the link and prepay that one, you'll receive a confirmation code pretty much straight away.",neutral,0.8123,False,False,False,False,False
+en_AU_Health_1591707,64,agent,channel1,25,413.0,433.0,Not a problem at all. So I've got to leave you details here. Just confirming Taylor is booked in for tomorrow night at Windsor branch. We've got your details on file here. You will also receive automatic follow up email from the vet just with everything that was discussed in the consultation as well.,neutral,0.5538,False,False,False,False,False
+en_AU_Health_1591707,65,customer,channel2,40,413.16,417.16,"Okay, wonderful, that sounds good.",positive,0.9853,False,False,False,False,False
+en_AU_Health_1591707,66,agent,channel1,26,434.0,443.0,"If Taylor does need to stay in overnight, we can absolutely organise that as well. Although going by the symptoms you've described, it's not sounding like that's going to be very likely.",neutral,0.7241,False,False,False,False,False
+en_AU_Health_1591707,67,customer,channel2,41,444.16,455.16,"Okay, perfect, that sounds really good, thank you.",positive,0.9876,False,False,False,False,False
+en_AU_Health_1591707,68,agent,channel1,27,447.0,453.0,"Great. Well, before I head off and lock this in for you, did you have any questions for me today?",positive,0.5997,False,False,True,False,False
+en_AU_Health_1591707,69,agent,channel1,28,453.0,469.0,"Perfect. Oh well, thanks for getting in touch. I'm glad you did before it's to get too busy and of course for Taylor's sake. Otherwise, if there's nothing you need before tomorrow night, we'll look forward to seeing you at the Richmond location.",positive,0.8986,False,False,False,False,False
+en_AU_Health_1591707,70,customer,channel2,42,455.16,470.16,"No, that was it.",neutral,0.5734,False,False,False,False,False
+en_AU_Health_1591707,71,customer,channel2,43,471.16,476.16,"Yeah, that sounds great, thank you so much.",positive,0.9869,False,False,False,False,False
+en_AU_Health_1591707,72,agent,channel1,29,472.0,475.0,Not a problem. We'll see you tomorrow night. Thanks for calling.,positive,0.8888,False,False,False,False,False
+en_AU_Health_1591707,73,customer,channel2,44,476.16,481.16,"Thanks, bye.",neutral,0.4907,False,False,False,False,False
+en_AU_Health_1591707,74,agent,channel1,30,483.0,485.0,Thank you.,positive,0.8345,False,False,False,False,False

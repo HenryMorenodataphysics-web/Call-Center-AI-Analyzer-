@@ -1,0 +1,100 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Hospitality_1592211,1,agent,channel1,1,0.0,16.44,"Hello, thank you for calling the best Canadian hotel.",positive,0.9776,False,False,False,False,False
+en_CA_Hospitality_1592211,2,customer,channel2,1,0.0,27.0,"My name is Dorothy Brown and I have already booked a, a,",neutral,0.761,False,False,False,False,False
+en_CA_Hospitality_1592211,3,agent,channel1,2,16.44,17.44,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_CA_Hospitality_1592211,4,agent,channel1,3,17.44,18.12,My name is Joelle.,neutral,0.8197,False,False,False,False,False
+en_CA_Hospitality_1592211,5,customer,channel2,2,28.0,35.0,a hotel stay from Tuesday to Saturday of this week.,neutral,0.9471,False,False,False,False,False
+en_CA_Hospitality_1592211,6,agent,channel1,4,30.0,57.0,"No, just give me a minute here to be able to review our availability.",neutral,0.8398,False,False,False,False,False
+en_CA_Hospitality_1592211,7,customer,channel2,3,35.0,41.0,"But I have since found that I would need to stay at least two more days,",neutral,0.8294,False,False,False,False,False
+en_CA_Hospitality_1592211,8,customer,channel2,4,41.0,44.0,say Sunday and Monday.,neutral,0.9064,False,False,False,False,False
+en_CA_Hospitality_1592211,9,customer,channel2,5,44.0,51.0,Is that possible to extend my current booking or do I have to start all over and cancel?,neutral,0.893,False,False,False,False,False
+en_CA_Hospitality_1592211,10,agent,channel1,5,57.0,59.44,You said you booked this just recently.,neutral,0.9332,False,False,False,False,False
+en_CA_Hospitality_1592211,11,customer,channel2,6,57.0,65.0,"No, it was booked through Expedia.",neutral,0.9082,False,False,False,False,False
+en_CA_Hospitality_1592211,12,agent,channel1,6,59.44,66.44,Is it booked through our website or through an agency?,neutral,0.9448,False,False,True,False,False
+en_CA_Hospitality_1592211,13,customer,channel2,7,65.0,75.0,"Yes, it's 156723.",neutral,0.8543,False,False,False,False,False
+en_CA_Hospitality_1592211,14,agent,channel1,7,66.44,76.44,"Okay, do you have the confirmation number there?",neutral,0.9457,False,False,True,False,False
+en_CA_Hospitality_1592211,15,customer,channel2,8,75.0,101.0,"That certainly would be good news,",positive,0.9788,False,False,False,False,False
+en_CA_Hospitality_1592211,16,agent,channel1,8,76.44,80.44,"Okay, just give me a minute here to be able to review our records.",neutral,0.7581,False,False,False,False,False
+en_CA_Hospitality_1592211,17,agent,channel1,9,80.44,83.44,"Oh yes, Dorothy Brown, I see you right here.",positive,0.7645,False,False,False,False,False
+en_CA_Hospitality_1592211,18,agent,channel1,10,83.44,85.44,"Good, okay.",positive,0.8296,False,False,False,False,False
+en_CA_Hospitality_1592211,19,agent,channel1,11,85.44,91.44,"So according to the availability that we have, extending your stay is possible within the same room.",neutral,0.7926,False,False,False,False,False
+en_CA_Hospitality_1592211,20,agent,channel1,12,91.44,95.44,So you wouldn't know how to have to make an entirely new reservation.,neutral,0.5716,False,False,False,False,False
+en_CA_Hospitality_1592211,21,agent,channel1,13,95.44,97.44,"No, so that is very good.",positive,0.9476,False,False,False,False,False
+en_CA_Hospitality_1592211,22,customer,channel2,9,101.0,106.0,"but not always possible. I know that because, you know, that's just the way it falls.",neutral,0.5,False,False,False,False,False
+en_CA_Hospitality_1592211,23,customer,channel2,10,106.0,111.0,So that's good to know how.,positive,0.7944,False,False,False,False,False
+en_CA_Hospitality_1592211,24,customer,channel2,11,111.0,122.0,"So will I still get the discounted price or do I now have to pay full price for extending the, the stay?",neutral,0.8829,False,False,False,False,False
+en_CA_Hospitality_1592211,25,agent,channel1,14,115.44,129.44,"No, what we'll do is we'll just extend it by the extra days, but you'll also get the discount for those days as well.",neutral,0.7369,False,False,False,False,True
+en_CA_Hospitality_1592211,26,agent,channel1,15,129.44,134.44,"You won't have to make any changes at all, so it's very simple to be able to do that.",positive,0.4996,False,False,False,False,False
+en_CA_Hospitality_1592211,27,customer,channel2,12,131.0,141.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Hospitality_1592211,28,agent,channel1,16,134.44,141.44,The only fee would be for the extra two nights.,neutral,0.9071,False,False,False,False,False
+en_CA_Hospitality_1592211,29,customer,channel2,13,141.0,157.0,And how much are we looking at?,neutral,0.9311,False,False,False,False,False
+en_CA_Hospitality_1592211,30,agent,channel1,17,141.44,146.44,"Well, based on what I'm seeing here, you got the discount rate of 10%.",neutral,0.8317,False,False,False,False,False
+en_CA_Hospitality_1592211,31,agent,channel1,18,146.44,151.44,So you'd be looking at about an extra $200 for the day for those two nights.,neutral,0.8795,False,False,False,False,False
+en_CA_Hospitality_1592211,32,customer,channel2,14,157.0,162.0,"And since I am not familiar with this particular hotel chain,",neutral,0.7032,False,False,False,False,False
+en_CA_Hospitality_1592211,33,customer,channel2,15,162.0,170.0,I would like to know what you have for amenities such as is your breakfast included?,neutral,0.8533,False,False,False,False,False
+en_CA_Hospitality_1592211,34,customer,channel2,16,170.0,176.0,"And if so, what's on your breakfast because I'm a real fussy eater.",neutral,0.5802,False,False,False,False,False
+en_CA_Hospitality_1592211,35,agent,channel1,19,171.44,186.44,"No, we definitely do have a continental breakfast, which is already included in the price.",neutral,0.6141,False,False,False,False,False
+en_CA_Hospitality_1592211,36,customer,channel2,17,176.0,205.0,I like waffles particularly.,positive,0.9321,False,False,False,False,False
+en_CA_Hospitality_1592211,37,agent,channel1,20,186.44,189.44,So you do have access to that.,neutral,0.9063,False,False,False,False,False
+en_CA_Hospitality_1592211,38,agent,channel1,21,189.44,193.44,"I would have to ask the kitchen staff if we do have waffles those days,",neutral,0.8653,False,False,False,False,False
+en_CA_Hospitality_1592211,39,agent,channel1,22,193.44,200.44,but I believe that we do have a wide variety of different products in our continental breakfast.,positive,0.5054,False,False,False,False,False
+en_CA_Hospitality_1592211,40,agent,channel1,23,200.44,202.44,So I'm sure that you will love it.,positive,0.9801,False,False,False,False,False
+en_CA_Hospitality_1592211,41,agent,channel1,24,202.44,213.44,"The other amenities include a parking space, also includes things as toiletries included in the rooms, towels, extra blankets if needed.",neutral,0.7358,False,False,False,False,False
+en_CA_Hospitality_1592211,42,customer,channel2,18,205.0,234.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Hospitality_1592211,43,agent,channel1,25,213.44,216.44,So we do offer a wide variety of different amenities.,positive,0.5914,False,False,False,False,False
+en_CA_Hospitality_1592211,44,agent,channel1,26,216.44,218.44,You can also have use of the pool.,neutral,0.7728,False,False,False,False,False
+en_CA_Hospitality_1592211,45,agent,channel1,27,218.44,224.44,There's the gym that is also open to hotel guests that are adults.,neutral,0.8563,False,False,False,False,False
+en_CA_Hospitality_1592211,46,agent,channel1,28,224.44,229.44,"So if you're coming with your family, they'll definitely have a great time.",positive,0.9771,False,False,False,False,False
+en_CA_Hospitality_1592211,47,agent,channel1,29,230.44,245.44,"All of course, ma'am, all of our rooms are equipped with Wi-Fi access and they are protected by password specifically to the room that you're in.",neutral,0.5137,False,False,False,False,False
+en_CA_Hospitality_1592211,48,customer,channel2,19,234.0,263.0,Wifi as well.,neutral,0.829,False,False,False,False,False
+en_CA_Hospitality_1592211,49,agent,channel1,30,245.44,249.44,So nobody will be able to access and see what you're doing.,negative,0.5843,False,False,False,False,False
+en_CA_Hospitality_1592211,50,agent,channel1,31,249.44,254.44,Each one has personal lock on them as well.,neutral,0.9134,False,False,False,False,False
+en_CA_Hospitality_1592211,51,agent,channel1,32,254.44,259.44,So you have the privacy and access to the internet at all times.,neutral,0.8036,False,False,False,False,False
+en_CA_Hospitality_1592211,52,agent,channel1,33,259.44,269.44,All throughout the hotel.,neutral,0.8676,False,False,False,False,False
+en_CA_Hospitality_1592211,53,customer,channel2,20,263.0,282.0,Okay. So what are your hours for the breakfast and what are your hours for the pool?,neutral,0.9536,False,False,False,False,False
+en_CA_Hospitality_1592211,54,agent,channel1,34,269.44,274.44,"So the hours for the breakfast, you'd be looking at between 6 to 10 am.",neutral,0.9341,False,False,False,False,False
+en_CA_Hospitality_1592211,55,agent,channel1,35,274.44,286.44,"And for the pool, it's usually open from 8 to 8 pm at night.",neutral,0.8513,False,False,False,False,False
+en_CA_Hospitality_1592211,56,customer,channel2,21,282.0,302.0,How big a pool is it? Does it have a shallow end and a deep end?,neutral,0.9217,False,False,False,False,False
+en_CA_Hospitality_1592211,57,agent,channel1,36,286.44,288.44,"Oh, it definitely does, ma'am.",positive,0.6054,False,False,False,False,False
+en_CA_Hospitality_1592211,58,agent,channel1,37,288.44,291.44,We are one of the four-star best hotels in the region.,positive,0.9721,False,False,False,False,False
+en_CA_Hospitality_1592211,59,agent,channel1,38,291.44,295.44,So it's a fairly decent size pool.,positive,0.7659,False,False,False,False,False
+en_CA_Hospitality_1592211,60,agent,channel1,39,295.44,316.44,I believe the deep end is around two meters.,neutral,0.908,False,False,False,False,False
+en_CA_Hospitality_1592211,61,customer,channel2,22,302.0,304.0,That's interesting.,positive,0.8459,False,False,False,False,False
+en_CA_Hospitality_1592211,62,customer,channel2,23,304.0,333.0,"So, what happens if I'm not a, what is your checkout the standard 11 o'clock?",neutral,0.8309,False,False,False,False,False
+en_CA_Hospitality_1592211,63,agent,channel1,40,316.44,322.44,"So check out on the day of checkout, you'd have to be out of the room by 11 o'clock.",neutral,0.9057,False,False,False,False,False
+en_CA_Hospitality_1592211,64,agent,channel1,41,322.44,326.44,And the check-in would be 3 pm.,neutral,0.9282,False,False,False,False,False
+en_CA_Hospitality_1592211,65,agent,channel1,42,326.44,336.44,"However, we do offer early check-in as well for a little bit of extra fee.",neutral,0.7694,False,False,True,False,False
+en_CA_Hospitality_1592211,66,customer,channel2,24,333.0,347.0,And also late checkout.,negative,0.7092,False,False,False,False,False
+en_CA_Hospitality_1592211,67,agent,channel1,43,336.44,339.44,We do also offer that option as well.,neutral,0.6325,False,False,False,False,False
+en_CA_Hospitality_1592211,68,agent,channel1,44,339.44,345.44,All options do include an extra charge that you'd have to pay at either a time of check-in or a checkout.,neutral,0.916,False,False,False,False,False
+en_CA_Hospitality_1592211,69,customer,channel2,25,347.0,351.0,"Okay, that's good to know.",positive,0.8634,False,False,False,False,False
+en_CA_Hospitality_1592211,70,customer,channel2,26,351.0,358.0,I'm thinking about this.,neutral,0.8676,False,False,False,False,False
+en_CA_Hospitality_1592211,71,customer,channel2,27,358.0,363.0,"All right. Well, I'd like to do that then.",positive,0.7467,False,False,False,False,False
+en_CA_Hospitality_1592211,72,customer,channel2,28,363.0,383.0,"I'd like to, to book, I'd like to take my booking and extend it for the two days that I mentioned from Sunday to and Monday.",neutral,0.7127,False,False,False,False,False
+en_CA_Hospitality_1592211,73,agent,channel1,45,369.44,384.44,"Of course, just give me a few minutes to extend that and to add it to the rooms in the request that we have.",neutral,0.6727,False,False,False,False,False
+en_CA_Hospitality_1592211,74,customer,channel2,29,383.0,411.0,That would be good to know.,positive,0.9186,False,False,False,False,False
+en_CA_Hospitality_1592211,75,agent,channel1,46,384.44,391.44,"Okay, so I've got that all squared away and I've sent an email to the email that was provided here on file.",neutral,0.6224,False,False,False,False,False
+en_CA_Hospitality_1592211,76,agent,channel1,47,391.44,395.44,So you should be receiving that email in just a few moments.,neutral,0.8144,False,False,False,False,False
+en_CA_Hospitality_1592211,77,agent,channel1,48,395.44,406.44,"Okay, so I've done everything on my end.",neutral,0.652,False,False,False,False,False
+en_CA_Hospitality_1592211,78,agent,channel1,49,406.44,410.44,Is there any other questions that we can help you with today?,neutral,0.908,False,False,True,False,False
+en_CA_Hospitality_1592211,79,customer,channel2,30,412.0,429.0,"I don't think so. I'm, I'm looking forward to coming in doing my thing. Is there, for example, one other thing I was thinking about, is there any local things that would be of interest that I would know about upon arrival?",neutral,0.4891,False,False,False,False,False
+en_CA_Hospitality_1592211,80,agent,channel1,50,425.44,444.44,"Well, of course, ma'am.",neutral,0.5815,False,False,False,False,False
+en_CA_Hospitality_1592211,81,customer,channel2,31,429.0,441.0,"Like brochures or, or other things that I could find very quickly without looking, having to look through many pages of the, of a telephone book.",neutral,0.8039,False,False,False,False,False
+en_CA_Hospitality_1592211,82,agent,channel1,51,444.44,451.44,"I don't know of anybody that uses telephone books anymore, but we definitely do have brochures and things of the current events.",neutral,0.8738,False,False,False,False,False
+en_CA_Hospitality_1592211,83,agent,channel1,52,451.44,462.44,The current events that are going to be going on at this time that you booked would be the local country festival as well as the jam festival that's also going on in the regions around.,neutral,0.9065,False,False,False,False,False
+en_CA_Hospitality_1592211,84,customer,channel2,32,459.0,470.0,"Oh, wow. That's interesting to know.",positive,0.952,False,False,False,False,False
+en_CA_Hospitality_1592211,85,agent,channel1,53,462.44,479.44,And we are very famous for a jam here.,positive,0.7624,False,False,False,False,False
+en_CA_Hospitality_1592211,86,customer,channel2,33,470.0,472.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Hospitality_1592211,87,customer,channel2,34,472.0,480.0,"And the local restaurants and all that, are they listed with the hotel or do I have to find them one by one?",neutral,0.9192,False,False,False,False,False
+en_CA_Hospitality_1592211,88,agent,channel1,54,479.44,484.44,"No, we can definitely give you direction on where to find some of the best restaurants.",positive,0.849,False,False,False,False,False
+en_CA_Hospitality_1592211,89,agent,channel1,55,484.44,487.44,"And as well, it has easy access.",positive,0.6495,False,False,False,False,False
+en_CA_Hospitality_1592211,90,agent,channel1,56,487.44,493.44,"As I mentioned, you have your own private parking space to be able to get in and out of the access to the hotel.",neutral,0.8815,False,False,False,False,False
+en_CA_Hospitality_1592211,91,agent,channel1,57,493.44,501.44,As well as it's nearby quite a number of the famous restaurants that include also lunch and dinner.,positive,0.6286,False,False,False,False,False
+en_CA_Hospitality_1592211,92,agent,channel1,58,501.44,507.44,We do have one that you can take in the hotel itself.,neutral,0.8734,False,False,False,False,False
+en_CA_Hospitality_1592211,93,agent,channel1,59,507.44,527.44,But we do have a large amount of variety in the region that I'm sure that you will enjoy.,positive,0.961,False,False,False,False,False
+en_CA_Hospitality_1592211,94,customer,channel2,35,510.0,524.0,"Well, that, that'll be good to know because that's what I'm looking forward to doing. Okay.",positive,0.9678,False,False,False,False,False
+en_CA_Hospitality_1592211,95,customer,channel2,36,524.0,539.0,I think we have it.,neutral,0.7612,False,False,False,False,False
+en_CA_Hospitality_1592211,96,agent,channel1,60,527.44,536.44,"Okay, that's great to hear. I'm very glad that you and I know that you will enjoy your stay with the best Canadian hotel here.",positive,0.9866,False,False,False,False,False
+en_CA_Hospitality_1592211,97,agent,channel1,61,536.44,543.44,I am Joel and have a great day.,positive,0.9691,False,False,False,False,False
+en_CA_Hospitality_1592211,98,customer,channel2,37,539.0,558.0,Thank you very much. I am enjoying it. Bye.,positive,0.9799,False,False,False,False,False
+en_CA_Hospitality_1592211,99,agent,channel1,62,543.44,557.44,Bye.,neutral,0.6078,False,False,False,False,False

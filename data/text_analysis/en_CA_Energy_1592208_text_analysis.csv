@@ -1,0 +1,89 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Energy_1592208,1,agent,channel1,1,0.0,16.48,"Hello, welcome and thank you for calling the Sunco Gas Company.",positive,0.8589,False,False,False,False,False
+en_CA_Energy_1592208,2,customer,channel2,1,0.0,28.96,"Hello, my name is Dorothy Brown and I happen to be a new customer to the gas service.",neutral,0.7885,False,False,False,False,False
+en_CA_Energy_1592208,3,agent,channel1,2,16.48,17.48,My name is Joel.,neutral,0.8325,False,False,False,False,False
+en_CA_Energy_1592208,4,agent,channel1,3,17.48,18.4,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_CA_Energy_1592208,5,customer,channel2,2,28.96,36.48,"I don't really know too much about it, but that's why I'm calling to find out how I begin to start.",neutral,0.8375,False,False,False,False,False
+en_CA_Energy_1592208,6,agent,channel1,4,30.0,44.8,"Well, that's great to hear and congratulations on your new purchase of your home.",positive,0.9878,False,False,False,False,False
+en_CA_Energy_1592208,7,agent,channel1,5,44.8,51.6,"So if you're calling to GAD to request gas service installation, then what we have, we",neutral,0.8381,False,False,False,False,False
+en_CA_Energy_1592208,8,agent,channel1,6,51.6,57.28,have many different packages that we can give you from simple gas hookup.,neutral,0.7251,False,False,False,False,False
+en_CA_Energy_1592208,9,agent,channel1,7,57.28,64.28,"And since your home, I can see from your area that you're calling from, you're already attached",neutral,0.6763,False,False,False,False,False
+en_CA_Energy_1592208,10,customer,channel2,3,58.96,74.32,"And, okay, so how long would that take?",neutral,0.8624,False,False,False,False,False
+en_CA_Energy_1592208,11,agent,channel1,8,64.28,65.28,to the line.,neutral,0.8187,False,False,False,False,False
+en_CA_Energy_1592208,12,agent,channel1,9,65.28,66.48,So we would just have to activate it.,neutral,0.8949,False,False,False,False,False
+en_CA_Energy_1592208,13,agent,channel1,10,66.48,76.28,No installation would be required.,neutral,0.8279,False,False,False,False,False
+en_CA_Energy_1592208,14,agent,channel1,11,76.28,80.08,Well it doesn't require very much time.,neutral,0.5679,False,False,False,False,False
+en_CA_Energy_1592208,15,agent,channel1,12,80.08,85.88,"So since we already have to have you already hooked up to the system, what we can do",neutral,0.9119,False,False,False,False,False
+en_CA_Energy_1592208,16,agent,channel1,13,85.88,90.76,is we would just have to turn it on and go in and check to make sure that all the valves,neutral,0.8974,False,False,False,False,False
+en_CA_Energy_1592208,17,customer,channel2,4,88.96,90.96,You,neutral,0.4584,False,False,False,False,False
+en_CA_Energy_1592208,18,agent,channel1,14,90.76,97.72,"are up to date and inspect some very minor things around the equipment, so your furnace,",neutral,0.8719,False,False,False,False,False
+en_CA_Energy_1592208,19,agent,channel1,15,97.72,102.28,see how old it is and if that will require any changes with our system.,neutral,0.8088,False,False,False,False,False
+en_CA_Energy_1592208,20,agent,channel1,16,102.28,109.72,"Because from what I see here, there is a gas hookup in your area, but it doesn't",neutral,0.7218,False,False,False,False,False
+en_CA_Energy_1592208,21,agent,channel1,17,109.72,117.44,say that the previous owner of that house was a customer of ours.,neutral,0.8706,False,False,False,False,False
+en_CA_Energy_1592208,22,agent,channel1,18,117.44,132.56,So we'd have to see if the equipment matches with what they might have been using prior.,neutral,0.9101,False,False,False,False,False
+en_CA_Energy_1592208,23,customer,channel2,5,118.96,130.96,"Okay, so you're telling me that you have to come in the house to check the furnace and do the outside inspection. Is that correct?",neutral,0.9062,False,False,False,False,False
+en_CA_Energy_1592208,24,agent,channel1,19,132.56,133.56,That is correct.,neutral,0.5046,False,False,False,False,False
+en_CA_Energy_1592208,25,agent,channel1,20,133.56,138.32,We would have to take a look and make sure that our equipment would match what's there.,neutral,0.861,False,False,False,False,False
+en_CA_Energy_1592208,26,agent,channel1,21,138.76,143.12,"From what I can see, it's very minor changes because many of the homes in that area have",neutral,0.8135,False,False,False,False,False
+en_CA_Energy_1592208,27,agent,channel1,22,143.12,145.52,the hookups and things that are required.,neutral,0.8205,False,False,False,False,False
+en_CA_Energy_1592208,28,agent,channel1,23,145.52,151.72,"So the inspection would take probably no more than less than 20, 25 minutes and that includes",neutral,0.7211,False,False,False,False,False
+en_CA_Energy_1592208,29,customer,channel2,6,148.96,165.44,"Okay, and then after that, how much are we looking at? Is it a monthly statement? Is it a yearly statement? Is it?",neutral,0.9369,False,False,False,False,False
+en_CA_Energy_1592208,30,agent,channel1,24,151.72,168.52,installation of any other equipment as well.,neutral,0.9107,False,False,False,False,False
+en_CA_Energy_1592208,31,agent,channel1,25,168.52,174.68,"Well it is a monthly statement because what will have to be done is it's based on usage,",neutral,0.8823,False,False,False,False,False
+en_CA_Energy_1592208,32,agent,channel1,26,174.68,178.04,but there's also a flat charge for delivery as well.,neutral,0.8787,False,False,False,False,False
+en_CA_Energy_1592208,33,agent,channel1,27,178.04,183.72,"So that flat fee is charged monthly, but then the rest of it is also based on your usage.",neutral,0.8947,False,False,False,False,False
+en_CA_Energy_1592208,34,customer,channel2,7,178.96,204.96,"Okay, so you have no equal payment plan?",neutral,0.5396,False,False,False,False,False
+en_CA_Energy_1592208,35,agent,channel1,28,183.72,189.64,"So for example, you might use more in the winter and less in the summer if it's mainly",neutral,0.8767,False,False,False,False,False
+en_CA_Energy_1592208,36,agent,channel1,29,189.64,194.96,"used for heating, but if you also have a gas stove, for example, that hookup would use",neutral,0.9272,False,False,False,False,False
+en_CA_Energy_1592208,37,agent,channel1,30,194.96,195.96,a little bit more.,neutral,0.7263,False,False,False,False,False
+en_CA_Energy_1592208,38,agent,channel1,31,195.96,206.24,So frequency of payments is on a monthly basis.,neutral,0.9233,False,False,False,False,False
+en_CA_Energy_1592208,39,agent,channel1,32,206.24,210.36,"And at the moment, since it's based on usage, that usage varies between different months",neutral,0.9276,False,False,False,False,False
+en_CA_Energy_1592208,40,customer,channel2,8,208.96,230.96,"Okay, so you don't have any e-transfer or anything like that?",neutral,0.8434,False,False,False,False,False
+en_CA_Energy_1592208,41,agent,channel1,33,210.36,211.44,of the year.,neutral,0.7939,False,False,False,False,False
+en_CA_Energy_1592208,42,agent,channel1,34,211.44,217.4,So it is based on monthly payments and you will be sent a monthly statement either,neutral,0.9302,False,False,False,False,False
+en_CA_Energy_1592208,43,agent,channel1,35,217.4,232.08,through your email address or via your post office.,neutral,0.8977,False,False,False,False,False
+en_CA_Energy_1592208,44,customer,channel2,9,230.96,258.96,"Okay, so how soon can this be done? Can I have it for this month, for example?",neutral,0.8783,False,False,False,False,False
+en_CA_Energy_1592208,45,agent,channel1,36,232.08,237.24,"We do offer E-transfer as a form of payment, but the easiest way is usually through credit",neutral,0.7526,False,False,False,False,False
+en_CA_Energy_1592208,46,agent,channel1,37,237.24,238.96,card.,neutral,0.7625,False,False,False,False,False
+en_CA_Energy_1592208,47,agent,channel1,38,238.96,240.6,That information is not stored through us.,neutral,0.7251,False,False,False,False,False
+en_CA_Energy_1592208,48,agent,channel1,39,240.6,246.64,You can do that through the online portal that we also offer off our website as well.,neutral,0.725,False,False,False,False,False
+en_CA_Energy_1592208,49,agent,channel1,40,246.64,250.56,Or you can also click on the link when we send a reminder if you choose the paperless,neutral,0.8846,False,False,False,False,False
+en_CA_Energy_1592208,50,agent,channel1,41,250.56,264.28,route.,neutral,0.8175,False,False,False,False,False
+en_CA_Energy_1592208,51,customer,channel2,10,258.96,262.96,Can I have it in two weeks?,neutral,0.8835,False,False,False,False,False
+en_CA_Energy_1592208,52,agent,channel1,42,264.28,267.52,"Oh yes, this is a very fast and affordable option for you.",positive,0.9668,False,False,False,False,False
+en_CA_Energy_1592208,53,agent,channel1,43,267.52,273.4,So we could easily send out one of our trucks probably within the next three or four days.,neutral,0.5538,False,False,False,False,False
+en_CA_Energy_1592208,54,agent,channel1,44,273.4,285.2,We also offer energy saving packages such as if you use the energy at peak times or off,neutral,0.7792,False,False,False,False,False
+en_CA_Energy_1592208,55,agent,channel1,45,285.2,292.04,"peak hours, you would save more money that way, such as between seven to nine or five",neutral,0.5421,False,False,False,False,False
+en_CA_Energy_1592208,56,customer,channel2,11,288.96,316.96,"So, how much per kilowatt hour are we talking?",neutral,0.9199,False,False,False,False,False
+en_CA_Energy_1592208,57,agent,channel1,46,292.04,295.92,"to seven in the morning, seven to nine at night.",neutral,0.8919,False,False,False,False,False
+en_CA_Energy_1592208,58,agent,channel1,47,295.92,301.8,"Those will offer, you do get a bonus and it costs less per hour than it would be through",neutral,0.5631,False,False,False,False,False
+en_CA_Energy_1592208,59,agent,channel1,48,301.8,306.36,"the normal route, as I said, based on usage.",neutral,0.8871,False,False,False,False,False
+en_CA_Energy_1592208,60,agent,channel1,49,306.36,317.76,"But if you use it at different times, at certain times is charge less.",neutral,0.8233,False,False,False,False,False
+en_CA_Energy_1592208,61,customer,channel2,12,316.96,332.96,"Okay, so you're telling me that you have to come in the house to check the furnace and do the outside inspection?",neutral,0.8502,False,False,False,False,False
+en_CA_Energy_1592208,62,agent,channel1,50,317.76,323.68,"Well you're looking at probably around, so I would say based on the packages that I",neutral,0.8543,False,False,False,False,False
+en_CA_Energy_1592208,63,agent,channel1,51,323.68,330.72,"have here, you're looking at about $10 per kilowatt, but again kilowatt takes a lot",neutral,0.6489,False,False,False,False,False
+en_CA_Energy_1592208,64,agent,channel1,52,330.72,338.08,"to get there, so many people don't spend that much in kilowatts per day.",neutral,0.725,False,False,False,False,False
+en_CA_Energy_1592208,65,customer,channel2,13,332.96,360.96,"Okay, so what would be your earliest start date that I can have?",neutral,0.9139,False,False,False,False,False
+en_CA_Energy_1592208,66,agent,channel1,53,338.08,346.96,"If you're running things such as your heating and or your dryer and or your refrigerator,",neutral,0.9235,False,False,False,False,False
+en_CA_Energy_1592208,67,agent,channel1,54,346.96,352.92,those are the main things that take the most energy.,neutral,0.5652,False,False,False,False,False
+en_CA_Energy_1592208,68,agent,channel1,55,352.92,363.16,"Well as I said, so we would be able to send out a truck within three to four business days",neutral,0.7283,False,False,False,False,False
+en_CA_Energy_1592208,69,customer,channel2,14,360.96,388.96,"Well, I am certainly interested. So how do I go about doing this, confirming this?",positive,0.7611,False,False,False,False,False
+en_CA_Energy_1592208,70,agent,channel1,56,363.16,367.52,and from there we'd be able to hook up everything that we need.,positive,0.5883,False,False,False,False,False
+en_CA_Energy_1592208,71,agent,channel1,57,367.52,374.8,So you'd be able to get the first statement within that same day and or an email the,neutral,0.9334,False,False,False,False,False
+en_CA_Energy_1592208,72,agent,channel1,58,374.8,387.52,next day.,neutral,0.7988,False,False,False,False,False
+en_CA_Energy_1592208,73,agent,channel1,59,387.52,392.36,"Well let me just take down your information here, where you are in the address and we",neutral,0.8402,False,False,False,False,False
+en_CA_Energy_1592208,74,customer,channel2,15,388.96,416.96,"Yes, I can be here. That's a good time for me.",positive,0.9487,False,False,False,False,False
+en_CA_Energy_1592208,75,agent,channel1,60,392.36,398.04,can definitely help you from there and I'll book it in with one of our technicians right,positive,0.5438,False,False,False,False,False
+en_CA_Energy_1592208,76,agent,channel1,61,398.04,401.2,now while I have you on the phone.,neutral,0.8373,False,False,False,False,False
+en_CA_Energy_1592208,77,agent,channel1,62,401.2,411.6,"I'm looking here, does Thursday at 10 a.m. sound good to you?",neutral,0.8188,False,False,True,False,False
+en_CA_Energy_1592208,78,agent,channel1,63,411.6,416.2,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_Energy_1592208,79,agent,channel1,64,416.2,424.84,I got you booked for installation and turning on of the gas for Thursday at 10 a.m.,neutral,0.9177,False,False,False,False,False
+en_CA_Energy_1592208,80,customer,channel2,16,416.96,444.96,"Okay, sounds good to me. Thank you very much.",positive,0.9719,False,False,False,False,False
+en_CA_Energy_1592208,81,agent,channel1,65,424.84,429.76,So from there you'll receive a package and a contract in your email that you've provided,neutral,0.9016,False,False,False,False,False
+en_CA_Energy_1592208,82,agent,channel1,66,429.76,437.32,already and we can go by signing the contract and getting the first payment coming in statement,neutral,0.8946,False,False,False,False,False
+en_CA_Energy_1592208,83,agent,channel1,67,437.32,444.6,for next month.,neutral,0.8593,False,False,False,False,False
+en_CA_Energy_1592208,84,agent,channel1,68,444.6,451.6,Thank you very much for calling Suncoe and for your purchase today.,positive,0.9292,False,False,False,False,False
+en_CA_Energy_1592208,85,customer,channel2,17,444.96,454.96,Bye.,neutral,0.6078,False,False,False,False,False
+en_CA_Energy_1592208,86,agent,channel1,69,451.6,453.24,I hope that you have a great day.,positive,0.9826,False,False,False,False,False
+en_CA_Energy_1592208,87,agent,channel1,70,453.24,454.24,Thank you very much.,positive,0.9445,False,False,False,False,False
+en_CA_Energy_1592208,88,agent,channel1,71,454.24,454.74,Bye.,neutral,0.6078,False,False,False,False,False

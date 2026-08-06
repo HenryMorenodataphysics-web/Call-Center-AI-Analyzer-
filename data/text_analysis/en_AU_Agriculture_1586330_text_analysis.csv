@@ -1,0 +1,74 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Agriculture_1586330,1,agent,channel1,1,0.0,25.0,"Hi, how can I help you?",neutral,0.7674,False,False,True,False,False
+en_AU_Agriculture_1586330,2,customer,channel2,1,0.0,29.0,"Hi, I'm just calling about the new government subsidies for the drip irrigation.",neutral,0.8273,False,False,False,False,False
+en_AU_Agriculture_1586330,3,agent,channel1,2,25.0,30.0,"Yeah, sure.",neutral,0.4824,False,False,False,False,False
+en_AU_Agriculture_1586330,4,customer,channel2,2,29.0,51.0,It's just our water rates have been rising and I'm looking at switching to flood irrigation.,neutral,0.5155,False,False,False,False,False
+en_AU_Agriculture_1586330,5,agent,channel1,3,30.0,34.0,"Look, thank you for contacting us.",positive,0.838,False,False,False,False,False
+en_AU_Agriculture_1586330,6,agent,channel1,4,34.0,40.0,This is the correct information line and I can definitely help you with your questions.,positive,0.8479,False,False,False,False,False
+en_AU_Agriculture_1586330,7,agent,channel1,5,40.0,43.0,Is there a particular question that you need to check?,neutral,0.8852,False,False,True,False,False
+en_AU_Agriculture_1586330,8,agent,channel1,6,43.0,56.0,"Look, yes.",neutral,0.5176,False,False,False,False,False
+en_AU_Agriculture_1586330,9,customer,channel2,3,51.0,75.0,I'm wondering if that's a right move for me.,neutral,0.5733,False,False,False,False,False
+en_AU_Agriculture_1586330,10,agent,channel1,7,56.0,67.0,The program is designed to help farmers move from flood irrigation to more efficient systems like drip or sprinkler irrigation.,neutral,0.6709,False,False,False,False,False
+en_AU_Agriculture_1586330,11,agent,channel1,8,67.0,73.0,It provides a subsidy to cover part of the cost of equipment and installations.,neutral,0.8696,False,False,False,False,False
+en_AU_Agriculture_1586330,12,agent,channel1,9,73.0,77.0,Is that what you're after?,neutral,0.738,False,False,True,False,False
+en_AU_Agriculture_1586330,13,customer,channel2,4,75.0,90.0,"It is what I'm after, yes.",neutral,0.5819,False,False,False,False,False
+en_AU_Agriculture_1586330,14,agent,channel1,10,77.0,78.0,Sure.,neutral,0.6517,False,False,False,False,False
+en_AU_Agriculture_1586330,15,agent,channel1,11,78.0,86.0,"So look, I can take you through some of the steps and your eligibility and application process.",neutral,0.863,False,False,False,False,False
+en_AU_Agriculture_1586330,16,agent,channel1,12,86.0,94.0,"Before I continue, can I have your postcode, please?",neutral,0.8888,False,False,True,False,False
+en_AU_Agriculture_1586330,17,customer,channel2,5,90.0,100.0,"Yeah, it's a 7952.",neutral,0.7626,False,False,False,False,False
+en_AU_Agriculture_1586330,18,agent,channel1,13,94.0,97.0,"7952, sure.",neutral,0.7877,False,False,False,False,False
+en_AU_Agriculture_1586330,19,agent,channel1,14,97.0,103.0,And what was your name again?,neutral,0.8506,False,False,True,False,False
+en_AU_Agriculture_1586330,20,customer,channel2,6,100.0,102.0,"Uh, Jenny and Brian.",neutral,0.9089,False,False,False,False,False
+en_AU_Agriculture_1586330,21,agent,channel1,15,103.0,105.0,"Perfect, thank you so much.",positive,0.9757,False,False,False,False,False
+en_AU_Agriculture_1586330,22,agent,channel1,16,105.0,121.0,"Look, so in terms of the eligibility to apply, you will need to be the owner or the leaseholder for a commercial farm and be able to show that the upgrade will save water.",neutral,0.8487,False,False,False,False,False
+en_AU_Agriculture_1586330,23,agent,channel1,17,121.0,130.0,There is a deadline for the process and the application for this round will close at the end of November.,neutral,0.9315,False,False,False,False,False
+en_AU_Agriculture_1586330,24,customer,channel2,7,130.0,132.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Agriculture_1586330,25,agent,channel1,18,130.0,141.0,But we recommend you submitting your application as soon as possible since the funding for this program is limited.,neutral,0.7102,False,False,False,False,False
+en_AU_Agriculture_1586330,26,agent,channel1,19,141.0,164.0,"In terms of the paperwork, you will need the proof of property ownership or lease, a code or irrigation plan from a licensed supplier and some recent water usage details like your latest water bill or allocation statements.",neutral,0.9281,False,False,False,False,False
+en_AU_Agriculture_1586330,27,customer,channel2,8,160.0,177.0,"Oh, okay, yep.",neutral,0.5286,False,False,False,False,False
+en_AU_Agriculture_1586330,28,agent,channel1,20,164.0,173.0,"And for the application process, you can apply online through our website. There is a portal link.",neutral,0.8227,False,False,False,False,False
+en_AU_Agriculture_1586330,29,agent,channel1,21,173.0,180.0,Can I ask how you heard about this program?,neutral,0.9589,False,False,True,False,False
+en_AU_Agriculture_1586330,30,customer,channel2,9,177.0,183.0,"Um, through a government website.",neutral,0.8512,False,False,False,False,False
+en_AU_Agriculture_1586330,31,agent,channel1,22,180.0,184.0,Was that through the Department of Environment?,neutral,0.9383,False,False,True,False,False
+en_AU_Agriculture_1586330,32,customer,channel2,10,183.0,206.0,"Yeah, yes.",neutral,0.5081,False,False,False,False,False
+en_AU_Agriculture_1586330,33,agent,channel1,23,184.0,185.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_AU_Agriculture_1586330,34,agent,channel1,24,185.0,189.0,So you would have seen the link to our portal.,neutral,0.8786,False,False,False,False,False
+en_AU_Agriculture_1586330,35,agent,channel1,25,189.0,200.0,"You can submit your application through the portal or if you prefer, you can visit your local government offices and submit the documents in person too.",neutral,0.8727,False,False,False,False,False
+en_AU_Agriculture_1586330,36,agent,channel1,26,200.0,215.0,So that's also an option. I'm not sure whether you have access to one of the offices or do you prefer the online application?,neutral,0.9003,False,False,True,False,False
+en_AU_Agriculture_1586330,37,customer,channel2,11,206.0,213.0,"Um, it would have to be online because we're quite far away from town.",neutral,0.8001,False,False,False,False,False
+en_AU_Agriculture_1586330,38,customer,channel2,12,213.0,230.0,It's about a 60 minute drive into town and back.,neutral,0.8758,False,False,False,False,False
+en_AU_Agriculture_1586330,39,agent,channel1,27,215.0,235.0,"Yeah, sure. And that is actually our preferred option because we can process your applications faster and there is a better chance of you actually receiving funding from the government.",positive,0.8288,False,False,False,False,False
+en_AU_Agriculture_1586330,40,customer,channel2,13,230.0,259.0,"Um, I was just wondering, do you have loans available to cover equipment costs?",neutral,0.9129,False,False,False,False,False
+en_AU_Agriculture_1586330,41,agent,channel1,28,235.0,249.0,"So if you actually need help with upfront costs, low interest loans are available through one of our institutes to help cover any remaining expenses.",neutral,0.6689,False,False,False,False,False
+en_AU_Agriculture_1586330,42,agent,channel1,29,249.0,258.0,"But for that and for you to be eligible for that, we will need complete details about what you are actually seeking for.",neutral,0.8527,False,False,False,False,False
+en_AU_Agriculture_1586330,43,agent,channel1,30,258.0,266.0,"So the type of equipment and all the details, warranty details, the costs and everything about it.",neutral,0.7623,False,False,False,False,False
+en_AU_Agriculture_1586330,44,agent,channel1,31,266.0,274.0,"So if you are doing this online, there will be a section where you can actually provide all these additional information.",neutral,0.9104,False,False,False,False,False
+en_AU_Agriculture_1586330,45,agent,channel1,32,274.0,281.0,But what I will suggest is gather all the information upfront and then start your application process.,neutral,0.8682,False,False,False,False,False
+en_AU_Agriculture_1586330,46,agent,channel1,33,281.0,288.0,"You can always go back and submit amendments to the application, but I would suggest doing it in all.",neutral,0.8178,False,False,False,False,False
+en_AU_Agriculture_1586330,47,agent,channel1,34,288.0,298.0,"So when the offices start looking at your application, they have all the information in front of them.",neutral,0.885,False,False,False,False,False
+en_AU_Agriculture_1586330,48,customer,channel2,14,289.0,305.0,"Okay, it sounds double.",neutral,0.7522,False,False,False,False,False
+en_AU_Agriculture_1586330,49,agent,channel1,35,298.0,309.0,"Yeah, so is there any other particular information that you will need?",neutral,0.9224,False,False,True,False,False
+en_AU_Agriculture_1586330,50,customer,channel2,15,305.0,327.0,Just wondering how long would it be until a decision has been made.,neutral,0.737,False,False,False,False,False
+en_AU_Agriculture_1586330,51,agent,channel1,36,309.0,322.0,"So the applications will close at the end of November, but we will basically start reviewing as soon as applications are complete.",neutral,0.8719,False,False,False,False,False
+en_AU_Agriculture_1586330,52,agent,channel1,37,322.0,330.0,So I would say there is between four to six weeks wait.,neutral,0.8694,False,False,False,False,False
+en_AU_Agriculture_1586330,53,customer,channel2,16,327.0,356.0,"Okay, and then you let me know by email.",neutral,0.8795,False,False,False,False,False
+en_AU_Agriculture_1586330,54,agent,channel1,38,330.0,338.0,"Yeah, so all the information then again as part of the portal when you start initially you will need to provide your contact information.",neutral,0.9093,False,False,False,False,False
+en_AU_Agriculture_1586330,55,agent,channel1,39,338.0,349.0,And the email that you provide will be the one that will receive all the notifications in terms of the receipt of your application and how the approval process is progressing.,neutral,0.8843,False,False,False,False,False
+en_AU_Agriculture_1586330,56,agent,channel1,40,349.0,357.0,If there are any additional information like major information that are missing from your application.,neutral,0.6695,False,False,False,False,False
+en_AU_Agriculture_1586330,57,agent,channel1,41,357.0,362.0,I would say it's very helpful to have a contact number on the application form.,positive,0.8742,False,False,False,False,False
+en_AU_Agriculture_1586330,58,customer,channel2,17,357.0,383.0,"Okay, it sounds straightforward.",positive,0.6514,False,False,False,False,False
+en_AU_Agriculture_1586330,59,agent,channel1,42,362.0,371.0,So one of our agents can actually reach out if there is something that needs to be received immediately.,neutral,0.8394,False,False,False,False,False
+en_AU_Agriculture_1586330,60,agent,channel1,43,371.0,384.0,Would you like me to also give you a phone number where you can actually start your application and then if you needed any particular information or checking points.,neutral,0.9048,False,False,False,False,False
+en_AU_Agriculture_1586330,61,customer,channel2,18,383.0,389.0,"Oh, yes, please.",positive,0.8956,False,False,False,False,False
+en_AU_Agriculture_1586330,62,agent,channel1,44,384.0,397.0,So the phone number is 1-800-396-592.,neutral,0.8916,False,False,False,False,False
+en_AU_Agriculture_1586330,63,customer,channel2,19,389.0,392.0,"Oh, yeah.",neutral,0.4814,False,False,False,False,False
+en_AU_Agriculture_1586330,64,customer,channel2,20,392.0,396.0,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Agriculture_1586330,65,customer,channel2,21,396.0,397.0,"Okay, cool.",positive,0.689,False,False,False,False,False
+en_AU_Agriculture_1586330,66,agent,channel1,45,397.0,408.0,"Yeah, so you can contact this number if there were any specific help needed in terms of the application, but they won't be able to provide you information about the whole process.",neutral,0.639,False,False,False,False,False
+en_AU_Agriculture_1586330,67,customer,channel2,22,397.0,412.0,We'll let them down.,negative,0.7147,False,False,False,False,False
+en_AU_Agriculture_1586330,68,agent,channel1,46,408.0,412.0,You need to contact us for that.,neutral,0.8635,False,False,False,False,False
+en_AU_Agriculture_1586330,69,customer,channel2,23,412.0,421.0,That's cool.,positive,0.9389,False,False,False,False,False
+en_AU_Agriculture_1586330,70,agent,channel1,47,412.0,422.0,"Fantastic. If there are no other questions, would you mind staying on the line for a short server after the call?",positive,0.9332,False,False,True,False,False
+en_AU_Agriculture_1586330,71,customer,channel2,24,421.0,426.0,"No, that's fine.",positive,0.595,False,False,False,False,False
+en_AU_Agriculture_1586330,72,agent,channel1,48,422.0,425.0,Perfect. Thank you so much for calling.,positive,0.9849,False,False,False,False,False
+en_AU_Agriculture_1586330,73,customer,channel2,25,426.0,432.0,Thanks.,positive,0.7303,False,False,False,False,False

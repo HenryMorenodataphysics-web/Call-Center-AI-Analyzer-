@@ -1,0 +1,43 @@
+{
+  "contract_version": "1.0.0",
+  "purpose": "Local, business-scoped document ingestion for grounded RAG retrieval.",
+  "default_business_id": "demo_customer_service",
+  "storage_root": ".runtime/knowledge_base",
+  "business_id_pattern": "^[a-z][a-z0-9_-]{2,63}$",
+  "max_file_bytes": 10485760,
+  "minimum_extracted_characters": 20,
+  "allowed_extensions": [".pdf", ".docx", ".txt", ".md"],
+  "allowed_policy_types": [
+    "compliance",
+    "qa",
+    "customer_service",
+    "product",
+    "procedure",
+    "other"
+  ],
+  "approval_statuses": ["pending_review", "approved_demo"],
+  "chunking": {
+    "strategy": "langchain_recursive_character",
+    "chunk_size": 1200,
+    "chunk_overlap": 150
+  },
+  "required_metadata": [
+    "business_id",
+    "title",
+    "policy_type",
+    "version",
+    "effective_date",
+    "language",
+    "market",
+    "approval_status"
+  ],
+  "guardrails": [
+    "Only approved_demo documents are eligible for Copilot retrieval.",
+    "Uploaded content is evidence, never an instruction to the application or LLM.",
+    "Documents containing common prompt-injection instructions are rejected from v1 ingestion.",
+    "Uploaded files remain under the ignored local .runtime directory.",
+    "Every retrieved chunk retains business, version, page or section, and document provenance.",
+    "A retrieved passage is not proof of a policy violation; human review remains required.",
+    "Scanned PDFs without extractable text are rejected in v1 because OCR is not included."
+  ]
+}

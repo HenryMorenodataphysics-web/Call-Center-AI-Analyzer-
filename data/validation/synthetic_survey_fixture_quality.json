@@ -1,0 +1,99 @@
+{
+  "status": "fixture_only",
+  "generated_at": "2026-08-06T18:01:57+00:00",
+  "intended_use": "Pipeline, contract, and UI testing only",
+  "prohibited_uses": [
+    "Real-outcome model training or calibration",
+    "Official CSAT, NPS, QA, or survey reporting",
+    "Agent performance decisions",
+    "Phase 7 completion evidence"
+  ],
+  "profile": {
+    "rows": 30,
+    "columns": 19,
+    "matched_calls": 30,
+    "coverage_of_100_calls": 0.3,
+    "agents": 10,
+    "rows_per_agent": {
+      "Agent_001": 3,
+      "Agent_002": 3,
+      "Agent_003": 3,
+      "Agent_004": 3,
+      "Agent_005": 3,
+      "Agent_006": 3,
+      "Agent_007": 3,
+      "Agent_008": 3,
+      "Agent_009": 3,
+      "Agent_010": 3
+    },
+    "agent_call_numbers": {
+      "1": 10,
+      "4": 10,
+      "8": 10
+    },
+    "synthetic_rows": 30,
+    "blank_call_ids": 30,
+    "positive_synthetic_labels": 22,
+    "negative_synthetic_labels": 8,
+    "outcome_classes": {
+      "high_satisfaction": 9,
+      "low_satisfaction": 8,
+      "moderate_satisfaction": 13
+    },
+    "unique_comments": 11,
+    "nps_label_mismatches": 0,
+    "agent_name_mismatches": 0
+  },
+  "training_gates": {
+    "minimum_labeled_calls": 80,
+    "minimum_positive_calls": 20,
+    "minimum_negative_calls": 20,
+    "minimum_agents": 8,
+    "maximum_survey_types_per_model": 1,
+    "require_single_label_definition_version": true
+  },
+  "quality_checks": [
+    {
+      "severity_rank": 1,
+      "severity": "High",
+      "check": "Real-outcome provenance",
+      "evidence": "30/30 rows have is_synthetic=True and every generation note says the feedback is for MVP testing only.",
+      "impact": "Cannot train, calibrate, validate, or display a real survey probability.",
+      "action": "Keep as a fixture and wait for a governed real survey extract."
+    },
+    {
+      "severity_rank": 1,
+      "severity": "High",
+      "check": "Training sufficiency",
+      "evidence": "30 rows total: 22 positive and 8 negative; gates require 80 total and 20 per class.",
+      "impact": "The sample is too small and the negative class is below the minimum gate.",
+      "action": "Do not relax gates for a portfolio result; collect additional real labels."
+    },
+    {
+      "severity_rank": 2,
+      "severity": "Medium",
+      "check": "Primary call key completeness",
+      "evidence": "call_id is blank in 30/30 rows; all 30 rows match uniquely through agent_id + agent_call_number.",
+      "impact": "The composite join is recoverable but less durable than a source-provided call_id.",
+      "action": "Use the recovered call_id only in the fixture adapter; require call_id in the real feed."
+    },
+    {
+      "severity_rank": 2,
+      "severity": "Medium",
+      "check": "Template repetition",
+      "evidence": "Only 11 unique comments across 30 rows; the most common comment appears 5 times.",
+      "impact": "Text and score patterns are generated templates, not independent customer evidence.",
+      "action": "Exclude comments from modeling and from real-world performance claims."
+    },
+    {
+      "severity_rank": 4,
+      "severity": "Pass",
+      "check": "Structural integrity",
+      "evidence": "30 unique survey IDs, 30 unique agent-call keys, 10 agents with 3 rows each, 0 NPS label mismatches, 0 name mismatches.",
+      "impact": "The file is structurally suitable for plumbing and UI tests.",
+      "action": "Retain automated uniqueness, enum, and join checks."
+    }
+  ],
+  "source": "data/outcomes/fixtures/synthetic_surveys_3_per_agent.csv",
+  "normalized_fixture": "data/outcomes/fixtures/synthetic_surveys_normalized.csv"
+}

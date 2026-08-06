@@ -1,0 +1,71 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_AU_DeliveryService_1586330,channel1,1,0.0,26.0,"Good morning, thank you for calling Fox Career, my name is Ali, how can I help you today?"
+en_AU_DeliveryService_1586330,channel1,2,26.0,40.0,"Oh, I'm sorry to hear that, I understand you're calling about a package that hasn't arrived on time,"
+en_AU_DeliveryService_1586330,channel1,3,40.0,52.0,"especially since it contains important information, let's get this sorted out for you and you wanted this urgently."
+en_AU_DeliveryService_1586330,channel1,4,52.0,56.0,Can I please have your tracking number so I can look up the shipment details?
+en_AU_DeliveryService_1586330,channel1,5,63.6,72.4,"Sorry the last number is 845, thank you, just let me bring this on the system."
+en_AU_DeliveryService_1586330,channel1,6,72.4,90.4,"Thank you Jenny, I can see here that your package was due to arrive on 24th."
+en_AU_DeliveryService_1586330,channel1,7,90.4,98.4,"Okay, but you understand how there was some storms happening in the last couple of days,"
+en_AU_DeliveryService_1586330,channel1,8,98.4,108.4,"I understand that it's been delayed due to the storms, it is currently at the Tula Marine Airport facility,"
+en_AU_DeliveryService_1586330,channel1,9,108.4,118.4,so my understanding is can I confirm that this is going to be shipped to Bronzewick?
+en_AU_DeliveryService_1586330,channel1,10,118.4,128.4,"Okay, so I wouldn't expect this to be more than another day or so,"
+en_AU_DeliveryService_1586330,channel1,11,128.4,136.4,"but if you require this shipment immediately, what I can do is to lodge a trace request,"
+en_AU_DeliveryService_1586330,channel1,12,136.4,144.4,so we can then monitor the package closely and make sure it continues to move through the network.
+en_AU_DeliveryService_1586330,channel1,13,144.4,148.4,"Will, would you like me to do that for you?"
+en_AU_DeliveryService_1586330,channel1,14,148.4,158.4,"Okay, just bear with me and I'll need to collect some information from you."
+en_AU_DeliveryService_1586330,channel1,15,158.4,168.4,"So while I set this up, when we put this through you will receive an update as soon as there is new tracking information,"
+en_AU_DeliveryService_1586330,channel1,16,168.4,184.4,"so the latest that I have is the package has arrived at Tula Marine Airport at 9.15 this morning, so very recently."
+en_AU_DeliveryService_1586330,channel1,17,184.4,196.4,"I can also upgrade this for you to for faster handling, but that will cost you additional delivery."
+en_AU_DeliveryService_1586330,channel1,18,196.4,201.4,Would you like me to do that?
+en_AU_DeliveryService_1586330,channel1,19,201.4,207.4,"It does, it is a little bit expensive, there is an additional $30 for that,"
+en_AU_DeliveryService_1586330,channel1,20,207.4,223.4,but most likely you will be receiving that one by the end of today.
+en_AU_DeliveryService_1586330,channel1,21,223.4,228.4,"Okay, all right, so let's do that."
+en_AU_DeliveryService_1586330,channel1,22,228.4,238.4,"So just bear with me, I will need to cancel that trace request and then upgrade this to expedited service for faster handling."
+en_AU_DeliveryService_1586330,channel1,23,238.4,247.4,"Okay, yep, it is confirming that you should be able to receive that by 4.30pm today."
+en_AU_DeliveryService_1586330,channel1,24,254.4,265.4,"So for that, I will need your tracking number which I have got it, updated delivery, no other information is going to change?"
+en_AU_DeliveryService_1586330,channel1,25,265.4,267.4,No.
+en_AU_DeliveryService_1586330,channel1,26,267.4,282.4,"Okay, fantastic, so what I will need is your credit card information in a second, if you want to grab that while I complete your processing."
+en_AU_DeliveryService_1586330,channel1,27,282.4,287.4,"Fantastic, okay, I've processed the upgrade."
+en_AU_DeliveryService_1586330,channel1,28,287.4,295.4,So can you tell me your name on the credit card?
+en_AU_DeliveryService_1586330,channel1,29,295.4,299.4,Yep.
+en_AU_DeliveryService_1586330,channel1,30,299.4,312.4,And what is your credit code number?
+en_AU_DeliveryService_1586330,channel1,31,312.4,320.4,"5454100, and what was the last?"
+en_AU_DeliveryService_1586330,channel1,32,320.4,323.4,"9254, thank you."
+en_AU_DeliveryService_1586330,channel1,33,323.4,329.4,And the security code on the card?
+en_AU_DeliveryService_1586330,channel1,34,329.4,333.4,"459, perfect."
+en_AU_DeliveryService_1586330,channel1,35,333.4,341.4,"Okay, this might take a couple of seconds."
+en_AU_DeliveryService_1586330,channel1,36,341.4,349.4,"Beautiful, so what will happen now, we had your email address here, you should be receiving a confirmation on that."
+en_AU_DeliveryService_1586330,channel1,37,349.4,358.4,I'll stay on the line if you don't mind checking that your email has been received.
+en_AU_DeliveryService_1586330,channel1,38,358.4,361.4,Perfect.
+en_AU_DeliveryService_1586330,channel1,39,361.4,368.4,Was there anything else that we can help you today?
+en_AU_DeliveryService_1586330,channel1,40,368.4,380.4,"Great, look, since you have upgraded this, we will, you will receive a notification, we will receive a notification that the parcel has been received."
+en_AU_DeliveryService_1586330,channel1,41,380.4,390.4,"But in the meantime, if there was anything else that you need help, you can always contact us 24 seven on this line, and we will be able to help you."
+en_AU_DeliveryService_1586330,channel1,42,390.4,397.4,"And thank you so much for your patience again, and I'm sorry about the delay."
+en_AU_DeliveryService_1586330,channel1,43,397.4,408.4,"Thank you so much. And yeah, as I said, please feel free to call us anytime, especially if you didn't receive it up to 430pm this afternoon."
+en_AU_DeliveryService_1586330,channel1,44,408.4,412.4,"Thank you so much, Jenny, and have a great day."
+en_AU_DeliveryService_1586330,channel1,45,412.4,415.4,Bye bye.
+en_AU_DeliveryService_1586330,channel2,1,0.0,26.8,"Hi, my name's Jenny. I'm waiting for a really important package but it has not arrived on"
+en_AU_DeliveryService_1586330,channel2,2,26.8,32.8,time and I was told it would arrive yesterday and it's still not here. It really needs package.
+en_AU_DeliveryService_1586330,channel2,3,56.8,62.8,"Yeah, it's 459-217-845."
+en_AU_DeliveryService_1586330,channel2,4,66.8,68.8,5. Yeah.
+en_AU_DeliveryService_1586330,channel2,5,86.8,110.8,"Oh, yeah."
+en_AU_DeliveryService_1586330,channel2,6,117.8,119.8,"Yes, it is."
+en_AU_DeliveryService_1586330,channel2,7,119.8,147.8,"Okay. Yes, please."
+en_AU_DeliveryService_1586330,channel2,8,149.8,159.8,Okay.
+en_AU_DeliveryService_1586330,channel2,9,180.8,198.8,Okay.
+en_AU_DeliveryService_1586330,channel2,10,198.8,200.8,"Um, would it make it faster?"
+en_AU_DeliveryService_1586330,channel2,11,201.8,203.8,Would it make it...
+en_AU_DeliveryService_1586330,channel2,12,214.8,223.8,"Um, I really like that idea because it's got some very important details. Sorry, some very important documents that I need and I kind of need it today."
+en_AU_DeliveryService_1586330,channel2,13,223.8,250.8,"So yeah, I'll go with that idea. Thank you."
+en_AU_DeliveryService_1586330,channel2,14,250.8,264.8,That would be perfect.
+en_AU_DeliveryService_1586330,channel2,15,264.8,277.8,"No, no. All the information today is the same."
+en_AU_DeliveryService_1586330,channel2,16,277.8,291.8,Yeah.
+en_AU_DeliveryService_1586330,channel2,17,291.8,301.8,"Yeah, it's Jennifer O'Brien."
+en_AU_DeliveryService_1586330,channel2,18,301.8,316.8,It's 5452-100-954.
+en_AU_DeliveryService_1586330,channel2,19,316.8,318.8,Yeah.
+en_AU_DeliveryService_1586330,channel2,20,318.8,341.8,9254-459.
+en_AU_DeliveryService_1586330,channel2,21,341.8,364.8,"Yep, the email's been received."
+en_AU_DeliveryService_1586330,channel2,22,364.8,368.8,"Um, no, I think that's all for today. Thank you."
+en_AU_DeliveryService_1586330,channel2,23,394.8,406.8,"No, that's okay. Thank you."
+en_AU_DeliveryService_1586330,channel2,24,406.8,410.8,Yeah.
+en_AU_DeliveryService_1586330,channel2,25,410.8,421.8,You too.

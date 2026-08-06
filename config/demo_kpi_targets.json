@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "purpose": "Portfolio-only targets for the Phase 2 KPI Performance Tracker MVP.",
+  "limitations": [
+    "These targets are demonstration assumptions, not employer policy.",
+    "CSAT, QA, NPS, and Five Stars values are deterministic synthetic fixtures because AppTek does not provide those outcomes.",
+    "Estimated AHT is derived from analyzed audio duration and is not a production telephony AHT measure.",
+    "Conversation risk is an uncalibrated heuristic proxy and is not an official quality or survey score."
+  ],
+  "stages": [
+    {
+      "id": "start",
+      "label": "Start view - 3-call baseline",
+      "calls": 3
+    },
+    {
+      "id": "live",
+      "label": "Live view - 7 of 10 calls",
+      "calls": 7
+    },
+    {
+      "id": "end",
+      "label": "End view - all 10 calls",
+      "calls": 10
+    }
+  ],
+  "headline_kpis": {
+    "estimated_aht_sec": {
+      "label": "Estimated AHT",
+      "target": 600,
+      "direction": "lower_is_better",
+      "unit": "seconds",
+      "source_type": "derived_proxy"
+    },
+    "conversation_risk_score": {
+      "label": "Heuristic risk",
+      "target": 25,
+      "direction": "lower_is_better",
+      "unit": "points",
+      "source_type": "uncalibrated_heuristic_proxy"
+    },
+    "csat_demo": {
+      "label": "CSAT - synthetic demo",
+      "target": 0.9,
+      "direction": "higher_is_better",
+      "unit": "rate",
+      "source_type": "synthetic_demo"
+    },
+    "qa_demo": {
+      "label": "QA - synthetic demo",
+      "target": 0.92,
+      "direction": "higher_is_better",
+      "unit": "rate",
+      "source_type": "synthetic_demo"
+    },
+    "nps_demo": {
+      "label": "NPS - synthetic demo",
+      "target": 55,
+      "direction": "higher_is_better",
+      "unit": "points",
+      "source_type": "synthetic_demo"
+    },
+    "five_star_demo": {
+      "label": "Five Stars - synthetic demo",
+      "target": 0.85,
+      "direction": "higher_is_better",
+      "unit": "rate",
+      "source_type": "synthetic_demo"
+    }
+  },
+  "behavior_benchmarks": {
+    "empathy_call_rate": {
+      "label": "Empathy",
+      "target": 0.6
+    },
+    "probing_call_rate": {
+      "label": "Probing",
+      "target": 0.85
+    },
+    "ownership_call_rate": {
+      "label": "Ownership",
+      "target": 0.7
+    },
+    "next_steps_call_rate": {
+      "label": "Next steps",
+      "target": 0.7
+    }
+  }
+}

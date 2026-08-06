@@ -1,0 +1,90 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_DeliveryService_1587192,1,agent,channel1,1,0.0,14.64,Good afternoon.,positive,0.8973,False,False,False,False,False
+en_CA_DeliveryService_1587192,2,customer,channel2,1,0.0,29.48,"Hi Emily, I need to send a fragile package and I want to make sure it's handled carefully.",neutral,0.7793,False,False,False,False,False
+en_CA_DeliveryService_1587192,3,agent,channel1,2,14.64,19.0,Thank you for calling Swift Ship Delivery Services.,positive,0.7775,False,False,False,False,False
+en_CA_DeliveryService_1587192,4,agent,channel1,3,19.0,20.0,My name is Emily.,neutral,0.8442,False,False,False,False,False
+en_CA_DeliveryService_1587192,5,agent,channel1,4,20.0,38.0,How may I help you today?,neutral,0.6523,False,False,True,False,False
+en_CA_DeliveryService_1587192,6,customer,channel2,2,30.04,36.6,Can you help me set up a delivery and give me some information about insurance and express options?,neutral,0.8888,False,False,False,False,False
+en_CA_DeliveryService_1587192,7,agent,channel1,5,38.0,39.0,"Yeah, of course.",neutral,0.4614,False,False,False,False,False
+en_CA_DeliveryService_1587192,8,agent,channel1,6,39.0,41.0,I'm happy to help you with that.,positive,0.9387,False,False,False,False,False
+en_CA_DeliveryService_1587192,9,agent,channel1,7,41.0,54.0,"So to start, can I have your full name and the pickup location, please?",neutral,0.9263,False,False,True,False,False
+en_CA_DeliveryService_1587192,10,customer,channel2,3,46.76,53.72,"So my name is David Cole and the pickup address is 214 Maple Street, Toronto.",neutral,0.9352,False,False,False,False,False
+en_CA_DeliveryService_1587192,11,agent,channel1,8,54.0,56.0,"Oh, thank you.",positive,0.9261,False,False,False,False,False
+en_CA_DeliveryService_1587192,12,agent,channel1,9,56.0,70.0,"And Mr. Cole, and where is the package being delivered to?",neutral,0.936,False,False,True,False,False
+en_CA_DeliveryService_1587192,13,customer,channel2,4,60.44,69.24,"It's going to Vancouver to my sister's. Her address is 88 West Broadway, apartment 604.",neutral,0.9279,False,False,False,False,False
+en_CA_DeliveryService_1587192,14,agent,channel1,10,70.0,71.0,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_DeliveryService_1587192,15,agent,channel1,11,71.0,72.0,Thanks.,positive,0.7303,False,False,False,False,False
+en_CA_DeliveryService_1587192,16,agent,channel1,12,72.0,73.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1587192,17,agent,channel1,13,73.0,74.0,So you mentioned it's fragile package.,negative,0.6623,False,False,False,False,False
+en_CA_DeliveryService_1587192,18,agent,channel1,14,74.0,90.0,May I ask what the item is?,neutral,0.9073,False,False,True,False,False
+en_CA_DeliveryService_1587192,19,customer,channel2,5,77.96,84.28,"Of course it's a set of handmade glass ornaments. They are really delicate,",positive,0.8153,False,False,False,False,False
+en_CA_DeliveryService_1587192,20,customer,channel2,6,85.0,95.72,so I want to be sure they don't break during transit.,neutral,0.8007,False,False,False,False,False
+en_CA_DeliveryService_1587192,21,agent,channel1,15,90.0,91.0,Understood.,neutral,0.6263,False,False,False,False,False
+en_CA_DeliveryService_1587192,22,agent,channel1,16,91.0,92.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1587192,23,agent,channel1,17,92.0,95.0,We'll definitely make sure it's treated as a fragile shipment.,neutral,0.7084,False,False,False,False,False
+en_CA_DeliveryService_1587192,24,agent,channel1,18,95.0,102.0,"So for delicate items like glass, we recommend adding insurance coverage and using a special",neutral,0.7783,False,False,False,False,False
+en_CA_DeliveryService_1587192,25,customer,channel2,7,95.72,115.16,That sounds good. All right. Could you tell me a bit more about the insurance? What does it cover?,positive,0.7294,False,False,False,False,False
+en_CA_DeliveryService_1587192,26,agent,channel1,19,102.0,117.0,handling label so that the couriers know how to handle it with extra care.,neutral,0.8325,False,False,False,False,False
+en_CA_DeliveryService_1587192,27,agent,channel1,20,117.0,118.0,"Yeah, sure.",neutral,0.4824,False,False,False,False,False
+en_CA_DeliveryService_1587192,28,agent,channel1,21,118.0,123.0,"So our insurance that covers damage, loss, or theft during transportation up to the",neutral,0.6742,False,False,False,False,False
+en_CA_DeliveryService_1587192,29,agent,channel1,22,123.0,125.0,declared value of the item.,neutral,0.7198,False,False,False,False,False
+en_CA_DeliveryService_1587192,30,agent,channel1,23,125.0,128.0,So say your ornaments are worth $200.,neutral,0.767,False,False,False,False,False
+en_CA_DeliveryService_1587192,31,customer,channel2,8,125.72,142.84,"Is it reasonable? Okay. I'd like to add insurance for 200, please.",neutral,0.7733,False,False,False,False,False
+en_CA_DeliveryService_1587192,32,agent,channel1,24,128.0,131.0,So we can ensure them for that full amount.,neutral,0.8081,False,False,False,False,False
+en_CA_DeliveryService_1587192,33,agent,channel1,25,131.0,144.0,And then so the cost for insurance will be $2.50 per $100 of value.,neutral,0.6186,False,False,False,False,False
+en_CA_DeliveryService_1587192,34,customer,channel2,9,142.84,154.84,What's the difference in the delivery time and cost?,neutral,0.9276,False,False,False,False,False
+en_CA_DeliveryService_1587192,35,agent,channel1,26,144.0,145.0,Great.,positive,0.8796,False,False,False,False,False
+en_CA_DeliveryService_1587192,36,agent,channel1,27,145.0,146.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1587192,37,agent,channel1,28,146.0,147.0,I'll note that.,neutral,0.6687,False,False,False,False,False
+en_CA_DeliveryService_1587192,38,agent,channel1,29,147.0,156.0,Would you prefer standard or express shipping?,neutral,0.8883,False,False,True,False,False
+en_CA_DeliveryService_1587192,39,agent,channel1,30,156.0,163.0,"So standard delivery from Toronto to Vancouver, it takes around four to six business days,",neutral,0.8007,False,False,False,False,False
+en_CA_DeliveryService_1587192,40,agent,channel1,31,163.0,166.0,but express delivery usually comes within two business days.,neutral,0.7594,False,False,False,False,False
+en_CA_DeliveryService_1587192,41,agent,channel1,32,166.0,172.0,So the express option is faster and it has real time tracking updates via text message,neutral,0.5296,False,False,False,False,False
+en_CA_DeliveryService_1587192,42,agent,channel1,33,172.0,181.0,or email.,neutral,0.792,False,False,False,False,False
+en_CA_DeliveryService_1587192,43,customer,channel2,10,173.72,188.84,Hmm. How much extra is the express option?,neutral,0.9257,False,False,False,False,False
+en_CA_DeliveryService_1587192,44,agent,channel1,34,181.0,190.0,"For your packages size and destination, express delivery would be $38.50 compared to $22 for",neutral,0.856,False,False,False,False,False
+en_CA_DeliveryService_1587192,45,agent,channel1,35,190.0,200.0,standard shipping.,negative,0.6546,False,False,False,False,False
+en_CA_DeliveryService_1587192,46,customer,channel2,11,192.12,198.84,All right. I'll go with the express. I wanted to get there before the weekend. Is that possible?,neutral,0.5831,False,False,False,False,False
+en_CA_DeliveryService_1587192,47,agent,channel1,36,200.0,202.0,"Yeah, that's possible for sure.",positive,0.7706,False,False,False,False,False
+en_CA_DeliveryService_1587192,48,agent,channel1,37,202.0,205.0,So let's schedule that in for pick up tomorrow morning.,neutral,0.8815,False,False,False,False,False
+en_CA_DeliveryService_1587192,49,customer,channel2,12,202.84,214.84,More and more news. Sounds perfect.,positive,0.9725,False,False,False,False,False
+en_CA_DeliveryService_1587192,50,agent,channel1,38,205.0,211.0,Does that work for you?,neutral,0.9103,False,False,True,False,False
+en_CA_DeliveryService_1587192,51,agent,channel1,39,211.0,212.0,"Okay, great.",positive,0.9292,False,False,False,False,False
+en_CA_DeliveryService_1587192,52,agent,channel1,40,212.0,221.0,"So to confirm, we'll pick up your package from 214 Maple Street, Toronto tomorrow between",neutral,0.8865,False,False,False,False,False
+en_CA_DeliveryService_1587192,53,agent,channel1,41,221.0,223.0,9 and 11 a.m.,neutral,0.907,False,False,False,False,False
+en_CA_DeliveryService_1587192,54,agent,channel1,42,223.0,226.0,Then it'll be delivered express to Vancouver.,neutral,0.9097,False,False,False,False,False
+en_CA_DeliveryService_1587192,55,agent,channel1,43,226.0,231.0,It's going to be insured for $200 and we'll send you tracking updates with email and text.,neutral,0.8079,False,False,False,False,False
+en_CA_DeliveryService_1587192,56,agent,channel1,44,231.0,241.0,Is that correct?,neutral,0.8883,False,False,True,False,False
+en_CA_DeliveryService_1587192,57,customer,channel2,13,233.4,248.84,"That's correct. Speaking of tracking, how soon will I get the tracking number?",neutral,0.8786,False,False,False,False,False
+en_CA_DeliveryService_1587192,58,agent,channel1,45,241.0,245.0,"Well, as soon as your driver scans your package during pick up, you'll get a tracking link",neutral,0.8044,False,False,False,False,False
+en_CA_DeliveryService_1587192,59,agent,channel1,46,245.0,247.0,by email and SMS.,neutral,0.8748,False,False,False,False,False
+en_CA_DeliveryService_1587192,60,agent,channel1,47,247.0,263.0,So then you can monitor each step of the way from when they do the pick up to delivery.,neutral,0.9151,False,False,False,False,False
+en_CA_DeliveryService_1587192,61,customer,channel2,14,254.84,262.52,Perfect. Now do you have any tips on packaging? I want to make sure nothing breaks.,positive,0.8193,False,False,False,False,False
+en_CA_DeliveryService_1587192,62,agent,channel1,48,263.0,265.0,"Yeah, that's a good idea.",positive,0.9504,False,False,False,False,False
+en_CA_DeliveryService_1587192,63,agent,channel1,49,265.0,270.0,"So for fragile items like glass ornaments, we recommend you go ahead and do that.",neutral,0.7319,False,False,False,False,False
+en_CA_DeliveryService_1587192,64,agent,channel1,50,270.0,277.0,We recommend you could wrap each piece individually in bubble wrap and then fill the box with packing,neutral,0.759,False,False,False,False,False
+en_CA_DeliveryService_1587192,65,agent,channel1,51,277.0,285.0,peanuts or crumpled paper and then use a double walled cardboard box so it's slightly larger,neutral,0.8282,False,False,False,False,False
+en_CA_DeliveryService_1587192,66,agent,channel1,52,285.0,288.0,than the inner box for extra protection.,neutral,0.7478,False,False,False,False,False
+en_CA_DeliveryService_1587192,67,agent,channel1,53,288.0,294.0,And then sealing the box with packing tape and labeling it flat fragile on all sides,neutral,0.5545,False,False,False,False,False
+en_CA_DeliveryService_1587192,68,customer,channel2,15,293.72,308.84,"That sounds great. Very helpful. I was just going to use one layer of bubble wrap, but I will double it.",positive,0.9623,False,False,False,False,False
+en_CA_DeliveryService_1587192,69,agent,channel1,54,294.0,307.0,so that the courier knows.,neutral,0.8475,False,False,False,False,False
+en_CA_DeliveryService_1587192,70,agent,channel1,55,307.0,309.0,"Yeah, that's a great idea.",positive,0.9803,False,False,False,False,False
+en_CA_DeliveryService_1587192,71,customer,channel2,16,308.84,328.84,"Nice. I appreciate that. And just to double check, what's the estimated delivery date?",positive,0.8908,False,False,False,False,False
+en_CA_DeliveryService_1587192,72,agent,channel1,56,309.0,316.0,"Also, if you bring the package to our pickup driver already labeled in sealed, we can add an extra",neutral,0.8732,False,False,False,False,False
+en_CA_DeliveryService_1587192,73,agent,channel1,57,316.0,329.0,handle with care sticker for free.,neutral,0.8011,False,False,False,False,False
+en_CA_DeliveryService_1587192,74,agent,channel1,58,329.0,336.0,"Since you're doing express service and the pickup is tomorrow, let me check.",neutral,0.8913,False,False,False,True,False
+en_CA_DeliveryService_1587192,75,agent,channel1,59,336.0,349.0,"Okay, so it should arrive in Vancouver by Friday, November 1st before 5pm.",neutral,0.8144,False,False,False,False,False
+en_CA_DeliveryService_1587192,76,customer,channel2,17,339.64,346.52,Perfect timing. My sister's birthday is that weekend.,positive,0.9846,False,False,False,False,False
+en_CA_DeliveryService_1587192,77,agent,channel1,60,349.0,350.0,"Oh, that's nice.",positive,0.9648,False,False,False,False,False
+en_CA_DeliveryService_1587192,78,agent,channel1,61,350.0,361.0,I'm sure she'll like the gift.,positive,0.957,False,False,False,False,False
+en_CA_DeliveryService_1587192,79,customer,channel2,18,352.76,360.84,"I hope so. Emily, I hope so. You're being great. Thanks for explaining everything so clearly.",positive,0.9727,False,False,False,False,False
+en_CA_DeliveryService_1587192,80,agent,channel1,62,361.0,363.0,"Oh, you're welcome, Mr. Cole.",positive,0.9414,False,False,False,False,False
+en_CA_DeliveryService_1587192,81,agent,channel1,63,363.0,369.0,"So I've scheduled your express delivery, added the insurance and confirmed the pickup window.",neutral,0.805,False,False,False,False,False
+en_CA_DeliveryService_1587192,82,agent,channel1,64,369.0,372.0,So you'll get an email with all the details.,neutral,0.8986,False,False,False,False,False
+en_CA_DeliveryService_1587192,83,customer,channel2,19,369.08,380.84,"It's all good. Thanks again, Emily.",positive,0.93,False,False,False,False,False
+en_CA_DeliveryService_1587192,84,agent,channel1,65,372.0,378.0,Is there anything else I can help you with today?,neutral,0.8857,False,False,True,True,False
+en_CA_DeliveryService_1587192,85,agent,channel1,66,378.0,380.0,"Oh, my pleasure.",positive,0.9654,False,False,False,False,False
+en_CA_DeliveryService_1587192,86,agent,channel1,67,380.0,387.0,So thanks for choosing Swiss Shop Delivery Service and have a wonderful day.,positive,0.9777,False,False,False,False,False
+en_CA_DeliveryService_1587192,87,customer,channel2,20,385.24,392.84,You too. Take care.,positive,0.7571,False,False,False,False,False
+en_CA_DeliveryService_1587192,88,agent,channel1,68,387.0,402.0,Goodbye.,neutral,0.5858,False,False,False,False,False
+en_CA_DeliveryService_1587192,89,customer,channel2,21,398.84,400.84,Thank you.,positive,0.8345,False,False,False,False,False

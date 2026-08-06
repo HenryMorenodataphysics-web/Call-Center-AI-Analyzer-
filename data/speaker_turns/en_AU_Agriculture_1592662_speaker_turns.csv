@@ -1,0 +1,165 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Agriculture_1592662,1,agent,channel1,1,0.0,17.36,"Good morning, Department of Agricultural Water and the Environment. Danielle speaking, how"
+en_AU_Agriculture_1592662,2,customer,channel2,1,0.0,29.0,I'm just calling because I've got a property kind of new Griffith and I've heard about
+en_AU_Agriculture_1592662,3,agent,channel1,2,17.36,19.36,can I help you today?
+en_AU_Agriculture_1592662,4,agent,channel1,3,19.36,49.28,"Yeah, absolutely, Maria. Look, you've called to the right place."
+en_AU_Agriculture_1592662,5,customer,channel2,2,29.0,35.48,these new government subsidies and I've you know the subsidies for drip
+en_AU_Agriculture_1592662,6,customer,channel2,3,35.48,40.68,irrigation systems and my neighbour was telling me about that and I just wanted
+en_AU_Agriculture_1592662,7,customer,channel2,4,40.68,44.0,to get a little bit more information.
+en_AU_Agriculture_1592662,8,agent,channel1,4,49.28,55.2,We've got the Australian government's on farm irrigation efficiency program running at the moment.
+en_AU_Agriculture_1592662,9,agent,channel1,5,55.92,61.6,It's designed to help farmers modernize their irrigation systems. So just would you like to
+en_AU_Agriculture_1592662,10,customer,channel2,5,59.0,75.64,Yeah I am so basically we've been using flood irrigation for years but you know
+en_AU_Agriculture_1592662,11,agent,channel1,6,61.6,65.92,"tell me a bit more about, you know, the system you're using? Are you currently using flood"
+en_AU_Agriculture_1592662,12,agent,channel1,7,65.92,81.84,irrigation on your property?
+en_AU_Agriculture_1592662,13,customer,channel2,6,75.64,81.2,with the cost of water at the moment you know and drought conditions it's just
+en_AU_Agriculture_1592662,14,customer,channel2,7,81.2,92.44,not sustainable so we're paying so much for water. You know I just wanted to explore it.
+en_AU_Agriculture_1592662,15,agent,channel1,8,82.08,98.64,"Look, I completely understand Maria. A lot of farmers across the Murray Darling Basin are in"
+en_AU_Agriculture_1592662,16,agent,channel1,9,98.64,104.8,the same boat. No pun intended. The drip irrigation systems can reduce your water usage
+en_AU_Agriculture_1592662,17,agent,channel1,10,104.8,110.16,"by up to 40% in some cases, which really adds up when you're looking at those allocation costs."
+en_AU_Agriculture_1592662,18,agent,channel1,11,110.96,111.6,What do you think?
+en_AU_Agriculture_1592662,19,customer,channel2,8,111.2,115.76,But you know what that's exactly what I'm hoping for. So how does that subsidy
+en_AU_Agriculture_1592662,20,customer,channel2,9,115.76,119.52,actually work though? Do I qualify?
+en_AU_Agriculture_1592662,21,agent,channel1,12,118.96,123.36,"Yeah, look, we'll have to look into a few more details and I'll ask you a bit more for a"
+en_AU_Agriculture_1592662,22,agent,channel1,13,123.36,130.48,"bit more information. So let me run through the eligibility criteria with you. First off,"
+en_AU_Agriculture_1592662,23,agent,channel1,14,130.48,134.16,do you hold an Australian business number for your farming operation?
+en_AU_Agriculture_1592662,24,customer,channel2,10,134.16,137.44,Yeah I do. Yep.
+en_AU_Agriculture_1592662,25,agent,channel1,15,134.56,142.56,"Okay, great. And is your property located within a regulated irrigation district?"
+en_AU_Agriculture_1592662,26,customer,channel2,11,142.0,149.68,Yeah we're part of the Moran BG irrigation area so I think that counts.
+en_AU_Agriculture_1592662,27,agent,channel1,16,149.68,155.92,"Perfect. Okay, that definitely qualifies. Now, the subsidy covers up to 50%"
+en_AU_Agriculture_1592662,28,customer,channel2,12,149.68,174.08,Wow 50% that's not bad at all. What about the other half though? That's still a
+en_AU_Agriculture_1592662,29,agent,channel1,17,155.92,162.32,"of eligible costs for irrigation infrastructure upgrades with a maximum grant of 150,000 per"
+en_AU_Agriculture_1592662,30,agent,channel1,18,162.32,178.24,applicant. You'll need to demonstrate that the new system will result in measurable water savings.
+en_AU_Agriculture_1592662,31,customer,channel2,13,174.08,178.84,fair chunk of change and you know there that has to come from somewhere are
+en_AU_Agriculture_1592662,32,customer,channel2,14,178.84,182.4,there loans available or anything that you can tell me that would help cover the
+en_AU_Agriculture_1592662,33,customer,channel2,15,182.4,184.2,costs.
+en_AU_Agriculture_1592662,34,agent,channel1,19,184.48,189.76,"Actually, I'm so glad you asked because there are. There are some loans available. So the"
+en_AU_Agriculture_1592662,35,agent,channel1,20,189.76,195.36,Regional Investment Corporation offers low interest loans specifically for farm infrastructure
+en_AU_Agriculture_1592662,36,agent,channel1,21,195.36,200.72,improvements. They're running at about 3.5% interest at the moment. So definitely below
+en_AU_Agriculture_1592662,37,agent,channel1,22,200.72,206.64,those commercial rates. And you can borrow up to 2 million terms up to 10 years.
+en_AU_Agriculture_1592662,38,customer,channel2,16,206.32,212.28,Right okay so potentially I could get the subsidy to cover half and
+en_AU_Agriculture_1592662,39,agent,channel1,23,206.88,224.48,"Exactly right. So a lot of farmers are doing exactly that. The loan application is separate,"
+en_AU_Agriculture_1592662,40,customer,channel2,17,212.28,217.96,then finance the rest through the regional investment corporation you mentioned.
+en_AU_Agriculture_1592662,41,agent,channel1,24,224.48,230.0,but I can give you their contact details before we finish up and they're really easy to deal with.
+en_AU_Agriculture_1592662,42,customer,channel2,18,230.36,235.48,"Oh beauty, okay so what's the deadline for all this? Like I don't want to miss out."
+en_AU_Agriculture_1592662,43,agent,channel1,25,236.96,243.6,"Of course. So the current round closes on March 31st, 2026. However, I'd be recommending getting in"
+en_AU_Agriculture_1592662,44,customer,channel2,19,242.68,261.16,"Wow, okay. So what was that date you just mentioned?"
+en_AU_Agriculture_1592662,45,agent,channel1,26,243.6,248.48,"your application well before then because these grants are allocated on a first come, first serve"
+en_AU_Agriculture_1592662,46,agent,channel1,27,248.48,254.32,"basis. And there's been a huge uptake as you can imagine. Once the funding pool is exhausted,"
+en_AU_Agriculture_1592662,47,agent,channel1,28,254.32,256.24,that's it until the next round.
+en_AU_Agriculture_1592662,48,customer,channel2,20,261.16,270.6,Okay.
+en_AU_Agriculture_1592662,49,agent,channel1,29,262.8,269.6,"Yeah, of course. So March 31st, 2026. So we're currently in December. You've got just under"
+en_AU_Agriculture_1592662,50,agent,channel1,30,269.6,274.32,"four months there. But as I said, I would certainly recommend particularly the Christmas"
+en_AU_Agriculture_1592662,51,agent,channel1,31,274.32,280.16,"New Year period. And in Australia, you know how it is getting in that allocation as soon as possible."
+en_AU_Agriculture_1592662,52,customer,channel2,21,280.6,285.48,"Okay yeah, you're right. Time really flies this time of year. Okay so I've got a few months."
+en_AU_Agriculture_1592662,53,agent,channel1,32,284.32,299.52,"Yeah, of course, no worries. And it can get quite confusing or fully understand. So I'll walk you"
+en_AU_Agriculture_1592662,54,customer,channel2,22,286.44,291.56,"All right, what kind of paperwork am I looking at? So I'm really not the best with"
+en_AU_Agriculture_1592662,55,customer,channel2,23,291.56,294.92,that kind of red tape to be honest.
+en_AU_Agriculture_1592662,56,customer,channel2,24,294.92,316.36,"Yeah, I can I can get those definitely."
+en_AU_Agriculture_1592662,57,agent,channel1,33,299.52,305.6,through it. It's actually not as complicated as some of our other programs. You'll need to provide
+en_AU_Agriculture_1592662,58,agent,channel1,34,305.6,311.36,proof of ownership or lease of the property. So that's your title deed or lease agreement.
+en_AU_Agriculture_1592662,59,agent,channel1,35,311.36,321.12,"Do you have those on you or around? Okay, perfect. You'll also need your ABN registration,"
+en_AU_Agriculture_1592662,60,agent,channel1,36,321.12,326.24,proof of water entitlements from the Murrenbingi irrigation and quotes from at least two
+en_AU_Agriculture_1592662,61,customer,channel2,25,325.16,333.88,Oh two quotes. Okay I've already been talking to a bloke from
+en_AU_Agriculture_1592662,62,agent,channel1,37,326.24,335.2,registered irrigation suppliers for the drip system installation.
+en_AU_Agriculture_1592662,63,customer,channel2,26,335.32,342.36,Netafim in Griffith. I don't know if you've heard of them but do I need to get another one? Definitely.
+en_AU_Agriculture_1592662,64,agent,channel1,38,341.92,348.48,"Yeah, so I have heard of Netafim. We've had a few, you know, people submit applications"
+en_AU_Agriculture_1592662,65,agent,channel1,39,349.04,355.2,"with them. But yes, you'll definitely need at least two competitive quotes to show you"
+en_AU_Agriculture_1592662,66,customer,channel2,27,354.92,376.36,"Okay, I can do that and what else?"
+en_AU_Agriculture_1592662,67,agent,channel1,40,355.2,359.52,you're getting value for money with the Commonwealth funds. There are several suppliers
+en_AU_Agriculture_1592662,68,agent,channel1,41,359.52,364.72,"in your area, though. Irrotech in Leten is another good one. And there's also"
+en_AU_Agriculture_1592662,69,agent,channel1,42,364.8,367.12,Tuckabox AG Solutions in Wagah.
+en_AU_Agriculture_1592662,70,agent,channel1,43,371.68,378.16,"Yes, so you'll need to complete our application form, which includes a water efficiency"
+en_AU_Agriculture_1592662,71,agent,channel1,44,378.16,383.6,"plan. Basically, you'll need to show your current water usage and demonstrate the expected savings"
+en_AU_Agriculture_1592662,72,agent,channel1,45,383.6,388.48,with the new system. Most irrigation companies can help you with those calculations as part of
+en_AU_Agriculture_1592662,73,customer,channel2,28,385.32,395.24,Okay so all right let me get let me get this down right. I'm gonna write this down. So I
+en_AU_Agriculture_1592662,74,agent,channel1,46,388.48,403.2,their quote. Yep. Yep. Yep.
+en_AU_Agriculture_1592662,75,customer,channel2,29,395.24,404.92,"need proof of ownership, APN, yep water entitlements, the two quotes you just said,"
+en_AU_Agriculture_1592662,76,agent,channel1,47,403.2,418.96,"Yep. Yes. So, Maria, you might be your accountant on this one. I mean, depending on how you do your"
+en_AU_Agriculture_1592662,77,customer,channel2,30,406.28,409.64,a water efficiency plan. Is there anything else?
+en_AU_Agriculture_1592662,78,customer,channel2,31,414.92,441.72,"Okay, yeah I can do that pretty easily. So just basically snap some photos on my phone of the"
+en_AU_Agriculture_1592662,79,agent,channel1,48,418.96,424.8,"taxes, you'll also need to provide your last two years of tax returns to demonstrate the"
+en_AU_Agriculture_1592662,80,agent,channel1,49,424.8,430.4,farming operation is ongoing and photographs of your current irrigation setup. The photos
+en_AU_Agriculture_1592662,81,agent,channel1,50,430.4,434.24,just need to show the existing infrastructure so we can verify the upgrade.
+en_AU_Agriculture_1592662,82,customer,channel2,32,441.72,450.04,flood bays and the channels. Would that be okay?
+en_AU_Agriculture_1592662,83,agent,channel1,51,445.92,451.2,Exactly. So even smartphone photos are fine as long as they're clear. And if you're an
+en_AU_Agriculture_1592662,84,agent,channel1,52,451.2,456.16,"Indigenous landholder or your property is in a drought declared area, you might be"
+en_AU_Agriculture_1592662,85,agent,channel1,53,456.16,460.0,eligible for an additional 10% on top of the standard subsidy.
+en_AU_Agriculture_1592662,86,customer,channel2,33,460.6,464.6,Oh you raised a good point. Yeah we were draft declared last year
+en_AU_Agriculture_1592662,87,customer,channel2,34,465.64,470.52,but I think they lifted it this year after the decent rain that we had in winter.
+en_AU_Agriculture_1592662,88,customer,channel2,35,471.88,473.88,Okay.
+en_AU_Agriculture_1592662,89,agent,channel1,54,473.04,476.8,"Look, I can check that for you. So what local government area are you in again?"
+en_AU_Agriculture_1592662,90,customer,channel2,36,476.68,487.88,Um Griffith City Council?
+en_AU_Agriculture_1592662,91,agent,channel1,55,476.8,488.32,"Okay. So Griffith came off the drought declaration in September 25, but if your application references"
+en_AU_Agriculture_1592662,92,agent,channel1,56,488.32,493.84,"water efficiency improvements related to drought resilience, you might still be eligible for"
+en_AU_Agriculture_1592662,93,agent,channel1,57,493.84,499.44,the enhanced rate. I recommend mentioning it in your application and we'll assess it. So when
+en_AU_Agriculture_1592662,94,agent,channel1,58,499.44,504.0,"you do get that other quote, certainly worth mentioning talking to them about it and they"
+en_AU_Agriculture_1592662,95,customer,channel2,37,502.36,514.2,Okay yeah um I can't hurt to mention it I suppose so. Where do I actually submit all these?
+en_AU_Agriculture_1592662,96,agent,channel1,59,504.0,506.56,"can potentially, well, they will include that for you."
+en_AU_Agriculture_1592662,97,customer,channel2,38,514.2,519.88,Like do I have to drive into Wagga or Sydney or is it all something that I can do online?
+en_AU_Agriculture_1592662,98,agent,channel1,60,520.8,526.48,Amazing news here. So it's all done online through the MyGov portal. You'll need to link
+en_AU_Agriculture_1592662,99,agent,channel1,61,526.48,530.8,your MyGov account to the Department of Agriculture Services if you haven't already
+en_AU_Agriculture_1592662,100,agent,channel1,62,530.8,536.32,"done so. And once you've set all of that up, you can upload your documents directly through the portal."
+en_AU_Agriculture_1592662,101,customer,channel2,39,532.04,542.68,Uh okay yeah I've got a mic I've account for my Medicare and Centrelink stuff but I don't think
+en_AU_Agriculture_1592662,102,customer,channel2,40,542.68,553.88,I've ever linked it to agriculture.
+en_AU_Agriculture_1592662,103,agent,channel1,63,546.08,550.72,"Yeah, that's no problem. So when you log in, there's an application, sorry, an option to link"
+en_AU_Agriculture_1592662,104,agent,channel1,64,550.72,554.8,"the services. Just search for the Department of Agriculture, Water and the Environment."
+en_AU_Agriculture_1592662,105,agent,channel1,65,555.44,561.76,"Follow the prompts. It takes about five minutes. Once you're linked, your OnForm Irrigation Efficiency"
+en_AU_Agriculture_1592662,106,customer,channel2,41,561.72,583.88,"Okay and like is it okay if I just upload everything as you know whatever PDFs, JPEGs, that kind of thing?"
+en_AU_Agriculture_1592662,107,agent,channel1,66,561.76,566.64,"Program application is on your dashboard. It's a similar process, Maria, to how you would"
+en_AU_Agriculture_1592662,108,agent,channel1,67,566.64,582.16,"have set up your Centrelink and your Medicare accounts. Yeah, exactly. So look, PDFs are"
+en_AU_Agriculture_1592662,109,agent,channel1,68,582.16,588.0,"best, but we also accept JPEGs for the photos and most common document formats. The system will"
+en_AU_Agriculture_1592662,110,agent,channel1,69,588.0,599.52,guide you through what needs to be uploaded at each step. It's actually pretty user-friendly.
+en_AU_Agriculture_1592662,111,customer,channel2,42,592.68,597.72,Oh cool all right so what if I have trouble with the online system? Is there someone that
+en_AU_Agriculture_1592662,112,customer,channel2,43,597.72,601.96,helped me? I mean I'm all right with computers but sometimes you know what these government
+en_AU_Agriculture_1592662,113,agent,channel1,70,599.52,613.92,"Yeah, look, if you run into any issues, of course, we're on hand to help out. You can call our helpline"
+en_AU_Agriculture_1592662,114,customer,channel2,44,601.96,613.88,websites can be like they can be a bit tricky or you know they sometimes have errors.
+en_AU_Agriculture_1592662,115,agent,channel1,71,613.92,618.88,and we'll talk you through it step by step. Do you have a pen handy? I can give you the number.
+en_AU_Agriculture_1592662,116,customer,channel2,45,614.84,625.56,Um hang on just a sec let me just grab a pen. Yep okay what's the number?
+en_AU_Agriculture_1592662,117,agent,channel1,72,618.88,634.0,"Yep, so the number is 1-800-004-989."
+en_AU_Agriculture_1592662,118,customer,channel2,46,629.48,639.64,Mm-hmm okay got it I think 1-800-004-989.
+en_AU_Agriculture_1592662,119,agent,channel1,73,640.96,646.24,Perfect. We've also got a Rural Financial Counseling Service that offers free help with grant
+en_AU_Agriculture_1592662,120,customer,channel2,47,644.36,651.56,Oh that's really handy do you have their number?
+en_AU_Agriculture_1592662,121,agent,channel1,74,646.24,656.4,"applications. There's an office in Griffith, actually. I do and the Riverina branch is"
+en_AU_Agriculture_1592662,122,agent,channel1,75,656.4,668.64,"0428 690749. Yeah, they're fantastic. They really know their stuff and they help with"
+en_AU_Agriculture_1592662,123,customer,channel2,48,663.0,664.6,Cool okay thank you for that.
+en_AU_Agriculture_1592662,124,customer,channel2,49,664.6,680.76,Brilliant okay so once I submit everything how long until I hear back?
+en_AU_Agriculture_1592662,125,agent,channel1,76,668.64,671.52,everything from filling up forms to financial planning for the farm.
+en_AU_Agriculture_1592662,126,agent,channel1,77,677.6,682.08,"Yep, so the assessment process usually takes six to eight weeks from the date of submission."
+en_AU_Agriculture_1592662,127,agent,channel1,78,682.08,688.8,"If we need any additional information, we'll contact you by either email or phone. Once approved,"
+en_AU_Agriculture_1592662,128,agent,channel1,79,688.8,693.36,you'll receive a grant agreement that you'll need to sign and return and then you've got 12
+en_AU_Agriculture_1592662,129,agent,channel1,80,693.36,696.96,months to complete the irrigation upgrade and submit your final claim.
+en_AU_Agriculture_1592662,130,customer,channel2,50,694.6,704.76,Oh cool okay so I have to do the work first and then claim the money back is that right?
+en_AU_Agriculture_1592662,131,agent,channel1,81,704.96,710.24,"Sort of. Actually, it works in two stages. So you can claim 50% of the grant upfront"
+en_AU_Agriculture_1592662,132,agent,channel1,82,710.24,714.64,"once your application is approved, which will give you a bit of cash flow, of course,"
+en_AU_Agriculture_1592662,133,agent,channel1,83,714.64,719.92,to get the project started and you've signed the agreement. So there's your initial costs
+en_AU_Agriculture_1592662,134,agent,channel1,84,719.92,725.84,kind of covered. Then you claim the remaining 50% once the work is completed and you've provided
+en_AU_Agriculture_1592662,135,customer,channel2,51,725.4,736.76,Okay oh okay that's much better than what I thought so I get half up front to help pay the contractors.
+en_AU_Agriculture_1592662,136,agent,channel1,85,725.84,727.84,tax invoices and proof of installation.
+en_AU_Agriculture_1592662,137,customer,channel2,52,737.16,756.28,Okay and what counts as eligible costs? Is it just the drip lines and fittings or does it
+en_AU_Agriculture_1592662,138,agent,channel1,86,738.08,742.0,"Exactly. We know these are big investments, so the upfront payment really helps to get the"
+en_AU_Agriculture_1592662,139,agent,channel1,87,742.0,746.96,"work started. You'll just need to submit, sorry, you'll just need to provide a project"
+en_AU_Agriculture_1592662,140,agent,channel1,88,746.96,749.68,timeline and milestones when you submit your application.
+en_AU_Agriculture_1592662,141,customer,channel2,53,756.28,758.92,include labor and the whole installation?
+en_AU_Agriculture_1592662,142,agent,channel1,89,759.6,764.88,"Yep, so it includes the full installation costs, materials, labor, filtration systems, pumps,"
+en_AU_Agriculture_1592662,143,agent,channel1,90,764.88,770.0,"if they're a part of the new system, control systems and automation and even the design"
+en_AU_Agriculture_1592662,144,customer,channel2,54,766.76,786.92,Okay that's pretty comprehensive what about removing the old flood irrigation infrastructure though?
+en_AU_Agriculture_1592662,145,agent,channel1,91,770.0,774.72,"and engineering fees. If you need a professional irrigation designer, what it doesn't cover is"
+en_AU_Agriculture_1592662,146,agent,channel1,92,774.72,776.96,ongoing maintenance costs or water purchases.
+en_AU_Agriculture_1592662,147,agent,channel1,93,782.88,786.8,"Yeah, demolition and removal of old infrastructure can be included as part of"
+en_AU_Agriculture_1592662,148,agent,channel1,94,786.8,790.96,the project costs as long as it's necessary for the new system installation.
+en_AU_Agriculture_1592662,149,customer,channel2,55,790.92,796.44,Very cool okay so I think I've got a pretty good handle on this now so just to recap I just
+en_AU_Agriculture_1592662,150,customer,channel2,56,796.44,805.16,need to get two quotes I'm just reading off my notes here gather up my property docs my ABN
+en_AU_Agriculture_1592662,151,customer,channel2,57,805.16,813.16,water entitlements the tax returns you mentioned I need to take photos of the current setup fill
+en_AU_Agriculture_1592662,152,customer,channel2,58,813.16,818.92,out the application and and then the water plan oh that's right online you mentioned the
+en_AU_Agriculture_1592662,153,customer,channel2,59,818.92,826.76,mygov website I need to get it in before March 31st and you said the grant covers up to 50 with a
+en_AU_Agriculture_1592662,154,customer,channel2,60,826.76,844.2,maximum of 150 grand and I can get half up front and I can look at the RIC loan for the rest.
+en_AU_Agriculture_1592662,155,agent,channel1,95,835.12,840.08,"Exactly. Look, you've got it. That's perfect summary, Maria. And don't forget about the"
+en_AU_Agriculture_1592662,156,agent,channel1,96,840.08,846.0,"Rural Financial and Counseling Service, which you did mention. But if you need help with"
+en_AU_Agriculture_1592662,157,agent,channel1,97,846.0,848.8,the application and they're the ones that are local to you.
+en_AU_Agriculture_1592662,158,agent,channel1,98,848.8,864.8,"Perfect. My pleasure, Maria. Is there anything else I can help you today?"
+en_AU_Agriculture_1592662,159,customer,channel2,61,849.4,855.08,Awesome well Danielle thanks so much for your help um that's really awesome look I'm going to
+en_AU_Agriculture_1592662,160,customer,channel2,62,855.08,859.32,just speak to my husband and then I'll give you guys a call back if I need more info otherwise I'll
+en_AU_Agriculture_1592662,161,customer,channel2,63,859.32,868.36,just get started. No thank you for being a really a great help thanks Danielle.
+en_AU_Agriculture_1592662,162,customer,channel2,64,868.36,877.8,Thanks so much see y'all
+en_AU_Agriculture_1592662,163,agent,channel1,99,869.6,872.48,"No worries. Well, fingers crossed, it all goes through well."
+en_AU_Agriculture_1592662,164,agent,channel1,100,872.48,877.36,All right.

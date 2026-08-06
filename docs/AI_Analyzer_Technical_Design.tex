@@ -1,0 +1,631 @@
+% !TEX program = xelatex
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=0.70in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\setmonofont{Consolas}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\definecolor{navy}{HTML}{15344A}
+\definecolor{blue}{HTML}{2878B5}
+\definecolor{teal}{HTML}{1D8A82}
+\definecolor{orange}{HTML}{D97925}
+\definecolor{red}{HTML}{B64242}
+\definecolor{green}{HTML}{348A52}
+\definecolor{lightblue}{HTML}{EAF3F8}
+\definecolor{lightgray}{HTML}{F3F5F6}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=navy,
+  urlcolor=blue,
+  pdftitle={AI Analyzer Core: Technical Portfolio Brief},
+  pdfauthor={Henry -- Data Science Portfolio}
+}
+
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.10}
+\newcommand{\proxy}{\textcolor{orange}{\textbf{PROXY}}}
+\newcommand{\synthetic}{\textcolor{red}{\textbf{SYNTHETIC}}}
+\newcommand{\realoutcome}{\textcolor{green}{\textbf{REAL OUTCOME}}}
+\newenvironment{compactitem}{\begin{itemize}\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}\setlength{\topsep}{3pt}}{\end{itemize}}
+\newenvironment{compactenum}{\begin{enumerate}\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}\setlength{\topsep}{3pt}}{\end{enumerate}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\color{navy}\textbf{AI Analyzer Core}}\\[3pt]
+{\large Technical Portfolio Brief}\\[4pt]
+Henry -- Data Science Portfolio \hfill July 2026
+\end{center}
+\vspace{3pt}
+\hrule
+\vspace{7pt}
+
+\section*{Executive Summary}
+
+Call-center supervisors cannot review every interaction, while agents often receive
+late, generic feedback based on lagging KPIs. AI Analyzer Core turns dual-channel calls
+into auditable, turn-linked evidence and presents it through an agent KPI tracker and a
+supervisor review board. The portfolio release covers \textbf{100 calls, ten synthetic
+portfolio agents, ten calls per agent, and 11,056 fused turns}.
+
+The system combines Faster Whisper, deterministic speaker assignment, Hugging Face
+sentiment, lexical service behaviors, acoustic measurements, versioned fusion, and an
+optional grounded local Qwen copilot. Models extract signals; deterministic contracts
+define meaning and own numeric truth.
+
+\fcolorbox{navy}{lightblue}{%
+\begin{minipage}{0.94\textwidth}\small
+\textbf{Primary governance rule.} Agent ordering by mean risk is descriptive,
+unadjusted for call mix, and \textbf{not suitable for employment decisions}. The
+system prioritizes evidence for human review; it does not authorize discipline,
+compensation, termination, or customer remediation.
+\end{minipage}}
+
+\subsection*{Verified snapshot}
+
+\begin{center}\small
+\begin{tabular}{p{0.29\textwidth}p{0.17\textwidth}p{0.43\textwidth}}
+\toprule
+Evidence & Result & Interpretation \\
+\midrule
+Analytical coverage & 100 calls; 11,056 turns & Exact metadata reconciliation; ten calls per agent. \\
+Contract validation & Pass; zero blockers & Version 1.0.0 applied to canonical outputs. \\
+Automated verification & 47 tests passing & Contracts, dashboards, Copilot, outcomes, and risk pilot. \\
+Risk distribution & 76 low; 24 medium; 0 high & Uncalibrated heuristic, not proof of call quality. \\
+Survey labels & 0 real; 30 synthetic & Training remains blocked by design. \\
+Local Copilot smoke set & 6/6 grounded; 2 fallbacks & Guardrail rejected unsupported numeric claims. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Known failures visible before the design details}
+
+\begin{compactitem}
+  \item \path{conversation_risk_v1} is hand-weighted, uncalibrated, and has not yet
+  been compared with completed human labels.
+  \item Estimated AHT is recording duration, not an official telephony metric;
+  acoustic intensity is relative within each call, not an emotion label.
+  \item Official CSAT, NPS, QA, Five Stars, and real surveys are unavailable. Demo
+  values are explicitly synthetic fixtures.
+  \item Agent comparisons are not adjusted for call complexity, language, market,
+  or workload.
+  \item Local Qwen averaged 22.49 seconds on CPU, so the current Copilot is a
+  post-call/end-of-day prototype, not live assistance.
+\end{compactitem}
+
+\clearpage
+\section{Product and System Design}
+
+\subsection{Users and decisions}
+
+\begin{center}\small
+\begin{tabular}{p{0.14\textwidth}p{0.34\textwidth}p{0.41\textwidth}}
+\toprule
+User & Decision & Product response \\
+\midrule
+Agent & What deserves attention during this shift? & Current value, goal, trend,
+projection, one focus, and supporting calls. \\
+Supervisor & Where is review useful? & Team context, evidence-based triage, positive
+examples, and coachable calls. \\
+Analyst & Can the result be trusted? & Stable keys, contracts, provenance, validation,
+and reproducible builds. \\
+Reviewer & Is the architecture credible under limited compute? & Pretrained models,
+optional LLM, deterministic calculations, and explicit boundaries. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The agent surface is intentionally a \textbf{KPI Performance Tracker}, not a bonus
+tracker. It supports progress toward goals without calculating compensation or
+encouraging optimization of one metric at the expense of service, compliance, or
+customer protection.
+
+\subsection{End-to-end architecture}
+
+\begin{figure}[ht]
+\centering
+\fcolorbox{navy}{lightblue}{%
+\begin{minipage}{0.92\textwidth}
+\centering\small
+Dual-channel audio $\longrightarrow$ Faster Whisper ASR
+$\longrightarrow$ channel-based speaker assignment\\[3pt]
+$\downarrow$\\[-2pt]
+Text sentiment and service behaviors $+$ pitch, RMS, rate, and relative levels\\[3pt]
+$\downarrow$\\[-2pt]
+Versioned fusion $\longrightarrow$ turn evidence $+$ canonical call summaries\\[3pt]
+$\downarrow$\\[-2pt]
+Agent KPI Tracker $\mid$ Supervisor Board\\[3pt]
+$\downarrow$\\[-2pt]
+Controlled retrieval $\longrightarrow$ optional local Qwen $\longrightarrow$ output guardrails\\[5pt]
+\textcolor{teal}{Governed outcomes} $\longrightarrow$
+\textcolor{red}{readiness gate} $\longrightarrow$ supervised modeling
+\end{minipage}}
+\caption{Models produce bounded signals; contracts and guardrails control business-facing output.}
+\end{figure}
+
+\subsection{Five architectural principles}
+
+\begin{compactenum}
+  \item \textbf{Models extract signals; contracts define meaning.}
+  \item \textbf{Deterministic calculations own numeric truth.} The LLM explains
+  retrieved facts but does not calculate KPIs.
+  \item \textbf{Evidence travels with conclusions.} Reason codes resolve to call and
+  turn identifiers.
+  \item \textbf{Precomputed analytics define the lightweight demo.} Dashboards need
+  neither GPU nor model server.
+  \item \textbf{Unsafe absence beats fabricated certainty.} Missing real labels block
+  outcome modeling.
+\end{compactenum}
+
+\subsection{Roadmap boundary}
+
+Phases 0--3 are complete: pipeline stabilization, analytical contract, agent tracker,
+and grounded local Copilot. The supervisor MVP and survey-readiness layer are
+delivered. Comparative LLM evaluation, longitudinal personalization, context-matched
+cross-agent learning, and calibrated outcome prediction remain explicit extensions.
+The authoritative phase gates live in \path{ROADMAP.md}.
+
+\clearpage
+\section{Data, Models, and Lineage}
+
+\subsection{Dataset and license}
+
+The sample is derived from AppTek's role-played call-center dialogue benchmark, not
+real customer calls. The official dataset card lists CC BY-SA 4.0 and positions the
+release for evaluation and analysis rather than model training or real-world
+customer-data applications. Portfolio publication must preserve attribution and
+source IDs. As a project policy, the repository does not redistribute original audio.
+See the \href{https://huggingface.co/datasets/apptek-com/apptek_callcenter_dialogues}{official dataset card}
+and \href{https://creativecommons.org/licenses/by-sa/4.0/}{CC BY-SA 4.0 terms}.
+
+\subsection{Canonical population and data layers}
+
+\path{data/metadata/calls_metadata.csv} defines the 100-call population, synthetic
+agent assignment, channel paths, and source IDs. Every downstream coverage check must
+match its call keys. Per-call summaries are canonical; overlapping range summaries are
+excluded because they previously duplicated Agent 010.
+
+\begin{center}\small
+\begin{tabular}{p{0.20\textwidth}rp{0.57\textwidth}}
+\toprule
+Layer & Rows/files & Role \\
+\midrule
+Metadata & 100 rows & Population, source, channel, and agent registry. \\
+Transcripts & 100 files & ASR segments with timestamps and channel. \\
+Speaker turns & 100 files & Normalized agent/customer turn sequence. \\
+Text analysis & 100 files & Sentiment and lexical service behaviors. \\
+Acoustic analysis & 100 files & Pitch, RMS, speaking rate, duration, relative levels. \\
+Fused evidence & 11,056 turns & Contracted signals, reasons, and evidence IDs. \\
+Call summary & 100 rows & One canonical record per call. \\
+Dashboards & 2 JSON + 2 HTML & Agent and supervisor decision surfaces. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Model and rule choices}
+
+\begin{center}\small
+\begin{tabular}{p{0.18\textwidth}p{0.30\textwidth}p{0.39\textwidth}}
+\toprule
+Stage & Implementation & Product rationale and limit \\
+\midrule
+ASR & Faster Whisper \path{small}, CPU int8 & Practical pretrained transcription;
+ASR errors propagate downstream. \\
+Speaker assignment & Channel 1 agent; channel 2 customer & Deterministic for this
+channel-separated release, not general diarization. \\
+Sentiment & Hugging Face RoBERTa & Text signal only;
+domain shift and ASR errors remain. \\
+Service behaviors & Phrase rules for empathy, probing, ownership, frustration, next
+steps & Interpretable but can miss paraphrases or implicit behavior. \\
+Acoustics & Librosa pitch, RMS, rate, duration; within-call terciles & Captures delivery
+separately from text; relative intensity is not emotion. \\
+Fusion & Versioned deterministic rubric & Auditable and cheap; weights still require
+human validation. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Sentiment model ID: \path{cardiffnlp/twitter-roberta-base-sentiment-latest}.
+
+The lightweight portfolio build begins from checked-in analytical outputs. Full raw
+inference remains available as a separate, heavier environment with approximately
+3.9 GB of source audio and downloadable model weights.
+
+\clearpage
+\section{Analytical Contract and Risk Rubric}
+
+\subsection*{3.1\quad Evidence classes}
+\setcounter{subsection}{1}
+
+\begin{center}\small
+\begin{tabular}{p{0.18\textwidth}p{0.27\textwidth}p{0.44\textwidth}}
+\toprule
+Class & Examples & Permitted interpretation \\
+\midrule
+Observed/model signal & sentiment, pitch, RMS, rate, phrase flag & Bounded analytical
+signal with model or rule limitations. \\
+Derived \proxy & risk, heuristic quality, estimated AHT & Review/coaching aid; never an
+official outcome or probability. \\
+\synthetic{} fixture & demo CSAT, QA, NPS, Five Stars, generated surveys & Interface,
+contract, join, and guardrail testing only. \\
+\realoutcome{} & governed business KPI or survey & Eligible for reporting/modeling only
+after governance checks. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The machine-readable contract at \path{config/analytical_contract_v1.json} fixes entity
+grains, primary keys, model IDs, required fields, metric semantics, reason codes,
+evidence references, rubric version, and declared limitations. Contract version 1.0.0
+is attached to every canonical call and fused turn.
+
+\subsection{Conversation-risk heuristic}
+
+\path{conversation_risk_v1} combines call-level presence and absence rules, then clips
+the score to 0--100. Selected weights are shown because interpretability is a design
+requirement, not because the values are calibrated.
+
+\begin{center}\small
+\begin{tabular}{p{0.34\textwidth}rp{0.34\textwidth}r}
+\toprule
+Risk evidence & Weight & Protective/service evidence & Weight \\
+\midrule
+Customer frustration & +25 & Agent empathy & -10 \\
+Negative customer sentiment & +15 & Agent probing & -8 \\
+High customer intensity & +15 & Agent ownership & -8 \\
+Frustration without empathy & +15 & Agent next steps & -8 \\
+Missing probing/ownership/next steps & +8 each & & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Bands are low (0--29), medium (30--59), and high (60--100). The observed range is
+0--47, mean 19.05: 76 low, 24 medium, and zero high. This sparse upper range is a
+validation warning, not evidence that no difficult interactions exist.
+
+\subsection{Evidence and confidence}
+
+Stable reason codes map to turn evidence such as \path{call_id:turn:4}. Call summaries
+store each reason with its supporting turn IDs; whole-call absence rules use an empty
+turn list. Signal-coverage confidence measures whether inputs exist:
+
+\[
+C = 0.20 I_{text} + 0.30 I_{sentiment} +
+\frac{0.50}{3}(I_{RMS}+I_{rate}+I_{pitch}).
+\]
+
+Mean call coverage is 0.9992. A value near one means inputs were present, not that
+sentiment, intent, or risk was correct.
+
+\clearpage
+\section{Agent and Supervisor Experiences}
+
+\subsection{Agent KPI Performance Tracker}
+
+The offline dashboard supports all ten agents across simulated start/live/end views
+using the first 3, 7, and 10 calls. Each KPI exposes current value, goal, trend,
+projection, freshness, provenance, status, and a recommended action. It also surfaces a
+best analyzed call and a coachable candidate with reason and turn evidence.
+
+\begin{center}\small
+\begin{tabular}{p{0.25\textwidth}p{0.22\textwidth}p{0.44\textwidth}}
+\toprule
+Metric family & Evidence type & Boundary \\
+\midrule
+Estimated AHT & Derived proxy & Recording duration; excludes holds, ACW, and telephony timing. \\
+Risk/heuristic quality & Derived proxy & Review aid, not official quality or survey probability. \\
+Empathy, probing, ownership, next steps & Rule evidence & Presence rate, not proof of appropriateness or effectiveness. \\
+CSAT/QA/NPS/Five Stars & Synthetic fixture & UI demonstration only; never returned as official. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+``Today's Focus'' selects one actionable area rather than optimizing every KPI at once.
+The interface subtly supports progress toward goals while retaining service, QA, and
+compliance guardrails.
+
+\subsection{Supervisor Team Performance Board}
+
+The supervisor board runs without an LLM and provides team health, shift filters,
+estimated-AHT-versus-risk context, behavior coverage, an explainable coaching queue,
+best-call examples, and coachable-call evidence. \textit{Needs attention},
+\textit{Watch}, and \textit{On track} order evidence review; they are not disciplinary
+findings or employee ratings.
+
+\subsection{Personalization and cross-agent learning boundary}
+
+Current personalization is within the available shift window: agent-specific baselines,
+signals, call evidence, and recommended focus. It is not yet a longitudinal learner.
+Context-matched cross-agent transfer remains future work because advice should compare
+similar call types, languages, markets, and difficulty rather than copying the
+highest-ranked agent. A safe future pattern is:
+
+\begin{compactenum}
+  \item identify a recurring context and behavior with sufficient samples;
+  \item estimate whether the behavior is associated with better governed outcomes;
+  \item verify stability across agents and call-mix slices;
+  \item express the recommendation as a technique, not as employee imitation;
+  \item monitor adoption and outcome change with human review.
+\end{compactenum}
+
+The complete dashboard semantics are documented in
+\path{docs/kpi_performance_tracker.md} and \path{docs/supervisor_board.md}.
+
+\clearpage
+\section{Grounded Local Copilot}
+
+\subsection*{5{.}1\quad Trust boundary}
+\setcounter{subsection}{1}
+
+\begin{figure}[ht]
+\centering
+\fcolorbox{navy}{lightblue}{%
+\begin{minipage}{0.92\textwidth}
+\centering\small
+Agent $+$ shift $+$ question $\longrightarrow$ deterministic tool router\\[3pt]
+$\downarrow$\\[-2pt]
+KPI lookup $\mid$ recap $\mid$ call evidence $\mid$ coaching $\mid$ policy search\\[3pt]
+$\downarrow$\\[-2pt]
+Deterministic provider $\mid$ local Qwen3-4B through llama.cpp\\[3pt]
+$\downarrow$\\[-2pt]
+\textcolor{red}{Unsupported-number and provenance validator}\\[3pt]
+$\downarrow$\\[-2pt]
+Grounded answer $+$ citations $+$ visible limitations
+\end{minipage}}
+\caption{The LLM receives a bounded grounding packet and cannot query arbitrary project data.}
+\end{figure}
+
+The router exposes read-only tools and requires explicit agent and shift context.
+Retrieved policy is labeled as portfolio guidance, not employer-approved policy. The
+optional provider is Qwen3-4B Q4\_K\_M through an authenticated localhost-only
+llama.cpp server. The model and runtime are excluded from the lightweight package.
+
+\subsection{Numeric and provenance guardrails}
+
+Generated numeric claims are compared with the grounding packet. Unsupported values,
+inverted behavior coverage, or false claims of official outcomes reject the model
+answer and trigger deterministic wording from the same evidence. An official-CSAT
+question therefore withholds the synthetic value rather than disguising it as real.
+
+\subsection{Measured result and product decision}
+
+The six-prompt smoke set covered recap, AHT, the official-CSAT boundary, best call,
+coaching, and safe efficiency. All six final answers were grounded: four Qwen answers
+passed directly and two were replaced after unsupported numbers were detected.
+
+\begin{center}\small
+\begin{tabular}{lrrr}
+\toprule
+CPU smoke set & Mean & Median & Maximum \\
+\midrule
+End-to-end latency & 22.49 s & 20.91 s & 39.43 s \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+This latency is unacceptable for live in-call assistance. The current Copilot is
+intentionally a \textbf{post-call/end-of-day explanation prototype} after deterministic
+artifacts already exist. A real-time product would require an explicit latency budget,
+cached deterministic answers, smaller or hosted inference, concurrency testing, and
+graceful degradation. Formal model comparison is deferred and consumes no resources
+unless explicitly started.
+
+\clearpage
+\section{Outcome Readiness and Human Validation}
+
+\subsection{Survey-outcome readiness}
+
+The future target is the conditional probability that a completed, linked survey is
+positive, not the probability that a customer responds. Training requires at least 80
+completed real labels, at least 20 per class, eight agents, one instrument and label
+version, unique known call IDs, and \path{is_synthetic=False} for every eligible row.
+
+When ready, the research baseline is standardized logistic regression with
+agent-grouped stratified folds and sigmoid calibration. Evaluation includes ROC AUC,
+average precision, Brier score, log loss, calibration bins, threshold diagnostics, and
+fold stability. Agent identity, raw text, survey fields, synthetic KPIs, and the
+heuristic risk score are excluded from features to control leakage.
+
+The current governed source contains zero real labels. The supplied 30-row file joins
+to known calls but declares generated synthetic provenance, so the adapter emits
+\path{SYNTHETIC_LABELS_NOT_ALLOWED} and \path{NO_REAL_SURVEY_LABELS}. No model is
+created.
+
+\subsection{Score-blinded human review pilot}
+
+To address the lack of construct validity, the project now prepares 30 calls: the
+minimum, middle, and maximum risk-score call for each agent. The reviewer file hides
+the score, band, proxy review flag, reason codes, and weights. The separate key is
+joined only after at least 20 human labels are complete; 30 are preferred.
+
+The review question is:
+
+\begin{quote}
+\textit{Would a supervisor benefit from reviewing this call for customer-risk context,
+QA context, or actionable coaching?}
+\end{quote}
+
+The evaluator reports a confusion matrix, accuracy, balanced accuracy, precision,
+recall, specificity, F1, Cohen's kappa, ROC AUC, and average precision where estimable.
+The result must be reported even if poor.
+
+\fcolorbox{orange}{lightgray}{%
+\begin{minipage}{0.94\textwidth}\small
+\textbf{Interpretation boundary.} This is a small, purposively sampled, potentially
+single-reviewer pilot. It can provide exploratory construct-validity evidence, but it
+cannot calibrate the score, establish a production threshold, measure fairness, or
+authorize employment decisions. Do not tune weights and re-report the same pilot as an
+independent test; a revised rubric needs a new version and holdout.
+\end{minipage}}
+
+The labeling protocol and commands live in \path{docs/risk_proxy_validation_pilot.md}.
+
+\clearpage
+\section{Validation, Failures, and Responsible Use}
+
+\subsection*{7.1\quad Validation coverage}
+\setcounter{subsection}{1}
+
+The lightweight package currently passes 47 unit and integration tests across seven
+areas: analytical contracts, duplicate-safe aggregation, agent dashboard provenance,
+supervisor reconciliation, Copilot grounding, survey gates, and score-blinded risk
+pilot preparation. The contract validator independently checks schemas, primary keys,
+call coverage, domains, reason evidence, versions, score types, and declared limits.
+
+\begin{center}\small
+\begin{tabular}{p{0.34\textwidth}p{0.18\textwidth}p{0.36\textwidth}}
+\toprule
+Validation target & Result & Remaining blocker \\
+\midrule
+Population and lineage & Pass & Production freshness/monitoring not implemented. \\
+Analytical contract & Pass with one warning & Risk has no completed ground truth. \\
+Agent/supervisor dashboards & Structural and deterministic QA pass & Final browser screenshots pending. \\
+Local Copilot smoke set & 6/6 grounded & Formal comparative evaluation deferred. \\
+Survey modeling & Correctly blocked & No governed real outcome labels. \\
+Human risk pilot & Prepared and tested & Human labels not yet completed. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Known failure register}
+
+\begin{compactitem}
+  \item Risk thresholds and weights may be disconnected from supervisor judgment; the
+  current distribution has zero high-risk calls.
+  \item Text sentiment and lexical behaviors inherit ASR errors and domain shift;
+  rules can miss implicit or paraphrased behavior.
+  \item Pitch, RMS, and speaking rate are analytical measurements, not direct labels
+  for anger, enthusiasm, empathy, or satisfaction.
+  \item Estimated AHT omits hold time, after-call work, transfers outside the recording,
+  and system timing.
+  \item Synthetic KPI fixtures demonstrate interfaces but cannot validate business
+  impact or employee performance.
+  \item Comparisons are unadjusted for call mix and cannot support causal statements.
+  \item Longitudinal personalization, context-matched cross-agent learning, browser
+  screenshots, and the final demonstration video remain incomplete.
+\end{compactitem}
+
+\subsection{Human, privacy, and fairness boundaries}
+
+Humans must review cited call context, apply approved policy, and record overrides.
+Production deployment requires legal basis and notice, minimization, redaction,
+retention/deletion rules, role-based access, encryption, audit logs, tenant isolation,
+and incident procedures. Fairness validation requires governed slices, adequate sample
+sizes, call-mix adjustment, subgroup error analysis, and an appeal mechanism. The
+portfolio does not infer protected demographics.
+
+\clearpage
+\section{Cost, Reproducibility, and Deployment Path}
+
+\subsection{Product and compute decisions}
+
+\begin{center}\small
+\begin{tabular}{p{0.20\textwidth}p{0.30\textwidth}p{0.39\textwidth}}
+\toprule
+Tier & Purpose & Resource/cost boundary \\
+\midrule
+Portfolio demo & Rebuild surfaces and run validation & Python 3.12 CPU; no GPU, API,
+database, model download, or LLM. \\
+Full inference & Reprocess audio through ASR, text, acoustics, and fusion & Heavy
+dependencies, 3.9 GB audio, downloaded weights, long CPU runtime. \\
+Optional Copilot & Explain grounded artifacts & Approximately 2.5 GB GGUF, llama.cpp,
+localhost server, explicit start; unsuitable live latency. \\
+Production path & Multi-user operational service & Requires measured infrastructure,
+security, monitoring, concurrency, SLAs, and governed data feeds. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Precomputation is a product decision: end-of-day analysis and supervisor review can
+deliver portfolio value without paying the latency and infrastructure cost of live
+inference. The LLM is optional because the deterministic dashboards and evidence layer
+are the product core.
+
+\subsection{Reproduce the lightweight portfolio}
+
+\begin{verbatim}
+.\scripts\setup_demo_environment.ps1
+.\scripts\reproduce_portfolio.ps1
+\end{verbatim}
+
+The locked environment runs all tests, validates the contract, rebuilds both dashboard
+artifacts, normalizes the synthetic survey fixture, confirms that real-label training
+remains blocked, verifies risk-pilot blinding and coverage, and records artifact
+SHA-256 hashes. Outputs are \path{reports/reproducibility_report.json} and
+\path{reports/reproducibility_report.md}. Semantic outputs are reproducible; timestamps,
+absolute environments, and optional inference runtimes may differ.
+
+\subsection{Scaling path}
+
+The same evidence contract can support encrypted object storage, queued inference
+workers, call/turn analytical storage, contract validation at ingestion, role-specific
+APIs, cached deterministic answers, optional bounded LLM explanation, and monitoring
+for drift, missing signals, latency, calibration, and human overrides. No deployment
+stage should bypass the real-outcome and human-decision gates.
+
+\clearpage
+\section{Portfolio Handoff}
+
+\subsection*{Fast reviewer path}
+
+\begin{compactenum}
+  \item Read \path{README.md} for the 60-second business and design story.
+  \item Open \path{dashboard/kpi_performance_tracker.html} and inspect an agent across
+  start, live, and end views.
+  \item Open \path{dashboard/supervisor_board.html} and inspect the explainable review
+  queue.
+  \item Review the risk pilot protocol and blank labeling sheet.
+  \item Run the lightweight reproduction package and inspect the PASS report.
+\end{compactenum}
+
+\subsection*{Deep-reference index}
+
+This brief intentionally removes the repeated catalogs, repository map, and detailed
+runbooks that made the previous document 19 pages. The implementation-level detail is
+preserved in focused, maintainable sources:
+
+\begin{center}\small
+\begin{tabular}{p{0.37\textwidth}p{0.52\textwidth}}
+\toprule
+Reference & Scope \\
+\midrule
+\path{docs/analytical_contract.md} & Entity grains, metrics, reasons, evidence, and limitations. \\
+\path{docs/kpi_performance_tracker.md} & Agent views, KPI semantics, and synthetic fixtures. \\
+\path{docs/supervisor_board.md} & Team triage, coaching queue, and decision boundaries. \\
+\path{docs/local_customer_service_copilot.md} & Tools, provider, guardrails, smoke set, and latency. \\
+\path{docs/survey_outcome_prediction.md} & Target definition, leakage controls, readiness, and evaluation. \\
+\path{docs/risk_proxy_validation_pilot.md} & Human labeling and exploratory evaluation protocol. \\
+\path{docs/REPRODUCIBILITY.md} & Clean setup, commands, outputs, and resource exclusions. \\
+\path{ROADMAP.md} & Phase status, deferred work, and definitions of done. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Current portfolio claim}
+
+AI Analyzer Core shows how pretrained ML, interpretable heuristics, deterministic
+contracts, grounded LLM assistance, and role-specific product design can form a
+credible business solution under limited compute. Its strongest
+claim is not that every score is correct. It is that the architecture makes evidence,
+provenance, uncertainty, cost, and failure visible enough for a human to judge what is
+ready and what is not.
+
+\subsection*{Remaining Phase 8 gates}
+
+Complete and report the 30-call human review pilot; capture final agent and supervisor
+screenshots; record the short walkthrough video; add the repository URL; and perform a
+final external portfolio review. Until then, Phase 8 remains in progress.
+
+\vfill
+\begin{center}\small\color{navy}
+\textbf{AI Analyzer Core} -- evidence first, model claims bounded by contracts.
+\end{center}
+
+\end{document}

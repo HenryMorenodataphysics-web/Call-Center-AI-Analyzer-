@@ -1,0 +1,113 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Aviation_1590830,1,customer,channel2,1,0.0,23.04,"Hi there, I'm currently scheduled to return home on Saturday, but I need to change my",neutral,0.908,False,False,False,False,False
+en_CA_Aviation_1590830,2,agent,channel1,1,0.0,25.0,"Good afternoon Canadian Airlines, how may I assist you?",positive,0.6056,False,False,True,False,False
+en_CA_Aviation_1590830,3,customer,channel2,2,23.04,27.96,"flight to come home actually sometime after the weekend, either like Tuesday Wednesday",neutral,0.8628,False,False,False,False,False
+en_CA_Aviation_1590830,4,agent,channel1,2,25.0,45.0,Sure. Can you give me the five digit confirmation number for your trip?,neutral,0.8403,False,False,True,False,False
+en_CA_Aviation_1590830,5,customer,channel2,3,28.36,31.96,or Thursday next week. Can you help me with rescheduling my return flight?,neutral,0.8687,False,False,False,False,False
+en_CA_Aviation_1590830,6,customer,channel2,4,40.28,44.6,"Yeah, it's Y2K 64.",neutral,0.7466,False,False,False,False,False
+en_CA_Aviation_1590830,7,agent,channel1,3,45.0,57.0,"Okay, one moment please. I'm going to pull up your booking.",neutral,0.7271,False,False,False,False,False
+en_CA_Aviation_1590830,8,agent,channel1,4,57.0,68.0,"Okay, so it's your return flight from Vancouver to Montreal, is that correct?",neutral,0.9572,False,False,True,False,False
+en_CA_Aviation_1590830,9,customer,channel2,5,57.96,75.88,"Yes, and I would prefer to still like I'm prepaid for the extra comfort seats in economy like right",neutral,0.6488,False,False,False,False,False
+en_CA_Aviation_1590830,10,agent,channel1,5,68.0,94.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,11,customer,channel2,6,75.88,81.72,behind first class. So I definitely would like that to the legroom. So if we can find a flight that,positive,0.6301,False,False,False,False,False
+en_CA_Aviation_1590830,12,customer,channel2,7,82.76,87.56,is again preferably the exact same price so that I'm not paying extra but still has,neutral,0.696,False,False,False,False,False
+en_CA_Aviation_1590830,13,customer,channel2,8,87.96,93.72,an open spot available for an aisle or a window in that extra comfort class that would be great.,positive,0.8574,False,False,False,False,False
+en_CA_Aviation_1590830,14,agent,channel1,6,94.0,104.0,"Okay, I see that you have a flexible ticket. So that means that you won't be encountering any penalties or fees to change your flight.",neutral,0.6611,False,False,False,False,False
+en_CA_Aviation_1590830,15,agent,channel1,7,104.0,114.0,"That said, because it is such short notice, there definitely is, there's not a ton of seats to choose from.",neutral,0.5505,False,False,False,False,False
+en_CA_Aviation_1590830,16,agent,channel1,8,114.0,131.0,"So I might be able to get you on a flight like Monday, Tuesday, Wednesday, like you asked, but I can't guarantee that I would be able to get you the same type of comfort seat.",neutral,0.689,False,False,False,False,False
+en_CA_Aviation_1590830,17,customer,channel2,9,118.12,130.52,How many flights per day are there roughly?,neutral,0.9507,False,False,False,False,False
+en_CA_Aviation_1590830,18,agent,channel1,9,131.0,153.0,There are two flights per day. One is around six in the morning. And then there's one that is at 7pm.,neutral,0.9459,False,False,False,False,False
+en_CA_Aviation_1590830,19,customer,channel2,10,143.08,146.76,"Oh gosh, well I think that narrows it down. I unfortunately have to take",negative,0.8973,False,False,False,False,False
+en_CA_Aviation_1590830,20,customer,channel2,11,147.32,151.48,the 6 in the morning one because going from Vancouver to Montreal if I take the 7 p.m. I'm not,neutral,0.8241,False,False,False,False,False
+en_CA_Aviation_1590830,21,customer,channel2,12,151.48,157.0,even home until afternoon tonight because of the time change and the flight it being a five hour,neutral,0.8317,False,False,False,False,False
+en_CA_Aviation_1590830,22,agent,channel1,10,153.0,164.0,"That's right. Yeah, yeah.",positive,0.8273,False,False,False,False,False
+en_CA_Aviation_1590830,23,customer,channel2,13,157.0,162.84,flight that's not an option. Okay so we're looking at the 6 a.m. flight on either Tuesday,neutral,0.8711,False,False,False,False,False
+en_CA_Aviation_1590830,24,customer,channel2,14,162.84,172.92,or Thursday.,neutral,0.8362,False,False,False,False,False
+en_CA_Aviation_1590830,25,agent,channel1,11,164.0,173.0,"Okay, let me take a look and let you know what seats we have available for those three days.",neutral,0.8939,False,False,False,True,False
+en_CA_Aviation_1590830,26,agent,channel1,12,173.0,190.0,"Okay, so for the Monday, there's really not a lot of seats left. We have one available in business class, but there would be a significant increase in the charge for that one.",neutral,0.5164,False,False,False,False,False
+en_CA_Aviation_1590830,27,agent,channel1,13,190.0,202.0,"That would be an upgrade. Otherwise, there's some middle seats near the back of the plane near the lavatory.",neutral,0.7139,False,False,False,False,False
+en_CA_Aviation_1590830,28,customer,channel2,15,193.8,206.68,"Pass, that sounds vulnerable. And I'm returning home after my father's funeral 5-0 interest in",negative,0.6611,False,False,False,False,False
+en_CA_Aviation_1590830,29,agent,channel1,14,202.0,212.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,30,customer,channel2,16,206.68,222.76,being nice to anyone on this plane at 6 a.m. So no.,negative,0.6618,False,False,False,False,False
+en_CA_Aviation_1590830,31,agent,channel1,15,212.0,223.0,"Understood, understood. Okay, Tuesday has a few more options. Unfortunately, none of the economy plus economy comfort seats are available.",negative,0.5336,False,False,False,False,False
+en_CA_Aviation_1590830,32,customer,channel2,17,222.76,238.84,Are the emergency rows seat available?,neutral,0.9336,False,False,False,False,False
+en_CA_Aviation_1590830,33,agent,channel1,16,223.0,234.0,But there are some aisle seats sort of sprinkled throughout the cabin. If you're okay with an aisle seat.,neutral,0.804,False,False,False,False,False
+en_CA_Aviation_1590830,34,agent,channel1,17,234.0,250.0,"Unfortunately, not. Those are part of the economy plus. Those are very popular, as you can imagine. So, yeah, just because it's kind of a last minute change, there's not a ton of choice.",negative,0.5506,False,False,False,False,False
+en_CA_Aviation_1590830,35,agent,channel1,18,250.0,259.0,"And but if we look at the Wednesday, let me take a look there because that's one more day. So there's going to be a few more options as well.",neutral,0.6468,False,False,False,True,False
+en_CA_Aviation_1590830,36,customer,channel2,18,252.76,276.84,"Okay, the 10 would be fine.",neutral,0.5333,False,False,False,False,False
+en_CA_Aviation_1590830,37,agent,channel1,19,259.0,267.0,"And also, the Wednesday, let's see.",neutral,0.8178,False,False,False,False,False
+en_CA_Aviation_1590830,38,agent,channel1,20,267.0,271.0,"On the Wednesday, there's actually an additional flight.",neutral,0.9161,False,False,False,False,False
+en_CA_Aviation_1590830,39,agent,channel1,21,271.0,278.0,"That's so in addition to the 6am flight, there's also a 10am flight.",neutral,0.9243,False,False,False,False,False
+en_CA_Aviation_1590830,40,customer,channel2,19,276.92,302.12,Is that one of the renovated planes like does it still have those comfort seats or it just has like,neutral,0.8719,False,False,False,False,False
+en_CA_Aviation_1590830,41,agent,channel1,22,278.0,288.0,"Yeah, it's just that it's on one of the smaller planes, which some customers dislike because it's a bit of a bumpier ride.",negative,0.6967,False,False,False,False,False
+en_CA_Aviation_1590830,42,agent,channel1,23,288.0,297.0,"But we do have a window seat on the wing, which is going to be one of the more smoother parts of that craft.",positive,0.6605,False,False,False,False,False
+en_CA_Aviation_1590830,43,agent,channel1,24,297.0,318.0,"Yeah, unfortunately, it's not one of those at all of the seats on this particular craft are all of just the standard economy seats.",negative,0.7722,False,False,False,False,False
+en_CA_Aviation_1590830,44,customer,channel2,20,302.12,306.12,it's designated but there's not actually extra legroom. I've seen that in recent,neutral,0.751,False,False,False,False,False
+en_CA_Aviation_1590830,45,customer,channel2,21,306.12,322.2,years as we've been switching how.,neutral,0.874,False,False,False,False,False
+en_CA_Aviation_1590830,46,agent,channel1,25,319.0,328.0,But it does have it has window over the wing or aisle near the back.,neutral,0.8467,False,False,False,False,False
+en_CA_Aviation_1590830,47,agent,channel1,26,328.0,334.0,And that's for the 10am. If I look at the 6am one.,neutral,0.8937,False,False,False,False,False
+en_CA_Aviation_1590830,48,agent,channel1,27,334.0,337.0,Let's see.,neutral,0.6668,False,False,False,False,False
+en_CA_Aviation_1590830,49,customer,channel2,22,336.12,352.2,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,50,agent,channel1,28,337.0,343.0,"There is no, there's no economy plus comfort seats.",negative,0.6524,False,False,False,False,False
+en_CA_Aviation_1590830,51,agent,channel1,29,343.0,354.0,But there is both aisle and window options.,neutral,0.7772,False,False,False,False,False
+en_CA_Aviation_1590830,52,agent,channel1,30,354.0,382.0,"So the 6am and the 10am flights, there's there's no additional charge. And in fact, you would get a small refund because of because we can't guarantee you the economy plus seat.",negative,0.4995,False,False,False,False,False
+en_CA_Aviation_1590830,53,customer,channel2,23,366.68,373.16,Okay and then with the 10 a.m. flight with it being a smaller plane does that,neutral,0.9047,False,False,False,False,False
+en_CA_Aviation_1590830,54,customer,channel2,24,373.16,380.2,change my baggage at all or am I still allowed like I have two checked bags and then should we carry them?,neutral,0.9089,False,False,False,False,False
+en_CA_Aviation_1590830,55,customer,channel2,25,380.84,398.6,Yeah okay can you then put me on the 10 o'clock on the Wednesday in a I guess window or I honestly,neutral,0.8333,False,False,False,False,False
+en_CA_Aviation_1590830,56,agent,channel1,31,382.0,402.0,"Yes, and you've prepaid for the two checkbacks. So that's that's fine. That's fine.",positive,0.6266,False,False,False,False,False
+en_CA_Aviation_1590830,57,customer,channel2,26,398.6,412.2,doesn't matter but as close to the front of the plane as possible.,neutral,0.7756,False,False,False,False,False
+en_CA_Aviation_1590830,58,agent,channel1,32,402.0,417.0,"Oh, okay. I had the window seat by the wing, but I only have aisle seats near the front of the plane. So as long as that's okay, I have row three, I have three B available.",neutral,0.6013,False,False,False,False,False
+en_CA_Aviation_1590830,59,customer,channel2,27,415.4,424.2,"Yeah I can do that, that sounds fine.",positive,0.8731,False,False,False,False,False
+en_CA_Aviation_1590830,60,agent,channel1,33,417.0,419.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,61,agent,channel1,34,419.0,425.0,I also see a note in here that you have a nut allergy.,negative,0.7053,False,False,False,False,False
+en_CA_Aviation_1590830,62,customer,channel2,28,424.36,427.8,"I do, yep.",neutral,0.598,False,False,False,False,False
+en_CA_Aviation_1590830,63,agent,channel1,35,425.0,444.0,"Okay, so I'll make sure that that information gets shared in the new booking.",neutral,0.8353,False,False,False,False,False
+en_CA_Aviation_1590830,64,customer,channel2,29,431.8,436.6,"Oh can you also, I mean it's a smaller plane so you should know already.",neutral,0.7106,False,False,False,False,False
+en_CA_Aviation_1590830,65,customer,channel2,30,438.12,442.04,Can you confirm if there are any animals on board with this plane?,neutral,0.8873,False,False,False,False,False
+en_CA_Aviation_1590830,66,customer,channel2,31,442.04,449.08,Is there any service animals or I don't have one I just I'm I have an,neutral,0.7242,False,False,False,False,False
+en_CA_Aviation_1590830,67,agent,channel1,36,444.0,452.0,Right.,neutral,0.6264,False,False,False,False,False
+en_CA_Aviation_1590830,68,customer,channel2,32,449.08,459.96,in here a pair of dogs and I do not want to hit the sign on.,negative,0.8212,False,False,False,False,False
+en_CA_Aviation_1590830,69,agent,channel1,37,452.0,454.0,I understand.,neutral,0.6646,False,True,False,False,False
+en_CA_Aviation_1590830,70,agent,channel1,38,454.0,469.0,"At this time, no one has elected to bring an animal on this flight. However, that could change leading up to up to the day.",neutral,0.659,False,False,False,False,False
+en_CA_Aviation_1590830,71,agent,channel1,39,469.0,483.0,"Up to up to 24 hours before the flight. So at the time that that check in opens, you could check in with us again.",neutral,0.8643,False,False,False,False,False
+en_CA_Aviation_1590830,72,customer,channel2,33,479.96,485.96,"Okay, I'll just do that. Yeah I know they can change our flight too so I thought I'd be able to do that.",neutral,0.6817,False,False,False,False,False
+en_CA_Aviation_1590830,73,agent,channel1,40,483.0,485.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,74,agent,channel1,41,485.0,489.0,"Yeah, for sure.",positive,0.7222,False,False,False,False,False
+en_CA_Aviation_1590830,75,agent,channel1,42,489.0,495.0,"Okay, and",neutral,0.7001,False,False,False,False,False
+en_CA_Aviation_1590830,76,customer,channel2,34,489.48,494.44,And so I also just want to confirm then so I'll get a refund for the comfort seat.,neutral,0.7503,False,False,False,False,False
+en_CA_Aviation_1590830,77,customer,channel2,35,494.44,497.88,There's no change in price to go up because my baggage is still good,neutral,0.6228,False,False,False,False,False
+en_CA_Aviation_1590830,78,agent,channel1,43,495.0,507.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Aviation_1590830,79,customer,channel2,36,498.6,503.88,and I'll get a new confirmation itinerary will it have the same confirmation number,neutral,0.8971,False,False,False,False,False
+en_CA_Aviation_1590830,80,customer,channel2,37,503.88,506.68,the Y2K64 for check-in on Wednesday?,neutral,0.956,False,False,False,False,False
+en_CA_Aviation_1590830,81,agent,channel1,44,507.0,524.0,"Yes. So it's just that there's been a modification to to the existing booking. So yes, your confirmation remains the same. You'll be able to check in either in the app or online 24 hours prior to departure.",neutral,0.7743,False,False,False,False,False
+en_CA_Aviation_1590830,82,agent,channel1,45,524.0,538.0,"Of course, we asked for you to be at the airport two hours prior to departures and make sure you have enough time for your bags to get on the plane and to get through security.",neutral,0.7658,False,False,False,False,False
+en_CA_Aviation_1590830,83,agent,channel1,46,538.0,548.0,10am is a bit busier of a time than 6am. Just so just keep that in mind for security purposes at the Vancouver airport.,neutral,0.8464,False,False,False,False,False
+en_CA_Aviation_1590830,84,agent,channel1,47,548.0,550.0,Let's see.,neutral,0.6668,False,False,False,False,False
+en_CA_Aviation_1590830,85,agent,channel1,48,550.0,566.0,"I will be sending you an update to your itinerary to the email address we have on file, which is Jessica Jones at yahoo.ca.",neutral,0.8457,False,False,False,False,False
+en_CA_Aviation_1590830,86,customer,channel2,38,563.88,566.68,And then you can do that.,neutral,0.7547,False,False,False,False,False
+en_CA_Aviation_1590830,87,agent,channel1,49,566.0,577.0,"Correct. Okay. So that will be sent to you shortly. And then if you refresh the app, those changes should already be showing.",neutral,0.7532,False,False,False,False,False
+en_CA_Aviation_1590830,88,customer,channel2,39,566.68,573.0,"Yep, I'm like I look so I'm a bit of an agent for the track only for the time it was",neutral,0.7631,False,False,False,False,False
+en_CA_Aviation_1590830,89,customer,channel2,40,573.0,576.68,happening on there.,neutral,0.8908,False,False,False,False,False
+en_CA_Aviation_1590830,90,customer,channel2,41,576.68,582.68,"And it's all in the tracks, it's all in the hall, it's all in the venue.",neutral,0.7526,False,False,False,False,False
+en_CA_Aviation_1590830,91,agent,channel1,50,577.0,584.0,And I also see on here that you had prepaid for onboard Wi-Fi.,neutral,0.8802,False,False,False,False,False
+en_CA_Aviation_1590830,92,customer,channel2,42,582.68,590.68,"And I didn't do it, I didn't even use one of these people and they didn't want to do it.",negative,0.8238,False,False,False,False,False
+en_CA_Aviation_1590830,93,agent,channel1,51,585.0,604.0,So that has that will also be included for you on the new on the new booking on the updated booking as well. So you'll still have your in play Wi-Fi.,neutral,0.8043,False,False,False,False,False
+en_CA_Aviation_1590830,94,customer,channel2,43,590.68,591.68,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,95,customer,channel2,44,591.68,592.68,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,96,customer,channel2,45,592.68,597.68,"Hey, what's the timing of this, like flying the five hours and leaving at 10 a.m.?",neutral,0.9469,False,False,False,False,False
+en_CA_Aviation_1590830,97,customer,channel2,46,597.68,606.68,Is there a meal on this flight?,neutral,0.9433,False,False,False,False,False
+en_CA_Aviation_1590830,98,agent,channel1,52,604.0,613.0,"Unfortunately, not on our domestic route. It's only our like if you were flying to Europe or Asia, for example, there would be a meal.",negative,0.4964,False,False,False,False,False
+en_CA_Aviation_1590830,99,customer,channel2,47,606.68,631.68,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Aviation_1590830,100,agent,channel1,53,613.0,622.0,But we do have snacks for purchase. You can take a look at our menu on our website and see what we have.,neutral,0.6657,False,False,False,False,False
+en_CA_Aviation_1590830,101,agent,channel1,54,622.0,634.0,But I know a lot of folks will bring something along in their carry on luggage.,neutral,0.8536,False,False,False,False,False
+en_CA_Aviation_1590830,102,customer,channel2,48,631.68,645.68,"Oh, no, I think that's good for now.",positive,0.4476,False,False,False,False,False
+en_CA_Aviation_1590830,103,agent,channel1,55,634.0,640.0,"Okay, so I'll get that new itinerary off to you momentarily.",neutral,0.8494,False,False,False,False,False
+en_CA_Aviation_1590830,104,agent,channel1,56,640.0,647.0,Is there anything else I can help you with today?,neutral,0.8857,False,False,True,True,False
+en_CA_Aviation_1590830,105,customer,channel2,49,645.68,646.68,Thanks.,positive,0.7303,False,False,False,False,False
+en_CA_Aviation_1590830,106,customer,channel2,50,646.68,647.68,Awesome.,positive,0.9536,False,False,False,False,False
+en_CA_Aviation_1590830,107,agent,channel1,57,647.0,651.0,"All right. Well, thank you for flying with us.",positive,0.9042,False,False,False,False,False
+en_CA_Aviation_1590830,108,customer,channel2,51,647.68,648.68,Thanks.,positive,0.7303,False,False,False,False,False
+en_CA_Aviation_1590830,109,customer,channel2,52,648.68,649.68,Take care.,positive,0.5385,False,False,False,False,False
+en_CA_Aviation_1590830,110,customer,channel2,53,649.68,650.68,Bye.,neutral,0.6078,False,False,False,False,False
+en_CA_Aviation_1590830,111,customer,channel2,54,650.68,663.68,Thank you.,positive,0.8345,False,False,False,False,False
+en_CA_Aviation_1590830,112,agent,channel1,58,651.0,653.0,Bye.,neutral,0.6078,False,False,False,False,False

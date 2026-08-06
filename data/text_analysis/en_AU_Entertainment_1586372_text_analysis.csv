@@ -1,0 +1,42 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Entertainment_1586372,1,customer,channel2,1,0.0,21.2,"Hi, my name is Jenny. I booked some tickets to a concert, but I've never received them",negative,0.7138,False,False,False,False,False
+en_AU_Entertainment_1586372,2,agent,channel1,1,0.0,22.0,"Hi, ABC Entertainment, how can I help you?",neutral,0.7076,False,False,True,False,False
+en_AU_Entertainment_1586372,3,customer,channel2,2,21.2,28.2,so there were e-tickets. And the concert is in two days. I'm worried about entry.,negative,0.6881,False,False,False,False,False
+en_AU_Entertainment_1586372,4,agent,channel1,2,22.0,37.0,"Okay, thanks Jenny. Can I get some more information which concert it is and how you booked it?",neutral,0.7893,False,False,True,False,False
+en_AU_Entertainment_1586372,5,customer,channel2,3,36.2,42.2,"Sure, it was the Spice Girls concert and I booked them online.",neutral,0.6961,False,False,False,False,False
+en_AU_Entertainment_1586372,6,agent,channel1,3,37.0,51.0,Yeah. And you never received the confirmation? So the money was deducted from your account?,negative,0.6869,False,False,True,False,False
+en_AU_Entertainment_1586372,7,customer,channel2,4,42.2,57.2,"No. It was, yes. I have, yes.",neutral,0.6271,False,False,False,False,False
+en_AU_Entertainment_1586372,8,agent,channel1,4,51.0,66.0,Have you checked your spam folder? I think the event is in two days. Do you have...,neutral,0.8915,False,False,True,False,False
+en_AU_Entertainment_1586372,9,agent,channel1,5,66.0,75.0,So you didn't receive any confirmation or anything? So which portal did you use? Which website did you use for booking your ticket?,neutral,0.7726,False,False,True,False,False
+en_AU_Entertainment_1586372,10,customer,channel2,5,73.2,76.2,"Um, I used your online one.",neutral,0.9064,False,False,False,False,False
+en_AU_Entertainment_1586372,11,agent,channel1,6,76.0,100.0,"Okay, that is very strange. So I will need to receive the proof of your purchase to be able to try and retrieve this because you didn't receive your tickets and you don't have any confirmation of this?",negative,0.7356,False,False,True,False,False
+en_AU_Entertainment_1586372,12,customer,channel2,6,76.2,98.2,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Entertainment_1586372,13,agent,channel1,7,100.0,116.0,"So without that, I won't be able to actually retrieve this at all unless you provide us with confirmation of your payments and the date, how many tickets was this?",negative,0.7764,False,False,True,False,False
+en_AU_Entertainment_1586372,14,customer,channel2,7,106.2,126.2,"Uh, two.",neutral,0.8379,False,False,False,False,False
+en_AU_Entertainment_1586372,15,agent,channel1,8,121.0,127.0,Did the system ask you to put the name of the attendees?,neutral,0.9336,False,False,True,False,False
+en_AU_Entertainment_1586372,16,customer,channel2,8,126.2,142.2,"It did, yes. Yeah, I purchased them the 10th of August this year.",neutral,0.6448,False,False,False,False,False
+en_AU_Entertainment_1586372,17,agent,channel1,9,128.0,137.0,"Okay, so that might help us to find your tickets. Can you tell me what dates you purchased them?",neutral,0.7851,False,False,True,False,False
+en_AU_Entertainment_1586372,18,customer,channel2,9,142.2,148.2,"Uh, 150.",neutral,0.8824,False,False,False,False,False
+en_AU_Entertainment_1586372,19,agent,channel1,10,144.0,146.0,"Okay, and how much was the total paid?",neutral,0.9057,False,False,True,False,False
+en_AU_Entertainment_1586372,20,agent,channel1,11,146.0,174.0,"Okay. Look, this seems like a very popular day and there has been a lot of transactions on that day. I don't know whether I can retrieve them like this, but what I would suggest is if you send us an email and we're looking for this,",neutral,0.5888,False,False,False,False,False
+en_AU_Entertainment_1586372,21,customer,channel2,10,172.2,192.2,"Yeah. Yes, please. Yeah. Yeah.",positive,0.8884,False,False,False,False,False
+en_AU_Entertainment_1586372,22,agent,channel1,12,177.0,196.0,would you like our email address? So that is info at entertainmentinquiries.com.au,neutral,0.88,False,False,True,False,False
+en_AU_Entertainment_1586372,23,customer,channel2,11,193.2,200.2,"All right, cool. Are there any physical tickets available for pickup?",positive,0.7236,False,False,False,False,False
+en_AU_Entertainment_1586372,24,agent,channel1,13,197.0,209.0,"Well, there are physical tickets, but they will need to go through the same processes at the counter when you arrive.",neutral,0.9234,False,False,False,False,False
+en_AU_Entertainment_1586372,25,customer,channel2,12,208.2,221.2,"Oh, yeah.",neutral,0.4814,False,False,False,False,False
+en_AU_Entertainment_1586372,26,agent,channel1,14,209.0,226.0,"And for that, I would suggest you really need to arrive a couple of hours earlier so you can do that. And that's very risky because if they can't and it gets busy, they really need to serve the customers because the booths are for purchasing tickets.",negative,0.5056,False,False,False,False,False
+en_AU_Entertainment_1586372,27,customer,channel2,13,221.2,236.2,"Okay. Um, if my, if the tickets don't come before the show starts, will I get refunded?",neutral,0.6636,False,False,False,False,False
+en_AU_Entertainment_1586372,28,agent,channel1,15,240.0,256.0,"Well, I'm not too sure because he left it till very late to contact us since August and we'll have to see whether that works.",neutral,0.5118,False,False,False,False,False
+en_AU_Entertainment_1586372,29,customer,channel2,14,251.2,267.2,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Entertainment_1586372,30,agent,channel1,16,256.0,268.0,I don't think unfortunately we can process any refunds for you because I don't have any confirmation of the purchase either.,negative,0.8434,False,False,False,False,False
+en_AU_Entertainment_1586372,31,customer,channel2,15,267.2,287.2,Hmm.,neutral,0.7123,False,False,False,False,False
+en_AU_Entertainment_1586372,32,agent,channel1,17,269.0,288.0,Can you email all of those information through to us so we can have a look? What I can suggest is put urgent in the subject line and please explain that you spoke to me and put your timelines in there as well and we can try and have a look for you.,neutral,0.8928,False,False,True,True,False
+en_AU_Entertainment_1586372,33,customer,channel2,16,287.2,303.2,"Okay, yep.",neutral,0.6018,False,False,False,False,False
+en_AU_Entertainment_1586372,34,agent,channel1,18,289.0,304.0,"If you retrieve, be able to retrieve and identify your booking, what will happen from there is we can send you your tickets, we can email them through to you again.",neutral,0.8129,False,False,False,False,False
+en_AU_Entertainment_1586372,35,customer,channel2,17,303.2,319.2,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Entertainment_1586372,36,agent,channel1,19,305.0,319.0,"And then what you will need to do is either show them on your screen, there will be barcode included that will allow you entry or you can just print them as well either way is fine.",neutral,0.823,False,False,False,False,False
+en_AU_Entertainment_1586372,37,customer,channel2,18,319.2,322.2,Okay. Okay. Cool.,positive,0.8105,False,False,False,False,False
+en_AU_Entertainment_1586372,38,customer,channel2,19,322.2,328.2,All right. Thank you.,positive,0.7685,False,False,False,False,False
+en_AU_Entertainment_1586372,39,agent,channel1,20,327.0,329.0,Was there anything else that I can help you with?,neutral,0.904,False,False,True,True,False
+en_AU_Entertainment_1586372,40,customer,channel2,20,328.2,340.2,"Um, no, that's all. Thank you. Thanks.",neutral,0.4936,False,False,False,False,False
+en_AU_Entertainment_1586372,41,agent,channel1,21,329.0,335.0,Thank you so much. Good luck with that. Bye-bye.,positive,0.9136,False,False,False,False,False

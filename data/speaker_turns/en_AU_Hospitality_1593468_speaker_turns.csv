@@ -1,0 +1,159 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Hospitality_1593468,1,agent,channel1,1,0.0,19.8,"Hello, thank you for calling Brooksfield Hotel, this is Jemima speaking, how can I assist"
+en_AU_Hospitality_1593468,2,customer,channel2,1,0.0,29.92,"Hi Gemma, my name's Sarah. I just, I'm coming and checking in this weekend and"
+en_AU_Hospitality_1593468,3,agent,channel1,2,19.8,20.8,you today?
+en_AU_Hospitality_1593468,4,agent,channel1,3,21.8,22.8,Welcome.
+en_AU_Hospitality_1593468,5,agent,channel1,4,26.8,27.8,Thanks.
+en_AU_Hospitality_1593468,6,customer,channel2,2,30.88,35.76,I was just hoping to arrange an early check-in because my flight's coming in quite early and I just
+en_AU_Hospitality_1593468,7,customer,channel2,3,35.76,43.04,want to go straight to bed. I'm gonna be arriving at about 8 a.m at the airport from an overnight
+en_AU_Hospitality_1593468,8,customer,channel2,4,43.04,49.6,"flight. So I was hoping to check in by like 10 a.m, 11 a.m. Is that all right?"
+en_AU_Hospitality_1593468,9,agent,channel1,5,51.8,53.8,"Hi, thank you for reaching out."
+en_AU_Hospitality_1593468,10,agent,channel1,6,53.8,55.8,Let me check the availability for you.
+en_AU_Hospitality_1593468,11,agent,channel1,7,55.8,61.8,"So our standard check-in time is 3pm, but I'll see what we can do for an early check-in time."
+en_AU_Hospitality_1593468,12,customer,channel2,5,59.92,67.92,Yeah.
+en_AU_Hospitality_1593468,13,agent,channel1,8,61.8,66.8,If you can give me one moment please and I'll check our system to see what availability we have.
+en_AU_Hospitality_1593468,14,customer,channel2,6,67.92,75.92,Yep.
+en_AU_Hospitality_1593468,15,agent,channel1,9,69.8,70.8,Certainly.
+en_AU_Hospitality_1593468,16,agent,channel1,10,70.8,76.8,"So I've just checked and based on some of the availability we have, we can do an early"
+en_AU_Hospitality_1593468,17,agent,channel1,11,76.8,80.8,check-in for your desired time on Friday.
+en_AU_Hospitality_1593468,18,agent,channel1,12,80.8,86.8,There is an additional fee of $25 for an early check-in which covers the additional staffing
+en_AU_Hospitality_1593468,19,agent,channel1,13,86.8,89.8,and cleaning time required to prepare your room.
+en_AU_Hospitality_1593468,20,agent,channel1,14,89.8,90.8,Would you like to go ahead with that?
+en_AU_Hospitality_1593468,21,customer,channel2,7,89.92,99.32,"Oh, that's a bit steep, um, you're right, I may as well, $25 for like a bit of extra"
+en_AU_Hospitality_1593468,22,customer,channel2,8,99.32,107.72,"sleep is really good, um, could I book that in and could I also ask about, um, the availability"
+en_AU_Hospitality_1593468,23,agent,channel1,15,106.8,124.8,"Certainly, let me have a look at some of our room availability and I'll see what we can do."
+en_AU_Hospitality_1593468,24,customer,channel2,9,107.72,108.72,of adjoining rooms?
+en_AU_Hospitality_1593468,25,customer,channel2,10,108.72,114.4,I've just got like some family coming with me and like it'd be good to be next to
+en_AU_Hospitality_1593468,26,customer,channel2,11,114.4,138.08,"each other and like have an adjoining room, but if we can't, that's alright, um, just like"
+en_AU_Hospitality_1593468,27,agent,channel1,16,125.8,134.8,"How many, was it just the one adjoining room that you'd like or would you like to have multiple rooms?"
+en_AU_Hospitality_1593468,28,customer,channel2,12,138.08,159.68,"two rooms next to each other with a door in the middle, you know?"
+en_AU_Hospitality_1593468,29,agent,channel1,17,141.8,142.8,Certainly.
+en_AU_Hospitality_1593468,30,agent,channel1,18,142.8,147.8,So I've just checked based on your dates and we do have adjoining rooms available.
+en_AU_Hospitality_1593468,31,agent,channel1,19,147.8,151.8,So these rooms are located next to each other with an eternal door connecting them.
+en_AU_Hospitality_1593468,32,agent,channel1,20,152.8,156.8,So the internal door can be locked on either side.
+en_AU_Hospitality_1593468,33,agent,channel1,21,156.8,158.8,Would you like me to reserve this for you?
+en_AU_Hospitality_1593468,34,customer,channel2,13,159.68,173.36,"Yeah, that'd be great, thank you."
+en_AU_Hospitality_1593468,35,agent,channel1,22,163.8,164.8,Absolutely.
+en_AU_Hospitality_1593468,36,agent,channel1,23,166.8,168.8,And was there any children coming with you as well?
+en_AU_Hospitality_1593468,37,agent,channel1,24,168.8,172.8,Do you need to request a cot or a...
+en_AU_Hospitality_1593468,38,customer,channel2,14,173.36,176.48,"Just an extra tunnel bed would be great, like just for a five-year-old."
+en_AU_Hospitality_1593468,39,agent,channel1,25,173.8,183.8,"Absolutely, we can add that to your reservation as well as you are under our guest limit,"
+en_AU_Hospitality_1593468,40,agent,channel1,26,183.8,188.8,as we do have a maximum of four guests support her room.
+en_AU_Hospitality_1593468,41,agent,channel1,27,188.8,195.8,That's all booked in the additional trundle bed for a child and the adjoining room.
+en_AU_Hospitality_1593468,42,customer,channel2,15,189.68,205.08,"Um, I was just wondering about your complimentary services as well, um, I just want to know, I"
+en_AU_Hospitality_1593468,43,agent,channel1,28,195.8,198.8,Is there anything else I can assist you with today?
+en_AU_Hospitality_1593468,44,agent,channel1,29,202.8,219.8,"Certainly, so in terms of complimentary services that we offer, as a guest at Brooksfield,"
+en_AU_Hospitality_1593468,45,customer,channel2,16,205.08,209.76,actually didn't really look when I was booking and so I probably should figure that one out
+en_AU_Hospitality_1593468,46,customer,channel2,17,209.76,210.96,"before I get there, you know?"
+en_AU_Hospitality_1593468,47,agent,channel1,30,219.8,223.8,you'll have access to several complimentary services.
+en_AU_Hospitality_1593468,48,agent,channel1,31,223.8,228.8,So we have free Wi-Fi in all our rooms and public areas of the hotel.
+en_AU_Hospitality_1593468,49,agent,channel1,32,228.8,230.8,We do a complimentary breakfast.
+en_AU_Hospitality_1593468,50,agent,channel1,33,230.8,235.8,We offer a continental breakfast daily from 6.30 to 11 a.m.
+en_AU_Hospitality_1593468,51,agent,channel1,34,235.8,241.8,"So if you do arrive early as per your early check-in, you would still be able to access breakfast."
+en_AU_Hospitality_1593468,52,agent,channel1,35,241.8,247.8,"We have a fitness centre, so our gym is available 24-7 and there's no charge to use it."
+en_AU_Hospitality_1593468,53,agent,channel1,36,247.8,254.8,"So in our fitness centre, we have basic weights and the normal basic machines that you'd find."
+en_AU_Hospitality_1593468,54,agent,channel1,37,254.8,260.8,"We have a business centre, so free access to computers and printers in our business centre for your convenience."
+en_AU_Hospitality_1593468,55,agent,channel1,38,260.8,267.8,"And we have free tea, coffee and milk and biscuits that are provided each day in your room."
+en_AU_Hospitality_1593468,56,customer,channel2,18,269.76,276.76,Can I pull?
+en_AU_Hospitality_1593468,57,agent,channel1,39,270.8,272.8,We do have a pool as well.
+en_AU_Hospitality_1593468,58,agent,channel1,40,272.8,280.8,"That is a small indoor pool that we offer and that is located on the top floor, so on the 17th."
+en_AU_Hospitality_1593468,59,customer,channel2,19,276.76,299.6,"Um, I was also just wondering."
+en_AU_Hospitality_1593468,60,agent,channel1,41,281.8,284.8,"Additionally, if you are interested in exploring the area as well,"
+en_AU_Hospitality_1593468,61,agent,channel1,42,284.8,289.8,we also offer complimentary shuttle services to a couple of our local key attractions.
+en_AU_Hospitality_1593468,62,agent,channel1,43,289.8,294.8,And we do have concierge that can help with any recommendations of all reservations.
+en_AU_Hospitality_1593468,63,agent,channel1,44,294.8,296.8,Does that cover everything you were hoping for?
+en_AU_Hospitality_1593468,64,agent,channel1,45,296.8,317.8,"No, we don't offer these directly at our hotel, but our concierge will be able to organise these sort of arrangements with you."
+en_AU_Hospitality_1593468,65,customer,channel2,20,300.56,306.4,I love a good sauna and I love a good spa sesh and I love a good ice bath.
+en_AU_Hospitality_1593468,66,customer,channel2,21,306.4,313.28,Do you have those services there or do I need to find them externally for me?
+en_AU_Hospitality_1593468,67,customer,channel2,22,313.28,337.96,"Okay, okay, and another question, do you have like a kids club or like babysitting services"
+en_AU_Hospitality_1593468,68,agent,channel1,46,317.8,324.8,We do have local offerings with local places that offer these services.
+en_AU_Hospitality_1593468,69,agent,channel1,47,324.8,331.8,So you can either have it pre-arranged prior to your visit or can arrange with concierge once you arrive.
+en_AU_Hospitality_1593468,70,customer,channel2,23,337.96,342.48,"that you can organize for me, um, just so we can do the stuff that we want to do?"
+en_AU_Hospitality_1593468,71,customer,channel2,24,342.6,349.36,"Obviously, I want to be able to go out without the kids, um, because my family has kids and"
+en_AU_Hospitality_1593468,72,customer,channel2,25,349.36,353.4,"they're not my kids, I'm their aunt, and sometimes you just need a break and sometimes I just"
+en_AU_Hospitality_1593468,73,customer,channel2,26,353.4,354.88,"want to go out with my sister, you know?"
+en_AU_Hospitality_1593468,74,agent,channel1,48,355.8,357.8,"Absolutely, that's completely understandable."
+en_AU_Hospitality_1593468,75,agent,channel1,49,357.8,359.8,Everyone deserves a break from their kids at time.
+en_AU_Hospitality_1593468,76,agent,channel1,50,359.8,366.8,So we actually do have a kids club that operates for a couple of hours every day.
+en_AU_Hospitality_1593468,77,agent,channel1,51,366.8,371.8,So it operates in our conference room.
+en_AU_Hospitality_1593468,78,agent,channel1,52,371.8,374.8,"We have sort of an offset, it is completely non-proofing."
+en_AU_Hospitality_1593468,79,agent,channel1,53,374.8,380.8,So the kids club operates from 11am until 4.30pm.
+en_AU_Hospitality_1593468,80,agent,channel1,54,380.8,387.8,"Outside that, we do also have recommendations for internal babysitters that we do bring in."
+en_AU_Hospitality_1593468,81,agent,channel1,55,387.8,400.8,These babysitters are all police-checked and have all have certificates and certifications in child-minding.
+en_AU_Hospitality_1593468,82,agent,channel1,56,400.8,410.8,"They are all registered, they all have references and they're used daily by all the guests that stay with us."
+en_AU_Hospitality_1593468,83,customer,channel2,27,402.48,413.08,"Okay, cool."
+en_AU_Hospitality_1593468,84,customer,channel2,28,413.08,416.72,And can I ask you another question?
+en_AU_Hospitality_1593468,85,agent,channel1,57,413.8,415.8,"Absolutely, please go ahead."
+en_AU_Hospitality_1593468,86,customer,channel2,29,416.72,424.88,"So I kind of like to have like a firm pillow and like a good warm duvet and my partner,"
+en_AU_Hospitality_1593468,87,customer,channel2,30,424.88,427.28,he likes to have a soft pillow.
+en_AU_Hospitality_1593468,88,customer,channel2,31,427.28,430.56,"Do you reckon you could put those in the room for us, please?"
+en_AU_Hospitality_1593468,89,agent,channel1,58,430.8,436.8,"Absolutely, so we do have our standard pillow options that are provided in each room."
+en_AU_Hospitality_1593468,90,agent,channel1,59,436.8,441.8,"If you're not content with the pillows, we do have other options available at reception."
+en_AU_Hospitality_1593468,91,agent,channel1,60,441.8,448.8,So you just need to call down to us and we can have someone bring up some of the pillow options or always come visit our desk.
+en_AU_Hospitality_1593468,92,agent,channel1,61,448.8,455.8,"In terms of additional duvets, there is one provided in the closet in each room."
+en_AU_Hospitality_1593468,93,agent,channel1,62,455.8,463.8,"But if you do need additional blankets or duvets, just a call to reception and we can have someone bring those up to you."
+en_AU_Hospitality_1593468,94,customer,channel2,32,457.28,485.52,"Um, could I also ask you about the parking options and how much it costs because we're"
+en_AU_Hospitality_1593468,95,agent,channel1,63,463.8,473.8,So all of our duvets are feather locally sourced and 100% cruelty free.
+en_AU_Hospitality_1593468,96,agent,channel1,64,473.8,477.8,Is there anything else I can help you with for today?
+en_AU_Hospitality_1593468,97,customer,channel2,33,485.52,489.28,"thinking of hiring a car because we want to go on some hikes and save some waterfalls,"
+en_AU_Hospitality_1593468,98,agent,channel1,65,485.8,500.8,"Absolutely, so we actually have a parking service onsite."
+en_AU_Hospitality_1593468,99,customer,channel2,34,489.28,492.84,"you know, casual things you do."
+en_AU_Hospitality_1593468,100,customer,channel2,35,492.84,496.64,And so just wondering where we can park the car and how much that will cost.
+en_AU_Hospitality_1593468,101,agent,channel1,66,500.8,503.8,We do have a valet or park at our own.
+en_AU_Hospitality_1593468,102,agent,channel1,67,503.8,506.8,It is located underneath our hotel.
+en_AU_Hospitality_1593468,103,agent,channel1,68,506.8,513.8,So some of the options that we have is a self-parking which is a fee of $20 per night.
+en_AU_Hospitality_1593468,104,agent,channel1,69,513.8,516.8,Or our valet service is $30 per night.
+en_AU_Hospitality_1593468,105,customer,channel2,36,515.52,531.68,"Uh, yeah, I think so, I think that would be good."
+en_AU_Hospitality_1593468,106,agent,channel1,70,516.8,523.8,Both parking options are secured and monitored so you'll feel confident parking your car with us then that it's safe.
+en_AU_Hospitality_1593468,107,agent,channel1,71,523.8,534.8,Would you like us to reserve a parking spot now for you?
+en_AU_Hospitality_1593468,108,customer,channel2,37,531.68,534.56,Can I cancel it with no fee if I decide not to hire a car?
+en_AU_Hospitality_1593468,109,agent,channel1,72,534.8,537.8,"Absolutely, you can cancel with no fee."
+en_AU_Hospitality_1593468,110,agent,channel1,73,537.8,545.8,It's just if you decide to change on the day that we can't guarantee if you cancel beforehand and you do arrive with the car.
+en_AU_Hospitality_1593468,111,customer,channel2,38,545.52,566.8,Definitely valet because I know I'll scratch the car otherwise.
+en_AU_Hospitality_1593468,112,agent,channel1,74,545.8,550.8,Sometimes we just can't guarantee that we do have car park space available.
+en_AU_Hospitality_1593468,113,agent,channel1,75,550.8,559.8,Which option would you like to proceed with the self-park or the valet parking?
+en_AU_Hospitality_1593468,114,agent,channel1,76,559.8,570.8,Absolutely and I will advise we also do have a 24 service valet parking so at all different times there'll always be someone available to retrieve your car.
+en_AU_Hospitality_1593468,115,customer,channel2,39,566.8,586.4,"Well, yeah, I should probably organize an airport transfer and a transfer to get my car, but I"
+en_AU_Hospitality_1593468,116,agent,channel1,77,570.8,574.8,So I'll book in your valet car park.
+en_AU_Hospitality_1593468,117,agent,channel1,78,574.8,580.8,Is there anything else for you need to request or confirm with us?
+en_AU_Hospitality_1593468,118,customer,channel2,40,586.4,590.48,think I'll just go for the airport transfer until I figure out if I want to hire the
+en_AU_Hospitality_1593468,119,customer,channel2,41,590.48,591.48,car.
+en_AU_Hospitality_1593468,120,agent,channel1,79,590.8,596.8,"Absolutely, so there's multiple different options available."
+en_AU_Hospitality_1593468,121,customer,channel2,42,591.48,601.48,"Um, do you reckon you could get us from the airport?"
+en_AU_Hospitality_1593468,122,agent,channel1,80,596.8,598.8,We do offer a shuttle.
+en_AU_Hospitality_1593468,123,agent,channel1,81,598.8,604.8,It's once every hour or we can organise a private transfer from the airport if you'd like.
+en_AU_Hospitality_1593468,124,customer,channel2,43,601.48,621.48,"A private transfer, please."
+en_AU_Hospitality_1593468,125,agent,channel1,82,604.8,611.8,That will be certainly so with our private transfer they will be tracking your flight.
+en_AU_Hospitality_1593468,126,agent,channel1,83,611.8,618.8,So if there is any delays they will be aware of it before you arrive and they will be at the arrivals hall with your name.
+en_AU_Hospitality_1593468,127,agent,channel1,84,618.8,621.8,And I will assist you with your luggage.
+en_AU_Hospitality_1593468,128,customer,channel2,44,621.48,645.48,"Um, do you reckon you could just chuck a bottle of champagne in my room too just for like,"
+en_AU_Hospitality_1593468,129,agent,channel1,85,621.8,634.8,So that is an additional $80 to book otherwise we do have the free complimentary service shuttle.
+en_AU_Hospitality_1593468,130,agent,channel1,86,634.8,636.8,Is there anything else?
+en_AU_Hospitality_1593468,131,customer,channel2,45,645.48,650.44,"you know, when you arrive, you want a bit of a champagne and then you have a nap, wake"
+en_AU_Hospitality_1593468,132,agent,channel1,87,649.8,654.8,"Absolutely, we can organise for you."
+en_AU_Hospitality_1593468,133,customer,channel2,46,650.44,667.96,"up, more champagne, do you reckon you can organize that for me?"
+en_AU_Hospitality_1593468,134,agent,channel1,88,654.8,661.8,That will incur an additional charge so we don't offer complimentary alcohol in rooms.
+en_AU_Hospitality_1593468,135,agent,channel1,89,661.8,666.8,How many people are you seeking to have the champagne for?
+en_AU_Hospitality_1593468,136,agent,channel1,90,666.8,673.8,"Yeah, so just for two would you like just one bottle of champagne or would you like two?"
+en_AU_Hospitality_1593468,137,customer,channel2,47,667.96,678.48,"Just for me and my partner, I reckon, hmm, I reckon two, let's make it two."
+en_AU_Hospitality_1593468,138,agent,channel1,91,673.8,688.8,"Absolutely, we also do have room service that does offer drinks as well."
+en_AU_Hospitality_1593468,139,customer,channel2,48,678.48,689.92,"Do you reckon you can chuck in a bit of orange juice with that, too, just for a morning mimosa?"
+en_AU_Hospitality_1593468,140,agent,channel1,92,688.8,698.8,And mimosas are a part of our menu so we don't have in room mimosas that we can leave.
+en_AU_Hospitality_1593468,141,customer,channel2,49,689.92,711.88,"All right, too easy, that sounds good."
+en_AU_Hospitality_1593468,142,agent,channel1,93,698.8,707.8,So once you've checked in and settled in your room you can call for room service and order mimosas through that.
+en_AU_Hospitality_1593468,143,agent,channel1,94,707.8,716.8,"Absolutely, is there anything else you'd like to inquire about just before I confirm details with you?"
+en_AU_Hospitality_1593468,144,customer,channel2,50,711.88,716.76,"No, that's all good, but thank you."
+en_AU_Hospitality_1593468,145,agent,channel1,95,716.8,725.8,"Certainly, so we have you arriving for an early check in at approximately 11am on Friday and you've got the adjoining room."
+en_AU_Hospitality_1593468,146,agent,channel1,96,725.8,734.8,And you'll be going for valet parking that we've reserved for you which is $30 per 24 hour period.
+en_AU_Hospitality_1593468,147,agent,channel1,97,734.8,738.8,You'll receive a confirmation email shortly with all the details.
+en_AU_Hospitality_1593468,148,agent,channel1,98,738.8,745.8,I've also added a bottle of champagne to your room that will also be noted down on your reservation
+en_AU_Hospitality_1593468,149,agent,channel1,99,745.8,748.8,and will be also included in your confirmation email.
+en_AU_Hospitality_1593468,150,agent,channel1,100,748.8,754.8,Is there anything else I can help you with before your arrival?
+en_AU_Hospitality_1593468,151,customer,channel2,51,750.92,773.92,"No, that's fine, thank you so much for your help."
+en_AU_Hospitality_1593468,152,agent,channel1,101,754.8,764.8,Certainly and you'll receive an additional email requesting your flight details to book in your airport transfer.
+en_AU_Hospitality_1593468,153,agent,channel1,102,764.8,767.8,If you have any other questions please feel free to email or call.
+en_AU_Hospitality_1593468,154,agent,channel1,103,767.8,774.8,If not have a lovely day and we look forward to welcoming you this weekend and have a safe flight.
+en_AU_Hospitality_1593468,155,customer,channel2,52,773.92,776.92,"Awesome, thank you so much."
+en_AU_Hospitality_1593468,156,agent,channel1,104,774.8,779.8,"Right, thank you. Goodbye, have a lovely day."
+en_AU_Hospitality_1593468,157,customer,channel2,53,776.92,778.92,Bye.
+en_AU_Hospitality_1593468,158,customer,channel2,54,778.92,780.92,Me too.

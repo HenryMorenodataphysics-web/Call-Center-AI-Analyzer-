@@ -1,0 +1,140 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Energy_1593471,1,agent,channel1,1,0.0,20.6,Good morning. Thank you for calling Stemwell Services. This is Thea speaking. How can
+en_AU_Energy_1593471,2,customer,channel2,1,0.0,28.48,"Hi Thia, my name is Sharon. I've just moved into my new home and I was looking to set"
+en_AU_Energy_1593471,3,agent,channel1,2,20.6,37.8,"I help you today? Of course, congratulations on your new home. I'd be happy to assist you"
+en_AU_Energy_1593471,4,customer,channel2,2,28.48,33.28,up heating service for the winter. Could you help me get everything set up please?
+en_AU_Energy_1593471,5,agent,channel1,3,37.8,43.4,"with setting up your new heating services. To get started, can I have your address and"
+en_AU_Energy_1593471,6,agent,channel1,4,43.4,47.08,the name of the account holder? Are you a current account holder with us or would this
+en_AU_Energy_1593471,7,agent,channel1,5,47.08,60.84,"be your first time using us? Absolutely. Sorry, Sharon, can I just get a last name and a phone"
+en_AU_Energy_1593471,8,customer,channel2,3,49.36,54.72,Be my first time using you and the address is 12 Smith Strait.
+en_AU_Energy_1593471,9,customer,channel2,4,58.48,79.04,"Yeah, it's so Sharon and in Smith and my phone number is 040000000."
+en_AU_Energy_1593471,10,agent,channel1,6,60.84,68.04,number to put on file since this will be your first account with us? Yep.
+en_AU_Energy_1593471,11,agent,channel1,7,80.6,87.4,"Absolutely. Sharon, so just confirming Sharon Smith and your address is 12 Smith Street."
+en_AU_Energy_1593471,12,agent,channel1,8,87.96,104.2,Was that intentional or just… Lucky makes it quite easy to remember the address there.
+en_AU_Energy_1593471,13,customer,channel2,5,89.44,96.16,"I don't need enough to know. I bought the house, saw it. I forgot I was even on the Smith Strait"
+en_AU_Energy_1593471,14,customer,channel2,6,96.16,99.04,to be honest with you. So I just bought the house.
+en_AU_Energy_1593471,15,customer,channel2,7,103.92,105.68,"Exactly, exactly."
+en_AU_Energy_1593471,16,agent,channel1,9,106.44,110.12,"Certainly. So since you're setting up services for the winter, can we schedule an"
+en_AU_Energy_1593471,17,agent,channel1,10,110.12,118.76,"installation or service activation? Yep, certainly. Which one would you like to"
+en_AU_Energy_1593471,18,customer,channel2,8,115.12,115.62,Yep.
+en_AU_Energy_1593471,19,customer,channel2,9,118.48,137.04,"Ah, can I just get someone to come out and set it up for me?"
+en_AU_Energy_1593471,20,agent,channel1,11,118.76,126.84,proceed with so we can either do an installation or service activation? So a new installation would
+en_AU_Energy_1593471,21,agent,channel1,12,126.84,132.36,be we install a new heating system or an activation. Would just be someone coming out to set it up?
+en_AU_Energy_1593471,22,agent,channel1,13,132.68,145.88,"Absolutely. Yep. Okay, got it. I've got everything set up for you before we"
+en_AU_Energy_1593471,23,agent,channel1,14,145.88,150.04,schedule your appointment. I'd also like to mention that we offer a range of energy
+en_AU_Energy_1593471,24,customer,channel2,10,149.36,163.04,"Yeah, that'd be great, but I just don't want to like be told that they're really good for me if"
+en_AU_Energy_1593471,25,agent,channel1,15,150.04,154.84,saving plans to help you save on heating costs during the winter months. Would you be
+en_AU_Energy_1593471,26,agent,channel1,16,154.84,157.88,interested in learning more about the options that our company provides?
+en_AU_Energy_1593471,27,customer,channel2,11,163.04,169.04,"they're not very good for me, you know. So do you reckon you can tell me the truth?"
+en_AU_Energy_1593471,28,agent,channel1,17,163.24,173.72,Absolutely. So I'll talk you through the design options that we offer. So we have a fixed rate
+en_AU_Energy_1593471,29,agent,channel1,18,173.72,178.92,"plan. With this plan, your heating costs are locked in at a fixed rate for the entire winter."
+en_AU_Energy_1593471,30,agent,channel1,19,178.92,183.72,"This way, you don't have to worry about price fluctuations due to market changes."
+en_AU_Energy_1593471,31,agent,channel1,20,183.72,189.24,It's a great option if you prefer predictable costs. Another option that we have is payers.
+en_AU_Energy_1593471,32,agent,channel1,21,189.24,194.12,"You go this plan allows you to pay more for your fuel as you use it. It's more flexible,"
+en_AU_Energy_1593471,33,agent,channel1,22,194.12,199.08,but the price can fluctuate based on market conditions. This is good if you're looking for
+en_AU_Energy_1593471,34,agent,channel1,23,199.08,204.04,more flexibility and don't mind some variation in your costs. So this one's a bit more if you're
+en_AU_Energy_1593471,35,agent,channel1,24,204.04,211.16,not at home a lot and you only use your heating periodically rather than all the time.
+en_AU_Energy_1593471,36,customer,channel2,12,208.48,238.16,"Yeah, I'm based on previous like, like, um, data, um, do which"
+en_AU_Energy_1593471,37,agent,channel1,25,211.16,216.2,Another option that we offer is the energy efficiency program. We also offer an energy
+en_AU_Energy_1593471,38,agent,channel1,26,216.2,222.2,saving device and services such as installation checks or system maintenance to your home for more
+en_AU_Energy_1593471,39,agent,channel1,27,222.84,232.12,energy saving efficiency and reduced heating cost. Would any of these three options sound good for you?
+en_AU_Energy_1593471,40,agent,channel1,28,232.28,250.76,"We do have data, but it comes down to personal use. Do you use the heating a lot? Would you say"
+en_AU_Energy_1593471,41,customer,channel2,13,238.4,251.84,"plan gives the most savings, like based on data collection that I know you'll have."
+en_AU_Energy_1593471,42,agent,channel1,29,250.76,255.8,you use the heating for multiple hours a day or would you only just pop it on for maybe an hour
+en_AU_Energy_1593471,43,agent,channel1,30,255.8,265.48,to each day? Do you work from home or are you out of the house most of the day?
+en_AU_Energy_1593471,44,customer,channel2,14,257.68,259.84,Depends on my feelings and how I feel.
+en_AU_Energy_1593471,45,customer,channel2,15,260.32,272.96,I guess that depends on the day. I guess I have like my friends come over for a cup of tea sometimes
+en_AU_Energy_1593471,46,customer,channel2,16,272.96,279.36,and I don't work anymore. So I just kind of sit at home a lot of the day and then I go
+en_AU_Energy_1593471,47,customer,channel2,17,279.36,286.48,"out for a walk and I like to get my coffee outside too. I don't make my coffee at home,"
+en_AU_Energy_1593471,48,agent,channel1,31,285.8,301.88,"Based on what you've advised me, Sharon, I'd proceed to go with our fixed rate plan system."
+en_AU_Energy_1593471,49,customer,channel2,18,286.48,292.16,can't make coffee to save my life. So I'm not too sure.
+en_AU_Energy_1593471,50,agent,channel1,32,301.88,307.24,"With this plan, we can lock in your heating costs now. So it doesn't matter with how much"
+en_AU_Energy_1593471,51,agent,channel1,33,307.24,312.68,"you have your heating on, your bill will remain the same for the next quarter."
+en_AU_Energy_1593471,52,agent,channel1,34,313.48,317.24,So it will be the same amount each month so you know exactly how much you're paying
+en_AU_Energy_1593471,53,agent,channel1,35,317.24,321.24,"so it doesn't matter if you have your heating on for only two hours a day or 20 hours a day,"
+en_AU_Energy_1593471,54,customer,channel2,19,317.44,329.6,"Okay, but like, what if that doesn't actually save me money? Will I know after the first quarter"
+en_AU_Energy_1593471,55,agent,channel1,36,321.24,329.56,the price will remain the same.
+en_AU_Energy_1593471,56,customer,channel2,20,329.6,336.24,"if that saves me money? Or will I, and will I get like a cost benefit analysis of that"
+en_AU_Energy_1593471,57,customer,channel2,21,336.24,341.52,with the pay as you go versus the fixed rate plan? Or will I just kind of have it thrown out me
+en_AU_Energy_1593471,58,customer,channel2,22,341.52,345.52,and I won't know any of that.
+en_AU_Energy_1593471,59,agent,channel1,37,343.56,352.36,So each winter we offer these services to our clients so you'll know after your first winter
+en_AU_Energy_1593471,60,agent,channel1,38,352.36,357.8,with us so we lock in for the entire duration of winter so we'll lock it in for the three months
+en_AU_Energy_1593471,61,agent,channel1,39,357.8,364.52,of winter for this but at any time you can call and change your services so if you feel like
+en_AU_Energy_1593471,62,agent,channel1,40,364.52,369.72,what you're paying for is pay as the fixed rate and turns out you're not using it as much
+en_AU_Energy_1593471,63,agent,channel1,41,369.72,372.2,you can always switch it to pay as you go.
+en_AU_Energy_1593471,64,customer,channel2,23,371.52,379.52,"Okay, and how many customers are on fixed rate plans? What percentage?"
+en_AU_Energy_1593471,65,agent,channel1,42,379.4,386.68,I would say 65% of our customers are on fixed play. A lot of people work hybrid days or I just
+en_AU_Energy_1593471,66,agent,channel1,43,386.68,391.48,at home sort of a lot more during winter so the heating's on a lot more because most people
+en_AU_Energy_1593471,67,agent,channel1,44,392.12,397.32,are not venturing out as much so I would say 65% of our customers are on fixed rate.
+en_AU_Energy_1593471,68,agent,channel1,45,398.28,407.56,We have another 10% that are on pay as you go and the rest are on our energy efficiency program.
+en_AU_Energy_1593471,69,customer,channel2,24,401.52,417.52,"Okay, and with your customers, how many of them switch from fixed rate to pay as you go or vice versa?"
+en_AU_Energy_1593471,70,agent,channel1,46,417.24,420.92,So most customers lock in with us at the start of each winter.
+en_AU_Energy_1593471,71,agent,channel1,47,421.88,427.96,It varies year to year based on people's personal circumstances that what they switch to
+en_AU_Energy_1593471,72,agent,channel1,48,427.96,435.56,but most people in this day and age do stick with fixed rate plans as they know what their
+en_AU_Energy_1593471,73,customer,channel2,25,431.76,443.52,"Okay, all right, I'll go with the fixed rate then you've convinced me."
+en_AU_Energy_1593471,74,agent,channel1,49,435.56,436.76,entire cost will be.
+en_AU_Energy_1593471,75,agent,channel1,50,443.32,447.8,Absolutely so I've signed you up for the fixed rate heating systems your heating costs will
+en_AU_Energy_1593471,76,customer,channel2,26,443.68,462.16,"Yeah, when I pay my first bill and with reading my first bill, what's it going to look like and"
+en_AU_Energy_1593471,77,agent,channel1,51,447.8,451.8,be fixed for you the winter season and we'll make sure you get the best priced available.
+en_AU_Energy_1593471,78,agent,channel1,52,452.6,454.2,Is there anything else I can help you with?
+en_AU_Energy_1593471,79,customer,channel2,27,462.16,465.52,what should I expect from it?
+en_AU_Energy_1593471,80,agent,channel1,53,464.12,467.96,Great question when you receive your first bill out will include the typical following
+en_AU_Energy_1593471,81,agent,channel1,54,467.96,472.36,sections the meter reading so this shows your fuel consumption for the billing period.
+en_AU_Energy_1593471,82,agent,channel1,55,472.36,477.16,It will include the current and previous readings but as this is the first one
+en_AU_Energy_1593471,83,customer,channel2,28,473.52,475.52,Okay.
+en_AU_Energy_1593471,84,agent,channel1,56,478.36,485.56,with us it will not have any previous amounts on it the amount due so this action will show
+en_AU_Energy_1593471,85,agent,channel1,57,485.56,490.76,your fixed amount payment as you're on the fixed rate plan if you're on the pay as you go plan
+en_AU_Energy_1593471,86,agent,channel1,58,490.76,494.84,it will reflect the cost based on your usage and you'll see the payment due date
+en_AU_Energy_1593471,87,agent,channel1,59,496.12,501.8,at the top right hand corner so it will show you when it is due so you can pay your energy
+en_AU_Energy_1593471,88,agent,channel1,60,501.8,507.48,bills in several ways we have online through our website or mobile app we have by phone
+en_AU_Energy_1593471,89,customer,channel2,29,503.52,531.52,"Okay, so with my fixed rate plan, is that contract just quarterly or like, do I have to lock in for a few years and then get stuck in that?"
+en_AU_Energy_1593471,90,agent,channel1,61,507.48,514.28,using a credit card or debit card or we do offer in person at any of our authorized payment locations
+en_AU_Energy_1593471,91,agent,channel1,62,514.28,519.0,first bill should arrive in a couple of weeks after you're locked into the fixed rate plan
+en_AU_Energy_1593471,92,agent,channel1,63,519.0,523.0,if you ever have any questions about the charges our customer service team is here to help.
+en_AU_Energy_1593471,93,agent,channel1,64,523.16,539.0,So as this is your first time with us we only offer it for the first winter and then after your first
+en_AU_Energy_1593471,94,customer,channel2,30,533.52,557.52,"Okay, okay, I get it. And with your, with the contract, do I get to see and sign that before I agree to all of this?"
+en_AU_Energy_1593471,95,agent,channel1,65,539.64,545.72,winter with us we do offer the option to lock in for either a two year or four year plan.
+en_AU_Energy_1593471,96,agent,channel1,66,553.32,566.76,Absolutely so upon booking in an appointment for us when you come out for the fixed rate based on your
+en_AU_Energy_1593471,97,customer,channel2,31,563.52,587.52,"Okay, that sounds good."
+en_AU_Energy_1593471,98,agent,channel1,67,566.76,574.76,fixed rate when our technician comes out to set up your heating based on the details we can create
+en_AU_Energy_1593471,99,agent,channel1,68,574.76,580.44,a contract based on that and then that will be sent to you to sign before we take any payment
+en_AU_Energy_1593471,100,agent,channel1,69,580.44,596.36,from you. Certainly is there anything else I can help you with for today?
+en_AU_Energy_1593471,101,customer,channel2,32,587.52,609.52,"If there's something that goes wrong with the heating, what do I do like if there's an emergency or something? Is there something that I can do or do I contact like you for emergency services or do I contact triple zero?"
+en_AU_Energy_1593471,102,agent,channel1,70,603.0,608.44,Absolutely you do not need to call the emergency services at all so we have
+en_AU_Energy_1593471,103,agent,channel1,71,609.16,613.88,if you ever experience a heating emergency such as a gas leak system our function or no heat at
+en_AU_Energy_1593471,104,agent,channel1,72,613.88,621.96,all you can reach us through our 247 emergency services that phone number will be emailed to you
+en_AU_Energy_1593471,105,customer,channel2,33,617.52,643.52,"Okay, that sounds good."
+en_AU_Energy_1593471,106,agent,channel1,73,621.96,633.64,and the phone number is 8132499 it's available at all times including weekends and holidays
+en_AU_Energy_1593471,107,agent,channel1,74,633.64,640.44,if the situation is urgent please don't hesitate to call us immediately and we'll dispatch a technician
+en_AU_Energy_1593471,108,agent,channel1,75,640.44,654.04,as soon as we can. Absolutely are you currently living in your new house Sharon?
+en_AU_Energy_1593471,109,customer,channel2,34,643.52,653.52,"And with the installation, when's the earliest time that you can install it for me?"
+en_AU_Energy_1593471,110,customer,channel2,35,653.52,681.52,"I will move in next week. So preferably I'd like to get it done before I move in, you know, I don't want to be pulled on arrival."
+en_AU_Energy_1593471,111,agent,channel1,76,654.04,671.24,Absolutely not and not in this weather um based on your location of your new house address we can
+en_AU_Energy_1593471,112,agent,channel1,77,671.24,679.8,have someone on either Tuesday afternoon we have availability or we have most of the day on Thursday
+en_AU_Energy_1593471,113,agent,channel1,78,680.6,690.28,we can schedule. We have a limited availability on Friday we either have so it's approximately a
+en_AU_Energy_1593471,114,customer,channel2,36,681.52,707.52,"Yeah, availability on Friday."
+en_AU_Energy_1593471,115,agent,channel1,79,690.28,698.04,two hour installation so we can have someone there from either 7 30 until approximately 9 30
+en_AU_Energy_1593471,116,agent,channel1,80,698.68,706.92,or we have a 3 to 5 o'clock option or 5 30 to 7 30 option.
+en_AU_Energy_1593471,117,customer,channel2,37,707.52,723.52,"I'll definitely have to go with the Friday option. Do you say three to five? Okay, I might be a little late, but I'll leave the keys under the mat because I've got my knitting group. I need to go to my knitting group before I come to see the installers."
+en_AU_Energy_1593471,118,agent,channel1,81,713.08,713.4,Yes.
+en_AU_Energy_1593471,119,agent,channel1,82,713.4,732.52,Unfortunately we cannot have our technicians open up for ourselves but we do say a lot
+en_AU_Energy_1593471,120,customer,channel2,38,723.52,749.52,Is that all right?
+en_AU_Energy_1593471,121,agent,channel1,83,732.52,738.44,two hours but it shouldn't take two hours at most it's usually an hour an hour and 20 but that's
+en_AU_Energy_1593471,122,agent,channel1,84,738.44,743.96,okay if you're a little bit late once we have the time booked in you will receive our technician's
+en_AU_Energy_1593471,123,agent,channel1,85,743.96,747.88,number so if you are running late please just advise him but we can note that down that you
+en_AU_Energy_1593471,124,agent,channel1,86,747.88,755.4,might be a little bit late. Yep is there anything else with you today Sharon I can help you with
+en_AU_Energy_1593471,125,customer,channel2,39,749.52,758.52,"Okay, that sounds good."
+en_AU_Energy_1593471,126,agent,channel1,87,755.4,757.96,just before I confirm all your details.
+en_AU_Energy_1593471,127,agent,channel1,88,758.28,771.16,Absolutely so we've got your account details Sharon Smith and with your address of 12 Smith
+en_AU_Energy_1593471,128,customer,channel2,40,758.52,784.52,"No, I think that's all right. Thank you. Could you just confirm everything that's happening?"
+en_AU_Energy_1593471,129,agent,channel1,89,771.16,776.04,Street we've got you locked on to our fixed rate plan and your service appointment is
+en_AU_Energy_1593471,130,agent,channel1,90,776.04,781.32,scheduled for Friday between three to five o'clock is there anything else?
+en_AU_Energy_1593471,131,customer,channel2,41,784.52,800.52,"No, I don't think so. I don't have to provide the technician with anything. Do I? I don't need to give them water."
+en_AU_Energy_1593471,132,agent,channel1,91,788.68,792.36,No absolutely we just need you to be present in the house.
+en_AU_Energy_1593471,133,agent,channel1,92,794.76,800.52,No absolutely not our technicians are all covered all we need is for you to be present.
+en_AU_Energy_1593471,134,customer,channel2,42,800.52,825.52,"Okay, as long as I don't have to provide them with anything because this is going to cost me a bit more. So as long as I don't have to give them anything, then I should be all good."
+en_AU_Energy_1593471,135,agent,channel1,93,806.84,817.0,No that's absolutely fine all right thank you Sharon have a lovely day and thank you for calling us
+en_AU_Energy_1593471,136,agent,channel1,94,817.0,824.6,and we'll be in touch following our technicians installation with your fixed term rate plan
+en_AU_Energy_1593471,137,agent,channel1,95,824.6,825.56,have a lovely day.
+en_AU_Energy_1593471,138,customer,channel2,43,825.52,841.52,Thank you too.
+en_AU_Energy_1593471,139,customer,channel2,44,841.52,843.52,Did you like my new character?

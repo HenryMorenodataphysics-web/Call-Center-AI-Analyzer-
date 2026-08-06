@@ -1,0 +1,114 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_RealEstate_1584853,1,customer,channel2,1,0.0,18.4,"Hello, is that scenario real estate?"
+en_AU_RealEstate_1584853,2,agent,channel1,1,0.0,20.0,"Yes, this is Jim from Scenario Real Estate."
+en_AU_RealEstate_1584853,3,customer,channel2,2,18.4,34.8,"Okay, I'm looking to looking to get a rental in the edge area and just wondering what furnish departments that you have. Do you have any available at the moment?"
+en_AU_RealEstate_1584853,4,agent,channel1,2,20.0,26.0,How can I help you today?
+en_AU_RealEstate_1584853,5,agent,channel1,3,26.0,41.0,"Yeah, so we do have a couple of furnished apartments available."
+en_AU_RealEstate_1584853,6,agent,channel1,4,41.0,49.0,It is obviously subject to your area and how many people we're looking for and whether you have pets and things like that.
+en_AU_RealEstate_1584853,7,customer,channel2,3,48.4,77.4,"Okay, so we're looking at definitely wanting a furnished apartment. And the two of us, definitely my partner and I, what we're also looking for is potentially to get a cat or a dog or cat and a dog down the patch, and we just want to make sure that we don't have to worry about it."
+en_AU_RealEstate_1584853,8,agent,channel1,5,49.0,55.0,So if you could just give me a little bit of information along those lines and I could sort of figure out the availability for you.
+en_AU_RealEstate_1584853,9,customer,channel2,4,78.4,85.4,"We wanted to know if there was a, there was okay with your setup."
+en_AU_RealEstate_1584853,10,agent,channel1,6,79.0,101.0,"Yeah, absolutely. So we do have a couple of furnished apartments available that are pet friendly and recently legislation got passed that stopped owners from discriminating against pet ownership."
+en_AU_RealEstate_1584853,11,agent,channel1,7,101.0,130.0,"So that's really good, but they are getting snapped up quite quickly. So if you have the capacity, I definitely would recommend start looking into it now."
+en_AU_RealEstate_1584853,12,customer,channel2,5,108.4,129.4,"Okay, so, yeah, so two bedroom availability, furnished apartment in the edge area. Would you get it now? Or do you think that we should just take a time, look around and find an ideal location that we're after?"
+en_AU_RealEstate_1584853,13,agent,channel1,8,130.0,142.0,"Good question. Location is everything. It's very, very, very important. But another factor to consider is the financial situation that you and your partner are in."
+en_AU_RealEstate_1584853,14,customer,channel2,6,139.4,144.4,"Oh, you've gone again."
+en_AU_RealEstate_1584853,15,agent,channel1,9,142.0,154.0,So are you serious? You can't hear me. You can't hear me.
+en_AU_RealEstate_1584853,16,customer,channel2,7,144.4,146.4,You're gone.
+en_AU_RealEstate_1584853,17,customer,channel2,8,146.4,147.4,Nothing.
+en_AU_RealEstate_1584853,18,customer,channel2,9,147.4,153.4,Absolutely nothing can't hear you at all.
+en_AU_RealEstate_1584853,19,customer,channel2,10,153.4,168.4,We might just stop this right and
+en_AU_RealEstate_1584853,20,customer,channel2,11,168.4,183.4,Yeah.
+en_AU_RealEstate_1584853,21,agent,channel1,10,172.0,191.0,"Hello. Yes, this is Jim from Scenario Real Estate. How can I help you today?"
+en_AU_RealEstate_1584853,22,customer,channel2,12,183.4,191.4,"Hello, is that scenario real estate?"
+en_AU_RealEstate_1584853,23,customer,channel2,13,191.4,213.4,"Okay, we're just moved into the area, my partner and I, and we're looking for your availability of some furnished apartment. So as I said, we knew and we asked around and everybody keeps saying scenario real estate was a place that you guys look after your tenants very well."
+en_AU_RealEstate_1584853,24,agent,channel1,11,202.0,221.0,Thank you.
+en_AU_RealEstate_1584853,25,customer,channel2,14,213.4,219.4,So what would be the availability of a furnished apartment in the edge area now?
+en_AU_RealEstate_1584853,26,agent,channel1,12,221.0,237.0,"Really good question. So we have a couple of furnished apartments available at the moment, but supply is dwindling. It definitely depends on how many people we're looking to house and whether you have any pets or anything like that."
+en_AU_RealEstate_1584853,27,agent,channel1,13,237.0,246.0,"So if you could just give me a little bit of information about sort of what you're looking for outside of the apartment being furnished, I could sort of work with you a little bit closely there."
+en_AU_RealEstate_1584853,28,customer,channel2,15,243.4,261.4,"Okay, so as I said, we just moved in the area. So we are looking potentially to get a cat or a dog or cat and a dog. We'll just have a look and we're just going to look to see how it all works out."
+en_AU_RealEstate_1584853,29,agent,channel1,14,251.0,279.0,"Yeah, absolutely. So we can we can definitely accommodate cats, dogs and sort of any kind of pet really recently legislation was passed that prohibits the owner from discriminating against pet owners."
+en_AU_RealEstate_1584853,30,customer,channel2,16,273.4,299.4,Okay.
+en_AU_RealEstate_1584853,31,agent,channel1,15,279.0,298.0,"So that's that's really good that works in your favor. And yeah, so the supply is pretty limited for two people. So I definitely I definitely would think about looking into it now depending on your financial situation naturally."
+en_AU_RealEstate_1584853,32,customer,channel2,17,299.4,317.4,"So at the moment, as I said, two bedroom furnished apartment. Well, in terms of your furnished apartments in this in the edge area, what would you classify as furnished? What would we need to bring? What do you guys really have in your apartments?"
+en_AU_RealEstate_1584853,33,agent,channel1,16,309.0,334.0,"Yeah, really, really good question. You need to know what what what you need and what you don't. So in our furnished apartments, they're fully they're fully not necessarily apartments but in our in our furnished homes, we have pretty much everything you'd need."
+en_AU_RealEstate_1584853,34,customer,channel2,18,329.4,339.4,"Okay, so as I said, we're just moving into the area. So we're just going to move into the area."
+en_AU_RealEstate_1584853,35,agent,channel1,17,334.0,351.0,"It comes with couches chairs dining sets dishwasher laundry machine dryer fridge, everything you would need to live your daily life basically they don't include beds."
+en_AU_RealEstate_1584853,36,customer,channel2,19,339.4,340.4,Okay.
+en_AU_RealEstate_1584853,37,customer,channel2,20,340.4,367.4,Okay.
+en_AU_RealEstate_1584853,38,agent,channel1,18,351.0,366.0,"Most people tend to to bring their own beds and are more comfortable with their own bed and mattress anyway, but we can provide if needed we have pretty close relations with some of the furniture stores around here naturally if need be"
+en_AU_RealEstate_1584853,39,customer,channel2,21,367.4,380.4,"Now that's sounding very positive. Now, in terms of location, that would determine the cost of your rental, wouldn't it?"
+en_AU_RealEstate_1584853,40,agent,channel1,19,381.0,397.0,"Yeah, definitely. So depending on the size and the the location of the rental property will affect how much the the rent is per week for sure the rate for sure."
+en_AU_RealEstate_1584853,41,customer,channel2,22,397.4,426.4,"We're very keen to get somewhere as close as we can to the ocean and we'll have the beach in there. For a two bedroom furnished rental, what would roughly would be the cost, the rental for that?"
+en_AU_RealEstate_1584853,42,agent,channel1,20,412.0,438.0,"Yeah, so a beachfront we do have one or two beachfront rentals at the moment. So I'll just look in our system quickly for you. We've got one for $620 a week, and one for 650."
+en_AU_RealEstate_1584853,43,customer,channel2,23,427.4,450.4,Okay.
+en_AU_RealEstate_1584853,44,agent,channel1,21,438.0,454.0,The 650 is a little bit bigger. There is like an ensuite bathroom on this one that is absent on the 620.
+en_AU_RealEstate_1584853,45,customer,channel2,24,450.4,459.4,"Okay, so they're available now. Is that correct?"
+en_AU_RealEstate_1584853,46,agent,channel1,22,454.0,472.0,"Yes, yes, they're available to move in now the the owners looking for tenants currently. Yeah."
+en_AU_RealEstate_1584853,47,customer,channel2,25,459.4,471.4,Okay. So we'll probably be there in about 46 weeks time. How much of an issue would that be?
+en_AU_RealEstate_1584853,48,agent,channel1,23,473.0,492.0,"Four to six weeks we can we can work with that that's that's absolutely fine. Just one thing I'd like to bring to your attention. I'm not sure sort of what your rental history is but with fully furnished properties, the deposit does tend to be a little bit higher."
+en_AU_RealEstate_1584853,49,customer,channel2,26,489.4,518.4,"No, it's, you know, that's fine. And in terms of the lease, we don't have a problem with, we know that we're moving to the coast and all that we need to have a limit."
+en_AU_RealEstate_1584853,50,agent,channel1,24,492.0,499.0,"Actually, that's just because we own the assets within the actual house itself."
+en_AU_RealEstate_1584853,51,agent,channel1,25,499.0,503.0,Not sure if that's something that you are aware of or
+en_AU_RealEstate_1584853,52,customer,channel2,27,518.4,530.4,We're not going to be low. We're going to have to get out there. But what I really want to know about is your leases. We've had conversations with different people in a different place that we said in terms of the lease.
+en_AU_RealEstate_1584853,53,agent,channel1,26,523.0,548.0,"Yeah, all really, really, really good questions. So all of our lease agreements are $620 a week."
+en_AU_RealEstate_1584853,54,customer,channel2,28,530.4,547.4,Two questions I'd like to ask you. What is the minimum lease? What is the minimum lease? What is the maximum lease? And what is your setup for breaking a lease?
+en_AU_RealEstate_1584853,55,customer,channel2,29,547.4,576.4,Okay.
+en_AU_RealEstate_1584853,56,agent,channel1,27,549.0,556.0,All of our lease agreements are six month agreements currently.
+en_AU_RealEstate_1584853,57,agent,channel1,28,556.0,566.0,We actually have a pretty unique system where the closer you are to the renewal date or the end date of the lease agreement.
+en_AU_RealEstate_1584853,58,agent,channel1,29,567.0,572.0,The less it costs to break the agreement itself.
+en_AU_RealEstate_1584853,59,agent,channel1,30,572.0,581.0,"At the moment, our deposits are looking like four to six weeks of rent depending on the size of the apartment."
+en_AU_RealEstate_1584853,60,customer,channel2,30,576.4,605.4,Okay.
+en_AU_RealEstate_1584853,61,agent,channel1,31,581.0,588.0,But for your sort of needs and expectations for location.
+en_AU_RealEstate_1584853,62,agent,channel1,32,588.0,605.0,"Our lowest rent would be $620, which would be let me just do the math here for you about $2,500 a month and then the $650 would be almost $3,000 a month."
+en_AU_RealEstate_1584853,63,agent,channel1,33,605.0,620.0,"Yeah, really good question. So for the $620, we're looking at four weeks worth of rent."
+en_AU_RealEstate_1584853,64,customer,channel2,31,606.4,632.4,And what was the deposit for both of those? What would you expect for deposit?
+en_AU_RealEstate_1584853,65,agent,channel1,34,620.0,628.0,"So just the $25 or $2,400 there. For the $650, we are looking for five weeks worth of rent."
+en_AU_RealEstate_1584853,66,agent,channel1,35,628.0,643.0,"So that would be $3,650."
+en_AU_RealEstate_1584853,67,customer,channel2,32,632.4,643.4,"And if we took, say, a year lease or even like an 80 month or two lease, what could we negotiate the rent?"
+en_AU_RealEstate_1584853,68,agent,channel1,36,643.0,650.0,I wouldn't be able to answer that with you straight off the cuff. I'd have to discuss that with the owner.
+en_AU_RealEstate_1584853,69,agent,channel1,37,650.0,659.0,It's sort of like an owner by owner basis. But I feel the owner for both of these properties is the same owner.
+en_AU_RealEstate_1584853,70,agent,channel1,38,659.0,669.0,"They're quite charitable. They're quite generous in that sort of way, especially their retirement age at the moment."
+en_AU_RealEstate_1584853,71,customer,channel2,33,662.4,680.4,Okay.
+en_AU_RealEstate_1584853,72,agent,channel1,39,669.0,677.0,"So they're not looking to get four or five tenants in a year. They want long term, stable, reliable, good tenants."
+en_AU_RealEstate_1584853,73,agent,channel1,40,677.0,705.0,So I think that could be an option we could explore.
+en_AU_RealEstate_1584853,74,customer,channel2,34,680.4,697.4,"And in terms of the pet policy, you were saying that they can't restrict us with the pets. You're allowed a pet, but do they have a control on, say, the type of pet you have, like, you know, you're only allowed"
+en_AU_RealEstate_1584853,75,customer,channel2,35,697.4,726.4,a little cat's image and you're allowed a big dog's. Is that an issue?
+en_AU_RealEstate_1584853,76,agent,channel1,41,705.0,716.0,So there is a variation per pet in the lease agreement and they do come with an additional pet bond.
+en_AU_RealEstate_1584853,77,agent,channel1,42,716.0,724.0,"For our general lease agreement with pet bonds, we just request that you don't house them on carpets."
+en_AU_RealEstate_1584853,78,agent,channel1,43,724.0,732.0,"So they're sort of like eating, drinking, sleeping areas be removed from the carpet and beyond the tiles."
+en_AU_RealEstate_1584853,79,customer,channel2,36,727.4,756.4,Okay.
+en_AU_RealEstate_1584853,80,agent,channel1,44,732.0,738.0,"And for specific pets, there's different clauses just by council by laws."
+en_AU_RealEstate_1584853,81,agent,channel1,45,738.0,751.0,"So for cats, for example, you'd have to indicate to us how you would prevent them from escaping because they can devastate the natural wildlife like birds and things."
+en_AU_RealEstate_1584853,82,agent,channel1,46,751.0,774.0,We can discuss that as a per pet basis.
+en_AU_RealEstate_1584853,83,customer,channel2,37,756.4,772.4,"In terms of car, we've got two cars. What is your parking, what are the parking options for the ones that you have available now? And is that standard for the ones that we might look at in a month or six weeks time?"
+en_AU_RealEstate_1584853,84,agent,channel1,47,774.0,782.0,"Yeah. So the parking options for the two beach fronts, we have a one car carport."
+en_AU_RealEstate_1584853,85,agent,channel1,48,782.0,794.0,"So not an enclosed garage, but a carport. And then there is a very, very generous street side parking right on the beach."
+en_AU_RealEstate_1584853,86,customer,channel2,38,786.4,801.4,Okay.
+en_AU_RealEstate_1584853,87,agent,channel1,49,794.0,798.0,And there's little car parks dotted around the streets leading up to the houses as well.
+en_AU_RealEstate_1584853,88,agent,channel1,50,798.0,803.0,So plenty of parking for you and your partner.
+en_AU_RealEstate_1584853,89,customer,channel2,39,801.4,830.4,"Okay. We've got some mountain bikes. Is there, how safe is the parking areas within the arm establishments in that area?"
+en_AU_RealEstate_1584853,90,agent,channel1,51,803.0,816.0,Really good question.
+en_AU_RealEstate_1584853,91,agent,channel1,52,816.0,818.0,I think location is really important here.
+en_AU_RealEstate_1584853,92,agent,channel1,53,818.0,822.0,So these two houses are actually in the same suburb.
+en_AU_RealEstate_1584853,93,agent,channel1,54,822.0,826.0,And it's quite an upscale suburb.
+en_AU_RealEstate_1584853,94,agent,channel1,55,826.0,831.0,I'm sure you can imagine just by the prices that I was quoting for you.
+en_AU_RealEstate_1584853,95,customer,channel2,40,830.4,852.4,Okay.
+en_AU_RealEstate_1584853,96,agent,channel1,56,831.0,835.0,"But yeah, the crime rates are quite low."
+en_AU_RealEstate_1584853,97,agent,channel1,57,835.0,842.0,I honestly haven't heard of any break-ins or any thievery or anything sort of that way.
+en_AU_RealEstate_1584853,98,agent,channel1,58,842.0,847.0,The worst you get is people hooning up and down the roads and making noise.
+en_AU_RealEstate_1584853,99,agent,channel1,59,847.0,850.0,That tends to be the general sort of complaint.
+en_AU_RealEstate_1584853,100,agent,channel1,60,850.0,869.0,So nothing too heinous there.
+en_AU_RealEstate_1584853,101,customer,channel2,41,852.4,868.4,"Okay. So we're visiting friends. So we're coming up and visiting friends, not this Saturday, the following Saturday. And are we able to schedule a visit on a weekend on a Saturday?"
+en_AU_RealEstate_1584853,102,agent,channel1,61,869.0,873.0,"Yeah, absolutely. I could walk you through both of those properties."
+en_AU_RealEstate_1584853,103,agent,channel1,62,873.0,879.0,We have some open houses going for those rental properties.
+en_AU_RealEstate_1584853,104,agent,channel1,63,879.0,902.0,So we'd be more than happy to accommodate you for sure.
+en_AU_RealEstate_1584853,105,customer,channel2,42,882.4,910.4,"Okay. So if we could make a bookie, my name is Jeff Search. And what time, could we do morning, not this Saturday, the following Saturday, could we do mid-morning sometime with that suit too?"
+en_AU_RealEstate_1584853,106,agent,channel1,64,902.0,913.0,"Yeah, so Geoffrey Search, would you be cool for maybe a 10 o'clock or 10.30 showing of the rentals?"
+en_AU_RealEstate_1584853,107,customer,channel2,43,910.4,920.4,Yeah. Sounds good. Sounds good.
+en_AU_RealEstate_1584853,108,agent,channel1,65,913.0,917.0,Awesome. I'll book that in for you now.
+en_AU_RealEstate_1584853,109,agent,channel1,66,917.0,924.0,"Yeah, and I look forward to seeing you in two weeks' time."
+en_AU_RealEstate_1584853,110,customer,channel2,44,920.4,925.4,Excellent. Thanks very much for your time and information.
+en_AU_RealEstate_1584853,111,agent,channel1,67,924.0,927.0,No worries. Have a good day.
+en_AU_RealEstate_1584853,112,customer,channel2,45,925.4,941.4,Thank you. Bye-bye.
+en_AU_RealEstate_1584853,113,agent,channel1,68,927.0,929.0,Bye.

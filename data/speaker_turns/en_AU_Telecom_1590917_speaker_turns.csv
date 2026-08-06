@@ -1,0 +1,118 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Telecom_1590917,1,agent,channel1,1,0.0,18.14,"Good afternoon and welcome to Telstra, customer support and billing, this is Tom, how can"
+en_AU_Telecom_1590917,2,customer,channel2,1,0.0,27.4,"Hey Tom, my name's Laura. I'm just looking to basically upgrade my plan or update it."
+en_AU_Telecom_1590917,3,agent,channel1,2,18.14,18.64,I help you?
+en_AU_Telecom_1590917,4,customer,channel2,2,27.4,32.56,"It's kind of like, I've had it for the year cycle now, and yeah, just looking if there's"
+en_AU_Telecom_1590917,5,agent,channel1,3,30.0,39.92,"No worries. Well, first of all, thanks so much for staying with us for the year that"
+en_AU_Telecom_1590917,6,customer,channel2,3,32.56,35.96,any better plans available now that have come to the end of it.
+en_AU_Telecom_1590917,7,customer,channel2,4,35.96,54.96,Okay.
+en_AU_Telecom_1590917,8,agent,channel1,4,39.92,43.6,"obviously means you've enjoyed it, which I hope. So I can bring up your account and"
+en_AU_Telecom_1590917,9,agent,channel1,5,43.6,51.32,see your account details. Could you please confirm the third letter of the email address
+en_AU_Telecom_1590917,10,agent,channel1,6,51.32,59.72,"of your partner? T, perfect. Because you went through the verification with the"
+en_AU_Telecom_1590917,11,customer,channel2,5,54.96,68.48,two
+en_AU_Telecom_1590917,12,agent,channel1,7,59.72,62.76,"automated system, I've already got your details here and I'm just going to need the"
+en_AU_Telecom_1590917,13,agent,channel1,8,62.76,66.68,last digit of your postcode before you moved houses.
+en_AU_Telecom_1590917,14,customer,channel2,6,68.48,95.84,"Oh, just usually the service is pretty good and I live in the country so I kind of need,"
+en_AU_Telecom_1590917,15,agent,channel1,9,69.96,75.36,"T, perfect. Great. Thanks so much for confirming those details, Laura. I can"
+en_AU_Telecom_1590917,16,agent,channel1,10,75.36,79.92,"see, wow, you have been with us for quite a long time. That's close to 15"
+en_AU_Telecom_1590917,17,agent,channel1,11,79.92,85.56,"years. Before we get started, could you just let me know what you've enjoyed"
+en_AU_Telecom_1590917,18,agent,channel1,12,85.56,88.28,about Telstra to keep you around for a second?
+en_AU_Telecom_1590917,19,agent,channel1,13,88.28,110.92,"Awesome. That's great to hear. Well, yeah, we do cover 98% of Australia and regional"
+en_AU_Telecom_1590917,20,customer,channel2,7,95.84,100.32,"you know, not just the customer service but the actual service to be working when I'm, you know,"
+en_AU_Telecom_1590917,21,customer,channel2,8,100.32,105.36,"not really close to the city and things like that. So yeah, Telstra's kind of beneficial for that."
+en_AU_Telecom_1590917,22,agent,channel1,14,111.08,120.6,"areas, particularly in Victoria, where you're located, our priority. Well, the other 2%"
+en_AU_Telecom_1590917,23,customer,channel2,9,116.32,118.0,What happened to the other two percent?
+en_AU_Telecom_1590917,24,agent,channel1,15,121.32,127.24,they're uninhabitable. That's the red centre. Not many people are going to be needing
+en_AU_Telecom_1590917,25,customer,channel2,10,126.24,126.88,Fair enough.
+en_AU_Telecom_1590917,26,agent,channel1,16,127.24,134.76,mobile service out there. So you mentioned you want to upgrade. Is that your mobile phone
+en_AU_Telecom_1590917,27,agent,channel1,17,134.76,138.28,or your landline or your internet plan? Which service are you looking to upgrade?
+en_AU_Telecom_1590917,28,customer,channel2,11,139.2,141.68,So I've only got a mobile with you guys at the moment.
+en_AU_Telecom_1590917,29,agent,channel1,18,141.88,147.4,"Okay. I do see that you've actually got your internet service with us too. So again,"
+en_AU_Telecom_1590917,30,agent,channel1,19,147.4,154.84,"thanks very much. You are on the Telstra plus 88 bundle, which does include"
+en_AU_Telecom_1590917,31,agent,channel1,20,154.84,162.6,"unlimited calls, unlimited data. However, we do have a special offer now. We can add"
+en_AU_Telecom_1590917,32,customer,channel2,12,155.84,178.24,"So when you say like add them in for $10 a month, does that mean they get everything that I get"
+en_AU_Telecom_1590917,33,agent,channel1,21,162.6,167.72,a family member in for an extra $10 a month and that will include free
+en_AU_Telecom_1590917,34,agent,channel1,22,167.72,170.44,international calls. Is that something that you're looking for?
+en_AU_Telecom_1590917,35,customer,channel2,13,178.24,180.48,but it only cost me $10 more?
+en_AU_Telecom_1590917,36,agent,channel1,23,180.92,186.92,"Yeah, exactly right. So you'll still pay your usual $69 a month plus an extra $10,"
+en_AU_Telecom_1590917,37,customer,channel2,14,186.24,199.92,"Okay, that sounds pretty good because obviously we're paying two separate plans right now."
+en_AU_Telecom_1590917,38,agent,channel1,24,186.92,193.4,so $79 for two people. And you get the added bonus of international calls as well.
+en_AU_Telecom_1590917,39,agent,channel1,25,198.68,213.96,"So for that price, yeah, it is just think of it like a plus one to an event for a discounted price."
+en_AU_Telecom_1590917,40,customer,channel2,15,201.52,204.96,"And then like, is that just limited to one extra person or?"
+en_AU_Telecom_1590917,41,customer,channel2,16,204.96,219.44,"Four. So you can't like, you can't plus two is what I'm kind of getting at."
+en_AU_Telecom_1590917,42,agent,channel1,26,219.88,226.2,Not for that same rate. We can absolutely add you into the family pool so you can pool your
+en_AU_Telecom_1590917,43,agent,channel1,27,226.2,232.2,"data. However, we would need to set up a separate contract for that third family member."
+en_AU_Telecom_1590917,44,agent,channel1,28,233.48,238.44,Think of it sort of like a couple's plan almost because I'm assuming it may be
+en_AU_Telecom_1590917,45,customer,channel2,17,234.96,247.44,"Yeah, that's correct."
+en_AU_Telecom_1590917,46,agent,channel1,29,238.44,242.12,your significant other that I can see here listed on your account.
+en_AU_Telecom_1590917,47,agent,channel1,30,244.44,249.96,"Yeah, great. So if you were looking to add a third person into that, that's probably"
+en_AU_Telecom_1590917,48,agent,channel1,31,249.96,254.44,"either a relative or a child or someone that lives with you, we can absolutely"
+en_AU_Telecom_1590917,49,agent,channel1,32,254.44,258.6,give you a better rate than what they would receive if they were signing up.
+en_AU_Telecom_1590917,50,agent,channel1,33,259.56,263.8,"However, it would just come at a cost of I'm just pulling it up here."
+en_AU_Telecom_1590917,51,agent,channel1,34,265.0,271.16,"Usually for the plan that you're on, that would be the $69 a month, but because you are a long"
+en_AU_Telecom_1590917,52,customer,channel2,18,265.68,285.52,"Okay, so sorry, you've got me a little bit confused there. So for me and the family,"
+en_AU_Telecom_1590917,53,agent,channel1,35,271.16,277.72,"term customer and already in a family bundle, we could do that for $35 a month."
+en_AU_Telecom_1590917,54,agent,channel1,36,284.76,302.52,So I can actually see that you did come to us with your own device. So that wasn't actually purchased
+en_AU_Telecom_1590917,55,customer,channel2,19,286.24,293.84,what would I be paying for the internet and the phone now that I own my phone outright?
+en_AU_Telecom_1590917,56,customer,channel2,20,293.84,296.32,Because I thought the plan might be a little bit cheaper.
+en_AU_Telecom_1590917,57,agent,channel1,37,303.64,310.6,within a page ago bundle from Telstra. So that was never part of the plan anyway.
+en_AU_Telecom_1590917,58,agent,channel1,38,310.68,313.64,"Now, so now we're just on a rolling month to month contract. So"
+en_AU_Telecom_1590917,59,customer,channel2,21,314.72,319.68,So that phone that I last had definitely was with you guys. I've been with you guys for 15 years.
+en_AU_Telecom_1590917,60,customer,channel2,22,319.68,325.68,"So I've got a phone before, you know, the 15 years ago isn't the phone I'm still using."
+en_AU_Telecom_1590917,61,customer,channel2,23,325.68,329.52,I got a phone about two years ago that I bought with you guys.
+en_AU_Telecom_1590917,62,agent,channel1,39,330.28,337.64,"okay, that may have been a bulk fee added on to your bill. It's just almost an outright payment."
+en_AU_Telecom_1590917,63,agent,channel1,40,338.28,347.8,"So was there a bill? Well, looking here 24 months ago, there was a significantly larger bill that"
+en_AU_Telecom_1590917,64,agent,channel1,41,347.8,350.84,you would have received. And that was just paying for the handset outright.
+en_AU_Telecom_1590917,65,customer,channel2,24,349.68,361.52,"Hmm, okay. I thought I was paying it month by month, but yeah, maybe my husband organized it."
+en_AU_Telecom_1590917,66,agent,channel1,42,359.4,364.04,"You're still paying your plan month by month, absolutely. But the handset was bought outright."
+en_AU_Telecom_1590917,67,agent,channel1,43,364.04,367.8,So it's not like you were paying off your handset as you went along.
+en_AU_Telecom_1590917,68,agent,channel1,44,367.8,373.8,So just second back to if you were to add a third person into it for $35 a month.
+en_AU_Telecom_1590917,69,agent,channel1,45,373.8,380.44,"So you're paying is $69 a month. Adding in your partner would be extra $10 a month,"
+en_AU_Telecom_1590917,70,agent,channel1,46,380.44,390.84,$79 a month plus $35 for the extra family member. So that would come to
+en_AU_Telecom_1590917,71,agent,channel1,47,391.8,399.48,"$114 a month for three people with three separate devices, three SIMs, unlimited data,"
+en_AU_Telecom_1590917,72,agent,channel1,48,399.48,406.04,"unlimited calls, and including international calls. I do see that you've got your internet with us too,"
+en_AU_Telecom_1590917,73,agent,channel1,49,407.0,411.48,which we could also bundle in if that's something you're looking at activating.
+en_AU_Telecom_1590917,74,customer,channel2,25,409.68,421.92,I thought you said it was bundled in just before.
+en_AU_Telecom_1590917,75,agent,channel1,50,411.48,423.08,"No, so your internet is with us, but it's not in a bundle plan."
+en_AU_Telecom_1590917,76,customer,channel2,26,424.8,431.76,Got you. What's the cost if I bundle the internet in as well because it's getting a
+en_AU_Telecom_1590917,77,customer,channel2,27,431.76,437.92,bit expensive now so I just don't want to overdo it.
+en_AU_Telecom_1590917,78,agent,channel1,51,434.76,438.2,"Yeah, that makes complete sense, especially with the cost of living."
+en_AU_Telecom_1590917,79,agent,channel1,52,438.2,443.8,"So if we bundled your current internet in, so you're currently paying $50 a month,"
+en_AU_Telecom_1590917,80,customer,channel2,28,439.92,461.76,"Okay, now you're talking. That sounds great. So I definitely think that we'd love that."
+en_AU_Telecom_1590917,81,agent,channel1,53,445.32,451.64,great news is that could actually be bundled in for free because the mobile plan would be
+en_AU_Telecom_1590917,82,agent,channel1,54,451.64,461.8,over $100. We can provide free internet too.
+en_AU_Telecom_1590917,83,customer,channel2,29,463.68,469.12,"Okay, so I've got the phone sorted, I've got the internet sorted, so that means I can cancel"
+en_AU_Telecom_1590917,84,agent,channel1,55,468.92,487.32,"Oh, well, you took the words right out of my mouth. I was just about to say,"
+en_AU_Telecom_1590917,85,customer,channel2,30,469.12,476.08,"the plans that, you know, one of the kids is on and the husband. Okay, so that, yeah, I think we'll"
+en_AU_Telecom_1590917,86,customer,channel2,31,476.08,481.2,do that. Is that everything? Have you got any other options? I see sometimes you like offer some
+en_AU_Telecom_1590917,87,customer,channel2,32,481.2,483.68,Netflix and things like that for years. So
+en_AU_Telecom_1590917,88,agent,channel1,56,487.32,492.2,"because you are that long-term customer, you do have access to Telstra Plus,"
+en_AU_Telecom_1590917,89,agent,channel1,57,492.2,495.72,"and that's just done through the app. And you can find all the discounts,"
+en_AU_Telecom_1590917,90,agent,channel1,58,495.72,499.0,"all the goodies, all the rewards plus pop-up surprises from time to time."
+en_AU_Telecom_1590917,91,customer,channel2,33,499.68,509.68,"okay, cool. So I will get Netflix for a year."
+en_AU_Telecom_1590917,92,agent,channel1,59,504.2,510.92,That is an infrequent offer. So just download the Telstra Plus app. You can find that in the App Store.
+en_AU_Telecom_1590917,93,agent,channel1,60,511.72,518.12,I can see your iPhone at the moment. And just turn on alert and you'll get a notification
+en_AU_Telecom_1590917,94,agent,channel1,61,518.12,520.52,when the Netflix offer is next available.
+en_AU_Telecom_1590917,95,agent,channel1,62,521.32,528.04,"Yeah, absolutely. So you just need to have the app downloaded at the time."
+en_AU_Telecom_1590917,96,customer,channel2,34,522.08,525.68,"Okay, because I think I saw it just the other week."
+en_AU_Telecom_1590917,97,agent,channel1,63,528.6,534.76,"And you can click straight into that and enter. It's almost like a trial for Netflix,"
+en_AU_Telecom_1590917,98,customer,channel2,35,529.12,546.56,"Okay, cool. I think I'll do that. That sounds good. So yeah, I'm pretty keen to sign up for that."
+en_AU_Telecom_1590917,99,agent,channel1,64,534.76,539.32,because it will automatically cancel unless you opt into staying on beyond the year.
+en_AU_Telecom_1590917,100,agent,channel1,65,539.32,553.96,"Yeah, absolutely. If you like, because it does require everybody's details,"
+en_AU_Telecom_1590917,101,customer,channel2,36,546.56,555.68,Can I do it online?
+en_AU_Telecom_1590917,102,agent,channel1,66,553.96,557.48,I can send you a link within an email that I have listed on your account.
+en_AU_Telecom_1590917,103,agent,channel1,67,557.48,561.88,You just click straight through. I'll be able to auto-fill all those details for you.
+en_AU_Telecom_1590917,104,customer,channel2,37,559.12,585.68,"Yeah, no, everything's still the same."
+en_AU_Telecom_1590917,105,agent,channel1,68,561.88,567.48,"We just need you to verify and confirm everybody's full name, date of birth,"
+en_AU_Telecom_1590917,106,agent,channel1,69,567.48,573.72,as well as their living address. But that should all be sorted if they're
+en_AU_Telecom_1590917,107,agent,channel1,70,573.72,576.12,all living with you and details haven't changed since we last spoke.
+en_AU_Telecom_1590917,108,agent,channel1,71,579.56,585.32,"Perfect. All right. Well, so we'll merge your partner's mobile phone plan with you"
+en_AU_Telecom_1590917,109,agent,channel1,72,585.32,589.32,and add in an extra family member. Your internet is now bundled. That should
+en_AU_Telecom_1590917,110,customer,channel2,38,589.12,600.08,"Okay, sounds great. Thank you."
+en_AU_Telecom_1590917,111,agent,channel1,73,589.32,595.08,"take effect within the next 24 hours. You've got access to Telstra Plus,"
+en_AU_Telecom_1590917,112,agent,channel1,74,595.08,597.16,and that'll all be in an email to you very shortly.
+en_AU_Telecom_1590917,113,agent,channel1,75,600.2,602.84,Not a problem at all. Is there anything else I can have you add today with Laura?
+en_AU_Telecom_1590917,114,customer,channel2,39,604.0,605.68,"No, that's it. Thanks so much."
+en_AU_Telecom_1590917,115,agent,channel1,76,605.88,609.16,Not a problem. Thanks again for calling Telstra and keep an eye out for that email.
+en_AU_Telecom_1590917,116,customer,channel2,40,610.48,611.68,We'll do.
+en_AU_Telecom_1590917,117,agent,channel1,77,611.32,614.36,Thanks. Bye.

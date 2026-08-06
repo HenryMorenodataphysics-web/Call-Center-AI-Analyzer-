@@ -1,0 +1,56 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_AU_Aviation_1586330,channel1,1,0.0,27.0,"Hello, you have reached out to ABC Airlines, how can I help you?"
+en_AU_Aviation_1586330,channel1,2,27.0,43.0,"Absolutely, so you already have a return flight booked?"
+en_AU_Aviation_1586330,channel1,3,44.0,49.0,"All right, I can definitely help you with that."
+en_AU_Aviation_1586330,channel1,4,49.0,64.0,"So before I start, could I please have your booking reference number or your ticket number so I can look up your reservation?"
+en_AU_Aviation_1586330,channel1,5,64.0,73.0,"Yep, Sarah, yep, okay, yes, great, thank you."
+en_AU_Aviation_1586330,channel1,6,73.0,80.0,I can see your current flight is on 12th of December.
+en_AU_Aviation_1586330,channel1,7,80.0,85.0,Let me check what flights are available after that date in economy class.
+en_AU_Aviation_1586330,channel1,8,85.0,91.0,"If that's all right, can I put you on hold for a second?"
+en_AU_Aviation_1586330,channel1,9,91.0,113.0,"So Sarah, can I check that any date after that would be okay for you or is there a part of that date that you prefer?"
+en_AU_Aviation_1586330,channel1,10,113.0,122.0,"Because we have seats available on the 19th, which gives me a very good option."
+en_AU_Aviation_1586330,channel1,11,122.0,132.0,"But I do also have one on the 10th, staying in economy class is absolutely fine and you don't need to upgrade."
+en_AU_Aviation_1586330,channel1,12,132.0,149.0,"But in terms of the seat selection on your preferred date, there might be some additional charges to that because there is a failure difference."
+en_AU_Aviation_1586330,channel1,13,149.0,154.0,"Depending on the time that we go with, is there any preferred time?"
+en_AU_Aviation_1586330,channel1,14,154.0,164.0,What I have here is between the afternoon and 9pm flight.
+en_AU_Aviation_1586330,channel1,15,164.0,175.0,"Okay, so just give me one more second so I can check that one for you."
+en_AU_Aviation_1586330,channel1,16,175.0,186.0,And I can give you the exact total before confirming anything.
+en_AU_Aviation_1586330,channel1,17,186.0,197.0,So the lowest available fare I can offer for the 9pm on the 10th and the total cost to change would be $68.
+en_AU_Aviation_1586330,channel1,18,197.0,204.0,Would you like me to go ahead and rebook that for you?
+en_AU_Aviation_1586330,channel1,19,205.0,219.0,"Yes, if we are changing to the 10th, that is, if we are changing to the 19th of December onwards, there might be actually additional charges considering that time of the year."
+en_AU_Aviation_1586330,channel1,20,219.0,221.0,It's very close to the Christmas period.
+en_AU_Aviation_1586330,channel1,21,221.0,226.0,"Okay, fantastic."
+en_AU_Aviation_1586330,channel1,22,226.0,231.0,So just bear with me while I confirm all your details here.
+en_AU_Aviation_1586330,channel1,23,231.0,238.0,So I have your seat selection.
+en_AU_Aviation_1586330,channel1,24,238.0,242.0,Is an aisle seat okay for you?
+en_AU_Aviation_1586330,channel1,25,242.0,257.0,The 10th of December at 9pm and I've got all your email and contact information here and your flight has been successfully changed.
+en_AU_Aviation_1586330,channel1,26,257.0,264.0,And I've sent the updated itinerary and e-ticket to your email address.
+en_AU_Aviation_1586330,channel1,27,264.0,269.0,Can you please double check all the details when you receive it?
+en_AU_Aviation_1586330,channel1,28,269.0,280.0,"And is there anything else I can help you with, such as your additional baggage or anything like that?"
+en_AU_Aviation_1586330,channel1,29,280.0,301.0,"All right, I'll hold on until you receive it and confirm your details for me."
+en_AU_Aviation_1586330,channel1,30,301.0,303.0,Fantastic.
+en_AU_Aviation_1586330,channel1,31,303.0,310.0,"All right, thank you for contacting ABC Airlines and I hope you have a pleasant trip when you travel."
+en_AU_Aviation_1586330,channel1,32,310.0,317.0,One thing that I would remind you is please arrive at the airport 90 minutes before your flight.
+en_AU_Aviation_1586330,channel1,33,317.0,327.0,"And if you require any assistance, please head towards the counter and the flight attendants there will be able to assist you with all your inquiries."
+en_AU_Aviation_1586330,channel1,34,327.0,339.0,And just a reminder that you don't have any checking bags and please have your passport and all the information handy.
+en_AU_Aviation_1586330,channel1,35,339.0,354.0,Thank you very much.
+en_AU_Aviation_1586330,channel2,1,0.0,28.0,"Hi, my name is Sarah, and I'm just looking, I've flown from Australia to New York, and"
+en_AU_Aviation_1586330,channel2,2,29.0,36.0,"I'm looking at coming back to Australia, but I need to change my flight date to another date."
+en_AU_Aviation_1586330,channel2,3,36.0,38.0,"Are you able to help me with that, please?"
+en_AU_Aviation_1586330,channel2,4,43.0,44.0,"I do, yes."
+en_AU_Aviation_1586330,channel2,5,44.0,62.0,"Yep, it's 54819234."
+en_AU_Aviation_1586330,channel2,6,74.0,89.0,"Yeah, that's cool."
+en_AU_Aviation_1586330,channel2,7,104.0,112.0,"I would prefer a date, probably about the 10th of December."
+en_AU_Aviation_1586330,channel2,8,134.0,163.0,I'd probably choose an IPM flight.
+en_AU_Aviation_1586330,channel2,9,164.0,193.0,"Yeah, I'd probably choose an IPM flight."
+en_AU_Aviation_1586330,channel2,10,194.0,203.0,Is that the cheapest option you've got available?
+en_AU_Aviation_1586330,channel2,11,203.0,222.0,Is that the cheapest option you've got available?
+en_AU_Aviation_1586330,channel2,12,222.0,241.0,"No, I'll go with the 10th of December, please."
+en_AU_Aviation_1586330,channel2,13,241.0,268.0,"Yeah, that'd be great."
+en_AU_Aviation_1586330,channel2,14,268.0,277.0,"Oh, yep."
+en_AU_Aviation_1586330,channel2,15,277.0,286.0,"No, not at the moment, thank you."
+en_AU_Aviation_1586330,channel2,16,286.0,298.0,"Okay, cool."
+en_AU_Aviation_1586330,channel2,17,298.0,327.0,So all my data is correct.
+en_AU_Aviation_1586330,channel2,18,327.0,340.0,"I will, thank you."
+en_AU_Aviation_1586330,channel2,19,340.0,353.0,Thank you.
+en_AU_Aviation_1586330,channel2,20,353.0,363.0,Thank you.

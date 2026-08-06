@@ -1,0 +1,69 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_Health_1587315,channel1,1,0.0,19.0,"Good morning, thank you for calling health connect telemedicine clinic. This is Rachel speaking. How can I help you today?"
+en_CA_Health_1587315,channel1,2,30.0,47.0,"Of course, Michael, I'll be happy to help with that. Can I have your date of birth and phone number just to locate your patient file?"
+en_CA_Health_1587315,channel1,3,61.0,69.0,"Oh, thank you, Michael. Okay, one moment. Will I pull up your record?"
+en_CA_Health_1587315,channel1,4,69.0,80.0,"Okay. Okay, I've got it. So you've been seeing Dr. Alan Peters for ongoing management of hypertension and high cholesterol, right?"
+en_CA_Health_1587315,channel1,5,80.0,88.0,Okay.
+en_CA_Health_1587315,channel1,6,88.0,108.0,"Okay, great. So would you like to schedule a telemedicine appointment this week? Do you have a preferred day or time?"
+en_CA_Health_1587315,channel1,7,108.0,128.0,"Okay, let's see what's available. So Dr. Peters has a 9 30 a.m. slot tomorrow and a 10 15 a.m. slot on Friday. Would either of those work for you?"
+en_CA_Health_1587315,channel1,8,128.0,139.0,"Oh, okay. Yeah, no problem. It's still open. So I'll reserve it for you. So it'll be a 20 minute video consultation through our secure portal."
+en_CA_Health_1587315,channel1,9,139.0,154.0,You'll receive a confirmation email and text message with the meeting link shortly after this call.
+en_CA_Health_1587315,channel1,10,154.0,168.0,No problem.
+en_CA_Health_1587315,channel1,11,168.0,181.0,"Yes, absolutely. So the appointment is booked under Dr. Alan Peters. So you're meeting with him directly. So you'll have access to all your notes, prescriptions and lab results from your last visit in June."
+en_CA_Health_1587315,channel1,12,184.0,192.0,"Yeah, totally understandable."
+en_CA_Health_1587315,channel1,13,192.0,213.0,"Continuity of care is very important, especially with chronic conditions. So we always try to schedule patients with their regular physician whenever possible."
+en_CA_Health_1587315,channel1,14,213.0,233.0,"Okay, good call that you mentioned that. You're right on time. So normally prescription renewals are reviewed during your telemedicine appointment, but since you're running low, I can flag it as urgent in your file."
+en_CA_Health_1587315,channel1,15,233.0,251.0,So that way Dr. Peters can send a short bridge refill to your pharmacy before your appointment or he can renew it fully during your consultation tomorrow.
+en_CA_Health_1587315,channel1,16,251.0,271.0,"Oh, got it. So that I see it's listed as your default pharmacy. So I'll put that in your chart and set a reminder for Dr. Peters to send the refill once he reviews your request."
+en_CA_Health_1587315,channel1,17,271.0,295.0,"Oh, no problem at all. We always want to make sure that your medication is uninterrupted."
+en_CA_Health_1587315,channel1,18,295.0,300.0,That's a great question. Let me check your previous notes.
+en_CA_Health_1587315,channel1,19,300.0,309.0,"Okay. Yes, it looks like Dr. Peters recommended a basic blood panel for cholesterol and kidney function, but it wasn't marked as urgent."
+en_CA_Health_1587315,channel1,20,309.0,334.0,So actually you can discuss the timing with him during your appointment tomorrow. So he determined he'll determine if you should do the test this week or after your next refill cycle.
+en_CA_Health_1587315,channel1,21,335.0,345.0,"We can send it electronically. So when your doctor orders the labs, you'll get the PDF requisition form through our patient portal and by email."
+en_CA_Health_1587315,channel1,22,345.0,359.0,So then you can print it or show it on your phone at any partnered lab. So whatever's easier for you.
+en_CA_Health_1587315,channel1,23,359.0,378.0,"Yeah, exactly. So we've designed it so everything can be handled remotely, even the lab forms and prescription renewal."
+en_CA_Health_1587315,channel1,24,378.0,385.0,"Yeah, exactly. So you can join from any device with a camera microphone and stable internet connection."
+en_CA_Health_1587315,channel1,25,385.0,403.0,We recommend logging in about five minutes early to check your audio and video and then the system will prompt you to test both before Dr. Peters joins.
+en_CA_Health_1587315,channel1,26,403.0,410.0,"So if you have recent blood pressure readings or any symptom notes, you can upload them through the portal under health updates."
+en_CA_Health_1587315,channel1,27,410.0,423.0,"It's optional, but it's very helpful for the doctor to track progress."
+en_CA_Health_1587315,channel1,28,423.0,441.0,"Yeah, that's great. Dr. Peters will appreciate that."
+en_CA_Health_1587315,channel1,29,441.0,454.0,"Yeah, good question. So you'll get updates in both places and prescriptions or dosage changes go directly to your pharmacy and they appear under medications in the portal."
+en_CA_Health_1587315,channel1,30,454.0,460.0,And lab requests or results will show up in your portal inbox with a notification email.
+en_CA_Health_1587315,channel1,31,460.0,474.0,And you'll also get a summary of your consultation about an hour after your appointment and that includes your doctor's notes and next steps.
+en_CA_Health_1587315,channel1,32,474.0,484.0,"Thank you. Yeah, we're trying to make it as easy as possible for our patients, especially for those managing chronic conditions like yours."
+en_CA_Health_1587315,channel1,33,484.0,494.0,"So just to do a recap, you're scheduled for a telemedicine appointment with Dr. Alan Peters tomorrow at 9.30 a.m."
+en_CA_Health_1587315,channel1,34,494.0,504.0,I've flagged your MLAW-Depine refill as urgent for review and you'll discuss lab tests with Dr. Peters during the session.
+en_CA_Health_1587315,channel1,35,504.0,510.0,You'll receive your appointment link and instructions by email and text message in the next 10 minutes.
+en_CA_Health_1587315,channel1,36,510.0,519.0,Does that all sound correct?
+en_CA_Health_1587315,channel1,37,519.0,539.0,"Oh, that's great. And just one final note, if you need to reschedule or run into any technical issues tomorrow, pardon, you can call our support line or use the need help button on the video screen and we'll connect you immediately."
+en_CA_Health_1587315,channel1,38,540.0,556.0,"Yeah, definitely. So we'll make sure your consultation runs as smoothly as possible."
+en_CA_Health_1587315,channel1,39,556.0,571.0,"Oh, you're very welcome, Michael. It was my pleasure assisting you. So I'll send your email and don't hesitate to reach out if you have any questions before tomorrow's appointment."
+en_CA_Health_1587315,channel1,40,571.0,590.0,"You too, Michael. Take care and good luck with your appointment tomorrow. Goodbye."
+en_CA_Health_1587315,channel2,1,0.0,26.96,"All right, we're gonna go Rachel. Sorry for that. This is Michael Carter. I'd like to"
+en_CA_Health_1587315,channel2,2,26.96,34.76,schedule a telemedicine consultation. I have a chronic condition and I need to
+en_CA_Health_1587315,channel2,3,34.76,40.56,"speak with my doctor sometime this week, if possible."
+en_CA_Health_1587315,channel2,4,40.56,64.04,"Sure. It's May 14, 1981. And my number is 514-223-0972. 514-223-0972."
+en_CA_Health_1587315,channel2,5,70.56,86.96,It's exact. I usually do my follow-ups with Dr. Peter's online every few months.
+en_CA_Health_1587315,channel2,6,86.96,106.52,"Ideally, sometime tomorrow or Friday morning, my work schedule's tight, but I could do early in the day."
+en_CA_Health_1587315,channel2,7,116.96,128.04,"9.30 tomorrow would be perfect, if possible. Thank you. Please."
+en_CA_Health_1587315,channel2,8,147.96,160.96,"Excellent. That's quick and easy. Thank you very much. And just to double-check, it is with Dr. Peter's, right?"
+en_CA_Health_1587315,channel2,9,160.96,166.96,Because I prefer to continue with him since he already knows my case history.
+en_CA_Health_1587315,channel2,10,177.96,187.96,Perfect. He's been great with me. I just wanted to make sure I didn't get assigned to a new doctor.
+en_CA_Health_1587315,channel2,11,187.96,215.96,"Thanks, Rachel. While I've got you, I also need to renew my prescription for amlodipine. That's my blood pressure medication."
+en_CA_Health_1587315,channel2,12,215.96,243.96,I've got maybe four days' work left.
+en_CA_Health_1587315,channel2,13,243.96,263.96,That would be great. My pharmacy is the Metro Health Pharmacy on Wellington Street.
+en_CA_Health_1587315,channel2,14,264.96,277.96,Perfect. I appreciate that. I was really worried I might run out.
+en_CA_Health_1587315,channel2,15,277.96,289.96,"Now, one other thing. Dr. Peter's mentioned at my last appointment that I might need some lab work done before my next consultation."
+en_CA_Health_1587315,channel2,16,289.96,292.96,Do I need to do that before tomorrow's session?
+en_CA_Health_1587315,channel2,17,307.96,322.96,Got it.
+en_CA_Health_1587315,channel2,18,322.96,351.96,"Okay. And when I do need the test, do you send me a lab requisition form or do I need to pick it up?"
+en_CA_Health_1587315,channel2,19,351.96,367.96,That's convenient. I like not having to go in person for paperwork.
+en_CA_Health_1587315,channel2,20,367.96,394.96,"So just to be clear, for the telemedicine appointment, all I need is my phone or laptop, right?"
+en_CA_Health_1587315,channel2,21,394.96,415.96,Perfect. And will I need to upload any documents or health readings before the session?
+en_CA_Health_1587315,channel2,22,415.96,429.96,Okay. I actually have some readings from the last couple of weeks. I'll upload them tonight.
+en_CA_Health_1587315,channel2,23,429.96,439.96,"Okay. So just to confirm, if the doctor decides I need blood work or change my medication dose, will I get notified through email or through the portal?"
+en_CA_Health_1587315,channel2,24,459.96,472.96,Very good. I appreciate how organized your system is.
+en_CA_Health_1587315,channel2,25,489.96,518.96,"Yes. Perfect. Well done, Rachel. You cover everything I needed."
+en_CA_Health_1587315,channel2,26,518.96,545.96,"Good to know. Hopefully everything goes smoothly. Well, it's nice to have that option."
+en_CA_Health_1587315,channel2,27,545.96,566.96,"Thanks again, Rachel. You've been extremely helpful. This was so much easier than I expected."
+en_CA_Health_1587315,channel2,28,566.96,575.96,"I appreciate that. Have a great day, Rachel. Bye."

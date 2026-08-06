@@ -1,0 +1,398 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Synthetic survey fixture quality review",
+    "description": "Decision report on whether the supplied 30-row synthetic survey file can support Phase 7 modeling.",
+    "generatedAt": "2026-08-06T18:01:57+00:00",
+    "filters": [],
+    "cards": [
+      {
+        "id": "survey_rows",
+        "description": "Rows in the supplied fixture.",
+        "dataset": "profile",
+        "sourceId": "synthetic_survey_fixture",
+        "metrics": [
+          {
+            "label": "Synthetic rows",
+            "field": "rows",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "matched_calls",
+        "description": "Rows matched to canonical calls through the composite key.",
+        "dataset": "profile",
+        "sourceId": "synthetic_survey_fixture",
+        "metrics": [
+          {
+            "label": "Matched calls",
+            "field": "matched_calls",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "real_labels",
+        "description": "Rows eligible to train or validate the real-outcome model.",
+        "dataset": "profile",
+        "sourceId": "synthetic_survey_fixture",
+        "metrics": [
+          {
+            "label": "Real labels",
+            "field": "real_labels",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "unique_comments",
+        "description": "Distinct generated comment templates in the 30-row fixture.",
+        "dataset": "profile",
+        "sourceId": "synthetic_survey_fixture",
+        "metrics": [
+          {
+            "label": "Unique comments",
+            "field": "unique_comments",
+            "format": "number"
+          }
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "id": "label_balance_chart",
+        "title": "Synthetic label balance",
+        "subtitle": "30 fixture rows; counts are not real customer outcomes.",
+        "type": "bar",
+        "dataset": "label_balance",
+        "sourceId": "synthetic_survey_fixture",
+        "xAxisTitle": "Fixture label",
+        "yAxisTitle": "Rows",
+        "valueFormat": "number",
+        "encodings": {
+          "x": {
+            "field": "label",
+            "type": "nominal",
+            "label": "Fixture label"
+          },
+          "y": {
+            "field": "count",
+            "type": "quantitative",
+            "label": "Rows",
+            "format": "number"
+          },
+          "tooltip": [
+            {
+              "field": "share",
+              "type": "quantitative",
+              "label": "Share",
+              "format": "percent"
+            }
+          ]
+        },
+        "layout": "full"
+      }
+    ],
+    "tables": [
+      {
+        "id": "quality_checks_table",
+        "title": "Data-quality checks",
+        "subtitle": "Findings ordered by downstream modeling risk.",
+        "dataset": "quality_checks",
+        "sourceId": "synthetic_survey_fixture",
+        "defaultSort": {
+          "field": "severity_rank",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "severity_rank",
+            "label": "Order",
+            "format": "number"
+          },
+          {
+            "field": "severity",
+            "label": "Severity",
+            "type": "text"
+          },
+          {
+            "field": "check",
+            "label": "Check",
+            "type": "text"
+          },
+          {
+            "field": "evidence",
+            "label": "Evidence",
+            "type": "text"
+          },
+          {
+            "field": "impact",
+            "label": "Why it matters",
+            "type": "text"
+          },
+          {
+            "field": "action",
+            "label": "Action",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "synthetic_survey_fixture",
+        "label": "Explicit synthetic survey fixture - 3 rows per agent",
+        "path": "data/outcomes/fixtures/synthetic_surveys_3_per_agent.csv",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT * FROM synthetic_surveys_3_per_agent ORDER BY agent_id, agent_call_number",
+          "description": "Profiles the 30-row synthetic survey fixture and reconciles it to canonical calls by agent_id and agent_call_number.",
+          "tables_used": [
+            "synthetic_surveys_3_per_agent"
+          ],
+          "filters": [
+            "No rows excluded",
+            "Synthetic provenance preserved"
+          ],
+          "executed_at": "2026-08-06T18:01:57+00:00",
+          "metric_definitions": [
+            "Positive synthetic label = 1 - bad_survey_flag.",
+            "Coverage = matched synthetic survey rows divided by 100 analyzed calls.",
+            "Real labels = rows eligible for Phase 7 training; synthetic rows always count as zero real labels."
+          ]
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# Synthetic survey fixture quality review"
+      },
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "sourceId": "synthetic_survey_fixture",
+        "body": "## Executive Summary\n\n- **Use this file as a fixture only.** All 30 rows explicitly declare synthetic provenance; none qualify as real survey evidence.\n- **The join is recoverable.** All 30 rows match canonical calls through agent ID and call number, although source call IDs are blank.\n- **It cannot unlock Phase 7.** The file has 22 positive and 8 negative synthetic labels, below the 80-row and 20-per-class gates.\n- **Keep the real gate closed.** Normalize it separately for plumbing tests and continue waiting for governed customer outcomes."
+      },
+      {
+        "id": "profile_strip",
+        "type": "metric-strip",
+        "cardIds": [
+          "survey_rows",
+          "matched_calls",
+          "real_labels",
+          "unique_comments"
+        ]
+      },
+      {
+        "id": "join_finding",
+        "type": "markdown",
+        "sourceId": "synthetic_survey_fixture",
+        "body": "## Structurally joinable, but not training evidence\n\nThe composite key resolves every fixture row to one analyzed call and preserves three rows per agent. That makes the file useful for ingestion and UI checks. It does not change the fact that zero rows are real customer feedback."
+      },
+      {
+        "id": "label_chart_block",
+        "type": "chart",
+        "chartId": "label_balance_chart",
+        "layout": "full"
+      },
+      {
+        "id": "label_interpretation",
+        "type": "markdown",
+        "sourceId": "synthetic_survey_fixture",
+        "body": "## The negative class is too small even for the portfolio gate\n\nOnly 8 of 30 generated rows carry the negative label. Relaxing the minimum class requirement would create a convenient demo result, but it would not create trustworthy discrimination or calibration evidence."
+      },
+      {
+        "id": "quality_table_block",
+        "type": "table",
+        "tableId": "quality_checks_table",
+        "layout": "full"
+      },
+      {
+        "id": "next_steps",
+        "type": "markdown",
+        "body": "## Recommended next steps\n\n1. Preserve this file under a synthetic-fixture path and keep `is_synthetic=True`.\n2. Use the normalized copy only for schema, join, guardrail, and UI tests.\n3. Require source call ID, survey instrument, score, completion timestamp, source system, and label-definition version in the real feed.\n4. Do not create a trained model or dashboard probability until the real-label readiness report passes."
+      },
+      {
+        "id": "further_questions",
+        "type": "markdown",
+        "body": "## Further questions\n\n- Does the source database expose a separate table containing actual survey responses rather than the MVP fixture?\n- Can that table provide the canonical call ID and a documented positive/negative mapping?"
+      },
+      {
+        "id": "caveats",
+        "type": "markdown",
+        "sourceId": "synthetic_survey_fixture",
+        "body": "## Caveats and assumptions\n\nThe assessment treats the file's explicit provenance fields as authoritative. Survey dates span July 14-16, 2026, but timeliness is not interpreted because the rows are generated fixtures. Repeated comments and tightly coupled scores further support the template-generated interpretation."
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-08-06T18:01:57+00:00",
+    "status": "fixture",
+    "datasets": {
+      "profile": [
+        {
+          "rows": 30,
+          "matched_calls": 30,
+          "real_labels": 0,
+          "unique_comments": 11
+        }
+      ],
+      "label_balance": [
+        {
+          "label": "Positive synthetic",
+          "count": 22,
+          "share": 0.7333
+        },
+        {
+          "label": "Negative synthetic",
+          "count": 8,
+          "share": 0.2667
+        }
+      ],
+      "coverage_by_agent": [
+        {
+          "agent_id": "Agent_001",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_002",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_003",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_004",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_005",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_006",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_007",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_008",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_009",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        },
+        {
+          "agent_id": "Agent_010",
+          "survey_rows": 3,
+          "available_calls": 10,
+          "coverage": 0.3
+        }
+      ],
+      "quality_checks": [
+        {
+          "severity_rank": 1,
+          "severity": "High",
+          "check": "Real-outcome provenance",
+          "evidence": "30/30 rows have is_synthetic=True and every generation note says the feedback is for MVP testing only.",
+          "impact": "Cannot train, calibrate, validate, or display a real survey probability.",
+          "action": "Keep as a fixture and wait for a governed real survey extract."
+        },
+        {
+          "severity_rank": 1,
+          "severity": "High",
+          "check": "Training sufficiency",
+          "evidence": "30 rows total: 22 positive and 8 negative; gates require 80 total and 20 per class.",
+          "impact": "The sample is too small and the negative class is below the minimum gate.",
+          "action": "Do not relax gates for a portfolio result; collect additional real labels."
+        },
+        {
+          "severity_rank": 2,
+          "severity": "Medium",
+          "check": "Primary call key completeness",
+          "evidence": "call_id is blank in 30/30 rows; all 30 rows match uniquely through agent_id + agent_call_number.",
+          "impact": "The composite join is recoverable but less durable than a source-provided call_id.",
+          "action": "Use the recovered call_id only in the fixture adapter; require call_id in the real feed."
+        },
+        {
+          "severity_rank": 2,
+          "severity": "Medium",
+          "check": "Template repetition",
+          "evidence": "Only 11 unique comments across 30 rows; the most common comment appears 5 times.",
+          "impact": "Text and score patterns are generated templates, not independent customer evidence.",
+          "action": "Exclude comments from modeling and from real-world performance claims."
+        },
+        {
+          "severity_rank": 4,
+          "severity": "Pass",
+          "check": "Structural integrity",
+          "evidence": "30 unique survey IDs, 30 unique agent-call keys, 10 agents with 3 rows each, 0 NPS label mismatches, 0 name mismatches.",
+          "impact": "The file is structurally suitable for plumbing and UI tests.",
+          "action": "Retain automated uniqueness, enum, and join checks."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "synthetic_survey_fixture",
+      "label": "Explicit synthetic survey fixture - 3 rows per agent",
+      "path": "data/outcomes/fixtures/synthetic_surveys_3_per_agent.csv",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM synthetic_surveys_3_per_agent ORDER BY agent_id, agent_call_number",
+        "description": "Profiles the 30-row synthetic survey fixture and reconciles it to canonical calls by agent_id and agent_call_number.",
+        "tables_used": [
+          "synthetic_surveys_3_per_agent"
+        ],
+        "filters": [
+          "No rows excluded",
+          "Synthetic provenance preserved"
+        ],
+        "executed_at": "2026-08-06T18:01:57+00:00",
+        "metric_definitions": [
+          "Positive synthetic label = 1 - bad_survey_flag.",
+          "Coverage = matched synthetic survey rows divided by 100 analyzed calls.",
+          "Real labels = rows eligible for Phase 7 training; synthetic rows always count as zero real labels."
+        ]
+      }
+    }
+  ],
+  "package_info": {
+    "root": "reports",
+    "manifestPath": "reports/synthetic_survey_quality_artifact.json",
+    "snapshotPath": "reports/synthetic_survey_quality_artifact.json"
+  }
+}

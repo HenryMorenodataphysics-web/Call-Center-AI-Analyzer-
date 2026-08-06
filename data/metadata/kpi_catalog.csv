@@ -1,0 +1,26 @@
+metric_name,category,grain,source,availability,direction,confidence_field,limitation,required_source,analytical_contract_version
+sentiment_label,observed_signal,call_turn,Hugging Face sentiment classifier,available,,sentiment_score,Text sentiment does not measure vocal tone or customer outcome.,,1.0.0
+vocal_intensity_level,derived_signal,call_turn,Within-call acoustic feature levels,available,,signal_coverage_confidence,Relative to the same call; not a population-calibrated emotion label.,,1.0.0
+empathy_flag,observed_rule_signal,call_turn,Phrase-pattern rules,available,,signal_coverage_confidence,Detects configured phrases and can miss implicit empathy.,,1.0.0
+probing_flag,observed_rule_signal,call_turn,Question and phrase-pattern rules,available,,signal_coverage_confidence,Presence does not prove that the question was useful.,,1.0.0
+ownership_flag,observed_rule_signal,call_turn,Phrase-pattern rules,available,,signal_coverage_confidence,Detects configured phrases and can miss implicit ownership.,,1.0.0
+next_steps_flag,observed_rule_signal,call_turn,Phrase-pattern rules,available,,signal_coverage_confidence,Presence does not verify that the next step was correct.,,1.0.0
+conversation_risk_score,derived_proxy,call_summary,conversation_risk_v1 heuristic rubric,available,higher_is_more_risk,signal_coverage_confidence,"Uncalibrated heuristic; not a probability, QA score, CSAT score, or survey forecast.",,1.0.0
+heuristic_quality_proxy,derived_proxy,call_summary,100 minus conversation_risk_score,available,higher_is_less_heuristic_risk,signal_coverage_confidence,Display aid only; not measured service quality.,,1.0.0
+estimated_aht_sec,operational_proxy,call_summary,Maximum duration of the two audio channels,available,context_dependent,,"Not official AHT because hold, after-call work, and system timing are unavailable.",,1.0.0
+call_duration_sec,observed_operational_signal,call_summary,Maximum duration of the two audio channels,available,context_dependent,,Audio duration alone does not explain call complexity or service quality.,,1.0.0
+total_calls,volume_metric,agent_summary,Distinct canonical call summaries per agent,available,context_dependent,,Volume is not performance and must be interpreted with workload and call mix.,,1.0.0
+avg_risk_score,derived_proxy,agent_summary,Mean conversation_risk_score across the agent sample,available,higher_is_more_heuristic_risk,avg_signal_coverage_confidence,"Not adjusted for call mix, complexity, or sample size; not an official performance score.",,1.0.0
+manual_review_rate,workflow_metric,agent_summary,Share of calls flagged by the heuristic review rule,available,higher_means_more_review_candidates,,"A review flag is a prioritization aid, not proof of poor service.",,1.0.0
+empathy_call_rate,behavior_signal_rate,agent_summary,Share of calls with at least one detected empathy phrase,available,context_dependent,,Rule-based phrase coverage can miss implicit empathy and does not measure appropriateness.,,1.0.0
+probing_call_rate,behavior_signal_rate,agent_summary,Share of calls with at least one detected probing question,available,context_dependent,,Does not measure whether probing was necessary or effective.,,1.0.0
+ownership_call_rate,behavior_signal_rate,agent_summary,Share of calls with at least one detected ownership phrase,available,context_dependent,,Configured phrases can undercount or overcount actual ownership behavior.,,1.0.0
+next_steps_call_rate,behavior_signal_rate,agent_summary,Share of calls with at least one detected next-step phrase,available,context_dependent,,Does not verify that the next step was accurate or completed.,,1.0.0
+avg_signal_coverage_confidence,data_quality_metric,agent_summary,"Mean text, sentiment, and acoustic input coverage",available,higher_is_more_complete,,"Measures signal availability, not prediction accuracy.",,1.0.0
+agent_rank_by_heuristic_risk,descriptive_ordering,agent_summary,Dense ascending rank of avg_risk_score,available,lower_rank_has_lower_unadjusted_proxy,,Not an official performance ranking and not fair for management decisions without call-mix adjustment.,,1.0.0
+official_aht_sec,real_outcome,,,not_available,,,,call-center workforce or telephony system,1.0.0
+csat,real_outcome,,,not_available,,,,call-center survey system,1.0.0
+nps,real_outcome,,,not_available,,,,customer feedback system,1.0.0
+qa_score,real_outcome,,,not_available,,,,call-center QA system,1.0.0
+five_stars,real_outcome,,,not_available,,,,customer rating system,1.0.0
+survey_result,real_outcome,,,not_available,,,,call-level labeled survey outcome,1.0.0

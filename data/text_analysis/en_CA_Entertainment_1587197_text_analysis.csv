@@ -1,0 +1,61 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Entertainment_1587197,1,agent,channel1,1,0.0,18.68,Oh good afternoon. Thank you for calling Starlight Events customer support. This is Mary speaking.,positive,0.8729,False,False,False,False,False
+en_CA_Entertainment_1587197,2,customer,channel2,1,0.0,23.68,"Hi Mary, this is Tom.",neutral,0.7923,False,False,False,False,False
+en_CA_Entertainment_1587197,3,agent,channel1,2,18.68,33.68,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_CA_Entertainment_1587197,4,customer,channel2,2,23.68,27.64,I'm calling about the Summer Beats Music Festival next month.,neutral,0.8376,False,False,False,False,False
+en_CA_Entertainment_1587197,5,customer,channel2,3,27.64,53.4,I heard there are VIP passes available and I wanted to get some information about them.,neutral,0.8718,False,False,False,False,False
+en_CA_Entertainment_1587197,6,agent,channel1,3,33.68,40.72,Absolutely Tom. I'd be happy to help you with that. The VIP passes for summer beats 2025 are,positive,0.8649,False,False,False,False,False
+en_CA_Entertainment_1587197,7,agent,channel1,4,40.72,46.48,"definitely popular this year. Before we go into details, can I know which festival date",positive,0.7757,False,False,False,False,False
+en_CA_Entertainment_1587197,8,agent,channel1,5,46.48,53.48,you're interested in? The festival runs from July 18th to July 20th.,neutral,0.6199,False,False,True,False,False
+en_CA_Entertainment_1587197,9,customer,channel2,4,53.4,60.76,"I'm planning to go for the whole weekend, actually so July 18th to the 20th.",neutral,0.5966,False,False,False,False,False
+en_CA_Entertainment_1587197,10,agent,channel1,6,53.48,68.0,Oh perfect. So the full weekend experience is a great choice. So let me explain what's,positive,0.9712,False,False,False,False,False
+en_CA_Entertainment_1587197,11,agent,channel1,7,68.0,75.08,included in that package. So our VIP pass includes exclusive backstage access to meet some of the,neutral,0.6114,False,False,False,False,False
+en_CA_Entertainment_1587197,12,agent,channel1,8,75.08,82.56,performing artists. French stage viewing zones for the best experience. There's access to the VIP,positive,0.8251,False,False,False,False,False
+en_CA_Entertainment_1587197,13,agent,channel1,9,82.56,89.68,lounge. It has complimentary snacks and drinks. There's a limited edition merchandise pack so,positive,0.6171,False,False,False,False,False
+en_CA_Entertainment_1587197,14,customer,channel2,5,83.4,103.72,That sounds awesome. Does it also include hotel accommodation or transportation?,positive,0.9699,False,False,False,False,False
+en_CA_Entertainment_1587197,15,agent,channel1,10,89.68,94.96,"you'll get a festival hoodie, a hat and lanyard and you'll have priority entrance and parking.",neutral,0.6196,False,False,False,False,False
+en_CA_Entertainment_1587197,16,agent,channel1,11,105.6,113.28,"Yeah good question. So accommodation and transportation, it isn't included in the standard VIP",neutral,0.717,False,False,False,False,False
+en_CA_Entertainment_1587197,17,agent,channel1,12,113.28,120.2,package but we do offer an upgrade option called VIP plus. So that package has three nights at a,neutral,0.7191,False,False,False,False,False
+en_CA_Entertainment_1587197,18,customer,channel2,6,113.4,134.28,"Nice, that could be convenient. How much do the regular VIP and VIP plus packages cost?",positive,0.8803,False,False,False,False,False
+en_CA_Entertainment_1587197,19,agent,channel1,13,120.2,123.84,partner hotel and they have shuttle service to and from the venue.,neutral,0.8729,False,False,False,False,False
+en_CA_Entertainment_1587197,20,agent,channel1,14,135.64,146.64,Yeah of course. So for the full weekend the VIP pass is $499 plus tax and the VIP plus package is $799,neutral,0.6222,False,False,False,False,False
+en_CA_Entertainment_1587197,21,customer,channel2,7,143.4,160.44,Got it. Are there still spots available for both options?,neutral,0.8841,False,False,False,False,False
+en_CA_Entertainment_1587197,22,agent,channel1,15,146.64,153.92,plus tax per person. So both packages include all service fees and they have digital tickets.,neutral,0.8536,False,False,False,False,False
+en_CA_Entertainment_1587197,23,agent,channel1,16,153.92,170.04,Oh let me check real quick. Yes so as of now both packages are available but VIP plus is almost sold,neutral,0.7387,False,False,False,True,False
+en_CA_Entertainment_1587197,24,agent,channel1,17,170.04,191.76,out. There's fewer than 20 passes left for that one. Yeah actually we do have some flexible options so,neutral,0.6855,False,False,False,False,False
+en_CA_Entertainment_1587197,25,customer,channel2,8,173.4,186.84,"Wow, that's going fast. What about if something comes up and I can't go? Do you have any cancellation or rescheduling options?",negative,0.5435,False,False,False,False,False
+en_CA_Entertainment_1587197,26,agent,channel1,18,191.76,198.56,if you cancel within 14 days of purchase you get a full refund but after that you can still get a,neutral,0.8948,False,False,False,False,False
+en_CA_Entertainment_1587197,27,agent,channel1,19,198.6,206.8,50% refund if you cancel 10 days before the event. But there's another alternative so we can transfer,neutral,0.8691,False,False,False,False,False
+en_CA_Entertainment_1587197,28,customer,channel2,9,203.4,222.6,That's actually pretty fair. I like that flexibility and about the backstage access.,positive,0.9098,False,False,False,False,False
+en_CA_Entertainment_1587197,29,agent,channel1,20,206.8,212.84,your ticket to another person at no cost or you can save it for next year's festival if you prefer.,neutral,0.7575,False,False,False,False,False
+en_CA_Entertainment_1587197,30,customer,channel2,10,223.4,228.44,Is that for all performers or just selected artists?,neutral,0.9394,False,False,False,False,False
+en_CA_Entertainment_1587197,31,agent,channel1,21,229.24,236.36,Yeah good question. So it's for selected artists but we have an incredible line up this year. So the,positive,0.9665,False,False,False,False,False
+en_CA_Entertainment_1587197,32,customer,channel2,11,233.4,254.28,"Oh, I love the Skytones. That's one of my favorite bands. That might seal the deal right there.",positive,0.9832,False,False,False,False,False
+en_CA_Entertainment_1587197,33,agent,channel1,22,236.36,242.48,"backstage sessions will include DJ Nova, The Skytones and Amber Ray and there's going to be an",neutral,0.6005,False,False,False,False,False
+en_CA_Entertainment_1587197,34,agent,channel1,23,242.48,257.52,email schedule about who's available and what time. Yeah they're definitely crowd favorite so,positive,0.8846,False,False,False,False,False
+en_CA_Entertainment_1587197,35,agent,channel1,24,257.52,277.48,their VIP session it has a photo opportunity and autograph signing. Yeah absolutely I can,positive,0.8378,False,False,False,False,False
+en_CA_Entertainment_1587197,36,customer,channel2,12,263.64,271.08,"Nice. So if I want to go ahead and purchase two VIP plus passes for me and my friend,",positive,0.8944,False,False,False,False,False
+en_CA_Entertainment_1587197,37,customer,channel2,13,272.36,275.24,can I do that through you right now?,neutral,0.8785,False,False,False,False,False
+en_CA_Entertainment_1587197,38,customer,channel2,14,275.24,296.36,Sure. So my name is Tom Peterson and my email is t.peterson88atgmail.com.,neutral,0.8118,False,False,False,False,False
+en_CA_Entertainment_1587197,39,agent,channel1,25,277.48,283.4,"process that for you now. I'll just need your name, email address and preferred payment method.",neutral,0.8861,False,False,False,False,False
+en_CA_Entertainment_1587197,40,agent,channel1,26,287.52,315.64,Okay thanks Tom. I got that. I'm just entering the details. So two VIP plus weekend passes for the,positive,0.6382,False,False,False,False,False
+en_CA_Entertainment_1587197,41,customer,channel2,15,296.6,311.48,t.peterson88atgmail.com. And now I'll be using my credit card.,neutral,0.7744,False,False,False,False,False
+en_CA_Entertainment_1587197,42,customer,channel2,16,311.48,328.6,"Yes, that's excellent. That's fine.",positive,0.9758,False,False,False,False,False
+en_CA_Entertainment_1587197,43,agent,channel1,27,315.64,334.16,"festival the total including tax comes to $1,758.70 is that right? Okay could you provide the name on",neutral,0.8998,False,False,True,False,False
+en_CA_Entertainment_1587197,44,customer,channel2,17,328.92,353.72,Sure. So the name is Tom Peterson and my current number is 6263234592634821.,neutral,0.901,False,False,False,False,False
+en_CA_Entertainment_1587197,45,agent,channel1,28,334.16,337.44,the card? The card number in billing as zip code?,neutral,0.9301,False,False,True,False,False
+en_CA_Entertainment_1587197,46,agent,channel1,29,337.44,367.4,Oh got it. Okay the payment has been processed so you'll get your,positive,0.591,False,False,False,False,False
+en_CA_Entertainment_1587197,47,customer,channel2,18,354.68,362.84,And the zip code is h2v3k5.,neutral,0.9094,False,False,False,False,False
+en_CA_Entertainment_1587197,48,customer,channel2,19,362.92,385.16,"Understood. Thank you, Mary. And when will I get the details about the backstage meet",positive,0.5971,False,False,False,False,False
+en_CA_Entertainment_1587197,49,agent,channel1,30,367.76,374.16,digital tickets and confirmation email within the next five minutes but make sure to check your spam,neutral,0.8589,False,False,False,False,False
+en_CA_Entertainment_1587197,50,agent,channel1,31,374.16,390.4,folder just in case it might end up in there. So those are usually sent out two weeks before,neutral,0.9012,False,False,False,False,False
+en_CA_Entertainment_1587197,51,customer,channel2,20,385.24,394.28,and greet schedules?,neutral,0.9095,False,False,False,False,False
+en_CA_Entertainment_1587197,52,agent,channel1,32,390.4,398.28,the event and you'll get a VIP itinerary also. You'll get a QR code also for check-in when you arrive.,neutral,0.7027,False,False,False,False,False
+en_CA_Entertainment_1587197,53,agent,channel1,33,398.28,412.92,Oh yeah I can tell it's going to be an amazing weekend Tom. So just remember to bring your,positive,0.9884,False,False,False,False,False
+en_CA_Entertainment_1587197,54,customer,channel2,21,400.04,406.28,Awesome. This is super exciting. I've been waiting for this festival all year.,positive,0.9901,False,False,False,False,False
+en_CA_Entertainment_1587197,55,agent,channel1,34,412.92,417.48,photo ID and digital ticket when you arrive and then the VIP staff will be there to guide you,neutral,0.9074,False,False,False,False,False
+en_CA_Entertainment_1587197,56,customer,channel2,22,415.88,424.28,"Got it. Thanks so much for all the info, Mary. You've been really helpful.",positive,0.9766,False,False,False,False,False
+en_CA_Entertainment_1587197,57,agent,channel1,35,417.52,429.88,from the entrance. Yeah you're really welcome Tom. I'm glad I could help. So enjoy the festival and your VIP,positive,0.9833,False,False,False,False,False
+en_CA_Entertainment_1587197,58,agent,channel1,36,429.88,442.84,experience and don't forget to tag us on social media if you post pictures. You too thanks for calling Starline events. Goodbye.,positive,0.6374,False,False,False,False,False
+en_CA_Entertainment_1587197,59,customer,channel2,23,435.32,440.28,We'll do. Thanks again and have a great day.,positive,0.9819,False,False,False,False,False
+en_CA_Entertainment_1587197,60,customer,channel2,24,445.16,448.28,Thank you.,positive,0.8345,False,False,False,False,False

@@ -1,0 +1,143 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_RealEstate_1591705,1,agent,channel1,1,0.0,15.44,"Good afternoon, welcome to Melbourne Real Estate, just speaking with Tom, how can I"
+en_AU_RealEstate_1591705,2,customer,channel2,1,0.0,21.66,"Hey, Tom, just Laura from 24A Brunswick Street."
+en_AU_RealEstate_1591705,3,agent,channel1,2,15.44,15.84,help you?
+en_AU_RealEstate_1591705,4,customer,channel2,2,21.66,24.8,We actually need to organize a move out.
+en_AU_RealEstate_1591705,5,customer,channel2,3,24.8,27.2,We're moving kind of across town.
+en_AU_RealEstate_1591705,6,customer,channel2,4,27.2,32.0,"So, yeah, I just need to know what to do, all that kind of stuff."
+en_AU_RealEstate_1591705,7,agent,channel1,3,30.96,37.24,"Okay Laura, I'm actually a new property manager here, so before we dive into"
+en_AU_RealEstate_1591705,8,agent,channel1,4,37.24,46.88,"things, could I just grab the postcode of the property? 3-on-4-5, perfect, you"
+en_AU_RealEstate_1591705,9,customer,channel2,5,42.0,44.0,"Yeah, it's 3-1-4-5."
+en_AU_RealEstate_1591705,10,customer,channel2,6,44.0,59.92,I've just got a new job and it's the other side of town and it would take forever for
+en_AU_RealEstate_1591705,11,agent,channel1,5,46.88,51.84,"only said that was on Brunswick Street, oh that's such a beautiful property, how"
+en_AU_RealEstate_1591705,12,agent,channel1,6,51.84,55.76,come you're looking at leaving?
+en_AU_RealEstate_1591705,13,customer,channel2,7,59.92,63.12,"me to get, you know, there and back every single day."
+en_AU_RealEstate_1591705,14,agent,channel1,7,60.0,73.8,"Oh well, the metro tunnel is opening very soon, are you sure that doesn't make an"
+en_AU_RealEstate_1591705,15,customer,channel2,8,63.12,66.96,"So we're really sad to be living the property, but yeah, we just need to get something."
+en_AU_RealEstate_1591705,16,customer,channel2,9,66.96,70.08,It's a little bit easy to get to and from work on the daily.
+en_AU_RealEstate_1591705,17,agent,channel1,8,73.8,76.08,impact?
+en_AU_RealEstate_1591705,18,customer,channel2,10,74.4,79.36,"No, when actually working that side of town, that would be good."
+en_AU_RealEstate_1591705,19,customer,channel2,11,79.36,83.92,"But yeah, it's a bit further than that in a different direction, unfortunately."
+en_AU_RealEstate_1591705,20,customer,channel2,12,83.92,86.32,"So, you know, if that helped, it would have been really good."
+en_AU_RealEstate_1591705,21,customer,channel2,13,86.32,106.0,"Yeah, we could be month to month now."
+en_AU_RealEstate_1591705,22,agent,channel1,9,86.52,91.16,"Okay that's a shame because if you are over Brunswick Street side, the metro"
+en_AU_RealEstate_1591705,23,agent,channel1,10,91.16,95.28,"tunnel actually does go south side, so I'm asking over a different side of town"
+en_AU_RealEstate_1591705,24,agent,channel1,11,95.28,100.8,"again, but anyway, do you know if your lease is up or if you're on a rolling"
+en_AU_RealEstate_1591705,25,agent,channel1,12,100.8,104.72,"contract, or how long maybe you've got left on that one?"
+en_AU_RealEstate_1591705,26,agent,channel1,13,106.2,115.12,"Okay so I'm just pulling it up here, yeah I can see your lease did end in October, so"
+en_AU_RealEstate_1591705,27,agent,channel1,14,115.12,120.2,"what we do require, and this goes both ways, is we do require 60 days notice if"
+en_AU_RealEstate_1591705,28,customer,channel2,14,116.32,140.0,"Yeah, definitely let's get it started straight away."
+en_AU_RealEstate_1591705,29,agent,channel1,15,120.2,124.4,"you are looking to vacate the property, so yeah while you are in a month to"
+en_AU_RealEstate_1591705,30,agent,channel1,16,124.4,128.28,"month, we still do require the 60 days notice, so that would take us up to"
+en_AU_RealEstate_1591705,31,agent,channel1,17,129.16,135.72,"until about January, if we did get the ball rolling today, if you'd still like to"
+en_AU_RealEstate_1591705,32,agent,channel1,18,135.72,138.32,consider that.
+en_AU_RealEstate_1591705,33,agent,channel1,19,139.72,145.8,"Okay not a problem, so I'll send you over the documentation of just a few"
+en_AU_RealEstate_1591705,34,agent,channel1,20,145.8,151.32,"different things we need to get you to sign, cross the T's and dot the I's, as"
+en_AU_RealEstate_1591705,35,customer,channel2,15,146.32,174.0,"I have, but it was a really long time ago, so a little refresher would be fantastic."
+en_AU_RealEstate_1591705,36,agent,channel1,21,151.32,157.56,"we say, just so we can finalize that with the RBTA, so the rental tenancy"
+en_AU_RealEstate_1591705,37,agent,channel1,22,158.24,162.96,"authority, and just to make sure we can get your bond processed, so have you moved"
+en_AU_RealEstate_1591705,38,agent,channel1,23,162.96,166.68,"place before, and do you know what's required around vacating a rental property?"
+en_AU_RealEstate_1591705,39,agent,channel1,24,174.2,177.56,"Sure, no worries at all, yeah I can see you've actually been in that property for"
+en_AU_RealEstate_1591705,40,customer,channel2,16,176.56,190.0,Mm-hmm.
+en_AU_RealEstate_1591705,41,agent,channel1,25,177.56,184.68,"gosh about 15 years now, so it's pretty much your home, so it's not going to"
+en_AU_RealEstate_1591705,42,agent,channel1,26,184.92,190.68,"surprise you, we will require a full bond clean, as well as a condition report"
+en_AU_RealEstate_1591705,43,customer,channel2,17,190.4,203.2,"Oh, I'm not sure if I do."
+en_AU_RealEstate_1591705,44,agent,channel1,27,190.68,196.32,"upon exit, by any chance do you still have a copy of the condition report from"
+en_AU_RealEstate_1591705,45,agent,channel1,28,196.32,198.0,when you first moved in all that time ago?
+en_AU_RealEstate_1591705,46,customer,channel2,18,203.2,207.28,"I feel like it would have been in the email somewhere, but I'm not confident."
+en_AU_RealEstate_1591705,47,customer,channel2,19,207.28,215.68,I still have it.
+en_AU_RealEstate_1591705,48,agent,channel1,29,208.32,211.36,"Yeah that's okay, because the property has actually changed hands in real"
+en_AU_RealEstate_1591705,49,agent,channel1,30,211.36,215.76,"estates quite a number of times in the last 15 years, so we will have a dig"
+en_AU_RealEstate_1591705,50,agent,channel1,31,215.76,221.6,"around for that, hopefully something should be with the RBTA, that may take a"
+en_AU_RealEstate_1591705,51,agent,channel1,32,221.6,225.76,"little bit of time, but rest assured given you have given us notice today, the"
+en_AU_RealEstate_1591705,52,agent,channel1,33,225.76,232.12,"60 days we'll start from today, I will give you a quick rundown, so yes as"
+en_AU_RealEstate_1591705,53,agent,channel1,34,232.12,236.76,"I mentioned a full bond clean, that means leaving the property exactly as"
+en_AU_RealEstate_1591705,54,agent,channel1,35,236.76,244.0,"you found it, top to bottom, walls washed, bathroom bleached, as well as any"
+en_AU_RealEstate_1591705,55,agent,channel1,36,244.0,249.28,"carpeted areas that will need a professional steam clean, have you had"
+en_AU_RealEstate_1591705,56,agent,channel1,37,249.28,251.52,floor steam cleans in the past?
+en_AU_RealEstate_1591705,57,customer,channel2,20,250.72,258.64,"Yeah, we actually did it just kind of as a refresher while we've been living here."
+en_AU_RealEstate_1591705,58,customer,channel2,21,258.64,261.68,So we have kind of had the carpets done before.
+en_AU_RealEstate_1591705,59,agent,channel1,38,261.24,265.72,Okay and was that something that you kind of hired from a supermarket or did
+en_AU_RealEstate_1591705,60,agent,channel1,39,265.76,267.6,you get a professional to do that from?
+en_AU_RealEstate_1591705,61,customer,channel2,22,268.72,271.68,We actually hired it from the supermarket.
+en_AU_RealEstate_1591705,62,agent,channel1,40,270.6,275.64,Okay so well I absolutely know that they do a great job of using them myself
+en_AU_RealEstate_1591705,63,agent,channel1,41,275.64,280.32,"before, we do require it to be of a professional standard and we would"
+en_AU_RealEstate_1591705,64,customer,channel2,23,280.08,283.52,"Okay, not a problem."
+en_AU_RealEstate_1591705,65,agent,channel1,42,280.32,285.04,require a receipt or a tax invoice just from the supplier confirming that they
+en_AU_RealEstate_1591705,66,customer,channel2,24,283.52,295.44,We can organize that.
+en_AU_RealEstate_1591705,67,agent,channel1,43,285.04,291.04,have completely disinfected and cleaned your carpets to a professional grade.
+en_AU_RealEstate_1591705,68,customer,channel2,25,295.44,301.28,Do you have people that you kind of recommend for some of this stuff?
+en_AU_RealEstate_1591705,69,agent,channel1,44,296.56,306.2,"Yeah absolutely, we actually do have an in-house carpet cleaning business as well,"
+en_AU_RealEstate_1591705,70,agent,channel1,45,306.2,311.72,"it's called Melbourne Real Estate Electro Dry, it is just an offshoot from us, we"
+en_AU_RealEstate_1591705,71,customer,channel2,26,310.0,333.52,"Oh, no, I'll be fine with electricity and gas."
+en_AU_RealEstate_1591705,72,agent,channel1,46,311.72,315.72,tend to find it's easy just wrapping it all into a little package just to make
+en_AU_RealEstate_1591705,73,agent,channel1,47,315.72,321.12,your moving process a little bit smoother. What was still on the topic of
+en_AU_RealEstate_1591705,74,agent,channel1,48,321.36,326.4,"different services, did you need a hand moving your electricity and gas over to"
+en_AU_RealEstate_1591705,75,agent,channel1,49,326.4,327.4,your new address?
+en_AU_RealEstate_1591705,76,agent,channel1,50,327.4,355.4,"Okay well if it's not too late maybe just double check with them if there are any overhead fees,"
+en_AU_RealEstate_1591705,77,customer,channel2,27,333.52,339.2,We've got a company that kind of asked us the same thing.
+en_AU_RealEstate_1591705,78,customer,channel2,28,339.2,342.0,I think it's like one of those third party companies where they compare
+en_AU_RealEstate_1591705,79,customer,channel2,29,343.68,344.88,everything that you're doing.
+en_AU_RealEstate_1591705,80,customer,channel2,30,344.88,349.92,We had a look when we were looking for the property and they organized for us to do the
+en_AU_RealEstate_1591705,81,customer,channel2,31,349.92,362.72,electricity and gas already.
+en_AU_RealEstate_1591705,82,agent,channel1,51,355.56,361.0,connection costs as well as a guarantee for same-day moving that your power is switched on
+en_AU_RealEstate_1591705,83,agent,channel1,52,361.96,366.44,"because it's nothing worse than getting into new property and fighting the lights don't turn on,"
+en_AU_RealEstate_1591705,84,customer,channel2,32,362.88,376.24,"Yeah, definitely."
+en_AU_RealEstate_1591705,85,agent,channel1,53,366.44,371.4,however if you did do it with us because you are already verified with your now system and we
+en_AU_RealEstate_1591705,86,agent,channel1,54,371.4,377.96,can see you do have a good rental tendency history we can't guarantee that all facilities will
+en_AU_RealEstate_1591705,87,agent,channel1,55,377.96,382.52,be activated by the time you turn the keys of first day in a new property.
+en_AU_RealEstate_1591705,88,customer,channel2,33,385.92,388.24,"Okay, something I'll look into."
+en_AU_RealEstate_1591705,89,agent,channel1,56,386.28,393.4,No worries well from here I can also send you a checklist just of all the different things
+en_AU_RealEstate_1591705,90,agent,channel1,57,393.4,398.28,we require as well as just everything that can make your life that little bit easier
+en_AU_RealEstate_1591705,91,customer,channel2,34,393.44,412.64,"Oh, you better believe it."
+en_AU_RealEstate_1591705,92,agent,channel1,58,398.28,406.2,in lead up to one of those last days in your current property. I always know that there's
+en_AU_RealEstate_1591705,93,agent,channel1,59,406.2,408.2,always one last little moving box to be packed.
+en_AU_RealEstate_1591705,94,customer,channel2,35,412.64,417.04,"I feel like every time I go into a different room, I just realize that I haven't packed"
+en_AU_RealEstate_1591705,95,agent,channel1,60,415.64,425.56,And just on that have you have you already organized a moving service or would you like a hand
+en_AU_RealEstate_1591705,96,customer,channel2,36,417.04,419.6,something up and it's like another box and another box.
+en_AU_RealEstate_1591705,97,customer,channel2,37,419.6,429.12,"So yeah, it's endless."
+en_AU_RealEstate_1591705,98,agent,channel1,61,426.12,430.12,we do have different tiers of removalists available ones that can come in and pack
+en_AU_RealEstate_1591705,99,agent,channel1,62,430.12,434.04,everything up for you and install it in a new house or if you just even need something
+en_AU_RealEstate_1591705,100,agent,channel1,63,434.04,436.84,as simple as a moving box we'd be happy to help.
+en_AU_RealEstate_1591705,101,customer,channel2,38,439.44,441.12,"Oh, wow, pack it up for me."
+en_AU_RealEstate_1591705,102,customer,channel2,39,441.12,442.4,I haven't heard of that before.
+en_AU_RealEstate_1591705,103,customer,channel2,40,442.4,443.76,That does sound delightful.
+en_AU_RealEstate_1591705,104,customer,channel2,41,444.8,448.8,"I would like to compare the costs though because, yeah, I'd imagine that would be pretty"
+en_AU_RealEstate_1591705,105,agent,channel1,64,445.4,461.16,Yeah absolutely well I can pass it over what I can send you some details of silver service
+en_AU_RealEstate_1591705,106,customer,channel2,42,448.8,451.36,expensive getting someone to do the whole thing for you.
+en_AU_RealEstate_1591705,107,customer,channel2,43,452.8,464.32,"But yeah, very keen to see some pricing and all that kind of thing."
+en_AU_RealEstate_1591705,108,agent,channel1,65,461.16,466.52,removalists they do it full end-to-end package I'm not gonna lie it just kind of made a little
+en_AU_RealEstate_1591705,109,agent,channel1,66,466.52,471.88,bit of a pricier price package um but you can't put a price on your side I cannot any.
+en_AU_RealEstate_1591705,110,agent,channel1,67,472.6,484.92,So all right well I'll get the moving out agreement sorted now as well as some recommendations
+en_AU_RealEstate_1591705,111,customer,channel2,44,475.28,475.92,That's true.
+en_AU_RealEstate_1591705,112,customer,channel2,45,479.68,502.4,"All right, that sounds good."
+en_AU_RealEstate_1591705,113,agent,channel1,68,484.92,490.28,for carpet cleaners along with the removalists we'll pop all of that into an email for you
+en_AU_RealEstate_1591705,114,agent,channel1,69,490.28,494.52,and also pop it into the post as well just so you do have a hard copy and you can stick it
+en_AU_RealEstate_1591705,115,agent,channel1,70,494.52,497.64,up on the fridge before you turn that one off and get it defrosting.
+en_AU_RealEstate_1591705,116,agent,channel1,71,498.2,506.84,Not a problem and I will just mention I all sorted with bond do you know the way that the bond works?
+en_AU_RealEstate_1591705,117,customer,channel2,46,502.4,506.32,Thank you.
+en_AU_RealEstate_1591705,118,customer,channel2,47,509.76,522.32,"No, could you explain it to me?"
+en_AU_RealEstate_1591705,119,agent,channel1,72,509.96,516.84,Yeah no worries so in Victoria there has just been a legislation passed with the RBTA
+en_AU_RealEstate_1591705,120,agent,channel1,73,516.84,522.52,that you no longer have to wait if to receive your bond and then pay your bond to the new
+en_AU_RealEstate_1591705,121,customer,channel2,48,522.32,539.84,"Okay, yep, no, no problem."
+en_AU_RealEstate_1591705,122,agent,channel1,74,522.52,529.16,real estate agent the RBTA it can hold on to that one and pass it directly to the new
+en_AU_RealEstate_1591705,123,agent,channel1,75,529.16,534.12,tenancy agreement if everything at the property is above board.
+en_AU_RealEstate_1591705,124,agent,channel1,76,538.76,544.36,So we will just need your removal to proceed with that one so I'll also include that form
+en_AU_RealEstate_1591705,125,agent,channel1,77,544.92,550.52,within the email that I'll send you as well I'd copy that back in the mail within the next
+en_AU_RealEstate_1591705,126,agent,channel1,78,550.52,554.44,two days. I can organise that to go to your current address
+en_AU_RealEstate_1591705,127,customer,channel2,49,552.32,569.84,"No, sitting in here would be fine because obviously we'll have access for a while."
+en_AU_RealEstate_1591705,128,agent,channel1,79,554.44,559.4,otherwise if you like I can send it to say a work address or to your parents house
+en_AU_RealEstate_1591705,129,agent,channel1,80,559.4,563.4,if that might be easier just if you like or which property you're going to be like edited out.
+en_AU_RealEstate_1591705,130,agent,channel1,81,568.44,574.12,Okay not a problem well I think that's everything we need from our side
+en_AU_RealEstate_1591705,131,agent,channel1,82,575.08,579.64,it's going to be a shame that you're leaving us after so long but is there any other questions
+en_AU_RealEstate_1591705,132,agent,channel1,83,579.64,581.64,that you had before we wrap up the presentation?
+en_AU_RealEstate_1591705,133,customer,channel2,50,582.96,587.36,"No, I think that's kind of coming to everything."
+en_AU_RealEstate_1591705,134,customer,channel2,51,587.36,592.24,I'll definitely make sure I get on to those companies and all that kind of stuff
+en_AU_RealEstate_1591705,135,customer,channel2,52,592.24,596.4,and organize that professional clean just to make sure it's done properly.
+en_AU_RealEstate_1591705,136,customer,channel2,53,596.4,597.76,"But yeah, that sounds great."
+en_AU_RealEstate_1591705,137,customer,channel2,54,597.76,607.84,And obviously thanks so much for helping us out across the years.
+en_AU_RealEstate_1591705,138,agent,channel1,84,599.4,603.72,Not a problem well it's been great having you as a tenant and we'll get those documents out
+en_AU_RealEstate_1591705,139,agent,channel1,85,603.72,607.56,just return them at your earliest convenience and we'll process everything from there.
+en_AU_RealEstate_1591705,140,customer,channel2,55,608.24,612.48,Wonderful.
+en_AU_RealEstate_1591705,141,agent,channel1,86,609.64,612.52,Okay thank you Collora.
+en_AU_RealEstate_1591705,142,customer,channel2,56,612.48,613.36,Thank you.

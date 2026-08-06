@@ -1,0 +1,9 @@
+# Full raw-audio analysis environment.
+-r requirements-dashboard.txt
+
+datasets==5.0.0
+faster-whisper==1.2.1
+huggingface-hub==1.21.0
+librosa==0.11.0
+torch==2.12.1
+transformers==5.12.1

@@ -1,0 +1,92 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_DeliveryService_1592212,1,agent,channel1,1,0.0,17.04,"Hello, thank you for calling the RapidExpress delivery service."
+en_CA_DeliveryService_1592212,2,customer,channel2,1,0.0,29.6,"Well, I am interested in your holiday gift express shipping."
+en_CA_DeliveryService_1592212,3,agent,channel1,2,17.04,31.04,"My name is Ben, how may I help you today?"
+en_CA_DeliveryService_1592212,4,customer,channel2,2,29.6,36.6,What does that exactly mean?
+en_CA_DeliveryService_1592212,5,agent,channel1,3,31.04,39.04,"Well, here's the thing, if you want to ship something prior to December 21st,"
+en_CA_DeliveryService_1592212,6,customer,channel2,3,36.6,54.36,"Okay, but what if it falls on a Sunday or a weekend, does that make any difference?"
+en_CA_DeliveryService_1592212,7,agent,channel1,4,39.04,55.04,we guarantee that it will get there before December 24th.
+en_CA_DeliveryService_1592212,8,customer,channel2,4,54.36,61.36,Can you still get it there?
+en_CA_DeliveryService_1592212,9,agent,channel1,5,55.04,59.04,"Yes, we're a little bit different than other delivery services."
+en_CA_DeliveryService_1592212,10,agent,channel1,6,59.04,62.04,We ship both on Saturday and Sunday as well.
+en_CA_DeliveryService_1592212,11,customer,channel2,5,61.36,90.36,"Okay, well, what if it falls on a Sunday or a weekend?"
+en_CA_DeliveryService_1592212,12,agent,channel1,7,62.04,70.04,"Similar to some of our competitors, but we offer many more other services other than just deliveries."
+en_CA_DeliveryService_1592212,13,agent,channel1,8,70.04,75.04,"We also guarantee tracking, we also guarantee text messages."
+en_CA_DeliveryService_1592212,14,agent,channel1,9,75.04,83.04,"You have every single service that could offer to be able to know where your package is, when it is,"
+en_CA_DeliveryService_1592212,15,agent,channel1,10,83.04,101.04,"and about how many more deliveries before you, it will take to get there."
+en_CA_DeliveryService_1592212,16,customer,channel2,6,90.36,97.36,"Okay, well, so we're talking about shipping something from Ottawa to Vancouver."
+en_CA_DeliveryService_1592212,17,customer,channel2,7,97.36,102.36,Is it too late? It's already December 1st.
+en_CA_DeliveryService_1592212,18,agent,channel1,11,101.04,107.04,"Oh, it's never too late, ma'am. We could have it there by the end of this week actually."
+en_CA_DeliveryService_1592212,19,agent,channel1,12,107.04,112.04,So that's only about three or four days through the cheapest route that we have.
+en_CA_DeliveryService_1592212,20,agent,channel1,13,112.04,117.04,"If you would like an express service, we could have it there in just under two days."
+en_CA_DeliveryService_1592212,21,agent,channel1,14,117.04,123.04,So it depends on which delivery option you'd like to go and how much you'd like to pay.
+en_CA_DeliveryService_1592212,22,customer,channel2,8,120.36,139.36,"I thought I was calling just express shipping. I am, I do have the option of not doing it"
+en_CA_DeliveryService_1592212,23,agent,channel1,15,123.04,141.04,We do offer very competitive rates with our competitors as well.
+en_CA_DeliveryService_1592212,24,customer,channel2,9,139.36,163.36,express shipping.
+en_CA_DeliveryService_1592212,25,agent,channel1,16,141.04,145.04,"Well, if you're looking to express it, that's the fastest option."
+en_CA_DeliveryService_1592212,26,agent,channel1,17,145.04,151.04,But we do offer other levels as well that are a little bit cheaper.
+en_CA_DeliveryService_1592212,27,agent,channel1,18,151.04,156.04,"They will take a little bit longer, but you still include the options for tracking and insurance"
+en_CA_DeliveryService_1592212,28,agent,channel1,19,156.04,183.04,to be able to make sure if anything is damaged during the shipping process.
+en_CA_DeliveryService_1592212,29,customer,channel2,10,163.36,182.36,"So we're talking about say clothing, some Christmas things, and we want to get it there. Well, like I said, it's already December 1st, so we want to get it there as soon as at this point."
+en_CA_DeliveryService_1592212,30,agent,channel1,20,183.04,189.04,"Oh, I definitely understand what you're looking for and that you want to make sure that it gets there timely."
+en_CA_DeliveryService_1592212,31,agent,channel1,21,189.04,197.04,"So I think that the express option would be the best, but it also depends on the weight and that you're looking for."
+en_CA_DeliveryService_1592212,32,customer,channel2,11,193.36,220.36,Okay.
+en_CA_DeliveryService_1592212,33,agent,channel1,22,197.04,207.04,"So if your package is under maybe 10 pounds, the express option won't get there that much faster."
+en_CA_DeliveryService_1592212,34,agent,channel1,23,207.04,233.04,"But if it's over 25 pounds, the express option will definitely give you discounts and will get it there quicker than it would be the other route."
+en_CA_DeliveryService_1592212,35,customer,channel2,12,220.36,234.36,So say the package itself is valued at $100. What would that be for shipping? How much are we talking?
+en_CA_DeliveryService_1592212,36,agent,channel1,24,233.04,260.04,"Well, the insurance means that if anything is lost or damaged, you would definitely be covered for the exact value that you paid plus a little bit of interest as well."
+en_CA_DeliveryService_1592212,37,customer,channel2,13,234.36,250.36,"Can you add that as, well, if you insure $100, does that mean that if something happens to the package, should something happen to the package, do I get my $100 back or what does that insurance mean?"
+en_CA_DeliveryService_1592212,38,agent,channel1,25,260.04,268.04,So you'd get a full refund back plus the cost of the actual valuable that was lost or damaged during the shipping process.
+en_CA_DeliveryService_1592212,39,customer,channel2,14,264.36,290.36,Okay.
+en_CA_DeliveryService_1592212,40,agent,channel1,26,268.04,274.04,So we do cover and we do want the best for our customers.
+en_CA_DeliveryService_1592212,41,agent,channel1,27,274.04,287.04,"So we do care about making sure that you have that peace of mind to be able to, when you receive or when you ship your items, you want to make sure that it gets there timely as well as intact and without any issues."
+en_CA_DeliveryService_1592212,42,agent,channel1,28,290.04,309.04,Thank you.
+en_CA_DeliveryService_1592212,43,customer,channel2,15,290.36,316.36,"Right, that's exactly my point. I want to make sure that it gets there because it's across the country and with the options of today with FaceTime and things like that, I can check and see and make sure that they receive it on the other end, but I don't want to lose it in between."
+en_CA_DeliveryService_1592212,44,customer,channel2,16,316.36,331.36,"So if you're talking about going across the country, is it in one truck? Is it have to make a connection someplace? What type of thing has to happen for that to get across the country?"
+en_CA_DeliveryService_1592212,45,agent,channel1,29,320.04,339.04,"Well, unfortunately, I can't give you the exact route because it all depends, but it does go through several sorting facilities that we have across the country."
+en_CA_DeliveryService_1592212,46,agent,channel1,30,339.04,350.04,"And if it does have to go through trucks or anything like that with the tracking number that we provide, you will be able to track it every step of the way to make sure that it's getting to the destination."
+en_CA_DeliveryService_1592212,47,customer,channel2,17,346.36,361.36,In real time? That's important to me.
+en_CA_DeliveryService_1592212,48,agent,channel1,31,350.04,363.04,"And if anything happens through that in real time, this is a feature that we have that none of our other competitors have."
+en_CA_DeliveryService_1592212,49,agent,channel1,32,363.04,373.04,There's GPS's that we put in the trucks that you can follow it exactly as it's arriving to make sure it gets to the red address.
+en_CA_DeliveryService_1592212,50,agent,channel1,33,373.04,391.04,And you will also be sent text messages and email confirmations every step of the way.
+en_CA_DeliveryService_1592212,51,customer,channel2,18,376.36,392.36,Okay.
+en_CA_DeliveryService_1592212,52,agent,channel1,34,391.04,398.04,"Since you're calling us right now, we can schedule the pickup date and time that is best for you."
+en_CA_DeliveryService_1592212,53,customer,channel2,19,392.36,416.36,"Wow, that's impressive."
+en_CA_DeliveryService_1592212,54,agent,channel1,35,398.04,402.04,Our driver goes out to your location and picks it up right from there.
+en_CA_DeliveryService_1592212,55,agent,channel1,36,402.04,406.04,You do not have to worry about bringing it to any store or anything such as that.
+en_CA_DeliveryService_1592212,56,agent,channel1,37,406.04,408.04,We'll take care of all that for you.
+en_CA_DeliveryService_1592212,57,agent,channel1,38,408.04,420.04,We're here to make your life easier.
+en_CA_DeliveryService_1592212,58,customer,channel2,20,416.36,443.36,"Oh, sorry. I have used different shippers to keeping contact with my family. And so therefore it is very concerning to me that we don't lose it or anything is damaged because that's no fun."
+en_CA_DeliveryService_1592212,59,agent,channel1,39,420.04,422.04,Thank you.
+en_CA_DeliveryService_1592212,60,customer,channel2,21,443.36,463.36,"But yes, that's important to me. So we have never used your service before. So I am interested in seeing how that might work. I do understand about tracking numbers and that to me is quite a valuable feature."
+en_CA_DeliveryService_1592212,61,agent,channel1,40,450.04,453.04,Thank you.
+en_CA_DeliveryService_1592212,62,customer,channel2,22,463.36,488.36,So I would like to give you my information now and you could come and maybe pick it up this week if your truck is available or how does this work?
+en_CA_DeliveryService_1592212,63,agent,channel1,41,480.04,488.04,"Well, basically where we're going to start is we can schedule the time for pickup and the date for pickup."
+en_CA_DeliveryService_1592212,64,agent,channel1,42,488.04,501.04,The other thing is that I can email you the instructions on what box to be able to put and the label that you need to be able to put so our delivery driver can easily just scan it and go on his way.
+en_CA_DeliveryService_1592212,65,customer,channel2,23,489.36,517.36,Okay.
+en_CA_DeliveryService_1592212,66,agent,channel1,43,501.04,504.04,So everything that we make it easier for you.
+en_CA_DeliveryService_1592212,67,agent,channel1,44,504.04,506.04,So you don't have to do a thing.
+en_CA_DeliveryService_1592212,68,agent,channel1,45,506.04,513.04,I believe you may have all the information and I will take down your information for the drop off for the or for the pickup information.
+en_CA_DeliveryService_1592212,69,agent,channel1,46,513.04,523.04,So we'll be able to help you every step of the way.
+en_CA_DeliveryService_1592212,70,customer,channel2,24,517.36,528.36,"Well, I'm game to go. So let's get started."
+en_CA_DeliveryService_1592212,71,agent,channel1,47,523.04,527.04,"Okay, so what day would be the best for you, ma'am?"
+en_CA_DeliveryService_1592212,72,customer,channel2,25,528.36,534.36,"Okay, so Thursdays are good days."
+en_CA_DeliveryService_1592212,73,customer,channel2,26,534.36,546.36,Is this Thursday available or do I have to wait another week?
+en_CA_DeliveryService_1592212,74,agent,channel1,48,537.04,540.04,"Oh, no, definitely this Thursday is available for you."
+en_CA_DeliveryService_1592212,75,agent,channel1,49,540.04,542.04,I have an opening.
+en_CA_DeliveryService_1592212,76,agent,channel1,50,542.04,545.04,How about 10 a.m. sound good to you ma'am?
+en_CA_DeliveryService_1592212,77,customer,channel2,27,546.36,557.36,"Yes, that should work for me. I would be home at that hour and up at that time. So that would be okay for me. I like that."
+en_CA_DeliveryService_1592212,78,agent,channel1,51,554.04,557.04,Perfect.
+en_CA_DeliveryService_1592212,79,agent,channel1,52,557.04,559.04,We can definitely help you with that then.
+en_CA_DeliveryService_1592212,80,agent,channel1,53,559.04,563.04,So the fact is I got you down for Thursday at 10 a.m.
+en_CA_DeliveryService_1592212,81,agent,channel1,54,563.04,570.04,I'm going to email you all the instructions on what you need to do to be able to pack the item properly and in the box.
+en_CA_DeliveryService_1592212,82,agent,channel1,55,570.04,578.04,"If anything is labeled fragile, I will also send you the tags to be able to print that out and to be able to put it on the box."
+en_CA_DeliveryService_1592212,83,customer,channel2,28,576.36,599.36,Okay.
+en_CA_DeliveryService_1592212,84,agent,channel1,56,578.04,588.04,"And also the printer, you can also send a fill out the packing label information through PDF and then print that out as well."
+en_CA_DeliveryService_1592212,85,agent,channel1,57,588.04,602.04,"If you have any questions, please feel free to give us a call back and or email our team and we will be happy to assist you."
+en_CA_DeliveryService_1592212,86,customer,channel2,29,599.36,608.36,Hmm. Sounds good to me.
+en_CA_DeliveryService_1592212,87,agent,channel1,58,602.04,606.04,Thank you very much. Is there anything else that I can help you with today?
+en_CA_DeliveryService_1592212,88,customer,channel2,30,608.36,628.36,"Nope. It seems that you already have my address and you can, are just going to go right ahead and do that. And I thank you very much for your time and your service."
+en_CA_DeliveryService_1592212,89,agent,channel1,59,621.04,626.04,"You are very welcome. It was a pleasure talking to you and have a great day, ma'am."
+en_CA_DeliveryService_1592212,90,customer,channel2,31,628.36,642.36,Thank you. Bye.
+en_CA_DeliveryService_1592212,91,agent,channel1,60,632.04,634.04,Thank you.

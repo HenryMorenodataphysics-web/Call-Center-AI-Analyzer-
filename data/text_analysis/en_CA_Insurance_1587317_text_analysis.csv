@@ -1,0 +1,105 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Insurance_1587317,1,agent,channel1,1,0.0,18.88,"Good afternoon, thank you for calling Brightsure Home Insurance, this is Melissa speaking.",positive,0.8794,False,False,False,False,False
+en_CA_Insurance_1587317,2,customer,channel2,1,0.0,29.38,"This is Robert, I got a home insurance policy with you and I recently finished some renovation",neutral,0.7998,False,False,False,False,False
+en_CA_Insurance_1587317,3,agent,channel1,2,18.88,25.88,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_CA_Insurance_1587317,4,agent,channel1,3,25.88,43.08,"Oh, that's a great idea Robert, congratulations on the renovation, it's always smart to review",positive,0.9829,False,False,False,False,False
+en_CA_Insurance_1587317,5,customer,channel2,2,29.38,53.38,on my house. I wanted to update my policy to make sure everything is properly covered.,neutral,0.6742,False,False,False,False,False
+en_CA_Insurance_1587317,6,agent,channel1,4,43.08,48.48,"your coverage after making improvements, I can help you update your policy.",neutral,0.622,False,False,False,True,False
+en_CA_Insurance_1587317,7,agent,channel1,5,48.48,55.48,Can I start by getting your policy number or the address on the policy?,neutral,0.9344,False,False,True,False,False
+en_CA_Insurance_1587317,8,customer,channel2,3,53.38,75.38,"The policy number is H-49321 and the address is 248 Pineview Avenue, Ottawa.",neutral,0.9409,False,False,False,False,False
+en_CA_Insurance_1587317,9,agent,channel1,6,55.48,71.24,"Oh, thanks, one moment while I bring up your account, okay I see your file here, so you've",neutral,0.5144,False,False,False,False,False
+en_CA_Insurance_1587317,10,agent,channel1,7,71.24,77.0,"had your policy with us since 2018, correct?",neutral,0.9474,False,False,True,False,False
+en_CA_Insurance_1587317,11,customer,channel2,4,75.38,95.38,We finished our basement and added a small home office and battery down there. We also replaced,neutral,0.7044,False,False,False,False,False
+en_CA_Insurance_1587317,12,agent,channel1,8,77.0,85.76,"Oh, wonderful, thank you for your customer loyalty, could you tell me a little more about",positive,0.9849,False,False,False,False,False
+en_CA_Insurance_1587317,13,agent,channel1,9,85.76,92.76,the renovations you've done?,neutral,0.9415,False,False,True,False,False
+en_CA_Insurance_1587317,14,agent,channel1,10,92.76,119.48,"Ah, that sounds fantastic, those are definitely updates worth notifying us about, the renovations",positive,0.9833,False,False,False,False,False
+en_CA_Insurance_1587317,15,customer,channel2,5,95.38,111.38,"the roof and upgraded the electrical wiring throughout the house. It ended up being a bit more work than planned, but it's looking great now.",positive,0.8317,False,False,False,False,False
+en_CA_Insurance_1587317,16,agent,channel1,11,119.48,124.12,can increase your home's replacement value and improve safety and that can affect your,neutral,0.6143,False,False,False,False,False
+en_CA_Insurance_1587317,17,agent,channel1,12,124.12,129.12,coverage and premiums.,neutral,0.8302,False,False,False,False,False
+en_CA_Insurance_1587317,18,customer,channel2,6,125.38,135.38,"Yeah, that's what I figured. So I just want to make sure I'm properly covered in case anything happens.",neutral,0.7818,False,False,False,False,False
+en_CA_Insurance_1587317,19,agent,channel1,13,129.12,140.8,"Yeah, absolutely, that's what we're here for, so let's go over the updates one by one so",positive,0.6255,False,False,False,False,False
+en_CA_Insurance_1587317,20,agent,channel1,14,140.8,148.72,"I can adjust your file accurately, okay, so first for the bath basement renovation,",neutral,0.6575,False,False,False,False,False
+en_CA_Insurance_1587317,21,agent,channel1,15,148.72,157.16,"you mentioned a new office and bathroom, about how much did those improvements cost roughly?",neutral,0.8962,False,False,True,False,False
+en_CA_Insurance_1587317,22,customer,channel2,7,155.38,177.38,"While the old basement project came to around $35,000, we went with architectural shingles cost about $12,000.",neutral,0.8203,False,False,False,False,False
+en_CA_Insurance_1587317,23,agent,channel1,16,157.16,174.76,"Got it, and the roof replacement, was it a complete replacement or just a partial repair?",neutral,0.8476,False,False,True,False,False
+en_CA_Insurance_1587317,24,agent,channel1,17,174.76,188.4,"Oh, sorry, excellent, those are really good quality, so for the electrical work, was it",positive,0.9435,False,False,False,False,False
+en_CA_Insurance_1587317,25,customer,channel2,8,185.38,200.38,"Full rewiring, we brought everything up to code that costs around $9,000.",neutral,0.7655,False,False,False,False,False
+en_CA_Insurance_1587317,26,agent,channel1,18,188.4,195.6,a full rewiring or upgrades to certain areas?,neutral,0.9413,False,False,True,False,False
+en_CA_Insurance_1587317,27,agent,channel1,19,195.6,208.0,"Oh, perfect, thanks Robert, so I've updated those details, based on your upgrades, your",positive,0.8988,False,False,False,False,False
+en_CA_Insurance_1587317,28,agent,channel1,20,208.0,215.72,"home replacement value will increase slightly, so I'll recalculate your coverage limit accordingly.",neutral,0.8589,False,False,False,False,False
+en_CA_Insurance_1587317,29,customer,channel2,9,215.38,239.38,"Okay, great. So everything new is now covered under my existing policy?",positive,0.7933,False,False,False,False,False
+en_CA_Insurance_1587317,30,agent,channel1,21,215.72,228.32,"Okay, so your dwelling coverage is now set at $575,000 up from your previous $510,000,",neutral,0.851,False,False,False,False,False
+en_CA_Insurance_1587317,31,agent,channel1,22,228.32,234.64,so that ensures your new improvements are fully protected.,positive,0.5289,False,False,False,False,False
+en_CA_Insurance_1587317,32,agent,channel1,23,234.64,246.64,"Yes, absolutely, so when I do this update, your coverage automatically includes all the new",positive,0.5434,False,False,False,False,False
+en_CA_Insurance_1587317,33,customer,channel2,10,245.38,257.38,"Good, good. So can you send me confirmation once that's updated?",positive,0.7673,False,False,False,False,False
+en_CA_Insurance_1587317,34,agent,channel1,24,246.64,262.28,"fixtures, wiring, and structural changes, yeah, of course, so you'll get an email confirmation,",neutral,0.8495,False,False,False,False,False
+en_CA_Insurance_1587317,35,agent,channel1,25,262.28,268.64,"an updated policy document within about 24 hours, so it'll have your new coverage amount,",neutral,0.867,False,False,False,False,False
+en_CA_Insurance_1587317,36,agent,channel1,26,268.64,275.48,"your premium adjustment, and an updated declaration page for your records.",neutral,0.8802,False,False,False,False,False
+en_CA_Insurance_1587317,37,customer,channel2,11,275.38,286.38,So I'd like to keep a copy saved on my computer.,neutral,0.7014,False,False,False,False,False
+en_CA_Insurance_1587317,38,agent,channel1,27,275.48,288.32,"Oh, that's smart, yeah, and also if you ever need a printed version, we can mail one too.",positive,0.8553,False,False,False,False,False
+en_CA_Insurance_1587317,39,customer,channel2,12,286.38,294.38,"Speaking of free moon adjustment, will these updates raise my rates by much?",neutral,0.8299,False,False,False,False,False
+en_CA_Insurance_1587317,40,agent,channel1,28,289.24,295.64,"Good question, let's take a look.",positive,0.852,False,False,False,False,False
+en_CA_Insurance_1587317,41,agent,channel1,29,295.64,304.56,"So because your renovations include a new roof and an updated wiring, both of these reduce",neutral,0.7049,False,False,False,False,False
+en_CA_Insurance_1587317,42,agent,channel1,30,304.56,311.8,"risks, so you actually qualify for a small discount, but since the overall home value",neutral,0.6374,False,False,False,False,False
+en_CA_Insurance_1587317,43,agent,channel1,31,311.8,322.36,"increased, your premium will rise slightly, so after recalculation, your monthly premium",neutral,0.7863,False,False,False,False,False
+en_CA_Insurance_1587317,44,customer,channel2,13,316.38,338.38,"Oh, that's not bad at all. I was expecting a bigger jump.",positive,0.9001,False,False,False,False,False
+en_CA_Insurance_1587317,45,agent,channel1,32,322.36,334.36,"will go from $142.50 to about $151.90, so about $9 more per month.",neutral,0.8497,False,False,False,False,False
+en_CA_Insurance_1587317,46,agent,channel1,33,335.36,343.0,"Yeah, the safety upgrades really help.",positive,0.9085,False,False,False,False,False
+en_CA_Insurance_1587317,47,agent,channel1,34,343.0,348.08,"Insurance companies, they like improvements that lower fire and water damage risks, so",positive,0.4911,False,False,False,False,False
+en_CA_Insurance_1587317,48,customer,channel2,14,347.38,361.38,"No, okay, I'll take that rate increase, actually.",neutral,0.577,False,False,False,False,False
+en_CA_Insurance_1587317,49,agent,channel1,35,348.08,352.96,it balances out nicely.,positive,0.8882,False,False,False,False,False
+en_CA_Insurance_1587317,50,agent,channel1,36,352.96,358.84,"Oh, yeah, I'm glad to hear that.",positive,0.9684,False,False,False,False,False
+en_CA_Insurance_1587317,51,agent,channel1,37,358.84,363.32,There's a small price for peace of mind and better coverage.,positive,0.5764,False,False,False,False,False
+en_CA_Insurance_1587317,52,customer,channel2,15,361.38,372.38,Indeed. So now do you need any documentation from me like a photo receipt or contractor info?,neutral,0.8816,False,False,False,False,False
+en_CA_Insurance_1587317,53,agent,channel1,38,363.32,374.52,"Yes, good question.",positive,0.8906,False,False,False,False,False
+en_CA_Insurance_1587317,54,agent,channel1,39,374.52,381.0,"So we typically ask for a few items to keep your file accurate, so receipts or invoices",neutral,0.8857,False,False,False,False,False
+en_CA_Insurance_1587317,55,agent,channel1,40,381.0,387.32,"from the contractors or the pliers from the renovation work, a few photos of the",neutral,0.9336,False,False,False,False,False
+en_CA_Insurance_1587317,56,agent,channel1,41,387.32,393.2,"renovated areas, especially the new basement and roof, and if applicable, a certificate of",neutral,0.8977,False,False,False,False,False
+en_CA_Insurance_1587317,57,customer,channel2,16,391.38,412.38,Got it. So I have all of that ready. I'll send it tonight after work.,positive,0.6442,False,False,False,False,False
+en_CA_Insurance_1587317,58,agent,channel1,42,393.2,400.08,"electrical compliance from your licensed electrician, so you can upload those through",neutral,0.8804,False,False,False,False,False
+en_CA_Insurance_1587317,59,agent,channel1,43,400.08,407.2,your Brightsure online account or email them to homeupdates at brightsure.ca.,neutral,0.9189,False,False,False,False,False
+en_CA_Insurance_1587317,60,agent,channel1,44,408.2,413.2,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_Insurance_1587317,61,agent,channel1,45,413.2,420.04,"So once we receive them, we'll mark your policy as verified, and everything will be fully",neutral,0.6942,False,False,False,False,True
+en_CA_Insurance_1587317,62,agent,channel1,46,420.04,424.04,active under your updated terms.,neutral,0.8831,False,False,False,False,False
+en_CA_Insurance_1587317,63,customer,channel2,17,422.38,435.38,"Great, excellent. So just out of curiosity, if something ever does happen, like water damage or fire, what's the clean process these days?",neutral,0.4737,False,False,False,False,False
+en_CA_Insurance_1587317,64,customer,channel2,18,435.38,439.38,I haven't had to find one in years.,neutral,0.6,False,False,False,False,False
+en_CA_Insurance_1587317,65,agent,channel1,47,437.2,445.44,"Yeah, I can walk you through it, so the process is pretty simple now.",positive,0.6039,False,False,False,False,False
+en_CA_Insurance_1587317,66,agent,channel1,48,445.44,452.36,"You can file a claim online through our phone number or through our app, and we'll assign",neutral,0.885,False,False,False,False,False
+en_CA_Insurance_1587317,67,agent,channel1,49,452.36,459.08,"a dedicated claims adjuster within 24 hours, then they'll arrange for an inspection or",neutral,0.9236,False,False,False,False,False
+en_CA_Insurance_1587317,68,customer,channel2,19,452.38,478.38,"Okay, that sounds a lot smoother than used to be.",positive,0.7047,False,False,False,False,False
+en_CA_Insurance_1587317,69,agent,channel1,50,459.08,465.48,"virtual walkthrough if needed, and once they verify the details, we process repairs",neutral,0.8717,False,False,False,False,False
+en_CA_Insurance_1587317,70,agent,channel1,51,465.48,470.84,"or reimbursements directly, usually within five to ten business days for most standard",neutral,0.8373,False,False,False,False,False
+en_CA_Insurance_1587317,71,agent,channel1,52,470.84,471.84,claims.,neutral,0.7868,False,False,False,False,False
+en_CA_Insurance_1587317,72,agent,channel1,53,471.84,478.8,You'll also get status updates by email or text at every stage.,neutral,0.8941,False,False,False,False,False
+en_CA_Insurance_1587317,73,customer,channel2,20,478.38,498.38,"Yeah, that sounds a lot smoother than used to be. I remember having to fax papers years ago.",neutral,0.5081,False,False,False,False,False
+en_CA_Insurance_1587317,74,agent,channel1,54,478.8,488.4,"Yeah, it's much easier now.",positive,0.8705,False,False,False,False,False
+en_CA_Insurance_1587317,75,agent,channel1,55,488.4,490.24,No fax machines needed.,neutral,0.7621,False,False,False,False,False
+en_CA_Insurance_1587317,76,agent,channel1,56,490.24,495.04,So most homeowners manage the entire process digitally.,neutral,0.8416,False,False,False,False,False
+en_CA_Insurance_1587317,77,agent,channel1,57,495.04,499.56,We've worked hard to make it as stress-free as possible.,positive,0.9153,False,False,False,False,False
+en_CA_Insurance_1587317,78,customer,channel2,21,498.38,506.38,"Good to hear. Hopefully I won't have to test it anytime soon, though.",positive,0.7813,False,False,False,False,False
+en_CA_Insurance_1587317,79,agent,channel1,58,499.56,507.0,"Yeah, hopefully not.",negative,0.4523,False,False,False,False,False
+en_CA_Insurance_1587317,80,agent,channel1,59,507.0,509.88,"But if you ever do, you'll be in good hands.",positive,0.9189,False,False,False,False,False
+en_CA_Insurance_1587317,81,agent,channel1,60,509.88,516.36,"Okay, Robert, so just to recap everything we've done today, so you've updated your",neutral,0.8285,False,False,False,False,False
+en_CA_Insurance_1587317,82,agent,channel1,61,516.36,521.92,"home insurance policy to include your basement renovation, roof replacement, and electrical",neutral,0.8601,False,False,False,False,False
+en_CA_Insurance_1587317,83,agent,channel1,62,521.92,522.92,upgrades.,neutral,0.7745,False,False,False,False,False
+en_CA_Insurance_1587317,84,agent,channel1,63,522.92,528.88,"So your coverage limit is now $575,000.",neutral,0.6573,False,False,False,False,False
+en_CA_Insurance_1587317,85,customer,channel2,22,528.38,557.38,"Yep, that's all correct. Thanks for summarizing it clearly.",positive,0.8146,False,False,False,False,False
+en_CA_Insurance_1587317,86,agent,channel1,64,528.88,537.32,"Your monthly premium will be $151.90, effective on your next billing cycle.",neutral,0.7653,False,False,False,False,False
+en_CA_Insurance_1587317,87,agent,channel1,65,537.32,543.24,"You'll receive your updated policy documents within 24 hours, and you'll also send your",neutral,0.8077,False,False,False,False,False
+en_CA_Insurance_1587317,88,agent,channel1,66,543.24,547.44,"receipt, photos, and compliance certificate to finalize the update.",neutral,0.914,False,False,False,False,False
+en_CA_Insurance_1587317,89,agent,channel1,67,547.44,556.76,Does all of that sound correct?,neutral,0.6561,False,False,True,False,False
+en_CA_Insurance_1587317,90,agent,channel1,68,556.76,557.76,My pleasure.,positive,0.9233,False,False,False,False,False
+en_CA_Insurance_1587317,91,agent,channel1,69,557.76,562.12,"So once we receive your documents, they'll send a confirmation email showing your new",neutral,0.8679,False,False,False,False,True
+en_CA_Insurance_1587317,92,customer,channel2,23,558.38,585.38,"Perfect. You made this whole process really easy, Melissa. I appreciate that.",positive,0.9807,False,False,False,False,False
+en_CA_Insurance_1587317,93,agent,channel1,70,562.12,568.28,policy version number as well.,neutral,0.9271,False,False,False,False,False
+en_CA_Insurance_1587317,94,agent,channel1,71,568.28,575.16,"Oh, you're very welcome, Robert.",positive,0.967,False,False,False,False,False
+en_CA_Insurance_1587317,95,agent,channel1,72,575.16,579.4,I'm glad we could take care of everything for you today.,positive,0.9434,False,False,False,False,False
+en_CA_Insurance_1587317,96,agent,channel1,73,579.4,583.56,"Before we finish, is there anything else you'd like to review, like maybe your deductible",neutral,0.8992,False,False,False,False,False
+en_CA_Insurance_1587317,97,agent,channel1,74,583.56,590.0,amount or optional water coverage?,neutral,0.9115,False,False,True,False,False
+en_CA_Insurance_1587317,98,customer,channel2,24,585.38,606.38,"Nope, I think I'm all set now, but I might call back next month about water coverage once I finish my landscaping.",neutral,0.7112,False,False,False,False,False
+en_CA_Insurance_1587317,99,agent,channel1,75,590.0,597.76,"Okay, sounds good.",positive,0.9328,False,False,False,False,False
+en_CA_Insurance_1587317,100,agent,channel1,76,597.76,601.64,So I'll put a note on your file for follow-up.,neutral,0.9072,False,False,False,False,False
+en_CA_Insurance_1587317,101,agent,channel1,77,601.64,610.64,Thanks again for choosing BrightSure and enjoy your beautifully renovated home.,positive,0.9772,False,False,False,False,False
+en_CA_Insurance_1587317,102,customer,channel2,25,606.38,627.38,"Thanks, Melissa. Have a great day. Goodbye.",positive,0.9753,False,False,False,False,False
+en_CA_Insurance_1587317,103,agent,channel1,78,610.64,611.64,"You too, Robert.",positive,0.7383,False,False,False,False,False
+en_CA_Insurance_1587317,104,agent,channel1,79,611.64,613.0,Take care and goodbye.,neutral,0.5687,False,False,False,False,False

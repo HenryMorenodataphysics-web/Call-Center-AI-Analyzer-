@@ -1,0 +1,155 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Aviation_1585418,1,agent,channel1,1,0.0,18.68,"Hey there, this is Jim from Swift Aviation.",neutral,0.7861,False,False,False,False,False
+en_AU_Aviation_1585418,2,customer,channel2,1,0.0,29.68,"Alright, thanks for doing that. Okay, a little bit complicated. I've been using Swift Aviation",neutral,0.587,False,False,False,False,False
+en_AU_Aviation_1585418,3,agent,channel1,2,18.68,20.68,I just wanted to return your call.,neutral,0.699,False,False,False,False,False
+en_AU_Aviation_1585418,4,customer,channel2,2,29.68,36.52,for a number of years. So it'll be interesting to see how this call works out. I've booked a,positive,0.7044,False,False,False,False,False
+en_AU_Aviation_1585418,5,customer,channel2,3,36.52,46.08,flat because of your fantastic business class experience that I've had before of using you,positive,0.9514,False,False,False,False,False
+en_AU_Aviation_1585418,6,customer,channel2,4,46.08,53.4,"guys and I've sent the baggage, the baggage has gone on, but now I want to add an extra bag",neutral,0.6995,False,False,False,False,False
+en_AU_Aviation_1585418,7,agent,channel1,3,48.68,78.52,"Hey there, so absolutely.",positive,0.56,False,False,False,False,False
+en_AU_Aviation_1585418,8,customer,channel2,5,53.84,59.32,"to my booked flat. So you've got the bag, I want to number things. I want to make sure the bag",neutral,0.8147,False,False,False,False,False
+en_AU_Aviation_1585418,9,customer,channel2,6,59.32,67.52,"gets with the other luggage and I also, yeah, I wondered if, first of all, there's a number of things.",neutral,0.8915,False,False,False,False,False
+en_AU_Aviation_1585418,10,customer,channel2,7,67.52,73.48,"So first of all, will the bag be able to go with the luggage that I've already booked in?",neutral,0.9295,False,False,False,False,False
+en_AU_Aviation_1585418,11,agent,channel1,4,79.08,84.36,We try our best and we have quite a good track record of having all the luggage arriving at,positive,0.8808,False,False,False,False,False
+en_AU_Aviation_1585418,12,customer,channel2,8,83.4,112.24,"Okay, so therefore, I mean, it is unusual. That's one of the reasons why I've been using you that I",neutral,0.8149,False,False,False,False,False
+en_AU_Aviation_1585418,13,agent,channel1,5,84.36,91.52,the arrival destination together with your onboard as well.,neutral,0.8909,False,False,False,False,False
+en_AU_Aviation_1585418,14,agent,channel1,6,91.52,97.76,We have less than a 1% rate of baggage not arriving at the same time or being lost.,negative,0.6371,False,False,False,False,False
+en_AU_Aviation_1585418,15,agent,channel1,7,97.76,101.32,So we do pride ourselves on that.,positive,0.6593,False,False,False,False,False
+en_AU_Aviation_1585418,16,agent,channel1,8,101.32,108.04,"But yeah, we've got quite a good track record on that.",positive,0.8924,False,False,False,False,False
+en_AU_Aviation_1585418,17,customer,channel2,9,112.24,117.96,can don't have to rub on the dough to my bag. I can just drop it off and know that it'll be looked,neutral,0.7459,False,False,False,False,False
+en_AU_Aviation_1585418,18,customer,channel2,10,117.96,126.04,after. So that's great. So the other question that I would like to know is when I wasn't able to get,positive,0.7473,False,False,False,False,False
+en_AU_Aviation_1585418,19,customer,channel2,11,126.04,138.84,"on board your plane, a flat a few weeks ago now, the people that are used, they charged me extra",negative,0.684,False,False,False,False,False
+en_AU_Aviation_1585418,20,agent,channel1,9,138.04,157.24,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1585418,21,customer,channel2,12,138.84,149.44,"fees for putting on the bag. Will it, because I'm using the bag after the fact, am I able to be my",neutral,0.8503,False,False,False,False,False
+en_AU_Aviation_1585418,22,customer,channel2,13,149.44,153.68,"Prada, the extra cost leavened?",neutral,0.9026,False,False,False,False,False
+en_AU_Aviation_1585418,23,agent,channel1,10,157.24,161.92,This is a bit of a case by case basis.,neutral,0.8846,False,False,False,False,False
+en_AU_Aviation_1585418,24,agent,channel1,11,161.92,168.84,"So generally speaking, if the bag is under the weight limit, we will usually waive the",neutral,0.8358,False,False,False,False,False
+en_AU_Aviation_1585418,25,agent,channel1,12,168.84,173.24,"fee for you, especially like you said, you've been a recurring customer.",neutral,0.6749,False,False,False,False,False
+en_AU_Aviation_1585418,26,agent,channel1,13,173.24,178.44,We would have you in the system as having accrued like a certain amount of points.,neutral,0.9018,False,False,False,False,False
+en_AU_Aviation_1585418,27,agent,channel1,14,178.44,184.68,"Generally speaking, we will be able to weave the extra baggage fee for you, however,",neutral,0.815,False,False,False,False,False
+en_AU_Aviation_1585418,28,customer,channel2,14,179.44,192.48,"Okay, so that's one of the reasons why I've been using you that I can don't have to rub on the",neutral,0.6304,False,False,False,False,False
+en_AU_Aviation_1585418,29,agent,channel1,15,184.68,193.68,"if the bag comes in over the 19 kilo weight limit, we don't really have a choice in the",neutral,0.5207,False,False,False,False,False
+en_AU_Aviation_1585418,30,customer,channel2,15,192.48,202.52,dough to my bag. So that's one of the reasons why I've been using you that I can don't have,negative,0.4938,False,False,False,False,False
+en_AU_Aviation_1585418,31,agent,channel1,16,193.68,198.56,fee just because it does increase the weight of the plane.,neutral,0.789,False,False,False,False,False
+en_AU_Aviation_1585418,32,agent,channel1,17,198.56,205.08,So we do need to counter that with the increased fuel usage and a bunch of behind the scenes,negative,0.5416,False,False,False,False,False
+en_AU_Aviation_1585418,33,customer,channel2,16,202.52,218.72,"to rub on the dough to my bag. Okay, would there be an option to reduce the fee and if there is an",neutral,0.8985,False,False,False,False,False
+en_AU_Aviation_1585418,34,agent,channel1,18,205.08,206.24,business stuff.,neutral,0.8309,False,False,False,False,False
+en_AU_Aviation_1585418,35,agent,channel1,19,206.24,208.64,But our hands are tied if it is overweight.,negative,0.6008,False,False,False,False,False
+en_AU_Aviation_1585418,36,agent,channel1,20,214.68,222.68,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_AU_Aviation_1585418,37,customer,channel2,17,218.72,220.52,"option, how does that work?",neutral,0.8515,False,False,False,False,False
+en_AU_Aviation_1585418,38,agent,channel1,21,222.68,229.4,"So it's not an option that you can sign up kind of opt into or purchase at all, just because",neutral,0.5197,False,False,False,False,False
+en_AU_Aviation_1585418,39,agent,channel1,22,229.4,234.24,you have been such a loyal customer and I've got your profile up here with your booking.,positive,0.9428,False,False,False,False,False
+en_AU_Aviation_1585418,40,customer,channel2,18,232.52,261.52,"Okay, at least you're coming to the point.",neutral,0.6362,False,False,False,False,False
+en_AU_Aviation_1585418,41,agent,channel1,23,234.24,238.56,I can see that you have flown with us for quite a time now.,neutral,0.5539,False,False,False,False,False
+en_AU_Aviation_1585418,42,agent,channel1,24,238.56,242.16,We absolutely would give you a reduced rate for that.,neutral,0.5958,False,False,False,False,False
+en_AU_Aviation_1585418,43,agent,channel1,25,242.16,244.6,We would just go at cost basically.,neutral,0.5196,False,False,False,False,False
+en_AU_Aviation_1585418,44,agent,channel1,26,244.6,247.36,So no additional profit on top.,neutral,0.7347,False,False,False,False,False
+en_AU_Aviation_1585418,45,agent,channel1,27,247.36,248.92,"That's only for you, sir.",neutral,0.6685,False,False,False,False,False
+en_AU_Aviation_1585418,46,agent,channel1,28,248.92,253.72,We take care of you as you've been a loyal customer.,positive,0.8005,False,False,False,False,False
+en_AU_Aviation_1585418,47,agent,channel1,29,253.72,256.88,But that is basically the best we can do for overweight baggage.,negative,0.4776,False,False,False,False,False
+en_AU_Aviation_1585418,48,customer,channel2,19,262.52,270.52,"So that doesn't sound too bad. Now, what about upgrading my seat? I also heard of recently, and I",neutral,0.6271,False,False,False,False,False
+en_AU_Aviation_1585418,49,customer,channel2,20,270.52,279.72,"haven't checked it with your Swift airline, but the Arctic Bay aviation is now letting cats and",neutral,0.8883,False,False,False,False,False
+en_AU_Aviation_1585418,50,agent,channel1,30,272.16,287.92,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_AU_Aviation_1585418,51,customer,channel2,21,279.72,285.12,dogs and people take animals on board. Is that the case for you guys as well?,neutral,0.8731,False,False,False,False,False
+en_AU_Aviation_1585418,52,agent,channel1,31,287.92,295.92,So there was recently legislation that was passed that prohibits airlines from discriminating,neutral,0.8332,False,False,False,False,False
+en_AU_Aviation_1585418,53,customer,channel2,22,292.52,299.52,"Okay, so that's one of the reasons why I've been using you that I can don't have to rub on the",neutral,0.6304,False,False,False,False,False
+en_AU_Aviation_1585418,54,agent,channel1,32,295.92,301.24,"against pet owners, bringing their pet along with them.",neutral,0.561,False,False,False,False,False
+en_AU_Aviation_1585418,55,customer,channel2,23,299.52,301.52,dough to my bag.,neutral,0.7414,False,False,False,False,False
+en_AU_Aviation_1585418,56,agent,channel1,33,301.24,305.16,We do require certain caging requirements.,neutral,0.8563,False,False,False,False,False
+en_AU_Aviation_1585418,57,agent,channel1,34,305.16,312.88,So they do have to be muzzled if they're a dog or on a leash at least and also restrained,neutral,0.7867,False,False,False,False,False
+en_AU_Aviation_1585418,58,agent,channel1,35,312.88,315.16,for takeoff and landing.,neutral,0.886,False,False,False,False,False
+en_AU_Aviation_1585418,59,agent,channel1,36,315.16,320.92,But we do definitely cater to pet owners for our flights.,positive,0.5225,False,False,False,False,False
+en_AU_Aviation_1585418,60,customer,channel2,24,322.52,330.52,"Okay, now, if I would like to book, I don't really, I don't think against animals, but I don't really",neutral,0.5413,False,False,False,False,False
+en_AU_Aviation_1585418,61,customer,channel2,25,330.52,337.52,want to be flying for four hours with that situation. Is it possible that I could know in,neutral,0.5009,False,False,False,False,False
+en_AU_Aviation_1585418,62,agent,channel1,37,331.24,355.76,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_AU_Aviation_1585418,63,customer,channel2,26,337.52,347.12,"advance if my seat is going to be near an animal? And is it possible, therefore, to be able to",neutral,0.8946,False,False,False,False,False
+en_AU_Aviation_1585418,64,customer,channel2,27,347.12,354.12,upgrade to somewhere where there won't be animals? Do you provide that service?,neutral,0.5746,False,False,False,False,False
+en_AU_Aviation_1585418,65,agent,channel1,38,355.76,356.96,And a really good question there.,positive,0.9479,False,False,False,False,False
+en_AU_Aviation_1585418,66,agent,channel1,39,356.96,361.16,No one wants to be stuck on a flight with an animal that's upset.,negative,0.8517,False,False,False,False,False
+en_AU_Aviation_1585418,67,agent,channel1,40,361.28,364.32,So I totally understand your concern there.,neutral,0.6069,False,False,False,False,False
+en_AU_Aviation_1585418,68,agent,channel1,41,364.52,370.52,In I've got it here that you've logged your booking for business class and business,neutral,0.8796,False,False,False,False,False
+en_AU_Aviation_1585418,69,agent,channel1,42,370.72,375.12,class definitely offers you more options in terms of food and drink and space.,positive,0.8328,False,False,False,False,False
+en_AU_Aviation_1585418,70,agent,channel1,43,375.32,380.24,"However, just for you, because you've been with us for so long,",positive,0.8075,False,False,True,False,False
+en_AU_Aviation_1585418,71,customer,channel2,28,377.12,379.12,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Aviation_1585418,72,agent,channel1,44,380.44,384.76,"if you ask for an upgraded seat when you actually shop to the terminal,",neutral,0.7445,False,False,False,False,False
+en_AU_Aviation_1585418,73,agent,channel1,45,384.96,388.32,I will put your name aside for a free upgrade.,neutral,0.6516,False,False,False,False,False
+en_AU_Aviation_1585418,74,agent,channel1,46,388.48,393.36,And what this means is you can,positive,0.5557,False,False,False,False,False
+en_AU_Aviation_1585418,75,agent,channel1,47,394.32,400.08,say on your booking on your ticket that you would prefer to not be sat next to or,neutral,0.7547,False,False,False,False,False
+en_AU_Aviation_1585418,76,agent,channel1,48,400.28,409.72,"around pets and in our first class lounge in the seats, they are quite isolated.",neutral,0.8455,False,False,False,False,False
+en_AU_Aviation_1585418,77,customer,channel2,29,407.12,435.12,"That sounds fantastic. Now, the other question that I have is at the moment, and it might not be the",positive,0.6425,False,False,False,False,False
+en_AU_Aviation_1585418,78,agent,channel1,49,409.72,414.92,They are quite individual and you can sort of lock it off from the rest of the plane.,neutral,0.8879,False,False,False,False,False
+en_AU_Aviation_1585418,79,agent,channel1,50,415.08,419.52,If that's something that you would look look forward to.,positive,0.8663,False,False,False,False,False
+en_AU_Aviation_1585418,80,agent,channel1,51,419.72,421.36,"So I can absolutely do that for you, sir.",positive,0.8923,False,False,False,False,False
+en_AU_Aviation_1585418,81,customer,channel2,30,435.12,445.12,"best when I have to fly, but I've twisted my knee and I might or might not be in a wheelchair",negative,0.6364,False,False,False,False,False
+en_AU_Aviation_1585418,82,agent,channel1,52,444.92,461.32,I'm glad you asked.,positive,0.964,False,False,False,False,False
+en_AU_Aviation_1585418,83,customer,channel2,31,445.12,455.12,"or a walker, or basically I might need some special assistance. What special options do",neutral,0.891,False,False,False,False,False
+en_AU_Aviation_1585418,84,customer,channel2,32,455.12,459.12,you have for assisting passengers onto your planes?,neutral,0.8745,False,False,False,False,False
+en_AU_Aviation_1585418,85,agent,channel1,53,461.52,467.28,So our flight attendants and all of all of the flight crew are,neutral,0.83,False,False,False,False,False
+en_AU_Aviation_1585418,86,customer,channel2,33,465.12,467.12,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Aviation_1585418,87,agent,channel1,54,467.48,473.0,specialized in training for assisting people that aren't fully able.,neutral,0.5938,False,False,False,False,False
+en_AU_Aviation_1585418,88,agent,channel1,55,473.0,480.16,So we have specialization in mental disability as well as physical disability.,neutral,0.7731,False,False,False,False,False
+en_AU_Aviation_1585418,89,agent,channel1,56,480.36,486.92,"So wheelchairs, walkers, the elderly, even those that face weight problems.",neutral,0.7538,False,False,False,False,False
+en_AU_Aviation_1585418,90,agent,channel1,57,487.12,491.28,So we absolutely have accessible options.,positive,0.8618,False,False,False,False,False
+en_AU_Aviation_1585418,91,agent,channel1,58,491.48,495.36,We have wheelchair access to all of the lounges.,neutral,0.5833,False,False,False,False,False
+en_AU_Aviation_1585418,92,customer,channel2,34,495.12,523.12,"Okay. Now, let's send a bit of time. And can you give me a bit of a list of the alcohol that you have",neutral,0.88,False,False,False,False,False
+en_AU_Aviation_1585418,93,agent,channel1,59,495.56,501.8,"But in particular, I would definitely recommend asking for the first class upgrade",positive,0.6702,False,False,False,False,False
+en_AU_Aviation_1585418,94,agent,channel1,60,501.8,506.4,just for the extra space and comfort if you're traveling with with a previous injury.,neutral,0.8117,False,False,False,False,False
+en_AU_Aviation_1585418,95,agent,channel1,61,506.6,510.96,So I'll arrange that for you after this call.,neutral,0.8053,False,False,False,False,True
+en_AU_Aviation_1585418,96,customer,channel2,35,523.12,525.12,for this flat?,neutral,0.8842,False,False,False,False,False
+en_AU_Aviation_1585418,97,agent,channel1,62,525.64,526.64,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_AU_Aviation_1585418,98,agent,channel1,63,526.68,533.84,So one of the other benefits of flying in our first class lounge is access to premium liquor.,positive,0.8887,False,False,False,False,False
+en_AU_Aviation_1585418,99,agent,channel1,64,534.04,541.96,"So we do have some specialized whiskey and scotch options, as well as some vintage",neutral,0.7476,False,False,False,False,False
+en_AU_Aviation_1585418,100,agent,channel1,65,542.16,544.6,red wines available for purchase.,neutral,0.7989,False,False,False,False,False
+en_AU_Aviation_1585418,101,agent,channel1,66,544.8,550.04,"Now, one amazing benefit is that you do get two drinks included for free",positive,0.9218,False,False,False,False,False
+en_AU_Aviation_1585418,102,agent,channel1,67,550.24,553.08,with your first class booking.,neutral,0.8609,False,False,False,False,False
+en_AU_Aviation_1585418,103,customer,channel2,36,553.12,581.12,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Aviation_1585418,104,agent,channel1,68,553.24,559.12,"So, for example, we do have some Johnny Walker white label.",neutral,0.8816,False,False,False,False,False
+en_AU_Aviation_1585418,105,agent,channel1,69,559.32,564.56,We do have some Glen Fittich 20 year aged as well.,neutral,0.8745,False,False,False,False,False
+en_AU_Aviation_1585418,106,agent,channel1,70,564.76,574.84,"And we do have a Somalia's favorite red wine from Naples, I believe, the vintage.",positive,0.8804,False,False,False,False,False
+en_AU_Aviation_1585418,107,agent,channel1,71,575.04,582.44,So we have some amazing options available for drink options in first class.,positive,0.9832,False,False,False,False,False
+en_AU_Aviation_1585418,108,customer,channel2,37,581.12,591.12,"That's fantastic. Now, what I'd also like to know is if I get, if I have my knee and I am needing",positive,0.842,False,False,False,False,False
+en_AU_Aviation_1585418,109,agent,channel1,72,583.08,584.04,So.,neutral,0.6491,False,False,False,False,False
+en_AU_Aviation_1585418,110,customer,channel2,38,591.12,599.12,"assistance, obviously I will go on first, but what about if I get a priority to board first",neutral,0.8998,False,False,False,False,False
+en_AU_Aviation_1585418,111,customer,channel2,39,599.12,625.12,because I'm a flying business class or I just like everybody else?,neutral,0.7857,False,False,False,False,False
+en_AU_Aviation_1585418,112,agent,channel1,73,605.6,606.6,"No, absolutely.",neutral,0.6168,False,False,False,False,False
+en_AU_Aviation_1585418,113,agent,channel1,74,606.8,612.08,"So, especially if you are in crutches or in a walk or in a wheelchair,",neutral,0.8375,False,False,False,False,False
+en_AU_Aviation_1585418,114,agent,channel1,75,612.08,620.24,All of the all the people that have accessibility accessibility needs will be boarded first just for,neutral,0.5694,False,False,False,False,False
+en_AU_Aviation_1585418,115,agent,channel1,76,620.76,625.16,just for their comfort and then once they are boarded,neutral,0.7784,False,False,False,False,False
+en_AU_Aviation_1585418,116,customer,channel2,40,625.12,645.12,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Aviation_1585418,117,agent,channel1,77,625.84,631.04,then we load the plane from first class first then business and then,neutral,0.898,False,False,False,False,False
+en_AU_Aviation_1585418,118,agent,channel1,78,631.64,633.64,just our regular,neutral,0.7602,False,False,False,False,False
+en_AU_Aviation_1585418,119,agent,channel1,79,633.72,638.84,"bookings as well. So regardless of your booking, especially if you have",neutral,0.897,False,False,False,False,False
+en_AU_Aviation_1585418,120,agent,channel1,80,639.6,641.6,additional accessibility needs,neutral,0.8317,False,False,False,False,False
+en_AU_Aviation_1585418,121,agent,channel1,81,641.68,643.68,you'll be boarded first.,neutral,0.5193,False,False,False,False,False
+en_AU_Aviation_1585418,122,customer,channel2,41,645.12,651.12,"That's great. Thanks for that. What else I need to know is it's a reasonably long,",positive,0.8958,False,False,False,False,False
+en_AU_Aviation_1585418,123,customer,channel2,42,651.12,667.12,"flat, do you have beds or what's your sleeping arrangements in the business class?",neutral,0.9313,False,False,False,False,False
+en_AU_Aviation_1585418,124,agent,channel1,82,659.04,661.28,So I get really excited about this,positive,0.9808,False,False,False,False,False
+en_AU_Aviation_1585418,125,agent,channel1,83,662.72,668.4,with your booking we have as I was speaking about before with the pets,neutral,0.9166,False,False,False,False,False
+en_AU_Aviation_1585418,126,customer,channel2,43,667.12,695.12,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Aviation_1585418,127,agent,channel1,84,668.6,671.52,it's kind of like your own individual pod,neutral,0.8111,False,False,False,False,False
+en_AU_Aviation_1585418,128,agent,channel1,85,671.88,677.52,so you can you can lay the seat back and extend it and it sort of like sinks into,neutral,0.8902,False,False,False,False,False
+en_AU_Aviation_1585418,129,agent,channel1,86,678.36,680.8,the pod itself and then,neutral,0.9143,False,False,False,False,False
+en_AU_Aviation_1585418,130,agent,channel1,87,681.6,683.36,it has,neutral,0.6022,False,False,False,False,False
+en_AU_Aviation_1585418,131,agent,channel1,88,683.36,685.36,the cushioning itself is,neutral,0.7865,False,False,False,False,False
+en_AU_Aviation_1585418,132,agent,channel1,89,686.36,688.36,mattress quality so,neutral,0.7943,False,False,False,False,False
+en_AU_Aviation_1585418,133,agent,channel1,90,689.32,697.04,it's got memory foam padding and springs at individual placements to help support you as you rest and,neutral,0.6821,False,False,False,False,False
+en_AU_Aviation_1585418,134,customer,channel2,44,695.12,715.12,Okay. That's great. Thank you.,positive,0.9774,False,False,False,False,False
+en_AU_Aviation_1585418,135,agent,channel1,91,697.12,704.76,we can also make special arrangements if you would prefer to have your knee elevated or any ice packs or heat packs or anything like that,neutral,0.8939,False,False,False,False,False
+en_AU_Aviation_1585418,136,agent,channel1,92,704.96,708.04,to make it easier for you to fall asleep and,neutral,0.8074,False,False,False,False,False
+en_AU_Aviation_1585418,137,agent,channel1,93,708.4,712.32,over-the-counter medication can be provided as well if necessary.,neutral,0.8211,False,False,False,False,False
+en_AU_Aviation_1585418,138,customer,channel2,45,715.12,729.12,"Thank you. Now, what about the food? Do I need to order my food prior to departure or is it okay to do it",neutral,0.7925,False,False,False,False,False
+en_AU_Aviation_1585418,139,agent,channel1,94,727.04,729.04,So,neutral,0.5003,False,False,False,False,False
+en_AU_Aviation_1585418,140,customer,channel2,46,729.12,745.12,while we are flying and what are the different types of menus that you have available?,neutral,0.9409,False,False,False,False,False
+en_AU_Aviation_1585418,141,agent,channel1,95,737.2,739.2,with your booking,neutral,0.8465,False,False,False,False,False
+en_AU_Aviation_1585418,142,agent,channel1,96,739.64,745.16,we have a couple of different food options. You can prepay for your food,neutral,0.7299,False,False,False,False,False
+en_AU_Aviation_1585418,143,customer,channel2,47,745.12,773.12,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Aviation_1585418,144,agent,channel1,97,745.44,747.44,if you'd prefer not to pay on the flight,neutral,0.6166,False,False,False,False,False
+en_AU_Aviation_1585418,145,agent,channel1,98,747.92,752.84,otherwise you will have to purchase at the time of request on the actual flight itself,neutral,0.8984,False,False,False,False,False
+en_AU_Aviation_1585418,146,agent,channel1,99,753.4,756.0,but we do have a couple of different options. We have,neutral,0.7393,False,False,False,False,False
+en_AU_Aviation_1585418,147,agent,channel1,100,757.08,759.88,for your flight in particular we have a filet mignon,neutral,0.8469,False,False,False,False,False
+en_AU_Aviation_1585418,148,agent,channel1,101,760.76,762.76,a chicken filet mignon sorry,neutral,0.5848,False,False,False,False,False
+en_AU_Aviation_1585418,149,agent,channel1,102,763.64,770.2,we have just a regular rib eye steak and for a vegetarian option we have a lovely pad thai.,positive,0.8916,False,False,False,False,False
+en_AU_Aviation_1585418,150,customer,channel2,48,773.12,781.12,"Now, thank you very much for that information that I've got today. It's the reason why I fly with you.",positive,0.9582,False,False,False,False,False
+en_AU_Aviation_1585418,151,customer,channel2,49,781.12,793.12,I hope you have a great day and I look forward to my flight.,positive,0.9861,False,False,False,False,False
+en_AU_Aviation_1585418,152,agent,channel1,103,787.6,792.64,Absolutely glad I could help you sir and enjoy your flight. See you later.,positive,0.986,False,False,False,False,False
+en_AU_Aviation_1585418,153,customer,channel2,50,793.12,795.12,Thank you. Bye.,positive,0.5915,False,False,False,False,False
+en_AU_Aviation_1585418,154,agent,channel1,104,807.24,809.24,We did it there.,neutral,0.8226,False,False,False,False,False

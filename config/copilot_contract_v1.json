@@ -1,0 +1,38 @@
+{
+  "contract_version": "1.0.0",
+  "purpose": "Grounded local Customer Service copilot for the AI Analyzer portfolio demo.",
+  "required_agent_context": true,
+  "supported_shift_views": ["start", "live", "end"],
+  "providers": ["deterministic", "llama_cpp_server"],
+  "controlled_tools": [
+    "kpi_lookup",
+    "daily_recap",
+    "call_evidence",
+    "coaching_context",
+    "policy_search",
+    "survey_representativeness",
+    "agent_memory"
+  ],
+  "response_fields": [
+    "answer",
+    "agent_id",
+    "stage_id",
+    "provider",
+    "tool_calls",
+    "citations",
+    "warnings",
+    "grounded",
+    "fallback_reason"
+  ],
+  "guardrails": [
+    "Never invent or calculate an official KPI outside controlled tool output.",
+    "Always label synthetic CSAT, QA, NPS, and Five Stars values as demo fixtures.",
+    "Always label estimated AHT and conversation risk as proxies.",
+    "Never treat coaching flags as disciplinary findings or official QA failures.",
+    "Cite the selected call or dashboard evidence for performance claims.",
+    "Fall back to deterministic wording if the model introduces unsupported numbers.",
+    "Treat local playbooks as portfolio examples, not employer policy.",
+    "Treat Agent Memory as descriptive accumulated evidence with explicit sample and history limitations.",
+    "Never present dataset source domains as approved business call types."
+  ]
+}

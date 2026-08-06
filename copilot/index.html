@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Analyzer — Local Customer Service Copilot</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --ink: #172033;
+      --muted: #667085;
+      --line: #dfe4ec;
+      --blue: #2667d8;
+      --blue-soft: #edf4ff;
+      --amber: #9a6700;
+      --amber-soft: #fff7df;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; background: var(--bg); color: var(--ink); font: 14px/1.45 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .shell { max-width: 1500px; margin: 0 auto; padding: 18px; }
+    .copilot { display: grid; grid-template-columns: minmax(260px, 340px) 1fr; gap: 16px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 8px 30px rgba(28, 39, 60, .08); }
+    .identity h1 { margin: 0 0 6px; font-size: 22px; letter-spacing: -.02em; }
+    .identity p { margin: 0; color: var(--muted); }
+    .status { display: inline-flex; align-items: center; gap: 7px; margin-top: 12px; padding: 5px 9px; border-radius: 999px; background: var(--blue-soft); color: #184eaa; font-size: 12px; font-weight: 650; }
+    .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); }
+    .controls { display: grid; grid-template-columns: minmax(180px, .8fr) minmax(160px, .65fr) 2fr auto; gap: 10px; align-items: end; }
+    label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; font-weight: 650; }
+    select, input, button { min-height: 40px; border-radius: 10px; border: 1px solid var(--line); font: inherit; }
+    select, input { width: 100%; padding: 8px 10px; background: #fff; color: var(--ink); }
+    input:focus, select:focus { outline: 3px solid rgba(38, 103, 216, .14); border-color: var(--blue); }
+    button { padding: 8px 15px; cursor: pointer; border-color: var(--blue); background: var(--blue); color: #fff; font-weight: 700; }
+    button:disabled { opacity: .55; cursor: wait; }
+    .quick { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+    .quick button { min-height: 32px; padding: 5px 10px; border-color: var(--line); background: #fff; color: var(--ink); font-size: 12px; font-weight: 600; }
+    .answer { grid-column: 1 / -1; display: none; margin-top: 2px; padding: 14px; border: 1px solid #cbd8ee; border-radius: 12px; background: #f8fbff; white-space: pre-wrap; max-height: 310px; overflow: auto; }
+    .answer.visible { display: block; }
+    .meta { margin-top: 8px; color: var(--muted); font-size: 12px; }
+    .warning { margin: 14px 0 0; padding: 10px 12px; border: 1px solid #f0d58b; border-radius: 10px; background: var(--amber-soft); color: var(--amber); font-size: 12px; }
+    .dashboard { width: 100%; min-height: 850px; margin-top: 16px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+    @media (max-width: 900px) {
+      .copilot { grid-template-columns: 1fr; }
+      .controls { grid-template-columns: 1fr 1fr; }
+      .question { grid-column: 1 / -1; }
+      .controls > button { grid-column: 1 / -1; }
+    }
+    @media (max-width: 560px) {
+      .shell { padding: 10px; }
+      .copilot { padding: 14px; }
+      .controls { grid-template-columns: 1fr; }
+      .question, .controls > button { grid-column: auto; }
+      .dashboard { min-height: 720px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="copilot" aria-labelledby="copilot-title">
+      <div class="identity">
+        <h1 id="copilot-title">Customer Service Copilot</h1>
+        <p>Grounded coaching from your analyzed calls, KPI snapshot, and portfolio playbooks.</p>
+        <span class="status" id="provider-status">Safe local fallback</span>
+      </div>
+      <form class="controls" id="chat-form">
+        <label>Agent<select id="agent" name="agent" required></select></label>
+        <label>Shift view<select id="stage" name="stage">
+          <option value="start">Start view</option>
+          <option value="live" selected>Live view</option>
+          <option value="end">End view</option>
+        </select></label>
+        <label class="question">Ask for a recap, KPI, evidence, or advice<input id="question" name="question" value="Give me my daily recap" required></label>
+        <button id="ask" type="submit">Ask copilot</button>
+        <div class="quick" aria-label="Quick questions">
+          <button type="button" data-question="Give me my daily recap">Daily recap</button>
+          <button type="button" data-question="What should I focus on next?">Today's Focus</button>
+          <button type="button" data-question="Show my best and most coachable calls">Call evidence</button>
+          <button type="button" data-question="How can I improve AHT safely?">Safe AHT advice</button>
+        </div>
+      </form>
+      <div class="answer" id="answer" role="status" aria-live="polite"></div>
+      <div class="warning">Portfolio boundary: synthetic business KPIs and analytical proxies remain labeled. The copilot cannot invent official outcomes or replace employer policy.</div>
+    </section>
+    <iframe class="dashboard" id="dashboard-frame" src="/dashboard" title="Agent KPI Performance Tracker"></iframe>
+  </main>
+  <script>
+    const form = document.querySelector('#chat-form');
+    const agent = document.querySelector('#agent');
+    const stage = document.querySelector('#stage');
+    const question = document.querySelector('#question');
+    const answer = document.querySelector('#answer');
+    const ask = document.querySelector('#ask');
+    const providerStatus = document.querySelector('#provider-status');
+    const dashboardFrame = document.querySelector('#dashboard-frame');
+    const wait = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
+
+    async function syncFilter(label, desiredValue) {
+      const doc = dashboardFrame.contentDocument;
+      if (!doc) return false;
+      const button = [...doc.querySelectorAll('.filter-menu-button')].find(candidate =>
+        candidate.querySelector('.filter-menu-label')?.textContent.trim() === label
+      );
+      if (!button) return false;
+      const current = button.querySelector('.filter-menu-value')?.textContent.trim();
+      if (current === desiredValue) return true;
+      button.click();
+      await wait(60);
+      const option = [...doc.querySelectorAll('[role="menuitemradio"]')].find(candidate =>
+        candidate.textContent.trim() === desiredValue
+      );
+      if (!option) return false;
+      option.click();
+      await wait(60);
+      return true;
+    }
+
+    async function syncDashboardFilters() {
+      const desiredAgent = agent.options[agent.selectedIndex]?.textContent.replace(' — ', ' - ');
+      const desiredStage = {
+        start: 'Start view - 3-call baseline',
+        live: 'Live view - 7 of 10 calls',
+        end: 'End view - all 10 calls'
+      }[stage.value];
+      if (!desiredAgent || !desiredStage) return;
+      for (let attempt = 0; attempt < 10; attempt += 1) {
+        const agentReady = await syncFilter('Agent', desiredAgent);
+        const stageReady = await syncFilter('Shift view', desiredStage);
+        if (agentReady && stageReady) return;
+        await wait(100);
+      }
+    }
+
+    async function loadAgents() {
+      const response = await fetch('/api/agents');
+      const payload = await response.json();
+      agent.innerHTML = payload.agents.map(item =>
+        `<option value="${item.agent_id}">${item.agent_name} — ${item.agent_id}</option>`
+      ).join('');
+      providerStatus.textContent = payload.provider === 'llama_cpp_server' ? 'Local GGUF model' : 'Safe local fallback';
+      await syncDashboardFilters();
+    }
+
+    document.querySelectorAll('[data-question]').forEach(button => {
+      button.addEventListener('click', () => {
+        question.value = button.dataset.question;
+        question.focus();
+      });
+    });
+
+    agent.addEventListener('change', syncDashboardFilters);
+    stage.addEventListener('change', syncDashboardFilters);
+    dashboardFrame.addEventListener('load', syncDashboardFilters);
+
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      ask.disabled = true;
+      ask.textContent = 'Thinking…';
+      answer.classList.add('visible');
+      answer.textContent = 'Reading the selected KPI and call evidence…';
+      try {
+        await syncDashboardFilters();
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({agent: agent.value, stage: stage.value, question: question.value})
+        });
+        const payload = await response.json();
+        if (!response.ok) throw new Error(payload.error || 'Copilot request failed');
+        answer.textContent = payload.answer + `\n\nProvider: ${payload.provider} · Tools: ${payload.tool_calls.join(', ')}`;
+      } catch (error) {
+        answer.textContent = `Unable to answer: ${error.message}`;
+      } finally {
+        ask.disabled = false;
+        ask.textContent = 'Ask copilot';
+      }
+    });
+
+    loadAgents().catch(error => {
+      answer.classList.add('visible');
+      answer.textContent = `Unable to load agents: ${error.message}`;
+    });
+  </script>
+</body>
+</html>

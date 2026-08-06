@@ -1,0 +1,253 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Food_1592674,1,agent,channel1,1,0.0,16.48,"Good afternoon, thanks for calling Tucker's Catering Melbourne.",positive,0.9576,False,False,False,False,False
+en_AU_Food_1592674,2,customer,channel2,1,0.0,25.48,"Hi Danielle, my name is Maria and I'm calling about your catering services.",neutral,0.8552,False,False,False,False,False
+en_AU_Food_1592674,3,agent,channel1,2,16.48,17.76,This is Danielle speaking.,neutral,0.9029,False,False,False,False,False
+en_AU_Food_1592674,4,agent,channel1,3,17.76,29.76,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_AU_Food_1592674,5,customer,channel2,2,25.52,28.64,I'm organising a birthday party and I'm hoping you can help.,positive,0.7711,False,False,False,False,False
+en_AU_Food_1592674,6,agent,channel1,4,29.76,32.76,"Yes, so I'd love to be able to help you with that.",positive,0.9704,False,False,False,False,False
+en_AU_Food_1592674,7,agent,channel1,5,32.76,34.76,Birthday parties are always fun to cater for.,positive,0.9832,False,False,False,False,False
+en_AU_Food_1592674,8,agent,channel1,6,34.76,44.76,Can you tell me a little bit more about what you're planning right now?,neutral,0.9198,False,False,True,False,False
+en_AU_Food_1592674,9,customer,channel2,3,38.0,40.6,"Yeah, so it's actually my mum's 60th.",neutral,0.6208,False,False,False,False,False
+en_AU_Food_1592674,10,customer,channel2,4,40.6,43.24,We're having it at our place in Bronzewick.,neutral,0.8997,False,False,False,False,False
+en_AU_Food_1592674,11,customer,channel2,5,44.32,50.2,"I'm expecting about, say, 30, maybe 30 guests, give or take a few.",neutral,0.848,False,False,False,False,False
+en_AU_Food_1592674,12,agent,channel1,7,44.76,64.76,"Yeah, I can completely understand what a lovely milestone to be celebrating to.",positive,0.9754,False,False,False,False,False
+en_AU_Food_1592674,13,customer,channel2,6,51.32,54.68,I've been running around like a headless truck trying to organise everything.,negative,0.6117,False,False,False,False,False
+en_AU_Food_1592674,14,customer,channel2,7,54.68,58.68,"And I thought, you know what, I'm not cooking for 30 people.",negative,0.6009,False,False,False,False,False
+en_AU_Food_1592674,15,agent,channel1,8,64.76,82.76,30 gusts is a great size for a party. Have you got a date locked in yet at all?,positive,0.8744,False,False,True,False,False
+en_AU_Food_1592674,16,customer,channel2,8,70.64,75.64,"Yeah, it's the 14th of March, which is a Saturday.",neutral,0.8643,False,False,False,False,False
+en_AU_Food_1592674,17,customer,channel2,9,77.04,79.96,"Just hoping the weather holds up, you know what I mean?",positive,0.7755,False,False,False,False,False
+en_AU_Food_1592674,18,customer,channel2,10,79.96,82.32,So we can use the backyard if possible.,neutral,0.705,False,False,False,False,False
+en_AU_Food_1592674,19,agent,channel1,9,82.76,85.76,"Yeah, look absolutely much is one of those hit or miss months, isn't it?",negative,0.6808,False,False,True,False,False
+en_AU_Food_1592674,20,customer,channel2,11,84.68,112.64,"I'm kind of thinking or I'm leaning to kind of more casual, I think that would work better.",neutral,0.5815,False,False,False,False,False
+en_AU_Food_1592674,21,agent,channel1,10,85.76,87.76,Particularly in Melbourne.,neutral,0.7246,False,False,False,False,False
+en_AU_Food_1592674,22,agent,channel1,11,87.76,91.76,Fingers crossed you can get one of those lovely late summer days.,positive,0.95,False,False,False,False,False
+en_AU_Food_1592674,23,agent,channel1,12,91.76,95.76,Now let me tell you about our catering packages.,neutral,0.8404,False,False,False,False,False
+en_AU_Food_1592674,24,agent,channel1,13,95.76,99.76,We've got a few different options depending on the vibe you are going for.,neutral,0.66,False,False,False,False,False
+en_AU_Food_1592674,25,agent,channel1,14,99.76,106.76,So are you thinking more of a sit down lunch situation or something a bit more casual like finger food and grazing?,neutral,0.9215,False,False,True,False,False
+en_AU_Food_1592674,26,customer,channel2,12,113.36,116.68,"You know, people can mingle, help themselves, that kind of thing.",neutral,0.6624,False,False,False,False,False
+en_AU_Food_1592674,27,customer,channel2,13,116.68,117.96,That's what I had in mind.,neutral,0.7792,False,False,False,False,False
+en_AU_Food_1592674,28,customer,channel2,14,118.64,123.64,"What kind of, what do you, what sort of things do you have for that kind of thing?",neutral,0.7086,False,False,False,False,False
+en_AU_Food_1592674,29,agent,channel1,15,122.76,127.76,"Yeah, perfect. So look for that style, we've got three main packages.",positive,0.9472,False,False,False,False,False
+en_AU_Food_1592674,30,agent,channel1,16,127.76,132.76,"We have our Aussie Arvo package, which is really popular for backyard parties.",positive,0.9362,False,False,False,False,False
+en_AU_Food_1592674,31,agent,channel1,17,132.76,140.76,"It includes things like gourmet sausage rolls, mini meat pies, sliders with Aussie beef patties, chicken skewers with saute sauce.",neutral,0.7403,False,False,False,False,False
+en_AU_Food_1592674,32,agent,channel1,18,140.76,144.76,We've got spring rolls on the menu and a selection of salads.,positive,0.6,False,False,False,False,False
+en_AU_Food_1592674,33,customer,channel2,15,142.64,168.64,"Oh, you know what, the problem is they all sound so good.",negative,0.4386,False,False,False,False,False
+en_AU_Food_1592674,34,agent,channel1,19,144.76,147.76,Then we've got our Mediterranean Mese package.,neutral,0.5882,False,False,False,False,False
+en_AU_Food_1592674,35,agent,channel1,20,147.76,155.76,"That's got dips, pita breads, falafel, tomades, anti-pasta platters, that kind of thing.",neutral,0.5425,False,False,False,False,False
+en_AU_Food_1592674,36,agent,channel1,21,155.76,158.76,"And our third option, which is the fusion feast.",neutral,0.6218,False,False,False,False,False
+en_AU_Food_1592674,37,agent,channel1,22,158.76,163.76,So that's a mix of Asian inspired dishes with modern Australian flavours.,neutral,0.9011,False,False,False,False,False
+en_AU_Food_1592674,38,customer,channel2,16,168.64,172.56,"The Aussie Arvo one sounds like it'd go down well with the older crowd,",positive,0.7163,False,False,False,False,False
+en_AU_Food_1592674,39,customer,channel2,17,172.56,175.28,but I'm also loving the sound of that Mediterranean one.,positive,0.9434,False,False,False,False,False
+en_AU_Food_1592674,40,customer,channel2,18,175.48,177.28,Is it possible to mix and match at all?,neutral,0.9173,False,False,False,False,False
+en_AU_Food_1592674,41,agent,channel1,23,175.76,180.76,You absolutely can. That's actually what a lot of our clients do.,positive,0.8814,False,False,False,False,False
+en_AU_Food_1592674,42,agent,channel1,24,180.76,186.76,So we can create a customised menu and it will pull from the different packages depending on what you want.,neutral,0.8689,False,False,False,False,False
+en_AU_Food_1592674,43,agent,channel1,25,186.76,190.76,We can just work out the pricing per head then based on what you choose.,neutral,0.8965,False,False,False,False,False
+en_AU_Food_1592674,44,customer,channel2,19,191.4,192.4,That's really brilliant.,positive,0.9679,False,False,False,False,False
+en_AU_Food_1592674,45,customer,channel2,20,192.4,197.0,"OK, so speaking of which, what sort of pricing are we looking at per person?",neutral,0.9507,False,False,False,False,False
+en_AU_Food_1592674,46,agent,channel1,26,196.76,198.76,"Okay, so great question.",positive,0.9569,False,False,False,False,False
+en_AU_Food_1592674,47,agent,channel1,27,198.76,201.76,Our standard packages do start at $45 per head.,neutral,0.9055,False,False,False,False,False
+en_AU_Food_1592674,48,agent,channel1,28,201.76,204.76,That's for the basic finger food selection.,neutral,0.7838,False,False,False,False,False
+en_AU_Food_1592674,49,agent,channel1,29,204.76,207.76,Now this includes about 8 to 10 pieces per person.,neutral,0.8977,False,False,False,False,False
+en_AU_Food_1592674,50,agent,channel1,30,207.76,210.76,Then we have our mid-range package.,neutral,0.6256,False,False,False,False,False
+en_AU_Food_1592674,51,agent,channel1,31,210.76,216.76,Now this is priced at $65 per head and includes 12 to 15 pieces.,neutral,0.9219,False,False,False,False,False
+en_AU_Food_1592674,52,agent,channel1,32,216.76,219.76,Plus it does come with a grazing table set up.,neutral,0.6828,False,False,False,False,False
+en_AU_Food_1592674,53,agent,channel1,33,219.76,221.76,Then our premium package.,neutral,0.7414,False,False,False,False,False
+en_AU_Food_1592674,54,agent,channel1,34,221.76,224.76,Now this is priced at $85 per head.,neutral,0.8555,False,False,False,False,False
+en_AU_Food_1592674,55,agent,channel1,35,224.76,227.76,This includes everything in the mid-range.,neutral,0.9003,False,False,False,False,False
+en_AU_Food_1592674,56,agent,channel1,36,227.76,233.76,"Plus premium items like prawn skewers, lamb cutlets and fancy desserts.",positive,0.7668,False,False,False,False,False
+en_AU_Food_1592674,57,customer,channel2,21,233.28,234.28,Awesome.,positive,0.9536,False,False,False,False,False
+en_AU_Food_1592674,58,agent,channel1,37,233.76,235.76,All packaging are all packages.,neutral,0.7914,False,False,False,False,False
+en_AU_Food_1592674,59,customer,channel2,22,234.28,248.48,"OK, so for 30 people, that's going to be somewhere between, what, about 1350 to 2550,",neutral,0.9097,False,False,False,False,False
+en_AU_Food_1592674,60,agent,channel1,38,235.76,238.76,"Of course they include serviettes, plates and cutlery.",neutral,0.7687,False,False,False,False,False
+en_AU_Food_1592674,61,agent,channel1,39,238.76,251.76,"Yeah, exactly right.",positive,0.3988,False,False,False,False,False
+en_AU_Food_1592674,62,customer,channel2,23,248.48,249.48,depending on what package?,neutral,0.9201,False,False,False,False,False
+en_AU_Food_1592674,63,agent,channel1,40,251.76,254.76,So you're good with numbers.,neutral,0.5404,False,False,False,False,False
+en_AU_Food_1592674,64,agent,channel1,41,254.76,259.76,Most people with 30 guests tend to go for the mid-range option at about $65 per head.,neutral,0.8824,False,False,False,False,False
+en_AU_Food_1592674,65,agent,channel1,42,259.76,262.76,So then you'd be looking at around $19.50 all up.,neutral,0.8277,False,False,False,False,False
+en_AU_Food_1592674,66,agent,channel1,43,262.76,266.76,Now that usually gives you plenty of food and a good variety without going overboard.,positive,0.7834,False,False,False,False,False
+en_AU_Food_1592674,67,customer,channel2,24,263.4,266.56,"Yeah, that's actually not too bad.",positive,0.8845,False,False,False,False,False
+en_AU_Food_1592674,68,customer,channel2,25,266.56,268.56,"Now, here's the thing, though.",neutral,0.8027,False,False,False,False,False
+en_AU_Food_1592674,69,customer,channel2,26,268.56,272.56,"I've got quite a few vegetarians coming, including my sister.",neutral,0.7298,False,False,False,False,False
+en_AU_Food_1592674,70,agent,channel1,44,268.76,290.76,"Absolutely, Maria.",positive,0.6286,False,False,False,False,False
+en_AU_Food_1592674,71,customer,channel2,27,272.56,277.56,"She's been a veggie for about 20 years now and, you know, it's really sad,",negative,0.8962,False,False,False,False,False
+en_AU_Food_1592674,72,customer,channel2,28,277.56,282.56,"but my cousin has just been diagnosed as a celiac, so she needs gluten free options.",neutral,0.7417,False,False,False,False,False
+en_AU_Food_1592674,73,customer,channel2,29,282.56,283.56,Is it?,neutral,0.7787,False,False,False,False,False
+en_AU_Food_1592674,74,customer,channel2,30,283.56,288.56,Can you guys cater for that?,neutral,0.8576,False,False,False,False,False
+en_AU_Food_1592674,75,customer,channel2,31,289.56,295.56,"Oh, that's a good question.",positive,0.9547,False,False,False,False,False
+en_AU_Food_1592674,76,agent,channel1,45,290.76,291.76,"Look, this is very common.",neutral,0.633,False,False,False,False,False
+en_AU_Food_1592674,77,agent,channel1,46,291.76,293.76,So we're all set up for it.,neutral,0.8064,False,False,False,False,False
+en_AU_Food_1592674,78,agent,channel1,47,293.76,297.76,Now can you give me a rough idea of numbers of those with dietary requirements?,neutral,0.9143,False,False,True,False,False
+en_AU_Food_1592674,79,customer,channel2,32,295.56,296.56,Let me think.,neutral,0.7432,False,False,False,False,False
+en_AU_Food_1592674,80,customer,channel2,33,296.56,300.56,"OK, so based on the numbers of who I think is coming,",neutral,0.9257,False,False,False,False,False
+en_AU_Food_1592674,81,agent,channel1,48,297.76,325.76,How many vegetarians and how many need gluten free?,neutral,0.8925,False,False,True,False,False
+en_AU_Food_1592674,82,customer,channel2,34,300.56,307.56,"I reckon about seven or eight vegetarian and just the one who's strictly gluten free,",neutral,0.7516,False,False,False,False,False
+en_AU_Food_1592674,83,customer,channel2,35,307.56,312.56,"though I also know of a few others who'd probably appreciate gluten free options,",positive,0.6764,False,False,False,False,False
+en_AU_Food_1592674,84,customer,channel2,36,312.56,314.56,even if they're not celiac.,neutral,0.6604,False,False,False,False,False
+en_AU_Food_1592674,85,agent,channel1,49,325.76,326.76,"Yeah, no worries at all.",positive,0.7478,False,False,False,False,False
+en_AU_Food_1592674,86,agent,channel1,50,326.76,333.76,So what we typically do is make sure about 40% of the food is vegetarian friendly when you've got that many veggies in the group.,neutral,0.7506,False,False,False,False,False
+en_AU_Food_1592674,87,agent,channel1,51,333.76,340.76,"We've got heaps of options, vegetarian spring rolls, pumpkin and feta arancini, halloumi skewers, vegetable samosas,",positive,0.6161,False,False,False,False,False
+en_AU_Food_1592674,88,customer,channel2,37,337.56,355.56,"That sounds perfect, actually.",positive,0.9766,False,False,False,False,False
+en_AU_Food_1592674,89,agent,channel1,52,340.76,344.76,caprese skewers with bocconcini and cherry tomatoes.,neutral,0.7761,False,False,False,False,False
+en_AU_Food_1592674,90,agent,channel1,53,344.76,349.76,"We've got mushroom volavants, that sort of thing.",neutral,0.768,False,False,False,False,False
+en_AU_Food_1592674,91,agent,channel1,54,349.76,357.76,So none of your guests will feel like they're even missing out.,negative,0.5235,False,False,False,False,False
+en_AU_Food_1592674,92,customer,channel2,38,355.56,357.56,And what about the gluten free stuff?,neutral,0.7668,False,False,False,False,False
+en_AU_Food_1592674,93,agent,channel1,55,357.76,361.76,"Yeah, so okay, for gluten free, we can do rice paper rolls.",positive,0.5715,False,False,False,False,False
+en_AU_Food_1592674,94,agent,channel1,56,361.76,363.76,We have gluten free sausage rolls.,positive,0.7228,False,False,False,False,False
+en_AU_Food_1592674,95,agent,channel1,57,363.76,364.76,They're actually really good.,positive,0.9677,False,False,False,False,False
+en_AU_Food_1592674,96,agent,channel1,58,364.76,366.76,You can't tell the difference.,negative,0.5922,False,False,False,False,False
+en_AU_Food_1592674,97,agent,channel1,59,366.76,372.76,"Corn fritters, skewers with meat and veggies, naturally gluten free dips with veggie sticks instead of bread.",neutral,0.7808,False,False,False,False,False
+en_AU_Food_1592674,98,customer,channel2,39,367.56,387.56,"Oh, my goodness, that's such a relief.",positive,0.967,False,False,False,False,False
+en_AU_Food_1592674,99,agent,channel1,60,372.76,375.76,And we can do gluten free sliders and special buns.,positive,0.6091,False,False,False,False,False
+en_AU_Food_1592674,100,agent,channel1,61,375.76,381.76,We always do label everything clearly as well so people know exactly what they can and can't eat.,neutral,0.838,False,False,False,False,False
+en_AU_Food_1592674,101,agent,channel1,62,381.76,401.76,Your cousin will definitely have plenty of options.,positive,0.7555,False,False,False,False,False
+en_AU_Food_1592674,102,customer,channel2,40,387.56,392.56,She's been really stressed out about it since she got diagnosed just last month.,negative,0.7748,False,False,False,False,False
+en_AU_Food_1592674,103,customer,channel2,41,392.56,396.56,"So, yeah, we've been talking about it in the group chat.",neutral,0.9186,False,False,False,False,False
+en_AU_Food_1592674,104,customer,channel2,42,396.56,398.56,And she's just really nervous.,negative,0.7712,False,False,False,False,False
+en_AU_Food_1592674,105,customer,channel2,43,398.56,402.56,"And it's her first big family due since finding out, you know.",neutral,0.7574,False,False,False,False,False
+en_AU_Food_1592674,106,agent,channel1,63,401.76,403.76,"Yeah, of course, poor thing.",negative,0.8979,False,False,False,False,False
+en_AU_Food_1592674,107,agent,channel1,64,403.76,406.76,"Look, well, you can let her know she'll be well looked after.",positive,0.6546,False,False,False,False,False
+en_AU_Food_1592674,108,agent,channel1,65,406.76,409.76,"So hopefully that takes away any, like, you know, food-based anxiety.",neutral,0.5173,False,False,False,False,False
+en_AU_Food_1592674,109,agent,channel1,66,409.76,414.76,We do take our allergies and dietary requirements very seriously.,neutral,0.7321,False,False,False,False,False
+en_AU_Food_1592674,110,agent,channel1,67,414.76,418.76,Everything is prepared separately to avoid cross-contamination as well.,neutral,0.8631,False,False,False,False,False
+en_AU_Food_1592674,111,agent,channel1,68,418.76,426.76,"So you can reassure your cousin, you know, and we can also provide a separate platter just for gluten free items if you'd like.",positive,0.5243,False,False,False,False,False
+en_AU_Food_1592674,112,agent,channel1,69,426.76,454.76,It might make it easier for her.,neutral,0.5887,False,False,False,False,False
+en_AU_Food_1592674,113,customer,channel2,44,427.56,432.56,"Yeah, that's so good.",positive,0.9835,False,False,False,False,False
+en_AU_Food_1592674,114,customer,channel2,45,432.56,437.56,Let me just think if I had any other questions.,neutral,0.8239,False,False,False,False,False
+en_AU_Food_1592674,115,customer,channel2,46,437.56,441.56,"Yeah, look, what you've said is that would be all be really amazing.",positive,0.9632,False,False,False,False,False
+en_AU_Food_1592674,116,customer,channel2,47,441.56,442.56,She's really appreciate that.,positive,0.9487,False,False,False,False,False
+en_AU_Food_1592674,117,customer,channel2,48,442.56,448.56,"OK, so I'm just thinking we go with that mid package, I think,",neutral,0.8346,False,False,False,False,False
+en_AU_Food_1592674,118,customer,channel2,49,448.56,451.56,with the extra vegetarian and gluten free options.,neutral,0.6415,False,False,False,False,False
+en_AU_Food_1592674,119,customer,channel2,50,451.56,452.56,So what happens next?,neutral,0.8743,False,False,False,False,False
+en_AU_Food_1592674,120,customer,channel2,51,452.56,454.56,How does delivery and setup work?,neutral,0.9182,False,False,False,False,False
+en_AU_Food_1592674,121,agent,channel1,70,454.76,457.76,"Yeah, that's an excellent choice. Okay, so good questions.",positive,0.9807,False,False,False,False,False
+en_AU_Food_1592674,122,agent,channel1,71,457.76,460.76,"For delivery and set up, we've got a couple of options.",neutral,0.8268,False,False,False,False,False
+en_AU_Food_1592674,123,agent,channel1,72,460.76,467.76,"Our standard service includes delivery to your address in Brunswick, no extra charge within 15 kilometres of the CBD.",neutral,0.7195,False,False,False,False,False
+en_AU_Food_1592674,124,agent,channel1,73,467.76,472.76,We arrive within about an hour before the party starts to set everything up.,neutral,0.7668,False,False,False,False,False
+en_AU_Food_1592674,125,agent,channel1,74,472.76,480.76,We bring the food in our temperature-controlled van so everything arrives fresh and then we set it all out on your tables or kitchen benches wherever you'd like.,neutral,0.6551,False,False,False,False,False
+en_AU_Food_1592674,126,customer,channel2,52,483.56,484.56,You know what?,neutral,0.8541,False,False,False,False,False
+en_AU_Food_1592674,127,customer,channel2,53,484.56,485.56,That sounds awesome.,positive,0.9825,False,False,False,False,False
+en_AU_Food_1592674,128,customer,channel2,54,485.56,488.56,So I do have another question.,neutral,0.8888,False,False,False,False,False
+en_AU_Food_1592674,129,agent,channel1,75,485.76,495.76,"Not at all, Maria, so we bring everything.",neutral,0.603,False,False,False,False,False
+en_AU_Food_1592674,130,customer,channel2,55,488.56,493.56,Do we need to provide the tables and the platters and all of that stuff?,neutral,0.8683,False,False,False,False,False
+en_AU_Food_1592674,131,agent,channel1,76,495.76,503.76,"We've got bamboo platters, boards for a nice rustic look, or we can have white porcelain serving platters if you prefer something more elegant.",positive,0.5413,False,False,False,False,False
+en_AU_Food_1592674,132,agent,channel1,77,503.76,510.76,"We also bring the shaving dishes if you want hot food to stay warm, tongs, serving spoons, all of that.",neutral,0.7223,False,False,False,False,False
+en_AU_Food_1592674,133,agent,channel1,78,510.76,516.76,"Plus, we can include disposable plates, bamboo cutlery and serviettes for all your guests.",positive,0.577,False,False,False,False,False
+en_AU_Food_1592674,134,customer,channel2,56,512.56,521.56,"Oh, that's fantastic.",positive,0.979,False,False,False,False,False
+en_AU_Food_1592674,135,agent,channel1,79,516.76,527.76,We also bring garbage bags for easy clean-up.,neutral,0.4973,False,False,False,False,False
+en_AU_Food_1592674,136,customer,channel2,57,521.56,524.56,So you basically rock up and set it all up.,neutral,0.8591,False,False,False,False,False
+en_AU_Food_1592674,137,customer,channel2,58,524.56,528.56,"And like we're good to go, we don't even have to think of any of this.",positive,0.4767,False,False,False,False,False
+en_AU_Food_1592674,138,agent,channel1,80,527.76,530.76,"Yeah, exactly, Maria. So we set everything up.",neutral,0.7468,False,False,False,False,False
+en_AU_Food_1592674,139,agent,channel1,81,530.76,532.76,"We make sure it all looks beautiful, of course.",positive,0.9662,False,False,False,False,False
+en_AU_Food_1592674,140,agent,channel1,82,532.76,533.76,I'm ready for the gram.,positive,0.7723,False,False,False,False,False
+en_AU_Food_1592674,141,agent,channel1,83,533.76,538.76,"You know, give you a quick rundown of what's where and then we leave you to enjoy your party.",neutral,0.6421,False,False,False,False,False
+en_AU_Food_1592674,142,agent,channel1,84,538.76,541.76,The food will stay fresh for several hours.,positive,0.5426,False,False,False,False,False
+en_AU_Food_1592674,143,agent,channel1,85,541.76,544.76,"Regarding the clean-up, that's very easy.",neutral,0.5018,False,False,False,False,False
+en_AU_Food_1592674,144,customer,channel2,59,542.56,557.56,"You did say bamboo cutlery because I'm just a bit worried about,",neutral,0.5611,False,False,False,False,False
+en_AU_Food_1592674,145,agent,channel1,86,544.76,550.76,"Your guests will just use the disposable plates and cutlery, chuck it all in the garbage bags we provide and you're done.",negative,0.5841,False,False,False,False,False
+en_AU_Food_1592674,146,agent,channel1,87,550.76,560.76,No dishes.,neutral,0.7489,False,False,False,False,False
+en_AU_Food_1592674,147,customer,channel2,60,557.56,561.56,"I don't need to be a stickler, but like with all of that.",neutral,0.5601,False,False,False,False,False
+en_AU_Food_1592674,148,agent,channel1,88,560.76,565.76,The environment.,neutral,0.7343,False,False,False,False,False
+en_AU_Food_1592674,149,customer,channel2,61,561.56,562.56,"Yeah, the environment.",neutral,0.503,False,False,False,False,False
+en_AU_Food_1592674,150,customer,channel2,62,562.56,565.56,"I mean, is that all environmentally friendly?",neutral,0.6471,False,False,False,False,False
+en_AU_Food_1592674,151,customer,channel2,63,565.56,594.56,I think we definitely go for that because my mum is the biggest,positive,0.8989,False,False,False,False,False
+en_AU_Food_1592674,152,agent,channel1,89,565.76,567.76,"Yeah, absolutely.",positive,0.4347,False,False,False,False,False
+en_AU_Food_1592674,153,agent,channel1,90,567.76,579.76,"So with that, we do actually have, we've sourced an amazing supplier and we do actually have a couple of different bamboo-coloured cutlery options.",positive,0.9642,False,False,False,False,False
+en_AU_Food_1592674,154,agent,channel1,91,579.76,583.76,"There is an extra fee, but it's very modest.",neutral,0.7676,False,False,False,False,False
+en_AU_Food_1592674,155,agent,channel1,92,583.76,596.76,I think that's an additional $2 per person for that bamboo option there.,neutral,0.9033,False,False,False,False,False
+en_AU_Food_1592674,156,customer,channel2,64,594.56,596.56,environmentalist you've ever met.,neutral,0.6194,False,False,False,False,False
+en_AU_Food_1592674,157,customer,channel2,65,596.56,598.56,And it's her birthday.,positive,0.5007,False,False,False,False,False
+en_AU_Food_1592674,158,agent,channel1,93,596.76,614.76,"Yeah, so as I said, our team would arrive there, you know, just within that hour.",neutral,0.758,False,False,False,False,False
+en_AU_Food_1592674,159,customer,channel2,66,598.56,602.56,"So I think, yeah, like let's definitely do that.",positive,0.6692,False,False,False,False,False
+en_AU_Food_1592674,160,customer,channel2,67,602.56,606.56,And can I just ask what time would you need to come to set up?,neutral,0.9412,False,False,False,False,False
+en_AU_Food_1592674,161,customer,channel2,68,606.56,609.56,So if the party is kicking off at 1pm?,neutral,0.9629,False,False,False,False,False
+en_AU_Food_1592674,162,agent,channel1,94,614.76,619.76,We'd be aiming to arrive at your place between 11.45 and 12.00 p.m.,neutral,0.849,False,False,False,False,False
+en_AU_Food_1592674,163,agent,channel1,95,619.76,624.76,"The setup itself, that usually takes between 30 to 40 minutes.",neutral,0.8249,False,False,False,False,False
+en_AU_Food_1592674,164,customer,channel2,69,624.56,649.56,"Yeah, that should be fine.",positive,0.6525,False,False,False,False,False
+en_AU_Food_1592674,165,agent,channel1,96,624.76,629.76,"That depends, you know, of course, about the layout and everything.",neutral,0.8643,False,False,False,False,False
+en_AU_Food_1592674,166,agent,channel1,97,629.76,638.76,"Now, it'll also depend on how much food and the layout of what you want exactly itself.",neutral,0.858,False,False,False,False,False
+en_AU_Food_1592674,167,agent,channel1,98,638.76,645.76,That'll give you a bit of buffer time as well if you need to show us where things go or if you want anything adjusted.,neutral,0.8428,False,False,False,False,False
+en_AU_Food_1592674,168,agent,channel1,99,645.76,669.76,Does that timing work for you?,neutral,0.9228,False,False,True,False,False
+en_AU_Food_1592674,169,customer,channel2,70,649.56,651.56,"I'm taking the Friday off work anyway,",neutral,0.5141,False,False,False,False,False
+en_AU_Food_1592674,170,customer,channel2,71,651.56,654.56,"just to clean the house and do all the last minute prep and stuff,",neutral,0.7021,False,False,False,False,False
+en_AU_Food_1592674,171,customer,channel2,72,654.56,655.56,as you can imagine.,neutral,0.7518,False,False,False,False,False
+en_AU_Food_1592674,172,customer,channel2,73,655.56,661.56,"So yeah, I'll definitely be home Saturday morning.",positive,0.7027,False,False,False,False,False
+en_AU_Food_1592674,173,customer,channel2,74,661.56,663.56,"Can I just ask before I forget,",neutral,0.6707,False,False,False,False,False
+en_AU_Food_1592674,174,customer,channel2,75,663.56,665.56,"there was one other thing I wanted to ask you,",neutral,0.8155,False,False,False,False,False
+en_AU_Food_1592674,175,customer,channel2,76,665.56,668.56,could you send me a sample menu that we discussed?,neutral,0.9136,False,False,False,False,False
+en_AU_Food_1592674,176,agent,channel1,100,669.76,672.76,"Yeah, I can send you that sample menu.",neutral,0.7682,False,False,False,False,False
+en_AU_Food_1592674,177,agent,channel1,101,672.76,681.76,"So just to confirm, I'd definitely be including those dietary requirement options on there, particularly the vegetarian and the gluten-free options.",neutral,0.5378,False,False,False,False,False
+en_AU_Food_1592674,178,customer,channel2,77,679.56,700.56,"No, send that through to me.",neutral,0.6393,False,False,False,False,False
+en_AU_Food_1592674,179,agent,channel1,102,681.76,686.76,I'll also be including some samples from each of the menus.,neutral,0.707,False,False,False,False,False
+en_AU_Food_1592674,180,agent,channel1,103,686.76,695.76,So both appetizers and sort of those more substantial names as well as some dessert options.,neutral,0.8654,False,False,False,False,False
+en_AU_Food_1592674,181,agent,channel1,104,696.76,717.76,Is there anything else you'd like?,neutral,0.9118,False,False,True,False,False
+en_AU_Food_1592674,182,customer,channel2,78,700.56,703.56,"That'd be great because I just want my cousin to,",positive,0.9547,False,False,False,False,False
+en_AU_Food_1592674,183,customer,channel2,79,703.56,706.56,"you know, I just want her to know that she's in good hands,",positive,0.8035,False,False,False,False,False
+en_AU_Food_1592674,184,customer,channel2,80,706.56,707.56,if that makes sense.,neutral,0.6225,False,False,False,False,False
+en_AU_Food_1592674,185,customer,channel2,81,707.56,709.56,"And so, and I just want to share that with my mum",neutral,0.5249,False,False,False,False,False
+en_AU_Food_1592674,186,customer,channel2,82,709.56,711.56,and just make sure I haven't missed anything.,neutral,0.7713,False,False,False,False,False
+en_AU_Food_1592674,187,customer,channel2,83,711.56,713.56,That would be great.,positive,0.9761,False,False,False,False,False
+en_AU_Food_1592674,188,customer,channel2,84,713.56,717.56,So will you also need access to my kitchen at all?,neutral,0.8569,False,False,False,False,False
+en_AU_Food_1592674,189,agent,channel1,105,717.76,720.76,"Yeah, look, that should totally be fine.",positive,0.8675,False,False,False,False,False
+en_AU_Food_1592674,190,agent,channel1,106,720.76,723.76,I'll send you all of those details following.,neutral,0.8525,False,False,False,False,False
+en_AU_Food_1592674,191,agent,channel1,107,723.76,736.76,"So in terms of your kitchen, we might need to use the fridge just to access anything, you know, to put anything that needs to be stayed chilled until the last minute.",neutral,0.8759,False,False,False,False,False
+en_AU_Food_1592674,192,agent,channel1,108,736.76,739.76,"Potentially, we might need to use the oven.",neutral,0.8782,False,False,False,False,False
+en_AU_Food_1592674,193,customer,channel2,85,737.56,754.56,Awesome.,positive,0.9536,False,False,False,False,False
+en_AU_Food_1592674,194,agent,channel1,109,739.76,742.76,"Now, that's if you want anything warmed up just before serving.",neutral,0.9095,False,False,False,False,False
+en_AU_Food_1592674,195,agent,channel1,110,742.76,745.76,"But generally, we keep everything in our warming equipment.",neutral,0.854,False,False,False,False,False
+en_AU_Food_1592674,196,agent,channel1,111,745.76,747.76,We're quite self-sufficient.,positive,0.705,False,False,False,False,False
+en_AU_Food_1592674,197,agent,channel1,112,747.76,752.76,"Look, just as long as you've got a table or bench space to set up on, we're good to go.",positive,0.6684,False,False,False,False,False
+en_AU_Food_1592674,198,agent,channel1,113,752.76,775.76,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Food_1592674,199,customer,channel2,86,754.56,755.56,"Okay, so no worries.",neutral,0.4878,False,False,False,False,False
+en_AU_Food_1592674,200,customer,channel2,87,755.56,759.56,"Look, we've got, I think, okay, yeah,",positive,0.843,False,False,False,False,False
+en_AU_Food_1592674,201,customer,channel2,88,759.56,762.56,we've got a big outdoor table.,neutral,0.5562,False,False,False,False,False
+en_AU_Food_1592674,202,customer,channel2,89,762.56,765.56,"Yeah, I'll have to get my dad to get it out of the garage,",neutral,0.8358,False,False,False,False,False
+en_AU_Food_1592674,203,customer,channel2,90,765.56,767.56,"but we've got a big outdoor table,",positive,0.4994,False,False,False,False,False
+en_AU_Food_1592674,204,customer,channel2,91,767.56,770.56,and I can clear off the kitchen island bench as well.,neutral,0.6105,False,False,False,False,False
+en_AU_Food_1592674,205,customer,channel2,92,770.56,772.56,"So yeah, one more thing.",neutral,0.602,False,False,False,False,False
+en_AU_Food_1592674,206,customer,channel2,93,772.56,775.56,Do you guys do drinks at all or is it just the food?,neutral,0.9261,False,False,False,False,False
+en_AU_Food_1592674,207,agent,channel1,114,775.76,776.76,It's a great question.,positive,0.9671,False,False,False,False,False
+en_AU_Food_1592674,208,agent,channel1,115,776.76,782.76,"We don't provide alcohol because of licensing, but we can absolutely do non-alcoholic beverages.",neutral,0.68,False,False,False,False,False
+en_AU_Food_1592674,209,agent,channel1,116,782.76,785.76,"We can provide bottled water, soft drinks, juices.",neutral,0.7114,False,False,False,False,False
+en_AU_Food_1592674,210,agent,channel1,117,785.76,792.76,"And we also offer a string station with infused water like cucumber and mint or lemon and lime, just really refreshing and looks lovely.",positive,0.9833,False,False,False,False,False
+en_AU_Food_1592674,211,agent,channel1,118,792.76,796.76,And that's just an extra $8 per person if you're interested in the drinks packages.,neutral,0.7626,False,False,False,False,False
+en_AU_Food_1592674,212,customer,channel2,94,796.56,798.56,"Yeah, okay.",neutral,0.5556,False,False,False,False,False
+en_AU_Food_1592674,213,customer,channel2,95,798.56,801.56,I think I'll probably just do drinks myself actually.,neutral,0.8326,False,False,False,False,False
+en_AU_Food_1592674,214,customer,channel2,96,801.56,804.56,I've got a mate who owes me a favour,neutral,0.551,False,False,False,False,False
+en_AU_Food_1592674,215,customer,channel2,97,804.56,806.56,"and he works at Dan Murphy's,",neutral,0.8648,False,False,False,False,False
+en_AU_Food_1592674,216,customer,channel2,98,806.56,810.56,so I can get a good deal from there if you know what I mean.,positive,0.642,False,False,False,False,False
+en_AU_Food_1592674,217,customer,channel2,99,810.56,813.56,"But, you know what, the infused water sounds really nice",positive,0.9397,False,False,False,False,False
+en_AU_Food_1592674,218,customer,channel2,100,813.56,815.56,for people who are driving or don't drink.,neutral,0.8345,False,False,False,False,False
+en_AU_Food_1592674,219,customer,channel2,101,815.56,819.56,Can I just add that on instead of the full drinks package?,neutral,0.8732,False,False,False,False,False
+en_AU_Food_1592674,220,customer,channel2,102,819.56,822.56,"Could you just add that to the sample menu as well, please?",neutral,0.7782,False,False,False,False,False
+en_AU_Food_1592674,221,agent,channel1,119,822.76,823.76,"Yeah, sure.",neutral,0.4824,False,False,False,False,False
+en_AU_Food_1592674,222,agent,channel1,120,823.76,829.76,"So we can do just a water station for you, still in sparkling water with the infused options.",neutral,0.6906,False,False,False,False,False
+en_AU_Food_1592674,223,customer,channel2,103,825.56,838.56,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1592674,224,agent,channel1,121,829.76,834.76,"That would be about $4 per person instead, really popular with the health conscious crowd.",neutral,0.5429,False,False,False,False,False
+en_AU_Food_1592674,225,agent,channel1,122,834.76,838.76,And it looked beautiful with fresh fruit and herbs floating in the dispensers.,positive,0.9836,False,False,False,False,False
+en_AU_Food_1592674,226,customer,channel2,104,838.56,839.56,"Yeah, let's do that.",positive,0.6393,False,False,False,False,False
+en_AU_Food_1592674,227,customer,channel2,105,839.56,840.56,That sounds lovely.,positive,0.961,False,False,False,False,False
+en_AU_Food_1592674,228,customer,channel2,106,840.56,841.56,All right.,neutral,0.5239,False,False,False,False,False
+en_AU_Food_1592674,229,customer,channel2,107,841.56,845.56,"So just to confirm, we're looking at,",neutral,0.9165,False,False,False,False,False
+en_AU_Food_1592674,230,customer,channel2,108,845.56,848.56,"you're going to send me the sample menu through,",neutral,0.9245,False,False,False,False,False
+en_AU_Food_1592674,231,customer,channel2,109,848.56,849.56,"so I'll be able to check,",neutral,0.7752,False,False,False,False,False
+en_AU_Food_1592674,232,customer,channel2,110,849.56,851.56,but we're looking at about the mid-range package,neutral,0.9244,False,False,False,False,False
+en_AU_Food_1592674,233,customer,channel2,111,851.56,857.56,for about $65 per head for 30 people.,neutral,0.9077,False,False,False,False,False
+en_AU_Food_1592674,234,agent,channel1,123,852.76,874.76,Perfect.,positive,0.9075,False,False,False,False,False
+en_AU_Food_1592674,235,customer,channel2,112,857.56,858.56,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1592674,236,customer,channel2,113,858.56,862.56,"So if you send that through to me, Danielle,",neutral,0.9272,False,False,False,False,False
+en_AU_Food_1592674,237,customer,channel2,114,862.56,864.56,let me come back to you.,neutral,0.5521,False,False,False,False,False
+en_AU_Food_1592674,238,customer,channel2,115,864.56,867.56,I'll give you my email address.,neutral,0.8823,False,False,False,False,False
+en_AU_Food_1592674,239,customer,channel2,116,867.56,879.56,It's maria.chen at gmail.com.,neutral,0.8986,False,False,False,False,False
+en_AU_Food_1592674,240,agent,channel1,124,874.76,879.76,"Okay, I'll grab that from you and just quickly your number two.",neutral,0.7932,False,False,False,False,False
+en_AU_Food_1592674,241,customer,channel2,117,879.56,880.56,"Oh, my number.",neutral,0.6426,False,False,False,False,False
+en_AU_Food_1592674,242,agent,channel1,125,879.76,887.76,Perfect.,positive,0.9075,False,False,False,False,False
+en_AU_Food_1592674,243,customer,channel2,118,880.56,882.56,"It should be coming up on your screen,",neutral,0.8821,False,False,False,False,False
+en_AU_Food_1592674,244,customer,channel2,119,882.56,890.56,but it's 0412765334.,neutral,0.8782,False,False,False,False,False
+en_AU_Food_1592674,245,agent,channel1,126,887.76,895.76,"All right, I'll send those across to you straight away.",neutral,0.6539,False,False,False,False,False
+en_AU_Food_1592674,246,customer,channel2,120,890.56,892.56,"Yeah, and I will give you a call back",neutral,0.6887,False,False,False,False,False
+en_AU_Food_1592674,247,customer,channel2,121,892.56,894.56,within one week to confirm.,neutral,0.8952,False,False,False,False,False
+en_AU_Food_1592674,248,customer,channel2,122,894.56,898.56,"Thank you so much, Danielle.",positive,0.9641,False,False,False,False,False
+en_AU_Food_1592674,249,agent,channel1,127,895.76,896.76,Fantastic.,positive,0.9636,False,False,False,False,False
+en_AU_Food_1592674,250,agent,channel1,128,896.76,912.76,Thank you so much.,positive,0.9602,False,False,False,False,False
+en_AU_Food_1592674,251,customer,channel2,123,898.56,899.56,"Okay, see you.",neutral,0.6384,False,False,False,False,False
+en_AU_Food_1592674,252,customer,channel2,124,899.56,900.56,Bye.,neutral,0.6078,False,False,False,False,False

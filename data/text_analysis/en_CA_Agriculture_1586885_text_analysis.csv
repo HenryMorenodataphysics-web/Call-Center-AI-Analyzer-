@@ -1,0 +1,122 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Agriculture_1586885,1,agent,channel1,1,0.0,14.44,Good afternoon.,positive,0.8973,False,False,False,False,False
+en_CA_Agriculture_1586885,2,customer,channel2,1,0.0,24.44,"Hi, Sarah.",neutral,0.5197,False,False,False,False,False
+en_CA_Agriculture_1586885,3,agent,channel1,2,14.44,17.88,You've reached the National Agriculture Support Hotline.,neutral,0.8411,False,False,False,False,False
+en_CA_Agriculture_1586885,4,agent,channel1,3,17.88,19.76,This is Sarah speaking.,neutral,0.8573,False,False,False,False,False
+en_CA_Agriculture_1586885,5,agent,channel1,4,19.76,40.84,How can I assist you today?,neutral,0.9052,False,False,True,False,False
+en_CA_Agriculture_1586885,6,customer,channel2,2,24.44,27.2,My name is David Thompson.,neutral,0.8666,False,False,False,False,False
+en_CA_Agriculture_1586885,7,customer,channel2,3,27.2,33.76,"I run a small farm near Trois-Rivières, and I wanted to ask about the new organic certification",neutral,0.8799,False,False,False,False,False
+en_CA_Agriculture_1586885,8,customer,channel2,4,33.76,36.28,programs for crops.,neutral,0.8658,False,False,False,False,False
+en_CA_Agriculture_1586885,9,customer,channel2,5,36.28,39.4,I heard there were some updates this year.,neutral,0.8481,False,False,False,False,False
+en_CA_Agriculture_1586885,10,agent,channel1,5,40.84,41.84,Hi David.,positive,0.5979,False,False,False,False,False
+en_CA_Agriculture_1586885,11,agent,channel1,6,41.84,44.2,"Yeah, that's right.",positive,0.5415,False,False,False,False,False
+en_CA_Agriculture_1586885,12,agent,channel1,7,44.2,49.72,"The organic certification assistance program, it's been expanded for this year.",neutral,0.7457,False,False,False,False,False
+en_CA_Agriculture_1586885,13,agent,channel1,8,49.72,54.16,To make it easier for farmers to transition.,neutral,0.8166,False,False,False,False,False
+en_CA_Agriculture_1586885,14,agent,channel1,9,54.16,63.4,Are you already farming organic or are you planning to make the switch?,neutral,0.9064,False,False,True,False,False
+en_CA_Agriculture_1586885,15,customer,channel2,6,57.2,65.92,"I'm planning to transition, because the price of fertilizers has really gone up, and I'm",neutral,0.5768,False,False,False,False,False
+en_CA_Agriculture_1586885,16,agent,channel1,10,63.4,78.72,"Oh, that's great.",positive,0.978,False,False,False,False,False
+en_CA_Agriculture_1586885,17,customer,channel2,7,65.92,75.88,"looking into some sustainable options, things like composting or cover crops instead of chemicals.",neutral,0.6125,False,False,False,False,False
+en_CA_Agriculture_1586885,18,agent,channel1,11,78.72,79.72,You're not alone.,neutral,0.5675,False,False,False,False,False
+en_CA_Agriculture_1586885,19,agent,channel1,12,79.72,86.04,"There's a lot of farmers that are going towards sustainable practices, so this program, it can",positive,0.7398,False,False,False,False,False
+en_CA_Agriculture_1586885,20,agent,channel1,13,86.04,91.88,really help them because it reimburses part of your certification and inspection fees,positive,0.6593,False,False,False,False,False
+en_CA_Agriculture_1586885,21,customer,channel2,8,87.2,100.64,"Oh, nice, that sounds good.",positive,0.9797,False,False,False,False,False
+en_CA_Agriculture_1586885,22,agent,channel1,14,91.88,105.8,and there's grants to support environmentally friendly methods.,neutral,0.5606,False,False,False,False,False
+en_CA_Agriculture_1586885,23,customer,channel2,9,100.64,103.6,How do I know if I qualify for that?,neutral,0.8545,False,False,False,False,False
+en_CA_Agriculture_1586885,24,agent,channel1,15,105.8,110.0,"So to qualify, your farm has to be in Canada.",neutral,0.8851,False,False,False,False,False
+en_CA_Agriculture_1586885,25,agent,channel1,16,110.0,115.84,It has to have active production and sales in agriculture and it also has to be working,neutral,0.7338,False,False,False,False,False
+en_CA_Agriculture_1586885,26,agent,channel1,17,115.84,120.4,towards being certified under the Canadian organic regime.,neutral,0.8804,False,False,False,False,False
+en_CA_Agriculture_1586885,27,customer,channel2,10,117.2,134.44,"Oh, yes, I've been farming vegetables and wheat for about six years now, and I've started cutting",neutral,0.5109,False,False,False,False,False
+en_CA_Agriculture_1586885,28,agent,channel1,18,121.4,128.12,So do you have at least one full season of production records?,neutral,0.9132,False,False,True,False,False
+en_CA_Agriculture_1586885,29,agent,channel1,19,128.12,139.72,"Okay, that's great.",positive,0.9765,False,False,False,False,False
+en_CA_Agriculture_1586885,30,customer,channel2,11,134.44,145.52,back on synthetic fertilizers.,negative,0.5475,False,False,False,False,False
+en_CA_Agriculture_1586885,31,agent,channel1,20,139.72,145.68,"You're already halfway there, so there's something called the agricultural funding",neutral,0.8334,False,False,False,False,False
+en_CA_Agriculture_1586885,32,customer,channel2,12,145.52,160.48,"Okay, okay.",neutral,0.6537,False,False,False,False,False
+en_CA_Agriculture_1586885,33,agent,channel1,21,145.68,148.16,portal and it's online.,neutral,0.8693,False,False,False,False,False
+en_CA_Agriculture_1586885,34,agent,channel1,22,148.16,150.92,So you can start your application there.,neutral,0.8488,False,False,False,False,False
+en_CA_Agriculture_1586885,35,agent,channel1,23,150.92,165.2,So you have to create an account and then fill in a form and then upload some documents.,neutral,0.9307,False,False,False,False,False
+en_CA_Agriculture_1586885,36,customer,channel2,13,160.48,163.72,And what kind of documents do they usually ask for?,neutral,0.8331,False,False,False,False,False
+en_CA_Agriculture_1586885,37,agent,channel1,24,165.2,167.88,"So the documents, it includes four things.",neutral,0.8986,False,False,False,False,False
+en_CA_Agriculture_1586885,38,agent,channel1,25,167.88,174.08,"They want proof of land ownership or lease, your production and sales records from your",neutral,0.8558,False,False,False,False,False
+en_CA_Agriculture_1586885,39,agent,channel1,26,174.08,183.04,"last farming season, a current soil test report and then a brief plan or describing",neutral,0.9377,False,False,False,False,False
+en_CA_Agriculture_1586885,40,agent,channel1,27,183.04,188.36,how you're going to shift your practice into organic farming.,neutral,0.9111,False,False,True,False,False
+en_CA_Agriculture_1586885,41,agent,channel1,28,188.36,197.2,"So all of those, you can scan them and then upload them into the online portal.",neutral,0.8903,False,False,False,False,False
+en_CA_Agriculture_1586885,42,customer,channel2,14,191.48,196.48,Got it.,neutral,0.6065,False,False,False,False,False
+en_CA_Agriculture_1586885,43,customer,channel2,15,196.48,201.48,Is there a deadline for applying?,neutral,0.9373,False,False,False,False,False
+en_CA_Agriculture_1586885,44,agent,channel1,29,197.2,207.96,"Yes, the deadline for the 2025 growing season is March 15th, but it's best to apply by",neutral,0.735,False,False,False,False,False
+en_CA_Agriculture_1586885,45,customer,channel2,16,201.48,223.72,"Nice, that's clear.",positive,0.9454,False,False,False,False,False
+en_CA_Agriculture_1586885,46,agent,channel1,30,207.96,213.84,February 28th then it'll give you enough time for processing and then you'll get a,neutral,0.7707,False,False,False,False,False
+en_CA_Agriculture_1586885,47,agent,channel1,31,213.84,222.12,confirmation email within 24 hours of submitting your documents.,neutral,0.8587,False,False,False,False,False
+en_CA_Agriculture_1586885,48,agent,channel1,32,222.12,236.36,"Yes, there is, there's a program for that.",neutral,0.5855,False,False,False,False,False
+en_CA_Agriculture_1586885,49,customer,channel2,17,223.72,228.12,Are there any other programs that could help with equipment?,neutral,0.9178,False,False,False,False,False
+en_CA_Agriculture_1586885,50,customer,channel2,18,228.12,256.6,I'm thinking about getting a compost spreader and a soil sensor system.,neutral,0.8797,False,False,False,False,False
+en_CA_Agriculture_1586885,51,agent,channel1,33,236.36,243.68,It's called the Farm Equipment Modernization Program and it offers low-interest loans and,neutral,0.6899,False,False,False,False,False
+en_CA_Agriculture_1586885,52,agent,channel1,34,243.68,250.72,"right now they're around 2.5%, so it's for getting eco-friendly and energy efficient",neutral,0.6117,False,False,False,False,False
+en_CA_Agriculture_1586885,53,agent,channel1,35,250.72,258.44,"equipment like composters, irrigation systems and solar power tools.",neutral,0.902,False,False,False,False,False
+en_CA_Agriculture_1586885,54,customer,channel2,19,256.6,259.84,"Nice, that's good to know.",positive,0.9589,False,False,False,False,False
+en_CA_Agriculture_1586885,55,agent,channel1,36,258.44,266.24,"Yeah, exactly.",neutral,0.4948,False,False,False,False,False
+en_CA_Agriculture_1586885,56,customer,channel2,20,259.84,281.6,Can I apply for that on the same website?,neutral,0.9319,False,False,False,False,False
+en_CA_Agriculture_1586885,57,agent,channel1,37,266.24,272.12,"Once you get into the Agricultural Funding Portal, you'll see Equipment Assistance as",neutral,0.9308,False,False,False,False,False
+en_CA_Agriculture_1586885,58,agent,channel1,38,272.12,278.48,"an option there, so you just have to put a quote or cost estimate for the equipment",neutral,0.9006,False,False,False,False,False
+en_CA_Agriculture_1586885,59,agent,channel1,39,278.48,281.96,that you plan to buy.,neutral,0.8581,False,False,False,False,False
+en_CA_Agriculture_1586885,60,customer,channel2,21,281.6,284.08,"Nice, good.",positive,0.9607,False,False,False,False,False
+en_CA_Agriculture_1586885,61,agent,channel1,40,281.96,294.08,"Oh, there's no problem at all.",positive,0.6905,False,False,False,False,False
+en_CA_Agriculture_1586885,62,customer,channel2,22,284.08,290.08,"So what if I prefer to do the application in person, because I'm not too comfortable with",negative,0.6188,False,False,False,False,False
+en_CA_Agriculture_1586885,63,customer,channel2,23,290.08,291.56,computers.,neutral,0.7854,False,False,False,False,False
+en_CA_Agriculture_1586885,64,agent,channel1,41,294.08,301.52,"So there's one in person, a center you can go to called the Agricultural Service Center,",neutral,0.939,False,False,False,False,False
+en_CA_Agriculture_1586885,65,agent,channel1,42,301.52,307.2,so they'll help you do the forms and upload the documents and you said you're near,neutral,0.8528,False,False,False,False,False
+en_CA_Agriculture_1586885,66,agent,channel1,43,307.24,309.24,"Tuarevier, right?",neutral,0.919,False,False,True,False,False
+en_CA_Agriculture_1586885,67,agent,channel1,44,309.24,321.48,"So the office there is at 2.15 Rue des Forges, so they're open Monday to Friday from 8.30",neutral,0.892,False,False,False,False,False
+en_CA_Agriculture_1586885,68,agent,channel1,45,321.48,327.48,a.m. to 4.30 p.m.,neutral,0.9158,False,False,False,False,False
+en_CA_Agriculture_1586885,69,customer,channel2,24,321.56,331.72,"Nice, that's not far from me.",positive,0.9501,False,False,False,False,False
+en_CA_Agriculture_1586885,70,agent,channel1,46,327.48,342.12,"No, well you can walk in, but it's kind of busy this year, so maybe you can call ahead so I",neutral,0.8077,False,False,False,False,False
+en_CA_Agriculture_1586885,71,customer,channel2,25,331.72,345.88,Do I need to book an appointment?,neutral,0.9414,False,False,False,False,False
+en_CA_Agriculture_1586885,72,agent,channel1,47,342.12,350.12,can give you their number if you want to write it down.,neutral,0.9188,False,False,False,False,False
+en_CA_Agriculture_1586885,73,customer,channel2,26,345.88,350.48,"Nice, perfect.",positive,0.9617,False,False,False,False,False
+en_CA_Agriculture_1586885,74,agent,channel1,48,350.12,375.12,"Okay, so the number is 1-800-555-0126.",neutral,0.8971,False,False,False,False,False
+en_CA_Agriculture_1586885,75,customer,channel2,27,350.48,353.8,What's their number?,neutral,0.9228,False,False,False,False,False
+en_CA_Agriculture_1586885,76,customer,channel2,28,353.8,367.4,"Got it, perfect.",positive,0.8998,False,False,False,False,False
+en_CA_Agriculture_1586885,77,customer,channel2,29,367.4,375.88,"So once I submit my application, how long does it take to get the response?",neutral,0.9418,False,False,False,False,False
+en_CA_Agriculture_1586885,78,agent,channel1,49,375.12,378.12,"Well, usually it's 6 to 8 weeks.",neutral,0.8847,False,False,False,False,False
+en_CA_Agriculture_1586885,79,customer,channel2,30,375.88,394.68,"Reasonable, like that, and if something's missing, they'll contact me?",neutral,0.7689,False,False,False,False,False
+en_CA_Agriculture_1586885,80,agent,channel1,50,378.12,383.12,"You'll get an update by email once it's reviewed, and then when you're approved,",neutral,0.824,False,False,False,False,False
+en_CA_Agriculture_1586885,81,agent,channel1,51,383.12,395.12,you'll actually get funds put directly into your bank account.,neutral,0.7331,False,False,False,False,False
+en_CA_Agriculture_1586885,82,agent,channel1,52,395.12,401.12,"Yeah, so if they need more documents or clarification then you'll get an email",neutral,0.9059,False,False,False,False,False
+en_CA_Agriculture_1586885,83,agent,channel1,53,401.12,403.12,or a phone call from the program officer.,neutral,0.8943,False,False,False,False,False
+en_CA_Agriculture_1586885,84,agent,channel1,54,403.12,420.12,So just make sure you double check your information when you register on the portal.,neutral,0.8717,False,False,False,False,False
+en_CA_Agriculture_1586885,85,customer,channel2,31,405.88,412.92,We'll do.,neutral,0.5136,False,False,False,False,False
+en_CA_Agriculture_1586885,86,customer,channel2,32,412.92,414.92,And one last thing.,neutral,0.7895,False,False,False,False,False
+en_CA_Agriculture_1586885,87,customer,channel2,33,414.92,419.28,Are there any grants that help cover organic compost or fertilizer?,neutral,0.9031,False,False,False,False,False
+en_CA_Agriculture_1586885,88,agent,channel1,55,420.12,425.12,"Yeah, there's a grant for that, so it's called the Sustainable Inputs Grant.",neutral,0.6678,False,False,False,False,False
+en_CA_Agriculture_1586885,89,agent,channel1,56,425.12,433.12,"So it can give you up to 30% of the approved costs for, again, it can soil enhancers,",neutral,0.5287,False,False,False,False,False
+en_CA_Agriculture_1586885,90,agent,channel1,57,433.12,437.12,"composters, sorry, compost or bio-fertilizers.",neutral,0.6988,False,False,False,False,False
+en_CA_Agriculture_1586885,91,customer,channel2,34,435.88,447.48,"Nice, great news.",positive,0.9804,False,False,False,False,False
+en_CA_Agriculture_1586885,92,agent,channel1,58,437.12,442.12,So you can combine that with the certification program if you meet the standards.,neutral,0.8477,False,False,False,False,False
+en_CA_Agriculture_1586885,93,customer,channel2,35,447.48,454.36,"So it really sounds like the government's making an effort to support organic grows, and that's",positive,0.6628,False,False,False,False,False
+en_CA_Agriculture_1586885,94,customer,channel2,36,454.36,465.32,really nice.,positive,0.9486,False,False,False,False,False
+en_CA_Agriculture_1586885,95,agent,channel1,59,456.12,480.12,"Yeah, so the goal is to make sustainable farming financially accessible for everyone.",positive,0.6483,False,False,False,False,False
+en_CA_Agriculture_1586885,96,customer,channel2,37,465.32,471.08,"Well, I really appreciate your help, Sarah.",positive,0.9751,False,False,False,False,False
+en_CA_Agriculture_1586885,97,customer,channel2,38,471.08,478.52,"Could you send me an email with all the details, the links, the deadlines, and phone number,",neutral,0.89,False,False,False,False,False
+en_CA_Agriculture_1586885,98,customer,channel2,39,478.52,483.0,you mentioned?,neutral,0.9179,False,False,False,False,False
+en_CA_Agriculture_1586885,99,agent,channel1,60,480.12,498.12,"Yeah, sure. Could you confirm your email address?",neutral,0.7781,False,False,True,False,False
+en_CA_Agriculture_1586885,100,customer,channel2,40,483.0,487.16,Sure.,neutral,0.6517,False,False,False,False,False
+en_CA_Agriculture_1586885,101,customer,channel2,41,487.16,492.0,"Thanks, David Thompson Farms at gmail.com.",positive,0.7887,False,False,False,False,False
+en_CA_Agriculture_1586885,102,customer,channel2,42,492.0,497.2,So David Thompson's Farm at gmail.com.,neutral,0.8989,False,False,False,False,False
+en_CA_Agriculture_1586885,103,agent,channel1,61,498.12,501.12,"Okay, thanks.",positive,0.6952,False,False,False,False,False
+en_CA_Agriculture_1586885,104,agent,channel1,62,501.12,507.12,"I got that, and okay, so I'll send you a summary email with everything that we talked about.",neutral,0.6235,False,False,False,False,False
+en_CA_Agriculture_1586885,105,agent,channel1,63,507.12,513.12,"So the links to the programs, the deadlines, and your local service center's information.",neutral,0.9366,False,False,False,False,False
+en_CA_Agriculture_1586885,106,agent,channel1,64,513.12,517.12,So you should get that soon.,neutral,0.6888,False,False,False,False,False
+en_CA_Agriculture_1586885,107,agent,channel1,65,517.12,523.12,Do you want me to put any info about free online training workshops for organic farming?,neutral,0.9397,False,False,True,False,False
+en_CA_Agriculture_1586885,108,customer,channel2,43,517.16,532.16,"Yes, please, that's great.",positive,0.979,False,False,False,False,False
+en_CA_Agriculture_1586885,109,agent,channel1,66,523.12,535.12,"So they actually talk about composting, crop rotation, and pest management.",neutral,0.8567,False,False,False,False,False
+en_CA_Agriculture_1586885,110,customer,channel2,44,532.16,539.84,I'm always open to learning more.,positive,0.9155,False,False,False,False,False
+en_CA_Agriculture_1586885,111,agent,channel1,67,535.12,538.12,"Oh, perfect. I've added that to your email.",positive,0.919,False,False,False,False,False
+en_CA_Agriculture_1586885,112,agent,channel1,68,538.12,552.12,"Before we finish up, is there anything else that I can help you with today?",neutral,0.8934,False,False,True,True,False
+en_CA_Agriculture_1586885,113,customer,channel2,45,539.84,545.8,Nope.,neutral,0.6232,False,False,False,False,False
+en_CA_Agriculture_1586885,114,customer,channel2,46,545.8,547.6,That's everything.,neutral,0.6314,False,False,False,False,False
+en_CA_Agriculture_1586885,115,customer,channel2,47,547.6,549.76,Thank you again for your time.,positive,0.9613,False,False,False,False,False
+en_CA_Agriculture_1586885,116,customer,channel2,48,549.76,561.32,This was really helpful.,positive,0.9733,False,False,False,False,False
+en_CA_Agriculture_1586885,117,agent,channel1,69,552.12,555.12,"Oh, you're very welcome. I'm glad I could assist.",positive,0.9741,False,False,False,False,False
+en_CA_Agriculture_1586885,118,agent,channel1,70,555.12,564.12,Best of luck with your transition to organic farming and have a wonderful day.,positive,0.9792,False,False,False,False,False
+en_CA_Agriculture_1586885,119,customer,channel2,49,561.32,562.32,"You too, Sarah.",positive,0.7775,False,False,False,False,False
+en_CA_Agriculture_1586885,120,customer,channel2,50,562.32,562.84,Take care.,positive,0.5385,False,False,False,False,False
+en_CA_Agriculture_1586885,121,agent,channel1,71,564.12,569.12,Goodbye. Thanks for calling the National Agriculture Support Hotline.,neutral,0.578,False,False,False,False,False

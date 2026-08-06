@@ -1,0 +1,77 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_DeliveryService_1590620,1,customer,channel2,1,0.0,19.0,Hi there.,neutral,0.4904,False,False,False,False,False
+en_CA_DeliveryService_1590620,2,agent,channel1,1,0.0,25.0,"Hello, Canada Post, I want to help you.",positive,0.723,False,False,False,False,False
+en_CA_DeliveryService_1590620,3,customer,channel2,2,19.0,24.0,"I had a package that was scheduled to arrive, but it has not arrived yet.",negative,0.7338,False,False,False,False,False
+en_CA_DeliveryService_1590620,4,customer,channel2,3,24.0,27.0,And I'm just kind of wondering where it's at because I don't have any updates on the,negative,0.6506,False,False,False,False,False
+en_CA_DeliveryService_1590620,5,agent,channel1,2,25.0,38.0,"Okay, one moment, please.",neutral,0.6364,False,False,False,False,False
+en_CA_DeliveryService_1590620,6,customer,channel2,4,27.0,31.0,package and I need it.,positive,0.5402,False,False,False,False,False
+en_CA_DeliveryService_1590620,7,customer,channel2,5,31.0,46.0,And so how do I find it?,neutral,0.7376,False,False,False,False,False
+en_CA_DeliveryService_1590620,8,agent,channel1,3,38.0,42.0,I'm going to open our tracking.,neutral,0.798,False,False,False,False,False
+en_CA_DeliveryService_1590620,9,agent,channel1,4,42.0,47.0,"Okay, do you have the tracking number on hand?",neutral,0.9513,False,False,True,False,False
+en_CA_DeliveryService_1590620,10,customer,channel2,6,46.0,51.0,I do.,neutral,0.6408,False,False,False,False,False
+en_CA_DeliveryService_1590620,11,agent,channel1,5,47.0,54.0,"Okay, please read it out to me and I'll repeat it back to you.",neutral,0.7821,False,False,False,False,False
+en_CA_DeliveryService_1590620,12,customer,channel2,7,51.0,76.0,"This is X1, 8, T, B5, 1, 6, MZ, HN, N at the end like Normand.",neutral,0.8644,False,False,False,False,False
+en_CA_DeliveryService_1590620,13,agent,channel1,6,55.0,70.0,"X1-8-T, B5-1-6, MZHM, okay, got it.",neutral,0.734,False,False,False,False,False
+en_CA_DeliveryService_1590620,14,agent,channel1,7,70.0,88.0,"Okay, sure, one second, let me just pull it up.",neutral,0.7323,False,False,False,False,False
+en_CA_DeliveryService_1590620,15,customer,channel2,8,76.0,80.0,"Yeah, I unfortunately really need these like yesterday.",negative,0.5814,False,False,False,False,False
+en_CA_DeliveryService_1590620,16,customer,channel2,9,80.0,83.0,"So if we can find it and maybe reroute it, I don't know.",neutral,0.6341,False,False,False,False,False
+en_CA_DeliveryService_1590620,17,customer,channel2,10,83.0,86.0,But it has my divorce papers in it.,neutral,0.6932,False,False,False,False,False
+en_CA_DeliveryService_1590620,18,customer,channel2,11,86.0,115.0,And I really need new documents.,negative,0.4763,False,False,False,False,False
+en_CA_DeliveryService_1590620,19,agent,channel1,8,88.0,91.0,I understand.,neutral,0.6646,False,True,False,False,False
+en_CA_DeliveryService_1590620,20,agent,channel1,9,91.0,108.0,"Okay, I see that it's in the sorting center in Mississauga and that it's meant to be going to Ottawa.",neutral,0.9068,False,False,False,False,False
+en_CA_DeliveryService_1590620,21,agent,channel1,10,108.0,127.0,It's scheduled to be loaded onto the truck today.,neutral,0.9316,False,False,False,False,False
+en_CA_DeliveryService_1590620,22,customer,channel2,12,115.0,117.0,Is there a reason that it's been delayed?,negative,0.5743,False,False,False,False,False
+en_CA_DeliveryService_1590620,23,customer,channel2,13,117.0,122.0,"Like it was supposed, it's Monday now and it was supposed to arrive at its destination on Friday.",neutral,0.9105,False,False,False,False,False
+en_CA_DeliveryService_1590620,24,customer,channel2,14,122.0,144.0,And so it's probably not even going to get there today if it's still in the sorting center.,negative,0.8102,False,False,False,False,False
+en_CA_DeliveryService_1590620,25,agent,channel1,11,127.0,134.0,"Yeah, I would assume it would arrive more probably afternoon.",neutral,0.8864,False,False,False,False,False
+en_CA_DeliveryService_1590620,26,agent,channel1,12,134.0,142.0,"As you know, there's been some rolling strikes with our staff and unfortunately that has caused some delays.",negative,0.8068,False,False,False,False,False
+en_CA_DeliveryService_1590620,27,agent,channel1,13,142.0,145.0,I do apologize for that.,negative,0.7367,False,False,False,False,False
+en_CA_DeliveryService_1590620,28,customer,channel2,15,144.0,162.0,Are there any options to make it arrive today for Mississauga?,neutral,0.9607,False,False,False,False,False
+en_CA_DeliveryService_1590620,29,agent,channel1,14,145.0,165.0,"Unfortunately, it's impacting everyone negatively and I apologize that we're not meeting your needs.",negative,0.9057,False,True,False,False,False
+en_CA_DeliveryService_1590620,30,customer,channel2,16,162.0,163.0,Like does it have to go on the truck?,neutral,0.8327,False,False,False,False,False
+en_CA_DeliveryService_1590620,31,customer,channel2,17,163.0,165.0,Can we fly it?,neutral,0.9095,False,False,False,False,False
+en_CA_DeliveryService_1590620,32,agent,channel1,15,165.0,173.0,"Unfortunately, once it's already in that pipeline, we can't remove it.",negative,0.7523,False,False,False,False,False
+en_CA_DeliveryService_1590620,33,customer,channel2,18,165.0,193.0,Can we fly it?,neutral,0.9095,False,False,False,False,False
+en_CA_DeliveryService_1590620,34,agent,channel1,16,173.0,184.0,It's kind of like it would have to be done when the package was dropped off in the first place at a service center.,neutral,0.8352,False,False,False,False,False
+en_CA_DeliveryService_1590620,35,agent,channel1,17,184.0,198.0,"So unfortunately, we can't change the system that it's already in that pipeline.",negative,0.8507,False,False,False,False,False
+en_CA_DeliveryService_1590620,36,customer,channel2,19,193.0,222.0,So I can't change it from like ground travel to air travel so it gets to Ottawa this afternoon.,neutral,0.8963,False,False,False,False,False
+en_CA_DeliveryService_1590620,37,agent,channel1,18,198.0,204.0,"Yeah, unfortunately.",negative,0.8038,False,False,False,False,False
+en_CA_DeliveryService_1590620,38,agent,channel1,19,204.0,219.0,"I wish we could do that for you, but unfortunately our system isn't set up to change the service after the package has been accepted.",negative,0.7246,False,False,False,False,False
+en_CA_DeliveryService_1590620,39,agent,channel1,20,219.0,231.0,But what I can do is I can send you a link that shows more detailed information about the tracking.,neutral,0.8842,False,False,False,False,False
+en_CA_DeliveryService_1590620,40,customer,channel2,20,222.0,238.0,"Yeah, I need to know like exactly when it arrives or if it's going to be late.",negative,0.5168,False,False,False,False,False
+en_CA_DeliveryService_1590620,41,agent,channel1,21,231.0,244.0,Would that be something you would be interested in?,neutral,0.7542,False,False,True,False,False
+en_CA_DeliveryService_1590620,42,customer,channel2,21,238.0,251.0,I need to give the office a heads up because no one's going to be there to receive it if it gets there after 4pm.,negative,0.6742,False,False,False,False,False
+en_CA_DeliveryService_1590620,43,agent,channel1,22,244.0,246.0,Right.,neutral,0.6264,False,False,False,False,False
+en_CA_DeliveryService_1590620,44,agent,channel1,23,246.0,261.0,"Okay, let me get that prepared for you. Just give me one moment here.",neutral,0.7115,False,False,False,False,False
+en_CA_DeliveryService_1590620,45,customer,channel2,22,251.0,267.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_DeliveryService_1590620,46,agent,channel1,24,261.0,273.0,"Okay, and I'm going to need your email address so that I can send this to you if you don't mind.",neutral,0.7899,False,False,False,False,False
+en_CA_DeliveryService_1590620,47,customer,channel2,23,267.0,289.0,"Sure, it's L-A-W-O-S-S-I-C-E-911 at gmail.com.",neutral,0.7734,False,False,False,False,False
+en_CA_DeliveryService_1590620,48,agent,channel1,25,273.0,301.0,"Okay, I've got it.",positive,0.6289,False,False,False,False,False
+en_CA_DeliveryService_1590620,49,customer,channel2,24,289.0,291.0,And so quick question.,neutral,0.6996,False,False,False,False,False
+en_CA_DeliveryService_1590620,50,customer,channel2,25,291.0,318.0,"With this new tracking link, is it still through the same regular Canada Post portal or like what is it going to show me that's different?",neutral,0.9031,False,False,False,False,False
+en_CA_DeliveryService_1590620,51,agent,channel1,26,301.0,310.0,It's just going to show you more detail than you would normally see in the Canada Post when you go to track a package.,neutral,0.7769,False,False,False,False,False
+en_CA_DeliveryService_1590620,52,agent,channel1,27,310.0,323.0,It's still through Canada Post. It's just a more detailed look like you'll be able to track the location of the last mile truck as it's headed to your office.,neutral,0.9033,False,False,False,False,False
+en_CA_DeliveryService_1590620,53,customer,channel2,26,318.0,347.0,"Okay, I mean, yeah, that's something that's better.",positive,0.8198,False,False,False,False,False
+en_CA_DeliveryService_1590620,54,agent,channel1,28,323.0,336.0,"And that way, you know, we can also set up alerts so that it will send you a text when it's, you know, say 10 stops away.",neutral,0.8681,False,False,False,False,False
+en_CA_DeliveryService_1590620,55,agent,channel1,29,336.0,347.0,"And then the office staff would be able to, you'd be able to alert them that it's coming.",neutral,0.7829,False,False,False,False,False
+en_CA_DeliveryService_1590620,56,customer,channel2,27,347.0,360.0,For sure.,neutral,0.5656,False,False,False,False,False
+en_CA_DeliveryService_1590620,57,agent,channel1,30,347.0,376.0,"Again, I do apologize for the delay, but hopefully at least knowing exactly where the packages will be helpful to you.",neutral,0.5783,False,False,False,False,False
+en_CA_DeliveryService_1590620,58,customer,channel2,28,360.0,368.0,And is there a direct contact number I can call if it seems to be delayed again?,negative,0.512,False,False,False,False,False
+en_CA_DeliveryService_1590620,59,customer,channel2,29,368.0,397.0,"Like I know with the rolling strikes, no one can really confirm anything but I need to not lose this package and I need it to get there as soon as possible.",negative,0.5846,False,False,False,False,False
+en_CA_DeliveryService_1590620,60,agent,channel1,31,376.0,389.0,"Definitely. Yes, let me give you the service center.",positive,0.7326,False,False,False,False,False
+en_CA_DeliveryService_1590620,61,agent,channel1,32,389.0,398.0,I have a direct contact that's in the Ottawa dispatch center.,neutral,0.925,False,False,False,False,False
+en_CA_DeliveryService_1590620,62,customer,channel2,30,397.0,412.0,I do.,neutral,0.6408,False,False,False,False,False
+en_CA_DeliveryService_1590620,63,agent,channel1,33,399.0,409.0,"Normally we don't give out test numbers, but since your case is exceptional, I think it's okay for me to do so.",neutral,0.6483,False,False,False,False,False
+en_CA_DeliveryService_1590620,64,agent,channel1,34,409.0,414.0,"All right, so do you have a paper handy to take down the number?",neutral,0.905,False,False,True,False,False
+en_CA_DeliveryService_1590620,65,customer,channel2,31,412.0,421.0,I do. Go ahead.,neutral,0.7184,False,False,False,False,False
+en_CA_DeliveryService_1590620,66,agent,channel1,35,414.0,427.0,"Okay, it's 403-695-7892.",neutral,0.8809,False,False,False,False,False
+en_CA_DeliveryService_1590620,67,customer,channel2,32,421.0,426.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_CA_DeliveryService_1590620,68,customer,channel2,33,426.0,430.0,"Okay, perfect.",positive,0.9282,False,False,False,False,False
+en_CA_DeliveryService_1590620,69,agent,channel1,36,427.0,432.0,And make sure you ask for Barbara.,neutral,0.824,False,False,False,False,False
+en_CA_DeliveryService_1590620,70,customer,channel2,34,430.0,439.0,"Okay, even better.",positive,0.9761,False,False,False,False,False
+en_CA_DeliveryService_1590620,71,agent,channel1,37,432.0,445.0,"She's wonderful. So yeah, is there anything else I can help you with today?",positive,0.9799,False,False,True,True,False
+en_CA_DeliveryService_1590620,72,customer,channel2,35,439.0,451.0,"That's all. We'll just hopefully get this package going and if not, I will call Barbara.",neutral,0.5724,False,False,False,False,False
+en_CA_DeliveryService_1590620,73,agent,channel1,38,445.0,453.0,"Okay, again, I apologize for the delay and I hope you have a good rest of your day.",positive,0.8036,False,True,False,False,False
+en_CA_DeliveryService_1590620,74,customer,channel2,36,451.0,453.0,Great. Thanks.,positive,0.9735,False,False,False,False,False
+en_CA_DeliveryService_1590620,75,agent,channel1,39,453.0,455.0,Bye.,neutral,0.6078,False,False,False,False,False
+en_CA_DeliveryService_1590620,76,customer,channel2,37,453.0,466.0,Bye.,neutral,0.6078,False,False,False,False,False

@@ -1,0 +1,152 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Insurance_1590855,1,agent,channel1,1,0.0,24.72,"Good morning, this is Megan speaking Okay, sure, what is do you have your insurance",neutral,0.5576,False,False,False,False,False
+en_CA_Insurance_1590855,2,customer,channel2,1,0.0,26.0,"Hi there, I'm just going to call an insurance claim for a car accident that took place yesterday.",neutral,0.6307,False,False,False,False,False
+en_CA_Insurance_1590855,3,agent,channel1,2,24.72,40.12,"number handy? Yeah, it'll be on your insurance form in the top left corner and it'll be 12",neutral,0.7507,False,False,True,False,False
+en_CA_Insurance_1590855,4,customer,channel2,2,26.0,42.0,"No, or how long should it be? I'm looking at my driver's license and I'm looking at my insurance.",neutral,0.8499,False,False,False,False,False
+en_CA_Insurance_1590855,5,agent,channel1,3,40.12,60.0,"digits 9008 BXRT to choose your file. Okay, and if you could confirm your first first name",neutral,0.8758,False,False,False,False,False
+en_CA_Insurance_1590855,6,customer,channel2,3,42.0,63.0,"Oh, okay. Okay, here it is. It is 9008 PXRT 2205.",neutral,0.8517,False,False,False,False,False
+en_CA_Insurance_1590855,7,agent,channel1,4,60.0,79.28,"last name and address. Okay, let me just pull up your information here and then we'll go through",neutral,0.8956,False,False,False,False,False
+en_CA_Insurance_1590855,8,customer,channel2,4,63.0,89.0,"Roberta, first name, last name, Sunrise, and address is 146 Smith Avenue.",neutral,0.9342,False,False,False,False,False
+en_CA_Insurance_1590855,9,agent,channel1,5,79.28,93.6,"this step by step. Okay, so which vehicle is this in regard in regards to? For the cruise. Okay.",neutral,0.8879,False,False,True,False,False
+en_CA_Insurance_1590855,10,customer,channel2,5,89.0,99.0,This is for the 2014 Chevy Cruze.,neutral,0.8796,False,False,False,False,False
+en_CA_Insurance_1590855,11,agent,channel1,6,96.0,105.04,"All right, and you said this occurred yesterday. November 17th at about 4 30 p.m.",neutral,0.8923,False,False,False,False,False
+en_CA_Insurance_1590855,12,customer,channel2,6,99.0,108.0,What about 430?,neutral,0.9236,False,False,False,False,False
+en_CA_Insurance_1590855,13,agent,channel1,7,106.0,117.44,"And where was the location? Okay, okay.",neutral,0.7384,False,False,True,False,False
+en_CA_Insurance_1590855,14,customer,channel2,7,108.0,118.0,It is at the corner of Fernmore going westbound and St. Mary's going southbound.,neutral,0.9567,False,False,False,False,False
+en_CA_Insurance_1590855,15,customer,channel2,8,118.0,128.0,"Fernmore turning up west, crossing over St. Mary's going south.",neutral,0.9581,False,False,False,False,False
+en_CA_Insurance_1590855,16,agent,channel1,8,122.32,133.52,"Okay, and just confirm which city is that? Okay, right, I figured but I still have to ask.",neutral,0.8221,False,False,True,False,False
+en_CA_Insurance_1590855,17,customer,channel2,9,128.0,144.0,That's in Winnipeg.,neutral,0.8753,False,False,False,False,False
+en_CA_Insurance_1590855,18,agent,channel1,9,135.04,150.96,"Okay, um, first of all, are you are you injured and have you thought out medical care?",neutral,0.6168,False,False,True,False,False
+en_CA_Insurance_1590855,19,customer,channel2,10,144.0,153.0,"I did actually go, I didn't go to the walking yesterday, but this morning I woke up really, really stiff in my neck and in my shoulders.",negative,0.7116,False,False,False,False,False
+en_CA_Insurance_1590855,20,customer,channel2,11,153.0,161.0,And so I just morning off and I just went to our chiropractor just to see anything and go to the chiropractor regularly.,neutral,0.7403,False,False,False,False,False
+en_CA_Insurance_1590855,21,customer,channel2,12,161.0,170.0,And so just to get like a little bit of an adjustment around my neck and my upper shoulders and they said that it was really tight and kind of twisted already.,negative,0.6007,False,False,False,False,False
+en_CA_Insurance_1590855,22,agent,channel1,10,165.52,180.32,"Okay, so we'll put in an injury claim as well. And that way you get up to 30 chiropractic visits",neutral,0.8577,False,False,False,False,False
+en_CA_Insurance_1590855,23,customer,channel2,13,170.0,176.0,I should go back right away again to the driver for a second.,neutral,0.813,False,False,False,False,False
+en_CA_Insurance_1590855,24,customer,channel2,14,176.0,181.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,25,customer,channel2,15,181.0,187.0,"Oh, great.",positive,0.9618,False,False,False,False,False
+en_CA_Insurance_1590855,26,agent,channel1,11,182.0,190.24,"covered. Yeah, or I mean, there's there's other healthcare professionals you could you could see",neutral,0.8529,False,False,False,False,False
+en_CA_Insurance_1590855,27,agent,channel1,12,190.24,198.48,as well. And depending on your if you have a supplementary healthcare plan like between that,neutral,0.882,False,False,False,False,False
+en_CA_Insurance_1590855,28,agent,channel1,13,198.48,205.92,"and the MPI coverage, you could do your claim through the MPI coverage. First,",neutral,0.9144,False,False,False,False,False
+en_CA_Insurance_1590855,29,agent,channel1,14,207.92,213.52,"is what I would suggest. And then if you find that the 30 treatments are not enough,",neutral,0.5587,False,False,False,False,False
+en_CA_Insurance_1590855,30,customer,channel2,16,211.0,221.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,31,agent,channel1,15,214.64,218.8,your provider can request additional treatment on your behalf.,neutral,0.9148,False,False,False,False,False
+en_CA_Insurance_1590855,32,agent,channel1,16,220.64,226.16,"Okay, so definitely take advantage of that. I will send you",positive,0.713,False,False,False,False,False
+en_CA_Insurance_1590855,33,agent,channel1,17,229.52,234.4,some paperwork with regards to that that you can take with you to your your providers.,neutral,0.9134,False,False,False,False,False
+en_CA_Insurance_1590855,34,agent,channel1,18,235.44,239.68,And then they'll be able to put the claims through to us automatically.,neutral,0.8854,False,False,False,False,False
+en_CA_Insurance_1590855,35,agent,channel1,19,240.0,250.08,"So, okay, so back to the vehicle. Where is the damage primarily?",neutral,0.6702,False,False,True,False,False
+en_CA_Insurance_1590855,36,customer,channel2,17,241.0,261.0,"It is on the passenger front side, like the front fender and passenger doors.",neutral,0.9337,False,False,False,False,False
+en_CA_Insurance_1590855,37,agent,channel1,20,257.44,264.16,"Okay, door and fender. So the light as the headlight as well. The hood. Okay.",neutral,0.8133,False,False,False,False,False
+en_CA_Insurance_1590855,38,customer,channel2,18,261.0,270.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_CA_Insurance_1590855,39,agent,channel1,21,264.56,269.36,Is the car still drivable?,neutral,0.9261,False,False,True,False,False
+en_CA_Insurance_1590855,40,customer,channel2,19,271.0,286.0,"Yes, but it will rub. The alignment is off.",neutral,0.4846,False,False,False,False,False
+en_CA_Insurance_1590855,41,agent,channel1,22,275.12,284.0,Okay. Do you plan to drive it until it can be fixed? Or do you have other other ways of getting,neutral,0.8304,False,False,True,False,False
+en_CA_Insurance_1590855,42,agent,channel1,23,285.12,285.6,to places?,neutral,0.8521,False,False,True,False,False
+en_CA_Insurance_1590855,43,agent,channel1,24,285.6,294.96,For sure. Yep.,positive,0.7096,False,False,False,False,False
+en_CA_Insurance_1590855,44,customer,channel2,20,286.0,294.0,I have other means of transportation. I'd rather not drive it worse because the tire is kind of like rubbing against the fender as well.,negative,0.6496,False,False,False,False,False
+en_CA_Insurance_1590855,45,customer,channel2,21,294.0,310.0,"So I can drive it if I need to, but I don't really want to to make it worse, you know.",negative,0.6393,False,False,False,False,False
+en_CA_Insurance_1590855,46,agent,channel1,25,298.56,301.84,"Yeah, we definitely advise you not to, but understand that, you know,",neutral,0.7055,False,False,False,False,False
+en_CA_Insurance_1590855,47,agent,channel1,26,304.0,308.72,sometimes driving can be a necessity. So but it's good to hear you have other means. So,positive,0.6435,False,False,False,False,False
+en_CA_Insurance_1590855,48,agent,channel1,27,308.8,316.16,"what you'll need to do, though, is to get the vehicle to one of our claim centers so that the",neutral,0.9344,False,False,True,False,False
+en_CA_Insurance_1590855,49,customer,channel2,22,310.0,323.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,50,agent,channel1,28,316.16,324.0,adjusters can take a look. And we have six different service centers in Winnipeg. So you can,neutral,0.8553,False,False,False,False,False
+en_CA_Insurance_1590855,51,customer,channel2,23,323.0,347.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,52,agent,channel1,29,324.0,330.8,"choose at your convenience, you can go online and choose which one you want. And you can",neutral,0.799,False,False,False,False,False
+en_CA_Insurance_1590855,53,agent,channel1,30,330.88,339.12,"make your appointment online. When this call ends, I will be sending you an email with your claim",neutral,0.8845,False,False,False,False,False
+en_CA_Insurance_1590855,54,agent,channel1,31,339.12,345.52,number and claim information. And you'll need that for booking your appointment at the claim center.,neutral,0.9292,False,False,False,False,False
+en_CA_Insurance_1590855,55,customer,channel2,24,347.0,369.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,56,agent,channel1,32,347.68,351.52,"Okay. And then when you go to the claim center, you're also going to have to discuss",neutral,0.8959,False,False,False,False,False
+en_CA_Insurance_1590855,57,agent,channel1,33,352.8,357.84,the detail of your collision with the adjuster as well.,neutral,0.8878,False,False,False,False,False
+en_CA_Insurance_1590855,58,agent,channel1,34,358.8,362.16,They will do sort of like an interview with you to determine,neutral,0.9311,False,False,False,False,False
+en_CA_Insurance_1590855,59,agent,channel1,35,364.88,367.92,"what happened, who's at fault, etc.",negative,0.5717,False,False,True,False,False
+en_CA_Insurance_1590855,60,customer,channel2,25,369.0,376.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,61,agent,channel1,36,370.16,376.56,And that'll all get taken care of on site. So definitely leave yourself at least an hour of,neutral,0.6234,False,False,False,False,False
+en_CA_Insurance_1590855,62,customer,channel2,26,376.0,386.0,"And are those appointments only available like Monday to Friday daytime hours, you know?",neutral,0.9469,False,False,False,False,False
+en_CA_Insurance_1590855,63,agent,channel1,37,376.56,378.0,time for that appointment.,neutral,0.8738,False,False,False,False,False
+en_CA_Insurance_1590855,64,agent,channel1,38,378.16,385.2,"There's also Saturdays now. But they are popular, so it might be a few weeks before you can get in.",neutral,0.7812,False,False,False,False,False
+en_CA_Insurance_1590855,65,agent,channel1,39,385.92,393.12,"Whereas if you can get in during the weekday, you'll get a much sooner appointment.",neutral,0.7769,False,False,True,False,False
+en_CA_Insurance_1590855,66,customer,channel2,27,386.0,403.0,"Oh, okay, great.",positive,0.925,False,False,False,False,False
+en_CA_Insurance_1590855,67,agent,channel1,40,394.32,399.28,"So depending on, you know, what your priorities are, you can decide.",neutral,0.8745,False,False,False,False,False
+en_CA_Insurance_1590855,68,agent,channel1,41,399.28,403.28,Yep. Okay.,positive,0.5342,False,False,False,False,False
+en_CA_Insurance_1590855,69,customer,channel2,28,403.0,411.0,And do I need to bring any other specific documents that appointment other than like my driver's business and also my car insurance or proof insurance?,neutral,0.8992,False,False,False,False,False
+en_CA_Insurance_1590855,70,agent,channel1,42,406.4,414.56,Yeah. Payment wouldn't be required that day because the adjuster has to kind of go through,neutral,0.8531,False,False,False,False,False
+en_CA_Insurance_1590855,71,customer,channel2,29,411.0,419.0,Because I don't think I might fault for this one and I don't want to have to pay my deductible and the other person's deductible.,negative,0.7037,False,False,False,False,False
+en_CA_Insurance_1590855,72,agent,channel1,43,414.56,419.28,"everything. And while you're doing your job, you're not going to be able to get in.",negative,0.7246,False,False,False,False,False
+en_CA_Insurance_1590855,73,customer,channel2,30,419.0,448.0,But will they require anything?,neutral,0.7595,False,False,False,False,False
+en_CA_Insurance_1590855,74,agent,channel1,44,419.28,423.28,"And you're not going to be able to get in, you're not going to be able to get in.",negative,0.8017,False,False,False,False,False
+en_CA_Insurance_1590855,75,agent,channel1,45,423.28,427.28,"You're not going to be able to get in, you're not going to be able to get in.",negative,0.6941,False,False,False,False,False
+en_CA_Insurance_1590855,76,agent,channel1,46,428.24,432.96,"And while you're doing your interview, your vehicle will undergo a full inspection",neutral,0.8902,False,False,False,False,False
+en_CA_Insurance_1590855,77,agent,channel1,47,433.92,439.36,"and that they will determine what needs to be fixed, the estimate of the cost,",neutral,0.672,False,False,False,False,False
+en_CA_Insurance_1590855,78,agent,channel1,48,440.24,448.96,"whether the car is totaled or not, and all those details. So",negative,0.5646,False,False,False,False,False
+en_CA_Insurance_1590855,79,customer,channel2,31,448.0,471.0,"Well, I have to do it that way.",neutral,0.6704,False,False,False,False,False
+en_CA_Insurance_1590855,80,agent,channel1,49,451.92,456.32,"and then at the end of your appointment, you'll be able to take the car either whole",neutral,0.8927,False,False,False,False,False
+en_CA_Insurance_1590855,81,agent,channel1,50,456.4,469.04,"or to a body shop. If it is determined to be totaled, then you'd have to return and",neutral,0.7158,False,False,False,False,False
+en_CA_Insurance_1590855,82,agent,channel1,51,469.04,475.68,"surrender the vehicle. No, not that day. You can choose when you come to",neutral,0.6812,False,False,False,False,False
+en_CA_Insurance_1590855,83,customer,channel2,32,471.0,493.0,What I have to do it that day.,neutral,0.8824,False,False,False,False,False
+en_CA_Insurance_1590855,84,agent,channel1,52,478.0,482.0,"turn over the vehicle. And when you do that, there's some other additional paperwork you",neutral,0.871,False,False,False,False,False
+en_CA_Insurance_1590855,85,agent,channel1,53,482.0,488.8,"would have to fill in at that time at the service center. But hopefully, you won't come to that.",neutral,0.6886,False,False,False,False,False
+en_CA_Insurance_1590855,86,agent,channel1,54,490.64,492.4,Was there any police on the scene?,neutral,0.9267,False,False,True,False,False
+en_CA_Insurance_1590855,87,agent,channel1,55,492.64,494.64,No.,neutral,0.561,False,False,False,False,False
+en_CA_Insurance_1590855,88,customer,channel2,33,493.0,498.0,"Yeah, there was because I was, like I said, I was turning westbound on a firmware.",neutral,0.9031,False,False,False,False,False
+en_CA_Insurance_1590855,89,customer,channel2,34,498.0,505.0,"And as I call through and I might be late, the other car ran a red light and collided with me.",negative,0.5965,False,False,False,False,False
+en_CA_Insurance_1590855,90,customer,channel2,35,505.0,512.0,And so there's a lot of people like me right now because it's totaled and it includes real fun.,positive,0.8803,False,False,False,False,False
+en_CA_Insurance_1590855,91,agent,channel1,56,505.52,507.52,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,92,customer,channel2,36,512.0,516.0,"But actually, yeah, so the police came and had to like tape off.",neutral,0.639,False,False,False,False,False
+en_CA_Insurance_1590855,93,agent,channel1,57,513.04,515.52,"Wow, okay.",positive,0.7192,False,False,False,False,False
+en_CA_Insurance_1590855,94,agent,channel1,58,515.68,517.68,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,95,customer,channel2,37,516.0,520.0,I think there was too much blast everywhere and they're coming up with a boulevard.,negative,0.7886,False,False,False,False,False
+en_CA_Insurance_1590855,96,customer,channel2,38,520.0,521.0,So I got away okay.,positive,0.64,False,False,False,False,False
+en_CA_Insurance_1590855,97,customer,channel2,39,521.0,532.0,"But yeah, I also have a witness report just saying that they ran through the red light and not me.",neutral,0.5814,False,False,False,False,False
+en_CA_Insurance_1590855,98,agent,channel1,59,526.88,531.28,"Oh, perfect. Okay. So do you have the police report number?",neutral,0.5366,False,False,True,False,False
+en_CA_Insurance_1590855,99,customer,channel2,40,532.0,541.0,2430.,neutral,0.802,False,False,False,False,False
+en_CA_Insurance_1590855,100,agent,channel1,60,533.76,536.56,"Okay, if you could give me that number and I'll add it to the file.",neutral,0.8566,False,False,False,False,False
+en_CA_Insurance_1590855,101,agent,channel1,61,536.56,550.24,"243093xlt. Okay, great. And do you have the name of the officer? It should be on the top right of that.",positive,0.7336,False,False,True,False,False
+en_CA_Insurance_1590855,102,customer,channel2,41,541.0,543.0,93.,neutral,0.6615,False,False,False,False,False
+en_CA_Insurance_1590855,103,customer,channel2,42,543.0,551.0,XLT.,neutral,0.8361,False,False,False,False,False
+en_CA_Insurance_1590855,104,customer,channel2,43,551.0,564.0,I just have Jones.,neutral,0.7849,False,False,False,False,False
+en_CA_Insurance_1590855,105,agent,channel1,62,552.88,561.36,"Jones, okay. That should be enough for us to put that in there. And then the name,",neutral,0.7611,False,False,False,False,False
+en_CA_Insurance_1590855,106,agent,channel1,63,561.36,562.96,do you have the name and number of your witness?,neutral,0.9477,False,False,True,False,False
+en_CA_Insurance_1590855,107,agent,channel1,64,562.96,566.8,"Alice, okay.",neutral,0.5844,False,False,False,False,False
+en_CA_Insurance_1590855,108,customer,channel2,44,564.0,567.0,"Yep, it's Alice.",neutral,0.6318,False,False,False,False,False
+en_CA_Insurance_1590855,109,customer,channel2,45,567.0,573.0,Last name is Fisher.,neutral,0.9184,False,False,False,False,False
+en_CA_Insurance_1590855,110,agent,channel1,65,570.72,574.88,Fisher as S-H-E-R. Okay. And their number?,neutral,0.9302,False,False,True,False,False
+en_CA_Insurance_1590855,111,customer,channel2,46,573.0,576.0,Yep.,neutral,0.5717,False,False,False,False,False
+en_CA_Insurance_1590855,112,customer,channel2,47,577.0,579.0,204.,neutral,0.7562,False,False,False,False,False
+en_CA_Insurance_1590855,113,customer,channel2,48,579.0,581.0,431.,neutral,0.7313,False,False,False,False,False
+en_CA_Insurance_1590855,114,agent,channel1,66,579.76,588.96,431-9988. Okay. Great. So we may be contracting Alice ahead of your,positive,0.5256,False,False,False,False,False
+en_CA_Insurance_1590855,115,customer,channel2,49,581.0,604.0,9988.,neutral,0.7905,False,False,False,False,False
+en_CA_Insurance_1590855,116,agent,channel1,67,589.44,595.6,service center appointment just to get that in there. Take her statement as well.,neutral,0.8877,False,False,False,False,False
+en_CA_Insurance_1590855,117,agent,channel1,68,598.0,602.64,"But it sounds like it's going to be pretty clear, pretty clear case for you.",positive,0.9103,False,False,False,False,False
+en_CA_Insurance_1590855,118,agent,channel1,69,603.92,609.76,But it's great that you have a witness. And just so you know that if you ever were found at,positive,0.8622,False,False,False,False,False
+en_CA_Insurance_1590855,119,customer,channel2,50,604.0,607.0,I hope so.,positive,0.6713,False,False,False,False,False
+en_CA_Insurance_1590855,120,customer,channel2,51,607.0,619.0,"Yeah, the other way.",neutral,0.6973,False,False,False,False,False
+en_CA_Insurance_1590855,121,agent,channel1,70,609.76,614.8,"fault because it's no fault insurance, you would not have to pay the deductible of the other",neutral,0.6477,False,False,False,False,False
+en_CA_Insurance_1590855,122,agent,channel1,71,614.8,621.28,"person. You only ever have to pay your own if you're found at fault. Yeah, common misconception. Yeah.",negative,0.7445,False,False,False,False,False
+en_CA_Insurance_1590855,123,customer,channel2,52,619.0,620.0,"Oh, that's great.",positive,0.978,False,False,False,False,False
+en_CA_Insurance_1590855,124,customer,channel2,53,620.0,621.0,I saw that.,neutral,0.7586,False,False,False,False,False
+en_CA_Insurance_1590855,125,customer,channel2,54,621.0,623.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_CA_Insurance_1590855,126,customer,channel2,55,623.0,625.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,127,agent,channel1,72,623.12,631.44,"So, and I see that you have this $300 deductible on this vehicle with, and you've opted out of",neutral,0.5468,False,False,False,False,False
+en_CA_Insurance_1590855,128,customer,channel2,56,625.0,645.0,"Yeah, that's fine.",positive,0.6587,False,False,False,False,False
+en_CA_Insurance_1590855,129,agent,channel1,73,631.44,640.08,"loss of use. So it doesn't qualify for a rental, but you did mention you had other means. So",negative,0.4922,False,False,False,False,False
+en_CA_Insurance_1590855,130,agent,channel1,74,640.8,644.8,that should be fine. Okay.,positive,0.5265,False,False,False,False,False
+en_CA_Insurance_1590855,131,customer,channel2,57,645.0,650.0,"And then roughly how long, like if I can get it in seen in just the next week,",neutral,0.9,False,False,False,False,False
+en_CA_Insurance_1590855,132,customer,channel2,58,650.0,658.0,roughly how long would it take or does that depend on like the service center where I go to get the repair stuff.,neutral,0.9234,False,False,False,False,False
+en_CA_Insurance_1590855,133,agent,channel1,75,656.64,662.4,"From the time of your appointment, it's usually three business days that you'll get a report",neutral,0.9101,False,False,False,False,False
+en_CA_Insurance_1590855,134,agent,channel1,76,663.2,669.28,and instructions for the next steps. And you can take that estimate to any,neutral,0.8319,False,False,False,False,False
+en_CA_Insurance_1590855,135,agent,channel1,77,671.04,677.36,approved collision center to have it worked on. You may want to start calling around to see if they,neutral,0.8649,False,False,False,False,False
+en_CA_Insurance_1590855,136,agent,channel1,78,677.36,687.12,"have availability in the coming weeks. It can, it can certainly be a nightmare. So",negative,0.8204,False,False,False,False,False
+en_CA_Insurance_1590855,137,customer,channel2,59,680.0,701.0,"Oh yeah, I've heard it for like six weeks at this point.",neutral,0.7432,False,False,False,False,False
+en_CA_Insurance_1590855,138,agent,channel1,79,688.96,694.08,"if you ever, if you're able to get some referrals from family or friends over a reputable,",neutral,0.8192,False,False,False,False,False
+en_CA_Insurance_1590855,139,agent,channel1,80,694.08,697.6,you definitely encourage you to do so.,positive,0.8079,False,False,False,False,False
+en_CA_Insurance_1590855,140,customer,channel2,60,701.0,702.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Insurance_1590855,141,customer,channel2,61,702.0,710.0,"And then I guess I'll have to do now, I'll wait for the email from you and then I'll call one in the center and then I'll just go with the adjuster from there if I have any questions.",neutral,0.9023,False,False,False,False,False
+en_CA_Insurance_1590855,142,customer,channel2,62,710.0,712.0,Is that right?,neutral,0.8808,False,False,False,False,False
+en_CA_Insurance_1590855,143,agent,channel1,81,710.4,717.76,Absolutely. And I'm also sending the health claim along information as well.,neutral,0.8536,False,False,False,False,False
+en_CA_Insurance_1590855,144,customer,channel2,63,712.0,723.0,Perfect.,positive,0.9075,False,False,False,False,False
+en_CA_Insurance_1590855,145,agent,channel1,82,719.76,721.68,Okay. So any other questions?,neutral,0.8975,False,False,True,False,False
+en_CA_Insurance_1590855,146,customer,channel2,64,723.0,724.0,I don't think so.,neutral,0.7168,False,False,False,False,False
+en_CA_Insurance_1590855,147,customer,channel2,65,724.0,728.0,That's good.,positive,0.9621,False,False,False,False,False
+en_CA_Insurance_1590855,148,agent,channel1,83,724.08,736.8,"Okay. Well, I hope that you have a better day. Bye.",positive,0.859,False,False,False,False,False
+en_CA_Insurance_1590855,149,customer,channel2,66,728.0,729.0,Great.,positive,0.8796,False,False,False,False,False
+en_CA_Insurance_1590855,150,customer,channel2,67,729.0,731.0,Thank you so much.,positive,0.9602,False,False,False,False,False
+en_CA_Insurance_1590855,151,customer,channel2,68,731.0,733.0,Bye.,neutral,0.6078,False,False,False,False,False

@@ -1,0 +1,174 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_Health_1590851,channel1,1,0.0,7.0,"Center as well, center."
+en_CA_Health_1590851,channel1,2,7.0,20.0,How may I help you?
+en_CA_Health_1590851,channel1,3,20.0,47.0,"Okay, can I grab your last name and just make sure I have your profile loaded here."
+en_CA_Health_1590851,channel1,4,48.0,58.0,And your date of birth.
+en_CA_Health_1590851,channel1,5,58.0,62.0,Okay.
+en_CA_Health_1590851,channel1,6,62.0,64.0,"Oh yeah, Susan got it."
+en_CA_Health_1590851,channel1,7,64.0,65.0,Okay.
+en_CA_Health_1590851,channel1,8,65.0,66.0,Let's see.
+en_CA_Health_1590851,channel1,9,66.0,76.0,So Dr. B is does have some availability late next week.
+en_CA_Health_1590851,channel1,10,76.0,91.0,But only late in the afternoon. Does that work for you?
+en_CA_Health_1590851,channel1,11,91.0,95.0,Both Thursday and Friday.
+en_CA_Health_1590851,channel1,12,95.0,109.0,Dr. B has 330 and 430.
+en_CA_Health_1590851,channel1,13,109.0,111.0,"Okay, sure."
+en_CA_Health_1590851,channel1,14,111.0,122.0,I'll put you in there.
+en_CA_Health_1590851,channel1,15,122.0,129.0,Okay.
+en_CA_Health_1590851,channel1,16,129.0,143.0,"I can see a bunch of them on here, but how about you tell me which of them that you need refills for?"
+en_CA_Health_1590851,channel1,17,143.0,147.0,"Okay, is that the 10 or the 30 milligram?"
+en_CA_Health_1590851,channel1,18,147.0,153.0,Okay.
+en_CA_Health_1590851,channel1,19,153.0,165.0,Okay.
+en_CA_Health_1590851,channel1,20,165.0,169.0,Was that the patch of the cream?
+en_CA_Health_1590851,channel1,21,169.0,176.0,Okay.
+en_CA_Health_1590851,channel1,22,176.0,180.0,"Right. Okay. And those are the, those are the five milligram, right?"
+en_CA_Health_1590851,channel1,23,180.0,205.0,Okay.
+en_CA_Health_1590851,channel1,24,205.0,215.0,"Yeah, that's a really good question."
+en_CA_Health_1590851,channel1,25,215.0,224.0,I'm going to flag that for Dr. B so that he can discuss that with you at the appointment.
+en_CA_Health_1590851,channel1,26,224.0,228.0,"But you mentioned 10 years, that's been a long time."
+en_CA_Health_1590851,channel1,27,228.0,242.0,I'm thinking we should probably send you for labs before your appointment just to make sure that it's the correct dose for you.
+en_CA_Health_1590851,channel1,28,242.0,251.0,"Okay, so I'm"
+en_CA_Health_1590851,channel1,29,251.0,258.0,"just because it changes over time, I think it would be good to do the labs."
+en_CA_Health_1590851,channel1,30,258.0,264.0,I'm going to send you a requisition to the email I have on file.
+en_CA_Health_1590851,channel1,31,264.0,273.0,And we'll just make sure that we have that make sure that you do that at least a week before it's next week.
+en_CA_Health_1590851,channel1,32,273.0,285.0,"Okay, so you're going to have to do it in the next couple of days, unfortunately, just to make sure we have the results ready to discuss with Dr. B next Friday."
+en_CA_Health_1590851,channel1,33,285.0,308.0,Yeah.
+en_CA_Health_1590851,channel1,34,308.0,315.0,Do you have enough doses to last until Friday?
+en_CA_Health_1590851,channel1,35,315.0,323.0,Okay.
+en_CA_Health_1590851,channel1,36,323.0,332.0,"Okay, Dr. B is going to want to discuss all of the prescriptions with you when you meet with him."
+en_CA_Health_1590851,channel1,37,332.0,346.0,"But I will ask him to expedite the well buterin so that you can pick that up probably if not tomorrow, the next day it'll be in."
+en_CA_Health_1590851,channel1,38,346.0,351.0,So that way you won't run out.
+en_CA_Health_1590851,channel1,39,351.0,359.0,But then he'll want to do a medication review with you when you meet on Friday.
+en_CA_Health_1590851,channel1,40,359.0,381.0,"Yeah, so at least I have a list of all the prescriptions that you want refilled and then you'll discuss that with Dr. B on Friday."
+en_CA_Health_1590851,channel1,41,381.0,383.0,Yeah.
+en_CA_Health_1590851,channel1,42,383.0,386.0,For sure. Let me just take a look.
+en_CA_Health_1590851,channel1,43,386.0,389.0,It's a typical hormone panel.
+en_CA_Health_1590851,channel1,44,389.0,399.0,"So no, you don't need to do any fasting. It doesn't need to be first thing in the morning. Anytime is okay."
+en_CA_Health_1590851,channel1,45,399.0,412.0,And you'll have to do a urine sample as well. So make sure that you've prepared.
+en_CA_Health_1590851,channel1,46,412.0,428.0,"No, it doesn't need to be the first of the day. Just just make sure your tank is full."
+en_CA_Health_1590851,channel1,47,428.0,432.0,Yep. For sure.
+en_CA_Health_1590851,channel1,48,432.0,438.0,"Yep, yep."
+en_CA_Health_1590851,channel1,49,438.0,451.0,"A lot of them are combined on the same vial, but I think it's going to be at least three vials, but no more than five."
+en_CA_Health_1590851,channel1,50,451.0,458.0,"Yes, definitely. Have a soda ready for afterwards."
+en_CA_Health_1590851,channel1,51,481.0,491.0,Right.
+en_CA_Health_1590851,channel1,52,491.0,496.0,So the building that we're currently in.
+en_CA_Health_1590851,channel1,53,496.0,508.0,It looks like the hospital is going to be taking it over and converting a lot of the existing office spaces to critical care spaces.
+en_CA_Health_1590851,channel1,54,508.0,513.0,So we are in the process of finding a new location.
+en_CA_Health_1590851,channel1,55,513.0,519.0,We haven't found it yet. We still have another year on the lease before this happens.
+en_CA_Health_1590851,channel1,56,519.0,529.0,"But once we know where we're going to be moving, we will send a notice out to all the patients about our new location."
+en_CA_Health_1590851,channel1,57,529.0,537.0,"And at that point, so long as the location is still fine for you, you can continue to be our patient as usual."
+en_CA_Health_1590851,channel1,58,537.0,553.0,"But if you find that the location is really bad for you or inaccessible, then certainly you can decide to find a different position."
+en_CA_Health_1590851,channel1,59,553.0,556.0,Absolutely. Yeah.
+en_CA_Health_1590851,channel1,60,556.0,572.0,"Yeah, we're looking to be still somewhat central, but yeah, I agree with you about the parking. That's such a pain."
+en_CA_Health_1590851,channel1,61,572.0,579.0,Exactly. Exactly.
+en_CA_Health_1590851,channel1,62,579.0,584.0,"Yeah. Yeah. I mean, ideally it would be nice because there's a whole bunch of us."
+en_CA_Health_1590851,channel1,63,584.0,588.0,There's at least six clinics that would have to move out of this building.
+en_CA_Health_1590851,channel1,64,588.0,606.0,"And we are sort of looking together to see if we can still stick together because there's still like a lot of, like we work, you know, we have, it's nice to have GPs with orthopedics and with pediatrics and so we can, you know, just keep it all in one building, but an imaging especially."
+en_CA_Health_1590851,channel1,65,606.0,611.0,But we still have to sort of find the right spot.
+en_CA_Health_1590851,channel1,66,611.0,616.0,"So whether we have a pharmacy or not, I'm not totally sure."
+en_CA_Health_1590851,channel1,67,616.0,634.0,"Speaking of pharmacies, did you want, when these refills do you go through, do you still want it to go to the shoppers on main or did you want them to go to a different pharmacy?"
+en_CA_Health_1590851,channel1,68,634.0,639.0,"Yeah, for sure."
+en_CA_Health_1590851,channel1,69,639.0,644.0,Yeah.
+en_CA_Health_1590851,channel1,70,644.0,646.0,"Yeah, for sure. Okay."
+en_CA_Health_1590851,channel1,71,646.0,651.0,So I've changed that on our end.
+en_CA_Health_1590851,channel1,72,651.0,654.0,Let's see.
+en_CA_Health_1590851,channel1,73,654.0,676.0,"When you do go to see Dr. Dr. B, make sure that you have your health card and your, what's it called?"
+en_CA_Health_1590851,channel1,74,676.0,693.0,"Okay, the name of the document is escaping me."
+en_CA_Health_1590851,channel1,75,693.0,697.0,"That's it. That's exactly it. Yes, my apologies."
+en_CA_Health_1590851,channel1,76,697.0,708.0,"Your X-ray, your test X-ray that you had last year, for some reason, it's not showing up in the e-chart."
+en_CA_Health_1590851,channel1,77,708.0,713.0,"So if you could bring that with you, that would be great."
+en_CA_Health_1590851,channel1,78,713.0,719.0,"So we can, then we can take a photo, like we can take a scan of it and add it to your e-chart here."
+en_CA_Health_1590851,channel1,79,719.0,725.0,Yeah.
+en_CA_Health_1590851,channel1,80,725.0,742.0,"Oh, perfect. Oh, okay. Actually, then if you could email it to Sunrise Clinic at healthcare.ca, that would, and, you know, just be sure to include your name and your health number."
+en_CA_Health_1590851,channel1,81,742.0,757.0,So I'll be able to add it to your file before you come.
+en_CA_Health_1590851,channel1,82,757.0,761.0,"Exactly, exactly. Yep."
+en_CA_Health_1590851,channel1,83,761.0,764.0,Mm-hmm.
+en_CA_Health_1590851,channel1,84,764.0,771.0,"Exactly. Yeah, and we're learning more and more about the long COVID, so hopefully Dr. B"
+en_CA_Health_1590851,channel1,85,771.0,795.0,will have some more updated information for you on that as well.
+en_CA_Health_1590851,channel1,86,795.0,802.0,"Well, and you add in perimenopause and you add in, you know, all of that, and it's quite the concoction."
+en_CA_Health_1590851,channel1,87,802.0,809.0,So great. I think I've got everything from my end that I need for your appointment.
+en_CA_Health_1590851,channel1,88,809.0,820.0,Is there anything else? Any other questions?
+en_CA_Health_1590851,channel1,89,820.0,826.0,"It's Friday, Friday. You're going to get an email, an automatic email. You're going, well, you're going to get two emails."
+en_CA_Health_1590851,channel1,90,826.0,834.0,"You'll get one that confirms the appointment, one that has your lab requisition, and then you're also going to get a text reminder."
+en_CA_Health_1590851,channel1,91,834.0,836.0,Yes.
+en_CA_Health_1590851,channel1,92,836.0,841.0,"Okay. Well, we'll see you next Friday then."
+en_CA_Health_1590851,channel1,93,841.0,849.0,Bye.
+en_CA_Health_1590851,channel1,94,850.0,855.0,You know.
+en_CA_Health_1590851,channel2,1,0.0,22.0,"Hi there, I'm at my scheduled assault with my doctor because I just have a lot more questions"
+en_CA_Health_1590851,channel2,2,22.0,23.0,actually.
+en_CA_Health_1590851,channel2,3,23.0,28.0,"Yeah, so if I could schedule something with Dr. Banana."
+en_CA_Health_1590851,channel2,4,28.0,33.0,"Sorry, I always pronounce that wrong, it's behindana."
+en_CA_Health_1590851,channel2,5,33.0,46.0,"First, sometime ideally within the next week, that would be great."
+en_CA_Health_1590851,channel2,6,46.0,53.0,"Yeah, it's Kepler, K-E-S-S-L-E-R."
+en_CA_Health_1590851,channel2,7,53.0,64.0,"It is March 4th, 1989."
+en_CA_Health_1590851,channel2,8,64.0,84.0,What day in what time?
+en_CA_Health_1590851,channel2,9,84.0,88.0,I have to work around a few work meetings but I can't get out of them.
+en_CA_Health_1590851,channel2,10,88.0,102.0,I need to go to the doctor's office.
+en_CA_Health_1590851,channel2,11,102.0,110.0,"Okay, well I guess 3.30 on maybe Friday?"
+en_CA_Health_1590851,channel2,12,110.0,118.0,"Okay, and then specifically I know they always want to know in advance that they have a paperwork ready"
+en_CA_Health_1590851,channel2,13,118.0,123.0,and so I need four different refills.
+en_CA_Health_1590851,channel2,14,123.0,137.0,"So can I, or does it show on there my current medications or do you need to know if the refills are four right now?"
+en_CA_Health_1590851,channel2,15,137.0,147.0,"Okay, can I please get a two-month refill for well-buttern and then that's the 30."
+en_CA_Health_1590851,channel2,16,147.0,157.0,And then I also need a three-month refill on Conserda and that was just at the 18mg.
+en_CA_Health_1590851,channel2,17,157.0,168.0,And then can I please have the full six-month prescription for the estrogen?
+en_CA_Health_1590851,channel2,18,168.0,170.0,That was the cream.
+en_CA_Health_1590851,channel2,19,170.0,177.0,"And then also to go along with that, can I please have the 90s habit of progesterone?"
+en_CA_Health_1590851,channel2,20,178.0,186.0,"Yeah, and then with that like I know I ask every time and they always say they're looking into it to see if they can update it"
+en_CA_Health_1590851,channel2,21,186.0,191.0,but like my prescription for progesterone and estrogen has changed in like 10 years
+en_CA_Health_1590851,channel2,22,191.0,195.0,but I have to always call every three months to get on that prescription in three month windows
+en_CA_Health_1590851,channel2,23,195.0,197.0,and it's always the same amount.
+en_CA_Health_1590851,channel2,24,197.0,203.0,Is there any way I can get these prescriptions to either have like more refills allotted to them
+en_CA_Health_1590851,channel2,25,203.0,210.0,and I can just go to the pharmacy or is there a way to get a longer prescription for them for like six months or a year
+en_CA_Health_1590851,channel2,26,210.0,213.0,because they haven't changed ever?
+en_CA_Health_1590851,channel2,27,233.0,243.0,"Um, sure, you can do that."
+en_CA_Health_1590851,channel2,28,243.0,251.0,I just did blood I think like six months ago but I don't know if it would have produced levels specific to this prescription that you need.
+en_CA_Health_1590851,channel2,29,263.0,290.0,"Okay, and then with these prescription refills do I have to wait for that meeting?"
+en_CA_Health_1590851,channel2,30,290.0,295.0,Or are you able to send those through like with the blood work paperwork as well as my email
+en_CA_Health_1590851,channel2,31,295.0,301.0,"or can you send them directly to my local pharmacy because they're all new like or they're not new, they're all refills."
+en_CA_Health_1590851,channel2,32,301.0,305.0,"The pharmacy has them, that's where I go to get them."
+en_CA_Health_1590851,channel2,33,305.0,312.0,"They're going to see a pattern of me picking up these prescriptions there, so."
+en_CA_Health_1590851,channel2,34,313.0,319.0,"As a well-viewed room, no, I have enough to get through next Tuesday."
+en_CA_Health_1590851,channel2,35,319.0,326.0,I was hoping to get in sometime later this week but you have an extra visibility because it's the following.
+en_CA_Health_1590851,channel2,36,342.0,367.0,Okay.
+en_CA_Health_1590851,channel2,37,367.0,376.0,"Okay, and then with the blood work paperwork that you're sending me, is it the kind where it has to do it like I have to fast before or I can't get any water."
+en_CA_Health_1590851,channel2,38,376.0,381.0,So I just need to try to wrap it around so I can try to fit this in before work or after work.
+en_CA_Health_1590851,channel2,39,381.0,395.0,It's not that easy to do.
+en_CA_Health_1590851,channel2,40,395.0,403.0,"Any time, okay. So maybe I'll try to get it after work or something."
+en_CA_Health_1590851,channel2,41,403.0,416.0,"Okay, does that one require like not to have gone within the last hour or does that one definitely have to be the first of the day?"
+en_CA_Health_1590851,channel2,42,416.0,419.0,"Okay, sounds good, I think that makes sense."
+en_CA_Health_1590851,channel2,43,419.0,428.0,"And then roughly, I don't know if you know the answer to this, it might be specific to the lab check, but you know roughly how many vials this is, the blood just hits."
+en_CA_Health_1590851,channel2,44,428.0,431.0,I kind of get a little bit blue-y down.
+en_CA_Health_1590851,channel2,45,431.0,437.0,"I just need to like plan ahead, you know."
+en_CA_Health_1590851,channel2,46,437.0,448.0,Okay.
+en_CA_Health_1590851,channel2,47,448.0,451.0,I will make sure I eat.
+en_CA_Health_1590851,channel2,48,451.0,456.0,I'm going to have to bring my hard head over to do that.
+en_CA_Health_1590851,channel2,49,456.0,458.0,"Yeah, no kidding."
+en_CA_Health_1590851,channel2,50,458.0,462.0,My good luck cookie.
+en_CA_Health_1590851,channel2,51,462.0,464.0,"Yeah, okay."
+en_CA_Health_1590851,channel2,52,464.0,475.0,"You know what, while I have it on my phone, I just had to turn through another friend of mine who called for us through the same clinic that Dr. B was considering using the practice."
+en_CA_Health_1590851,channel2,53,475.0,491.0,"I don't know if you are able to confirm that or not, but if that is the case, will we be transferred to a different doctor at the same clinic, or will we have to go find our own doctor independently?"
+en_CA_Health_1590851,channel2,54,491.0,501.0,"Okay, so I'm going to do my check, which is for example, so you guys are going to find the client that's going to be here the next day."
+en_CA_Health_1590851,channel2,55,501.0,510.0,"Okay, so I'm going to show you a little bit more, because the client will be trying to get the client off his phone."
+en_CA_Health_1590851,channel2,56,510.0,520.0,So the client will be trying to get the client off his phone.
+en_CA_Health_1590851,channel2,57,520.0,527.0,So the new mechanism is that the client will be trying to get off his phone.
+en_CA_Health_1590851,channel2,58,527.0,547.0,"So the client will be trying to get the client off his phone, and the client will be trying to get off his phone."
+en_CA_Health_1590851,channel2,59,547.0,562.0,"Oh, okay, well that's not bad then, so the portfolio is just in the move to just a different location, which hopefully better parking, so."
+en_CA_Health_1590851,channel2,60,562.0,573.0,"Yeah, it is. I mean, it's been nice being close to the hospital for like big things, but at the same time, you know, we're still nearby and it's not like threatening anything to be alright, so."
+en_CA_Health_1590851,channel2,61,573.0,588.0,"Okay. Oh, well the new building has the pharmacy built into it, or you don't have the building yet, so I guess you don't know what you're talking about."
+en_CA_Health_1590851,channel2,62,588.0,600.0,Uh-huh.
+en_CA_Health_1590851,channel2,63,600.0,605.0,Uh-huh.
+en_CA_Health_1590851,channel2,64,605.0,628.0,Definitely.
+en_CA_Health_1590851,channel2,65,628.0,636.0,"Oh, yeah, no, let's update that. Can you change that actually to the Stobies on the south end?"
+en_CA_Health_1590851,channel2,66,636.0,647.0,"Yeah, that's much closer. They didn't have the pharmacy beforehand to be our go-to ones now. That's kind of our go-to grocery store combination, everything."
+en_CA_Health_1590851,channel2,67,647.0,669.0,Okay.
+en_CA_Health_1590851,channel2,68,669.0,689.0,"I'm sorry, I can't even think of which one you're thinking of."
+en_CA_Health_1590851,channel2,69,689.0,696.0,"But I would say maybe the defaults from Image 8 last year, but."
+en_CA_Health_1590851,channel2,70,696.0,717.0,"Oh, okay."
+en_CA_Health_1590851,channel2,71,718.0,745.0,"Oh, yeah, sure. I should have that because I had the, it was the sports clinic back then, so I had them emailed me directly, just me and the doctors, so we had a copy of it, which is good, but."
+en_CA_Health_1590851,channel2,72,745.0,761.0,"Oh, that's no problem. I can definitely do that because, yeah, I had to use it last time, or not use it, but I had to bring it up last time when we were talking about the different prescriptions and it was going to have an impact on the long recovery of, you know, that long COVID through to last forever."
+en_CA_Health_1590851,channel2,73,761.0,774.0,And all they ever found was on that image.
+en_CA_Health_1590851,channel2,74,774.0,787.0,"Yeah, I mean, it's so interesting to think like using concern is relatively new, but well, we've been around for so long, and then trying to mix it with the vaccine that they've made for COVID, which are pushed to the door quickly and, you know, rightfully so."
+en_CA_Health_1590851,channel2,75,787.0,798.0,"But now, with the five-year lens, seeing how things are mixing and impacting, it's a whole new study, right?"
+en_CA_Health_1590851,channel2,76,798.0,813.0,"Oh, yeah."
+en_CA_Health_1590851,channel2,77,813.0,833.0,"No, I don't think so, but can you send me a confirmation email to remind me that it's next Thursday at 3.30, but I don't forget. Or was it Friday at 3."
+en_CA_Health_1590851,channel2,78,833.0,838.0,"Oh, perfect. Okay, I should do it."
+en_CA_Health_1590851,channel2,79,838.0,842.0,"Okay, thank you. Bye."

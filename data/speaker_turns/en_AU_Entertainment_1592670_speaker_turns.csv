@@ -1,0 +1,219 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Entertainment_1592670,1,agent,channel1,1,0.0,26.4,Good afternoon. Thank you for calling Sydney Theatre Company. This is Danielle speaking.
+en_AU_Entertainment_1592670,2,customer,channel2,1,0.0,28.0,Thank you.
+en_AU_Entertainment_1592670,3,agent,channel1,2,26.4,28.4,How can I help you today?
+en_AU_Entertainment_1592670,4,customer,channel2,2,28.0,31.0,"Hi, Danielle. My name is Maria."
+en_AU_Entertainment_1592670,5,agent,channel1,3,28.4,51.4,"Oh, that's so sad. Okay. Yeah, I mean, our show's a fantastic. Sorry, I'm going to have to miss it."
+en_AU_Entertainment_1592670,6,customer,channel2,3,31.0,35.0,"Look, I'm calling because I've got a bit of a situation."
+en_AU_Entertainment_1592670,7,customer,channel2,4,35.0,38.0,I bought two tickets online for a show.
+en_AU_Entertainment_1592670,8,customer,channel2,5,38.0,42.0,"But unfortunately, I can't make it anymore,"
+en_AU_Entertainment_1592670,9,customer,channel2,6,42.0,46.0,"and I'm hoping you can, you know, might be able to help me out."
+en_AU_Entertainment_1592670,10,agent,channel1,4,51.4,56.4,"Look, of course, I can help you. I'm sorry to hear you can't make the performance."
+en_AU_Entertainment_1592670,11,agent,channel1,5,56.4,75.4,Can I just start by getting a few details from you? Starting with which show did you book?
+en_AU_Entertainment_1592670,12,customer,channel2,7,59.0,65.0,"Yeah, of course."
+en_AU_Entertainment_1592670,13,customer,channel2,8,65.0,71.0,It was for the picture of Dorian Gray at the Roslyn Packer Theatre in Walsh Bay.
+en_AU_Entertainment_1592670,14,customer,channel2,9,71.0,85.0,"I was really looking forward to it, actually."
+en_AU_Entertainment_1592670,15,agent,channel1,6,75.4,81.4,"That's such a fantastic production too. Oh my God, I've heard so many wonderful things about it."
+en_AU_Entertainment_1592670,16,agent,channel1,7,81.4,92.4,When was your performance scheduled for? Which date?
+en_AU_Entertainment_1592670,17,customer,channel2,10,85.0,88.0,"It's this Saturday night, 14th of December at 7.30."
+en_AU_Entertainment_1592670,18,customer,channel2,11,88.0,90.0,I wish I could make it.
+en_AU_Entertainment_1592670,19,customer,channel2,12,90.0,103.0,I bought the tickets about three weeks ago.
+en_AU_Entertainment_1592670,20,agent,channel1,8,92.4,98.4,"Yeah, look, it's going to be such a shame. Okay, right. Can I just grab your booking reference number?"
+en_AU_Entertainment_1592670,21,agent,channel1,9,98.4,102.4,It should be on the confirmation email just in that top right hand corner if you can see it.
+en_AU_Entertainment_1592670,22,customer,channel2,13,103.0,105.0,"Um, do you mean on the..."
+en_AU_Entertainment_1592670,23,customer,channel2,14,105.0,109.0,"Oh, hang on, on the confirmation, I'm not sure."
+en_AU_Entertainment_1592670,24,customer,channel2,15,109.0,111.0,Let me just pull that up.
+en_AU_Entertainment_1592670,25,customer,channel2,16,111.0,113.0,"Okay, hang on a second."
+en_AU_Entertainment_1592670,26,customer,channel2,17,113.0,118.0,I have to go through...
+en_AU_Entertainment_1592670,27,customer,channel2,18,118.0,132.0,"Here we go. Okay, it's STC-2024-9876."
+en_AU_Entertainment_1592670,28,agent,channel1,10,128.4,150.4,"Okay, thank you. Perfect. So just going to confirm that number. It's Sierra Tango Charlie 20249876."
+en_AU_Entertainment_1592670,29,customer,channel2,19,143.0,164.0,"Um, yeah, that's right."
+en_AU_Entertainment_1592670,30,agent,channel1,11,150.4,156.4,"Okay, perfect. Thank you. Just give me one moment please while I bring up your booking."
+en_AU_Entertainment_1592670,31,agent,channel1,12,156.4,163.4,"All right, Maria, I can see it here. We've got two tickets for Saturday evening, the 14th, premium reserve seating tickets too."
+en_AU_Entertainment_1592670,32,agent,channel1,13,163.4,174.4,Is that correct?
+en_AU_Entertainment_1592670,33,customer,channel2,20,164.0,168.0,"Oh, don't remind me. That's right."
+en_AU_Entertainment_1592670,34,customer,channel2,21,168.0,172.0,I splurged a bit because it was meant to be a special night out with my sister.
+en_AU_Entertainment_1592670,35,customer,channel2,22,172.0,188.0,She's visiting from Melbourne.
+en_AU_Entertainment_1592670,36,agent,channel1,14,174.4,177.4,"Oh, that's such a pity. Okay, yeah, I understand completely."
+en_AU_Entertainment_1592670,37,agent,channel1,15,177.4,183.4,"So what I need to ask you first, Maria, is whether or not is whether your tickets were refundable?"
+en_AU_Entertainment_1592670,38,agent,channel1,16,183.4,195.4,"Unfortunately, it depends on which type of ticket you selected when you made the booking."
+en_AU_Entertainment_1592670,39,customer,channel2,23,188.0,190.0,"Alright, okay."
+en_AU_Entertainment_1592670,40,customer,channel2,24,190.0,193.0,I didn't really pay attention to that when I bought them.
+en_AU_Entertainment_1592670,41,customer,channel2,25,193.0,213.0,Is there a way to check?
+en_AU_Entertainment_1592670,42,agent,channel1,17,195.4,202.4,"Yeah, absolutely. Look, let me just see. I can see that information on my end. Let me just open it."
+en_AU_Entertainment_1592670,43,agent,channel1,18,202.4,209.4,"Yeah, okay, great. So looking at your booking, you purchase standard admission tickets rather than our flex tickets."
+en_AU_Entertainment_1592670,44,agent,channel1,19,209.4,218.4,So the standard tickets do have some restrictions around refunds.
+en_AU_Entertainment_1592670,45,customer,channel2,26,213.0,233.0,Oh no. Does that mean I can't get a refund at all?
+en_AU_Entertainment_1592670,46,agent,channel1,20,218.4,223.4,"Well, look, let me first explain our policy so that you know exactly where you stand."
+en_AU_Entertainment_1592670,47,agent,channel1,21,223.4,230.4,"So our standard tickets are generally non-refundable, but we can make exceptions in certain circumstances."
+en_AU_Entertainment_1592670,48,agent,channel1,22,230.4,247.4,So let me ask what's prevented you from attending.
+en_AU_Entertainment_1592670,49,customer,channel2,27,233.0,237.0,"Yeah, so my sister, the one I was going to go with,"
+en_AU_Entertainment_1592670,50,customer,channel2,28,237.0,243.0,she's had to cancel her trip from Melbourne because her son came down with a pretty bad case of gastro.
+en_AU_Entertainment_1592670,51,customer,channel2,29,243.0,247.0,"Nothing serious, but she needs to stay home and look after him, of course."
+en_AU_Entertainment_1592670,52,agent,channel1,23,247.4,253.4,"Oh my God, Australia. Oh, look, that is so unfortunate. I hope he feels better soon."
+en_AU_Entertainment_1592670,53,agent,channel1,24,253.4,256.4,That's so horrible case of gastro. Wow.
+en_AU_Entertainment_1592670,54,agent,channel1,25,256.4,263.4,"Now, in cases like yours where there is a bit of a family emergency or illness, we may be able to process a refund."
+en_AU_Entertainment_1592670,55,customer,channel2,30,263.0,286.0,"Right, okay. Well, how much would that fee be?"
+en_AU_Entertainment_1592670,56,agent,channel1,26,263.4,271.4,Though I should mention it would be subject to an administration fee.
+en_AU_Entertainment_1592670,57,agent,channel1,27,271.4,278.4,"The admin fee is $15 per ticket, so that would be $30 in total because you purchased two tickets."
+en_AU_Entertainment_1592670,58,agent,channel1,28,278.4,299.4,"The tickets originally were $89 each, so you'd be looking at receiving $148 back rather than the full $178."
+en_AU_Entertainment_1592670,59,customer,channel2,31,287.0,289.0,"Hmm, I see."
+en_AU_Entertainment_1592670,60,customer,channel2,32,289.0,292.0,"Look, that's still better than losing the whole amount, of course,"
+en_AU_Entertainment_1592670,61,customer,channel2,33,292.0,294.0,"but before I decide on the refund,"
+en_AU_Entertainment_1592670,62,customer,channel2,34,294.0,296.0,"can I just ask her about other options,"
+en_AU_Entertainment_1592670,63,customer,channel2,35,296.0,300.0,like is it possible to exchange them for another performance instead?
+en_AU_Entertainment_1592670,64,agent,channel1,29,299.4,304.4,"Yeah, look, that's a great question. And yes, we can definitely look at that option for you."
+en_AU_Entertainment_1592670,65,agent,channel1,30,304.4,307.4,The exchange policy is actually a bit more flexible.
+en_AU_Entertainment_1592670,66,agent,channel1,31,307.4,319.4,"We allow ticket exchanges up to 48 hours before the performance, and there's no fee as long as you're exchanging for the same show."
+en_AU_Entertainment_1592670,67,customer,channel2,36,316.0,325.0,"Oh, that sounds much better."
+en_AU_Entertainment_1592670,68,agent,channel1,32,319.4,330.4,"So you don't even have to make a decision right now, given it's still Tuesday."
+en_AU_Entertainment_1592670,69,customer,channel2,37,325.0,329.0,So you're saying I could pick a different date for the picture of Dorian Gray.
+en_AU_Entertainment_1592670,70,agent,channel1,33,330.4,335.4,"Exactly. Look, let me just check what availability we have."
+en_AU_Entertainment_1592670,71,agent,channel1,34,335.4,339.4,Right. So the show runs until the 5th of January.
+en_AU_Entertainment_1592670,72,agent,channel1,35,339.4,359.4,We've got performances Wednesday through Saturday evenings and the matinees and Saturdays and Sundays at 2pm.
+en_AU_Entertainment_1592670,73,customer,channel2,38,347.0,349.0,"That could work really well, actually."
+en_AU_Entertainment_1592670,74,customer,channel2,39,349.0,352.0,My sister might be able to come up after Christmas.
+en_AU_Entertainment_1592670,75,customer,channel2,40,352.0,354.0,"Hmm, okay."
+en_AU_Entertainment_1592670,76,customer,channel2,41,354.0,358.0,"So what's the availability like, say for late December,"
+en_AU_Entertainment_1592670,77,customer,channel2,42,358.0,364.0,maybe around the 28th or 29th?
+en_AU_Entertainment_1592670,78,agent,channel1,36,360.4,363.4,"Yep, let me have a look for you."
+en_AU_Entertainment_1592670,79,agent,channel1,37,363.4,371.4,"Okay, so Saturday the 28th of December, we have a matinee at 2pm and an evening show at 7.30pm."
+en_AU_Entertainment_1592670,80,agent,channel1,38,371.4,377.4,"Both still have availability in the premium reserve section, so the current ticket section that you did book for."
+en_AU_Entertainment_1592670,81,customer,channel2,43,376.0,389.0,"Perfect, okay."
+en_AU_Entertainment_1592670,82,agent,channel1,39,377.4,384.4,"Sunday the 29th is only an evening performance at 6.30pm, and we've got availability."
+en_AU_Entertainment_1592670,83,agent,channel1,40,384.4,387.4,"Yeah, we've got good availability for that one too."
+en_AU_Entertainment_1592670,84,customer,channel2,44,389.0,390.0,That sounds really good.
+en_AU_Entertainment_1592670,85,customer,channel2,45,390.0,399.0,"So the Saturday evening, I think he said on the 28th would probably be ideal."
+en_AU_Entertainment_1592670,86,customer,channel2,46,399.0,405.0,"Hang on, let me just check my diary."
+en_AU_Entertainment_1592670,87,customer,channel2,47,405.0,406.0,"Hang on a sec, Daniel."
+en_AU_Entertainment_1592670,88,customer,channel2,48,406.0,408.0,"I'm just bringing out my diary, okay."
+en_AU_Entertainment_1592670,89,agent,channel1,41,407.4,419.4,"Yep, that sounds absolutely lovely."
+en_AU_Entertainment_1592670,90,customer,channel2,49,408.0,410.0,So we could actually make a whole day of it.
+en_AU_Entertainment_1592670,91,customer,channel2,50,410.0,413.0,"Maybe grab lunch at the rocks beforehand, I'm thinking."
+en_AU_Entertainment_1592670,92,customer,channel2,51,413.0,430.0,That could actually work really well.
+en_AU_Entertainment_1592670,93,agent,channel1,42,419.4,422.4,"Like, as you know, the rocks is beautiful around this time of year."
+en_AU_Entertainment_1592670,94,agent,channel1,43,422.4,425.4,All the Christmas decorations are still up.
+en_AU_Entertainment_1592670,95,agent,channel1,44,425.4,429.4,"Everyone's still in quite a jolly mood, albeit a three kilos heavier."
+en_AU_Entertainment_1592670,96,agent,channel1,45,429.4,435.4,"But before we process the exchange, I just need to let you know a couple of things."
+en_AU_Entertainment_1592670,97,customer,channel2,52,430.0,450.0,"Okay, any fit cheaper?"
+en_AU_Entertainment_1592670,98,agent,channel1,46,435.4,441.4,"If the tickets for the new date are the same price as what you paid, it's a straight exchange, so very simple."
+en_AU_Entertainment_1592670,99,agent,channel1,47,441.4,449.4,"However, if they are more expensive, you would need to pay the difference."
+en_AU_Entertainment_1592670,100,agent,channel1,48,449.4,453.4,Good question. Let me just have a quick check.
+en_AU_Entertainment_1592670,101,customer,channel2,53,450.0,470.0,"Oh, brilliant."
+en_AU_Entertainment_1592670,102,agent,channel1,49,453.4,458.4,"Yep, so if they're cheaper, we would actually credit the difference to your original payment method."
+en_AU_Entertainment_1592670,103,agent,channel1,50,458.4,463.4,So let me just check the pricing for the 28th.
+en_AU_Entertainment_1592670,104,agent,channel1,51,463.4,482.4,"Oh, Maria, this is great news. Actually, you're in luck. The ticket prices are exactly the same, $89 a ticket."
+en_AU_Entertainment_1592670,105,customer,channel2,54,470.0,472.0,"Okay, that makes it easy then, doesn't it?"
+en_AU_Entertainment_1592670,106,customer,channel2,55,472.0,475.0,"I mean, just out of curiosity though,"
+en_AU_Entertainment_1592670,107,customer,channel2,56,475.0,478.0,what are the refund policy timelines?
+en_AU_Entertainment_1592670,108,customer,channel2,57,478.0,482.0,"Like, say if I wanted to get my money back instead, how long would it take?"
+en_AU_Entertainment_1592670,109,agent,channel1,52,482.4,485.4,"Sure, so let me explain how that works."
+en_AU_Entertainment_1592670,110,agent,channel1,53,485.4,492.4,"Look, if you did decide to proceed with a refund, what would happen is we'd process it within five to seven days."
+en_AU_Entertainment_1592670,111,agent,channel1,54,492.4,499.4,"However, depending on your bank, it can take an additional three to five business days for the funds to appear on the account."
+en_AU_Entertainment_1592670,112,agent,channel1,55,499.4,506.4,"So you'd be looking at roughly two to three, two weeks in total, possibly a bit longer with the Christmas period."
+en_AU_Entertainment_1592670,113,agent,channel1,56,506.4,513.4,"All of the public holidays, all of those bank holiday dates coming up."
+en_AU_Entertainment_1592670,114,customer,channel2,58,509.0,514.0,"Yeah, it's kind of that time of year, isn't it?"
+en_AU_Entertainment_1592670,115,customer,channel2,59,514.0,515.0,"Hmm, okay."
+en_AU_Entertainment_1592670,116,customer,channel2,60,515.0,517.0,"Look, that's really good to know."
+en_AU_Entertainment_1592670,117,customer,channel2,61,517.0,521.0,And is there a deadline for when I'd have to request the refund by?
+en_AU_Entertainment_1592670,118,agent,channel1,57,523.4,532.4,"Yep, so as mentioned earlier on the call, for a standard ticket like yours, refund requests need to be made at least 48 hours before the performance."
+en_AU_Entertainment_1592670,119,agent,channel1,58,532.4,540.4,So your original booking date was Saturday night show. The cutoff would be Thursday the 12th at 7.30pm.
+en_AU_Entertainment_1592670,120,customer,channel2,62,538.0,547.0,"Okay, got it."
+en_AU_Entertainment_1592670,121,agent,channel1,59,540.4,546.4,"Now, after that point, Maria, we can't process refunds even with the admin fee."
+en_AU_Entertainment_1592670,122,customer,channel2,63,547.0,549.0,"So, yep."
+en_AU_Entertainment_1592670,123,customer,channel2,64,549.0,551.0,I guess that'll make sense.
+en_AU_Entertainment_1592670,124,customer,channel2,65,551.0,555.0,And same timeline for exchanges.
+en_AU_Entertainment_1592670,125,agent,channel1,60,553.4,559.4,Correct. So exchanges also need to be done at least 48 hours in advance.
+en_AU_Entertainment_1592670,126,customer,channel2,66,555.0,575.0,"So that's pretty reasonable, I guess."
+en_AU_Entertainment_1592670,127,agent,channel1,61,559.4,567.4,"Though I should mention if you exchange your tickets and then need to change them again, you can do one more exchange free of charge."
+en_AU_Entertainment_1592670,128,agent,channel1,62,567.4,572.4,"After that, there's a $10 per ticket fee for subsequent changes."
+en_AU_Entertainment_1592670,129,customer,channel2,67,575.0,579.0,"Okay, look, I think the exchange is definitely the way to go."
+en_AU_Entertainment_1592670,130,customer,channel2,68,579.0,581.0,At least then I'm not out of pocket.
+en_AU_Entertainment_1592670,131,customer,channel2,69,581.0,584.0,And my sister and I can still see the show together.
+en_AU_Entertainment_1592670,132,agent,channel1,63,582.4,596.4,"Yeah, look, I don't blame her. It is supposed to be an amazing show."
+en_AU_Entertainment_1592670,133,customer,channel2,70,584.0,588.0,"You know, to be honest with you, she'd be devastated if we missed it entirely."
+en_AU_Entertainment_1592670,134,customer,channel2,71,588.0,592.0,She's a huge Oscar Wilde fan.
+en_AU_Entertainment_1592670,135,agent,channel1,64,596.4,599.4,We've had some amazing press for it. I look wonderful.
+en_AU_Entertainment_1592670,136,agent,channel1,65,599.4,602.4,"It really is an excellent production, like I said."
+en_AU_Entertainment_1592670,137,agent,channel1,66,602.4,622.4,"So just to confirm, you'd like me to exchange your two premium reserve tickets from this Saturday the 14th of December at 7.30pm to two weeks later, same show Saturday 28th of December at 7.30pm."
+en_AU_Entertainment_1592670,138,customer,channel2,72,615.0,618.0,Yep.
+en_AU_Entertainment_1592670,139,customer,channel2,73,618.0,639.0,"Okay, yep, that would be perfect."
+en_AU_Entertainment_1592670,140,agent,channel1,67,622.4,628.4,"All right, excellent. So I'll process that for you now. Just be in moment, please."
+en_AU_Entertainment_1592670,141,agent,channel1,68,628.4,632.4,"All right, Maria, that's all done. So your tickets have been exchanged successfully."
+en_AU_Entertainment_1592670,142,agent,channel1,69,632.4,638.4,You'll also receive a new confirmation email shortly with the updated booking details.
+en_AU_Entertainment_1592670,143,customer,channel2,74,639.0,641.0,"Awesome, that was so quick."
+en_AU_Entertainment_1592670,144,customer,channel2,75,641.0,664.0,"Will the new tickets have a different booking reference, Danielle?"
+en_AU_Entertainment_1592670,145,agent,channel1,70,644.4,649.4,No. So the booking reference always stays the same. Just to confirm that again.
+en_AU_Entertainment_1592670,146,agent,channel1,71,649.4,658.4,"That's Sierra Tango Charlie 20249876, but the date and the session time will be updated in the system and on your tickets."
+en_AU_Entertainment_1592670,147,agent,channel1,72,658.4,663.4,"And if you've added the original date to your event calendar, you might want to update that."
+en_AU_Entertainment_1592670,148,agent,channel1,73,663.4,684.4,"Yeah, look, as mentioned, you can do one more free exchange to another date. If you need to cancel completely, the same refund policy would apply."
+en_AU_Entertainment_1592670,149,customer,channel2,76,664.0,665.0,We'll do.
+en_AU_Entertainment_1592670,150,customer,channel2,77,665.0,668.0,"Okay, and just to be absolutely sure."
+en_AU_Entertainment_1592670,151,customer,channel2,78,668.0,673.0,"If something happens and we can't make the new date either, what happens then?"
+en_AU_Entertainment_1592670,152,customer,channel2,79,673.0,674.0,What are my options?
+en_AU_Entertainment_1592670,153,agent,channel1,74,684.4,688.4,We would process a refund minus the $15 per ticket admin fee.
+en_AU_Entertainment_1592670,154,agent,channel1,75,688.4,698.4,"So as long as you requested at least 48 hours before the performance, just to remind you that would be the Thursday, the 26th, so Boxing Day."
+en_AU_Entertainment_1592670,155,customer,channel2,80,699.0,702.0,"Oh, that gives me plenty of flexibility."
+en_AU_Entertainment_1592670,156,customer,channel2,81,702.0,703.0,Thank you so much.
+en_AU_Entertainment_1592670,157,customer,channel2,82,703.0,705.0,"Okay, one more thing."
+en_AU_Entertainment_1592670,158,customer,channel2,83,705.0,708.0,The tickets I bought were e-tickets.
+en_AU_Entertainment_1592670,159,customer,channel2,84,708.0,710.0,Will the new ones come the same way?
+en_AU_Entertainment_1592670,160,agent,channel1,76,710.4,715.4,They sure will. So your new e-tickets will be attached to the confirmation email.
+en_AU_Entertainment_1592670,161,agent,channel1,77,715.4,721.4,"That should have probably come through by now, actually. So you can either print them out or just show them on your phone when you arrive at the theater."
+en_AU_Entertainment_1592670,162,agent,channel1,78,721.4,727.4,"Make sure, though, your phone's charged. We've had so many people called out by flat batteries."
+en_AU_Entertainment_1592670,163,customer,channel2,85,728.0,731.0,"Yep, that would be typical, wouldn't it?"
+en_AU_Entertainment_1592670,164,customer,channel2,86,731.0,736.0,"I mean, I'll make sure to have them printed as a backup because I just..."
+en_AU_Entertainment_1592670,165,customer,channel2,87,736.0,738.0,I'm that kind of person where I just...
+en_AU_Entertainment_1592670,166,customer,channel2,88,738.0,739.0,You know what I mean?
+en_AU_Entertainment_1592670,167,customer,channel2,89,739.0,743.0,I just want to make sure that nothing goes wrong.
+en_AU_Entertainment_1592670,168,customer,channel2,90,743.0,748.0,"And so basically we just show up at the Roslyn Packer Theatre on the night, right?"
+en_AU_Entertainment_1592670,169,agent,channel1,79,746.4,756.4,That's exactly right. So the doors open at 45 minutes before the performance. So 6.45pm for your 7.30pm show.
+en_AU_Entertainment_1592670,170,agent,channel1,80,756.4,762.4,"I'd recommend arriving at least 30 minutes to spare. It does get quite busy, especially on Saturday nights."
+en_AU_Entertainment_1592670,171,customer,channel2,91,758.0,768.0,That's a really good tip.
+en_AU_Entertainment_1592670,172,agent,channel1,81,762.4,766.4,And there are some lovely bars in the foyer if you want to grab a drink before the show.
+en_AU_Entertainment_1592670,173,customer,channel2,92,768.0,769.0,Thank you.
+en_AU_Entertainment_1592670,174,customer,channel2,93,769.0,773.0,We'll probably make a reservation at one of the restaurants nearby and then head over.
+en_AU_Entertainment_1592670,175,customer,channel2,94,773.0,775.0,"Do you have any recommendations, Danielle?"
+en_AU_Entertainment_1592670,176,customer,channel2,95,775.0,776.0,Do you know the area?
+en_AU_Entertainment_1592670,177,agent,channel1,82,776.4,781.4,"Oh my gosh, I sure do. Look, there are so many fantastic spots around Walsh Bay."
+en_AU_Entertainment_1592670,178,agent,channel1,83,781.4,786.4,"If you're after something special, Aria is gorgeous, but you do need to book well in advance."
+en_AU_Entertainment_1592670,179,agent,channel1,84,786.4,792.4,I'm not sure how they would be for any reservations so close to the date.
+en_AU_Entertainment_1592670,180,customer,channel2,96,788.0,808.0,Awesome.
+en_AU_Entertainment_1592670,181,agent,channel1,85,792.4,798.4,"And of course, this time of year. But try your luck. Of course, it's in between that weird, you know, between Christmas and New Year period."
+en_AU_Entertainment_1592670,182,agent,channel1,86,798.4,804.4,"But for something more casual, we've got Grounds Keeper, Willie at Brangaroo. That's also fantastic."
+en_AU_Entertainment_1592670,183,agent,channel1,87,804.4,806.4,And it's just a short walk to the theatre.
+en_AU_Entertainment_1592670,184,customer,channel2,97,808.0,811.0,"Okay, look, I'll look into those."
+en_AU_Entertainment_1592670,185,customer,channel2,98,811.0,815.0,My sister will be really impressed that I've got all these things sorted.
+en_AU_Entertainment_1592670,186,customer,channel2,99,815.0,817.0,Is there anything else I need to know?
+en_AU_Entertainment_1592670,187,customer,channel2,100,817.0,843.0,Okay.
+en_AU_Entertainment_1592670,188,agent,channel1,88,817.4,824.4,"Look, just a couple of quick reminders. The show runs for approximately two hours and 30 minutes with one interval."
+en_AU_Entertainment_1592670,189,agent,channel1,89,824.4,829.4,"There's no late seating, so please make sure you're in the theatre before 7.30pm."
+en_AU_Entertainment_1592670,190,agent,channel1,90,829.4,836.4,"They might not let you in otherwise, so you certainly want to be there well before curtains are drawn."
+en_AU_Entertainment_1592670,191,agent,channel1,91,836.4,842.4,"And if you have any accessibility requirements or questions closer to the date, please just give us a call back."
+en_AU_Entertainment_1592670,192,agent,channel1,92,842.4,860.4,"I'm so glad we could find a solution that works for you, Maria. I hope your nephew feels better soon."
+en_AU_Entertainment_1592670,193,customer,channel2,101,843.0,844.0,Perfect.
+en_AU_Entertainment_1592670,194,customer,channel2,102,844.0,845.0,Thank you so much.
+en_AU_Entertainment_1592670,195,customer,channel2,103,845.0,848.0,"No, we don't have accessibility requirements."
+en_AU_Entertainment_1592670,196,customer,channel2,104,848.0,849.0,But good to know.
+en_AU_Entertainment_1592670,197,customer,channel2,105,849.0,851.0,I think that covers everything.
+en_AU_Entertainment_1592670,198,customer,channel2,106,851.0,852.0,"You've been so helpful, Danielle."
+en_AU_Entertainment_1592670,199,customer,channel2,107,852.0,867.0,I was really worried I'd lost my money completely.
+en_AU_Entertainment_1592670,200,agent,channel1,93,860.4,864.4,And that you and your sister have a wonderful time at the show on the 28th.
+en_AU_Entertainment_1592670,201,agent,channel1,94,864.4,867.4,I'm so glad that you don't actually need to miss it.
+en_AU_Entertainment_1592670,202,customer,channel2,108,867.0,868.0,Thank you so much.
+en_AU_Entertainment_1592670,203,customer,channel2,109,868.0,869.0,We definitely will.
+en_AU_Entertainment_1592670,204,agent,channel1,95,868.4,874.4,"You're very welcome. If you need anything else, please don't hesitate to give us a call back."
+en_AU_Entertainment_1592670,205,customer,channel2,110,869.0,878.0,Thanks again for your help.
+en_AU_Entertainment_1592670,206,agent,channel1,96,874.4,877.4,Enjoy the show and have a lovely rest of your day.
+en_AU_Entertainment_1592670,207,customer,channel2,111,878.0,879.0,You too.
+en_AU_Entertainment_1592670,208,customer,channel2,112,879.0,880.0,Thanks so much.
+en_AU_Entertainment_1592670,209,customer,channel2,113,880.0,885.0,Bye.
+en_AU_Entertainment_1592670,210,agent,channel1,97,881.4,889.4,"Yeah, actually, Maria, just before I do let you go, have you seen if the tickets have come through on your email?"
+en_AU_Entertainment_1592670,211,customer,channel2,114,885.0,890.0,Yep.
+en_AU_Entertainment_1592670,212,customer,channel2,115,890.0,891.0,"Yes, I can see."
+en_AU_Entertainment_1592670,213,customer,channel2,116,891.0,896.0,I just heard a little thing before when we were talking and I just looked while we were talking
+en_AU_Entertainment_1592670,214,customer,channel2,117,896.0,897.0,and they have come through.
+en_AU_Entertainment_1592670,215,customer,channel2,118,897.0,904.0,Thank you.
+en_AU_Entertainment_1592670,216,agent,channel1,98,897.4,903.4,"Okay, perfect. All right. Will all the best and have a merry Christmas when it comes around?"
+en_AU_Entertainment_1592670,217,customer,channel2,119,904.0,905.0,Thanks so much.
+en_AU_Entertainment_1592670,218,customer,channel2,120,905.0,906.0,See you soon.

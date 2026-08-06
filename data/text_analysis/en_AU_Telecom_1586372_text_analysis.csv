@@ -1,0 +1,87 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Telecom_1586372,1,agent,channel1,1,0.0,22.0,"Hi ABC Connection, how can I help you?",neutral,0.7645,False,False,True,False,False
+en_AU_Telecom_1586372,2,customer,channel2,1,0.0,25.72,"Hi, my name's Jenny. I'm just ringing because I'm kind of frustrated. My internet is really,",negative,0.8607,True,False,False,False,False
+en_AU_Telecom_1586372,3,agent,channel1,2,22.0,35.0,"Yeah, I can certainly help and have a look at that.",positive,0.5164,False,False,False,False,False
+en_AU_Telecom_1586372,4,customer,channel2,2,25.72,45.72,really slow and I'm trying to do some work on it on my computer. I've got my account number.,negative,0.6662,False,False,False,False,False
+en_AU_Telecom_1586372,5,agent,channel1,3,35.0,37.0,Thanks Jenny.,positive,0.9045,False,False,False,False,False
+en_AU_Telecom_1586372,6,agent,channel1,4,37.0,44.0,Can I get your full address or if you have your account number with us?,neutral,0.9299,False,False,True,False,False
+en_AU_Telecom_1586372,7,agent,channel1,5,44.0,49.0,"Sure, go ahead.",neutral,0.5404,False,False,False,False,False
+en_AU_Telecom_1586372,8,customer,channel2,3,45.72,61.72,It's 459-1273. Yeah.,neutral,0.7831,False,False,False,False,False
+en_AU_Telecom_1586372,9,agent,channel1,6,49.0,54.0,"Yep. One, two, seven, three, was it?",neutral,0.7729,False,False,True,False,False
+en_AU_Telecom_1586372,10,agent,channel1,7,54.0,65.0,"Okay, and what's your address of connection?",neutral,0.9359,False,False,True,False,False
+en_AU_Telecom_1586372,11,customer,channel2,4,61.72,85.72,"It's 38 Brown Street, Sydney.",neutral,0.9259,False,False,False,False,False
+en_AU_Telecom_1586372,12,agent,channel1,8,65.0,70.0,And what's this number?,neutral,0.8423,False,False,True,False,False
+en_AU_Telecom_1586372,13,agent,channel1,9,70.0,76.0,"Okay, I think I've got it here.",positive,0.7285,False,False,False,False,False
+en_AU_Telecom_1586372,14,agent,channel1,10,76.0,82.0,I'm just checking it and the download and the uploads are looking okay.,positive,0.6671,False,False,False,False,False
+en_AU_Telecom_1586372,15,agent,channel1,11,82.0,92.0,What exactly happens? Why do you say it's not working?,negative,0.6039,False,False,True,False,False
+en_AU_Telecom_1586372,16,customer,channel2,5,85.72,104.72,I'm trying to video calls for my clients and the videos keep freezing. Pretty sure. Yeah.,negative,0.8753,False,False,False,False,False
+en_AU_Telecom_1586372,17,agent,channel1,12,92.0,97.0,Are you sure it's the issues from your end?,neutral,0.7877,False,False,True,False,False
+en_AU_Telecom_1586372,18,agent,channel1,13,97.0,106.0,"Yeah, and how many people are using the internet at the same time at home?",neutral,0.8464,False,False,True,False,False
+en_AU_Telecom_1586372,19,customer,channel2,6,104.72,114.72,"In the place where I am, it's just me. Yeah.",neutral,0.5483,False,False,False,False,False
+en_AU_Telecom_1586372,20,agent,channel1,14,106.0,111.0,"Yeah, just you and it's freezing.",neutral,0.4593,False,False,False,False,False
+en_AU_Telecom_1586372,21,agent,channel1,15,111.0,122.0,And is there a specific time of the day that happens?,neutral,0.948,False,False,True,False,False
+en_AU_Telecom_1586372,22,customer,channel2,7,114.72,137.72,"Well, I work from 9 to 5 and it's basically happening between 9 to 5.",neutral,0.8559,False,False,False,False,False
+en_AU_Telecom_1586372,23,agent,channel1,16,122.0,134.0,"Okay, look from what I see in terms of the speed of your internet, the download and uploads are looking pretty healthy and the lights are looking all green from our end.",positive,0.8599,False,False,False,False,False
+en_AU_Telecom_1586372,24,agent,channel1,17,134.0,145.0,So I'm not too sure. Are you sure it's not your computer at all?,neutral,0.684,False,False,True,False,False
+en_AU_Telecom_1586372,25,customer,channel2,8,137.72,160.72,My computer seems to be fine. Are there any outages in my area?,neutral,0.6777,False,False,False,False,False
+en_AU_Telecom_1586372,26,agent,channel1,18,145.0,152.0,"Well, there hasn't really been any outages. I know that there were storms in the past couple of days.",neutral,0.7724,False,False,False,False,False
+en_AU_Telecom_1586372,27,agent,channel1,19,152.0,163.0,"They do sometimes impact internet quality, but I don't think there are any storms where you are now, is it?",neutral,0.6176,False,False,True,False,False
+en_AU_Telecom_1586372,28,customer,channel2,9,160.72,183.72,"Well, I haven't seen any and the skies look pretty good today.",positive,0.8846,False,False,False,False,False
+en_AU_Telecom_1586372,29,agent,channel1,20,163.0,166.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Telecom_1586372,30,agent,channel1,21,166.0,171.0,"Okay, so one question that I have for you.",neutral,0.8683,False,False,False,False,False
+en_AU_Telecom_1586372,31,agent,channel1,22,171.0,185.0,Have you been using this computer anywhere else with any other internet connection to tell me whether the issue remains or is it just at home that you have issues with it?,neutral,0.6864,False,False,True,False,False
+en_AU_Telecom_1586372,32,customer,channel2,10,183.72,200.72,It's just at home. I have both hoping that you could help me troubleshoot the modem.,neutral,0.6785,False,False,False,False,False
+en_AU_Telecom_1586372,33,agent,channel1,23,185.0,188.0,"Just at home, okay.",neutral,0.5278,False,False,False,False,False
+en_AU_Telecom_1586372,34,agent,channel1,24,188.0,195.0,"All right, have you tried to restart your computer?",neutral,0.8525,False,False,True,False,False
+en_AU_Telecom_1586372,35,agent,channel1,25,195.0,204.0,"Yeah, I can do that.",positive,0.7371,False,False,False,False,False
+en_AU_Telecom_1586372,36,customer,channel2,11,200.72,220.72,Just in case it's a problem in the modem.,neutral,0.7514,False,False,False,False,False
+en_AU_Telecom_1586372,37,agent,channel1,26,204.0,206.0,"Yep, I can do that.",positive,0.8523,False,False,False,False,False
+en_AU_Telecom_1586372,38,agent,channel1,27,206.0,216.0,So make sure you don't have any files or anything that requires internet for saving unsaved.,neutral,0.7762,False,False,False,False,False
+en_AU_Telecom_1586372,39,agent,channel1,28,216.0,222.0,Save everything and then go to your modem.,neutral,0.7262,False,False,False,False,False
+en_AU_Telecom_1586372,40,customer,channel2,12,220.72,232.72,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Telecom_1586372,41,agent,channel1,29,222.0,227.0,What do you see on your modem is there should be two lights.,neutral,0.838,False,False,True,False,False
+en_AU_Telecom_1586372,42,agent,channel1,30,227.0,240.0,"One is green, constant green, and the other one is flashing green. Is that right?",neutral,0.8188,False,False,True,False,False
+en_AU_Telecom_1586372,43,customer,channel2,13,232.72,247.72,"Yes. Let me just double check. Yeah, that's right.",positive,0.5563,False,False,False,False,False
+en_AU_Telecom_1586372,44,agent,channel1,31,240.0,250.0,"So that's already a good sign that you have in there, but next to it, you will see your power button.",positive,0.6732,False,False,False,False,False
+en_AU_Telecom_1586372,45,customer,channel2,14,247.72,270.72,"Oh, yeah. Okay, yeah.",positive,0.616,False,False,False,False,False
+en_AU_Telecom_1586372,46,agent,channel1,32,250.0,252.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Telecom_1586372,47,agent,channel1,33,252.0,259.0,"So to start, press the power button for like 10 seconds.",neutral,0.9198,False,False,False,False,False
+en_AU_Telecom_1586372,48,agent,channel1,34,259.0,262.0,Hold.,neutral,0.7285,False,False,False,False,False
+en_AU_Telecom_1586372,49,agent,channel1,35,262.0,268.0,And both of those lights will start flashing.,neutral,0.5728,False,False,False,False,False
+en_AU_Telecom_1586372,50,agent,channel1,36,268.0,276.0,"When they started flashing, then release it.",neutral,0.8453,False,False,True,False,False
+en_AU_Telecom_1586372,51,customer,channel2,15,270.72,292.72,Okay. Yeah.,neutral,0.6615,False,False,False,False,False
+en_AU_Telecom_1586372,52,agent,channel1,37,276.0,285.0,"And just wait until then again, one become constant light green light and the other one is flashing.",neutral,0.7819,False,False,False,False,False
+en_AU_Telecom_1586372,53,agent,channel1,38,285.0,300.0,And that's when we can go and check your computer and your internet speed again.,neutral,0.7871,False,False,False,False,False
+en_AU_Telecom_1586372,54,customer,channel2,16,292.72,313.72,Okay. So everything's looking good.,positive,0.934,False,False,False,False,False
+en_AU_Telecom_1586372,55,agent,channel1,39,300.0,305.0,"Okay, do you want to look at your, your speed is back on?",neutral,0.7969,False,False,True,False,False
+en_AU_Telecom_1586372,56,agent,channel1,40,305.0,309.0,I can see it from our end and it looks okay.,positive,0.7093,False,False,False,False,False
+en_AU_Telecom_1586372,57,agent,channel1,41,309.0,317.0,"But if you want to test something from your end, is that just the videos that you have problem with?",neutral,0.5887,False,False,True,False,False
+en_AU_Telecom_1586372,58,customer,channel2,17,313.72,342.72,"Yeah, it's just the videos.",neutral,0.7598,False,False,False,False,False
+en_AU_Telecom_1586372,59,agent,channel1,42,317.0,319.0,So we can't really test it now.,neutral,0.5476,False,False,False,False,False
+en_AU_Telecom_1586372,60,agent,channel1,43,319.0,326.0,"You will need to just be on a call or something to check the videos, whether they are freezing again or not.",neutral,0.8238,False,False,False,False,False
+en_AU_Telecom_1586372,61,agent,channel1,44,326.0,331.0,But what I can see from this end is looking nice and healthy.,positive,0.8764,False,False,False,False,False
+en_AU_Telecom_1586372,62,agent,channel1,45,331.0,338.0,What could be the case is maybe try again.,neutral,0.8343,False,False,True,False,False
+en_AU_Telecom_1586372,63,agent,channel1,46,338.0,347.0,The rebooting of your murder might fix the issue if you haven't done that for a while and we had storms and things like that.,neutral,0.5344,False,False,False,False,False
+en_AU_Telecom_1586372,64,customer,channel2,18,343.72,370.72,"Well, do you have a faster plan?",neutral,0.9008,False,False,False,False,False
+en_AU_Telecom_1586372,65,agent,channel1,47,347.0,355.0,"But if you have other issues, you can always call us back.",neutral,0.8103,False,False,False,False,False
+en_AU_Telecom_1586372,66,agent,channel1,48,356.0,361.0,"Well, let me have a look what plan you're on.",neutral,0.8477,False,False,False,False,False
+en_AU_Telecom_1586372,67,agent,channel1,49,361.0,364.0,"We do, yeah, we do have another one.",neutral,0.6808,False,False,False,False,False
+en_AU_Telecom_1586372,68,agent,channel1,50,364.0,374.0,"You're on a very good plan, but we do have another faster plan, which is an unlimited internet.",positive,0.9501,False,False,False,False,False
+en_AU_Telecom_1586372,69,customer,channel2,19,370.72,395.72,What's the cost of the upgrade?,neutral,0.9401,False,False,False,False,False
+en_AU_Telecom_1586372,70,agent,channel1,51,374.0,383.0,"So one thing about upgrades is you can, once you operate it, you cannot go back to your current plan.",neutral,0.7474,False,False,False,False,False
+en_AU_Telecom_1586372,71,agent,channel1,52,383.0,388.0,And you are on $85 per month at the moment.,neutral,0.8508,False,False,False,False,False
+en_AU_Telecom_1586372,72,agent,channel1,53,388.0,391.0,"There are other plan, which is called the Turbo plan.",neutral,0.8269,False,False,False,False,False
+en_AU_Telecom_1586372,73,agent,channel1,54,391.0,399.0,"If you want to upgrade to that one, that's $115 per month.",neutral,0.8658,False,False,False,False,False
+en_AU_Telecom_1586372,74,customer,channel2,20,395.72,418.72,"Okay. But if I upgrade it, that would make my internet a lot faster.",positive,0.7202,False,False,False,False,False
+en_AU_Telecom_1586372,75,agent,channel1,55,399.0,401.0,Is that something you would like to see?,neutral,0.8416,False,False,True,False,False
+en_AU_Telecom_1586372,76,agent,channel1,56,401.0,406.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Telecom_1586372,77,agent,channel1,57,406.0,423.0,"Well, it is expected to be faster, but if there is a problem with your neighborhood and or anything like that, then it won't really fix the issue as such.",negative,0.7684,False,False,False,False,False
+en_AU_Telecom_1586372,78,customer,channel2,21,418.72,428.72,Okay. I'll probably think about it for a little while.,neutral,0.841,False,False,False,False,False
+en_AU_Telecom_1586372,79,agent,channel1,58,423.0,425.0,"Okay, that's not a problem at all.",neutral,0.536,False,False,False,False,False
+en_AU_Telecom_1586372,80,agent,channel1,59,425.0,426.0,Thank you for calling us.,positive,0.8784,False,False,False,False,False
+en_AU_Telecom_1586372,81,agent,channel1,60,426.0,431.0,Is there anything else I can help you with?,neutral,0.8974,False,False,True,True,False
+en_AU_Telecom_1586372,82,customer,channel2,22,428.72,433.72,"Not at the moment. No, thank you.",neutral,0.729,False,False,False,False,False
+en_AU_Telecom_1586372,83,agent,channel1,61,431.0,432.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Telecom_1586372,84,agent,channel1,62,432.0,434.0,Good luck with that journey.,positive,0.9419,False,False,False,False,False
+en_AU_Telecom_1586372,85,customer,channel2,23,433.72,435.72,Thanks.,positive,0.7303,False,False,False,False,False
+en_AU_Telecom_1586372,86,agent,channel1,63,434.0,435.0,Bye.,neutral,0.6078,False,False,False,False,False

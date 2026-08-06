@@ -1,0 +1,173 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Food_1593466,1,agent,channel1,1,0.0,17.64,"Hello, thank you for calling Jax's catering service."
+en_AU_Food_1593466,2,customer,channel2,1,0.0,27.56,"Hi Annie, I'm just planning a brunch for this weekend for like about 15, 20 people and I"
+en_AU_Food_1593466,3,agent,channel1,2,17.64,20.32,"This is Annie, how can I help you today?"
+en_AU_Food_1593466,4,customer,channel2,2,27.56,31.48,just wondering if you could help me with some catering options. I just want to get a quote from you.
+en_AU_Food_1593466,5,agent,channel1,3,31.0,37.0,"Absolutely, for a brunch for this weekend for approximately 20 people."
+en_AU_Food_1593466,6,customer,channel2,3,31.48,58.44,"It's just like a small gathering, it's like a friend'sness. So I just want to make sure that I'm just like"
+en_AU_Food_1593466,7,agent,channel1,4,37.0,39.0,"Absolutely, I can help you with that."
+en_AU_Food_1593466,8,agent,channel1,5,39.0,43.0,Can you give me a bit of details about the brunch you're envisioning?
+en_AU_Food_1593466,9,agent,channel1,6,43.0,48.0,Is that any specific dietary requirements or any sort of things that you'd like to include?
+en_AU_Food_1593466,10,agent,channel1,7,48.0,51.0,Is it for a celebration or anything at all?
+en_AU_Food_1593466,11,agent,channel1,8,51.0,53.0,Thank you.
+en_AU_Food_1593466,12,customer,channel2,4,58.44,68.52,"getting some mix of some sweet and savoury foods, get some pastries, maybe some like fried eggs on toast or like some"
+en_AU_Food_1593466,13,customer,channel2,5,68.52,77.44,"sliders with some egg and bacon, a bit of a salad, like fruit salad, normal salad and some vegan and"
+en_AU_Food_1593466,14,customer,channel2,6,77.44,84.6,vegetarian options as well. And just make sure that it's like really casual just finger food that people
+en_AU_Food_1593466,15,agent,channel1,9,81.0,92.0,"Absolutely, I'll ask about the venue."
+en_AU_Food_1593466,16,customer,channel2,7,84.6,101.56,"can like go like, oh, that looks good. And chuck on their plate, you know. It's just at my house in the"
+en_AU_Food_1593466,17,agent,channel1,10,92.0,95.0,Is that an indoor or outdoor venue?
+en_AU_Food_1593466,18,agent,channel1,11,95.0,99.0,Is it a rented facility or is it just like a home location?
+en_AU_Food_1593466,19,customer,channel2,8,101.56,126.4,"backyard. So it's pretty chill and casual. Yeah, that'd be great. I just want to get a quote and then see how it"
+en_AU_Food_1593466,20,agent,channel1,12,105.0,108.0,"Absolutely, we've got a variety of options."
+en_AU_Food_1593466,21,agent,channel1,13,108.0,111.0,The brunch options that might suit your need.
+en_AU_Food_1593466,22,agent,channel1,14,111.0,114.0,"I'll walk you through some of our most popular menu items,"
+en_AU_Food_1593466,23,agent,channel1,15,114.0,117.0,"but we can also create a custom menu if you prefer,"
+en_AU_Food_1593466,24,agent,channel1,16,117.0,120.0,though that does include some additional costs.
+en_AU_Food_1593466,25,agent,channel1,17,120.0,123.0,Does that sound good with you? Are you happy to proceed?
+en_AU_Food_1593466,26,customer,channel2,9,126.4,132.16,"lines up with the other ones. So I had like four or five other quotes. So if you're the best one, then I'll pick you."
+en_AU_Food_1593466,27,agent,channel1,18,132.0,137.0,"Absolutely, so a few options that we offer are our pastries and good."
+en_AU_Food_1593466,28,agent,channel1,19,137.0,142.0,"We offer a selection of croissants, Danish pastries, muffins and scone."
+en_AU_Food_1593466,29,agent,channel1,20,142.0,150.0,Everything is baked fresh and we include a variety of homemade jams and homemade butter on the side.
+en_AU_Food_1593466,30,agent,channel1,21,150.0,155.0,"You mentioned eggs, so we have a couple of different egg dishes."
+en_AU_Food_1593466,31,agent,channel1,22,155.0,159.0,"We have scrambled eggs, always a hit, but you can choose from our egg Benedict,"
+en_AU_Food_1593466,32,agent,channel1,23,159.0,161.0,our egg fritters or quiches.
+en_AU_Food_1593466,33,agent,channel1,24,161.0,167.0,We also have some vegetarian and gluten free options as well available in that range.
+en_AU_Food_1593466,34,agent,channel1,25,167.0,170.0,"Also in our pastries, those can be made vegan."
+en_AU_Food_1593466,35,agent,channel1,26,170.0,177.0,I know you mentioned wanting scrambled eggs on toast or fried eggs on toast.
+en_AU_Food_1593466,36,agent,channel1,27,177.0,182.0,"We don't have something directly like that, but we can do that as a custom option."
+en_AU_Food_1593466,37,agent,channel1,28,182.0,184.0,We offer a light salad.
+en_AU_Food_1593466,38,agent,channel1,29,184.0,189.0,We have a fresh mixed green salad with seasonal vegetables as well as a fruit salad
+en_AU_Food_1593466,39,agent,channel1,30,189.0,192.0,made with fresh local fruit.
+en_AU_Food_1593466,40,agent,channel1,31,192.0,203.0,"You could always go for a salad, some of our other salad options that also include a mix of fruit and vegetables as well."
+en_AU_Food_1593466,41,agent,channel1,32,203.0,210.0,"For our savoury options, we offer smoked salmon, bacon, sausages and roasted potatoes."
+en_AU_Food_1593466,42,agent,channel1,33,210.0,213.0,You can choose an option based on those.
+en_AU_Food_1593466,43,agent,channel1,34,213.0,218.0,"If you want to get quite light in casual, we can also make savoury quiches for you as well."
+en_AU_Food_1593466,44,customer,channel2,10,216.4,237.96,"Yeah, I'd love like some coffees and teas. But do you have a coffee machine like that you can bring? Because we're"
+en_AU_Food_1593466,45,agent,channel1,35,218.0,222.0,Just sort of to align with your finger food.
+en_AU_Food_1593466,46,agent,channel1,36,222.0,225.0,"Is beverages, is that also something that you need?"
+en_AU_Food_1593466,47,agent,channel1,37,225.0,245.0,Because we also do have beverage services as well we can provide if that's of interest to you.
+en_AU_Food_1593466,48,customer,channel2,11,237.96,242.92,"quite fussy with our coffee, it has to be, you know, a good espresso from a real coffee machine. It can't"
+en_AU_Food_1593466,49,customer,channel2,12,242.92,244.4,just be that quick pour stuff.
+en_AU_Food_1593466,50,agent,channel1,38,245.0,249.0,"Absolutely, so we do have an espresso machine that we can loan out."
+en_AU_Food_1593466,51,agent,channel1,39,249.0,259.0,"In terms of the coffee option, we do have baristas that if you'd like that can be on site,"
+en_AU_Food_1593466,52,agent,channel1,40,259.0,261.0,but that will incur an additional charge.
+en_AU_Food_1593466,53,agent,channel1,41,261.0,266.0,We can leave the espresso machine for you if you'd like to make it yourself.
+en_AU_Food_1593466,54,agent,channel1,42,266.0,271.0,We also offer fresh smoothies and juices.
+en_AU_Food_1593466,55,agent,channel1,43,271.0,276.0,We can do mimosas because of it being a bit more of a brunch thing.
+en_AU_Food_1593466,56,customer,channel2,13,272.92,298.2,"Um, maybe if we have like, do you guys do smoothies? Maybe like, I'd love a good coconut and mango"
+en_AU_Food_1593466,57,agent,channel1,44,276.0,283.0,We also offer sparkling water and we can bring tea as well.
+en_AU_Food_1593466,58,agent,channel1,45,283.0,294.0,Would you like to include all of these in your brunch or would you like to have a selection of some of the items from these categories?
+en_AU_Food_1593466,59,agent,channel1,46,294.0,296.0,Yes.
+en_AU_Food_1593466,60,customer,channel2,14,298.44,308.08,"smoothie and maybe like a strawberry, pineapple and banana smoothie as well. So we have two smoothies and"
+en_AU_Food_1593466,61,customer,channel2,15,308.08,316.6,"then love if I could get a barista, have the coffee machine. So that's some like real coffees. And then we"
+en_AU_Food_1593466,62,customer,channel2,16,316.6,322.56,"want to have like the oat milk, you know, the almond milk, the soy milk, the normal milk. And maybe"
+en_AU_Food_1593466,63,customer,channel2,17,322.6,330.36,"if we chuck in some just some teas that people can help themselves to, I feel like maybe I'm feeling like a"
+en_AU_Food_1593466,64,agent,channel1,47,324.0,343.0,"Absolutely, so in terms of how we do our juices and the smoothies,"
+en_AU_Food_1593466,65,customer,channel2,18,330.36,336.0,"nettle on chamomile tea and maybe chuck in a bit of a peppermint and then, you know, your normal"
+en_AU_Food_1593466,66,customer,channel2,19,336.0,338.88,classic in English breakfast. Are you able to do that?
+en_AU_Food_1593466,67,agent,channel1,48,343.0,351.0,"they're all made at our facility fresh on the day, but they'll be put into pre-packaged bottles labelled with all of the ingredients."
+en_AU_Food_1593466,68,agent,channel1,49,351.0,353.0,So you'll be able to tell.
+en_AU_Food_1593466,69,agent,channel1,50,353.0,359.0,"So for coconut and mango, we don't usually have that as an option, but we can customise that."
+en_AU_Food_1593466,70,customer,channel2,20,353.2,373.8,"I mean, all my friends and I really love that coconut and mango smoothie from Burrow Market. And so I feel"
+en_AU_Food_1593466,71,agent,channel1,51,359.0,365.0,Is that strictly the only ingredients that you're wanting or would you like anything else put in those?
+en_AU_Food_1593466,72,customer,channel2,21,373.8,379.64,"like if you can figure out the ingredients from that, I think we'd appreciate that probably more than"
+en_AU_Food_1593466,73,customer,channel2,22,379.64,384.0,just having coconut and mango. Do you think that you can figure that one out?
+en_AU_Food_1593466,74,agent,channel1,52,382.0,389.0,"Absolutely, we can do those sorts of things."
+en_AU_Food_1593466,75,agent,channel1,53,389.0,402.0,"And in terms of the barista that you're wanting on site, can you provide us with approximately how long of a duration you'd like to have as we do charge for a minimum of two hours?"
+en_AU_Food_1593466,76,customer,channel2,23,402.52,407.36,"Yeah, Chuck, Chuck up a restaurant for like three hours, we'll feed him as well, chuck in an extra"
+en_AU_Food_1593466,77,customer,channel2,24,407.36,414.2,person so he can feed him. And he can take a break as well. But
+en_AU_Food_1593466,78,agent,channel1,54,412.0,415.0,Barista show you that they will be fed.
+en_AU_Food_1593466,79,agent,channel1,55,415.0,419.0,We don't need to include that as an additional.
+en_AU_Food_1593466,80,agent,channel1,56,419.0,422.0,Just to balance everything out.
+en_AU_Food_1593466,81,agent,channel1,57,422.0,437.0,"So we'll proceed forth with the pastries and some of the egg options, the two smoothie options that you've requested and a barista and some teas on the side."
+en_AU_Food_1593466,82,agent,channel1,58,437.0,441.0,Is there anything else that we need to confirm?
+en_AU_Food_1593466,83,customer,channel2,25,437.68,450.56,"just with like the vegetarian and vegan options. So I've got a couple of girls who don't eat meat, like"
+en_AU_Food_1593466,84,customer,channel2,26,450.56,456.12,"they're not strict, you know, but I want to be able to provide them with like everything that looks"
+en_AU_Food_1593466,85,customer,channel2,27,456.12,462.0,"like everyone else has it, but they just have the vegan or vegetarian option. So like, I want the"
+en_AU_Food_1593466,86,customer,channel2,28,462.0,466.8,vegan cheese and the vegan smoked salmon and that type of thing. Do you think you'll be able to
+en_AU_Food_1593466,87,customer,channel2,29,466.8,467.36,manage that?
+en_AU_Food_1593466,88,agent,channel1,59,467.0,473.0,Absolutely. So not all of our irons can be made fully vegetarian and vegan.
+en_AU_Food_1593466,89,agent,channel1,60,473.0,482.0,Most of our pastries and danishes that we provide and quiches as per the egg options are vegetarian.
+en_AU_Food_1593466,90,agent,channel1,61,482.0,485.0,Quite easy to make some of these vegan as well.
+en_AU_Food_1593466,91,agent,channel1,62,485.0,487.0,They're just due to certain things.
+en_AU_Food_1593466,92,agent,channel1,63,487.0,490.0,"We can't exactly replicate it, but we can certainly provide that."
+en_AU_Food_1593466,93,agent,channel1,64,490.0,494.0,Approximately how many people would we need to sustain that for?
+en_AU_Food_1593466,94,agent,channel1,65,494.0,500.0,Is it just a couple or would you prefer a majority split of vegan and vegetarian?
+en_AU_Food_1593466,95,customer,channel2,30,496.8,512.8,"Um, well, I feel like five girls are a bit like that, but you know, the others will want to have a"
+en_AU_Food_1593466,96,agent,channel1,66,500.0,507.0,Or we can actually do the majority of it to be vegan and vegetarian and only have a couple of meat dishes included.
+en_AU_Food_1593466,97,customer,channel2,31,512.8,516.16,taste. So maybe let's just do a 50 50 split.
+en_AU_Food_1593466,98,agent,channel1,67,516.0,519.0,"Absolutely, we can do a half 50 50 split."
+en_AU_Food_1593466,99,agent,channel1,68,519.0,524.0,Was there any other allergies or dietary requirements that we need to be aware of?
+en_AU_Food_1593466,100,customer,channel2,32,525.72,530.04,"Or I think one of them is gluten free, so we might need to add that in as well, maybe just like one"
+en_AU_Food_1593466,101,customer,channel2,33,530.04,531.12,"little plate of it, though."
+en_AU_Food_1593466,102,agent,channel1,69,531.0,532.0,Absolutely.
+en_AU_Food_1593466,103,agent,channel1,70,532.0,536.0,"Well, as I said, we can't guarantee cross-contamination."
+en_AU_Food_1593466,104,agent,channel1,71,536.0,544.0,"We do try our absolute best, but we are not a fully celiac company."
+en_AU_Food_1593466,105,customer,channel2,34,542.8,558.2,"Uh, yeah, probably just like, so people feel normal, you know, because sometimes they complain, they're"
+en_AU_Food_1593466,106,agent,channel1,72,544.0,552.0,"Gluten-free, would you like to also have the same dishes that we'll be providing for the rest of the people?"
+en_AU_Food_1593466,107,customer,channel2,35,558.2,564.64,"like, Oh, I don't actually like my gluten free food. And then they complain about their gluten"
+en_AU_Food_1593466,108,customer,channel2,36,564.64,568.28,free food. So it gets really annoying. And then other people get jealous because the gluten
+en_AU_Food_1593466,109,customer,channel2,37,568.32,574.72,"free people look like they have better food when, you know, they actually don't. And so I feel like if"
+en_AU_Food_1593466,110,agent,channel1,73,574.0,591.0,"Absolutely, I can most assure you we have staff on service here that are gluten-free themselves and they do absolutely enjoy our food that we all make here."
+en_AU_Food_1593466,111,customer,channel2,38,574.72,580.6,"we can replicate it and make it look exactly the same, just gluten free, that'd be really good."
+en_AU_Food_1593466,112,customer,channel2,39,580.6,605.08,"And can I also ask you another question? Where's your, where's your food from? Where do you source"
+en_AU_Food_1593466,113,agent,channel1,74,591.0,600.0,"And certainly, yes, certainly please ask."
+en_AU_Food_1593466,114,agent,channel1,75,605.0,610.0,So we pride ourselves on using the highest quality ingredients.
+en_AU_Food_1593466,115,customer,channel2,40,605.08,606.04,your ingredients?
+en_AU_Food_1593466,116,agent,channel1,76,610.0,612.0,Our baked goods are made from scratch.
+en_AU_Food_1593466,117,agent,channel1,77,612.0,619.0,Every single day we use organically flour that we get locally sourced from suppliers.
+en_AU_Food_1593466,118,agent,channel1,78,619.0,624.0,"For our eggs, we work with a local farm that provides free range organic eggs."
+en_AU_Food_1593466,119,agent,channel1,79,624.0,632.0,The vegetables and seasonal fruits come from a nearby farmers market that we have an ongoing supplier with.
+en_AU_Food_1593466,120,agent,channel1,80,632.0,641.0,"Our meats, including the smoked salmon and sausages are sourced from a butcher who also prioritizes sustainable practices."
+en_AU_Food_1593466,121,customer,channel2,41,635.08,664.0,"I mean, I don't need to list as just as long as everything's locally sourced and nothing's from"
+en_AU_Food_1593466,122,agent,channel1,81,641.0,648.0,"We always aim for fresh, high quality ingredients and we try to keep this as local as possible."
+en_AU_Food_1593466,123,agent,channel1,82,648.0,652.0,And we try to avoid using imported ingredients where possible.
+en_AU_Food_1593466,124,agent,channel1,83,652.0,659.0,"If you'd like, I can provide a full list of the supplies we work with to ensure you're fully comfortable with the ingredients that will be used."
+en_AU_Food_1593466,125,agent,channel1,84,662.0,690.0,"So we charge based on the menu you've provided, we charge $35 per head."
+en_AU_Food_1593466,126,customer,channel2,42,664.04,672.6,"overseas. I just want everything to be fresh and not imported, you know. And I just ask like, what's"
+en_AU_Food_1593466,127,customer,channel2,43,672.6,678.8,"your approximation of how much it will be per head? If I say, if I say there's going to be 18"
+en_AU_Food_1593466,128,customer,channel2,44,678.8,681.92,"people, how much would that be per person?"
+en_AU_Food_1593466,129,agent,channel1,85,690.0,695.0,And for 18 that will come to a total of $630.
+en_AU_Food_1593466,130,customer,channel2,45,694.0,715.88,"Okay, that sounds good."
+en_AU_Food_1593466,131,agent,channel1,86,695.0,702.0,But because you have opted to have a barista included that does incur an additional cost.
+en_AU_Food_1593466,132,agent,channel1,87,702.0,708.0,So to have the barista and the coffee machine delivered that will occur an additional 150.
+en_AU_Food_1593466,133,agent,channel1,88,708.0,714.0,So the approximate total that you'll be looking at will be $780.
+en_AU_Food_1593466,134,agent,channel1,89,715.0,719.0,Certainly we offer flexible delivery windows as well.
+en_AU_Food_1593466,135,agent,channel1,90,719.0,732.0,Would you prefer to have the food delivered before the event for setup or would you like it to live just as your guests arrive?
+en_AU_Food_1593466,136,customer,channel2,46,724.0,745.28,"Before set up, please, we don't want the girls getting stressed out by the food delivery. Yeah, that's"
+en_AU_Food_1593466,137,agent,channel1,91,732.0,740.0,Certainly we can aim to deliver approximately for a delivery window between one to two hours before your event time for start up.
+en_AU_Food_1593466,138,agent,channel1,92,740.0,748.0,So everything will be fresh and hot when your guests arrive.
+en_AU_Food_1593466,139,customer,channel2,47,745.28,767.8,"perfect. You have catering staff that will be there to set up as well. Okay, cool. That sounds good."
+en_AU_Food_1593466,140,agent,channel1,93,748.0,753.0,"Yes, so we'll bring the catering staff that will set it all up for you."
+en_AU_Food_1593466,141,agent,channel1,94,753.0,759.0,Set up should only take approximately half an hour so that they will set it up and then leave.
+en_AU_Food_1593466,142,agent,channel1,95,759.0,769.0,And then the only staff that will remain on site will be the barista for the elected hours that you've chosen.
+en_AU_Food_1593466,143,agent,channel1,96,769.0,770.0,Perfect.
+en_AU_Food_1593466,144,agent,channel1,97,770.0,774.0,And what time would you like for us to deliver?
+en_AU_Food_1593466,145,agent,channel1,98,774.0,783.0,Because what time is your event starting?
+en_AU_Food_1593466,146,customer,channel2,48,776.28,784.68,"So I want my event to start at 11am. So maybe you've come around, maybe 9 30am. Does that work on the 16th of"
+en_AU_Food_1593466,147,agent,channel1,99,783.0,785.0,Absolutely.
+en_AU_Food_1593466,148,customer,channel2,49,784.68,802.96,"January? Yes, definitely."
+en_AU_Food_1593466,149,agent,channel1,100,785.0,787.0,Absolutely.
+en_AU_Food_1593466,150,agent,channel1,101,787.0,789.0,So 9.30.
+en_AU_Food_1593466,151,agent,channel1,102,789.0,791.0,We can do that.
+en_AU_Food_1593466,152,agent,channel1,103,791.0,792.0,Perfect.
+en_AU_Food_1593466,153,agent,channel1,104,792.0,795.0,So I've scheduled your delivery for 9.30.
+en_AU_Food_1593466,154,agent,channel1,105,795.0,798.0,Everything will be ready and waiting for your guests.
+en_AU_Food_1593466,155,agent,channel1,106,798.0,803.0,Do you need cleanup services as well?
+en_AU_Food_1593466,156,customer,channel2,50,802.96,815.24,"Okay, that sounds good."
+en_AU_Food_1593466,157,agent,channel1,107,803.0,804.0,Absolutely.
+en_AU_Food_1593466,158,agent,channel1,108,804.0,806.0,We can include that as well.
+en_AU_Food_1593466,159,agent,channel1,109,806.0,810.0,It will incur an additional charge of $50.
+en_AU_Food_1593466,160,agent,channel1,110,810.0,815.0,So that would bring your total to 830.
+en_AU_Food_1593466,161,agent,channel1,111,815.0,816.0,Perfect.
+en_AU_Food_1593466,162,customer,channel2,51,815.24,834.52,"No, I think that's all. I think that's perfect. Thank you."
+en_AU_Food_1593466,163,agent,channel1,112,816.0,827.0,So we will email over all of the correct details with you to confirm with a exact menu for you.
+en_AU_Food_1593466,164,agent,channel1,113,828.0,834.0,Anything else that you would like to raise with us?
+en_AU_Food_1593466,165,agent,channel1,114,834.0,840.0,And I will just advise we need payment before we can do any delivery.
+en_AU_Food_1593466,166,customer,channel2,52,834.52,848.8,"Okay, that sounds good. If you just send it through to my email, that works well."
+en_AU_Food_1593466,167,agent,channel1,115,840.0,849.0,We expect payment no more than 48 hours before our event.
+en_AU_Food_1593466,168,customer,channel2,53,848.8,859.08,"Thank you, too."
+en_AU_Food_1593466,169,agent,channel1,116,849.0,850.0,"Okay, right."
+en_AU_Food_1593466,170,agent,channel1,117,850.0,851.0,Thank you so much.
+en_AU_Food_1593466,171,agent,channel1,118,851.0,856.0,And we'll email over and call later in the week in regards to everything.
+en_AU_Food_1593466,172,agent,channel1,119,856.0,858.0,Have a lovely day.

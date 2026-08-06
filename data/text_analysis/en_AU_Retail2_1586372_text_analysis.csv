@@ -1,0 +1,121 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Retail2_1586372,1,agent,channel1,1,0.0,29.0,"Hi, is there anything I can help you with?",neutral,0.7081,False,False,True,True,False
+en_AU_Retail2_1586372,2,customer,channel2,1,0.0,29.88,"Hi, yes, I'm just looking for a certain pair of sneakers, um, the Reeboks.",neutral,0.7779,False,False,False,False,False
+en_AU_Retail2_1586372,3,agent,channel1,2,29.0,45.0,Is there a model on there?,neutral,0.9313,False,False,True,False,False
+en_AU_Retail2_1586372,4,customer,channel2,2,29.88,34.76,"And they're kind of, they're red in size seven and a half.",neutral,0.7802,False,False,False,False,False
+en_AU_Retail2_1586372,5,customer,channel2,3,34.76,37.8,I'm wondering if you had any in stock.,neutral,0.897,False,False,False,False,False
+en_AU_Retail2_1586372,6,customer,channel2,4,37.8,38.8,Pardon?,neutral,0.7908,False,False,False,False,False
+en_AU_Retail2_1586372,7,customer,channel2,5,38.8,52.8,"No, I don't have that, sorry.",negative,0.5203,False,False,False,False,False
+en_AU_Retail2_1586372,8,agent,channel1,3,45.0,50.0,Is there a model number on this?,neutral,0.95,False,False,True,False,False
+en_AU_Retail2_1586372,9,agent,channel1,4,50.0,58.0,Is it this one?,neutral,0.9079,False,False,True,False,False
+en_AU_Retail2_1586372,10,customer,channel2,6,52.8,79.8,"Yeah, yes, that's one, uh, seven and a half, yeah, that's good.",positive,0.9726,False,False,False,False,False
+en_AU_Retail2_1586372,11,agent,channel1,5,58.0,60.0,Can I show you?,neutral,0.8553,False,False,True,False,False
+en_AU_Retail2_1586372,12,agent,channel1,6,60.0,64.0,Is this the one you're looking for?,neutral,0.899,False,False,True,False,False
+en_AU_Retail2_1586372,13,agent,channel1,7,64.0,69.0,I think that's the only red box that we stock at the moment.,neutral,0.9172,False,False,False,False,False
+en_AU_Retail2_1586372,14,agent,channel1,8,69.0,73.0,What size are you after?,neutral,0.8704,False,False,True,False,False
+en_AU_Retail2_1586372,15,agent,channel1,9,73.0,74.0,Seven and a half.,neutral,0.7648,False,False,False,False,False
+en_AU_Retail2_1586372,16,agent,channel1,10,74.0,78.0,"This model comes in red only, is that alright?",neutral,0.9267,False,False,True,False,False
+en_AU_Retail2_1586372,17,agent,channel1,11,78.0,82.0,Let me have a look.,neutral,0.8219,False,False,False,False,False
+en_AU_Retail2_1586372,18,customer,channel2,7,79.8,104.8,"Um, I'll probably be more of an eight.",neutral,0.8089,False,False,False,False,False
+en_AU_Retail2_1586372,19,agent,channel1,12,82.0,85.0,"No, we don't seem to have a seven and a half.",neutral,0.7372,False,False,False,False,False
+en_AU_Retail2_1586372,20,agent,channel1,13,85.0,88.0,"Actually, they don't come in half sizes.",neutral,0.652,False,False,False,False,False
+en_AU_Retail2_1586372,21,agent,channel1,14,88.0,94.0,Would you be more of a seven or eight?,neutral,0.889,False,False,True,False,False
+en_AU_Retail2_1586372,22,agent,channel1,15,94.0,95.0,Eight.,neutral,0.7764,False,False,False,False,False
+en_AU_Retail2_1586372,23,agent,channel1,16,95.0,97.0,We don't have any eights.,neutral,0.6817,False,False,False,False,False
+en_AU_Retail2_1586372,24,agent,channel1,17,97.0,102.0,That seems to be the most popular size.,positive,0.7489,False,False,False,False,False
+en_AU_Retail2_1586372,25,agent,channel1,18,102.0,109.0,But I can see there seems to be...,neutral,0.7905,False,False,False,False,False
+en_AU_Retail2_1586372,26,customer,channel2,8,104.8,131.8,"Okay, um, I was just also wondering, are you guys got any discounted promotions going on?",neutral,0.9188,False,False,False,False,False
+en_AU_Retail2_1586372,27,agent,channel1,19,109.0,112.0,"It says two, but it's always tricky.",neutral,0.6219,False,False,False,False,False
+en_AU_Retail2_1586372,28,agent,channel1,20,112.0,130.0,But it says there are two available in the chatstone store.,neutral,0.899,False,False,False,False,False
+en_AU_Retail2_1586372,29,agent,channel1,21,130.0,134.0,"Not at the moment, but what you could do is",neutral,0.7962,False,False,False,False,False
+en_AU_Retail2_1586372,30,customer,channel2,9,131.8,147.8,"No, I don't.",neutral,0.6788,False,False,False,False,False
+en_AU_Retail2_1586372,31,agent,channel1,22,134.0,140.0,"you could always, like, do you have a membership with us?",neutral,0.8981,False,False,True,False,False
+en_AU_Retail2_1586372,32,agent,channel1,23,140.0,141.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Retail2_1586372,33,agent,channel1,24,141.0,145.0,We can sign you up and then it will have your email address on it.,neutral,0.8741,False,False,False,False,False
+en_AU_Retail2_1586372,34,agent,channel1,25,145.0,147.0,"And if there are any discounts or promotions,",neutral,0.8739,False,False,False,False,False
+en_AU_Retail2_1586372,35,agent,channel1,26,147.0,149.0,you will receive them in your emails.,neutral,0.8625,False,False,False,False,True
+en_AU_Retail2_1586372,36,customer,channel2,10,147.8,157.8,"Um, yeah, that'd be great.",positive,0.9749,False,False,False,False,False
+en_AU_Retail2_1586372,37,agent,channel1,27,149.0,153.0,Would you like to do that?,neutral,0.9043,False,False,True,False,False
+en_AU_Retail2_1586372,38,agent,channel1,28,153.0,154.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Retail2_1586372,39,agent,channel1,29,154.0,159.0,And Sairud was your name?,neutral,0.8421,False,False,True,False,False
+en_AU_Retail2_1586372,40,customer,channel2,11,157.8,159.8,Jenny O'Brien.,neutral,0.8705,False,False,False,False,False
+en_AU_Retail2_1586372,41,agent,channel1,30,159.0,160.0,And Sairud's name?,neutral,0.906,False,False,True,False,False
+en_AU_Retail2_1586372,42,customer,channel2,12,159.8,164.8,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Retail2_1586372,43,agent,channel1,31,160.0,162.0,"Oh, O'Brien, sorry.",negative,0.6392,False,False,False,False,False
+en_AU_Retail2_1586372,44,agent,channel1,32,162.0,168.0,"And what's your email address there, Jenny?",neutral,0.9448,False,False,True,False,False
+en_AU_Retail2_1586372,45,customer,channel2,13,164.8,168.8,"Jenny, all lower cases.",neutral,0.643,False,False,False,False,False
+en_AU_Retail2_1586372,46,agent,channel1,33,168.0,170.0,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Retail2_1586372,47,customer,channel2,14,168.8,170.8,Triple one.,neutral,0.7868,False,False,False,False,False
+en_AU_Retail2_1586372,48,agent,channel1,34,170.0,173.0,Yep.,neutral,0.5717,False,False,False,False,False
+en_AU_Retail2_1586372,49,customer,channel2,15,170.8,173.8,2018.,neutral,0.7723,False,False,False,False,False
+en_AU_Retail2_1586372,50,agent,channel1,35,173.0,177.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_AU_Retail2_1586372,51,customer,channel2,16,173.8,183.8,At Outlook.com.,neutral,0.8942,False,False,False,False,False
+en_AU_Retail2_1586372,52,agent,channel1,36,177.0,179.0,"Okay, thanks for that, Jenny.",positive,0.8418,False,False,False,False,False
+en_AU_Retail2_1586372,53,agent,channel1,37,179.0,181.0,"And you don't have to,",neutral,0.613,False,False,False,False,False
+en_AU_Retail2_1586372,54,agent,channel1,38,181.0,185.0,but do you want me to put your phone number in there?,neutral,0.9176,False,False,True,False,False
+en_AU_Retail2_1586372,55,customer,channel2,17,183.8,198.8,"And no, thank you.",neutral,0.5431,False,False,False,False,False
+en_AU_Retail2_1586372,56,agent,channel1,39,185.0,189.0,"Okay, no problem.",positive,0.6071,False,False,False,False,False
+en_AU_Retail2_1586372,57,agent,channel1,40,189.0,196.0,So would you like the chatstone one to be reserved for you?,neutral,0.9369,False,False,True,False,False
+en_AU_Retail2_1586372,58,agent,channel1,41,196.0,199.0,"Because we won't be able to bring it to our store,",negative,0.6731,False,False,False,False,False
+en_AU_Retail2_1586372,59,customer,channel2,18,198.8,203.8,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Retail2_1586372,60,agent,channel1,42,199.0,201.0,get it delivered here.,neutral,0.8129,False,False,False,False,False
+en_AU_Retail2_1586372,61,agent,channel1,43,201.0,208.0,But you can go and pick it up from chatstone if you like.,neutral,0.8245,False,False,False,False,False
+en_AU_Retail2_1586372,62,customer,channel2,19,203.8,205.8,"Yeah, can they be reserved?",neutral,0.9197,False,False,False,False,False
+en_AU_Retail2_1586372,63,customer,channel2,20,205.8,232.8,"Um, just till I get out there.",neutral,0.857,False,False,False,False,False
+en_AU_Retail2_1586372,64,agent,channel1,44,208.0,211.0,"I believe, let me have a look for you,",positive,0.5512,False,False,False,False,False
+en_AU_Retail2_1586372,65,agent,channel1,45,211.0,220.0,but I believe you can reserve them for 24 hours.,neutral,0.8834,False,False,False,False,False
+en_AU_Retail2_1586372,66,agent,channel1,46,220.0,226.0,"Oh, actually, you might be able to,",positive,0.7496,False,False,False,False,False
+en_AU_Retail2_1586372,67,agent,channel1,47,226.0,230.0,we might be able to put a purchase on it if you're happy to pay for them,neutral,0.6708,False,False,False,False,False
+en_AU_Retail2_1586372,68,agent,channel1,48,230.0,232.0,and then they will keep that for you.,neutral,0.7452,False,False,False,False,False
+en_AU_Retail2_1586372,69,agent,channel1,49,232.0,234.0,Would you like to do that?,neutral,0.9043,False,False,True,False,False
+en_AU_Retail2_1586372,70,customer,channel2,21,232.8,241.8,"That'd be a good guess, please.",positive,0.6685,False,False,False,False,False
+en_AU_Retail2_1586372,71,agent,channel1,50,234.0,237.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Retail2_1586372,72,agent,channel1,51,237.0,242.0,"Because in that way, they will hold it for you until you go and pick up.",neutral,0.7742,False,False,False,False,False
+en_AU_Retail2_1586372,73,customer,channel2,22,241.8,244.8,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Retail2_1586372,74,agent,channel1,52,242.0,247.0,How would you like to pay today?,neutral,0.9266,False,False,True,False,False
+en_AU_Retail2_1586372,75,customer,channel2,23,244.8,252.8,"And, uh, plus.",neutral,0.6658,False,False,False,False,False
+en_AU_Retail2_1586372,76,agent,channel1,53,247.0,250.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Retail2_1586372,77,agent,channel1,54,250.0,257.0,"Can I have your card, please?",neutral,0.8151,False,False,True,False,False
+en_AU_Retail2_1586372,78,customer,channel2,24,252.8,272.8,"Yeah, here it is.",neutral,0.5875,False,False,False,False,False
+en_AU_Retail2_1586372,79,agent,channel1,55,257.0,263.0,"Okay, that is 129.90 for this.",neutral,0.802,False,False,False,False,False
+en_AU_Retail2_1586372,80,agent,channel1,56,263.0,267.0,"And since you're picking it up, okay.",neutral,0.7439,False,False,False,False,False
+en_AU_Retail2_1586372,81,agent,channel1,57,267.0,268.0,"Oh, there you go.",negative,0.6268,False,False,False,False,False
+en_AU_Retail2_1586372,82,agent,channel1,58,268.0,269.0,So that's for this.,neutral,0.8498,False,False,False,False,False
+en_AU_Retail2_1586372,83,agent,channel1,59,269.0,278.0,And here's your receipt.,neutral,0.873,False,False,False,False,False
+en_AU_Retail2_1586372,84,customer,channel2,25,272.8,294.8,"Well, any loyalty points be added to this purchase?",neutral,0.9286,False,False,False,False,False
+en_AU_Retail2_1586372,85,agent,channel1,60,278.0,280.0,"Yeah, we just signed you up.",neutral,0.5687,False,False,False,False,False
+en_AU_Retail2_1586372,86,agent,channel1,61,280.0,282.0,So you will get the loyalty points.,neutral,0.8086,False,False,False,False,False
+en_AU_Retail2_1586372,87,agent,channel1,62,282.0,288.0,So there is one point for every purchase and that will be added to your account.,neutral,0.9295,False,False,False,False,False
+en_AU_Retail2_1586372,88,agent,channel1,63,288.0,295.0,You should receive a confirmation email on the email you just provided us.,neutral,0.7247,False,False,False,False,False
+en_AU_Retail2_1586372,89,customer,channel2,26,294.8,313.8,"Okay, cool.",positive,0.689,False,False,False,False,False
+en_AU_Retail2_1586372,90,agent,channel1,64,295.0,299.0,"And what you will need to do,",neutral,0.8408,False,False,False,False,False
+en_AU_Retail2_1586372,91,agent,channel1,65,299.0,306.0,I will also email you the receipt for this purchase to your email account.,neutral,0.877,False,False,False,False,False
+en_AU_Retail2_1586372,92,agent,channel1,66,306.0,311.0,"And when you go to the store, just show them that email",neutral,0.8732,False,False,False,False,False
+en_AU_Retail2_1586372,93,agent,channel1,67,311.0,317.0,and you should be able to pick up your item from there.,neutral,0.8552,False,False,False,False,False
+en_AU_Retail2_1586372,94,customer,channel2,27,313.8,321.8,"Oh yeah, that'd be great.",positive,0.9821,False,False,False,False,False
+en_AU_Retail2_1586372,95,agent,channel1,68,318.0,329.0,Was there anything else that I can help you with today?,neutral,0.8855,False,False,True,True,False
+en_AU_Retail2_1586372,96,customer,channel2,28,321.8,350.8,"Um, just one more question, what's your return policy like or exchange just in case it doesn't fit properly?",neutral,0.6898,False,False,False,False,False
+en_AU_Retail2_1586372,97,agent,channel1,69,329.0,338.0,"I think for these ones, they're not on sale or anything.",neutral,0.8446,False,False,False,False,False
+en_AU_Retail2_1586372,98,agent,channel1,70,338.0,342.0,"So it will be just our standard refund policy,",neutral,0.8695,False,False,False,False,False
+en_AU_Retail2_1586372,99,agent,channel1,71,342.0,346.0,which will be 28 days from date of purchase.,neutral,0.9054,False,False,False,False,False
+en_AU_Retail2_1586372,100,agent,channel1,72,346.0,350.0,"I understand you may not pick up your item today,",neutral,0.5577,False,True,False,False,False
+en_AU_Retail2_1586372,101,agent,channel1,73,350.0,357.0,"but since you paid for it today, it will be calculated from today's date.",neutral,0.9208,False,False,False,False,False
+en_AU_Retail2_1586372,102,customer,channel2,29,350.8,355.8,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Retail2_1586372,103,customer,channel2,30,355.8,363.8,"Yeah, no, you're good.",positive,0.7617,False,False,False,False,False
+en_AU_Retail2_1586372,104,agent,channel1,74,357.0,366.0,So that's 28 days from today to refund or exchange.,neutral,0.8324,False,False,False,False,False
+en_AU_Retail2_1586372,105,customer,channel2,31,363.8,365.8,"Okay, great.",positive,0.9292,False,False,False,False,False
+en_AU_Retail2_1586372,106,customer,channel2,32,365.8,371.8,"Cool, thank you.",positive,0.9367,False,False,False,False,False
+en_AU_Retail2_1586372,107,agent,channel1,75,366.0,368.0,No problem and good luck with it.,positive,0.9429,False,False,False,False,False
+en_AU_Retail2_1586372,108,agent,channel1,76,368.0,372.0,So you've got all the information on the pickups?,neutral,0.9507,False,False,True,False,False
+en_AU_Retail2_1586372,109,customer,channel2,33,371.8,384.8,"I do, yes.",neutral,0.7108,False,False,False,False,False
+en_AU_Retail2_1586372,110,agent,channel1,77,372.0,373.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Retail2_1586372,111,agent,channel1,78,373.0,378.0,So that's our level two in the Chatston Shopping Center,neutral,0.9272,False,False,False,False,False
+en_AU_Retail2_1586372,112,agent,channel1,79,378.0,382.0,and you head to our shop and show them the email receipt,neutral,0.9015,False,False,False,False,False
+en_AU_Retail2_1586372,113,agent,channel1,80,382.0,387.0,and you should be able to pick up your item.,neutral,0.8285,False,False,False,False,False
+en_AU_Retail2_1586372,114,customer,channel2,34,384.8,389.8,"Okay, that's great, thank you.",positive,0.9774,False,False,False,False,False
+en_AU_Retail2_1586372,115,agent,channel1,81,387.0,388.0,No problem at all.,positive,0.6051,False,False,False,False,False
+en_AU_Retail2_1586372,116,agent,channel1,82,388.0,392.0,Was there anything else?,neutral,0.8787,False,False,True,False,False
+en_AU_Retail2_1586372,117,customer,channel2,35,389.8,394.8,"And no, no, that's all for today.",negative,0.6757,False,False,False,False,False
+en_AU_Retail2_1586372,118,agent,channel1,83,392.0,394.0,"Okay, thank you very much for that.",positive,0.9467,False,False,False,False,False
+en_AU_Retail2_1586372,119,agent,channel1,84,394.0,396.0,Bye-bye.,neutral,0.6439,False,False,False,False,False
+en_AU_Retail2_1586372,120,customer,channel2,36,394.8,412.8,"All right, bye.",neutral,0.6857,False,False,False,False,False

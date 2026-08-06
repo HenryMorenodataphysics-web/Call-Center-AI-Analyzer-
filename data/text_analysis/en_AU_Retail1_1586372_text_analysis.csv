@@ -1,0 +1,64 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Retail1_1586372,1,customer,channel2,1,0.0,20.5,"Hi, so I brought this really awesome jacket online and I absolutely love it, but it doesn't",positive,0.7231,False,False,False,False,False
+en_AU_Retail1_1586372,2,agent,channel1,1,0.0,29.0,"Hi, hi, can I help you?",positive,0.5104,False,False,True,False,False
+en_AU_Retail1_1586372,3,customer,channel2,2,20.5,21.5,fit me properly.,neutral,0.5317,False,False,False,False,False
+en_AU_Retail1_1586372,4,customer,channel2,3,21.5,24.0,It's too tight.,negative,0.5042,False,False,False,False,False
+en_AU_Retail1_1586372,5,customer,channel2,4,24.0,34.0,"So I'm just wondering, what's your return policy look like?",neutral,0.8971,False,False,False,False,False
+en_AU_Retail1_1586372,6,agent,channel1,2,29.0,33.0,"So you bought it online, did you buy it via our website?",neutral,0.9495,False,False,True,False,False
+en_AU_Retail1_1586372,7,agent,channel1,3,33.0,40.0,"Okay, so if you purchase it through our website you can return it within 30 days.",neutral,0.8043,False,False,False,False,False
+en_AU_Retail1_1586372,8,customer,channel2,5,34.0,45.0,"Yes, I did.",neutral,0.626,False,False,False,False,False
+en_AU_Retail1_1586372,9,agent,channel1,4,40.0,43.0,Is this still within the 30 days?,neutral,0.9515,False,False,True,False,False
+en_AU_Retail1_1586372,10,agent,channel1,5,43.0,48.0,"Oh yeah, that's not a problem.",neutral,0.4472,False,False,False,False,False
+en_AU_Retail1_1586372,11,customer,channel2,6,45.0,68.0,"Yes, I brought it Thursday last week.",neutral,0.774,False,False,False,False,False
+en_AU_Retail1_1586372,12,agent,channel1,6,48.0,56.0,You can process the refund through our website as well and then send it back to us,neutral,0.8143,False,False,False,False,False
+en_AU_Retail1_1586372,13,agent,channel1,7,56.0,70.0,and then we'll provide you with the refund.,neutral,0.7889,False,False,False,False,False
+en_AU_Retail1_1586372,14,customer,channel2,7,68.0,87.0,What about returning it? What's the process for returning it?,neutral,0.9182,False,False,False,False,False
+en_AU_Retail1_1586372,15,agent,channel1,8,70.0,74.0,"So look, you need to go to the website.",neutral,0.9088,False,False,False,False,False
+en_AU_Retail1_1586372,16,agent,channel1,9,74.0,79.0,I'm assuming you had to create an account for purchasing it so since you've got an account,neutral,0.9205,False,False,False,False,False
+en_AU_Retail1_1586372,17,agent,channel1,10,79.0,89.0,"you will go under my account, returns and refunds and then under returns and refunds",neutral,0.828,False,False,False,False,False
+en_AU_Retail1_1586372,18,customer,channel2,8,87.0,89.0,"Oh, yeah.",neutral,0.4814,False,False,False,False,False
+en_AU_Retail1_1586372,19,agent,channel1,11,89.0,95.0,you will prepare a return account.,neutral,0.8785,False,False,False,False,False
+en_AU_Retail1_1586372,20,agent,channel1,12,95.0,102.0,"Under there it will like print, once you put all the details in there",neutral,0.878,False,False,False,False,False
+en_AU_Retail1_1586372,21,agent,channel1,13,102.0,105.0,it will create you with the returned label.,neutral,0.8686,False,False,False,False,False
+en_AU_Retail1_1586372,22,agent,channel1,14,105.0,110.0,What you will need to do is take that to the print that label,neutral,0.9227,False,False,True,False,False
+en_AU_Retail1_1586372,23,agent,channel1,15,110.0,115.0,and take all of that to Australia Post and show them the return label.,neutral,0.856,False,False,False,False,False
+en_AU_Retail1_1586372,24,agent,channel1,16,115.0,119.0,There is a barcode on it that the post office will ask for that,neutral,0.8659,False,False,False,False,False
+en_AU_Retail1_1586372,25,customer,channel2,9,117.0,136.0,"Okay, that's great.",positive,0.9765,False,False,False,False,False
+en_AU_Retail1_1586372,26,agent,channel1,17,119.0,125.0,and that's how you can actually return it to us.,neutral,0.8014,False,False,False,False,False
+en_AU_Retail1_1586372,27,agent,channel1,18,125.0,143.0,And you know that the customer will have to pay for the return of the postage fees.,neutral,0.6784,False,False,False,False,False
+en_AU_Retail1_1586372,28,customer,channel2,10,136.0,138.0,"Oh yes, okay.",positive,0.7511,False,False,False,False,False
+en_AU_Retail1_1586372,29,customer,channel2,11,138.0,160.0,"If I was to get a refund, what's the process in timeline like?",neutral,0.8457,False,False,False,False,False
+en_AU_Retail1_1586372,30,agent,channel1,19,143.0,151.0,So what will happen from there is we will send you a confirmation that your parcel has been received,neutral,0.8016,False,False,False,False,False
+en_AU_Retail1_1586372,31,agent,channel1,20,151.0,163.0,and it will take up to 14 days for the refunds to be processed from the day that we received the parcel.,neutral,0.8654,False,False,False,False,False
+en_AU_Retail1_1586372,32,customer,channel2,12,161.0,172.0,"Okay, cool.",positive,0.689,False,False,False,False,False
+en_AU_Retail1_1586372,33,agent,channel1,21,163.0,176.0,And then we'll go back to the credit card that you made the original purchase with.,neutral,0.8794,False,False,False,False,False
+en_AU_Retail1_1586372,34,customer,channel2,13,172.0,181.0,"Okay, that'd be great.",positive,0.9775,False,False,False,False,False
+en_AU_Retail1_1586372,35,agent,channel1,22,176.0,185.0,Was there anything that I could help you with?,neutral,0.871,False,False,True,False,False
+en_AU_Retail1_1586372,36,customer,channel2,14,181.0,200.0,"So I'd like to get a refund instead of an exchange, please.",neutral,0.5802,False,False,False,False,False
+en_AU_Retail1_1586372,37,agent,channel1,23,185.0,194.0,"Okay, so for refunds, as I mentioned, I can't really help you with that over the phone.",neutral,0.5184,False,False,False,False,False
+en_AU_Retail1_1586372,38,agent,channel1,24,194.0,201.0,That is something that you need to go on the website and do you want me to take you through the steps again?,neutral,0.9179,False,False,True,False,False
+en_AU_Retail1_1586372,39,customer,channel2,15,200.0,204.0,"Yes, please.",positive,0.5949,False,False,False,False,False
+en_AU_Retail1_1586372,40,agent,channel1,25,201.0,205.0,Are you in front of the computer? Are you in your account?,neutral,0.9211,False,False,True,False,False
+en_AU_Retail1_1586372,41,customer,channel2,16,204.0,213.0,"Yeah, yeah.",neutral,0.5609,False,False,False,False,False
+en_AU_Retail1_1586372,42,agent,channel1,26,205.0,214.0,"Okay, so you will see at the top left under accounts, there is a drop-down menu",neutral,0.918,False,False,False,False,False
+en_AU_Retail1_1586372,43,customer,channel2,17,213.0,222.0,Oh yeah.,positive,0.5387,False,False,False,False,False
+en_AU_Retail1_1586372,44,agent,channel1,27,214.0,222.0,and there is a section called refunds and returns.,neutral,0.8877,False,False,False,False,False
+en_AU_Retail1_1586372,45,agent,channel1,28,222.0,230.0,"Okay, when you click on that, if you purchase this jacket in the last 30 days, you will see the item coming up",neutral,0.9229,False,False,False,False,False
+en_AU_Retail1_1586372,46,customer,channel2,18,222.0,242.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Retail1_1586372,47,agent,channel1,29,230.0,243.0,and underneath there is a drop-down menu where you will select I want to refund this item.,neutral,0.5393,False,False,False,False,False
+en_AU_Retail1_1586372,48,customer,channel2,19,242.0,252.0,"Oh yeah, there it is.",neutral,0.5008,False,False,False,False,False
+en_AU_Retail1_1586372,49,agent,channel1,30,243.0,253.0,"Once you proceed with that, it will generate a label for you.",neutral,0.9114,False,False,False,False,False
+en_AU_Retail1_1586372,50,customer,channel2,20,252.0,264.0,Oh yeah.,positive,0.5387,False,False,False,False,False
+en_AU_Retail1_1586372,51,agent,channel1,31,253.0,259.0,So with that one you will need to print that label or just take it to the post office.,neutral,0.9135,False,False,False,False,False
+en_AU_Retail1_1586372,52,agent,channel1,32,259.0,266.0,The label has got a barcode on it.,neutral,0.9124,False,False,False,False,False
+en_AU_Retail1_1586372,53,customer,channel2,21,264.0,274.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Retail1_1586372,54,agent,channel1,33,266.0,273.0,And you provide that to the post office and put it on your packaging and send your package back to us.,neutral,0.8951,False,False,False,False,False
+en_AU_Retail1_1586372,55,agent,channel1,34,273.0,285.0,"And when we receive it, then we can process your refund to your account.",neutral,0.7807,False,False,False,False,False
+en_AU_Retail1_1586372,56,customer,channel2,22,274.0,280.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Retail1_1586372,57,customer,channel2,23,280.0,283.0,"Okay, yeah, but yes, so I've done that.",neutral,0.7514,False,False,False,False,False
+en_AU_Retail1_1586372,58,customer,channel2,24,283.0,290.0,"All right, thank you for that.",positive,0.8791,False,False,False,False,False
+en_AU_Retail1_1586372,59,agent,channel1,35,285.0,292.0,That's not a problem. Was there anything else that I can help you with?,neutral,0.6423,False,False,True,True,False
+en_AU_Retail1_1586372,60,customer,channel2,25,290.0,296.0,"Not at the moment, thank you.",neutral,0.7108,False,False,False,False,False
+en_AU_Retail1_1586372,61,agent,channel1,36,292.0,297.0,"Okay, thank you for calling us and good luck with that.",positive,0.7187,False,False,False,False,False
+en_AU_Retail1_1586372,62,customer,channel2,26,296.0,311.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Retail1_1586372,63,agent,channel1,37,297.0,299.0,Bye.,neutral,0.6078,False,False,False,False,False

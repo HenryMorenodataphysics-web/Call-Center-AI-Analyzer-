@@ -1,0 +1,90 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Banking_1586330,1,agent,channel1,1,0.0,16.44,"Good morning, thanks for contacting the Bank of Queensland."
+en_AU_Banking_1586330,2,customer,channel2,1,0.0,26.0,"Hi Alison, my name's Jenny and I'm just requesting I need to transfer some money from my savings"
+en_AU_Banking_1586330,3,agent,channel1,2,16.44,29.74,"My name is Alison, how can I help you today?"
+en_AU_Banking_1586330,4,customer,channel2,2,26.0,40.0,to my checking account urgently.
+en_AU_Banking_1586330,5,agent,channel1,3,29.74,34.4,"No problem with that Jenny, I can help you so I understand that you would like to transfer"
+en_AU_Banking_1586330,6,agent,channel1,4,34.4,42.68,"funds from your saving accounts to your credit or checking account, okay."
+en_AU_Banking_1586330,7,customer,channel2,3,40.0,52.0,To my checking.
+en_AU_Banking_1586330,8,agent,channel1,5,42.68,46.76,"Before I proceed, I will just need to confirm your identity."
+en_AU_Banking_1586330,9,agent,channel1,6,46.76,58.52,Can you please verify your full name and your date of birth for me?
+en_AU_Banking_1586330,10,customer,channel2,4,52.0,63.0,"Yeah, it's Sarah McPherson, 8th of July 1984."
+en_AU_Banking_1586330,11,agent,channel1,7,58.52,67.48,Thank you for that and do you have a security card?
+en_AU_Banking_1586330,12,customer,channel2,5,63.0,82.0,"I do, it's 8783."
+en_AU_Banking_1586330,13,agent,channel1,8,67.48,69.92,"Perfect, thank you very much."
+en_AU_Banking_1586330,14,agent,channel1,9,69.92,78.2,So I can see that you have both your savings and checking accounts here.
+en_AU_Banking_1586330,15,agent,channel1,10,78.2,83.8,How much would you like to transfer today?
+en_AU_Banking_1586330,16,customer,channel2,6,82.0,108.0,I'm gonna need 600 dollars.
+en_AU_Banking_1586330,17,agent,channel1,11,83.8,94.72,"Okay, that's not a problem and in terms of the transfer, I will be able to process that"
+en_AU_Banking_1586330,18,agent,channel1,12,94.72,102.52,"transfer for you but just so that you know, at the moment you have a daily transfer limit"
+en_AU_Banking_1586330,19,agent,channel1,13,102.52,107.56,of 500 on your saving account.
+en_AU_Banking_1586330,20,agent,channel1,14,107.56,123.32,"So your transfer will take up to three days if you're increasing that limit, is that okay?"
+en_AU_Banking_1586330,21,customer,channel2,7,108.0,124.0,We might go down to just 500 because the money is urgently needed for bills.
+en_AU_Banking_1586330,22,agent,channel1,15,123.32,132.92,"Yes, correct, okay."
+en_AU_Banking_1586330,23,customer,channel2,8,124.0,140.0,I can't really wait three days so I'll go down to the 500 limit and that should tide me over until my next pay hopefully.
+en_AU_Banking_1586330,24,agent,channel1,16,132.92,134.96,Absolutely that's not a problem.
+en_AU_Banking_1586330,25,agent,channel1,17,134.96,142.56,"And before I go ahead with that transfer, can I confirm your phone number please?"
+en_AU_Banking_1586330,26,customer,channel2,9,140.0,154.0,"Ah yes, 021 1928545."
+en_AU_Banking_1586330,27,agent,channel1,18,142.56,152.48,"Apologies, I will need your mobile number that has been listed on here, your Australian"
+en_AU_Banking_1586330,28,agent,channel1,19,152.48,156.72,mobile number.
+en_AU_Banking_1586330,29,customer,channel2,10,154.0,183.0,045196192.
+en_AU_Banking_1586330,30,agent,channel1,20,156.72,162.08,Thank you very much.
+en_AU_Banking_1586330,31,agent,channel1,21,162.08,167.2,So bear with me while I process this payment for you.
+en_AU_Banking_1586330,32,agent,channel1,22,167.2,175.64,You should receive a code on your mobile number in the next minute or so and once you receive
+en_AU_Banking_1586330,33,agent,channel1,23,175.64,183.48,"that, please read that out for me and just a second, I will send that one through in"
+en_AU_Banking_1586330,34,customer,channel2,11,183.0,212.0,"Yeah, it's 456."
+en_AU_Banking_1586330,35,agent,channel1,24,183.48,186.08,a second.
+en_AU_Banking_1586330,36,agent,channel1,25,186.08,189.08,Can you read the code for me?
+en_AU_Banking_1586330,37,agent,channel1,26,189.08,196.16,"Fantastic, okay."
+en_AU_Banking_1586330,38,agent,channel1,27,196.16,202.12,So the transfer has now been completed successfully and the funds should appear in your checking
+en_AU_Banking_1586330,39,agent,channel1,28,202.12,207.92,account within the next few minutes depending on the system processing times.
+en_AU_Banking_1586330,40,agent,channel1,29,207.92,212.64,You will be able to see the updated balance right away through the mobile app or internet
+en_AU_Banking_1586330,41,customer,channel2,12,212.0,227.0,"I'm just wondering in the future, can I set up automatic transfers?"
+en_AU_Banking_1586330,42,agent,channel1,30,212.64,229.88,"banking and, sorry to say that again, yes, absolutely and setting that one up will be"
+en_AU_Banking_1586330,43,customer,channel2,13,227.0,256.0,"Yes, yeah, so I don't have to worry about the bills, yeah."
+en_AU_Banking_1586330,44,agent,channel1,31,229.88,238.4,"a lot easier but when you say automatic transfers, you mean setting it up that it transfers"
+en_AU_Banking_1586330,45,agent,channel1,32,238.4,243.28,a certain amount of money on a particular date of the month?
+en_AU_Banking_1586330,46,agent,channel1,33,243.28,249.0,"Yeah, absolutely, I can help you with that if you want or I can tell you where you need"
+en_AU_Banking_1586330,47,agent,channel1,34,249.0,254.48,"to do it depending on which device you use, whether you're doing it on your phone"
+en_AU_Banking_1586330,48,agent,channel1,35,254.48,259.52,or you're doing it on the website.
+en_AU_Banking_1586330,49,customer,channel2,14,256.0,273.0,I'd be doing it on the website.
+en_AU_Banking_1586330,50,agent,channel1,36,259.52,261.68,"On the website, okay, no problem."
+en_AU_Banking_1586330,51,agent,channel1,37,261.68,268.0,"When you're logging, you need to go to the accounts and then under the accounts"
+en_AU_Banking_1586330,52,agent,channel1,38,268.0,276.08,you will be using your preferences.
+en_AU_Banking_1586330,53,customer,channel2,15,273.0,282.0,Oh yeah.
+en_AU_Banking_1586330,54,agent,channel1,39,276.08,284.32,"You will see under there, there is a section called scheduled transfers."
+en_AU_Banking_1586330,55,customer,channel2,16,282.0,302.0,Oh yep.
+en_AU_Banking_1586330,56,agent,channel1,40,284.32,289.6,"When you select the scheduled transfers, you will see that you can select the exact amount"
+en_AU_Banking_1586330,57,agent,channel1,41,289.6,295.64,and the date of transfers and then you also have the option of putting an end to it
+en_AU_Banking_1586330,58,agent,channel1,42,295.64,300.16,that for how long you would like these transfers to be continued.
+en_AU_Banking_1586330,59,agent,channel1,43,300.16,309.56,"We just mentioned that since we just processed this payment for you, I would suggest not"
+en_AU_Banking_1586330,60,customer,channel2,17,302.0,314.0,Ah.
+en_AU_Banking_1586330,61,agent,channel1,44,309.56,319.84,"doing it straight away and if you could do that at a later date, just to ensure that"
+en_AU_Banking_1586330,62,customer,channel2,18,314.0,323.0,Okay.
+en_AU_Banking_1586330,63,agent,channel1,45,319.84,323.36,we are not dabbling up with today's schedule.
+en_AU_Banking_1586330,64,customer,channel2,19,323.0,352.0,Oh yeah.
+en_AU_Banking_1586330,65,agent,channel1,46,323.36,330.08,"You can also do a future schedule transfers, but just to be insured, I would suggest you"
+en_AU_Banking_1586330,66,agent,channel1,47,330.08,331.96,doing that.
+en_AU_Banking_1586330,67,agent,channel1,48,331.96,338.84,"As part of the transfer, I believe you will also receive another code for security reasons"
+en_AU_Banking_1586330,68,agent,channel1,49,338.84,340.2,on your phone.
+en_AU_Banking_1586330,69,agent,channel1,50,340.2,348.0,You will need to provide that code on the website so your transfers get booked.
+en_AU_Banking_1586330,70,agent,channel1,51,348.0,354.28,"Is there anything else that I can help you with today, Jenny?"
+en_AU_Banking_1586330,71,customer,channel2,20,352.0,370.0,"Um, no, I think that's about it for the moment."
+en_AU_Banking_1586330,72,agent,channel1,52,354.28,358.04,Sure.
+en_AU_Banking_1586330,73,agent,channel1,53,358.04,360.6,Thank you so much.
+en_AU_Banking_1586330,74,agent,channel1,54,360.6,364.76,"Can I confirm, since it's been a couple of minutes, that the funds have been transferred"
+en_AU_Banking_1586330,75,agent,channel1,55,364.76,369.16,successfully through your accounts or you don't have the form of checking that one
+en_AU_Banking_1586330,76,agent,channel1,56,369.16,371.88,right now?
+en_AU_Banking_1586330,77,customer,channel2,21,370.0,378.0,"Okay, I'll just check, just make sure."
+en_AU_Banking_1586330,78,agent,channel1,57,372.88,379.56,Just confirm with me so we can close your hands.
+en_AU_Banking_1586330,79,customer,channel2,22,378.0,399.0,"Yeah, yeah, all the money's in there."
+en_AU_Banking_1586330,80,agent,channel1,58,379.56,381.52,"Okay, fantastic."
+en_AU_Banking_1586330,81,agent,channel1,59,381.52,385.28,Thank you so much for calling Bank of Queensland today.
+en_AU_Banking_1586330,82,agent,channel1,60,385.28,390.36,"I hope you have a great day and if you don't mind, please stay on the line because we"
+en_AU_Banking_1586330,83,agent,channel1,61,390.36,395.68,have a short survey for all the customers contacting us this month to complete and
+en_AU_Banking_1586330,84,agent,channel1,62,395.68,400.04,that would be much appreciated.
+en_AU_Banking_1586330,85,customer,channel2,23,399.0,407.0,That'd be great.
+en_AU_Banking_1586330,86,agent,channel1,63,400.04,401.44,"Thank you so much, Jenny."
+en_AU_Banking_1586330,87,agent,channel1,64,401.44,409.08,Just hold on the line and you will hear the survey in the next five seconds.
+en_AU_Banking_1586330,88,customer,channel2,24,407.0,420.0,"Okay, you too."
+en_AU_Banking_1586330,89,agent,channel1,65,409.08,411.08,Have a great day.

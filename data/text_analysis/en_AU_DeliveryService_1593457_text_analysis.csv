@@ -1,0 +1,95 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_DeliveryService_1593457,1,agent,channel1,1,0.0,18.76,Thank you for calling Smith delivery service. This is Julie speaking. How may I assist,neutral,0.6668,False,False,False,False,False
+en_AU_DeliveryService_1593457,2,customer,channel2,1,0.0,27.2,"Hi Julie, my name is Sarah. I just want to send something overseas and it's a fragile",neutral,0.7124,False,False,False,False,False
+en_AU_DeliveryService_1593457,3,agent,channel1,2,18.76,37.48,"you today? Of course, I'd be super happy to help you. What type of item are you looking",positive,0.9568,False,False,True,False,False
+en_AU_DeliveryService_1593457,4,customer,channel2,2,27.2,32.56,item. I just wanted to know some stuff about your shipping options. Are you able to help me with that?,neutral,0.8676,False,False,False,False,False
+en_AU_DeliveryService_1593457,5,agent,channel1,3,37.48,51.56,"to send? And where is it being shipped to? Absolutely, a porcelain vase. It's important",neutral,0.7082,False,False,True,False,False
+en_AU_DeliveryService_1593457,6,customer,channel2,3,40.4,46.8,It's a porcelain vase. I need to ship it from New York to Tokyo in Japan.,neutral,0.9064,False,False,False,False,False
+en_AU_DeliveryService_1593457,7,agent,channel1,4,51.56,56.72,to ensure that it's packaged correctly to avoid any damage during transit. We have options,neutral,0.8106,False,False,False,False,False
+en_AU_DeliveryService_1593457,8,agent,channel1,5,56.72,61.84,"to help you before that. But before we dive into the packaging options, let me quickly",neutral,0.8049,False,False,False,False,False
+en_AU_DeliveryService_1593457,9,customer,channel2,4,57.2,67.2,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_DeliveryService_1593457,10,agent,channel1,6,61.84,66.28,check the available international shipping methods we have to Japan. There's a few,neutral,0.9144,False,False,False,False,False
+en_AU_DeliveryService_1593457,11,agent,channel1,7,66.84,75.28,"various ones that we offer. All right, just checked. We offered standard international",neutral,0.5497,False,False,False,False,False
+en_AU_DeliveryService_1593457,12,customer,channel2,5,70.0,73.2,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_DeliveryService_1593457,13,agent,channel1,8,75.28,80.64,shipping. We've got expedited and express. Each service has different delivery times and,neutral,0.7947,False,False,False,False,False
+en_AU_DeliveryService_1593457,14,agent,channel1,9,80.64,87.0,"costs. But based on having a porcelain vase and that would be classed as a fragile item,",neutral,0.5815,False,False,False,False,False
+en_AU_DeliveryService_1593457,15,agent,channel1,10,87.0,91.92,"I personally recommend our express shipping method, which also includes extra extra",positive,0.9034,False,False,False,False,False
+en_AU_DeliveryService_1593457,16,customer,channel2,6,87.2,101.2,"Yeah, I think the expression option would be really good.",positive,0.9444,False,False,False,False,False
+en_AU_DeliveryService_1593457,17,agent,channel1,11,91.92,95.12,handling for delicate items. Is that something that you're wanting?,neutral,0.8661,False,False,True,False,False
+en_AU_DeliveryService_1593457,18,customer,channel2,7,101.2,108.96,"With the packaging options for my item, are there many packaging options or do I need",neutral,0.8594,False,False,False,False,False
+en_AU_DeliveryService_1593457,19,customer,channel2,8,108.96,109.96,to package it myself?,neutral,0.902,False,False,False,False,False
+en_AU_DeliveryService_1593457,20,customer,channel2,9,109.96,111.96,I just don't want it to get damaged.,negative,0.7482,False,False,False,False,False
+en_AU_DeliveryService_1593457,21,agent,channel1,12,112.8,118.8,Absolutely. It's crucial that the fragile item is packaged securely. So we've got a couple of,neutral,0.6283,False,False,False,False,False
+en_AU_DeliveryService_1593457,22,agent,channel1,13,118.84,124.88,different packaging options designed to protect delicate items such as your porcelain vase or if,neutral,0.7914,False,False,False,False,False
+en_AU_DeliveryService_1593457,23,agent,channel1,14,124.88,130.32,"you have other glass or ceramics. So some of our options, I'll read out our possible package",neutral,0.8455,False,False,False,False,False
+en_AU_DeliveryService_1593457,24,agent,channel1,15,130.32,136.68,"options to you. We have custom package, which includes specialized packing materials, including",neutral,0.708,False,False,False,False,False
+en_AU_DeliveryService_1593457,25,agent,channel1,16,136.68,143.0,"reinforced cardboard, boxes, bubble wrap, foam inserts and packaging peanuts. We also offer",neutral,0.8325,False,False,False,False,False
+en_AU_DeliveryService_1593457,26,agent,channel1,17,143.0,147.68,custom boxes made to fit your item perfectly so we can take the measurements of your,positive,0.6384,False,False,False,False,False
+en_AU_DeliveryService_1593457,27,agent,channel1,18,147.68,154.68,item. One of our other items we offer is a fragile item labelling. We'll add fry gel and,neutral,0.8272,False,False,False,False,False
+en_AU_DeliveryService_1593457,28,agent,channel1,19,154.68,159.52,handle with care labels on the package to ensure that the handlers know for additional,neutral,0.8927,False,False,False,False,False
+en_AU_DeliveryService_1593457,29,agent,channel1,20,159.52,165.32,protection. We also have insurance for high value items like your vase. Highly recommend,positive,0.925,False,False,False,False,False
+en_AU_DeliveryService_1593457,30,agent,channel1,21,165.32,171.32,adding insurance coverage to protect any potential damage or loss during transit. Which,neutral,0.8232,False,False,False,False,False
+en_AU_DeliveryService_1593457,31,customer,channel2,10,169.96,184.26,I think I'll go with your custom packaging and definitely with like the fragile and handle,neutral,0.6803,False,False,False,False,False
+en_AU_DeliveryService_1593457,32,agent,channel1,22,171.32,176.52,one would you like to opt for? We can also package it for you at one of our locations if,neutral,0.8461,False,False,True,False,False
+en_AU_DeliveryService_1593457,33,agent,channel1,23,176.52,178.64,that's an additional requirement you'd like.,neutral,0.8713,False,False,False,False,False
+en_AU_DeliveryService_1593457,34,customer,channel2,11,184.26,187.28,with care labels on the package would be awesome.,positive,0.8935,False,False,False,False,False
+en_AU_DeliveryService_1593457,35,customer,channel2,12,187.28,190.28,And I think I'll opt for the insurance as well.,neutral,0.5868,False,False,False,False,False
+en_AU_DeliveryService_1593457,36,customer,channel2,13,190.28,191.72,I just want to make sure it gets there.,positive,0.5798,False,False,False,False,False
+en_AU_DeliveryService_1593457,37,agent,channel1,24,193.72,198.8,"Yep, certainly. So the custom packaging, including the extra protective materials will",neutral,0.588,False,False,False,False,False
+en_AU_DeliveryService_1593457,38,agent,channel1,25,198.8,205.04,cost an additional $25 as the shipping options. Let me give you the details on the,neutral,0.8978,False,False,False,False,False
+en_AU_DeliveryService_1593457,39,customer,channel2,14,199.96,218.16,"Yeah, I think the express option would be really good.",positive,0.934,False,False,False,False,False
+en_AU_DeliveryService_1593457,40,agent,channel1,26,205.32,211.56,costs and delivery times. So are you seeking the express option? Would that be best suited,neutral,0.8796,False,False,True,False,False
+en_AU_DeliveryService_1593457,41,agent,channel1,27,211.56,212.12,for you?,neutral,0.8911,False,False,True,False,False
+en_AU_DeliveryService_1593457,42,customer,channel2,15,218.16,224.96,"I just don't want to, like I don't want it to be rushed and then broken as long as that's",negative,0.8913,False,False,False,False,False
+en_AU_DeliveryService_1593457,43,customer,channel2,16,224.96,254.44,"not going to happen, then it should be fine.",neutral,0.611,False,False,False,False,False
+en_AU_DeliveryService_1593457,44,agent,channel1,28,227.48,234.08,Absolutely. So our express option from New York to Japan typically typically takes about,neutral,0.7213,False,False,False,False,False
+en_AU_DeliveryService_1593457,45,agent,channel1,29,234.12,239.64,three to five business days. And so that is flown on a courier plane. The total costs,neutral,0.6568,False,False,False,False,False
+en_AU_DeliveryService_1593457,46,agent,channel1,30,239.64,245.84,"for express item shipping, including the packaging would be $195. So this covers the",neutral,0.8757,False,False,False,False,False
+en_AU_DeliveryService_1593457,47,agent,channel1,31,245.84,250.88,shipping fee and the packing materials. Would you be happy to proceed with this,neutral,0.5908,False,False,False,False,False
+en_AU_DeliveryService_1593457,48,agent,channel1,32,250.88,253.24,option or would you like me to read you something more?,neutral,0.9209,False,False,True,False,False
+en_AU_DeliveryService_1593457,49,customer,channel2,17,254.44,257.64,"Yeah, I think that's good.",positive,0.959,False,False,False,False,False
+en_AU_DeliveryService_1593457,50,customer,channel2,18,257.64,259.24,Can you tell me about the tracking though?,neutral,0.9418,False,False,False,False,False
+en_AU_DeliveryService_1593457,51,customer,channel2,19,259.24,262.24,I just want to make sure I can see where it is.,neutral,0.7463,False,False,False,False,False
+en_AU_DeliveryService_1593457,52,customer,channel2,20,262.24,265.56,"I don't want to lose it and then be like, where is it?",negative,0.7468,False,False,False,False,False
+en_AU_DeliveryService_1593457,53,agent,channel1,33,264.92,269.6,Absolutely. So we have truckings and obviously there'll have to be a custom,neutral,0.7232,False,False,False,False,False
+en_AU_DeliveryService_1593457,54,customer,channel2,21,265.56,267.68,So do you have tracking information?,neutral,0.9502,False,False,False,False,False
+en_AU_DeliveryService_1593457,55,agent,channel1,34,269.6,274.0,"declaration as well. Once your package is shipped, you'll receive a trucking number",neutral,0.9,False,False,False,False,False
+en_AU_DeliveryService_1593457,56,agent,channel1,35,274.0,278.56,that allows you to follow the packages progression online. So you'll be able to see,neutral,0.698,False,False,False,False,False
+en_AU_DeliveryService_1593457,57,agent,channel1,36,278.56,282.88,when it arrives at our facility if you personally deliver it yourself or choose,neutral,0.9148,False,False,True,False,False
+en_AU_DeliveryService_1593457,58,agent,channel1,37,282.88,288.72,"the courier pickup option. You'll see when it's in transit, when it's arrived",neutral,0.8275,False,False,False,False,False
+en_AU_DeliveryService_1593457,59,agent,channel1,38,289.72,293.12,in Tokyo and when it's going through customs. And then you'll also get an,neutral,0.9226,False,False,False,False,False
+en_AU_DeliveryService_1593457,60,agent,channel1,39,293.12,299.36,"estimated delivery window. Additionally, with Japan, they do have more intense",neutral,0.8633,False,False,False,False,False
+en_AU_DeliveryService_1593457,61,agent,channel1,40,299.36,303.6,custom paperwork. So we'll provide you with the customs declaration form that,neutral,0.9101,False,False,False,False,False
+en_AU_DeliveryService_1593457,62,agent,channel1,41,303.6,307.36,you'll need to complete. So it will include some details such as the value,neutral,0.9149,False,False,False,False,False
+en_AU_DeliveryService_1593457,63,agent,channel1,42,307.36,311.76,"of the item, description of the content and the origin of the vase. So if",neutral,0.9294,False,False,False,False,False
+en_AU_DeliveryService_1593457,64,agent,channel1,43,311.76,315.36,"you're unsure about any of that, you can always give us a call back.",neutral,0.8224,False,False,False,False,False
+en_AU_DeliveryService_1593457,65,customer,channel2,22,314.44,321.44,"Yeah, all right.",positive,0.4971,False,False,False,False,False
+en_AU_DeliveryService_1593457,66,agent,channel1,44,315.36,317.2,And we're happy to help you with that.,positive,0.9661,False,False,False,False,False
+en_AU_DeliveryService_1593457,67,customer,channel2,23,321.44,322.44,That sounds good.,positive,0.9536,False,False,False,False,False
+en_AU_DeliveryService_1593457,68,customer,channel2,24,323.44,329.44,"Do I need any, like, specific questions?",neutral,0.9139,False,False,False,False,False
+en_AU_DeliveryService_1593457,69,customer,channel2,25,329.44,342.44,"Yeah, sorry.",negative,0.5859,False,False,False,False,False
+en_AU_DeliveryService_1593457,70,agent,channel1,45,332.72,335.2,"I'm sorry, can you repeat that for me please?",negative,0.679,False,False,True,False,False
+en_AU_DeliveryService_1593457,71,agent,channel1,46,335.2,340.08,"Yeah, any additional paperwork that you'll have to pay for for the Customs Package",neutral,0.8011,False,False,False,False,False
+en_AU_DeliveryService_1593457,72,agent,channel1,47,340.08,340.96,application?,neutral,0.7873,False,False,True,False,False
+en_AU_DeliveryService_1593457,73,agent,channel1,48,340.96,344.16,"I'm sorry, can you repeat that for me please?",negative,0.679,False,False,True,False,False
+en_AU_DeliveryService_1593457,74,customer,channel2,26,342.44,343.44,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_DeliveryService_1593457,75,agent,channel1,49,366.08,372.4,"No, for most personal items like your vase, there won't be any additional costs",neutral,0.8146,False,False,False,False,False
+en_AU_DeliveryService_1593457,76,agent,channel1,50,372.4,378.72,as well. It may occur additional costs based on the price of the porcelain,neutral,0.7535,False,False,False,False,False
+en_AU_DeliveryService_1593457,77,customer,channel2,27,372.44,401.44,"Okay, so I'll be getting express shipping with the custom packaging and the insurance.",neutral,0.6999,False,False,False,False,False
+en_AU_DeliveryService_1593457,78,agent,channel1,51,378.72,383.36,vase. So if it's an older sort of porcelain vase that has a higher retail,neutral,0.873,False,False,False,False,False
+en_AU_DeliveryService_1593457,79,agent,channel1,52,383.36,388.4,"price, there may be import charges on that. But most likely not.",neutral,0.6581,False,False,False,False,False
+en_AU_DeliveryService_1593457,80,agent,channel1,53,395.2,410.24,"Yep, certainly I'll just confirm it back to you for the express shipping, custom",neutral,0.5274,False,False,False,False,False
+en_AU_DeliveryService_1593457,81,customer,channel2,28,402.44,403.44,With tracking.,neutral,0.8738,False,False,False,False,False
+en_AU_DeliveryService_1593457,82,customer,channel2,29,403.44,404.44,Is that right?,neutral,0.8808,False,False,False,False,False
+en_AU_DeliveryService_1593457,83,customer,channel2,30,404.44,427.44,And it's $195.,neutral,0.5264,False,False,False,False,False
+en_AU_DeliveryService_1593457,84,agent,channel1,54,410.24,418.8,packaging and insurance. The total cost is $195 and I'm happy to help you with,positive,0.6559,False,False,False,False,False
+en_AU_DeliveryService_1593457,85,agent,channel1,55,418.8,420.4,the final arrangements if you need.,neutral,0.8689,False,False,False,False,False
+en_AU_DeliveryService_1593457,86,agent,channel1,56,425.2,452.0,"Sorry, Sarah, are you still there?",neutral,0.5943,False,False,True,False,False
+en_AU_DeliveryService_1593457,87,customer,channel2,31,427.44,434.44,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_DeliveryService_1593457,88,agent,channel1,57,455.76,471.68,"Certainly. With the paperwork, would you like to fill some of that information in now? Obviously,",neutral,0.8927,False,False,True,False,False
+en_AU_DeliveryService_1593457,89,customer,channel2,32,457.44,460.44,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_DeliveryService_1593457,90,agent,channel1,58,471.68,475.6,you'll need to fill it in yourself but we can proceed forth and get some of those,neutral,0.871,False,False,False,False,False
+en_AU_DeliveryService_1593457,91,agent,channel1,59,475.6,488.0,organization requirements filled in now if you'd like.,neutral,0.8039,False,False,False,False,False
+en_AU_DeliveryService_1593457,92,customer,channel2,33,487.44,509.44,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_DeliveryService_1593457,93,agent,channel1,60,505.6,518.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_DeliveryService_1593457,94,customer,channel2,34,509.44,519.44,Thank you.,positive,0.8345,False,False,False,False,False

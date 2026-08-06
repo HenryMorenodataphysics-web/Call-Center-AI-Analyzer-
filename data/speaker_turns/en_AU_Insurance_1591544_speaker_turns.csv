@@ -1,0 +1,119 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Insurance_1591544,1,agent,channel1,1,0.0,17.56,Very good morning to you. Thanks for calling Allianz. You're speaking with Tom and I'm
+en_AU_Insurance_1591544,2,customer,channel2,1,0.0,27.76,"Hey, Tom. Well, believe it or not, I need some travel insurance. So, yeah, that's why"
+en_AU_Insurance_1591544,3,agent,channel1,2,17.56,23.84,from the travel insurance customer expert team. How can I help you this morning?
+en_AU_Insurance_1591544,4,agent,channel1,3,24.84,32.32,"Oh, well, you've come to the right place. Can I just start by getting your name? Thanks."
+en_AU_Insurance_1591544,5,customer,channel2,2,27.76,44.36,"I'm calling. Yeah, it's Laura. So, I had this trip booked quite a while ago with my"
+en_AU_Insurance_1591544,6,agent,channel1,4,32.32,37.56,"Very exciting times for you, Laura. I'll wear you off too."
+en_AU_Insurance_1591544,7,customer,channel2,3,44.36,49.44,"fiance and we're not together anymore. So, it's a bit of a crazy story, but I'm"
+en_AU_Insurance_1591544,8,customer,channel2,4,49.44,55.54,actually taking one of my friends now on this trip and we're going to the
+en_AU_Insurance_1591544,9,agent,channel1,5,54.84,63.92,"Oh, yes, girls trip. That's a lucky friend. I'm sorry to hear about your fiance, but I mean,"
+en_AU_Insurance_1591544,10,customer,channel2,5,55.54,71.92,"Maldives, which should be pretty exciting. Yeah, definitely. Much better option, much"
+en_AU_Insurance_1591544,11,agent,channel1,6,63.92,67.2,that's a very good second option if you are going to take a good friend of yours.
+en_AU_Insurance_1591544,12,agent,channel1,7,67.2,78.68,"Well, lucky it happened now and not in the beautiful Maldives."
+en_AU_Insurance_1591544,13,customer,channel2,6,71.92,81.58,"better person. So, I think it'll be much better trip overall. That is so true. I"
+en_AU_Insurance_1591544,14,agent,channel1,8,78.68,94.4,"Oh, I can taste the Cosmopolitan already. So how long are you thinking of going for?"
+en_AU_Insurance_1591544,15,customer,channel2,7,81.58,85.38,"didn't even think about that. That would have been a nightmare. So, yeah, at"
+en_AU_Insurance_1591544,16,customer,channel2,8,85.38,88.3,least I get to go to someone that's going to be a lot of fun and we can really
+en_AU_Insurance_1591544,17,customer,channel2,9,88.3,105.5,"enjoy ourselves now. So, we've got the trip booked for two and a half weeks. So,"
+en_AU_Insurance_1591544,18,agent,channel1,9,100.4,103.2,"Okay, great. And what time are you?"
+en_AU_Insurance_1591544,19,customer,channel2,10,105.5,120.82,"we are going from Feb, the 16th. It definitely will be, that's for sure."
+en_AU_Insurance_1591544,20,agent,channel1,10,109.68,115.2,"Okay, just after Valentine's Day, it's going to be for you."
+en_AU_Insurance_1591544,21,agent,channel1,11,115.2,125.24,And so you said two and a half weeks and we're looking at getting travel insurance for yourself
+en_AU_Insurance_1591544,22,agent,channel1,12,125.24,138.32,"or for your girlfriend too. Yeah, not a problem."
+en_AU_Insurance_1591544,23,customer,channel2,11,127.62,133.46,"Look, definitely for me, but I'll probably check out options for her as well, just"
+en_AU_Insurance_1591544,24,customer,channel2,12,133.5,136.94,"so I can let her know what to get, because I don't think she's even looked yet."
+en_AU_Insurance_1591544,25,agent,channel1,13,138.8,147.2,"And just before we get stuck into this trip, do you travel frequently or is this sort of just an annual trip every year?"
+en_AU_Insurance_1591544,26,agent,channel1,14,147.2,170.0,"Yeah, not a problem at all. Well, it's absolutely fantastic that you are thinking of travel insurance"
+en_AU_Insurance_1591544,27,customer,channel2,13,147.98,152.78,"No, I never really travelled. So, it's like a big trip for me. Like, I've been one"
+en_AU_Insurance_1591544,28,customer,channel2,14,152.78,158.26,"place before and that was with family. It wasn't very exciting. So, yeah, first"
+en_AU_Insurance_1591544,29,customer,channel2,15,158.26,164.42,"trip, super excited. Yeah, so I'm not really sure of what I meant to do. So, please"
+en_AU_Insurance_1591544,30,customer,channel2,16,164.42,165.22,help me through this.
+en_AU_Insurance_1591544,31,agent,channel1,15,170.0,174.4,"because knock on wood, you sort of don't want anything to go wrong over there."
+en_AU_Insurance_1591544,32,agent,channel1,16,174.4,179.6,"And when it does on the off chance, it's great just to have this safety net for you to fall into."
+en_AU_Insurance_1591544,33,agent,channel1,17,179.6,190.32,"So for the Maldives, and because it's sort of only one trip, just having a look here, right?"
+en_AU_Insurance_1591544,34,agent,channel1,18,190.32,196.48,"Yeah, so we've got three different options. So, yeah, let's just talk about yourself first."
+en_AU_Insurance_1591544,35,agent,channel1,19,196.48,200.6,And then we can look at adding your friends down the track if need be.
+en_AU_Insurance_1591544,36,agent,channel1,20,200.6,209.28,The three different tiers we have here is the basic medium as well as the comprehensive travel insurance.
+en_AU_Insurance_1591544,37,agent,channel1,21,209.28,214.28,"So they all cover different things, basic, obviously, obviously basic."
+en_AU_Insurance_1591544,38,agent,channel1,22,214.28,217.64,And then things ramp up from there depending on your needs.
+en_AU_Insurance_1591544,39,agent,channel1,23,217.64,223.56,So do you have any health conditions or health requirements for we look at the particulars?
+en_AU_Insurance_1591544,40,customer,channel2,17,219.26,220.26,No health issues.
+en_AU_Insurance_1591544,41,agent,channel1,24,224.52,232.52,"Okay, and sort of nothing pre-existing in the past that sort of may not be current,"
+en_AU_Insurance_1591544,42,customer,channel2,18,229.26,230.26,"No, no health issues."
+en_AU_Insurance_1591544,43,agent,channel1,25,232.52,235.4,but you have sort of been affected by previously?
+en_AU_Insurance_1591544,44,agent,channel1,26,239.96,245.32,"Okay, not a problem. And what type of luggage will you be taking?"
+en_AU_Insurance_1591544,45,agent,channel1,27,245.32,251.32,Do you travel with sort of expensive goods or a sort of a pack light adventure traveler?
+en_AU_Insurance_1591544,46,customer,channel2,19,249.26,256.26,"I'll probably be taking a few, I don't know if they're expensive, but like I've got a"
+en_AU_Insurance_1591544,47,agent,channel1,28,253.56,281.32,"Yeah, so I definitely do have that particularly when wet."
+en_AU_Insurance_1591544,48,customer,channel2,20,256.26,262.26,good camera that I'm going to take with me. I do have a drone that I want to take
+en_AU_Insurance_1591544,49,customer,channel2,21,262.26,267.26,"as well, because I just feel like I'll get some really amazing shots. But other"
+en_AU_Insurance_1591544,50,customer,channel2,22,267.26,272.26,"than that, just kind of general stuff. There'll be some jewelry obviously that"
+en_AU_Insurance_1591544,51,customer,channel2,23,272.26,278.26,"I wear. But yeah, probably a lot of bikinis, to be honest."
+en_AU_Insurance_1591544,52,agent,channel1,29,282.2,289.96,So what I recommend for you just purely because you are traveling with some highly valuable
+en_AU_Insurance_1591544,53,agent,channel1,30,289.96,294.76,"tech items, our comprehensive travel insurance is probably best for you."
+en_AU_Insurance_1591544,54,agent,channel1,31,295.64,300.84,"What that includes is a trip cancellation, heaven forbid. You have a second pick up along the way,"
+en_AU_Insurance_1591544,55,agent,channel1,32,301.96,309.08,"as well as overseas medical and hospital expenses. There's things like additional expenses,"
+en_AU_Insurance_1591544,56,customer,channel2,24,302.26,303.26,Thank you.
+en_AU_Insurance_1591544,57,agent,channel1,33,309.08,317.8,personal liability. But what it does also include is travel to lay expenses and lost item expenses.
+en_AU_Insurance_1591544,58,agent,channel1,34,317.8,321.48,"So from what you told me so far, these would probably be the most"
+en_AU_Insurance_1591544,59,agent,channel1,35,321.48,328.92,"two important points for you because it does cover you up to $10,000 of lost or misplaced"
+en_AU_Insurance_1591544,60,agent,channel1,36,328.92,340.68,or stolen items with an excess of $150.
+en_AU_Insurance_1591544,61,customer,channel2,25,333.26,340.26,Okay. And is there medical included in the comprehensive option as well? Because
+en_AU_Insurance_1591544,62,customer,channel2,26,340.26,345.26,that's one of the things that Mum said to be really careful with and things like
+en_AU_Insurance_1591544,63,customer,channel2,27,345.26,349.26,"that. If anything ever happens when you're overseas, make sure you're"
+en_AU_Insurance_1591544,64,customer,channel2,28,349.26,352.26,"covered. So, that's one of the things I wanted to check."
+en_AU_Insurance_1591544,65,agent,channel1,37,351.96,357.32,"Yeah, so well, like it says in the name, it comprehensively covers medical conditions."
+en_AU_Insurance_1591544,66,agent,channel1,38,357.8,363.24,We've got your overseas medical and hospital expenses. So that will cover you for anything
+en_AU_Insurance_1591544,67,customer,channel2,29,362.26,363.26,Thank you.
+en_AU_Insurance_1591544,68,agent,channel1,39,363.24,368.84,"that isn't preexisting. We've also got included within that your overseas emergency assistance,"
+en_AU_Insurance_1591544,69,agent,channel1,40,369.56,376.28,"as well as personal liability, accidental death and permanent disability. So you're covered from"
+en_AU_Insurance_1591544,70,agent,channel1,41,376.28,383.24,all angles there. The one flag I will make is it doesn't cover extreme sports. So giving you
+en_AU_Insurance_1591544,71,agent,channel1,42,383.96,390.04,"going to the Maldives, that would be things like jet skiing or parachuting or rock climbing,"
+en_AU_Insurance_1591544,72,agent,channel1,43,390.04,394.44,"those type of things because they do carry, oh, sorry, I should also add scooter rides,"
+en_AU_Insurance_1591544,73,customer,channel2,30,392.26,416.26,Okay. Fantastic. What else do I need to be concerned about or think about?
+en_AU_Insurance_1591544,74,agent,channel1,44,395.08,401.24,because they do carry a high level of risk. The insurance doesn't cover that. And that's not
+en_AU_Insurance_1591544,75,agent,channel1,45,401.24,408.04,just Alianne's particular. That is just a standard across the travel insurance industry.
+en_AU_Insurance_1591544,76,agent,channel1,46,417.64,425.16,"Well, we also do have rental vehicle excess included within that too. So if you are looking at"
+en_AU_Insurance_1591544,77,customer,channel2,31,422.26,451.26,"Okay. And if I'm looking at this, how much is it all up for me and how much is it"
+en_AU_Insurance_1591544,78,agent,channel1,47,425.16,430.6,"sort of parking yourself having a girl's base for a week or two and hiring a vehicle,"
+en_AU_Insurance_1591544,79,agent,channel1,48,431.4,436.68,"that can also be one of the most panicking times. Oh, was that scratched there before? Was it not?"
+en_AU_Insurance_1591544,80,agent,channel1,49,436.68,445.08,"So your rental vehicle is also covered up to $15,000 excess."
+en_AU_Insurance_1591544,81,customer,channel2,32,451.26,455.26,"for my friend? Does it depend how old you are, all that kind of stuff? How does it"
+en_AU_Insurance_1591544,82,customer,channel2,33,455.26,457.26,work?
+en_AU_Insurance_1591544,83,agent,channel1,50,456.12,463.64,"Yeah, definitely. So if we're just looking at ensuring one person for a two week trip,"
+en_AU_Insurance_1591544,84,agent,channel1,51,464.28,470.6,that would come in at $200 per person for the comprehensive trip. But if you'd like to
+en_AU_Insurance_1591544,85,agent,channel1,52,470.6,479.0,"book the package with your friend on that same policy, we could discount that by $50. So it"
+en_AU_Insurance_1591544,86,agent,channel1,53,479.08,485.24,would be $350 for two people for the two weeks for a comprehensive policy to the mildives.
+en_AU_Insurance_1591544,87,customer,channel2,34,486.26,491.26,"Oh, that sounds like it definitely be worth doing it together then. Get a couple"
+en_AU_Insurance_1591544,88,customer,channel2,35,491.26,494.26,extra cocktails in for that price by the sounds of it.
+en_AU_Insurance_1591544,89,agent,channel1,54,494.52,497.8,"Yeah, well, when you are looking at the hundreds of thousands that could potentially"
+en_AU_Insurance_1591544,90,agent,channel1,55,498.52,505.56,need to be paid if you were to have a travel delay or have a health issue or even damage that
+en_AU_Insurance_1591544,91,agent,channel1,56,505.56,511.08,"rental vehicle, you'd definitely get your weight in cocktails, that's all we've been saying. And"
+en_AU_Insurance_1591544,92,agent,channel1,57,511.08,521.48,I would say it's better to have peace of mind than to have no mind.
+en_AU_Insurance_1591544,93,customer,channel2,36,516.26,522.26,"True, true. Okay, wonderful. Look, I think that sounds pretty good. I think I would"
+en_AU_Insurance_1591544,94,agent,channel1,58,521.8,537.96,"Yeah, definitely. So if we look at the basic package, that only covers you for"
+en_AU_Insurance_1591544,95,customer,channel2,37,522.26,527.26,feel more confident going with the comprehensive. You said there was three
+en_AU_Insurance_1591544,96,customer,channel2,38,527.26,531.26,packages though. What's the difference in price with the other two just so I can
+en_AU_Insurance_1591544,97,customer,channel2,39,531.26,533.26,let my friend know the difference?
+en_AU_Insurance_1591544,98,agent,channel1,59,539.32,543.64,"your overseas emergency assistance. But there is a $5,000 excess there."
+en_AU_Insurance_1591544,99,agent,channel1,60,545.0,550.04,And it also covers personal liability. The price for that one for two weeks would be
+en_AU_Insurance_1591544,100,customer,channel2,40,545.26,548.26,Okay.
+en_AU_Insurance_1591544,101,agent,channel1,61,550.12,555.24,"$50 per person. However, you do just need to factor in that there is a substantially high"
+en_AU_Insurance_1591544,102,agent,channel1,62,555.24,563.4,excess rate. And then the median package includes everything that basically has
+en_AU_Insurance_1591544,103,agent,channel1,63,563.4,572.52,plus cancellation insurance for you as well. So if the trip is cancelled by the airline or the
+en_AU_Insurance_1591544,104,agent,channel1,64,572.52,578.52,"holiday provider, we will be able to reimburse you the cost of your holiday with a $500 excess."
+en_AU_Insurance_1591544,105,customer,channel2,41,575.26,594.26,"Okay. Too easy. All right, wonderful. That's given me a bit of information. I'm"
+en_AU_Insurance_1591544,106,agent,channel1,65,578.6,584.04,"However, one thing to note is it doesn't include a simple change of mind or for you"
+en_AU_Insurance_1591544,107,agent,channel1,66,584.04,594.44,being unable to travel if the holiday is still okay to proceed.
+en_AU_Insurance_1591544,108,customer,channel2,42,594.26,598.26,"going to go double check that my friend's happy with all that, the price, et"
+en_AU_Insurance_1591544,109,agent,channel1,67,594.52,611.48,"Perfect. Well, if you just call back whenever you're free and mention the same details you've"
+en_AU_Insurance_1591544,110,customer,channel2,43,598.26,603.26,cetera. And then we'll give you a buzz back and let you know. I think we'll
+en_AU_Insurance_1591544,111,customer,channel2,44,603.26,605.26,"be keen to go for that, especially with the discount."
+en_AU_Insurance_1591544,112,agent,channel1,68,611.48,615.08,"stated to me and that you're looking at the comprehensive travel insurance package,"
+en_AU_Insurance_1591544,113,agent,channel1,69,615.08,616.84,we can get that sorted straight away for you.
+en_AU_Insurance_1591544,114,customer,channel2,45,618.26,620.26,"Alrighty, wonderful. Thanks so much."
+en_AU_Insurance_1591544,115,agent,channel1,70,620.2,623.64,"Not a problem. Well, if I don't speak to you when you call up to book in,"
+en_AU_Insurance_1591544,116,agent,channel1,71,623.64,629.24,have the most amazing trip. You too. Bye.
+en_AU_Insurance_1591544,117,customer,channel2,46,626.26,628.26,I will. Thanks a lot. Take care.
+en_AU_Insurance_1591544,118,customer,channel2,47,633.26,636.26,Thank you.

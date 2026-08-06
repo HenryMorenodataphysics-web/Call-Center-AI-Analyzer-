@@ -1,0 +1,120 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Entertainment_1588691,1,agent,channel1,1,0.0,15.0,Hello and welcome to the entertainment association.,positive,0.8276,False,False,False,False,False
+en_CA_Entertainment_1588691,2,customer,channel2,1,0.0,26.0,"Hi, I'd like to purchase some VIP passes for Burning Man in 2026.",neutral,0.7885,False,False,False,False,False
+en_CA_Entertainment_1588691,3,agent,channel1,2,15.0,26.0,My name is Julia. How can I help you?,neutral,0.8404,False,False,True,False,False
+en_CA_Entertainment_1588691,4,agent,channel1,3,26.0,34.0,Absolutely. And what dates would you like that for?,neutral,0.6787,False,False,True,False,False
+en_CA_Entertainment_1588691,5,customer,channel2,2,26.0,34.0,All three days.,neutral,0.7395,False,False,False,False,False
+en_CA_Entertainment_1588691,6,agent,channel1,4,34.0,38.0,"Well, three days.",neutral,0.7961,False,False,False,False,False
+en_CA_Entertainment_1588691,7,customer,channel2,3,34.0,48.0,It's Owen Sound.,neutral,0.8583,False,False,False,False,False
+en_CA_Entertainment_1588691,8,agent,channel1,5,38.0,42.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,9,agent,channel1,6,42.0,50.0,"And your name, please.",neutral,0.7623,False,False,False,False,False
+en_CA_Entertainment_1588691,10,customer,channel2,4,48.0,66.0,"No, I'll need three, actually. One for me, one for my best friend, and one for her boyfriend.",neutral,0.7078,False,False,False,False,False
+en_CA_Entertainment_1588691,11,agent,channel1,7,50.0,61.0,Okay. And is it just the one pass?,neutral,0.9193,False,False,True,False,False
+en_CA_Entertainment_1588691,12,agent,channel1,8,61.0,67.0,"Okay, I will need the names of those people as well.",neutral,0.7772,False,False,False,False,False
+en_CA_Entertainment_1588691,13,customer,channel2,5,66.0,87.0,"Everyone's over 19 years old, yes.",neutral,0.8169,False,False,False,False,False
+en_CA_Entertainment_1588691,14,agent,channel1,9,67.0,74.0,Can you please confirm that everyone is over 19 years old?,neutral,0.8206,False,False,True,False,False
+en_CA_Entertainment_1588691,15,agent,channel1,10,74.0,76.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,16,agent,channel1,11,76.0,82.0,You will need to bring your ID to the festival.,neutral,0.9144,False,False,False,False,False
+en_CA_Entertainment_1588691,17,agent,channel1,12,82.0,86.0,And are you aware that the festival is all in cash?,neutral,0.7307,False,False,True,False,False
+en_CA_Entertainment_1588691,18,customer,channel2,6,87.0,113.0,"I was not aware. Last time we went, you were able to pay using cash at the front desk, and then they would give you a wristband that acted kind of like a credit card while you were there, and it gave you credit towards food and drinks and the festival vendors and things like that.",neutral,0.8752,False,False,False,False,False
+en_CA_Entertainment_1588691,19,agent,channel1,13,104.0,131.0,"Yes, that is still the case.",neutral,0.866,False,False,False,False,False
+en_CA_Entertainment_1588691,20,customer,channel2,7,113.0,124.0,"And then when you left, you could cash out whatever remained on the wristband and receive it back in cash, mostly because they didn't want people stealing it.",neutral,0.8368,False,False,False,False,False
+en_CA_Entertainment_1588691,21,customer,channel2,8,124.0,139.0,"Okay, yes. Then if that's what you meant by Owen Cash, then yes, I was aware.",neutral,0.7634,False,False,False,False,False
+en_CA_Entertainment_1588691,22,agent,channel1,14,131.0,133.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,23,agent,channel1,15,133.0,137.0,I will bring your ID back to everybody over 19.,neutral,0.8064,False,False,False,False,False
+en_CA_Entertainment_1588691,24,agent,channel1,16,137.0,139.0,You will bring your IDs.,neutral,0.7865,False,False,False,False,False
+en_CA_Entertainment_1588691,25,agent,channel1,17,139.0,148.0,I will need the names of the other two people joining you.,neutral,0.9055,False,False,False,False,False
+en_CA_Entertainment_1588691,26,customer,channel2,9,139.0,150.0,"Yes, their names are Mickey and Minnie Rourke.",neutral,0.7827,False,False,False,False,False
+en_CA_Entertainment_1588691,27,agent,channel1,18,148.0,168.0,"Can you confirm the spelling of all those, please?",neutral,0.8751,False,False,True,False,False
+en_CA_Entertainment_1588691,28,customer,channel2,10,150.0,172.0,"Yes, Mickey is M-I-C-K-E-Y, Minnie is M-I-N-N-E-Y, and Rourke is R-O-U-R-K-E.",neutral,0.7315,False,False,False,False,False
+en_CA_Entertainment_1588691,29,agent,channel1,19,168.0,170.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,30,agent,channel1,20,170.0,174.0,Same for both Mickey and Minnie.,neutral,0.7856,False,False,False,False,False
+en_CA_Entertainment_1588691,31,customer,channel2,11,172.0,182.0,"Yes, it is.",neutral,0.6667,False,False,False,False,False
+en_CA_Entertainment_1588691,32,agent,channel1,21,174.0,179.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,33,agent,channel1,22,179.0,189.0,And how would you like to pay for that?,neutral,0.5617,False,False,True,False,False
+en_CA_Entertainment_1588691,34,customer,channel2,12,182.0,192.0,"Do we have to pay now, or can we pay at the festival? It would be with credit card, if not.",neutral,0.9372,False,False,False,False,False
+en_CA_Entertainment_1588691,35,agent,channel1,23,189.0,196.0,VIP passes need to be over the phone.,neutral,0.7517,False,False,False,False,False
+en_CA_Entertainment_1588691,36,customer,channel2,13,192.0,200.0,"Okay, then we'll pay with credit card right now.",neutral,0.8554,False,False,False,False,False
+en_CA_Entertainment_1588691,37,agent,channel1,24,196.0,198.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,38,agent,channel1,25,198.0,213.0,"Can I have the number, please?",neutral,0.863,False,False,True,False,False
+en_CA_Entertainment_1588691,39,customer,channel2,14,200.0,222.0,"Yes, it is 1234-5678-8392-4629.",neutral,0.878,False,False,False,False,False
+en_CA_Entertainment_1588691,40,agent,channel1,26,213.0,217.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,41,agent,channel1,27,217.0,232.0,Can you please confirm that number with me again?,neutral,0.9031,False,False,True,False,False
+en_CA_Entertainment_1588691,42,customer,channel2,15,222.0,236.0,1234-5678-8392-4239.,neutral,0.8136,False,False,False,False,False
+en_CA_Entertainment_1588691,43,agent,channel1,28,232.0,234.0,"Okay, perfect.",positive,0.9282,False,False,False,False,False
+en_CA_Entertainment_1588691,44,agent,channel1,29,234.0,244.0,And the expiration date.,neutral,0.7795,False,False,False,False,False
+en_CA_Entertainment_1588691,45,customer,channel2,16,236.0,247.0,"January 30th, the January year 2030.",neutral,0.9213,False,False,False,False,False
+en_CA_Entertainment_1588691,46,agent,channel1,30,244.0,251.0,And the CVV.,neutral,0.5407,False,False,False,False,False
+en_CA_Entertainment_1588691,47,customer,channel2,17,247.0,267.0,Number 9-9.,neutral,0.8793,False,False,False,False,False
+en_CA_Entertainment_1588691,48,agent,channel1,31,251.0,257.0,Okay. Can I just get your confirmation that I can trigger this workflow?,neutral,0.8412,False,False,True,False,False
+en_CA_Entertainment_1588691,49,agent,channel1,32,257.0,273.0,"It will be, let's see, it will be $75 per VIP pass plus tax.",neutral,0.8453,False,False,False,False,False
+en_CA_Entertainment_1588691,50,customer,channel2,18,267.0,278.0,"Before we do that, could you just give me a little bit of information about what the package includes?",neutral,0.9141,False,False,False,False,False
+en_CA_Entertainment_1588691,51,agent,channel1,33,273.0,275.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,52,agent,channel1,34,275.0,281.0,The package includes.,neutral,0.8332,False,False,False,False,False
+en_CA_Entertainment_1588691,53,customer,channel2,19,278.0,295.0,Like is there backstage access?,neutral,0.9138,False,False,False,False,False
+en_CA_Entertainment_1588691,54,agent,channel1,35,281.0,291.0,It includes backstage access to the first three performances.,neutral,0.8853,False,False,False,False,False
+en_CA_Entertainment_1588691,55,agent,channel1,36,291.0,297.0,"And, but not the main performance.",neutral,0.6669,False,False,False,False,False
+en_CA_Entertainment_1588691,56,customer,channel2,20,295.0,310.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,57,agent,channel1,37,297.0,305.0,And it includes one free non-alcoholic drink.,positive,0.5607,False,False,False,False,False
+en_CA_Entertainment_1588691,58,agent,channel1,38,305.0,312.0,And it includes one appetizer per pass.,neutral,0.6799,False,False,False,False,False
+en_CA_Entertainment_1588691,59,customer,channel2,21,310.0,323.0,For each day? Wonderful. And then how would I get backstage to the main performance?,positive,0.9013,False,False,False,False,False
+en_CA_Entertainment_1588691,60,agent,channel1,39,312.0,320.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Entertainment_1588691,61,agent,channel1,40,320.0,326.0,That would be a VIP plus pass.,neutral,0.7573,False,False,False,False,False
+en_CA_Entertainment_1588691,62,customer,channel2,22,323.0,331.0,Interesting. And how much would that be?,positive,0.5031,False,False,False,False,False
+en_CA_Entertainment_1588691,63,agent,channel1,41,326.0,337.0,That would be an additional $80.,neutral,0.8318,False,False,False,False,False
+en_CA_Entertainment_1588691,64,customer,channel2,23,331.0,357.0,And is there any other additional bonuses to the VIP plus pass?,neutral,0.8934,False,False,False,False,False
+en_CA_Entertainment_1588691,65,agent,channel1,42,337.0,343.0,"For that, you would get to, you would also have access to the lounge,",neutral,0.783,False,False,False,False,False
+en_CA_Entertainment_1588691,66,agent,channel1,43,343.0,351.0,which is a restricted area sort of on the edge of the festival.,neutral,0.9369,False,False,False,False,False
+en_CA_Entertainment_1588691,67,agent,channel1,44,351.0,361.0,"Where, where the, where the band members might mingle.",neutral,0.8702,False,False,True,False,False
+en_CA_Entertainment_1588691,68,customer,channel2,24,357.0,368.0,"Free parking. Okay, that should be beneficial.",positive,0.8112,False,False,False,False,False
+en_CA_Entertainment_1588691,69,agent,channel1,45,361.0,364.0,And it also includes free parking.,positive,0.7622,False,False,False,False,False
+en_CA_Entertainment_1588691,70,customer,channel2,25,368.0,377.0,"Most of what I remember last year at the festival was also that the campgrounds were quite large,",neutral,0.5487,False,False,False,False,False
+en_CA_Entertainment_1588691,71,customer,channel2,26,377.0,383.0,"and so there were bikes there that you could bring to then bike around the festival,",neutral,0.8105,False,False,False,False,False
+en_CA_Entertainment_1588691,72,customer,channel2,27,383.0,410.0,because it would just take too long to get anywhere. Would either of these passes happen to come with bike access?,negative,0.4969,False,False,False,False,False
+en_CA_Entertainment_1588691,73,agent,channel1,46,391.0,395.0,So the bike access is actually a separate service.,neutral,0.891,False,False,False,False,False
+en_CA_Entertainment_1588691,74,agent,channel1,47,395.0,399.0,That does not go through the entertainment association.,negative,0.5792,False,False,False,False,False
+en_CA_Entertainment_1588691,75,agent,channel1,48,399.0,405.0,Those are available for purchase at the front desk kiosks.,neutral,0.8828,False,False,False,False,False
+en_CA_Entertainment_1588691,76,agent,channel1,49,405.0,419.0,And a day pass is $5.,neutral,0.7879,False,False,False,False,False
+en_CA_Entertainment_1588691,77,customer,channel2,28,410.0,431.0,"$5, okay. And then do you know how much availability is left on those, or is that still something you don't have any information on?",neutral,0.9117,False,False,False,False,False
+en_CA_Entertainment_1588691,78,agent,channel1,50,419.0,428.0,"I unfortunately don't have any information on that, but there is an extensive amount available.",negative,0.6759,False,False,False,False,False
+en_CA_Entertainment_1588691,79,agent,channel1,51,428.0,447.0,But it is on a first come first serve basis.,neutral,0.8655,False,False,False,False,False
+en_CA_Entertainment_1588691,80,customer,channel2,29,431.0,440.0,Wonderful. And then do these passes come with any discounts on merchandise or anything else that I might be purchasing while there?,positive,0.9304,False,False,False,False,False
+en_CA_Entertainment_1588691,81,customer,channel2,30,440.0,459.0,"I know you said it has one free drink and one free appetizer per day, but does it come with anything else?",neutral,0.9062,False,False,False,False,False
+en_CA_Entertainment_1588691,82,agent,channel1,52,447.0,455.0,"Unfortunately, no, the rest of the festival is run through independent food trucks.",negative,0.5526,False,False,False,False,False
+en_CA_Entertainment_1588691,83,agent,channel1,53,455.0,475.0,And they have not opted into anything in association with us for this year.,negative,0.6166,False,False,False,False,False
+en_CA_Entertainment_1588691,84,customer,channel2,31,459.0,485.0,"Okay. And then do the passes get me better access to the actual burning of the man, or is this, like, is that still kind of a first come first serve basis?",neutral,0.8717,False,False,False,False,False
+en_CA_Entertainment_1588691,85,agent,channel1,54,475.0,481.0,There will be a VIP section that will have better visibility into the event.,positive,0.5753,False,False,False,False,False
+en_CA_Entertainment_1588691,86,agent,channel1,55,481.0,489.0,And also be separate from the majority of the crowd.,neutral,0.7896,False,False,False,False,False
+en_CA_Entertainment_1588691,87,customer,channel2,32,485.0,496.0,"And is that same section for VIP and VIP plus, or is there any difference? Same section. Okay. That should be fine.",neutral,0.7067,False,False,False,False,False
+en_CA_Entertainment_1588691,88,agent,channel1,56,489.0,493.0,That is correct.,neutral,0.5046,False,False,False,False,False
+en_CA_Entertainment_1588691,89,agent,channel1,57,493.0,504.0,Yes.,neutral,0.5811,False,False,False,False,False
+en_CA_Entertainment_1588691,90,customer,channel2,33,496.0,522.0,"But what happens if I, like, you know, my friends aren't able to come suddenly and I need to cancel?",negative,0.6809,False,False,False,False,False
+en_CA_Entertainment_1588691,91,agent,channel1,58,504.0,513.0,You can feel free to give us a call or you can go to our website and fill out the form.,neutral,0.7596,False,False,False,False,False
+en_CA_Entertainment_1588691,92,agent,channel1,59,513.0,530.0,"That will allow us to cancel those for you, but we will need 72 hours notice.",neutral,0.8993,False,False,False,False,False
+en_CA_Entertainment_1588691,93,customer,channel2,34,522.0,550.0,"All right. And then could I also reschedule it to the next year for the same, like, just instead of canceling?",neutral,0.8095,False,False,False,False,False
+en_CA_Entertainment_1588691,94,agent,channel1,60,530.0,534.0,"Unfortunately, no.",negative,0.6718,False,False,False,False,False
+en_CA_Entertainment_1588691,95,agent,channel1,61,534.0,538.0,Once these past 70 72 hours.,neutral,0.9052,False,False,False,False,False
+en_CA_Entertainment_1588691,96,agent,channel1,62,538.0,540.0,Closer to the event.,neutral,0.885,False,False,False,False,False
+en_CA_Entertainment_1588691,97,agent,channel1,63,540.0,546.0,You will no longer have the option to refund or cancel.,neutral,0.6077,False,False,False,False,False
+en_CA_Entertainment_1588691,98,agent,channel1,64,546.0,570.0,And those cannot carry over to the next year.,neutral,0.5321,False,False,False,False,False
+en_CA_Entertainment_1588691,99,customer,channel2,35,550.0,561.0,"Okay. That sounds good to me. Could you just confirm what I'm going to be getting? I think I'm going to go with the three VIP passes, not the plus.",positive,0.8071,False,False,False,False,False
+en_CA_Entertainment_1588691,100,customer,channel2,36,561.0,590.0,"And if you could just kind of give me a confirmation on the price, and then we can, I can give you an email to send the passes to.",neutral,0.8181,False,False,False,False,False
+en_CA_Entertainment_1588691,101,agent,channel1,65,570.0,582.0,That sounds good. Yes. So you are requesting three VIP passes at $75 plus HST each.,positive,0.8827,False,False,False,False,False
+en_CA_Entertainment_1588691,102,agent,channel1,66,582.0,599.0,"And those will come with one free drink and appetizer per day, as well as access to the three earlier events backstage pass access to the three earlier events.",neutral,0.6412,False,False,False,False,False
+en_CA_Entertainment_1588691,103,customer,channel2,37,590.0,615.0,Okay. That sounds good to me. You can send those to o w e n f u n z o n e at omegle.com.,positive,0.9197,False,False,False,False,False
+en_CA_Entertainment_1588691,104,agent,channel1,67,599.0,617.0,I believe that will. Yeah.,positive,0.5815,False,False,False,False,False
+en_CA_Entertainment_1588691,105,agent,channel1,68,617.0,619.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,106,agent,channel1,69,619.0,626.0,And I'm going to trigger this credit card now.,negative,0.7523,False,False,False,False,False
+en_CA_Entertainment_1588691,107,customer,channel2,38,621.0,649.0,"Yes, you're good to go ahead with that purchase and then send me the confirmation once you're done.",neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,108,agent,channel1,70,626.0,631.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,109,agent,channel1,71,631.0,636.0,So I have sent I have triggered the purchase.,neutral,0.8692,False,False,False,False,False
+en_CA_Entertainment_1588691,110,agent,channel1,72,636.0,643.0,So you should get an email to that email that you just told me.,neutral,0.8905,False,False,False,False,False
+en_CA_Entertainment_1588691,111,agent,channel1,73,643.0,647.0,And the passes will be sent.,neutral,0.8948,False,False,False,False,False
+en_CA_Entertainment_1588691,112,agent,channel1,74,647.0,656.0,Momentarily.,neutral,0.797,False,False,False,False,False
+en_CA_Entertainment_1588691,113,customer,channel2,39,649.0,659.0,All right. I do see them. So thank you very much. And I don't think there's anything else.,positive,0.8216,False,False,False,False,False
+en_CA_Entertainment_1588691,114,agent,channel1,75,656.0,657.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Entertainment_1588691,115,agent,channel1,76,657.0,661.0,"In that case, have a great day.",positive,0.9768,False,False,False,False,False
+en_CA_Entertainment_1588691,116,customer,channel2,40,659.0,661.0,Thank you. You as well.,positive,0.9392,False,False,False,False,False
+en_CA_Entertainment_1588691,117,agent,channel1,77,661.0,662.0,Bye.,neutral,0.6078,False,False,False,False,False
+en_CA_Entertainment_1588691,118,agent,channel1,78,677.0,687.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_CA_Entertainment_1588691,119,customer,channel2,41,679.0,682.0,Thank you.,positive,0.8345,False,False,False,False,False

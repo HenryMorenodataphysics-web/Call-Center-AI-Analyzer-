@@ -1,0 +1,85 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_RealEstate_1593609,1,agent,channel1,1,0.0,19.84,Good afternoon. Thank you for calling McKean's real estate and company. This is Jemima speaking.
+en_AU_RealEstate_1593609,2,customer,channel2,1,0.0,26.68,"Hi, my name is Sarah. I'm just looking for a studio apartment and I just wanted to inquire"
+en_AU_RealEstate_1593609,3,agent,channel1,2,19.84,29.84,How can I assist you today?
+en_AU_RealEstate_1593609,4,customer,channel2,2,26.68,28.68,about what rental options you have.
+en_AU_RealEstate_1593609,5,agent,channel1,3,29.84,35.84,Certainly I'd be happy to help you find something. You're looking for a studio apartment in any specific area.
+en_AU_RealEstate_1593609,6,agent,channel1,4,35.84,41.84,Do you have any particular preferences in terms of location or a budget in mind?
+en_AU_RealEstate_1593609,7,customer,channel2,3,41.36,53.96,I'm thinking I really want inner West Melbourne to like Yarraville set in area. And I think my budgets may be about 1500 a month.
+en_AU_RealEstate_1593609,8,agent,channel1,5,49.84,63.84,Absolutely. Thank you for the details. Let me check our current listings in that area for studio apartments.
+en_AU_RealEstate_1593609,9,customer,channel2,4,56.68,66.68,Yeah.
+en_AU_RealEstate_1593609,10,agent,channel1,6,63.84,67.84,Can you give me one moment please?
+en_AU_RealEstate_1593609,11,agent,channel1,7,67.84,75.84,Certainly. It looks like we've got a few different options that we could offer you in terms of that area that could fit your needs.
+en_AU_RealEstate_1593609,12,agent,channel1,8,75.84,87.84,We've got a studio apartment at 18 Temple Court which is currently available for 1400 per month.
+en_AU_RealEstate_1593609,13,customer,channel2,5,86.68,100.64,"Yeah, that'd be great. Could you tell me if the utilities and the council tax is included"
+en_AU_RealEstate_1593609,14,agent,channel1,9,87.84,91.84,It's in a great location with easy access to public transport and shops.
+en_AU_RealEstate_1593609,15,agent,channel1,10,91.84,101.84,Would you like more details about this one?
+en_AU_RealEstate_1593609,16,customer,channel2,6,100.64,101.16,in the rent?
+en_AU_RealEstate_1593609,17,agent,channel1,11,101.84,115.84,"Absolutely. In terms of the studio apartment, the utilities that are included include water, rubbish removal and internet fees."
+en_AU_RealEstate_1593609,18,agent,channel1,12,115.84,122.84,The electricity and gas are separate so you would be responsible for setting those up yourself.
+en_AU_RealEstate_1593609,19,customer,channel2,7,116.68,142.68,I feel like I would just organise it myself. Is there any benefit in me doing all inclusive
+en_AU_RealEstate_1593609,20,agent,channel1,13,122.84,144.84,"However, we also offer an all-inclusive rent option where all utilities are bundled into the rent for an additional 230 per month if you'd prefer to have everything included for you."
+en_AU_RealEstate_1593609,21,customer,channel2,8,142.68,145.84,or is it just better for me just to do it myself?
+en_AU_RealEstate_1593609,22,agent,channel1,14,144.84,156.84,"Well, it's up to you sort of thing. If you work from home or if you're at home a lot, you could have all-inclusive would cover most of the things that you'd like to do."
+en_AU_RealEstate_1593609,23,agent,channel1,15,156.84,170.84,"However, if you are wanting, if you are sort of out the house a lot more, working it out yourself could create a cheaper option if you inquire with different companies."
+en_AU_RealEstate_1593609,24,agent,channel1,16,170.84,178.84,They might have deals that they could offer you.
+en_AU_RealEstate_1593609,25,customer,channel2,9,172.68,180.68,"Okay, and what's the energy usage like for the house? Is it efficient?"
+en_AU_RealEstate_1593609,26,agent,channel1,17,178.84,185.84,"Well, as it is because the apartment complex was only built in 2017, it's all new."
+en_AU_RealEstate_1593609,27,agent,channel1,18,185.84,195.84,"Double glazing on all of our windows, it's under floor heating and because it is in an apartment building, the studio is located on the fourth floor."
+en_AU_RealEstate_1593609,28,agent,channel1,19,195.84,210.84,"So there is two floors above you as well. So the heating does rise, so it is warm in winter."
+en_AU_RealEstate_1593609,29,customer,channel2,10,203.68,208.68,"With the people upstairs, are they loud? Do they tend to be noisy?"
+en_AU_RealEstate_1593609,30,customer,channel2,11,208.68,234.68,"Okay, and do you find that the court that it's on can it be quite a noisy area?"
+en_AU_RealEstate_1593609,31,agent,channel1,20,210.84,216.84,"Unfortunately, I can't answer that question for you if you'd like to proceed with this that we can organise a viewing."
+en_AU_RealEstate_1593609,32,agent,channel1,21,216.84,238.84,"But the ceilings are, it is quite thick between all of them. So there is limited noise that can be heard amongst the building."
+en_AU_RealEstate_1593609,33,customer,channel2,12,234.68,239.68,I don't know. Is it near or main?
+en_AU_RealEstate_1593609,34,agent,channel1,22,239.84,250.84,"No, it's not near a main road. So it's tucked about two streets away from the main road. So it's rather quiet residential areas that are nearby and it's tucked away into all of that."
+en_AU_RealEstate_1593609,35,agent,channel1,23,250.84,264.84,"So you would hear very minimal noise at most, I think, based on what some people have told me that have gone for viewings for other locations, for other flats in this building that the most noise that you hear is the birds."
+en_AU_RealEstate_1593609,36,customer,channel2,13,265.68,270.68,"Okay, that sounds lovely. And is there any outdoor space in the building? Like on the"
+en_AU_RealEstate_1593609,37,agent,channel1,24,269.84,289.84,Absolutely. So we have a communal garden on the outside available for all residents to use. We also have a rooftop terrace which has some outdoor seating and some outdoor cooking space.
+en_AU_RealEstate_1593609,38,customer,channel2,14,270.68,271.68,"building area, sorry."
+en_AU_RealEstate_1593609,39,agent,channel1,25,289.84,307.84,"That's free to use for all customers. Some of the bigger flats that are located in the building also have their own balcony. Yours has a much smaller balcony, but it does have a little outdoor area as well included with the studio flat."
+en_AU_RealEstate_1593609,40,customer,channel2,15,294.68,312.68,"Okay, and what's the water pressure like? Have you been in the apartment? Do you know what"
+en_AU_RealEstate_1593609,41,agent,channel1,26,307.84,334.84,"As I said, because it is such a new building, everything is up to date before we list this studio building up for rent. All of that was checked and it does pass normal standard that water does flow, the taps and are all fairly new as well."
+en_AU_RealEstate_1593609,42,customer,channel2,16,312.68,316.68,the water pressure and stuff is like because that's a really big deal for me.
+en_AU_RealEstate_1593609,43,customer,channel2,17,316.68,345.68,"Okay, and do you know the state of the current flat? Is it"
+en_AU_RealEstate_1593609,44,agent,channel1,27,334.84,340.84,"Obviously all parts and everything is still less than 10 years old, so the water pressure is very good there."
+en_AU_RealEstate_1593609,45,agent,channel1,28,340.84,369.84,So this was brought as an investment property 10 years ago. The current tenants are moving out. They're moving away.
+en_AU_RealEstate_1593609,46,customer,channel2,18,346.68,352.68,unoccupied or is occupied when it's leased up for the current tenants? And has it been
+en_AU_RealEstate_1593609,47,customer,channel2,19,352.68,360.68,passed through a few times with the owners or is it kind of just an investment property?
+en_AU_RealEstate_1593609,48,agent,channel1,29,370.84,383.84,"So therefore needing to fill it in. So it would be signed on as a 12 month lease and the current lease is up in two months time, but it is currently unoccupied."
+en_AU_RealEstate_1593609,49,customer,channel2,20,375.68,400.68,"Okay, and does it have a laundry? Is there like a European laundry or something in there?"
+en_AU_RealEstate_1593609,50,agent,channel1,30,383.84,399.84,"Absolutely. So that is actually on site laundry facilities that is a laundry room in the building, so you don't need to leave the property to do your laundry."
+en_AU_RealEstate_1593609,51,customer,channel2,21,400.68,402.68,But it's not in the flat.
+en_AU_RealEstate_1593609,52,agent,channel1,31,400.84,417.84,"No, but that is an additional. There is space for you to purchase or bring your own laundry facilities, but currently there is nothing in the flat."
+en_AU_RealEstate_1593609,53,customer,channel2,22,414.68,418.68,"Okay, and is there like a gym or something within the building?"
+en_AU_RealEstate_1593609,54,agent,channel1,32,418.84,440.84,"Yes, there is a small fitness centre available to all residents to use. It's got, I believe, weights, a couple of machines. I can't give you the exact specifics, but it is open 24 hours for all residents to access and it is accessed by your key card."
+en_AU_RealEstate_1593609,55,customer,channel2,23,430.68,445.68,"Okay, and this is a random one, but does it have a sauna?"
+en_AU_RealEstate_1593609,56,agent,channel1,33,440.84,462.84,It does actually we have a small sauna that just can be booked online just as it's only for one small person at a time so it can just be booked through the app that is associated with the building.
+en_AU_RealEstate_1593609,57,customer,channel2,24,461.68,471.68,"Oh, amazing. Okay, and is there a swimming pool or like anything like that?"
+en_AU_RealEstate_1593609,58,customer,channel2,25,471.68,487.68,"Okay, and how far is the village away? Like the main street?"
+en_AU_RealEstate_1593609,59,agent,channel1,34,471.84,483.84,"No, there is not. As I said, we do have the common areas and it is close to many facilities. So there are swimming pools located within a 10 minute walk from the flat."
+en_AU_RealEstate_1593609,60,agent,channel1,35,484.84,502.84,"Yeah, as I said, the high street, there is a couple of little local shops that are just off from the court, but the main high street is two walks away and there there is multiple bus stations and a train station as well."
+en_AU_RealEstate_1593609,61,customer,channel2,26,501.68,519.68,"Okay, and is there many good cafes around?"
+en_AU_RealEstate_1593609,62,agent,channel1,36,502.84,515.84,"So there is great connectivity. There is also street parking, which can be organised with the local council for apartment to park there if you do have a cup as well as the building does not offer its own private car park."
+en_AU_RealEstate_1593609,63,agent,channel1,37,516.84,533.84,"There are cafes in the area. I personally cannot comment on whether it's good or not, but there are multiple cafe options very close in the area. There's a couple just up from the flat or many more on the high street."
+en_AU_RealEstate_1593609,64,customer,channel2,27,531.68,539.68,"Okay, cool as would I be able to schedule a walkthrough?"
+en_AU_RealEstate_1593609,65,agent,channel1,38,533.84,556.84,"Absolutely, I'd be happy to schedule a walkthrough for you. So right now we have availability for showing on a Wednesday morning from 8.30 until 12.30. We have all day Thursday or we can do Saturday and Sunday."
+en_AU_RealEstate_1593609,66,customer,channel2,28,561.68,567.68,Maybe could we do a Saturday afternoon? I've just got my run club on and Saturday morning and I don't want to miss that.
+en_AU_RealEstate_1593609,67,agent,channel1,39,563.84,587.84,Absolutely. So on Saturday we work or we can arrange to have someone there would 3pm suits for you. The walkthrough should only take about half an hour.
+en_AU_RealEstate_1593609,68,customer,channel2,29,567.68,573.68,I'm in brunch with the girls so I don't want to cancel my plans for it with Saturday afternoon.
+en_AU_RealEstate_1593609,69,customer,channel2,30,573.68,588.68,Okay.
+en_AU_RealEstate_1593609,70,customer,channel2,31,588.68,597.68,"Yeah, I think that should be alright."
+en_AU_RealEstate_1593609,71,agent,channel1,40,588.84,607.84,"Certainly, so Saturday at 3.30. Is there anything else that you'd like? And obviously at your scheduled walkthrough you'll be shown all of the communal areas as well and the agent that will show you through will also be able to answer any additional questions you may have on the day."
+en_AU_RealEstate_1593609,72,customer,channel2,32,597.68,612.68,"Okay, awesome. I forgot to ask, what is the amenities fees?"
+en_AU_RealEstate_1593609,73,agent,channel1,41,607.84,628.84,"Yeah, so the amenities fee. So with everything that is included it is on top of your rent. It's a yearly surcharge that is signed at the start of your lease. It is a $500 amenities fee."
+en_AU_RealEstate_1593609,74,customer,channel2,33,627.68,644.68,"Okay, okay that sounds good. I think that covers anything but I'll email you if there's anything else that I want to ask you about, but otherwise I'll be there on Saturday 3pm."
+en_AU_RealEstate_1593609,75,agent,channel1,42,637.84,659.84,"Absolutely. So we'll just email across all of the confirmation emails. You'll also be given the agent's contact details. So if you've got any other additional questions, feel free to either call the office or to call the agent that will conduct the walkthrough with you."
+en_AU_RealEstate_1593609,76,customer,channel2,34,657.68,675.68,"Okay, could I just confirm? Sorry, was that 3.30 or 3?"
+en_AU_RealEstate_1593609,77,agent,channel1,43,659.84,667.84,We have you all confirmed for 3.30 on Saturday where you'll be able to see everything in person.
+en_AU_RealEstate_1593609,78,agent,channel1,44,672.84,675.84,3.30.
+en_AU_RealEstate_1593609,79,customer,channel2,35,675.68,690.68,"Okay, cool. That works well, thank you."
+en_AU_RealEstate_1593609,80,agent,channel1,45,676.84,695.84,"Okay. Thank you so much for calling and expressing your interest and we're looking forward to showing you the property. And if you do find any other properties on our website, please give us a call and I've got noted down your sort of location and budget for a studio flat."
+en_AU_RealEstate_1593609,81,agent,channel1,46,695.84,704.84,"So if we do have other options that come up in the meantime, or if you decide to pass on this, we'll email you with other potential options for you to consider."
+en_AU_RealEstate_1593609,82,customer,channel2,36,705.68,725.68,"Okay, that sounds good, thank you so much. Thank you, bye. Me too."
+en_AU_RealEstate_1593609,83,agent,channel1,47,707.84,713.84,Okay. Thank you. We'll see you on Saturday. Goodbye. Have a lovely day.
+en_AU_RealEstate_1593609,84,agent,channel1,48,725.84,728.84,Thank you.

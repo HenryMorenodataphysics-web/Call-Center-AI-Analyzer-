@@ -1,0 +1,112 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_Banking_1588683,1,agent,channel1,1,0.0,16.12,"Hello, and welcome to the Bank Association."
+en_CA_Banking_1588683,2,customer,channel2,1,0.0,25.36,"Hello, I'm looking to set up an automatic monthly transfer from my checking count to"
+en_CA_Banking_1588683,3,agent,channel1,2,16.12,17.12,My name is Julia.
+en_CA_Banking_1588683,4,agent,channel1,3,17.12,22.12,How can I help you today?
+en_CA_Banking_1588683,5,agent,channel1,4,22.12,32.12,"All right, we can definitely do that."
+en_CA_Banking_1588683,6,customer,channel2,2,25.44,27.44,a new savings account that I just opened with you online.
+en_CA_Banking_1588683,7,agent,channel1,5,32.12,40.12,Can you please provide your full name?
+en_CA_Banking_1588683,8,customer,channel2,3,35.6,36.72,Owen McDougall.
+en_CA_Banking_1588683,9,agent,channel1,6,40.12,53.12,And your checking account number?
+en_CA_Banking_1588683,10,customer,channel2,4,43.6,49.68,"Yes, it is 59437289."
+en_CA_Banking_1588683,11,agent,channel1,7,53.12,78.12,"Okay, and the digits on the other side of your card, the CVV, and the expiration date."
+en_CA_Banking_1588683,12,customer,channel2,5,55.52,62.24,Which digits?
+en_CA_Banking_1588683,13,customer,channel2,6,64.96,67.52,"Ah, it is 444."
+en_CA_Banking_1588683,14,customer,channel2,7,73.84,77.12,"I'm sorry, is this, this, this is safe, right? We could do this over the phone."
+en_CA_Banking_1588683,15,customer,channel2,8,77.52,85.04,"Okay, the expiration date is January 31."
+en_CA_Banking_1588683,16,agent,channel1,8,78.12,87.12,"Yes, this is a secure line."
+en_CA_Banking_1588683,17,customer,channel2,9,85.04,111.52,"Yes, I would like to set them up to be biweekly on the same day as my paycheck,"
+en_CA_Banking_1588683,18,agent,channel1,9,87.12,89.12,"Okay, perfect."
+en_CA_Banking_1588683,19,agent,channel1,10,89.12,92.12,I confirmed that that is all correct.
+en_CA_Banking_1588683,20,agent,channel1,11,92.12,99.12,Let me just pull up your account.
+en_CA_Banking_1588683,21,agent,channel1,12,99.12,106.12,"Okay, and you would like to set up monthly transfers from the checking account to the new savings account."
+en_CA_Banking_1588683,22,customer,channel2,10,111.52,116.0,which comes in on the 7th and the 21st of each month.
+en_CA_Banking_1588683,23,customer,channel2,11,116.64,123.28,And I would also like to set that up into the high interest savings account that I just opened with
+en_CA_Banking_1588683,24,customer,channel2,12,123.28,128.88,"you guys, which should be having a yield of 4.75% for the next three years."
+en_CA_Banking_1588683,25,agent,channel1,13,129.12,158.12,"Yes, I completely understand that."
+en_CA_Banking_1588683,26,customer,channel2,13,130.56,134.96,"Since we're going to be doing some home renovations at the end of that time span,"
+en_CA_Banking_1588683,27,customer,channel2,14,134.96,139.68,and so I'd like to have it coming out of each paycheck automatically to make it easy for me
+en_CA_Banking_1588683,28,customer,channel2,15,140.32,144.96,"when we come down to it. Because, you know, that roof isn't going to pay for itself."
+en_CA_Banking_1588683,29,customer,channel2,16,144.96,149.92,"And if the bank's willing to help out with some interest, then I'm happy to take advantage of"
+en_CA_Banking_1588683,30,customer,channel2,17,149.92,154.8,"it. And I'd like to do that automatically so that, you know, I don't forget about it because"
+en_CA_Banking_1588683,31,customer,channel2,18,154.8,168.72,"sometimes I forget things. Yes, it is four, two, nine, eight, three, two, seven, eight, seven, nine, four,"
+en_CA_Banking_1588683,32,agent,channel1,14,158.12,171.12,Can you please confirm the savings account number for me?
+en_CA_Banking_1588683,33,customer,channel2,19,168.8,172.64,two.
+en_CA_Banking_1588683,34,agent,channel1,15,171.12,173.12,"Okay, perfect."
+en_CA_Banking_1588683,35,agent,channel1,16,173.12,174.12,I have typed that in.
+en_CA_Banking_1588683,36,agent,channel1,17,174.12,178.12,"And yeah, that is the corresponding one."
+en_CA_Banking_1588683,37,agent,channel1,18,178.12,189.12,How much would you like to transfer on these seventh and 21st dates?
+en_CA_Banking_1588683,38,customer,channel2,20,184.48,187.2,"Are there any limits on the transfer amounts, Juliana?"
+en_CA_Banking_1588683,39,agent,channel1,19,189.12,191.12,From your account?
+en_CA_Banking_1588683,40,agent,channel1,20,191.12,194.12,No.
+en_CA_Banking_1588683,41,customer,channel2,21,192.72,194.16,"So between accounts, there's no limits."
+en_CA_Banking_1588683,42,agent,channel1,21,194.12,196.12,That is correct.
+en_CA_Banking_1588683,43,customer,channel2,22,195.12,205.36,"All right. So since I bring in every, can you tell me how much I bring in on the 7th or the 21st?"
+en_CA_Banking_1588683,44,customer,channel2,23,205.36,209.76,I can't quite remember off the top of my head. And I don't want to go open my banking account
+en_CA_Banking_1588683,45,agent,channel1,22,208.12,224.12,"I can definitely do that, yes."
+en_CA_Banking_1588683,46,customer,channel2,24,209.76,213.84,"because then I have to, you know, remember my password. And if you're there already looking"
+en_CA_Banking_1588683,47,customer,channel2,25,213.84,216.08,"at it, it might be a little bit easier if you could just help me out."
+en_CA_Banking_1588683,48,agent,channel1,23,224.12,236.12,"Okay, and these will be, which, which line item am I looking at?"
+en_CA_Banking_1588683,49,customer,channel2,26,224.4,234.48,You should be looking for payments from the business business.
+en_CA_Banking_1588683,50,agent,channel1,24,236.12,244.12,Okay.
+en_CA_Banking_1588683,51,customer,channel2,27,236.72,242.08,"They should be happening every two weeks on the 7th and the 21st, as I mentioned previously, Juliana."
+en_CA_Banking_1588683,52,customer,channel2,28,242.4,258.56,"$3,000 every two weeks. And so my rent is how much,"
+en_CA_Banking_1588683,53,agent,channel1,25,244.12,245.12,"Yes, I see that."
+en_CA_Banking_1588683,54,agent,channel1,26,245.12,246.12,Okay.
+en_CA_Banking_1588683,55,agent,channel1,27,246.12,252.12,"Every two weeks on the seventh and 21st, you are receiving $3,000."
+en_CA_Banking_1588683,56,customer,channel2,29,261.12,270.48,"take the two, carry it, multiplied by 12. I think my rent is about $1,300 a week."
+en_CA_Banking_1588683,57,agent,channel1,28,266.12,293.12,Okay.
+en_CA_Banking_1588683,58,customer,channel2,30,271.44,279.6,"Oh, that's not right. A month. And so if it's $1,300 a month and I bring in $3,000 times two,"
+en_CA_Banking_1588683,59,customer,channel2,31,279.6,290.8,"carry the one $6,000 a month, then let's do $1,287.14 every two weeks."
+en_CA_Banking_1588683,60,agent,channel1,29,293.12,296.12,I'm going to type that in for you.
+en_CA_Banking_1588683,61,agent,channel1,30,296.12,303.12,"On the seventh and 21st of every month, it will be $12,087 and 14 cents."
+en_CA_Banking_1588683,62,customer,channel2,32,301.44,310.96,"No, no. Sorry. Sorry. $1,287. I would not be able to transfer $12,000 a month,"
+en_CA_Banking_1588683,63,agent,channel1,31,303.12,308.12,Is that correct?
+en_CA_Banking_1588683,64,agent,channel1,32,308.12,312.12,1000.
+en_CA_Banking_1588683,65,customer,channel2,33,310.96,316.08,Jordana. That would be quite unreasonable given my meter salary.
+en_CA_Banking_1588683,66,agent,channel1,33,312.12,317.12,"Oh, yes, my apologies."
+en_CA_Banking_1588683,67,agent,channel1,34,318.12,328.12,"That is completely understandable, sir."
+en_CA_Banking_1588683,68,customer,channel2,34,322.8,327.12,$0.13. I don't want to put myself over budget.
+en_CA_Banking_1588683,69,agent,channel1,35,328.12,334.12,"Okay, I have set that up for you for the seventh and 21st of every month."
+en_CA_Banking_1588683,70,customer,channel2,35,330.8,351.92,And what email did you send this in?
+en_CA_Banking_1588683,71,agent,channel1,36,334.12,338.12,And I have sent you an email to confirm this change with you.
+en_CA_Banking_1588683,72,agent,channel1,37,338.12,343.12,"If you can accept that, click the button in the email to accept that."
+en_CA_Banking_1588683,73,agent,channel1,38,343.12,353.12,Then it will trigger the workflow for me.
+en_CA_Banking_1588683,74,customer,channel2,36,351.92,371.84,Could you send it to oin.mcdougal.grandson.19.37 at gmail.com?
+en_CA_Banking_1588683,75,agent,channel1,39,353.12,361.12,I sent this to owen.mcdougal at gmail.com.
+en_CA_Banking_1588683,76,agent,channel1,40,373.12,381.12,Absolutely. Would you like me to update that in your file for you?
+en_CA_Banking_1588683,77,customer,channel2,37,376.32,378.0,"No, this one's just for special occasions."
+en_CA_Banking_1588683,78,agent,channel1,41,381.12,391.12,Alrighty.
+en_CA_Banking_1588683,79,customer,channel2,38,381.92,389.76,All right. I think I see it. And you said just click the okay button.
+en_CA_Banking_1588683,80,agent,channel1,42,391.12,395.12,Yes.
+en_CA_Banking_1588683,81,customer,channel2,39,392.56,393.84,All right. I have clicked it.
+en_CA_Banking_1588683,82,customer,channel2,40,393.84,407.68,Okay.
+en_CA_Banking_1588683,83,agent,channel1,43,395.12,400.12,"Okay, just give me one second to refresh."
+en_CA_Banking_1588683,84,agent,channel1,44,400.12,409.12,And I see that the transfers have been confirmed and they will occur every month on the seventh and 21st.
+en_CA_Banking_1588683,85,customer,channel2,41,407.68,409.12,Starting when?
+en_CA_Banking_1588683,86,agent,channel1,45,409.12,414.12,Starting starting on the 21st.
+en_CA_Banking_1588683,87,customer,channel2,42,415.52,421.44,Okay. Sounds good to me. And then I'm just wondering how easy it would be to pause these
+en_CA_Banking_1588683,88,customer,channel2,43,422.16,429.2,"transfers if there is, say, an emergency, such as a big sale on cheese at the farmer's market"
+en_CA_Banking_1588683,89,customer,channel2,44,429.2,431.84,"or something like that, that I'm going to need a lot of cash on hand to do."
+en_CA_Banking_1588683,90,agent,channel1,46,430.12,449.12,"Absolutely. You can do so either by calling us just like you are now, or you can do so with your online banking, either on your computer or your phone."
+en_CA_Banking_1588683,91,customer,channel2,45,433.12,437.28,Would it be possible to pause these at moments' notice?
+en_CA_Banking_1588683,92,agent,channel1,47,449.12,466.12,There will be a tab on the side that allows you to access your automatic transfers and you can choose to pause it for one iteration indefinitely and reactivate it as you wish.
+en_CA_Banking_1588683,93,customer,channel2,46,451.6,475.76,"Wonderful. And then once I want to cancel these transactions, do I also just cancel it online,"
+en_CA_Banking_1588683,94,customer,channel2,47,475.76,478.8,"or do I have to call you to figure it out, Jordana?"
+en_CA_Banking_1588683,95,agent,channel1,48,479.12,489.12,"You can do it any way you like, either by calling us or online on your computer or your phone."
+en_CA_Banking_1588683,96,customer,channel2,48,482.4,488.64,I can call you on my computer.
+en_CA_Banking_1588683,97,agent,channel1,49,489.12,498.12,Now you can call us or you can log in to your account on your computer or on your phone.
+en_CA_Banking_1588683,98,customer,channel2,49,497.28,503.04,"Oh, sorry. I was surprised by computer. I'd never been able to call someone on it."
+en_CA_Banking_1588683,99,customer,channel2,50,503.04,507.6,And I thought maybe my grandson always tells me that there's a lot of things you can do
+en_CA_Banking_1588683,100,customer,channel2,51,508.24,513.2,with computers nowadays. And he's trying to help me with all these things. And he helped me set up the
+en_CA_Banking_1588683,101,customer,channel2,52,513.2,521.44,account. And so I was surprised when you said something like that. And maybe I'll ask him
+en_CA_Banking_1588683,102,agent,channel1,50,519.12,544.12,Okay. Good luck with your home renovations and the cheese sale.
+en_CA_Banking_1588683,103,customer,channel2,53,521.44,526.64,about it. Maybe he can help me figure that out so I can call you on the desktop next time
+en_CA_Banking_1588683,104,customer,channel2,54,527.6,534.0,"that would be entertaining. Well, thank you. Thank you very much for your help, James."
+en_CA_Banking_1588683,105,customer,channel2,55,534.08,538.0,And I will be in touch if there's anything I need to change.
+en_CA_Banking_1588683,106,customer,channel2,56,543.92,547.04,"Well, we didn't say there was one. I said if there was an emergency,"
+en_CA_Banking_1588683,107,agent,channel1,51,544.12,573.12,Thank you very much. You as well. Have a great day.
+en_CA_Banking_1588683,108,customer,channel2,57,547.04,550.0,"because they pop up every once in a while, you need to be prepared."
+en_CA_Banking_1588683,109,customer,channel2,58,550.0,555.12,But I appreciate the sentiment. And I wish you will.
+en_CA_Banking_1588683,110,customer,channel2,59,559.12,559.6,You too.
+en_CA_Banking_1588683,111,customer,channel2,60,564.0,564.8,You

@@ -1,0 +1,61 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Finance_1587313,1,agent,channel1,1,0.0,17.6,"Good afternoon, thank you for calling Summit Edge Investments, this is Lisa speaking, how",positive,0.892,False,False,False,False,False
+en_CA_Finance_1587313,2,customer,channel2,1,0.0,26.4,"Hi, Lisa. This is Mark Williams. I've been investing for a while, mostly using a regular",neutral,0.7774,False,False,False,False,False
+en_CA_Finance_1587313,3,agent,channel1,2,17.6,41.44,"can I help you today? Yeah, that's a great step forward, Mark, I'd be happy to help you.",positive,0.9852,False,False,True,False,False
+en_CA_Finance_1587313,4,customer,channel2,2,26.72,32.32,"cash account, but I'm thinking about opening a margin account for stock trading. I want to",neutral,0.6722,False,False,False,False,False
+en_CA_Finance_1587313,5,customer,channel2,3,32.32,34.96,understand how it works before getting started.,neutral,0.7957,False,False,False,False,False
+en_CA_Finance_1587313,6,agent,channel1,3,41.84,44.56,Do you already have a trading account here with Summit Edge?,neutral,0.9452,False,False,True,False,False
+en_CA_Finance_1587313,7,customer,channel2,4,45.2,47.84,"Yep, I have one for a couple of years now.",neutral,0.5887,False,False,False,False,False
+en_CA_Finance_1587313,8,agent,channel1,4,49.2,54.8,"Okay, that makes things easier. So a margin account, it's an add-on to your current trading",positive,0.5278,False,False,False,False,False
+en_CA_Finance_1587313,9,agent,channel1,5,54.8,61.12,profile and it lets you borrow funds from us to buy more stocks. So can I ask what your main,neutral,0.8871,False,False,False,False,False
+en_CA_Finance_1587313,10,customer,channel2,5,56.4,74.64,"I'm mostly short-term trades. I just want to ask advantage of some price swings,",neutral,0.6372,False,False,False,False,False
+en_CA_Finance_1587313,11,agent,channel1,6,61.12,65.84,"goal is? Is it short-term trading, long-term leverage, or more active day trading?",neutral,0.8772,False,False,True,False,False
+en_CA_Finance_1587313,12,agent,channel1,7,71.52,86.16,"Yeah, that's understandable. So a current interest rate for margin loans,",neutral,0.8051,False,False,False,False,False
+en_CA_Finance_1587313,13,customer,channel2,6,74.64,80.08,but I'm cautious about the interest rates and collateral requirements before I decide.,neutral,0.7691,False,False,False,False,False
+en_CA_Finance_1587313,14,customer,channel2,7,86.4,110.64,"Okay, that's clear. And what about the collateral? How much equity do I need to maintain?",neutral,0.907,False,False,False,False,False
+en_CA_Finance_1587313,15,agent,channel1,8,88.24,95.92,"it starts at 10.5% annually for balances under $25,000 and it decreases slightly for higher",neutral,0.885,False,False,False,False,False
+en_CA_Finance_1587313,16,agent,channel1,9,95.92,101.6,"borrowing amounts. So for example, 8.25% for balances over $100,000.",neutral,0.6384,False,False,False,False,False
+en_CA_Finance_1587313,17,agent,channel1,10,112.48,117.84,You'll need to maintain at least 30% equity in your margin account. So that means if your investment,neutral,0.8003,False,False,False,False,False
+en_CA_Finance_1587313,18,customer,channel2,8,116.4,136.08,"All right, so basically the stocks I buy are used as collateral for the borrowed money.",neutral,0.8111,False,False,False,False,False
+en_CA_Finance_1587313,19,agent,channel1,11,117.84,122.56,"value drops and your equity falls below that threshold, you might get a margin call. So",neutral,0.7076,False,False,False,False,False
+en_CA_Finance_1587313,20,agent,channel1,12,123.52,128.0,you'll be required to deposit more funds or sell part of your holding.,neutral,0.9112,False,False,False,False,False
+en_CA_Finance_1587313,21,agent,channel1,13,137.68,143.04,"Exactly. So it's a good way to boost your buying power, but of course it magnifies both gains",positive,0.8377,False,False,False,False,False
+en_CA_Finance_1587313,22,agent,channel1,14,143.04,153.12,and losses. So managing risk is key.,neutral,0.7189,False,False,False,False,False
+en_CA_Finance_1587313,23,customer,channel2,9,146.72,155.2,"It makes sense. I just want to use it strategically, not overextended myself.",neutral,0.5661,False,False,False,False,False
+en_CA_Finance_1587313,24,agent,channel1,15,153.2,155.2,So,neutral,0.5003,False,False,False,False,False
+en_CA_Finance_1587313,25,customer,channel2,10,158.4,167.28,"While I have you, are there any new IPOs coming up that I can participate in through Summit Edge?",neutral,0.698,False,False,False,False,False
+en_CA_Finance_1587313,26,agent,channel1,16,168.96,174.88,"yeah, there's a couple of exciting ones open for interest right now. One is",positive,0.9628,False,False,False,False,False
+en_CA_Finance_1587313,27,agent,channel1,17,175.68,181.76,"novicell biotech. So it focuses on stem cell therapies. The other one is green volt energy,",neutral,0.8324,False,False,False,False,False
+en_CA_Finance_1587313,28,customer,channel2,11,176.4,203.12,"Yeah, that's interesting. What's the minimum investment investment for those IPOs?",positive,0.6349,False,False,False,False,False
+en_CA_Finance_1587313,29,agent,channel1,18,181.76,188.4,which is a clean tech company expanding into solar infrastructure. So if you meet the eligibility,neutral,0.5063,False,False,False,False,False
+en_CA_Finance_1587313,30,agent,channel1,19,188.4,194.0,"criteria, like having a minimum account balance, you can submit your interest directly through",neutral,0.8932,False,False,False,False,False
+en_CA_Finance_1587313,31,agent,channel1,20,194.0,209.92,"your account dashboard. So typically the minimum is $2,500 and shares are offered in lots of",neutral,0.9135,False,False,False,False,False
+en_CA_Finance_1587313,32,customer,channel2,12,206.72,224.72,"All right, all right. I might consider Green Vault. The renewable energy sector is something",positive,0.8856,False,False,False,False,False
+en_CA_Finance_1587313,33,agent,channel1,21,209.92,226.0,$100. And then the final pricing is announced about a day before the official listing date.,neutral,0.937,False,False,False,False,False
+en_CA_Finance_1587313,34,customer,channel2,13,224.72,236.88,"I've been following a lot. Okay, also, is there a way to set up alerts for when specific stocks",neutral,0.8686,False,False,False,False,False
+en_CA_Finance_1587313,35,agent,channel1,22,227.44,234.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Finance_1587313,36,agent,channel1,23,234.88,245.2,"Yeah, absolutely. So you can set up custom price and performance alerts directly in our trading",neutral,0.5204,False,False,False,False,False
+en_CA_Finance_1587313,37,customer,channel2,14,236.96,249.04,hit certain price targets?,neutral,0.9009,False,False,False,False,False
+en_CA_Finance_1587313,38,agent,channel1,24,245.2,251.92,"platform or mobile app. So just select the stock symbol, click on set alert, and then you can",neutral,0.8701,False,False,False,False,False
+en_CA_Finance_1587313,39,customer,channel2,15,249.04,273.2,"Perfect. I like getting notification on my phone, especially when I'm not in front of my computer.",positive,0.9463,False,False,False,False,False
+en_CA_Finance_1587313,40,agent,channel1,25,251.92,256.32,"choose whether you'd like notifications for price movement, daily percentage change or",neutral,0.9091,False,False,False,False,False
+en_CA_Finance_1587313,41,agent,channel1,26,256.32,262.08,"trading volume. And then you can receive them via email, SMS or push notification,",neutral,0.9151,False,False,False,False,False
+en_CA_Finance_1587313,42,agent,channel1,27,262.72,263.84,whichever you prefer.,neutral,0.8293,False,False,False,False,False
+en_CA_Finance_1587313,43,agent,channel1,28,273.68,278.88,Yeah. Okay. So the mobile app will work great for you then. It updates in real time. So then you'll,positive,0.8893,False,False,False,False,False
+en_CA_Finance_1587313,44,agent,channel1,29,278.88,295.04,"know the movement, the moment, sorry, the moment when your target price is reached.",neutral,0.7845,False,False,False,False,False
+en_CA_Finance_1587313,45,customer,channel2,16,279.04,294.16,"So far, so good. Okay, so I think I'd like to talk to a financial advisor before opening the margin",positive,0.8059,False,False,False,False,False
+en_CA_Finance_1587313,46,customer,channel2,17,294.16,303.2,account just to make sure it aligns with my goals. Can I schedule a follow-up call?,neutral,0.7856,False,False,False,False,False
+en_CA_Finance_1587313,47,agent,channel1,30,302.0,306.0,"Yeah, of course. So we can arrange a meeting with one of our licensed advisors.",neutral,0.7459,False,False,False,False,False
+en_CA_Finance_1587313,48,agent,channel1,31,306.56,312.64,They specialize in margin strategies and IPO investments. So would you like a phone consultation,neutral,0.8733,False,False,False,False,False
+en_CA_Finance_1587313,49,customer,channel2,18,309.04,319.2,"Hmm, let's go for a video meeting. I'm available Thursday morning around 9th turn.",neutral,0.7819,False,False,False,False,False
+en_CA_Finance_1587313,50,agent,channel1,32,312.64,325.76,"or a video meeting? Okay, let me check. Yes. So we have Daniel Grant. That's one of our",neutral,0.7431,False,False,True,True,False
+en_CA_Finance_1587313,51,agent,channel1,33,325.76,331.2,senior financial advisors. He's available at that time. So I'll book your appointment for,neutral,0.8076,False,False,False,False,False
+en_CA_Finance_1587313,52,agent,channel1,34,331.2,337.36,Thursday at 9.30 a.m. You'll get an email confirmation with the email link in a summary of what you,neutral,0.8728,False,False,False,False,False
+en_CA_Finance_1587313,53,agent,channel1,35,337.36,350.8,"discussed today. Yeah, my pleasure, Mark. So just to recap, you're interested in a margin",positive,0.883,False,False,False,False,False
+en_CA_Finance_1587313,54,customer,channel2,19,339.76,355.2,"Perfect. Thanks, Lisa. You've been very helpful and clear.",positive,0.9808,False,False,False,False,False
+en_CA_Finance_1587313,55,agent,channel1,36,350.8,356.32,account. So we went over the current rates and requirements and you'll be meeting with Daniel,neutral,0.9164,False,False,False,False,False
+en_CA_Finance_1587313,56,customer,channel2,20,355.84,367.36,"Well, that's perfect. Everything is covered. Thanks again, Lisa.",positive,0.9766,False,False,False,False,False
+en_CA_Finance_1587313,57,agent,channel1,37,356.32,362.4,Thursday morning to review your investment options. Is there anything else that can help with before we,neutral,0.8792,False,False,False,False,False
+en_CA_Finance_1587313,58,agent,channel1,38,362.4,372.56,"end the call? Oh, you're very welcome, Mark. So thanks for choosing Summit Edge Investments",positive,0.9642,False,False,True,False,False
+en_CA_Finance_1587313,59,agent,channel1,39,372.56,388.8,"and have a great rest of your day. Okay, goodbye, Mark.",positive,0.948,False,False,False,False,False
+en_CA_Finance_1587313,60,customer,channel2,21,374.88,379.36,You too. Have a great day. Thanks again. Goodbye.,positive,0.9737,False,False,False,False,False

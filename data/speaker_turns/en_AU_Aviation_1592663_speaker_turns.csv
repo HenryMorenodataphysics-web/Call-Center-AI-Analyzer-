@@ -1,0 +1,156 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Aviation_1592663,1,agent,channel1,1,0.0,19.0,Good afternoon. Thank you for calling Qantas OAs. My name is Danielle. How can I help you
+en_AU_Aviation_1592663,2,customer,channel2,1,0.0,25.12,"Oh, hi Danielle. My name is Maria. I need to change my return flight from Melbourne back"
+en_AU_Aviation_1592663,3,agent,channel1,2,19.0,36.84,"today? Oh gosh, okay. No worries at all, Maria. I'll be happy to help you with that. I just"
+en_AU_Aviation_1592663,4,customer,channel2,2,25.12,30.88,to Sydney. And I've got a bit of a situation going on with work. So it's kind of urgent.
+en_AU_Aviation_1592663,5,agent,channel1,3,36.84,41.72,need some more details from you. Can I please grab to start off with your booking reference
+en_AU_Aviation_1592663,6,agent,channel1,4,41.72,65.08,"number or frequent fly-at number to pull up your reservation? Okay, perfect. Thanks, Maria."
+en_AU_Aviation_1592663,7,customer,channel2,3,45.44,48.56,"Okay, let me just look that up on my phone. Hang on one sec."
+en_AU_Aviation_1592663,8,customer,channel2,4,48.56,61.68,"Okay, yeah, my booking reference number is QF, sorry, Q7F2M9."
+en_AU_Aviation_1592663,9,agent,channel1,5,65.08,73.0,"Just give me one moment while I bring that up, please. Okay, right. I can see your booking"
+en_AU_Aviation_1592663,10,agent,channel1,6,73.0,77.56,here. Thank you for waiting. You're currently scheduled to fly from Melbourne to Sydney
+en_AU_Aviation_1592663,11,agent,channel1,7,77.56,85.64,"on Friday the 13th of December, departing at 6.45pm on QF 430. Is that the flight you're looking to"
+en_AU_Aviation_1592663,12,customer,channel2,5,78.72,91.92,"Oh, yeah, that's the one. Look, I'm actually in Melbourne for a conference and my boss"
+en_AU_Aviation_1592663,13,agent,channel1,8,85.64,110.92,"change? Yeah, look, I completely understand. These things happen, especially with conferences,"
+en_AU_Aviation_1592663,14,customer,channel2,6,91.92,97.6,has just actually called me this morning and he just said that we need to stay a few extra days.
+en_AU_Aviation_1592663,15,customer,channel2,7,97.6,102.4,So there's been a last minute change to the program and it turns out that I have to do some
+en_AU_Aviation_1592663,16,customer,channel2,8,102.4,120.88,"presenting on Monday. Typical, right? Well, ideally I'd like to fly back on Monday,"
+en_AU_Aviation_1592663,17,agent,channel1,9,110.92,116.28,but really frustrating that you weren't given the heads up on presenting. So what date are you
+en_AU_Aviation_1592663,18,agent,channel1,10,116.28,132.2,"actually looking to fly back? Yeah, look, no problem. Let me have a look at what we've"
+en_AU_Aviation_1592663,19,customer,channel2,9,120.88,126.24,"the 16th of December, maybe in the evening after my presentation. That way I can get"
+en_AU_Aviation_1592663,20,customer,channel2,10,126.24,137.68,back to Sydney and not miss too much of the week. Okay.
+en_AU_Aviation_1592663,21,agent,channel1,11,132.28,140.2,"got available on Monday the 16th. Okay, Maria. So I've looked up what we've got,"
+en_AU_Aviation_1592663,22,agent,channel1,12,140.2,149.72,"and we've actually got a few options for you. So we've got QF 432 departing at 7.15pm, arriving"
+en_AU_Aviation_1592663,23,agent,channel1,13,149.72,158.2,"into Sydney at 8.30pm. We've also got a later option, that's QF 438 leaving at 9pm,"
+en_AU_Aviation_1592663,24,customer,channel2,11,156.88,168.48,"Okay, yeah, that's great. I was actually going to ask, I'm currently in economy and I'd like to"
+en_AU_Aviation_1592663,25,agent,channel1,14,158.2,162.76,"getting in at 10.15pm, and both have availability in economy class."
+en_AU_Aviation_1592663,26,customer,channel2,12,168.48,174.88,"stay in economy when I re-book. I don't need anything fancy, you know, just to get home"
+en_AU_Aviation_1592663,27,customer,channel2,13,174.88,179.52,really. That's it.
+en_AU_Aviation_1592663,28,agent,channel1,15,176.92,179.64,"Yeah, look, it is only an hour flight, I fully understand. So,"
+en_AU_Aviation_1592663,29,agent,channel1,16,180.6,183.32,"look, you remain in economy class for the new booking."
+en_AU_Aviation_1592663,30,agent,channel1,17,183.32,200.44,"Now, the 7.15pm flight would get you home at a reasonable hour. Does that timing work for you?"
+en_AU_Aviation_1592663,31,customer,channel2,14,189.76,195.6,"Yeah, that sounds perfect actually. I should be done by five, I think. Actually, let me just"
+en_AU_Aviation_1592663,32,customer,channel2,15,195.6,204.4,"check the schedule. Yeah, yeah, yeah. If we're running on time, I should be done at five,"
+en_AU_Aviation_1592663,33,customer,channel2,16,204.4,210.96,"so that gives me plenty of time to get to Telomere. Now I have to ask, what is this going"
+en_AU_Aviation_1592663,34,customer,channel2,17,210.96,219.04,to cost me? Are there any extra fees for changing the flight?
+en_AU_Aviation_1592663,35,agent,channel1,18,214.12,219.0,Good question. Let me look at the fair rules on your original booking.
+en_AU_Aviation_1592663,36,agent,channel1,19,220.36,225.0,"Just before I do, actually, was this purchased through a company account or was this through your"
+en_AU_Aviation_1592663,37,agent,channel1,20,225.0,236.12,own?
+en_AU_Aviation_1592663,38,customer,channel2,18,226.24,234.16,"Well, originally the company booked it, but any changes, we usually have to pay that out of pocket"
+en_AU_Aviation_1592663,39,customer,channel2,19,235.68,242.24,"because obviously, you know, getting our admin team to actually make the change,"
+en_AU_Aviation_1592663,40,customer,channel2,20,242.24,247.04,that could take weeks. So we usually have to pay for that out of pocket and then they'll reimburse.
+en_AU_Aviation_1592663,41,agent,channel1,21,248.36,254.2,"Okay, yeah, absolutely. Understood. Well, good news. You're on a flex economy fair anyway."
+en_AU_Aviation_1592663,42,agent,channel1,22,255.08,261.64,"So there's a $99 fair difference fee for changing to a different date, but because you booked"
+en_AU_Aviation_1592663,43,customer,channel2,21,255.6,275.04,"Okay, so $99. That's not too bad. What's the fare difference exactly?"
+en_AU_Aviation_1592663,44,agent,channel1,23,261.64,266.92,"flex, you won't be charged a standard fee of $149. So the change fee is waived,"
+en_AU_Aviation_1592663,45,agent,channel1,24,266.92,279.16,"you'll only pay the fair difference. Yep, absolutely. So let me calculate that for you."
+en_AU_Aviation_1592663,46,agent,channel1,25,279.24,287.96,Your original fair was $185 and the new fair for Monday the 16th at 7.15pm is $245.
+en_AU_Aviation_1592663,47,customer,channel2,22,285.6,315.36,"Okay, yeah, that's actually better than expected. Okay, but before I commit,"
+en_AU_Aviation_1592663,48,agent,channel1,26,287.96,295.32,"So the difference is $60 added to the 99 fair difference fee. Oh, wait, sorry. Sorry, Maria."
+en_AU_Aviation_1592663,49,agent,channel1,27,295.32,300.04,I misspoke because you've got the flex fair. There's no separate fair difference fee. So you
+en_AU_Aviation_1592663,50,agent,channel1,28,300.04,306.36,"simply pay the difference between the fairs, which is $60. You'll only be charged $6"
+en_AU_Aviation_1592663,51,agent,channel1,29,307.32,313.48,in total to change your new flight.
+en_AU_Aviation_1592663,52,customer,channel2,23,316.0,322.0,are there any cheaper alternatives? Like what if I flew earlier in the day on Monday or maybe even
+en_AU_Aviation_1592663,53,customer,channel2,24,322.0,331.12,Sunday? I could potentially rearrange things if it saves me a decent amount.
+en_AU_Aviation_1592663,54,agent,channel1,30,326.92,333.56,"Yeah, look, absolutely. I know that the rising economy costs"
+en_AU_Aviation_1592663,55,agent,channel1,31,334.52,339.56,saving a dollar here all that helps a lot. So let me just check some other options for you.
+en_AU_Aviation_1592663,56,agent,channel1,32,341.72,346.04,"Okay, all right. So if you flew Sunday the 15th instead, we have flights throughout the day."
+en_AU_Aviation_1592663,57,customer,channel2,25,345.36,365.6,"Yeah, no, look, I definitely need to be there Monday for the preso. Yeah, nothing I can do about that,"
+en_AU_Aviation_1592663,58,agent,channel1,33,346.04,353.4,The cheapest would be 1130am flight at $195. So that would save you $50 compared to Monday
+en_AU_Aviation_1592663,59,agent,channel1,34,353.4,357.8,evening. But that's probably not ideal if you need to be at the conference on Monday.
+en_AU_Aviation_1592663,60,agent,channel1,35,363.72,374.84,"Yeah. Look, so what about Monday morning? I think you did say, though, that you were actually speaking"
+en_AU_Aviation_1592663,61,customer,channel2,26,365.6,375.84,unfortunately.
+en_AU_Aviation_1592663,62,agent,channel1,36,376.04,382.28,during the day. So you mentioned something about it would need to be after a certain time.
+en_AU_Aviation_1592663,63,agent,channel1,37,382.28,384.2,Could you please remind me what that time was?
+en_AU_Aviation_1592663,64,agent,channel1,38,384.2,392.84,Okay.
+en_AU_Aviation_1592663,65,customer,channel2,27,384.48,389.76,"Yeah, like my preso is at two, so I can't really leave before that."
+en_AU_Aviation_1592663,66,customer,channel2,28,389.76,399.92,What about on Monday evening? You mentioned that 7 p.m. 15 p.m. flight. Is there anything around five or six?
+en_AU_Aviation_1592663,67,agent,channel1,39,401.48,405.0,"Let me see what we've got. If you can swing leaving early, then"
+en_AU_Aviation_1592663,68,agent,channel1,40,405.08,415.64,"yeah, actually there's a QF 426 at 545, sorry, PM. It's for $220. So that's 25 less than the"
+en_AU_Aviation_1592663,69,agent,channel1,41,415.64,420.84,7.15pm flight. And that would get you into Sydney at 7. Would that give you enough time after your
+en_AU_Aviation_1592663,70,customer,channel2,29,420.56,427.84,"Oh, that's very tempting. You know what, if I conduct out straight after my session"
+en_AU_Aviation_1592663,71,agent,channel1,42,420.84,432.68,presentation?
+en_AU_Aviation_1592663,72,customer,channel2,30,428.96,434.64,"and grab an Uber to the airport, yeah, I reckon I could make that work. The conference is at"
+en_AU_Aviation_1592663,73,agent,channel1,43,432.68,453.32,"Yeah. Look, the 545 should work well then. You'd want to be at the airport by about 445pm for"
+en_AU_Aviation_1592663,74,customer,channel2,31,434.64,440.16,"the Melbourne Convention and Exhibition Centre, you know the one down at South Wharf,"
+en_AU_Aviation_1592663,75,customer,channel2,32,440.16,445.12,so it's only about 25 minutes to the airport. That's if the traffic's not too bad on the
+en_AU_Aviation_1592663,76,customer,channel2,33,445.12,453.36,telemarine freeway.
+en_AU_Aviation_1592663,77,agent,channel1,44,453.32,458.52,"a domestic flight, which gives you a couple of hours after a 2pm presentation. You'd save"
+en_AU_Aviation_1592663,78,agent,channel1,45,458.52,461.72,$25. So the total change would only cost you $35.
+en_AU_Aviation_1592663,79,customer,channel2,34,462.4,469.36,"That's perfect. And just to confirm, I'll still be in economy class, same baggage allowance and everything."
+en_AU_Aviation_1592663,80,agent,channel1,46,469.8,473.0,"Yep, that's correct. You'll have the standard economy baggage allowance,"
+en_AU_Aviation_1592663,81,agent,channel1,47,473.0,478.84,one carry on up to seven kilos and one check bag up to 23 kilos. Your frequent flight
+en_AU_Aviation_1592663,82,customer,channel2,35,475.68,490.16,"Awesome. Okay, so one more thing before we finalise it. If something else comes up and I need to change"
+en_AU_Aviation_1592663,83,agent,channel1,48,478.84,482.04,number is also attached. So you'll earn points on this flight as well.
+en_AU_Aviation_1592663,84,customer,channel2,36,490.16,499.36,"again, what happens then?"
+en_AU_Aviation_1592663,85,agent,channel1,49,492.68,496.6,"Look, because you're on a flex fare, you can make another change if needed and you just need to"
+en_AU_Aviation_1592663,86,agent,channel1,50,496.6,501.56,pay the fare difference again. You also have the option to cancel up to the day of travel
+en_AU_Aviation_1592663,87,agent,channel1,51,501.56,506.92,and receive a flight credit valid for 12 months minus the $75 cancellation fee.
+en_AU_Aviation_1592663,88,customer,channel2,37,505.6,514.32,"Oh, good to know. You never know just in case. Alright, Danielle, look, I'm happy to go ahead"
+en_AU_Aviation_1592663,89,agent,channel1,52,507.0,508.44,But hopefully you won't need to do that.
+en_AU_Aviation_1592663,90,customer,channel2,38,514.32,529.36,"with the change. Let's book the 5.45 p.m. flight on Monday, the 16th."
+en_AU_Aviation_1592663,91,agent,channel1,53,521.0,525.16,Excellent. I'll process that change for you now. Just confirming one more time.
+en_AU_Aviation_1592663,92,agent,channel1,54,525.16,532.36,We are changing from Friday the 13th of December at 6.45pm to the Monday the 16th of December at
+en_AU_Aviation_1592663,93,agent,channel1,55,532.36,541.32,5.45pm flight from QF 426 from Melbourne Tullamere into Sydney arriving at 7pm. The
+en_AU_Aviation_1592663,94,customer,channel2,39,535.12,557.36,"Yeah, that's fine. It should be a visa ending in 4782."
+en_AU_Aviation_1592663,95,agent,channel1,56,541.32,547.24,additional cost is $35. Can I charge that to the credit card you originally used for booking?
+en_AU_Aviation_1592663,96,agent,channel1,57,547.56,562.6,"Okay, one moment please. All right, perfect. Processing that now and it's all been done."
+en_AU_Aviation_1592663,97,agent,channel1,58,563.4,568.12,So your new flight is confirmed. You'll receive an email confirmation within the next few minutes
+en_AU_Aviation_1592663,98,customer,channel2,40,565.12,577.36,"Yeah, that's still correct, yep."
+en_AU_Aviation_1592663,99,agent,channel1,59,568.12,574.04,to the email address we have on file. We have maria.10 at gmail.com. Is that correct?
+en_AU_Aviation_1592663,100,agent,channel1,60,574.04,583.4,"Okay, fantastic. So just to recap your new itinerary, you're flying QF 426 on Monday the 16th of December"
+en_AU_Aviation_1592663,101,agent,channel1,61,583.4,589.8,"from Melbourne Tullamere into Sydney departing 5.45pm from gate. You'll get the gate information,"
+en_AU_Aviation_1592663,102,agent,channel1,62,589.8,596.84,"sorry, when you check in arriving at Sydney 7pm. Economy class, 23 kilo check baggage,"
+en_AU_Aviation_1592663,103,customer,channel2,41,595.36,612.4,"Perfect. Thanks so much for making that so easy, Danielle. I was really worried it was going to"
+en_AU_Aviation_1592663,104,agent,channel1,63,596.84,605.64,7 kilo carry on. Your booking reference remains the same Q7F 2M9 and you can check in online 24
+en_AU_Aviation_1592663,105,agent,channel1,64,605.64,617.56,"hours before departure or at the airport. Yeah, look, that's absolutely fine. I'm happy to help"
+en_AU_Aviation_1592663,106,customer,channel2,42,612.4,628.16,"be a whole drama. Oh, thank you, and I appreciate that. I'm a bit nervous, but I'm sure it will be"
+en_AU_Aviation_1592663,107,agent,channel1,65,617.56,621.96,"and Maria, since you're presenting at the conference, best of luck. I hope it goes really well."
+en_AU_Aviation_1592663,108,agent,channel1,66,626.84,649.08,That's a great question. Let me just look that up for you because I'm not 100% sure. I'm just
+en_AU_Aviation_1592663,109,customer,channel2,43,628.16,636.08,"fine. Oh, can I just ask you one more thing, Danielle? Do I earn frequent flyer points"
+en_AU_Aviation_1592663,110,customer,channel2,44,636.16,643.12,with the difference that I pay? Is that all something that actually earns frequent flyer points?
+en_AU_Aviation_1592663,111,agent,channel1,67,649.08,656.52,"going to pop you on hold and speak with my manager on that one. Okay, Maria, are you there?"
+en_AU_Aviation_1592663,112,customer,channel2,45,651.76,652.08,Okay.
+en_AU_Aviation_1592663,113,customer,channel2,46,657.44,658.32,"Yep, still here."
+en_AU_Aviation_1592663,114,agent,channel1,68,657.48,669.08,"Yes, so you do earn those extra points as well."
+en_AU_Aviation_1592663,115,customer,channel2,47,659.28,668.32,"Excellent. Can I just ask one more thing, Danielle? You might have mentioned it, but"
+en_AU_Aviation_1592663,116,customer,channel2,48,669.2,674.4,"I don't know. I might have forgotten if you mentioned this, but the seat allocation,"
+en_AU_Aviation_1592663,117,agent,channel1,69,669.96,690.44,"Yeah, absolutely. Look, we can actually do that for you now if you like. So let me just reopen"
+en_AU_Aviation_1592663,118,customer,channel2,49,674.4,680.0,"is that something that, can I get a chance to do that before I get to the airport? Because"
+en_AU_Aviation_1592663,119,customer,channel2,50,680.0,684.64,"I really hate being in the middle, you know what I mean? If I can, get a window seat."
+en_AU_Aviation_1592663,120,customer,channel2,51,688.32,700.96,"If you can grab me like a window seat now, then that actually saves me from, you know,"
+en_AU_Aviation_1592663,121,agent,channel1,70,691.08,695.32,your booking or would you prefer to do it yourself online?
+en_AU_Aviation_1592663,122,agent,channel1,71,699.32,713.48,"Yeah, no problem. So I have, it's up toward the front, but it is an emergency seat. I can get"
+en_AU_Aviation_1592663,123,customer,channel2,52,700.96,703.12,maybe I might miss out if I try and talk myself.
+en_AU_Aviation_1592663,124,customer,channel2,53,703.12,722.4,"So what does that mean, like the emergency seat? Does that mean I have to do something emergency?"
+en_AU_Aviation_1592663,125,agent,channel1,72,713.48,716.2,you that window seat. Would you like me to do that one?
+en_AU_Aviation_1592663,126,agent,channel1,73,716.92,732.44,You do have to be prepared to help in the case of emergency. It's mainly just being able to stand
+en_AU_Aviation_1592663,127,agent,channel1,74,732.44,739.0,and of course there's the window just being able to push down on that button to release
+en_AU_Aviation_1592663,128,customer,channel2,54,733.12,746.0,"Oh, cool. All right. Does that mean I get extra baggage as well?"
+en_AU_Aviation_1592663,129,agent,channel1,75,739.0,742.76,"the window in that case, but it does give you a bit of extra leg room."
+en_AU_Aviation_1592663,130,agent,channel1,76,747.16,750.44,"No, it does not, unfortunately."
+en_AU_Aviation_1592663,131,customer,channel2,55,749.6,754.24,"Okay. All right. Look, I'm happy with the extra leg room for sure. And I don't mind being,"
+en_AU_Aviation_1592663,132,customer,channel2,56,755.36,759.76,"like, helping people out in an emergency. So I'll take that one, Danielle. So what"
+en_AU_Aviation_1592663,133,customer,channel2,57,759.76,760.88,row did you say it was?
+en_AU_Aviation_1592663,134,agent,channel1,77,762.44,770.44,"Yeah, so that one is row G and the seat number is G24."
+en_AU_Aviation_1592663,135,customer,channel2,58,771.36,779.76,"Okay. All right. Cool. Okay. And just one more thing, Danielle, if my, if my colleague"
+en_AU_Aviation_1592663,136,customer,channel2,59,780.88,786.08,"decides to actually catch the same flight as me, because we're both in the same situation,"
+en_AU_Aviation_1592663,137,customer,channel2,60,786.08,790.64,"like we're actually co-presenting, but they're actually going to make the call themselves,"
+en_AU_Aviation_1592663,138,customer,channel2,61,790.64,795.6,"because, you know, obviously I didn't want to, we didn't book together, so they need to make"
+en_AU_Aviation_1592663,139,customer,channel2,62,795.6,802.96,"their own arrangements. But like, if they, if we want to sit next to each other, is that"
+en_AU_Aviation_1592663,140,customer,channel2,63,802.96,813.84,"going to be a problem? Like, is the seat next to me available?"
+en_AU_Aviation_1592663,141,agent,channel1,78,807.16,813.64,"Look, I'm not going to read too much into potentially some extra collegial affairs going on,"
+en_AU_Aviation_1592663,142,agent,channel1,79,814.52,828.44,"but there are seats available. The seat available, sorry, the seat next to you is available. Yes."
+en_AU_Aviation_1592663,143,customer,channel2,64,821.68,826.48,"Oh, no, it's nothing like that, Danielle. It's actually, we have a presentation,"
+en_AU_Aviation_1592663,144,customer,channel2,65,827.12,831.68,because we're doing like this road show. And so we have a presentation that we need to do the
+en_AU_Aviation_1592663,145,customer,channel2,66,831.68,839.28,"next day, would you believe it, in Sydney. So I actually need to sit next, I need to collaborate"
+en_AU_Aviation_1592663,146,agent,channel1,80,836.6,857.88,"I can't, I would, I'm sorry, I would advise if you to call your or get your colleague to call us"
+en_AU_Aviation_1592663,147,customer,channel2,67,839.28,845.44,"with this colleague of mine on our next presentation. So yeah, that would be awesome if you could."
+en_AU_Aviation_1592663,148,customer,channel2,68,846.4,848.24,Is there any way you can hold it?
+en_AU_Aviation_1592663,149,agent,channel1,81,857.88,864.2,"as soon as possible or to change their flight and to make the booking. Otherwise,"
+en_AU_Aviation_1592663,150,customer,channel2,69,862.4,874.48,"Okay, no worries. All right, well, thanks so much for your help, Danielle. You've been so helpful."
+en_AU_Aviation_1592663,151,agent,channel1,82,865.0,870.68,you are welcome to both change at the same time with what's available.
+en_AU_Aviation_1592663,152,customer,channel2,70,875.44,876.4,Really appreciate that.
+en_AU_Aviation_1592663,153,agent,channel1,83,877.4,880.6,"My pleasure, Maria. I have a wonderful rest of your time in Melbourne."
+en_AU_Aviation_1592663,154,agent,channel1,84,880.6,890.68,Good luck with your presentation and we'll see you on board Flight QF426 on Monday evening. Take care.
+en_AU_Aviation_1592663,155,customer,channel2,71,887.28,889.28,"Wonderful. Thanks so much, Danielle. See you."

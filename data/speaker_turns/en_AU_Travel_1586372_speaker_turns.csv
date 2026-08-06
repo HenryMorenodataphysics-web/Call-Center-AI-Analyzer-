@@ -1,0 +1,74 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Travel_1586372,1,agent,channel1,1,0.0,28.0,"Hi, thanks for calling Fun Travels, how can I help you?"
+en_AU_Travel_1586372,2,customer,channel2,1,0.0,29.56,"Hi, I'm just looking at booking a vocation package to"
+en_AU_Travel_1586372,3,agent,channel1,2,28.0,43.12,"Okay, sure. So would you just like to go ahead with the accommodation or you are looking at"
+en_AU_Travel_1586372,4,customer,channel2,2,29.56,50.8,"Dreamworld. And will we require a package? So like a hotel, mills, and park tickets?"
+en_AU_Travel_1586372,5,agent,channel1,3,43.12,56.4,"more options there? Sure, I can help you with that. How many people are we looking for? How"
+en_AU_Travel_1586372,6,customer,channel2,3,50.8,64.96,"Are there be two adults and two children? Ah, we've got an eight-year-old and a"
+en_AU_Travel_1586372,7,agent,channel1,4,56.4,72.48,"many adults and how many children? And what's the children's ages? Okay, so is there is there"
+en_AU_Travel_1586372,8,customer,channel2,4,64.96,83.08,"ten-year-old. We're looking in the summer over the holidays, so it would be like June, July-ish."
+en_AU_Travel_1586372,9,agent,channel1,5,72.48,91.6,"any particular dates that you're after? Yep. Okay, and any, how many days are we looking for and"
+en_AU_Travel_1586372,10,agent,channel1,6,91.6,106.24,"any particular like, do you want weekends or? Okay, all right. Yep. So for seven days, I would say"
+en_AU_Travel_1586372,11,customer,channel2,5,94.96,101.96,We're looking for seven days. Yeah.
+en_AU_Travel_1586372,12,agent,channel1,7,106.24,120.16,generally speaking from Friday to Fridays are very popular. And what I can see is we have
+en_AU_Travel_1586372,13,agent,channel1,8,120.16,140.0,"or okay, yeah, the prices are pretty similar. But what I can do is from 6th of June to 14th of"
+en_AU_Travel_1586372,14,agent,channel1,9,140.08,148.64,"June, I have some availabilities for you, which is the double room. And the double rooms are"
+en_AU_Travel_1586372,15,agent,channel1,10,148.64,159.68,"basically two separate bedrooms with two separate bathrooms, which is great. In one of them, there"
+en_AU_Travel_1586372,16,customer,channel2,6,154.96,163.96,"Oh, yeah."
+en_AU_Travel_1586372,17,agent,channel1,11,159.68,168.48,"is a queen bed and the other one has got a bunk bed, which I'm assuming for your family"
+en_AU_Travel_1586372,18,agent,channel1,12,168.48,180.64,"circumstances, it should be a suitable one. And including your accommodation, it has the meals"
+en_AU_Travel_1586372,19,agent,channel1,13,180.64,187.68,"included and the park tickets, do you want park tickets for all of you? Okay, so including the"
+en_AU_Travel_1586372,20,customer,channel2,7,184.96,207.96,"Yes, please. Yeah. Okay. Do you offer any seasonal discounts?"
+en_AU_Travel_1586372,21,agent,channel1,14,187.68,209.92,"park tickets for the seven days, it will be 3950. Unfortunately, not for that period. If you were,"
+en_AU_Travel_1586372,22,customer,channel2,8,207.96,229.96,"Yeah. Yeah. Oh, yeah. And just in case something happens, which it's not going to, but what's your"
+en_AU_Travel_1586372,23,agent,channel1,15,210.0,217.68,"because it's a very popular period, but if you are looking at other times of the year,"
+en_AU_Travel_1586372,24,agent,channel1,16,217.68,220.16,there might be some discounts available.
+en_AU_Travel_1586372,25,agent,channel1,17,220.16,242.32,"Then again, because it's a very popular period, we only accept cancellation in the next month"
+en_AU_Travel_1586372,26,customer,channel2,9,229.96,250.96,"cancellation and refund policy like? Yeah. Oh, yeah."
+en_AU_Travel_1586372,27,agent,channel1,18,242.32,250.32,"for 30 days. After that, it will have to be a refund. It has to be like a partial refund."
+en_AU_Travel_1586372,28,agent,channel1,19,251.76,258.88,"Yeah. And then again, it depends when. After that, you can change your booking date,"
+en_AU_Travel_1586372,29,agent,channel1,20,258.88,262.48,"but with any rescheduling, there are no cancellations."
+en_AU_Travel_1586372,30,customer,channel2,10,259.96,277.96,"Okay, yeah. I think that's all the questions I've had. I've got. But I would like to book for those seven days. Yeah. I am, yes."
+en_AU_Travel_1586372,31,agent,channel1,21,262.48,280.32,"Yeah, you're happy with all of those information and the dates are fantastic. Thank you for that."
+en_AU_Travel_1586372,32,customer,channel2,11,277.96,288.96,"Yes, fine."
+en_AU_Travel_1586372,33,agent,channel1,22,280.32,287.04,So I can go ahead and book this for you now. I will just need to confirm some information if
+en_AU_Travel_1586372,34,agent,channel1,23,287.04,296.4,"that's all right. And we will get your credit card, but we only charge a deposit on it."
+en_AU_Travel_1586372,35,customer,channel2,12,288.96,311.96,"All right, so what is the deposit requirement? Okay, that's cool. Okay, yeah, that's cool."
+en_AU_Travel_1586372,36,agent,channel1,24,300.32,308.16,The deposit is 20% of the whole booking at this stage. And the rest of it will be booked
+en_AU_Travel_1586372,37,agent,channel1,25,308.8,320.96,"after your birthday. All right. So can I have your full name date of birth and address, please?"
+en_AU_Travel_1586372,38,customer,channel2,13,311.96,321.96,Yeah.
+en_AU_Travel_1586372,39,customer,channel2,14,321.96,335.96,"Jennifer O'Brien, 8th of July, 1983, and 31 Brown Street, Melbourne. Yeah."
+en_AU_Travel_1586372,40,agent,channel1,26,323.92,328.16,Yep. Yes.
+en_AU_Travel_1586372,41,agent,channel1,27,328.8,346.16,"Okay. And you said you have one additional adult. And what's the name, please?"
+en_AU_Travel_1586372,42,customer,channel2,15,335.96,346.96,4915.
+en_AU_Travel_1586372,43,customer,channel2,16,346.96,350.96,"Uh, Sam."
+en_AU_Travel_1586372,44,agent,channel1,28,348.56,354.24,"Sam, the surname? Is that the same surname, or Brian?"
+en_AU_Travel_1586372,45,customer,channel2,17,350.96,353.96,Pardon?
+en_AU_Travel_1586372,46,customer,channel2,18,353.96,375.96,"Yes, my name."
+en_AU_Travel_1586372,47,agent,channel1,29,355.2,362.88,Okay. Perfect. And the kids are eight and 10.
+en_AU_Travel_1586372,48,agent,channel1,30,365.52,373.36,"Okay. Fantastic. That should be all booked for you. Can I have your email address,"
+en_AU_Travel_1586372,49,agent,channel1,31,373.36,375.52,or where do you want me to send this through?
+en_AU_Travel_1586372,50,customer,channel2,19,375.96,400.96,"My email address would be great. Yeah, it's Jenny, all lower cases, triple one, 2018 at Outlook.com."
+en_AU_Travel_1586372,51,agent,channel1,32,378.16,382.4,"Yep. Okay. And that was, sorry, can you say that for me again?"
+en_AU_Travel_1586372,52,agent,channel1,33,385.2,387.92,Yep. Yep.
+en_AU_Travel_1586372,53,agent,channel1,34,391.52,399.6,"Okay. Okay. Thanks for that, Jenny. So to finalize this booking, everything looks good. I will"
+en_AU_Travel_1586372,54,agent,channel1,35,399.6,412.0,"just need your credit card, please. Yep. What's the name on the card?"
+en_AU_Travel_1586372,55,customer,channel2,20,400.96,405.96,"Oh, yeah. Let's grab a second."
+en_AU_Travel_1586372,56,customer,channel2,21,405.96,411.96,"Oh, here we go. Found it."
+en_AU_Travel_1586372,57,customer,channel2,22,411.96,415.96,That's Jennifer O'Brien.
+en_AU_Travel_1586372,58,agent,channel1,36,414.88,419.92,Yep. Yep.
+en_AU_Travel_1586372,59,customer,channel2,23,415.96,425.96,"Uh, the number is 5491-236-5419."
+en_AU_Travel_1586372,60,agent,channel1,37,425.36,428.4,Yes.
+en_AU_Travel_1586372,61,customer,channel2,24,425.96,433.96,"Uh, the expiry is the 7th of the 10th, 29."
+en_AU_Travel_1586372,62,agent,channel1,38,433.36,433.6,Yep.
+en_AU_Travel_1586372,63,customer,channel2,25,433.96,458.96,And the security code is 541.
+en_AU_Travel_1586372,64,agent,channel1,39,438.56,441.6,541. Perfect. Thank you so much for that.
+en_AU_Travel_1586372,65,agent,channel1,40,442.24,447.76,"So what I'll do now, Jenny, I will send the confirmation to your email address and"
+en_AU_Travel_1586372,66,agent,channel1,41,449.52,458.8,it will include all the information on your itinerary and the 20% charge will go through shortly.
+en_AU_Travel_1586372,67,customer,channel2,26,458.96,461.96,Okay.
+en_AU_Travel_1586372,68,agent,channel1,42,459.36,462.24,Is that all good? Was there anything else I can help you with?
+en_AU_Travel_1586372,69,customer,channel2,27,461.96,470.96,"Um, no, that's all. Thank you."
+en_AU_Travel_1586372,70,agent,channel1,43,462.24,478.88,Okay. Fantastic. Hope you have a great stay. Thank you. Bye-bye.
+en_AU_Travel_1586372,71,customer,channel2,28,470.96,473.96,"Oh, thank you."
+en_AU_Travel_1586372,72,customer,channel2,29,473.96,484.96,Bye.
+en_AU_Travel_1586372,73,customer,channel2,30,484.96,494.96,Thank you.

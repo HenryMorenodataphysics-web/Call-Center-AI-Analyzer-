@@ -1,0 +1,106 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Agriculture_1588676,1,agent,channel1,1,0.0,4.0,Hi. There we go. Starting.,neutral,0.5379,False,False,False,False,False
+en_CA_Agriculture_1588676,2,customer,channel2,1,0.0,19.72,"Hi, my name is Owen.",neutral,0.7665,False,False,False,False,False
+en_CA_Agriculture_1588676,3,agent,channel1,2,12.0,16.0,Hello. My name is Julia with the Agriculture Society.,neutral,0.8228,False,False,False,False,False
+en_CA_Agriculture_1588676,4,agent,channel1,3,16.0,18.0,How can I help you?,neutral,0.8413,False,False,True,False,False
+en_CA_Agriculture_1588676,5,customer,channel2,2,19.72,28.82,"I am a potato farmer from Ireland who is trying to figure out some, I just had some",neutral,0.7956,False,False,False,False,False
+en_CA_Agriculture_1588676,6,customer,channel2,3,28.82,33.92,questions about some of your certification programs and some some,neutral,0.9137,False,False,False,False,False
+en_CA_Agriculture_1588676,7,agent,channel1,4,30.0,41.0,Of course. Let me just pull that up for you.,neutral,0.5067,False,False,False,False,False
+en_CA_Agriculture_1588676,8,customer,channel2,4,33.92,37.76,additional questions about costs and things like that. Would you be able to,neutral,0.9269,False,False,False,False,False
+en_CA_Agriculture_1588676,9,customer,channel2,5,37.76,40.24,help me with that?,neutral,0.8035,False,False,False,False,False
+en_CA_Agriculture_1588676,10,agent,channel1,5,41.0,49.0,Okay. Which type of new certifications would you like answers on?,neutral,0.9243,False,False,True,False,False
+en_CA_Agriculture_1588676,11,customer,channel2,6,49.4,55.28,"Specifically, I'm trying to figure out how I can get my potatoes certified",neutral,0.8312,False,False,False,False,False
+en_CA_Agriculture_1588676,12,customer,channel2,7,55.3,61.28,organic. I heard you had a new program and I was wondering what the application,neutral,0.8483,False,False,False,False,False
+en_CA_Agriculture_1588676,13,agent,channel1,6,60.0,76.0,Do you happen to have a Canadian Tire near you?,neutral,0.9279,False,False,True,False,False
+en_CA_Agriculture_1588676,14,customer,channel2,8,61.28,64.74,process for that would be like and what kind of requirements would need to be,neutral,0.8612,False,False,False,False,False
+en_CA_Agriculture_1588676,15,customer,channel2,9,64.74,68.44,met for my crops.,neutral,0.8382,False,False,False,False,False
+en_CA_Agriculture_1588676,16,customer,channel2,10,72.8,76.92,"I do, yes.",neutral,0.7108,False,False,False,False,False
+en_CA_Agriculture_1588676,17,agent,channel1,7,76.0,83.0,"Perfect. So if you just go to the Canadian Tire, there will be forms at the registers.",positive,0.8431,False,False,False,False,False
+en_CA_Agriculture_1588676,18,agent,channel1,8,83.0,89.0,That should be there now. They should be there for about a week.,neutral,0.8537,False,False,False,False,False
+en_CA_Agriculture_1588676,19,customer,channel2,11,85.28,87.28,You,neutral,0.4584,False,False,False,False,False
+en_CA_Agriculture_1588676,20,agent,channel1,9,89.0,95.0,"And if you ask at the register, the cashier should be able to help you fill that out.",neutral,0.8663,False,False,False,False,False
+en_CA_Agriculture_1588676,21,agent,channel1,10,95.0,101.0,And you will hear back from them in about a week's time after that.,neutral,0.8443,False,False,False,False,False
+en_CA_Agriculture_1588676,22,agent,channel1,11,101.0,108.0,And all the delivery will be coordinated that way.,neutral,0.7881,False,False,False,False,False
+en_CA_Agriculture_1588676,23,customer,channel2,12,105.44,108.94,Delivery of what? Sorry.,neutral,0.5629,False,False,False,False,False
+en_CA_Agriculture_1588676,24,agent,channel1,12,108.0,133.0,So that's the new fertilizers.,neutral,0.8382,False,False,False,False,False
+en_CA_Agriculture_1588676,25,customer,channel2,13,115.28,123.32,"Oh, okay. I see. Yes, that'll be fine. I also already have a supplier of fertilizer.",positive,0.6333,False,False,False,False,False
+en_CA_Agriculture_1588676,26,customer,channel2,14,123.32,128.6,So would there be any process to getting them certified organic so that I can,neutral,0.9086,False,False,False,False,False
+en_CA_Agriculture_1588676,27,customer,channel2,15,128.6,132.0,continue using them as my supplier?,neutral,0.8497,False,False,False,False,False
+en_CA_Agriculture_1588676,28,agent,channel1,13,133.0,144.0,Just let me talk to my manager for a moment. There'll be one second.,neutral,0.7971,False,False,False,False,False
+en_CA_Agriculture_1588676,29,agent,channel1,14,144.0,152.0,All right. So I've spoken to my manager now. And the way that you apply to get them certified.,neutral,0.8007,False,False,False,False,False
+en_CA_Agriculture_1588676,30,customer,channel2,16,145.28,172.82,"Great, but I mean I'm sure you talked to a lot of doctors and you're probably aware",positive,0.6694,False,False,False,False,False
+en_CA_Agriculture_1588676,31,agent,channel1,15,152.0,158.0,"As I mentioned earlier, just go to the Canadian Tire and you fill out the form that they have there.",neutral,0.9122,False,False,False,False,False
+en_CA_Agriculture_1588676,32,agent,channel1,16,158.0,187.0,And that will be an online process where they eventually call you and tell you that your fertilizers have been certified.,neutral,0.806,False,False,False,False,False
+en_CA_Agriculture_1588676,33,customer,channel2,17,172.82,178.42,"of how expensive fertilizers are getting recently, especially with the tariffs.",negative,0.7462,False,False,False,False,False
+en_CA_Agriculture_1588676,34,customer,channel2,18,178.42,185.1,Do you have any options for sustainable alternatives to,neutral,0.8782,False,False,False,False,False
+en_CA_Agriculture_1588676,35,customer,channel2,19,185.1,188.42,fertilizers that I could look into?,neutral,0.919,False,False,False,False,False
+en_CA_Agriculture_1588676,36,agent,channel1,17,187.0,194.0,"Yes. So on our website, actually, if you go to it, there will be some tabs at the top.",neutral,0.6846,False,False,False,False,False
+en_CA_Agriculture_1588676,37,agent,channel1,18,194.0,198.0,You'll want to select the fertilizers tab.,neutral,0.9051,False,False,False,False,False
+en_CA_Agriculture_1588676,38,agent,channel1,19,198.0,206.0,And then below that there should be a sub tab that talks about alternatives.,neutral,0.8172,False,False,False,False,False
+en_CA_Agriculture_1588676,39,customer,channel2,20,202.82,226.34,And are most of these alternatives able to be applied to a field that is prepared,neutral,0.8306,False,False,False,False,False
+en_CA_Agriculture_1588676,40,agent,channel1,20,206.0,219.0,"And if you scroll down on that page, it should have a substantial list of alternatives, including some videos from some of our sponsors who offer these sustainable alternatives.",neutral,0.6254,False,False,False,False,False
+en_CA_Agriculture_1588676,41,customer,channel2,21,226.34,230.94,for use of artificial fertilizers already or will there need to be kind,neutral,0.8054,False,False,False,False,False
+en_CA_Agriculture_1588676,42,customer,channel2,22,230.94,235.14,of structural changes to the field and the farming techniques in order to,neutral,0.8859,False,False,False,False,False
+en_CA_Agriculture_1588676,43,customer,channel2,23,235.14,239.74,accommodate these sustainable practices?,neutral,0.7282,False,False,False,False,False
+en_CA_Agriculture_1588676,44,agent,channel1,21,237.0,251.0,"That will vary based on the method that you use. So in all of those videos at the very beginning, it has the caveats associated with each of the methods.",neutral,0.9117,False,False,False,False,False
+en_CA_Agriculture_1588676,45,agent,channel1,22,251.0,271.0,"And from there, you'll be able to distinguish which one works best for you.",positive,0.5319,False,False,False,False,False
+en_CA_Agriculture_1588676,46,customer,channel2,24,254.82,259.74,Wonderful. And if there are certain structural changes that will need to be,positive,0.8823,False,False,False,False,False
+en_CA_Agriculture_1588676,47,customer,channel2,25,259.74,265.66,"made, infrastructure changes, those can also be quite expensive. However, would the",negative,0.5865,False,False,False,False,False
+en_CA_Agriculture_1588676,48,customer,channel2,26,265.66,270.26,government be or have any programs for supporting changes to more sustainable,neutral,0.758,False,False,False,False,False
+en_CA_Agriculture_1588676,49,customer,channel2,27,270.26,272.5,models?,neutral,0.8401,False,False,False,False,False
+en_CA_Agriculture_1588676,50,agent,channel1,23,271.0,282.0,"Yes. So again, back to our website, there should be a tab and in one of the drop downs, you should be able to select government funding.",neutral,0.749,False,False,False,False,False
+en_CA_Agriculture_1588676,51,agent,channel1,24,282.0,296.0,"Or it's called programs, I think. And from there, if you scroll down, there should be a substantial list there as well.",neutral,0.8076,False,False,False,False,False
+en_CA_Agriculture_1588676,52,customer,channel2,28,290.7,296.86,"And so, sorry, and these were loans or grants?",neutral,0.627,False,False,False,False,False
+en_CA_Agriculture_1588676,53,agent,channel1,25,296.0,299.0,There's both. They offer both.,neutral,0.6328,False,False,False,False,False
+en_CA_Agriculture_1588676,54,agent,channel1,26,299.0,305.0,"I believe loans are most common, but grants.",neutral,0.8738,False,False,False,False,False
+en_CA_Agriculture_1588676,55,agent,channel1,27,305.0,322.0,They're available as well.,neutral,0.7503,False,False,False,False,False
+en_CA_Agriculture_1588676,56,customer,channel2,29,306.74,312.9,And is there a limit on to as to the eligibility of these loans or grants as,neutral,0.8848,False,False,False,False,False
+en_CA_Agriculture_1588676,57,customer,channel2,30,312.9,320.14,"to who can receive them, how much you can receive, and what interest rate you would",neutral,0.8588,False,False,False,False,False
+en_CA_Agriculture_1588676,58,customer,channel2,31,320.14,323.34,be getting when you apply?,neutral,0.8857,False,False,False,False,False
+en_CA_Agriculture_1588676,59,agent,channel1,28,322.0,338.0,"I believe all of that should be listed on the page. So it's actually very handy. I use it myself sometimes you're able to filter on the top by income, land size, and a whole bunch of other things.",positive,0.8674,False,False,False,False,False
+en_CA_Agriculture_1588676,60,customer,channel2,32,323.34,345.66,"Interesting. And do you know, are there, you know, yearly quotas for these loans or are",neutral,0.8476,False,False,False,False,False
+en_CA_Agriculture_1588676,61,customer,channel2,33,345.66,351.26,"they available year round for applications? Mainly, is there a deadline that I would have",neutral,0.9155,False,False,False,False,False
+en_CA_Agriculture_1588676,62,customer,channel2,34,351.34,357.54,"to reach before I can submit or would I miss, could I miss this opportunity",neutral,0.6211,False,False,False,False,False
+en_CA_Agriculture_1588676,63,agent,channel1,29,352.0,379.0,"These are yearly grants and loans. So, but not all of them have the same deadline that will also be available in the list.",neutral,0.883,False,False,False,False,False
+en_CA_Agriculture_1588676,64,customer,channel2,35,357.54,360.02,possibly?,neutral,0.8271,False,False,False,False,False
+en_CA_Agriculture_1588676,65,customer,channel2,36,369.62,373.5,"Interesting. Okay. And so, and all of these loans, are they also through the",neutral,0.7042,False,False,False,False,False
+en_CA_Agriculture_1588676,66,customer,channel2,37,373.5,380.3,paperwork that you mentioned at Canadian Tire or these online applications?,neutral,0.9536,False,False,False,False,False
+en_CA_Agriculture_1588676,67,agent,channel1,30,379.0,390.0,These will be online applications.,neutral,0.895,False,False,False,False,False
+en_CA_Agriculture_1588676,68,customer,channel2,38,381.86,386.42,Interesting. Okay. Cool. And do I have it? Is there any specific documentation other than,positive,0.7043,False,False,False,False,False
+en_CA_Agriculture_1588676,69,customer,channel2,39,386.42,391.42,the forms that is needed to submit these applications?,neutral,0.8983,False,False,False,False,False
+en_CA_Agriculture_1588676,70,agent,channel1,31,390.0,402.0,"Of course, you will need your identification. You will need your farm name and business licenses associated with that.",neutral,0.9179,False,False,False,False,False
+en_CA_Agriculture_1588676,71,agent,channel1,32,402.0,409.0,Let me let me check. Let me pull up some some examples here.,neutral,0.9062,False,False,False,True,False
+en_CA_Agriculture_1588676,72,agent,channel1,33,409.0,419.0,"Yeah, so like I said, need your ID, need your farm name, business licenses, insurance.",neutral,0.8576,False,False,False,False,False
+en_CA_Agriculture_1588676,73,customer,channel2,40,411.42,415.42,And what would these be related to?,neutral,0.9138,False,False,False,False,False
+en_CA_Agriculture_1588676,74,agent,channel1,34,419.0,426.0,And then sometimes you'll actually need some references.,neutral,0.7625,False,False,False,False,False
+en_CA_Agriculture_1588676,75,customer,channel2,41,423.42,426.42,From who?,neutral,0.808,False,False,False,False,False
+en_CA_Agriculture_1588676,76,agent,channel1,35,426.0,434.0,So those will be you can get them from customers or,neutral,0.9466,False,False,False,False,False
+en_CA_Agriculture_1588676,77,customer,channel2,42,426.42,443.66,And what would these be references be speaking towards?,neutral,0.8475,False,False,False,False,False
+en_CA_Agriculture_1588676,78,agent,channel1,36,434.0,450.0,some even ask for family references if it's a family business.,neutral,0.8195,False,False,False,False,False
+en_CA_Agriculture_1588676,79,customer,channel2,43,443.66,452.66,"Would it be the profitability of my business, the sustainability, the scale?",neutral,0.7599,False,False,False,False,False
+en_CA_Agriculture_1588676,80,agent,channel1,37,450.0,458.0,"Some of them are the scale. For example, showing how quickly you're growing as a business.",neutral,0.5422,False,False,False,False,False
+en_CA_Agriculture_1588676,81,customer,channel2,44,452.66,482.5,And are these loans in grants?,neutral,0.8724,False,False,False,False,False
+en_CA_Agriculture_1588676,82,agent,channel1,38,458.0,466.0,"Another one would be how you're making an impact in the community, like how you're very community focused.",positive,0.6877,False,False,False,False,False
+en_CA_Agriculture_1588676,83,agent,channel1,39,466.0,472.0,"There's another one about sustainability, specifically.",neutral,0.8641,False,False,False,False,False
+en_CA_Agriculture_1588676,84,agent,channel1,40,472.0,489.0,What kind of practices you're using and who you have employed.,neutral,0.912,False,False,True,False,False
+en_CA_Agriculture_1588676,85,customer,channel2,45,482.5,505.82,Are these only available to crop farmers or are they also available to livestock farmers?,neutral,0.9349,False,False,False,False,False
+en_CA_Agriculture_1588676,86,agent,channel1,41,489.0,500.0,"I believe on our website it's only crops, but there is a separate number that you can reach out to if it is livestock.",neutral,0.917,False,False,False,False,False
+en_CA_Agriculture_1588676,87,agent,channel1,42,500.0,529.0,That might listed on our website. I can also give it to you now.,neutral,0.7377,False,False,False,False,False
+en_CA_Agriculture_1588676,88,customer,channel2,46,505.82,506.82,That's okay.,positive,0.597,False,False,False,False,False
+en_CA_Agriculture_1588676,89,customer,channel2,47,506.82,508.62,I can find it on the website.,neutral,0.8656,False,False,False,False,False
+en_CA_Agriculture_1588676,90,customer,channel2,48,508.62,511.5,I do both livestock and crops.,neutral,0.8443,False,False,False,False,False
+en_CA_Agriculture_1588676,91,customer,channel2,49,511.5,516.46,"And so I was wondering if I do get one of these loans, if I would have to then provide evidence",neutral,0.8137,False,False,False,False,False
+en_CA_Agriculture_1588676,92,customer,channel2,50,516.46,523.22,that I say the loan is only supposed to be used for crop sustainability practices that,neutral,0.6544,False,False,False,False,False
+en_CA_Agriculture_1588676,93,customer,channel2,51,523.22,531.3,I am using it for that aspect of my farming and not for my livestock farming.,neutral,0.809,False,False,False,False,False
+en_CA_Agriculture_1588676,94,agent,channel1,43,529.0,546.0,Yes. Yes.,positive,0.5217,False,False,False,False,False
+en_CA_Agriculture_1588676,95,customer,channel2,52,531.3,532.3,There would be.,neutral,0.7046,False,False,False,False,False
+en_CA_Agriculture_1588676,96,customer,channel2,53,532.3,533.3,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Agriculture_1588676,97,customer,channel2,54,533.3,536.7,I think that's all the questions I have.,neutral,0.829,False,False,False,False,False
+en_CA_Agriculture_1588676,98,customer,channel2,55,536.7,538.7,So thank you very much for your time.,positive,0.9769,False,False,False,False,False
+en_CA_Agriculture_1588676,99,customer,channel2,56,539.1,543.46,Unless there's anything else you think I might need to know before heading out to my Canadian,neutral,0.8372,False,False,False,False,False
+en_CA_Agriculture_1588676,100,customer,channel2,57,543.46,544.82,Tire to pick up those forms.,neutral,0.8058,False,False,False,False,False
+en_CA_Agriculture_1588676,101,agent,channel1,44,546.0,558.0,I don't think so. Everything should be available at Canadian Tire or of course on our website. Please feel free to reach out if you have any more questions will be happy to answer them.,neutral,0.7053,False,False,False,False,False
+en_CA_Agriculture_1588676,102,customer,channel2,58,556.1,556.62,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Agriculture_1588676,103,customer,channel2,59,556.62,557.38,Thank you very much.,positive,0.9445,False,False,False,False,False
+en_CA_Agriculture_1588676,104,customer,channel2,60,557.38,557.94,Have a nice day.,positive,0.9462,False,False,False,False,False
+en_CA_Agriculture_1588676,105,agent,channel1,45,558.0,560.0,You as well.,neutral,0.6636,False,False,False,False,False

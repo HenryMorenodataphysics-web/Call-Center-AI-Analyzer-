@@ -1,0 +1,101 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Aviation_1593397,1,agent,channel1,1,0.0,24.0,"Good afternoon, you're speaking with Maria, how can I assist you today?",neutral,0.557,False,False,True,False,False
+en_AU_Aviation_1593397,2,customer,channel2,1,0.0,25.0,"Hi, my name is Jordan.",neutral,0.7901,False,False,False,False,False
+en_AU_Aviation_1593397,3,agent,channel1,2,24.0,42.0,"Of course, I'd be happy to help you with all of that. Before we begin, can I please have your booking reference code?",positive,0.9003,False,False,True,False,False
+en_AU_Aviation_1593397,4,customer,channel2,2,25.0,43.0,I was just hoping to change my meal request and change my seat if that's all right.,neutral,0.8349,False,False,False,False,False
+en_AU_Aviation_1593397,5,agent,channel1,3,42.0,54.0,"Perfect, just give me one second, I'll type that in our system.",positive,0.8615,False,False,False,False,False
+en_AU_Aviation_1593397,6,customer,channel2,3,43.0,63.0,It's LD97GD.,neutral,0.8939,False,False,False,False,False
+en_AU_Aviation_1593397,7,agent,channel1,4,54.0,67.0,"Thank you, and for security purposes as well, can you please confirm your full name as it appears on the booking?",neutral,0.615,False,False,True,False,False
+en_AU_Aviation_1593397,8,customer,channel2,4,63.0,78.0,It's Jordan Niller.,neutral,0.8651,False,False,False,False,False
+en_AU_Aviation_1593397,9,agent,channel1,5,67.0,71.0,"Certainly Jordan, let me just check that spelling of the last name.",neutral,0.8035,False,False,False,False,False
+en_AU_Aviation_1593397,10,agent,channel1,6,71.0,81.0,Is that M-I-L-L-E-R?,neutral,0.8543,False,False,True,False,False
+en_AU_Aviation_1593397,11,customer,channel2,5,78.0,96.0,"Yeah, that's correct.",neutral,0.4967,False,False,False,False,False
+en_AU_Aviation_1593397,12,agent,channel1,7,81.0,85.0,"Perfect, one sec while I pull up your itinerary.",positive,0.8285,False,False,False,False,False
+en_AU_Aviation_1593397,13,agent,channel1,8,85.0,100.0,"All right, here you are. I have your reservation here. You're travelling from New York to Tokyo on the 28th of March, is that correct?",neutral,0.861,False,False,True,False,False
+en_AU_Aviation_1593397,14,customer,channel2,6,96.0,108.0,"Yeah, that's the one.",neutral,0.4742,False,False,False,False,False
+en_AU_Aviation_1593397,15,agent,channel1,9,100.0,116.0,"Perfect, and I see it's an overnight leaving at 11pm. What would you like to start with today?",positive,0.8995,False,False,True,False,False
+en_AU_Aviation_1593397,16,customer,channel2,7,108.0,137.0,"Um, could I change my meal to be dairy free and egg free? Is that all right?",neutral,0.8839,False,False,False,False,False
+en_AU_Aviation_1593397,17,agent,channel1,10,116.0,123.0,"Absolutely, I can do a special request for you. We have a couple of several meal options that might work for you.",positive,0.6858,False,False,False,False,False
+en_AU_Aviation_1593397,18,agent,channel1,11,123.0,135.0,"We've got the vegetarian lacto ovo, which includes eggs and dairy, but because you're wanting to avoid that, I'd recommend our vegetarian vegan meal, which has no animal products at all.",neutral,0.6022,False,False,False,False,False
+en_AU_Aviation_1593397,19,agent,channel1,12,135.0,148.0,And that would be the safest choice for you to have.,neutral,0.5891,False,False,False,False,False
+en_AU_Aviation_1593397,20,customer,channel2,8,137.0,163.0,"Yeah, that'd be great. I'd love the vegan option, please.",positive,0.9818,False,False,False,False,False
+en_AU_Aviation_1593397,21,agent,channel1,13,148.0,154.0,"Perfect, I'll give the vegan meal to your booking.",positive,0.9128,False,False,False,False,False
+en_AU_Aviation_1593397,22,agent,channel1,14,154.0,172.0,"Right, now that that's confirmed, you received your vegan meal for both breakfast and dinner services on your flight.",positive,0.4989,False,False,False,False,False
+en_AU_Aviation_1593397,23,customer,channel2,9,163.0,184.0,"Yeah, beautiful. That's perfect. Thank you. And could I also book in my seat? Is that all right?",positive,0.9775,False,False,False,False,False
+en_AU_Aviation_1593397,24,agent,channel1,15,172.0,180.0,"Absolutely, I can do a seat selection for you. Now let me pull up our seat map to see what we've currently got available.",neutral,0.6314,False,False,False,False,False
+en_AU_Aviation_1593397,25,agent,channel1,16,180.0,196.0,Do you have a preference on whereabouts you'd like to sit in the plane?,neutral,0.9276,False,False,True,False,False
+en_AU_Aviation_1593397,26,customer,channel2,10,184.0,204.0,"Um, I don't like to be at the back and I don't like to be near the toilet and I probably don't want the middle seat, so anything outside of that would be great.",negative,0.6864,False,False,False,False,False
+en_AU_Aviation_1593397,27,agent,channel1,17,196.0,203.0,"Easy, so not at the back of the plane, not near the lavatories and no middle seat.",neutral,0.6539,False,False,False,False,False
+en_AU_Aviation_1593397,28,agent,channel1,18,203.0,212.0,"So I've currently got some aisle seats available in rows 22, 24 and 27, 22 and 24 in the quiet zone.",neutral,0.8074,False,False,False,False,False
+en_AU_Aviation_1593397,29,customer,channel2,11,204.0,220.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Aviation_1593397,30,agent,channel1,19,212.0,217.0,And they're typically a little bit more comfortable with less foot traffic and they're located in the middle of the plane.,positive,0.4965,False,False,False,False,False
+en_AU_Aviation_1593397,31,agent,channel1,20,217.0,224.0,Are you happy with one of these options?,positive,0.5983,False,False,True,False,False
+en_AU_Aviation_1593397,32,customer,channel2,12,220.0,243.0,"Yeah, can I get row 22, please?",neutral,0.6375,False,False,False,False,False
+en_AU_Aviation_1593397,33,agent,channel1,21,224.0,230.0,"Yep, absolutely. I can book you into seat 22C if you'd like.",positive,0.7503,False,False,False,False,False
+en_AU_Aviation_1593397,34,agent,channel1,22,230.0,237.0,It's an aisle seat on the left-hand side of the aircraft. It's close to the front of the economy cabin.,neutral,0.9223,False,False,False,False,False
+en_AU_Aviation_1593397,35,agent,channel1,23,237.0,251.0,It's also part of the group that also de-planes early so you'll get off the aircraft faster.,neutral,0.694,False,False,False,False,False
+en_AU_Aviation_1593397,36,customer,channel2,13,243.0,255.0,"Yeah, that'd be perfect. Thank you.",positive,0.9816,False,False,False,False,False
+en_AU_Aviation_1593397,37,agent,channel1,24,251.0,264.0,Is there anything else I can help you with today Jordan?,neutral,0.9055,False,False,True,True,False
+en_AU_Aviation_1593397,38,customer,channel2,14,255.0,272.0,"Uh, could I also inquire about booking another flight for something else?",neutral,0.888,False,False,False,False,False
+en_AU_Aviation_1593397,39,agent,channel1,25,264.0,285.0,"Absolutely, what are you wanting to book and what location airport are you wanting to fly between?",neutral,0.8367,False,False,True,False,False
+en_AU_Aviation_1593397,40,customer,channel2,15,272.0,301.0,"I'm hoping to book between, I'm thinking New York and I want to go down south somewhere where it's a bit warmer, so maybe to Mexico City.",positive,0.6109,False,False,False,False,False
+en_AU_Aviation_1593397,41,agent,channel1,26,285.0,292.0,Certainly a flight from New York. We've got multiple options out of New York.,neutral,0.7511,False,False,False,False,False
+en_AU_Aviation_1593397,42,agent,channel1,27,292.0,300.0,"So New York to Mexico City, one of our best options we could do would be out of JFK to New York City.",neutral,0.7416,False,False,False,False,False
+en_AU_Aviation_1593397,43,agent,channel1,28,300.0,314.0,When abouts you wanting to fly?,neutral,0.8759,False,False,True,False,False
+en_AU_Aviation_1593397,44,customer,channel2,16,301.0,330.0,"Uh, could I fly maybe, thinking maybe November 23rd and then return flight on the 27th?",neutral,0.9263,False,False,False,False,False
+en_AU_Aviation_1593397,45,agent,channel1,29,314.0,319.0,Certainly 23.,neutral,0.6204,False,False,False,False,False
+en_AU_Aviation_1593397,46,agent,channel1,30,319.0,325.0,"Yep, certainly let me have a look now at some of our possible options for you.",positive,0.5811,False,False,False,False,False
+en_AU_Aviation_1593397,47,agent,channel1,31,325.0,332.0,Here we go. We have four different flight times out of New York to Mexico City.,neutral,0.8275,False,False,False,False,False
+en_AU_Aviation_1593397,48,customer,channel2,17,330.0,359.0,"Uh, I think in 8 p.m. would be good. Thank you.",positive,0.6636,False,False,False,False,False
+en_AU_Aviation_1593397,49,agent,channel1,32,332.0,346.0,"We've got a 6am flight, a 9.30pm, 2pm or 8pm. Which one works best for you?",neutral,0.797,False,False,True,False,False
+en_AU_Aviation_1593397,50,agent,channel1,33,346.0,354.0,"Certainly. Yep, I can select that for you. 8pm on the 23rd to Mexico City.",neutral,0.5511,False,False,False,False,False
+en_AU_Aviation_1593397,51,agent,channel1,34,354.0,375.0,And what time would you approximately like to fly back on the 27th?,neutral,0.9456,False,False,True,False,False
+en_AU_Aviation_1593397,52,customer,channel2,18,360.0,389.0,"Uh, could I fly back in, I want to get back before, I don't want to be too late in New York, so maybe, maybe if I come back and land in New York by 9 p.m.",neutral,0.7856,False,False,False,False,False
+en_AU_Aviation_1593397,53,agent,channel1,35,375.0,382.0,Certainly coming back from Mexico City we've got six flight options available.,neutral,0.583,False,False,False,False,False
+en_AU_Aviation_1593397,54,agent,channel1,36,382.0,398.0,We have a 3pm option out of Mexico City so that should have you landing in New York about 8 o'clock at night into JFK again.,neutral,0.861,False,False,False,False,False
+en_AU_Aviation_1593397,55,customer,channel2,19,389.0,408.0,"Yeah, that would be perfect. Yeah, that would be perfect.",positive,0.9766,False,False,False,False,False
+en_AU_Aviation_1593397,56,agent,channel1,37,398.0,404.0,"Wonderful, that's all selected for you. Now I just want to confirm your baggage allowance.",positive,0.9682,False,False,False,False,False
+en_AU_Aviation_1593397,57,agent,channel1,38,404.0,415.0,How much baggage are you seeking to take with you?,neutral,0.6278,False,False,True,False,False
+en_AU_Aviation_1593397,58,customer,channel2,20,408.0,425.0,"Uh, could I get maybe 15 kilos if that's all right?",neutral,0.8662,False,False,False,False,False
+en_AU_Aviation_1593397,59,agent,channel1,39,415.0,429.0,"So we offer 15 kilos, 23 kilos or 32 kilos. So you're happy to proceed with 15 kilos?",neutral,0.7161,False,False,True,False,False
+en_AU_Aviation_1593397,60,customer,channel2,21,425.0,445.0,How much would that be?,neutral,0.8545,False,False,False,False,False
+en_AU_Aviation_1593397,61,agent,channel1,40,429.0,435.0,15 kilos is the base limit which is included with all basic economy fare tickets.,neutral,0.9027,False,False,False,False,False
+en_AU_Aviation_1593397,62,agent,channel1,41,435.0,450.0,So that's included but if you'd like to upgrade to 23 kilos the starting price is...,neutral,0.9168,False,False,False,False,False
+en_AU_Aviation_1593397,63,customer,channel2,22,445.0,474.0,"Yeah, that's perfect. 15 kilos is enough, I think. Thank you.",positive,0.9516,False,False,False,False,False
+en_AU_Aviation_1593397,64,agent,channel1,42,450.0,453.0,Just wanting to confirm are you happy to proceed with...,neutral,0.823,False,False,False,False,False
+en_AU_Aviation_1593397,65,agent,channel1,43,453.0,463.0,Would you like me to upgrade it to 23 kilos?,neutral,0.9209,False,False,True,False,False
+en_AU_Aviation_1593397,66,agent,channel1,44,463.0,466.0,"Perfect, I'll proceed forth and add that to your itinerary.",positive,0.7806,False,False,False,False,False
+en_AU_Aviation_1593397,67,agent,channel1,45,466.0,474.0,Since you've purchased the standard long haul of commonly fare you also have one personal item and one standard carry-on item.,neutral,0.9021,False,False,False,False,False
+en_AU_Aviation_1593397,68,agent,channel1,46,474.0,483.0,Anything beyond that would access fees. If you do decide to upgrade your baggage you can do that now up until three hours before your flight.,neutral,0.9072,False,False,False,False,False
+en_AU_Aviation_1593397,69,customer,channel2,23,475.0,504.0,"Okay, beautiful. That sounds all good to me.",positive,0.9797,False,False,False,False,False
+en_AU_Aviation_1593397,70,agent,channel1,47,483.0,495.0,Or you can do it at the airport but it will incur an additional fee as well.,neutral,0.7778,False,False,False,False,False
+en_AU_Aviation_1593397,71,agent,channel1,48,495.0,500.0,"Perfect, I'd just like to recap everything for you.",positive,0.9552,False,False,False,False,False
+en_AU_Aviation_1593397,72,agent,channel1,49,500.0,513.0,Would you also like me to book you the vegan vegetarian meal as well for your New York to Mexico flight return?,neutral,0.8192,False,False,True,False,False
+en_AU_Aviation_1593397,73,customer,channel2,24,504.0,533.0,"Yeah, that'd be a really good thing.",positive,0.9551,False,False,False,False,False
+en_AU_Aviation_1593397,74,agent,channel1,50,513.0,524.0,"Wonderful, that's all confirmed so that vegan meal is confirmed from your New York to Tokyo flight and then also from your flight from New York to Mexico City.",positive,0.97,False,False,False,False,False
+en_AU_Aviation_1593397,75,agent,channel1,51,525.0,549.0,Would you also like to proceed with booking a seat for your Mexico flights as well?,neutral,0.9254,False,False,True,False,False
+en_AU_Aviation_1593397,76,customer,channel2,25,534.0,563.0,"Yeah, that'd be good. I think maybe like the same type of situation, either a window or an aisle seat and probably in like the middle of the plane maybe.",positive,0.6391,False,False,False,False,False
+en_AU_Aviation_1593397,77,agent,channel1,52,549.0,557.0,Just give me one second and I'll pull up our seat mats to see what is still available for you.,neutral,0.8294,False,False,False,False,False
+en_AU_Aviation_1593397,78,customer,channel2,26,564.0,591.0,"Yeah, that'd be good.",positive,0.9645,False,False,False,False,False
+en_AU_Aviation_1593397,79,agent,channel1,53,579.0,585.0,Thank you for watching.,positive,0.9315,False,False,False,False,False
+en_AU_Aviation_1593397,80,customer,channel2,27,591.0,611.0,Hello? Hello?,neutral,0.6494,False,False,False,False,False
+en_AU_Aviation_1593397,81,agent,channel1,54,609.0,612.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,82,customer,channel2,28,621.0,631.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,83,agent,channel1,55,639.0,642.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,84,customer,channel2,29,651.0,661.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,85,agent,channel1,56,669.0,671.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,86,customer,channel2,30,681.0,691.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,87,agent,channel1,57,699.0,702.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,88,customer,channel2,31,711.0,721.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,89,agent,channel1,58,729.0,732.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,90,customer,channel2,32,741.0,751.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,91,agent,channel1,59,759.0,761.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,92,customer,channel2,33,771.0,781.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,93,agent,channel1,60,789.0,791.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,94,customer,channel2,34,801.0,811.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,95,agent,channel1,61,819.0,821.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,96,customer,channel2,35,831.0,841.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,97,agent,channel1,62,849.0,851.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,98,customer,channel2,36,861.0,871.0,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Aviation_1593397,99,agent,channel1,63,879.0,881.0,you,neutral,0.5119,False,False,False,False,False
+en_AU_Aviation_1593397,100,customer,channel2,37,891.0,901.0,Thank you.,positive,0.8345,False,False,False,False,False

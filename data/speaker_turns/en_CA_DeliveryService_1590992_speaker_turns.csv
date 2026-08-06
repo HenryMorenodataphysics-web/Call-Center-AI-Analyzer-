@@ -1,0 +1,93 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_DeliveryService_1590992,1,customer,channel2,1,0.0,10.84,"Hi there, yeah, I'm calling about a package that hasn't arrived yet."
+en_CA_DeliveryService_1590992,2,agent,channel1,1,0.0,24.48,"you for calling. This is orange package. How can I help you? Oh, I'm very sorry to hear that."
+en_CA_DeliveryService_1590992,3,customer,channel2,2,10.84,16.16,"It was supposed to be here yesterday, and I have some super important documents in there"
+en_CA_DeliveryService_1590992,4,customer,channel2,3,16.16,27.0,"and I'm feeling a little frappled right now, so I'm hoping you can help me."
+en_CA_DeliveryService_1590992,5,agent,channel1,2,25.44,33.36,"Yeah, so have you tried to look at anything outside of your house? Have you looked and seen it?"
+en_CA_DeliveryService_1590992,6,customer,channel2,4,27.0,44.0,"Yeah, yeah. Of course, yeah, but the tracking hasn't, it hasn't been updated since I think Monday, so I'm not sure if it got stuck somewhere or what's happening."
+en_CA_DeliveryService_1590992,7,agent,channel1,3,34.64,35.04,Okay.
+en_CA_DeliveryService_1590992,8,agent,channel1,4,45.04,50.72,"Oh, I see. I'm sorry to hear this. I know typically we tell our customers to maybe ask a neighbor,"
+en_CA_DeliveryService_1590992,9,agent,channel1,5,50.72,59.2,maybe ask them if they've seen a package anywhere or if they've came across any delivery person
+en_CA_DeliveryService_1590992,10,customer,channel2,5,57.0,82.0,"No, but are you able to see like the last location that it was scanned because it would have been scanned if it was delivered?"
+en_CA_DeliveryService_1590992,11,agent,channel1,6,60.48,64.96,"by any chance, but it does show on our end that the package has been delivered."
+en_CA_DeliveryService_1590992,12,agent,channel1,7,66.0,70.0,"But yeah, have you tried speaking to a neighbor or maybe checking"
+en_CA_DeliveryService_1590992,13,agent,channel1,8,71.68,74.16,all of your surroundings outside of your property?
+en_CA_DeliveryService_1590992,14,agent,channel1,9,81.04,85.36,Okay. Let me look into this here for you.
+en_CA_DeliveryService_1590992,15,customer,channel2,6,87.0,109.0,"Yeah, yeah, it's one, so four, nine three two, six six four two."
+en_CA_DeliveryService_1590992,16,agent,channel1,10,87.36,94.24,"Okay. So upon checking, well, I have the file under your phone number. Could you just confirm"
+en_CA_DeliveryService_1590992,17,agent,channel1,11,94.24,99.36,your phone number? I can pull up the order number that way and just make sure that I have it correctly.
+en_CA_DeliveryService_1590992,18,agent,channel1,12,99.36,101.36,Thank you.
+en_CA_DeliveryService_1590992,19,agent,channel1,13,101.68,117.28,"6642. Wonderful. Thank you. Yeah. So upon checking here, it does say that it was delivered"
+en_CA_DeliveryService_1590992,20,customer,channel2,7,117.0,144.0,Okay.
+en_CA_DeliveryService_1590992,21,agent,channel1,14,118.64,129.2,on the 15th. It was delivered on the 15th and it was placed at the front door.
+en_CA_DeliveryService_1590992,22,agent,channel1,15,129.2,135.6,It says it was placed at the front door and the delivery driver did sign for it. So
+en_CA_DeliveryService_1590992,23,agent,channel1,16,136.72,145.04,he signed it before he placed it down on your porch. So it shows that it was delivered on the 15th.
+en_CA_DeliveryService_1590992,24,customer,channel2,8,144.0,157.0,"Okay, that's really weird because in the tracking app it says that it's still at River City, the River City office, and then it's been delayed."
+en_CA_DeliveryService_1590992,25,agent,channel1,17,145.52,164.96,"Oh, I see. It might be a little bit different. Sometimes the tracking takes a few days to update,"
+en_CA_DeliveryService_1590992,26,agent,channel1,18,165.76,170.64,but let me double check and see if I can see what you see because my system says that the
+en_CA_DeliveryService_1590992,27,agent,channel1,19,170.64,178.24,"courier has delivered it on the 15th at 11 o'clock in the morning. So let me just see if that,"
+en_CA_DeliveryService_1590992,28,customer,channel2,9,175.0,187.0,Okay.
+en_CA_DeliveryService_1590992,29,agent,channel1,20,180.16,186.64,"and just to ask, do you have our, do you have our app downloaded? Is that where you can see"
+en_CA_DeliveryService_1590992,30,customer,channel2,10,187.0,201.0,Yeah.
+en_CA_DeliveryService_1590992,31,agent,channel1,21,187.2,190.88,"the tracker or are you, oh, okay. All right. So"
+en_CA_DeliveryService_1590992,32,agent,channel1,22,194.4,198.48,"yeah, no, it shows that it was delivered. So I'm not too sure why it shows that,"
+en_CA_DeliveryService_1590992,33,agent,channel1,23,198.48,203.2,"but what I'm going to do, how about you go onto the website, orangepackage.com,"
+en_CA_DeliveryService_1590992,34,customer,channel2,11,201.0,230.0,Okay.
+en_CA_DeliveryService_1590992,35,agent,channel1,24,204.24,210.48,"type in your tracking number and see if it's any different there, because sometimes the app is a"
+en_CA_DeliveryService_1590992,36,agent,channel1,25,210.48,215.68,"little bit laggy. I think maybe it's just not up, like I said, sometimes it could take a couple"
+en_CA_DeliveryService_1590992,37,agent,channel1,26,215.68,220.48,"days to update. So why don't you just go on the website, orangepackage.com, and then just"
+en_CA_DeliveryService_1590992,38,agent,channel1,27,220.48,225.68,"click tracking, put in your tracking number, and let me know if it has any difference"
+en_CA_DeliveryService_1590992,39,agent,channel1,28,225.68,240.88,"or if it, or if it still says the same thing. Oh, sure, yes."
+en_CA_DeliveryService_1590992,40,customer,channel2,12,230.0,252.0,Give me a second here.
+en_CA_DeliveryService_1590992,41,customer,channel2,13,252.0,263.0,"Okay, so yeah, I've put in my tracking number and it says it's been delayed."
+en_CA_DeliveryService_1590992,42,agent,channel1,29,255.68,272.88,"Okay. Okay, let me,"
+en_CA_DeliveryService_1590992,43,customer,channel2,14,263.0,269.0,So I don't know what's what's happening. What's going on here?
+en_CA_DeliveryService_1590992,44,customer,channel2,15,269.0,294.0,Is this in my region or is it just maybe my package? I don't understand.
+en_CA_DeliveryService_1590992,45,agent,channel1,30,277.04,281.36,"okay, you know what, what I'll do, I'm going to trace the package location and just see,"
+en_CA_DeliveryService_1590992,46,agent,channel1,31,282.32,286.08,"um, you know, it looks like there's some discrepancy here. So I'm just going to go"
+en_CA_DeliveryService_1590992,47,agent,channel1,32,286.08,290.08,"ahead and look into where the package is, because like I said, on my end, it shows"
+en_CA_DeliveryService_1590992,48,agent,channel1,33,290.08,294.32,"that it's been delivered to your location, but you're, you're saying that's not the case. So"
+en_CA_DeliveryService_1590992,49,customer,channel2,16,294.0,319.0,"Yeah, no problem. Thank you."
+en_CA_DeliveryService_1590992,50,agent,channel1,34,294.32,297.44,I'm just going to go ahead and look at this for a quick second. Do you mind if I place you
+en_CA_DeliveryService_1590992,51,agent,channel1,35,297.44,309.52,"on a really quick hold? All right. Okay, thank you."
+en_CA_DeliveryService_1590992,52,agent,channel1,36,316.88,323.76,"Hi, thank you so much for holding. Okay, yeah, so I did have a look here, and actually"
+en_CA_DeliveryService_1590992,53,customer,channel2,17,319.0,348.0,"Yeah, no worries."
+en_CA_DeliveryService_1590992,54,agent,channel1,37,324.64,331.36,"I, I was able to find your package and my apologies. It actually is at our depot. I do"
+en_CA_DeliveryService_1590992,55,agent,channel1,38,331.36,337.12,apologize about that. It looks like there was a mix up with your order and another customer's order in
+en_CA_DeliveryService_1590992,56,agent,channel1,39,337.12,344.8,"the same complex as you. So yeah, there was a bit of a discrepancy here. So I just tracked it"
+en_CA_DeliveryService_1590992,57,agent,channel1,40,344.8,353.84,and it's at our depot right now.
+en_CA_DeliveryService_1590992,58,customer,channel2,18,348.0,377.0,"Awesome. Is there any way of like requesting an update from the driver or like or the depot because I have, yeah, it's my me and my two kids, it's our paint works in there and we need them like ASAP here."
+en_CA_DeliveryService_1590992,59,agent,channel1,41,368.72,374.72,"I see. Okay, that might be an option. Um, yeah, so I can definitely ask if there's any way to"
+en_CA_DeliveryService_1590992,60,agent,channel1,42,374.72,381.04,"get this delivered to you as soon as possible. And we're really, we really do apologize about this."
+en_CA_DeliveryService_1590992,61,customer,channel2,19,378.0,395.0,"No, that's way too far for me."
+en_CA_DeliveryService_1590992,62,agent,channel1,43,381.04,388.0,"This usually doesn't happen. It is at our depot. Another option is if you needed ASAP,"
+en_CA_DeliveryService_1590992,63,agent,channel1,44,388.0,392.16,"you can also come to the depot and pick it up. Would that, would that work with you?"
+en_CA_DeliveryService_1590992,64,agent,channel1,45,392.16,396.0,Okay.
+en_CA_DeliveryService_1590992,65,customer,channel2,20,395.0,413.0,"But I'm happy to pay, you know, if I need to upgrade it for it to be expedited."
+en_CA_DeliveryService_1590992,66,agent,channel1,46,404.0,411.28,"Okay. Yeah, no problem. I know that usually in this case, what we can do is just go ahead and reschedule"
+en_CA_DeliveryService_1590992,67,agent,channel1,47,411.28,417.12,"an updated delivery date. So I'll go ahead and do that for you. And just to be sure, could you"
+en_CA_DeliveryService_1590992,68,customer,channel2,21,413.0,425.0,Okay.
+en_CA_DeliveryService_1590992,69,agent,channel1,48,417.12,422.96,"confirm just the correct email address here to send it to, or is it the same one?"
+en_CA_DeliveryService_1590992,70,customer,channel2,22,425.0,436.0,Which one do you have?
+en_CA_DeliveryService_1590992,71,agent,channel1,49,428.96,436.16,"Well, we have Hannah, H-A-N-N-A-H, 1-8 at shaw.com. Is that correct?"
+en_CA_DeliveryService_1590992,72,customer,channel2,23,436.0,462.0,"Yes, come on."
+en_CA_DeliveryService_1590992,73,agent,channel1,50,437.84,442.72,"That's the one. Okay, wonderful. So yeah, I'm going to go ahead and send this information"
+en_CA_DeliveryService_1590992,74,agent,channel1,51,442.8,450.56,"here. But yeah, so just so you know, there isn't going to be any charge for it to be reshipped to you."
+en_CA_DeliveryService_1590992,75,agent,channel1,52,450.56,456.64,"This is going to be a complimentary reshiftment. In regards to when you're going to get it,"
+en_CA_DeliveryService_1590992,76,agent,channel1,53,456.64,462.96,it might be about five to 10 days until you can receive it again. But I know you said you want
+en_CA_DeliveryService_1590992,77,customer,channel2,24,462.0,484.0,"Yeah, please."
+en_CA_DeliveryService_1590992,78,agent,channel1,54,462.96,470.24,as soon as possible. So I'm going to look into other options to see. Yeah.
+en_CA_DeliveryService_1590992,79,agent,channel1,55,470.24,475.76,Because I know you said it's a time sensitive thing for you. There might be an express delivery
+en_CA_DeliveryService_1590992,80,agent,channel1,56,475.76,479.76,option. I'm just going to see if we have any of our delivery drivers that are able to deliver
+en_CA_DeliveryService_1590992,81,agent,channel1,57,479.76,485.36,"it within two days. Would that be okay with you, or are you looking for an overnight shipping option?"
+en_CA_DeliveryService_1590992,82,customer,channel2,25,484.0,505.0,"No, no, two days. Yeah, two days would be great. We leave in four days. So it would have to be there in two."
+en_CA_DeliveryService_1590992,83,agent,channel1,58,492.08,497.84,Okay. And could you confirm what you ordered just to be sure that
+en_CA_DeliveryService_1590992,84,agent,channel1,59,498.56,503.68,we have the correct order here? It looks like we have a vanity set or some kind of furniture set
+en_CA_DeliveryService_1590992,85,agent,channel1,60,503.68,506.56,or correct me if I'm wrong. What is it that was ordered?
+en_CA_DeliveryService_1590992,86,customer,channel2,26,505.0,514.0,"No, it's three passports."
+en_CA_DeliveryService_1590992,87,agent,channel1,61,509.92,514.4,"Oh, sorry. Okay. Okay. There we go. So we have you ordered three passwords."
+en_CA_DeliveryService_1590992,88,agent,channel1,62,516.56,520.48,"All right. No, I'm sure you need this, especially if you're going on vacation. So"
+en_CA_DeliveryService_1590992,89,agent,channel1,63,520.48,525.6,all right. Yep. So I just I'm going to go ahead and just make a note in our system
+en_CA_DeliveryService_1590992,90,agent,channel1,64,525.6,532.32,"to have this delivered within two days to your location. And just to be sure for your address,"
+en_CA_DeliveryService_1590992,91,agent,channel1,65,532.32,541.52,it is 101 Hollywood Boulevard. Is that correct?
+en_CA_DeliveryService_1590992,92,customer,channel2,27,535.0,538.0,"Yeah, that's right."

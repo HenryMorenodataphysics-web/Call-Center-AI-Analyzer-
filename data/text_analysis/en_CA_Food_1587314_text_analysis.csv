@@ -1,0 +1,108 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_CA_Food_1587314,1,agent,channel1,1,0.0,17.04,"Good afternoon, thank you for calling Delightful Table Catering, this is Emily speaking, how",positive,0.9438,False,False,False,False,False
+en_CA_Food_1587314,2,customer,channel2,1,0.0,24.48,"Hi Emily, this is Jane Parker from Nordbridge Consulting.",neutral,0.8746,False,False,False,False,False
+en_CA_Food_1587314,3,agent,channel1,2,17.04,36.28,"can I help you today? Oh wonderful James, we're happy to help with that. Could I get a few",positive,0.984,False,False,True,False,False
+en_CA_Food_1587314,4,customer,channel2,2,24.48,29.28,I'm calling to get some information about corporate catering for team lunch.,neutral,0.9158,False,False,False,False,False
+en_CA_Food_1587314,5,customer,channel2,3,29.28,31.28,We're playing for next week.,neutral,0.8004,False,False,False,False,False
+en_CA_Food_1587314,6,agent,channel1,3,36.28,51.84,"details about your event, like the date, the time, and number of guests. Oh that's a great",positive,0.9426,False,False,False,False,False
+en_CA_Food_1587314,7,customer,channel2,4,41.76,50.08,"Sure, we're playing for next Thursday around 12.30pm and we'll have about 25 people attending.",neutral,0.5441,False,False,False,False,False
+en_CA_Food_1587314,8,agent,channel1,4,51.84,57.76,"size for a catered lunch. And just to confirm, will this be at your office location or are",neutral,0.8608,False,False,False,False,False
+en_CA_Food_1587314,9,agent,channel1,5,57.76,68.84,"you hosting it somewhere else? Oh great, we deliver to that area daily so that won't be an issue",positive,0.7415,False,False,True,False,False
+en_CA_Food_1587314,10,customer,channel2,5,60.24,64.32,"At our office, we're downtown on Main Street.",neutral,0.9233,False,False,False,False,False
+en_CA_Food_1587314,11,agent,channel1,6,68.84,74.6,"at all. So before we get to the menu options, are you guys thinking of a buffet setup or",neutral,0.9253,False,False,False,False,False
+en_CA_Food_1587314,12,agent,channel1,7,74.6,94.36,"would you prefer individual meals? Yeah of course, we take dietary needs very seriously so what",neutral,0.8267,False,False,True,False,False
+en_CA_Food_1587314,13,customer,channel2,6,77.84,84.16,We're leaning towards the Buffett but I know a few people have dietary restriction,neutral,0.8285,False,False,False,False,False
+en_CA_Food_1587314,14,customer,channel2,7,84.88,87.36,so I wanted to see what options are available.,neutral,0.8057,False,False,False,False,False
+en_CA_Food_1587314,15,customer,channel2,8,89.84,105.36,We've got a few vegans on the team and a couple of people who are gluten free.,neutral,0.5113,False,False,False,False,False
+en_CA_Food_1587314,16,agent,channel1,8,94.36,111.92,"restrictions or preferences would you like us to accommodate? Okay got it, okay that's easy to",neutral,0.6678,False,False,True,False,False
+en_CA_Food_1587314,17,customer,channel2,9,106.24,109.36,"Other than that, everyone's pretty flexible.",positive,0.6368,False,False,False,False,False
+en_CA_Food_1587314,18,agent,channel1,9,111.92,118.84,accommodate. So we can have some separate labeled dishes for vegan and gluten-free guests or if,neutral,0.8373,False,False,False,False,False
+en_CA_Food_1587314,19,agent,channel1,10,118.84,124.08,you like we can have individual box meals for them and then keep the rest of the group buffet,neutral,0.7825,False,False,False,False,False
+en_CA_Food_1587314,20,customer,channel2,10,119.28,145.36,Sounds perfect. I think a mix of Buffett and a few individual boxes would be ideal.,positive,0.9338,False,False,False,False,False
+en_CA_Food_1587314,21,agent,channel1,11,124.08,141.72,"style. So that way everyone gets what they need without confusion. Great, so our chefs have a lot",positive,0.8735,False,False,False,False,False
+en_CA_Food_1587314,22,agent,channel1,12,141.72,148.64,of experience handling mixed diet events so our vegan meals include options like quinoa stuffed,neutral,0.7177,False,False,False,False,False
+en_CA_Food_1587314,23,agent,channel1,13,148.76,155.88,"bell peppers, lentil and roasted veggie wraps or tofu teriyaki bowls. And for gluten-free guests we",neutral,0.6342,False,False,False,False,False
+en_CA_Food_1587314,24,customer,channel2,11,149.6,161.36,We've got a couple of people who are gluten free and a couple of people who are gluten-free.,neutral,0.5606,False,False,False,False,False
+en_CA_Food_1587314,25,agent,channel1,14,155.88,161.8,often recommend dishes like grilled chicken with wild rice or salmon with seasonal vegetables. So,neutral,0.7374,False,False,False,False,False
+en_CA_Food_1587314,26,agent,channel1,15,161.8,174.52,"they're all naturally gluten-free and they're very popular with clients. Yeah we do, so we",positive,0.8688,False,False,False,False,False
+en_CA_Food_1587314,27,customer,channel2,12,167.36,173.36,That sounds really good. You guys seem to have a lot of options.,positive,0.9829,False,False,False,False,False
+en_CA_Food_1587314,28,agent,channel1,16,174.56,181.44,update our menu every season so everything's fresh and easily customized and we can also avoid,neutral,0.5549,False,False,False,False,False
+en_CA_Food_1587314,29,customer,channel2,13,179.6,192.32,"Good to know, good to know.",positive,0.9515,False,False,False,False,False
+en_CA_Food_1587314,30,agent,channel1,17,181.44,189.16,"specific ingredients if needed so like nuts, dairy, soy so just let us know before we finalize the",neutral,0.8998,False,False,False,False,False
+en_CA_Food_1587314,31,agent,channel1,18,189.2,209.96,details. Yeah okay so I can start outlining the packages if you like. So for the three main,neutral,0.5187,False,False,False,False,False
+en_CA_Food_1587314,32,customer,channel2,14,194.0,199.36,I don't think we have any allergies this time but I'll double check with the team.,neutral,0.7451,False,False,False,False,False
+en_CA_Food_1587314,33,customer,channel2,15,209.28,210.74,You,neutral,0.4584,False,False,False,False,False
+en_CA_Food_1587314,34,agent,channel1,19,209.96,217.2,tiers we for the first one classic buffet you get two entrees two sides a salad and dessert for,neutral,0.6675,False,False,False,False,False
+en_CA_Food_1587314,35,agent,channel1,20,217.24,224.2,$22 per person. The premium buffet has upgraded entrees like salmon or steak plus,neutral,0.6239,False,False,False,False,False
+en_CA_Food_1587314,36,agent,channel1,21,224.2,232.8,beverage service for $30 per person. Pardon and individual box lunches so good for smaller,positive,0.8998,False,False,False,False,False
+en_CA_Food_1587314,37,agent,channel1,22,232.8,239.96,groups or if they have specific dietary needs they start at $18 per person. And then all,neutral,0.8748,False,False,False,False,False
+en_CA_Food_1587314,38,customer,channel2,16,239.6,240.1,"know,",neutral,0.6244,False,False,False,False,False
+en_CA_Food_1587314,39,agent,channel1,23,240.0,244.24,packages include disposable plates utensils napkins and serving equipment.,neutral,0.8935,False,False,False,False,False
+en_CA_Food_1587314,40,agent,channel1,24,244.24,272.24,Yeah absolutely so for example you can order 20 classic buffet meals and five box meals that's,neutral,0.6165,False,False,False,False,False
+en_CA_Food_1587314,41,customer,channel2,17,246.4,254.88,"that's very good. That's very, very helpful. If I go with the classic Buffett for most people",positive,0.9502,False,False,False,False,False
+en_CA_Food_1587314,42,customer,channel2,18,254.88,263.6,"and a few boxes of lunch for the vegan and gluten free folks, can you mix and mash those?",neutral,0.8324,False,False,False,False,False
+en_CA_Food_1587314,43,customer,channel2,19,269.28,289.6,"Yes, please label them if possible. That would make distribution very easy. Well, easier.",positive,0.632,False,False,False,False,False
+en_CA_Food_1587314,44,agent,channel1,25,272.28,278.72,common order so we'll package the specialty meals separately with the guest names labeled on them,neutral,0.9276,False,False,False,False,False
+en_CA_Food_1587314,45,agent,channel1,26,278.72,295.24,if you want. Yeah sure we can do that so do you want me to email you a sample menu for the,neutral,0.6637,False,False,False,False,False
+en_CA_Food_1587314,46,agent,channel1,27,295.24,302.32,classic and premium option so then you can review the entrees choices like if you want something,neutral,0.8176,False,False,False,False,False
+en_CA_Food_1587314,47,customer,channel2,20,299.28,315.6,That would be perfect. Could you include something light as well? A few people prefer healthier options.,positive,0.8547,False,False,False,False,False
+en_CA_Food_1587314,48,agent,channel1,28,302.32,317.56,Italian Mediterranean or more like a casual barbecue style lunch. Yeah certainly so I'll,positive,0.6317,False,False,False,False,False
+en_CA_Food_1587314,49,agent,channel1,29,317.56,323.4,include our healthy corporate menu so it has options like grilled chicken wraps mixed green,positive,0.6238,False,False,False,False,False
+en_CA_Food_1587314,50,agent,channel1,30,323.44,330.64,salads and fruit platters instead of heavier items and we can also add beverages like coffee ice tea or,neutral,0.8213,False,False,False,False,False
+en_CA_Food_1587314,51,customer,channel2,21,329.6,341.6,"Oh, yes, please. Our team definitely appreciates having drinks included.",positive,0.9791,False,False,False,False,False
+en_CA_Food_1587314,52,agent,channel1,31,330.64,346.04,sparkling water if that's something your group would enjoy. Great so let's talk about delivery,positive,0.92,False,False,False,False,False
+en_CA_Food_1587314,53,customer,channel2,22,341.92,353.92,Thank you.,positive,0.8345,False,False,False,False,False
+en_CA_Food_1587314,54,agent,channel1,32,346.04,353.08,and setup. Do you want us to just drop off the food or do you want our staff to handle the,neutral,0.9124,False,False,False,False,False
+en_CA_Food_1587314,55,agent,channel1,33,353.08,363.8,full setup? Okay so with drop-off service we deliver everything in disposable trays and it's ready to,neutral,0.5478,False,False,True,False,False
+en_CA_Food_1587314,56,customer,channel2,23,355.36,357.92,What's the difference in service?,neutral,0.9217,False,False,False,False,False
+en_CA_Food_1587314,57,agent,channel1,34,363.8,370.72,serve so that's cost effective but with full setup service our staff comes about 45 minutes early,neutral,0.6335,False,False,False,False,False
+en_CA_Food_1587314,58,agent,channel1,35,370.72,376.64,they set up the buffet table with warmers serving utensils and they display everything very,neutral,0.8644,False,False,False,False,False
+en_CA_Food_1587314,59,customer,channel2,24,372.4,388.96,"Okay, got it. Well, I think for this event, the full setup would be best. We want it to look nice.",positive,0.8988,False,False,False,False,False
+en_CA_Food_1587314,60,agent,channel1,36,376.68,397.0,professionally and then at the end they'll also tidy up. Ah great choice and we'll make it look,positive,0.9173,False,False,False,False,False
+en_CA_Food_1587314,61,customer,channel2,25,389.92,393.92,It's for both our managers and some visiting clients.,neutral,0.8798,False,False,False,False,False
+en_CA_Food_1587314,62,agent,channel1,37,397.08,407.12,elegant and our team is very efficient so for 12 p.m. sorry 12 30 p.m. lunch the arrival will be,positive,0.9337,False,False,False,False,False
+en_CA_Food_1587314,63,customer,channel2,26,402.32,425.92,That works perfectly. Our meeting ends at noon so the timing lines up nicely.,positive,0.9427,False,False,False,False,False
+en_CA_Food_1587314,64,agent,channel1,38,407.12,413.72,around 11 45 to set up and then to make sure that everything is warm and ready on time. Does,neutral,0.7917,False,False,False,False,False
+en_CA_Food_1587314,65,agent,channel1,39,413.72,427.2,that work with your office schedule? Excellent and just confirming the event will be at your,positive,0.9243,False,False,True,False,False
+en_CA_Food_1587314,66,customer,channel2,27,426.16,442.24,"Correct. 1,200 main street suits 410.",neutral,0.9052,False,False,False,False,False
+en_CA_Food_1587314,67,agent,channel1,40,427.2,443.32,"Main Street office, correct? Okay got it. We're on Main Street daily so it's perfect for us.",positive,0.8788,False,False,True,False,False
+en_CA_Food_1587314,68,agent,channel1,41,443.32,461.56,"Yeah sure so I'll include sample menus for classic premium and healthy options, pricing breakdown",neutral,0.5359,False,False,False,False,False
+en_CA_Food_1587314,69,customer,channel2,28,446.72,453.04,"Okay, so sounds good so far. Could you send me a sample menu and a quote for everything we discussed?",positive,0.9262,False,False,False,False,False
+en_CA_Food_1587314,70,customer,channel2,29,455.92,483.04,Yep. So it's g.parker at Nordbridge.consulting.ca,neutral,0.8589,False,False,False,False,False
+en_CA_Food_1587314,71,agent,channel1,42,461.56,469.4,"for 25 guests with 20 buffet meals and five box lunches, the beverages and delivery and setup",neutral,0.8832,False,False,False,False,False
+en_CA_Food_1587314,72,agent,channel1,43,469.44,487.16,options. Can I confirm your email address please? Perfect so I'll send that to you within the next,positive,0.6676,False,False,True,False,False
+en_CA_Food_1587314,73,customer,channel2,30,485.92,507.04,Great. How far in advance do you need final confirmation?,positive,0.8718,False,False,False,False,False
+en_CA_Food_1587314,74,agent,channel1,44,487.16,495.76,hour and regarding availability I just checked our system. We're fully available next Thursday at,neutral,0.6645,False,False,False,False,False
+en_CA_Food_1587314,75,agent,channel1,45,495.76,509.32,12 30 p.m. so once you confirm your menu choices I'll reserve the spot for your group. So we ask,neutral,0.8763,False,False,False,False,False
+en_CA_Food_1587314,76,agent,channel1,46,509.32,514.52,"for 48 hours notice before the event to finalize the headcount, the menu selections and the",neutral,0.9478,False,False,False,False,False
+en_CA_Food_1587314,77,agent,channel1,47,514.52,529.24,payment but since your events next week confirming by Tuesday morning is great. Great so while,positive,0.9719,False,False,False,False,False
+en_CA_Food_1587314,78,customer,channel2,31,516.16,527.04,"Okay, that's no problem. I'll review everything with my team tomorrow.",positive,0.6128,False,False,False,False,False
+en_CA_Food_1587314,79,customer,channel2,32,527.04,552.16,"That actually sounds nice. Maybe a desert tree, something small but good to finish.",positive,0.9026,False,False,False,False,False
+en_CA_Food_1587314,80,agent,channel1,48,529.24,534.88,you're reviewing you might consider some add-ons we offer for corporate events so for example we,neutral,0.8656,False,False,False,False,False
+en_CA_Food_1587314,81,agent,channel1,49,534.88,540.32,"have fruit platters, dessert trays, beverage stations with coffee and tea so they're great",positive,0.9496,False,False,False,False,False
+en_CA_Food_1587314,82,agent,channel1,50,540.32,557.2,"for meetings that run a bit longer. Yeah great choice so we can have many cheesecakes,",positive,0.9677,False,False,False,False,False
+en_CA_Food_1587314,83,customer,channel2,33,557.04,574.16,"Perfect. Okay, then that will go over well with the team.",positive,0.9669,False,False,False,False,False
+en_CA_Food_1587314,84,agent,channel1,51,557.2,563.48,brownies and fruit skewers. They're all perfect for lunch events so I can put those as an optional,positive,0.9662,False,False,False,False,False
+en_CA_Food_1587314,85,agent,channel1,52,563.48,578.68,item in your quote so you can decide later. Great okay so just to recap your order details so a,positive,0.6854,False,False,False,False,False
+en_CA_Food_1587314,86,agent,channel1,53,578.68,587.68,corporate lunch for 25 people next Thursday at 12 30 p.m. a mix of classic buffet and five specialty,neutral,0.7061,False,False,False,False,False
+en_CA_Food_1587314,87,customer,channel2,34,587.44,598.16,Okay.,neutral,0.5693,False,False,False,False,False
+en_CA_Food_1587314,88,agent,channel1,54,587.68,593.08,"box meals for vegan and gluten-free guests, full delivery and setup service at your main",positive,0.5314,False,False,False,False,False
+en_CA_Food_1587314,89,agent,channel1,55,593.08,599.44,"street office and I'll send the sample menus, pricing and beverage dessert options within the",neutral,0.911,False,False,False,False,False
+en_CA_Food_1587314,90,agent,channel1,56,599.44,610.16,hour. Did I did I get everything right? Okay perfect so once once you review and confirm,positive,0.8476,False,False,True,False,False
+en_CA_Food_1587314,91,customer,channel2,35,602.88,612.16,Everything's correct. Sounds all good.,positive,0.8217,False,False,False,False,False
+en_CA_Food_1587314,92,agent,channel1,57,610.16,615.92,we'll finalize the booking and prepare for your event. Is there anything else I can help with,neutral,0.8291,False,False,False,True,False
+en_CA_Food_1587314,93,agent,channel1,58,616.0,620.32,before we end the call like maybe discuss billing options or payment methods?,neutral,0.9452,False,False,True,False,False
+en_CA_Food_1587314,94,customer,channel2,36,617.44,632.16,"Oh, actually, yes. I'll do payment usually work.",positive,0.6477,False,False,False,False,False
+en_CA_Food_1587314,95,agent,channel1,59,626.32,631.84,Great question so we accept major credit cards company checks or direct invoicing for,positive,0.5421,False,False,False,False,False
+en_CA_Food_1587314,96,agent,channel1,60,631.84,637.36,repeat corporate clients but since this is your first booking we can do a deposit of 50%,neutral,0.709,False,False,False,False,False
+en_CA_Food_1587314,97,customer,channel2,37,632.16,645.28,"Oh, that was fine with us.",positive,0.5668,False,False,False,False,False
+en_CA_Food_1587314,98,agent,channel1,61,638.24,641.84,upon confirmation and then the remaining balance after delivery.,neutral,0.9035,False,False,False,False,False
+en_CA_Food_1587314,99,agent,channel1,62,646.4,657.84,Okay sounds good so I'll include the payment link in the proposal email. Thanks so much for calling,positive,0.9599,False,False,False,False,False
+en_CA_Food_1587314,100,customer,channel2,38,646.56,657.28,I'll wait for your quote and pay the deposit once we finalize.,neutral,0.8773,False,False,False,False,False
+en_CA_Food_1587314,101,agent,channel1,63,657.84,673.68,today James we're really excited to cater your event. Oh my pleasure James so I'll send your,positive,0.9904,False,False,False,False,False
+en_CA_Food_1587314,102,customer,channel2,39,658.08,668.0,"Thank you, Emily. You've been super helpful in detail. I really appreciate our",positive,0.9785,False,False,False,False,False
+en_CA_Food_1587314,103,customer,channel2,40,668.0,671.12,organized this was really.,neutral,0.7242,False,False,False,False,False
+en_CA_Food_1587314,104,agent,channel1,64,673.68,679.36,email shortly and I'll follow up tomorrow morning just to confirm that you received it. Enjoy the,positive,0.8461,False,False,False,False,False
+en_CA_Food_1587314,105,agent,channel1,65,679.36,695.28,rest of your day. Bye James thanks for choosing delightful table catering.,positive,0.9363,False,False,False,False,False
+en_CA_Food_1587314,106,customer,channel2,41,681.12,693.12,"Thanks. You too, Emily.",positive,0.9403,False,False,False,False,False
+en_CA_Food_1587314,107,customer,channel2,42,698.0,701.12,Thank you.,positive,0.8345,False,False,False,False,False

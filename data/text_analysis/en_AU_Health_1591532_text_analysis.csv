@@ -1,0 +1,178 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Health_1591532,1,agent,channel1,1,0.0,16.28,"Hey there, you've reached Tom and I at 45, the gym that's revolutionizing the workout",positive,0.7451,False,False,False,False,False
+en_AU_Health_1591532,2,customer,channel2,1,0.0,24.08,"Hi, Tom. My name is Laura. I was just kind of wondering about possibly signing up with",neutral,0.7984,False,False,False,False,False
+en_AU_Health_1591532,3,agent,channel1,2,16.28,17.28,trends.,neutral,0.8508,False,False,False,False,False
+en_AU_Health_1591532,4,agent,channel1,3,17.28,22.28,How can I help you today?,neutral,0.7191,False,False,True,False,False
+en_AU_Health_1591532,5,agent,channel1,4,22.28,24.28,"Great, great.",positive,0.946,False,False,False,False,False
+en_AU_Health_1591532,6,customer,channel2,2,24.08,32.72,"you guys and just kind of had a few questions if that's okay. Okay, so basically, I've kind of been",neutral,0.8304,False,False,False,False,False
+en_AU_Health_1591532,7,agent,channel1,5,24.28,27.68,"Yeah, hit me.",neutral,0.5444,False,False,False,False,False
+en_AU_Health_1591532,8,agent,channel1,6,27.68,29.96,"Tell me what's up, Laura.",neutral,0.8383,False,False,False,False,False
+en_AU_Health_1591532,9,agent,channel1,7,29.96,48.28,"Yeah, yeah, nice, nice, yeah, we definitely do things a little bit differently here at",positive,0.7073,False,False,False,False,False
+en_AU_Health_1591532,10,customer,channel2,3,32.72,38.4,"working out at gyms and just struggling a little bit, not really getting results. And I know that",negative,0.7123,False,False,False,False,False
+en_AU_Health_1591532,11,customer,channel2,4,38.4,43.2,your gym kind of works a bit differently. So I'm hoping you can just kind of explain like what the,neutral,0.8469,False,False,False,False,False
+en_AU_Health_1591532,12,customer,channel2,5,43.2,54.32,difference is off.,neutral,0.648,False,False,False,False,False
+en_AU_Health_1591532,13,agent,channel1,8,48.28,49.28,F45.,neutral,0.7966,False,False,False,False,False
+en_AU_Health_1591532,14,agent,channel1,9,49.28,54.68,"I'm based at the Winter Branch and let me tell you, ever since I started working out",positive,0.5481,False,False,False,False,False
+en_AU_Health_1591532,15,agent,channel1,10,54.68,57.72,"at F45, it has led me into being head trainer.",neutral,0.6067,False,False,False,False,False
+en_AU_Health_1591532,16,agent,channel1,11,58.16,61.68,"So congratulations for later, but it is life changing.",positive,0.9767,False,False,False,False,False
+en_AU_Health_1591532,17,agent,channel1,12,61.68,65.16,It is a gym that is totally different to every other one you've joined so far.,neutral,0.7305,False,False,False,False,False
+en_AU_Health_1591532,18,agent,channel1,13,65.16,69.84,"What we really pride ourselves on is working out, but with a difference.",positive,0.701,False,False,True,False,False
+en_AU_Health_1591532,19,agent,channel1,14,69.84,74.44,"So what I mean by that is you come in, all the equipment is already set up for you,",neutral,0.7921,False,False,False,False,False
+en_AU_Health_1591532,20,customer,channel2,6,73.2,100.64,"Yeah, okay. So, sorry, I just want to clarify this because I'm just trying to get my head around it.",neutral,0.6712,False,False,False,False,False
+en_AU_Health_1591532,21,agent,channel1,15,74.44,77.16,and we work on a little thing called a second route.,neutral,0.723,False,False,False,False,False
+en_AU_Health_1591532,22,agent,channel1,16,77.16,80.64,But we call that the F45 pump sesh.,neutral,0.856,False,False,False,False,False
+en_AU_Health_1591532,23,agent,channel1,17,80.64,86.68,"So every 60 seconds, you'll move around to different sections within the gym.",neutral,0.9481,False,False,False,False,False
+en_AU_Health_1591532,24,agent,channel1,18,86.72,88.08,And there's the trainers there.,neutral,0.7186,False,False,False,False,False
+en_AU_Health_1591532,25,agent,channel1,19,88.08,90.36,Do you really help you make sure that you're working out?,neutral,0.8164,False,False,True,False,False
+en_AU_Health_1591532,26,agent,channel1,20,90.36,93.48,"It's like a personal trainer, but not two hands on it in your face, if you know",neutral,0.754,False,False,False,False,False
+en_AU_Health_1591532,27,agent,channel1,21,93.48,94.48,what I think.,neutral,0.8151,False,False,True,False,False
+en_AU_Health_1591532,28,agent,channel1,22,94.48,119.6,"If I didn't know better, I would say you are already a F45 member.",negative,0.5449,False,False,False,False,False
+en_AU_Health_1591532,29,customer,channel2,7,100.64,108.24,"So basically, like, I would come in, is it certain times, and then you'd go like and just do different",neutral,0.9073,False,False,False,False,False
+en_AU_Health_1591532,30,customer,channel2,8,108.24,114.96,exercises in like a circuit of like doing it a few times. And then that's it. It's just like a session,neutral,0.8939,False,False,False,False,False
+en_AU_Health_1591532,31,customer,channel2,9,114.96,128.08,like that.,neutral,0.74,False,False,False,False,False
+en_AU_Health_1591532,32,agent,channel1,23,119.6,120.6,Fingers crossed.,positive,0.8206,False,False,False,False,False
+en_AU_Health_1591532,33,agent,channel1,24,120.6,122.0,We'll see you then soon.,positive,0.7699,False,False,False,False,False
+en_AU_Health_1591532,34,agent,channel1,25,122.0,123.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Health_1591532,35,agent,channel1,26,123.0,131.68,"So what we do, people do call it fit stop as another name, but effectively you do a 60",neutral,0.8808,False,False,False,False,False
+en_AU_Health_1591532,36,agent,channel1,27,131.68,138.72,"second cardio pump followed by a weight session, and that alternates for 45 minutes.",neutral,0.9316,False,False,False,False,False
+en_AU_Health_1591532,37,agent,channel1,28,138.72,142.04,"And just to keep things fresh, just to keep things a little bit different so you're",neutral,0.5941,False,False,False,False,False
+en_AU_Health_1591532,38,agent,channel1,29,142.04,145.4,"not getting bored, we do switch up the timing.",neutral,0.6886,False,False,False,False,False
+en_AU_Health_1591532,39,agent,channel1,30,145.4,150.88,"So without keeping you on your toes, that could be say a 60 second cardio sesh",neutral,0.8276,False,False,False,False,False
+en_AU_Health_1591532,40,agent,channel1,31,150.88,157.92,"followed by a 45 seconds weight sesh, followed by 15 second mystery movement",neutral,0.9213,False,False,False,False,False
+en_AU_Health_1591532,41,agent,channel1,32,157.92,159.44,without giving too much away.,neutral,0.756,False,False,False,False,False
+en_AU_Health_1591532,42,agent,channel1,33,159.44,163.4,"Could be bad piece, not saying this, not saying it isn't, but we do like to change",neutral,0.5076,False,False,False,False,False
+en_AU_Health_1591532,43,agent,channel1,34,163.4,167.6,things up here at F45 just so it doesn't become repetitive and boring.,neutral,0.5596,False,False,False,False,False
+en_AU_Health_1591532,44,agent,channel1,35,167.6,170.76,Is that something like the type of gym that you're looking to be a part of?,neutral,0.9309,False,False,True,False,False
+en_AU_Health_1591532,45,agent,channel1,36,170.76,173.56,"Well, actually, before you do go on, I won't call it a gym.",neutral,0.5596,False,False,False,False,False
+en_AU_Health_1591532,46,agent,channel1,37,173.56,175.2,I'm going to call it a lifestyle change for you.,neutral,0.7888,False,False,False,False,False
+en_AU_Health_1591532,47,customer,channel2,10,174.96,183.04,"I mean, yeah, definitely. Like, I think I feel a little bit lost when I go to my normal gym. Like,",negative,0.4747,False,False,False,False,False
+en_AU_Health_1591532,48,customer,channel2,11,183.04,188.24,"I walk in there, there's equipment all over the place. I'm kind of left to my own devices.",neutral,0.7205,False,False,False,False,False
+en_AU_Health_1591532,49,customer,channel2,12,188.96,194.88,And I do like I do go and like work out on things. But I guess it's kind of a bit tricky,neutral,0.7192,False,False,False,False,False
+en_AU_Health_1591532,50,customer,channel2,13,194.88,198.88,because I don't know the best things that are best for me. And I just kind of go around to,negative,0.7109,False,False,False,False,False
+en_AU_Health_1591532,51,customer,channel2,14,198.88,205.2,"different machines. And yeah, I'm kind of not sure that I'm doing enough to get to me to where I",negative,0.6466,False,False,False,False,False
+en_AU_Health_1591532,52,customer,channel2,15,205.2,210.72,"want to be. So I kind of leave and I feel a bit like, I don't know if this is working for me.",negative,0.7049,False,False,False,False,False
+en_AU_Health_1591532,53,customer,channel2,16,210.72,214.72,"And a lot of people keep talking about this gym and seem to think that it might have like,",neutral,0.8939,False,False,False,False,False
+en_AU_Health_1591532,54,agent,channel1,38,210.88,225.0,"Well, you've hit the burpee on the head that what we do here at F45 is help you avoid the",negative,0.5594,False,False,False,False,False
+en_AU_Health_1591532,55,customer,channel2,17,214.72,229.84,a better way for me to lose weight and focus on getting healthy.,neutral,0.562,False,False,False,False,False
+en_AU_Health_1591532,56,agent,channel1,39,225.0,226.6,three unknowns.,neutral,0.739,False,False,False,False,False
+en_AU_Health_1591532,57,agent,channel1,40,226.6,232.0,"So get your pen and paper, or if you've got your worked out memory, get listening.",neutral,0.696,False,False,False,False,False
+en_AU_Health_1591532,58,agent,channel1,41,232.0,234.08,So we help you avoid the unknown.,positive,0.5828,False,False,False,False,False
+en_AU_Health_1591532,59,agent,channel1,42,234.08,240.84,"So that's not knowing how to use the equipment, not knowing how to do a dumbbell lift on",negative,0.5911,False,False,False,False,False
+en_AU_Health_1591532,60,agent,channel1,43,240.88,243.52,not knowing how to do a chin up or a pull out.,negative,0.6102,False,False,False,False,False
+en_AU_Health_1591532,61,agent,channel1,44,243.52,246.12,"Yes, there's a difference that you will learn that.",neutral,0.7971,False,False,False,False,False
+en_AU_Health_1591532,62,agent,channel1,45,246.12,252.68,The second unknown is the unknown of actually how to use equipment.,neutral,0.6319,False,False,False,False,False
+en_AU_Health_1591532,63,agent,channel1,46,252.96,258.92,And the third thing that we help you avoid is the the toxic masculinity that,negative,0.5022,False,False,False,False,False
+en_AU_Health_1591532,64,agent,channel1,47,258.92,261.84,traditionally comes with your everyday gym.,neutral,0.8652,False,False,False,False,False
+en_AU_Health_1591532,65,agent,channel1,48,262.16,265.88,"Like we all know too well, but you go in there, there's mirrors everywhere",neutral,0.5338,False,False,False,False,False
+en_AU_Health_1591532,66,agent,channel1,49,265.88,269.44,and there's people taking selfies of themselves on the equipment that you're,neutral,0.6957,False,False,False,False,False
+en_AU_Health_1591532,67,agent,channel1,50,269.44,271.72,just trying to use even though you may not know how to use it.,neutral,0.6337,False,False,False,False,False
+en_AU_Health_1591532,68,customer,channel2,18,274.72,279.12,"One of the things that really freaks me out when I go to the gym, I've been with my sister a few",negative,0.5555,False,False,False,False,False
+en_AU_Health_1591532,69,customer,channel2,19,279.12,283.36,"times and we kind of go to use the equipment and get a bit scared off and just end up, you know,",negative,0.654,False,False,False,False,False
+en_AU_Health_1591532,70,customer,channel2,20,283.36,290.08,"on the treadmill or some kind of cardio machine where we feel a little bit safer. Look,",neutral,0.628,False,False,False,False,False
+en_AU_Health_1591532,71,customer,channel2,21,290.08,296.4,this sounds really good. And I feel like it might be kind of up my alley. Is there like,positive,0.9792,False,False,False,False,False
+en_AU_Health_1591532,72,customer,channel2,22,296.4,300.96,"a way that you can come and try it out? And then also, could you tell me a little",neutral,0.8362,False,False,False,False,False
+en_AU_Health_1591532,73,agent,channel1,51,300.44,301.76,"Yeah, definitely.",positive,0.6611,False,False,False,False,False
+en_AU_Health_1591532,74,customer,channel2,23,300.96,308.08,bit about what the membership options are and cost and stuff like that?,neutral,0.9291,False,False,False,False,False
+en_AU_Health_1591532,75,agent,channel1,52,301.76,306.56,"Well, we do a thing called Go Free Sundays, and it is one of my my favorite",positive,0.9786,False,False,False,False,False
+en_AU_Health_1591532,76,agent,channel1,53,306.56,309.64,"days of the week, not just because it's the start and we have a whole nother",neutral,0.7347,False,False,False,False,False
+en_AU_Health_1591532,77,agent,channel1,54,309.64,314.36,"six days of workouts to look forward to, but you can attend any one of our",positive,0.8168,False,False,False,False,False
+en_AU_Health_1591532,78,agent,channel1,55,314.36,318.04,"sessions for free and bring a friend, bring two friends, break three friends,",neutral,0.7387,False,False,False,False,False
+en_AU_Health_1591532,79,agent,channel1,56,318.04,319.04,if you like.,neutral,0.514,False,False,False,False,False
+en_AU_Health_1591532,80,agent,channel1,57,319.04,323.44,"And to make it even sweeter, we do have a live DJ on Sundays just to",positive,0.9551,False,False,False,False,False
+en_AU_Health_1591532,81,agent,channel1,58,323.44,325.12,really get that blood pumping.,neutral,0.4897,False,False,False,False,False
+en_AU_Health_1591532,82,agent,channel1,59,325.12,329.52,"Before you start to smash that iron, smash those calories, you know,",neutral,0.6816,False,False,False,False,False
+en_AU_Health_1591532,83,agent,channel1,60,329.52,333.8,"but it may sound intense, it may sound a little full on, but it's all",neutral,0.6309,False,False,False,False,False
+en_AU_Health_1591532,84,agent,channel1,61,333.8,334.8,about the community.,neutral,0.8696,False,False,False,False,False
+en_AU_Health_1591532,85,agent,channel1,62,334.8,341.24,"Like once every quarter, like we have a community drinks, like, mind you,",neutral,0.8544,False,False,False,False,False
+en_AU_Health_1591532,86,agent,channel1,63,341.24,345.72,"they're probably going to be the skinny bitch is a vodka soda, because",neutral,0.4818,False,False,False,False,False
+en_AU_Health_1591532,87,agent,channel1,64,345.72,348.2,we don't want to undo all that work that we will just strive,neutral,0.6613,False,False,False,False,False
+en_AU_Health_1591532,88,agent,channel1,65,348.2,349.2,so hard to achieve.,negative,0.756,False,False,False,False,False
+en_AU_Health_1591532,89,agent,channel1,66,350.2,353.2,"But just with that, I think we're going to have a lot of fun.",positive,0.9767,False,False,False,False,False
+en_AU_Health_1591532,90,agent,channel1,67,353.44,359.48,"But just making to membership plans and prices, because we do offer",neutral,0.7992,False,False,False,False,False
+en_AU_Health_1591532,91,agent,channel1,68,359.48,362.92,"such an exclusive experience, it's something to really help you get",positive,0.9593,False,False,False,False,False
+en_AU_Health_1591532,92,customer,channel2,24,361.28,378.16,"Okay, yeah, not a problem. That doesn't sound too bad actually.",positive,0.7046,False,False,False,False,False
+en_AU_Health_1591532,93,agent,channel1,69,362.92,367.52,that ground knowledge of just where to work out how to do what we do,neutral,0.8334,False,False,False,False,False
+en_AU_Health_1591532,94,agent,channel1,70,367.52,372.48,offer a minimum 12 month contract paid fortnightly of $144.,neutral,0.8935,False,False,False,False,False
+en_AU_Health_1591532,95,customer,channel2,25,380.4,385.92,What else can I need to ask? Is there anything else included like with the membership? Because,neutral,0.9283,False,False,False,False,False
+en_AU_Health_1591532,96,agent,channel1,71,383.2,398.8,"Well, that's the beauty with 45 memberships is even though it may seem",positive,0.8404,False,False,False,False,False
+en_AU_Health_1591532,97,customer,channel2,26,385.92,392.72,"you know some memberships have like, I don't know, like a PTSD or something like that. Do you guys have",neutral,0.5776,False,False,False,False,False
+en_AU_Health_1591532,98,customer,channel2,27,392.72,401.52,anything or is it just the straight membership?,neutral,0.9145,False,False,False,False,False
+en_AU_Health_1591532,99,agent,channel1,72,398.8,402.56,"like a straight membership, we include everything that you could possibly",neutral,0.7378,False,False,False,False,False
+en_AU_Health_1591532,100,agent,channel1,73,402.56,403.56,need.,neutral,0.7194,False,False,False,False,False
+en_AU_Health_1591532,101,agent,channel1,74,403.56,406.72,"So class sizes are already limited to 10 people, which effectively is",neutral,0.812,False,False,False,False,False
+en_AU_Health_1591532,102,agent,channel1,75,406.72,408.4,like a personal training session.,neutral,0.8552,False,False,False,False,False
+en_AU_Health_1591532,103,agent,channel1,76,408.4,413.44,"When you think of it, 45 minute session divided by 10 people, you're",neutral,0.7835,False,False,True,False,False
+en_AU_Health_1591532,104,agent,channel1,77,413.44,415.68,still going to get that one on one time.,neutral,0.8402,False,False,False,False,False
+en_AU_Health_1591532,105,agent,channel1,78,415.68,418.68,We do have that real personal level of service.,neutral,0.6208,False,False,False,False,False
+en_AU_Health_1591532,106,agent,channel1,79,418.68,421.2,"We will be able to spot you if you're doing something wrong, but",negative,0.5164,False,False,False,False,False
+en_AU_Health_1591532,107,agent,channel1,80,421.2,423.2,you won't be doing anything wrong because we would have already shown,neutral,0.5515,False,False,False,False,False
+en_AU_Health_1591532,108,agent,channel1,81,423.2,424.88,"you the drill, right?",neutral,0.9175,False,False,True,False,False
+en_AU_Health_1591532,109,agent,channel1,82,424.88,426.16,And every member that joins up.,neutral,0.9051,False,False,False,False,False
+en_AU_Health_1591532,110,agent,channel1,83,426.16,429.0,We do give you a little F45 goodie bag.,neutral,0.669,False,False,False,False,False
+en_AU_Health_1591532,111,agent,channel1,84,429.0,433.0,"And that includes a gym towel, a backpack, a heart rate monitor,",neutral,0.8381,False,False,False,False,False
+en_AU_Health_1591532,112,agent,channel1,85,433.0,436.72,"as well as a really cool PVA free water bottle, which everybody",positive,0.9657,False,False,False,False,False
+en_AU_Health_1591532,113,agent,channel1,86,436.8,438.6,seems to love dish was to save.,neutral,0.7176,False,False,False,False,False
+en_AU_Health_1591532,114,agent,channel1,87,438.6,439.6,Amazing.,positive,0.9149,False,False,False,False,False
+en_AU_Health_1591532,115,agent,channel1,88,439.6,441.76,So you can even chuck your protein shake in that.,neutral,0.72,False,False,False,False,False
+en_AU_Health_1591532,116,agent,channel1,89,441.76,446.92,"And better yet, it includes full access to our F45 app.",positive,0.7981,False,False,False,False,False
+en_AU_Health_1591532,117,agent,channel1,90,446.92,450.56,So that includes all of the workouts that are displayed on screen,neutral,0.9345,False,False,False,False,False
+en_AU_Health_1591532,118,agent,channel1,91,450.56,454.4,"that you would traditionally see in a classroom, but in an app.",neutral,0.8932,False,False,False,False,False
+en_AU_Health_1591532,119,customer,channel2,28,452.72,473.52,"Wow, that sounds amazing. How long would you say that people usually start to see results that,",positive,0.9625,False,False,False,False,False
+en_AU_Health_1591532,120,agent,channel1,92,454.4,457.04,"So even if you're away, you don't need to worry about pausing",neutral,0.7429,False,False,False,False,False
+en_AU_Health_1591532,121,agent,channel1,93,457.04,460.2,"your membership, you can just play the video, follow along at home.",neutral,0.8583,False,False,False,False,False
+en_AU_Health_1591532,122,agent,channel1,94,460.2,462.8,And it also includes a full meal plan.,positive,0.5632,False,False,False,False,False
+en_AU_Health_1591532,123,agent,channel1,95,462.8,464.8,So it's like having a chef in your pocket.,neutral,0.8062,False,False,False,False,False
+en_AU_Health_1591532,124,agent,channel1,96,467.72,470.72,"So that's the million dollar question, right?",neutral,0.8533,False,False,True,False,False
+en_AU_Health_1591532,125,agent,channel1,97,470.72,473.72,"It could be like, how many times could I make Donalds until I start",neutral,0.799,False,False,False,False,False
+en_AU_Health_1591532,126,customer,channel2,29,473.52,482.32,"you know, this kind of training?",neutral,0.8882,False,False,False,False,False
+en_AU_Health_1591532,127,agent,channel1,98,473.72,474.72,to show weight gain?,neutral,0.8766,False,False,True,False,False
+en_AU_Health_1591532,128,agent,channel1,99,474.72,478.72,It really depends on your individual circumstances.,neutral,0.7787,False,False,False,False,False
+en_AU_Health_1591532,129,agent,channel1,100,478.72,482.72,But if you like me and you are committed to the meal plan,neutral,0.4967,False,False,False,False,False
+en_AU_Health_1591532,130,agent,channel1,101,482.72,485.72,attending three or four times a week for just 45 minutes each,neutral,0.9113,False,False,False,False,False
+en_AU_Health_1591532,131,agent,channel1,102,485.72,488.72,"time, I can guarantee that you will start to see results",positive,0.849,False,False,False,False,False
+en_AU_Health_1591532,132,agent,channel1,103,488.72,490.72,within one to two weeks.,neutral,0.8903,False,False,False,False,False
+en_AU_Health_1591532,133,agent,channel1,104,490.72,492.72,"So that's the million dollar question, right?",neutral,0.8533,False,False,True,False,False
+en_AU_Health_1591532,134,agent,channel1,105,492.72,495.72,I can guarantee that you will start to see results,positive,0.84,False,False,False,False,False
+en_AU_Health_1591532,135,agent,channel1,106,495.72,497.72,within one to two months.,neutral,0.8819,False,False,False,False,False
+en_AU_Health_1591532,136,agent,channel1,107,497.72,501.72,"And don't get me wrong, it may not be visible results,",neutral,0.5514,False,False,False,False,False
+en_AU_Health_1591532,137,agent,channel1,108,501.72,504.72,but you absolutely find yourself being able to move through,positive,0.5633,False,False,False,False,False
+en_AU_Health_1591532,138,agent,channel1,109,504.72,508.72,those workouts at a much faster pace without getting as much,neutral,0.7334,False,False,False,False,False
+en_AU_Health_1591532,139,agent,channel1,110,508.72,510.72,fatigue and even recovery rates.,neutral,0.5592,False,False,False,False,False
+en_AU_Health_1591532,140,agent,channel1,111,510.72,512.72,"Like the first time, I'm going to lie, you're going to be",neutral,0.5545,False,False,False,False,False
+en_AU_Health_1591532,141,agent,channel1,112,512.72,513.72,sore the next day.,negative,0.5739,False,False,False,False,False
+en_AU_Health_1591532,142,agent,channel1,113,513.72,517.72,We all know those 10 squat post workout pains.,neutral,0.6771,False,False,False,False,False
+en_AU_Health_1591532,143,agent,channel1,114,517.72,520.72,"But the longer you go on and the more committed you are,",positive,0.5757,False,False,False,False,False
+en_AU_Health_1591532,144,agent,channel1,115,520.72,524.72,"as you start to learn the exercise routines,",neutral,0.8513,False,False,False,False,False
+en_AU_Health_1591532,145,agent,channel1,116,524.72,526.72,it'll become second nature.,neutral,0.4789,False,False,False,False,False
+en_AU_Health_1591532,146,agent,channel1,117,526.72,529.72,I personally do it at 5.45 in the morning.,neutral,0.8812,False,False,False,False,False
+en_AU_Health_1591532,147,agent,channel1,118,529.72,531.72,And that way I'm not really even awake.,negative,0.5725,False,False,False,False,False
+en_AU_Health_1591532,148,agent,channel1,119,531.72,533.72,"And before I know it, the workouts are over.",neutral,0.5356,False,False,False,False,False
+en_AU_Health_1591532,149,customer,channel2,30,533.68,543.84,"Wow, this sounds great. Look, I think I'm definitely keen to come and give this a go where I'm at just",positive,0.9883,False,False,False,False,False
+en_AU_Health_1591532,150,agent,channel1,120,533.72,536.72,And I'm set to the day my metabolism is moving.,neutral,0.6522,False,False,False,False,False
+en_AU_Health_1591532,151,customer,channel2,31,543.84,551.12,"not working for me. So I think it's time for a change. So yeah, I mean, what's kind of the basic",neutral,0.5809,False,False,False,False,False
+en_AU_Health_1591532,152,agent,channel1,121,550.72,561.72,"Yeah, absolutely.",positive,0.4347,False,False,False,False,False
+en_AU_Health_1591532,153,customer,channel2,32,551.12,557.52,next steps is just signing up. But can I come and try it out first and then give you guys,neutral,0.7679,False,False,False,False,False
+en_AU_Health_1591532,154,customer,channel2,33,557.52,565.52,a call back once I've had a go and just make sure that it is right for me?,neutral,0.8173,False,False,False,False,False
+en_AU_Health_1591532,155,agent,channel1,122,561.72,564.72,"Well, by the sounds of it, you know where we are located",neutral,0.8071,False,False,False,False,False
+en_AU_Health_1591532,156,agent,channel1,123,564.72,566.72,on Chapel Street there in Windsor.,neutral,0.9204,False,False,False,False,False
+en_AU_Health_1591532,157,customer,channel2,34,565.52,585.52,"Okay, great. That sounds good. What day are you in?",positive,0.9807,False,False,False,False,False
+en_AU_Health_1591532,158,agent,channel1,124,566.72,569.72,So why don't you pop in and just ask for Tom.,neutral,0.7757,False,False,False,False,False
+en_AU_Health_1591532,159,agent,channel1,125,569.72,572.72,I'm one of two trainers that are going to be there for you.,positive,0.6277,False,False,False,False,False
+en_AU_Health_1591532,160,agent,channel1,126,572.72,575.72,So why don't you come in and give it a try.,neutral,0.7644,False,False,False,False,False
+en_AU_Health_1591532,161,agent,channel1,127,575.72,577.72,And we can take it from there.,neutral,0.7943,False,False,False,False,False
+en_AU_Health_1591532,162,agent,channel1,128,577.72,579.72,"And any more questions that you've got,",neutral,0.813,False,False,False,False,False
+en_AU_Health_1591532,163,agent,channel1,129,579.72,584.72,we can sort it out there in the class.,neutral,0.8267,False,False,False,False,False
+en_AU_Health_1591532,164,agent,channel1,130,584.72,587.72,"I'm there every, well, every day actually.",neutral,0.5779,False,False,False,False,False
+en_AU_Health_1591532,165,agent,channel1,131,587.72,589.72,"I'm just giving them the two trainers,",neutral,0.7964,False,False,False,False,False
+en_AU_Health_1591532,166,agent,channel1,132,589.72,590.72,which is another benefit.,positive,0.8752,False,False,False,False,False
+en_AU_Health_1591532,167,agent,channel1,133,590.72,592.72,You're not going to be walking into the gym,neutral,0.6932,False,False,False,False,False
+en_AU_Health_1591532,168,agent,channel1,134,592.72,594.72,and just seeing a random face every time.,neutral,0.6786,False,False,False,False,False
+en_AU_Health_1591532,169,agent,channel1,135,594.72,595.72,Like we are the two trainers.,neutral,0.7454,False,False,False,False,False
+en_AU_Health_1591532,170,agent,channel1,136,595.72,596.72,We're there for you.,positive,0.7875,False,False,False,False,False
+en_AU_Health_1591532,171,customer,channel2,35,595.84,607.76,"Okay, that sounds good. I'll do that. Well, I'll see you soon then, Tom. Thanks so much.",positive,0.9657,False,False,False,False,False
+en_AU_Health_1591532,172,agent,channel1,137,596.72,599.72,"So yeah, feel free to pop in any day.",positive,0.5344,False,False,False,False,False
+en_AU_Health_1591532,173,agent,channel1,138,599.72,606.72,But Sunday is the day you can come and bring a friend for free.,positive,0.5374,False,False,False,False,False
+en_AU_Health_1591532,174,agent,channel1,139,607.72,608.72,Not a problem at all.,neutral,0.5092,False,False,False,False,False
+en_AU_Health_1591532,175,agent,channel1,140,608.72,613.72,We're looking forward to getting pumps with you on Sunday.,positive,0.9743,False,False,False,False,False
+en_AU_Health_1591532,176,customer,channel2,36,612.48,621.52,Sounds good. Take care.,positive,0.958,False,False,False,False,False
+en_AU_Health_1591532,177,agent,channel1,141,613.72,614.72,Goodbye.,neutral,0.5858,False,False,False,False,False

@@ -1,0 +1,107 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_Health_1588706,channel1,1,0.0,14.16,"Hello, and welcome to the Health Association."
+en_CA_Health_1588706,channel1,2,14.16,15.16,My name is Julia.
+en_CA_Health_1588706,channel1,3,15.16,27.44,How can I help you?
+en_CA_Health_1588706,channel1,4,27.44,28.44,We can do that.
+en_CA_Health_1588706,channel1,5,28.44,31.44,Do you have an account with us already?
+en_CA_Health_1588706,channel1,6,31.44,38.0,"Okay, so then you'll need to go to our website and create an account."
+en_CA_Health_1588706,channel1,7,38.0,45.44,"And from there, I can help you schedule a consultation, or we can do that, or you can"
+en_CA_Health_1588706,channel1,8,45.44,48.44,do that yourself online.
+en_CA_Health_1588706,channel1,9,48.44,53.4,"Yep, that is totally fine."
+en_CA_Health_1588706,channel1,10,53.4,59.4,Are you familiar with how to create an account?
+en_CA_Health_1588706,channel1,11,59.4,75.4,"Okay, can you tell me the username associated with your account, please?"
+en_CA_Health_1588706,channel1,12,75.4,91.4,"Okay, just to confirm that is O-N-H-E-L-T-H, okay."
+en_CA_Health_1588706,channel1,13,91.4,99.8,"And can you confirm your date of birth, please?"
+en_CA_Health_1588706,channel1,14,99.8,106.8,"And your health card number, please?"
+en_CA_Health_1588706,channel1,15,106.8,112.48,"Okay, perfect, that is a match."
+en_CA_Health_1588706,channel1,16,112.48,117.76,"So yes, you'd like to schedule a consultation."
+en_CA_Health_1588706,channel1,17,117.76,122.2,What type of doctor are you looking for?
+en_CA_Health_1588706,channel1,18,123.2,135.2,"Okay, and when would you like this appointment?"
+en_CA_Health_1588706,channel1,19,135.2,141.2,"Absolutely, so we're mostly first come first serve."
+en_CA_Health_1588706,channel1,20,141.2,148.2,"So what that means is you'll, you will submit your request for a consultation."
+en_CA_Health_1588706,channel1,21,148.2,151.2,"And as a doctor becomes available, you will wait in the queue."
+en_CA_Health_1588706,channel1,22,151.2,160.2,And then the doctor will arrive and ask you a bunch of questions.
+en_CA_Health_1588706,channel1,23,160.2,163.2,"That varies, but we're generally very quick."
+en_CA_Health_1588706,channel1,24,163.2,168.2,Less than 20 minutes is how we work.
+en_CA_Health_1588706,channel1,25,168.2,180.2,"If it ends up being more than that, then we will have them reach out to you personally afterwards."
+en_CA_Health_1588706,channel1,26,180.2,196.2,Thank you.
+en_CA_Health_1588706,channel1,27,196.2,198.2,"Yeah, let me look into that."
+en_CA_Health_1588706,channel1,28,198.2,201.2,"Dr. Bramson, you said."
+en_CA_Health_1588706,channel1,29,201.2,204.2,Okay.
+en_CA_Health_1588706,channel1,30,204.2,214.2,The next appointment availability will be on Wednesday at 2 30.
+en_CA_Health_1588706,channel1,31,214.2,218.2,"Okay, then I will book you in."
+en_CA_Health_1588706,channel1,32,218.2,225.2,Would I be able to send you a confirmation at that same email address that you provided me?
+en_CA_Health_1588706,channel1,33,225.2,228.2,Or rather.
+en_CA_Health_1588706,channel1,34,228.2,234.2,Okay.
+en_CA_Health_1588706,channel1,35,234.2,236.2,Yes.
+en_CA_Health_1588706,channel1,36,236.2,241.2,"Okay, that should be arriving into your inbox shortly."
+en_CA_Health_1588706,channel1,37,241.2,249.2,And.
+en_CA_Health_1588706,channel1,38,249.2,253.2,Yes. So that is also included in your confirmation email.
+en_CA_Health_1588706,channel1,39,253.2,259.2,"It tells you everything you need to bring to your appointment, including your health card number."
+en_CA_Health_1588706,channel1,40,259.2,263.2,And some other form of identification.
+en_CA_Health_1588706,channel1,41,263.2,267.2,As well as the current medications that you're on.
+en_CA_Health_1588706,channel1,42,267.2,272.2,How long you've had the condition that you want to discuss what the condition is.
+en_CA_Health_1588706,channel1,43,272.2,280.2,"And so on, just like general information that will help the doctor get up to speed as quickly as possible."
+en_CA_Health_1588706,channel1,44,280.2,286.2,And you will be taken to a form to fill that out.
+en_CA_Health_1588706,channel1,45,286.2,290.2,Once you click the confirmation email.
+en_CA_Health_1588706,channel1,46,290.2,294.2,So you'll fill out all that information that will get sent to the doctor.
+en_CA_Health_1588706,channel1,47,294.2,299.2,And they will be able to review that before your appointment.
+en_CA_Health_1588706,channel1,48,299.2,303.2,Confirm those details at your appointment with you once it begins.
+en_CA_Health_1588706,channel1,49,303.2,311.2,And then then your appointment commences.
+en_CA_Health_1588706,channel1,50,311.2,332.2,I've booked you in for 30 minutes to start. Would you like me to extend that to longer?
+en_CA_Health_1588706,channel1,51,332.2,341.2,"I understand that is why we have this wonderful service here where we're very considerate of doctors times, but also patients times."
+en_CA_Health_1588706,channel1,52,341.2,356.2,And we want to make sure that we have the appropriate length of appointments and that doctors show up at their appointment times.
+en_CA_Health_1588706,channel1,53,356.2,358.2,Absolutely.
+en_CA_Health_1588706,channel1,54,358.2,366.2,Just go over to that section in your profile.
+en_CA_Health_1588706,channel1,55,366.2,381.2,"Okay, and which prescription, which needs to be refilled sir."
+en_CA_Health_1588706,channel1,56,381.2,388.2,"Okay, do you know the last time you refilled it?"
+en_CA_Health_1588706,channel1,57,388.2,393.2,"Okay, I do see one for two months ago, approximately."
+en_CA_Health_1588706,channel1,58,393.2,403.2,The other ones are much older. So it is safe to assume that the two month ago one is the one that you want.
+en_CA_Health_1588706,channel1,59,403.2,407.2,"Perfect. Yeah, that could that checks out."
+en_CA_Health_1588706,channel1,60,407.2,425.2,So I will trigger the refill for you and you'll get an email of your prescription pickup that you can send to the pharmacy of your choice.
+en_CA_Health_1588706,channel1,61,425.2,432.2,So lab tests will be requisitioned for you from your doctor.
+en_CA_Health_1588706,channel1,62,432.2,443.2,"So, following your consultation that you have on Wednesday, the doctor will either request or not some specific lab tests for you."
+en_CA_Health_1588706,channel1,63,443.2,454.2,And those will be sent to you electronically to print off.
+en_CA_Health_1588706,channel1,64,454.2,467.2,"And on the test. So for example, for lab for blood tests, there are usually many around in any area."
+en_CA_Health_1588706,channel1,65,467.2,478.2,"So you'll be able to locate the closest one to you and make either make an appointment with them or walk in, depending on the type of clinic."
+en_CA_Health_1588706,channel1,66,478.2,503.2,"But if it is something more like something, maybe an ultrasound that will go through us, depending on how close you are to one of our facilities."
+en_CA_Health_1588706,channel1,67,503.2,512.2,That is correct.
+en_CA_Health_1588706,channel1,68,512.2,514.2,Yes.
+en_CA_Health_1588706,channel1,69,514.2,527.2,"And from there, from there, it will tell you how you would like to meet this doctor so you can do it over the phone or you could do it over video chat."
+en_CA_Health_1588706,channel1,70,527.2,537.2,And those the link to the video chat will be sent to you if you select that option.
+en_CA_Health_1588706,channel1,71,537.2,546.2,You're very welcome.
+en_CA_Health_1588706,channel1,72,546.2,565.2,Let me know if you have any more questions. Feel free to call us.
+en_CA_Health_1588706,channel2,1,0.0,25.32,"Hi, I'm just calling to schedule a consultation with one of your online doctors for a chronic"
+en_CA_Health_1588706,channel2,2,25.32,49.76,condition that I have. I do not. I would be able to do this over the phone. I'm not
+en_CA_Health_1588706,channel2,3,49.76,61.76,"very comfortable working with things online. Yes, I think actually my son just helped me"
+en_CA_Health_1588706,channel2,4,61.76,78.76,"create it, so we should be good to go to schedule the appointment. Yes, it's O-W-E-N-H-E-L-T-H."
+en_CA_Health_1588706,channel2,5,78.76,87.76,Yes.
+en_CA_Health_1588706,channel2,6,87.76,110.76,"June 19, 1959. AB 372949HH-ON."
+en_CA_Health_1588706,channel2,7,110.76,133.76,"Dermatologist. Would you be able to have any availability this week, or I guess next week"
+en_CA_Health_1588706,channel2,8,133.76,157.76,since it's Friday?
+en_CA_Health_1588706,channel2,9,157.76,178.76,And how long will I have to wait in the queue?
+en_CA_Health_1588706,channel2,10,178.76,185.76,"Okay, because my friend recommended me to your service, and they've been speaking with"
+en_CA_Health_1588706,channel2,11,185.76,192.76,"Dr. Bramson, and so I just wanted to see if I would be able to also request him directly"
+en_CA_Health_1588706,channel2,12,192.76,211.76,instead of having to get a random doctor assigned to me. Yes.
+en_CA_Health_1588706,channel2,13,211.76,231.76,"Yes, that should work. Yes, you can. Yes, yeah. If you just do that, that email, that username,"
+en_CA_Health_1588706,channel2,14,231.76,245.76,"but at gmail.com, you can send it there. Is there anything I need to do to prepare for this"
+en_CA_Health_1588706,channel2,15,245.76,249.76,"appointment, or will it be fine just to show up as is?"
+en_CA_Health_1588706,channel2,16,261.76,289.76,Okay.
+en_CA_Health_1588706,channel2,17,289.76,314.76,And how long does the appointment usually last?
+en_CA_Health_1588706,channel2,18,314.76,324.76,Okay. I think 30 minutes should be fine. I want to make sure that I'm getting seen in an
+en_CA_Health_1588706,channel2,19,324.76,328.76,"appropriate amount of time, because often doctors seem to be in a hurry and then you"
+en_CA_Health_1588706,channel2,20,328.76,349.76,only get five minutes out of them before you rush out the door.
+en_CA_Health_1588706,channel2,21,349.76,369.76,"Great, thank you. And then would I also be able to get a prescription refill through you right now?"
+en_CA_Health_1588706,channel2,22,369.76,376.76,"I can't remember the name of it, but it's an antibiotic ointment that I use for my skin."
+en_CA_Health_1588706,channel2,23,376.76,385.76,"I'm just running low, and you should be on there."
+en_CA_Health_1588706,channel2,24,385.76,399.76,It was about two months ago.
+en_CA_Health_1588706,channel2,25,399.76,417.76,"Yeah, I think I'm looking at the bottle and it says amoxicillin."
+en_CA_Health_1588706,channel2,26,417.76,422.76,"Perfect, thank you. And then if I need to get lab tests done, obviously this is an online"
+en_CA_Health_1588706,channel2,27,422.76,447.76,"service, so how does that work?"
+en_CA_Health_1588706,channel2,28,447.76,451.76,"And then do I just need to find a place myself to get them done, or will they pick a specific"
+en_CA_Health_1588706,channel2,29,477.76,492.76,one?
+en_CA_Health_1588706,channel2,30,492.76,505.76,"Okay, that sounds good. Thank you. So just to confirm, I have an appointment at 2.30 on Wednesday."
+en_CA_Health_1588706,channel2,31,505.76,509.76,And then they will let me know if I need any lab work done.
+en_CA_Health_1588706,channel2,32,509.76,533.76,And I just need to fill out the forms that are in the confirmation email.
+en_CA_Health_1588706,channel2,33,533.76,539.76,"Okay, that sounds good to me. Thank you for your help today."
+en_CA_Health_1588706,channel2,34,539.76,564.76,"And I guess I won't be seeing you, but thank you again. Bye-bye."

@@ -1,0 +1,42 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_AU_Entertainment_1586372,channel1,1,0.0,22.0,"Hi, ABC Entertainment, how can I help you?"
+en_AU_Entertainment_1586372,channel1,2,22.0,37.0,"Okay, thanks Jenny. Can I get some more information which concert it is and how you booked it?"
+en_AU_Entertainment_1586372,channel1,3,37.0,51.0,Yeah. And you never received the confirmation? So the money was deducted from your account?
+en_AU_Entertainment_1586372,channel1,4,51.0,66.0,Have you checked your spam folder? I think the event is in two days. Do you have...
+en_AU_Entertainment_1586372,channel1,5,66.0,75.0,So you didn't receive any confirmation or anything? So which portal did you use? Which website did you use for booking your ticket?
+en_AU_Entertainment_1586372,channel1,6,76.0,100.0,"Okay, that is very strange. So I will need to receive the proof of your purchase to be able to try and retrieve this because you didn't receive your tickets and you don't have any confirmation of this?"
+en_AU_Entertainment_1586372,channel1,7,100.0,116.0,"So without that, I won't be able to actually retrieve this at all unless you provide us with confirmation of your payments and the date, how many tickets was this?"
+en_AU_Entertainment_1586372,channel1,8,121.0,127.0,Did the system ask you to put the name of the attendees?
+en_AU_Entertainment_1586372,channel1,9,128.0,137.0,"Okay, so that might help us to find your tickets. Can you tell me what dates you purchased them?"
+en_AU_Entertainment_1586372,channel1,10,144.0,146.0,"Okay, and how much was the total paid?"
+en_AU_Entertainment_1586372,channel1,11,146.0,174.0,"Okay. Look, this seems like a very popular day and there has been a lot of transactions on that day. I don't know whether I can retrieve them like this, but what I would suggest is if you send us an email and we're looking for this,"
+en_AU_Entertainment_1586372,channel1,12,177.0,196.0,would you like our email address? So that is info at entertainmentinquiries.com.au
+en_AU_Entertainment_1586372,channel1,13,197.0,209.0,"Well, there are physical tickets, but they will need to go through the same processes at the counter when you arrive."
+en_AU_Entertainment_1586372,channel1,14,209.0,226.0,"And for that, I would suggest you really need to arrive a couple of hours earlier so you can do that. And that's very risky because if they can't and it gets busy, they really need to serve the customers because the booths are for purchasing tickets."
+en_AU_Entertainment_1586372,channel1,15,240.0,256.0,"Well, I'm not too sure because he left it till very late to contact us since August and we'll have to see whether that works."
+en_AU_Entertainment_1586372,channel1,16,256.0,268.0,I don't think unfortunately we can process any refunds for you because I don't have any confirmation of the purchase either.
+en_AU_Entertainment_1586372,channel1,17,269.0,288.0,Can you email all of those information through to us so we can have a look? What I can suggest is put urgent in the subject line and please explain that you spoke to me and put your timelines in there as well and we can try and have a look for you.
+en_AU_Entertainment_1586372,channel1,18,289.0,304.0,"If you retrieve, be able to retrieve and identify your booking, what will happen from there is we can send you your tickets, we can email them through to you again."
+en_AU_Entertainment_1586372,channel1,19,305.0,319.0,"And then what you will need to do is either show them on your screen, there will be barcode included that will allow you entry or you can just print them as well either way is fine."
+en_AU_Entertainment_1586372,channel1,20,327.0,329.0,Was there anything else that I can help you with?
+en_AU_Entertainment_1586372,channel1,21,329.0,335.0,Thank you so much. Good luck with that. Bye-bye.
+en_AU_Entertainment_1586372,channel2,1,0.0,21.2,"Hi, my name is Jenny. I booked some tickets to a concert, but I've never received them"
+en_AU_Entertainment_1586372,channel2,2,21.2,28.2,so there were e-tickets. And the concert is in two days. I'm worried about entry.
+en_AU_Entertainment_1586372,channel2,3,36.2,42.2,"Sure, it was the Spice Girls concert and I booked them online."
+en_AU_Entertainment_1586372,channel2,4,42.2,57.2,"No. It was, yes. I have, yes."
+en_AU_Entertainment_1586372,channel2,5,73.2,76.2,"Um, I used your online one."
+en_AU_Entertainment_1586372,channel2,6,76.2,98.2,Yeah.
+en_AU_Entertainment_1586372,channel2,7,106.2,126.2,"Uh, two."
+en_AU_Entertainment_1586372,channel2,8,126.2,142.2,"It did, yes. Yeah, I purchased them the 10th of August this year."
+en_AU_Entertainment_1586372,channel2,9,142.2,148.2,"Uh, 150."
+en_AU_Entertainment_1586372,channel2,10,172.2,192.2,"Yeah. Yes, please. Yeah. Yeah."
+en_AU_Entertainment_1586372,channel2,11,193.2,200.2,"All right, cool. Are there any physical tickets available for pickup?"
+en_AU_Entertainment_1586372,channel2,12,208.2,221.2,"Oh, yeah."
+en_AU_Entertainment_1586372,channel2,13,221.2,236.2,"Okay. Um, if my, if the tickets don't come before the show starts, will I get refunded?"
+en_AU_Entertainment_1586372,channel2,14,251.2,267.2,Okay.
+en_AU_Entertainment_1586372,channel2,15,267.2,287.2,Hmm.
+en_AU_Entertainment_1586372,channel2,16,287.2,303.2,"Okay, yep."
+en_AU_Entertainment_1586372,channel2,17,303.2,319.2,Yeah.
+en_AU_Entertainment_1586372,channel2,18,319.2,322.2,Okay. Okay. Cool.
+en_AU_Entertainment_1586372,channel2,19,322.2,328.2,All right. Thank you.
+en_AU_Entertainment_1586372,channel2,20,328.2,340.2,"Um, no, that's all. Thank you. Thanks."

@@ -1,0 +1,134 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_CA_Food_1590622,channel1,1,0.0,16.0,Hello.
+en_CA_Food_1590622,channel1,2,16.0,31.0,"Oh, awesome."
+en_CA_Food_1590622,channel1,3,31.0,32.0,Okay.
+en_CA_Food_1590622,channel1,4,32.0,33.0,Super.
+en_CA_Food_1590622,channel1,5,33.0,34.0,"So, okay."
+en_CA_Food_1590622,channel1,6,34.0,35.0,So it's for your mom.
+en_CA_Food_1590622,channel1,7,35.0,38.0,Did you say 50th birthday?
+en_CA_Food_1590622,channel1,8,38.0,39.0,Awesome.
+en_CA_Food_1590622,channel1,9,39.0,40.0,Okay.
+en_CA_Food_1590622,channel1,10,40.0,57.0,"Um, where are you holding this?"
+en_CA_Food_1590622,channel1,11,57.0,59.0,"Okay, sure."
+en_CA_Food_1590622,channel1,12,59.0,69.0,"Um, and so I'm assuming they have like tables and chairs and all that stuff already."
+en_CA_Food_1590622,channel1,13,69.0,80.0,Okay.
+en_CA_Food_1590622,channel1,14,80.0,82.0,"Sure, no problem."
+en_CA_Food_1590622,channel1,15,82.0,84.0,"Um, okay."
+en_CA_Food_1590622,channel1,16,84.0,87.0,"And, um,"
+en_CA_Food_1590622,channel1,17,87.0,96.0,"I don't know if who does your mom like what and her, her guests, like, um, we, we, we do multiple different cuisines, but I'm curious what, what does she like."
+en_CA_Food_1590622,channel1,18,96.0,124.0,Okay.
+en_CA_Food_1590622,channel1,19,124.0,129.0,"Oh, I love that. So it's like around the world."
+en_CA_Food_1590622,channel1,20,129.0,132.0,Is this a lunch or a dinner?
+en_CA_Food_1590622,channel1,21,154.0,161.0,Okay.
+en_CA_Food_1590622,channel1,22,161.0,165.0,Okay.
+en_CA_Food_1590622,channel1,23,165.0,176.0,"All right. Are there any particular cuisines? Like I know you said exotic, but like, are there any particular cuisines that she really, really loves?"
+en_CA_Food_1590622,channel1,24,176.0,193.0,Okay.
+en_CA_Food_1590622,channel1,25,193.0,204.0,Okay.
+en_CA_Food_1590622,channel1,26,204.0,227.0,"Sounds great. Um, are there any dietary issues that I should know about?"
+en_CA_Food_1590622,channel1,27,227.0,236.0,Yep.
+en_CA_Food_1590622,channel1,28,236.0,239.0,Okay. Okay. I've got you.
+en_CA_Food_1590622,channel1,29,239.0,254.0,"Sure. So like,"
+en_CA_Food_1590622,channel1,30,254.0,264.0,"for sure, we have a standard, um, basically amount of food per person, and then we charge, um, and then we do the pricing based on that."
+en_CA_Food_1590622,channel1,31,264.0,278.0,"Um, obviously, if, if you're getting more meats or more foods that are more complex, then it's more expensive than simple things."
+en_CA_Food_1590622,channel1,32,278.0,287.0,"Um, but based, um, based on your budget, um, I can come up with like a sample menu for you."
+en_CA_Food_1590622,channel1,33,287.0,305.0,"Um, I think it kind of ranges from like the very lowest would be $10 per person and the most would be like $50 per person."
+en_CA_Food_1590622,channel1,34,305.0,314.0,"Um, what's that? That's a pretty generous budget. So, um, we would be able to do several meat dishes, several vegetarian dishes, several side dishes."
+en_CA_Food_1590622,channel1,35,314.0,322.0,"Um, but it being buffet style, like it'll still be food that's quite portable."
+en_CA_Food_1590622,channel1,36,322.0,336.0,"So like think samosas, um, think, um, non bread and a chickpea curry and a chicken, like a butter chicken."
+en_CA_Food_1590622,channel1,37,336.0,351.0,"Um, we could do this one's been really popular lately is a first station where like we have all the toppings laid out and you kind of make your own football."
+en_CA_Food_1590622,channel1,38,351.0,361.0,"Yeah, and that way people get to customize like what herbs and like what meats or veggies they put in the noodles and the broth are sort of like the standard."
+en_CA_Food_1590622,channel1,39,361.0,377.0,"And then yeah, the toppings are as you like. Um, are you going to be bringing in baking or are you looking to have a dessert?"
+en_CA_Food_1590622,channel1,40,377.0,382.0,"Okay. Okay. You're covered on that. Um,"
+en_CA_Food_1590622,channel1,41,386.0,397.0,"Okay. All right. So, um, we could do like dumplings."
+en_CA_Food_1590622,channel1,42,397.0,406.0,Or is that overkill on the dumplings if we do dumplings and samosas?
+en_CA_Food_1590622,channel1,43,406.0,416.0,"Yeah. Well, you know what? I'm going to think about it a little bit and come up with a few options for you so that you can review."
+en_CA_Food_1590622,channel1,44,416.0,430.0,"And, and then I'll include the pricing for the different options with a little bit of variation so that you can choose like you can see what kind of works best."
+en_CA_Food_1590622,channel1,45,430.0,445.0,"Um, also keeping in mind that if there's a few kids to have a few sort of kid friendly items as well."
+en_CA_Food_1590622,channel1,46,445.0,448.0,"Uh, we just need half an hour."
+en_CA_Food_1590622,channel1,47,448.0,459.0,"Yeah, everything will already be in the the chafing dishes when we bring it to the community center. So we just have to basically pop them on."
+en_CA_Food_1590622,channel1,48,459.0,467.0,And we normally bring white linens as well for the buffet table.
+en_CA_Food_1590622,channel1,49,467.0,485.0,"And then we would need, you know, the standard sort of like rectangle size tables like the six foot tables we'd need at least two of them."
+en_CA_Food_1590622,channel1,50,485.0,492.0,Sounds good. I'll get that sample menu all worked out for you. I should be able to send it by the end of the day.
+en_CA_Food_1590622,channel1,51,492.0,499.0,I just need your email address and I can send that to you.
+en_CA_Food_1590622,channel1,52,499.0,502.0,BDAY.
+en_CA_Food_1590622,channel1,53,502.0,504.0,"Hi, zero."
+en_CA_Food_1590622,channel1,54,504.0,512.0,"Gmail.com. Wonderful. Well, thank you so much for calling and I look forward to chatting with you again."
+en_CA_Food_1590622,channel1,55,512.0,514.0,Bye.
+en_CA_Food_1590622,channel2,1,0.0,17.84,Hi there.
+en_CA_Food_1590622,channel2,2,17.84,23.56,I am looking for some catering for my mom's upcoming 50th birthday and a friend of mine
+en_CA_Food_1590622,channel2,3,23.56,26.56,had passed along your information so I just thought I'd see if this is going to be the
+en_CA_Food_1590622,channel2,4,26.6,29.16,right fit and you know if it if it makes sense.
+en_CA_Food_1590622,channel2,5,37.16,37.56,Yeah.
+en_CA_Food_1590622,channel2,6,43.56,47.76,We're just going to hold it at the community center down the street because she wants about 30
+en_CA_Food_1590622,channel2,7,47.76,51.56,people and we I mean we could make it a house party but it'll be a little tight.
+en_CA_Food_1590622,channel2,8,51.56,55.76,So I thought with all the you know families and kids running around for it community
+en_CA_Food_1590622,channel2,9,55.76,56.36,center is better.
+en_CA_Food_1590622,channel2,10,64.56,68.56,They do have tables and chairs but I don't think we have access to the kitchen.
+en_CA_Food_1590622,channel2,11,68.96,74.96,So I don't think we have like we can have water but I don't think we have like an oven or
+en_CA_Food_1590622,channel2,12,74.96,78.56,a stove or anything so we would need like heating shapers if that's the route we
+en_CA_Food_1590622,channel2,13,78.56,79.36,go with the menu.
+en_CA_Food_1590622,channel2,14,86.76,87.76,Well.
+en_CA_Food_1590622,channel2,15,92.76,99.76,Well my mom loves to travel and so like we're planning on inviting probably about 30 adults
+en_CA_Food_1590622,channel2,16,99.76,103.76,and then like their kids or whatever but like the main portion of food would be for
+en_CA_Food_1590622,channel2,17,103.76,108.76,to cover about 30 adults and they want to go more exotic.
+en_CA_Food_1590622,channel2,18,108.76,112.76,They don't want you that they know they don't want funeral sandwiches.
+en_CA_Food_1590622,channel2,19,112.76,118.76,They want like hot spicy different foreign cuisines or they're like samplers.
+en_CA_Food_1590622,channel2,20,118.76,120.76,They want to try a bunch of different stuff.
+en_CA_Food_1590622,channel2,21,123.76,124.76,Yes exactly.
+en_CA_Food_1590622,channel2,22,128.76,129.76,Great question.
+en_CA_Food_1590622,channel2,23,130.76,134.76,So thinking about timing I have the community center from like 4pm on
+en_CA_Food_1590622,channel2,24,134.76,138.76,word until it closes because there's nothing that night and we did say families are
+en_CA_Food_1590622,channel2,25,138.76,141.76,welcome because I understand they have to like some of the people have kids that
+en_CA_Food_1590622,channel2,26,141.76,146.76,are still in school so to pick them up so I'm thinking not a sit down dinner but
+en_CA_Food_1590622,channel2,27,146.76,151.76,definitely enough food that you could walk around with a plate and there will
+en_CA_Food_1590622,channel2,28,151.76,153.76,be tables to sit at so more of a buffet.
+en_CA_Food_1590622,channel2,29,153.76,155.76,Yeah let's say like buffet style dinner.
+en_CA_Food_1590622,channel2,30,164.76,179.76,Well she really loves South Asian food and when they retire in a few years they're
+en_CA_Food_1590622,channel2,31,179.76,185.76,"planning on doing a trip from like North, well North part of South Korea all the"
+en_CA_Food_1590622,channel2,32,185.76,189.76,way down through to Australia and then back up through India and over so really
+en_CA_Food_1590622,channel2,33,189.76,193.76,anything on the other side of the world is pretty fair game.
+en_CA_Food_1590622,channel2,34,193.76,201.76,But definitely like Indian food is a huge hit and also like Thai and Vietnamese
+en_CA_Food_1590622,channel2,35,201.76,202.76,and stuff like that.
+en_CA_Food_1590622,channel2,36,211.76,215.76,No I think everyone that's coming we're good on allergies.
+en_CA_Food_1590622,channel2,37,215.76,218.76,We can definitely have seafood I know that so that's not a concern.
+en_CA_Food_1590622,channel2,38,218.76,220.76,We can definitely have peanuts.
+en_CA_Food_1590622,channel2,39,220.76,224.76,There's a few people that air on the side of vegetarian but I know with this cuisine
+en_CA_Food_1590622,channel2,40,224.76,229.76,a lot of dishes are vegetarian anyway so I feel like there would already be a mix.
+en_CA_Food_1590622,channel2,41,229.76,236.76,The only thing I would maybe stay away from is stuff that's too too spicy or too hot.
+en_CA_Food_1590622,channel2,42,236.76,237.76,Yeah.
+en_CA_Food_1590622,channel2,43,240.76,245.76,And how can I just ask about like your packages do you do it based on like the
+en_CA_Food_1590622,channel2,44,245.76,249.76,quantity of food because it's above or do you do it because it's above a like number
+en_CA_Food_1590622,channel2,45,249.76,253.76,of heads and you kind of guesstimate how much food it is based on the number of
+en_CA_Food_1590622,channel2,46,253.76,254.76,people that are eating.
+en_CA_Food_1590622,channel2,47,276.76,277.76,Okay.
+en_CA_Food_1590622,channel2,48,297.76,302.76,Okay well I think we're probably like mid range or probably like 30 to $35 per person.
+en_CA_Food_1590622,channel2,49,306.76,307.76,Okay.
+en_CA_Food_1590622,channel2,50,322.76,323.76,Yeah.
+en_CA_Food_1590622,channel2,51,323.76,335.76,Yeah that sounds good.
+en_CA_Food_1590622,channel2,52,335.76,336.76,I like it.
+en_CA_Food_1590622,channel2,53,348.76,351.76,That sounds really fun I think my mom's friends would like that.
+en_CA_Food_1590622,channel2,54,353.76,354.76,Yeah.
+en_CA_Food_1590622,channel2,55,365.76,366.76,Nice.
+en_CA_Food_1590622,channel2,56,371.76,377.76,I think we're not really doing dessert because well we have one large cake that we're doing.
+en_CA_Food_1590622,channel2,57,377.76,378.76,Yeah.
+en_CA_Food_1590622,channel2,58,379.76,384.76,Yeah and then we're also bringing in like a separate bar as well with bartenders so we're
+en_CA_Food_1590622,channel2,59,384.76,386.76,good for drinks as well.
+en_CA_Food_1590622,channel2,60,396.76,397.76,Oh yeah.
+en_CA_Food_1590622,channel2,61,401.76,405.76,I don't think so I mean I think if it's one and one as opposed to like four and four
+en_CA_Food_1590622,channel2,62,405.76,406.76,you know that'd be fine.
+en_CA_Food_1590622,channel2,63,408.76,409.76,Yeah.
+en_CA_Food_1590622,channel2,64,416.76,417.76,Yeah that sounds good.
+en_CA_Food_1590622,channel2,65,417.76,418.76,Yeah.
+en_CA_Food_1590622,channel2,66,435.76,440.76,Mm-hmm and how much set up time do you need like if I get access to the hall at four when
+en_CA_Food_1590622,channel2,67,440.76,443.76,would you be ready to go?
+en_CA_Food_1590622,channel2,68,444.76,447.76,Oh okay perfect.
+en_CA_Food_1590622,channel2,69,457.76,458.76,That's nice.
+en_CA_Food_1590622,channel2,70,474.76,478.76,Yeah for sure.
+en_CA_Food_1590622,channel2,71,478.76,482.76,Okay so I'm going to make the invitation for five then and you guys can come any time after
+en_CA_Food_1590622,channel2,72,482.76,483.76,four.
+en_CA_Food_1590622,channel2,73,494.76,495.76,Mm-hmm for sure.
+en_CA_Food_1590622,channel2,74,495.76,498.76,It's B-D-A-U-Y.
+en_CA_Food_1590622,channel2,75,500.76,501.76,Five zero.
+en_CA_Food_1590622,channel2,76,502.76,503.76,And gmail.com.
+en_CA_Food_1590622,channel2,77,509.76,510.76,Yeah thanks so much.
+en_CA_Food_1590622,channel2,78,510.76,511.76,Talk to you later.

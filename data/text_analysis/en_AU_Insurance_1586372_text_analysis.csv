@@ -1,0 +1,79 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Insurance_1586372,1,agent,channel1,1,0.0,18.0,"Hi, thanks for calling R&CB Insurance, how can I help you?",neutral,0.5091,False,False,True,False,False
+en_AU_Insurance_1586372,2,customer,channel2,1,0.0,22.56,"Hi, my name's Jenny and we just had a car crash and I just need to follow a car insurance",negative,0.7542,False,False,False,False,False
+en_AU_Insurance_1586372,3,agent,channel1,2,18.0,29.0,"Yeah, I should be able to, sorry, are you the policy holder?",neutral,0.828,False,False,True,False,False
+en_AU_Insurance_1586372,4,customer,channel2,2,22.56,23.56,claim.,neutral,0.7163,False,False,False,False,False
+en_AU_Insurance_1586372,5,customer,channel2,3,23.56,30.16,Do you want to help me with that?,neutral,0.8776,False,False,False,False,False
+en_AU_Insurance_1586372,6,agent,channel1,3,29.0,36.0,"You are the policy holder, and okay, yeah, we can help you with that.",neutral,0.7322,False,False,False,False,False
+en_AU_Insurance_1586372,7,customer,channel2,4,30.16,35.16,"I am, yes.",neutral,0.619,False,False,False,False,False
+en_AU_Insurance_1586372,8,customer,channel2,5,35.16,49.96,"Yes, I do.",neutral,0.6376,False,False,False,False,False
+en_AU_Insurance_1586372,9,agent,channel1,4,36.0,42.0,Just give me one second so I can bring your policy up.,neutral,0.7341,False,False,False,False,False
+en_AU_Insurance_1586372,10,agent,channel1,5,42.0,45.0,Do you have your policy number on you?,neutral,0.9446,False,False,True,False,False
+en_AU_Insurance_1586372,11,agent,channel1,6,46.0,48.0,"Okay, what's your policy number?",neutral,0.9384,False,False,True,False,False
+en_AU_Insurance_1586372,12,customer,channel2,6,49.96,79.52,"It's 159 42190, yes it was.",neutral,0.8225,False,False,False,False,False
+en_AU_Insurance_1586372,13,agent,channel1,7,54.0,56.0,42190?,neutral,0.8407,False,False,True,False,False
+en_AU_Insurance_1586372,14,agent,channel1,8,59.0,61.0,"Jenny, was it?",neutral,0.9216,False,False,True,False,False
+en_AU_Insurance_1586372,15,agent,channel1,9,61.0,63.0,"Yeah, okay.",neutral,0.5556,False,False,False,False,False
+en_AU_Insurance_1586372,16,agent,channel1,10,63.0,66.0,"Alright, thanks Jenny, I've got your policy here.",positive,0.6714,False,False,False,False,False
+en_AU_Insurance_1586372,17,agent,channel1,11,66.0,78.0,"Can you explain the circumstances, what happened, where was it, and what you are claiming today?",neutral,0.9294,False,False,True,False,False
+en_AU_Insurance_1586372,18,customer,channel2,7,79.52,88.56,"Sure, we were coming out of McDonald's on David Street in Sydney and I was turning right and",neutral,0.8803,False,False,False,False,False
+en_AU_Insurance_1586372,19,customer,channel2,8,88.56,93.6,there was a car coming and he just went straight through the red light and he didn't smash,neutral,0.7599,False,False,False,False,False
+en_AU_Insurance_1586372,20,customer,channel2,9,93.6,102.04,it into the driver's side of the car which pushed my car into a parked car so all three,neutral,0.8626,False,False,False,False,False
+en_AU_Insurance_1586372,21,agent,channel1,12,96.0,113.0,"Oh wow, so that might be the case for a write-off, but okay, was there a police at the incident?",neutral,0.5901,False,False,True,False,False
+en_AU_Insurance_1586372,22,customer,channel2,10,102.04,113.04,cars were damaged.,negative,0.7798,False,False,False,False,False
+en_AU_Insurance_1586372,23,agent,channel1,13,113.0,115.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Insurance_1586372,24,customer,channel2,11,113.04,114.04,Police did you say?,neutral,0.8068,False,False,False,False,False
+en_AU_Insurance_1586372,25,customer,channel2,12,114.04,121.2,"Yeah, the police did come and the guy who ran the red light was actually drunk.",negative,0.6076,False,False,False,False,False
+en_AU_Insurance_1586372,26,agent,channel1,14,116.0,122.0,"Right, okay, okay, are you feeling okay?",neutral,0.7367,False,False,True,False,False
+en_AU_Insurance_1586372,27,customer,channel2,13,121.2,130.2,"Oh yes, yeah.",positive,0.8761,False,False,False,False,False
+en_AU_Insurance_1586372,28,agent,channel1,15,122.0,125.0,Was there all the passengers were fine?,neutral,0.707,False,False,True,False,False
+en_AU_Insurance_1586372,29,agent,channel1,16,125.0,131.0,"Okay, so did you receive any police reports?",neutral,0.9304,False,False,True,False,False
+en_AU_Insurance_1586372,30,customer,channel2,14,130.2,137.92,"Yes, I've received the police report and they said to give it to my insurance company and",neutral,0.8898,False,False,False,False,False
+en_AU_Insurance_1586372,31,agent,channel1,17,136.0,141.0,"Okay, that's fine.",positive,0.5985,False,False,False,False,False
+en_AU_Insurance_1586372,32,customer,channel2,15,137.92,155.92,I've also received some photos as well.,neutral,0.7863,False,False,False,False,False
+en_AU_Insurance_1586372,33,agent,channel1,18,141.0,146.0,"Okay, alright, so what will happen is we have two options.",neutral,0.8123,False,False,False,False,False
+en_AU_Insurance_1586372,34,agent,channel1,19,146.0,150.0,Our preferred option is for you to actually go online.,neutral,0.8402,False,False,False,False,False
+en_AU_Insurance_1586372,35,agent,channel1,20,150.0,156.0,What I can do is send you an email with the link where you will create an incident report.,neutral,0.9202,False,False,True,False,False
+en_AU_Insurance_1586372,36,customer,channel2,16,155.92,184.92,"Oh yes, I've received the police report and they said to give it to my insurance company",neutral,0.7995,False,False,False,False,False
+en_AU_Insurance_1586372,37,agent,channel1,21,156.0,161.0,What you will do is you will put all the information you just mentioned.,neutral,0.8868,False,False,True,False,False
+en_AU_Insurance_1586372,38,agent,channel1,22,161.0,163.0,You will need to attach some documents.,neutral,0.8779,False,False,False,False,False
+en_AU_Insurance_1586372,39,agent,channel1,23,163.0,180.0,People will ask you for photos if you have photos of the incident as well as photos of the other parties involved like the number plates or the driver's license if you did take any of those.,neutral,0.8774,False,False,False,False,False
+en_AU_Insurance_1586372,40,agent,channel1,24,180.0,185.0,And at some stage it will also ask for the police report.,neutral,0.8067,False,False,False,False,False
+en_AU_Insurance_1586372,41,agent,channel1,25,185.0,198.0,"So you will need to attach all of those to your application and then once we receive it, we will start the review process.",neutral,0.917,False,False,False,False,True
+en_AU_Insurance_1586372,42,customer,channel2,17,185.92,194.92,Oh yes.,positive,0.7728,False,False,False,False,False
+en_AU_Insurance_1586372,43,customer,channel2,18,194.92,204.92,"Okay, can I please confirm if I'm covered or not?",neutral,0.8985,False,False,False,False,False
+en_AU_Insurance_1586372,44,agent,channel1,26,198.0,207.0,"You have the comprehensive insurance, so you will be covered, but you have two options here.",neutral,0.6962,False,False,False,False,False
+en_AU_Insurance_1586372,45,agent,channel1,27,207.0,213.0,"Since you were not at fault, it really depends what the other party would do.",negative,0.5352,False,False,False,False,False
+en_AU_Insurance_1586372,46,agent,channel1,28,213.0,215.0,You are saying they were drunk.,neutral,0.6363,False,False,False,False,False
+en_AU_Insurance_1586372,47,customer,channel2,19,214.92,239.92,"Yeah, okay.",neutral,0.5556,False,False,False,False,False
+en_AU_Insurance_1586372,48,agent,channel1,29,215.0,225.0,I don't know whether you agreed on any processes with them or you just decided to go ahead with your own insurance.,neutral,0.7103,False,False,False,False,False
+en_AU_Insurance_1586372,49,agent,channel1,30,225.0,233.0,Because what will happen from here is you could claim it through the other party's insurance if you wish.,neutral,0.9011,False,False,False,False,False
+en_AU_Insurance_1586372,50,agent,channel1,31,233.0,250.0,"But if you want to go ahead, what we will do is if we can receive the contact information the other party involved, we can try and recoup your access fees through them.",neutral,0.8206,False,False,False,True,False
+en_AU_Insurance_1586372,51,customer,channel2,20,239.92,268.92,"I think I'd rather just go through my insurance company, sounds a bit easier.",neutral,0.7217,False,False,False,False,False
+en_AU_Insurance_1586372,52,agent,channel1,32,250.0,252.0,"Okay, that's not a problem at all.",neutral,0.536,False,False,False,False,False
+en_AU_Insurance_1586372,53,agent,channel1,33,252.0,259.0,"Yeah, but what that means is we will charge you for the access and then we will try to recoup that down the track.",neutral,0.9173,False,False,False,False,False
+en_AU_Insurance_1586372,54,agent,channel1,34,259.0,270.0,"There is a slight risk that if you can't find them, the process might take a lot longer until we can get hold of them and receive the payment.",negative,0.6228,False,False,False,False,False
+en_AU_Insurance_1586372,55,customer,channel2,21,268.92,269.92,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Insurance_1586372,56,customer,channel2,22,269.92,278.92,"Okay, yeah.",neutral,0.682,False,False,False,False,False
+en_AU_Insurance_1586372,57,agent,channel1,35,270.0,276.0,And that's where you will receive the refund on the access that you have paid us.,neutral,0.7862,False,False,False,False,True
+en_AU_Insurance_1586372,58,agent,channel1,36,276.0,278.0,"Yeah, okay.",neutral,0.5556,False,False,False,False,False
+en_AU_Insurance_1586372,59,agent,channel1,37,278.0,293.0,"So if you have all the information, what you will need to do is to go to the portal, put your incident report in and fill out all the information.",neutral,0.9252,False,False,False,False,False
+en_AU_Insurance_1586372,60,agent,channel1,38,293.0,306.0,Our officers will go through like the claim resolution and their timelines will really vary depending on how quickly we can get all the information that we need.,neutral,0.8902,False,False,False,False,False
+en_AU_Insurance_1586372,61,customer,channel2,23,298.92,327.92,"Oh yeah, yeah.",positive,0.6407,False,False,False,False,False
+en_AU_Insurance_1586372,62,agent,channel1,39,306.0,318.0,"And what you will then need to do is probably take your car in for an assessment because from what I'm hearing, it might even be a write-off case.",neutral,0.841,False,False,False,False,False
+en_AU_Insurance_1586372,63,agent,channel1,40,318.0,321.0,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Insurance_1586372,64,agent,channel1,41,321.0,338.0,"So you can, yeah, the information will be provided by the case officer that gets allocated to your file and they will either unlikely that they will be an adjuster.",neutral,0.908,False,False,False,False,False
+en_AU_Insurance_1586372,65,customer,channel2,24,327.92,356.92,"Okay, yeah, sounds good.",positive,0.9481,False,False,False,False,False
+en_AU_Insurance_1586372,66,agent,channel1,42,338.0,353.0,"In most cases, you will be requested to take your car to one of our registered car services and then they will do the assessment on your car for you.",neutral,0.9095,False,False,False,False,False
+en_AU_Insurance_1586372,67,agent,channel1,43,353.0,354.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Insurance_1586372,68,agent,channel1,44,354.0,363.0,So was there anything else that I can help you with?,neutral,0.9096,False,False,True,True,False
+en_AU_Insurance_1586372,69,customer,channel2,25,357.92,385.92,"Um, will it adjust to call me directly?",neutral,0.8491,False,False,False,False,False
+en_AU_Insurance_1586372,70,agent,channel1,45,363.0,386.0,"Well, that's the thing. If they will contact you directly, whether it will be via phone or via email, I cannot really confirm that because it depends on your location and which car service you are closest to and which one does have the availability for you.",neutral,0.7801,False,False,False,False,False
+en_AU_Insurance_1586372,71,customer,channel2,26,385.92,409.92,"Okay, cool, that sounds good.",positive,0.9671,False,False,False,False,False
+en_AU_Insurance_1586372,72,agent,channel1,46,386.0,402.0,"But once you provide all your contact details in the application, they will contact you directly either via phone or email and then book you in for an assessment.",neutral,0.899,False,False,False,False,False
+en_AU_Insurance_1586372,73,agent,channel1,47,402.0,403.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Insurance_1586372,74,agent,channel1,48,403.0,411.0,Thank you very much and good luck with that. Please feel free to contact us if you need any additional help.,positive,0.9496,False,False,False,False,False
+en_AU_Insurance_1586372,75,customer,channel2,27,409.92,414.92,"I will, thank you.",positive,0.8565,False,False,False,False,False
+en_AU_Insurance_1586372,76,agent,channel1,49,411.0,414.0,Thank you so much. Bye-bye.,positive,0.9231,False,False,False,False,False
+en_AU_Insurance_1586372,77,customer,channel2,28,414.92,424.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Insurance_1586372,78,customer,channel2,29,424.92,435.92,Okay.,neutral,0.5693,False,False,False,False,False

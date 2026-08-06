@@ -1,0 +1,66 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_AU_Energy_1586372,channel1,1,0.0,10.0,"Hi, thanks for contacting Origin Energy. My name is Emily Her. Can I help you today?"
+en_AU_Energy_1586372,channel1,2,10.0,26.52,"Hi, Jenny. Yeah, sure. I can definitely help you with that. Can I ask if you would like"
+en_AU_Energy_1586372,channel1,3,26.52,35.96,"to transfer to your new home, your existing energy, or you are a new customer? New customer,"
+en_AU_Energy_1586372,channel1,4,35.96,42.92,"okay. So for new customers, we'll need to set up your account and we have a couple of options here"
+en_AU_Energy_1586372,channel1,5,42.92,50.36,"that you can choose from. But before I proceed with that, electricity is the only connection that"
+en_AU_Energy_1586372,channel1,6,50.44,64.04,"you're after today. Okay, no problem. So I will need to receive some information from you. Can"
+en_AU_Energy_1586372,channel1,7,64.04,73.72,you please come from your full name for me? Yep. And you will be the account holder.
+en_AU_Energy_1586372,channel1,8,74.12,82.92,The solar. Yep. Okay. Yep. And what is your residential address? Is that a residential
+en_AU_Energy_1586372,channel1,9,82.92,87.56,"address that you are connecting? I said you knew your home. Yeah. Okay, what's the full address,"
+en_AU_Energy_1586372,channel1,10,87.56,109.32,"please? What's the post coming? Okay, thank you so much. And what's your best contact number, Jenny?"
+en_AU_Energy_1586372,channel1,11,109.32,126.2,"Yeah. 2514, was it? Okay. And would you like us to put your email address on the account?"
+en_AU_Energy_1586372,channel1,12,126.2,146.52,"Yeah. Okay, what's your email address? Yep. Yep. Yep. Okay, fantastic. Thank you so much."
+en_AU_Energy_1586372,channel1,13,147.16,156.92,"And can I also receive, can I also confirm that you wouldn't have any additional"
+en_AU_Energy_1586372,channel1,14,158.36,170.28,"account holders here? All right, that's not a problem. I will need to also check with you if"
+en_AU_Energy_1586372,channel1,15,170.36,174.68,you have any assisted medical equipment in the house.
+en_AU_Energy_1586372,channel1,16,178.76,188.6,Yeah. Okay. All right. So we just need to make a note of that in case of any emergencies and
+en_AU_Energy_1586372,channel1,17,188.6,200.36,any outages. All right. Okay. The good news is there is service available in your area and we
+en_AU_Energy_1586372,channel1,18,200.36,210.28,can go ahead with this connection. I just need to get some more details from you. So when would
+en_AU_Energy_1586372,channel1,19,210.36,220.36,you like the electricity to be available at your new address? Sure.
+en_AU_Energy_1586372,channel1,20,228.12,232.84,That's not a problem at all. We can actually connect them as soon as like this afternoon for
+en_AU_Energy_1586372,channel1,21,232.84,240.04,"you. So next Tuesday, I will put that as your connection. So your billings will start from the"
+en_AU_Energy_1586372,channel1,22,240.04,258.12,"fifth and yeah, sure. There is, but it's very minimal. It's about $12 for the installation"
+en_AU_Energy_1586372,channel1,23,258.12,267.32,and it's a one-off fee. This will get added to your first bill and then from there on and there
+en_AU_Energy_1586372,channel1,24,267.32,284.52,won't be any other charges on that. Yes. So our billing services is done on a quarterly basis
+en_AU_Energy_1586372,channel1,25,285.08,293.64,and what will happen is generally it's on there is a monthly fee and like the service fee and then
+en_AU_Energy_1586372,channel1,26,293.64,299.4,there is a usage fee. Obviously usage will be dependent on you and all of these is provided in
+en_AU_Energy_1586372,channel1,27,299.4,306.28,the breakdown format. So you will actually receive all of those on your bills. Would you like to
+en_AU_Energy_1586372,channel1,28,307.08,316.2,receive your bills on a paper format or online? Online. Okay. So that will come to your email that
+en_AU_Energy_1586372,channel1,29,316.2,322.68,"you provided and all the due dates and the cycles and the dates that are charged, including the"
+en_AU_Energy_1586372,channel1,30,322.76,325.88,peak and unpeak hours will be listed in your bills.
+en_AU_Energy_1586372,channel1,31,335.32,342.68,"No, no, no. We do have two options and we have a deal for this month that it's called the green"
+en_AU_Energy_1586372,channel1,32,342.68,351.96,savings. So the green savings is very suitable for people who don't really use a lot of energy
+en_AU_Energy_1586372,channel1,33,351.96,359.0,"throughout the day. You know, like we have a lot of people who are not at home throughout the day and"
+en_AU_Energy_1586372,channel1,34,359.0,367.4,most of the electricity usage is at night and this will give them a lot of bonuses in that sense.
+en_AU_Energy_1586372,channel1,35,367.4,373.16,So what that means is the rates applied throughout the days are slightly cheaper.
+en_AU_Energy_1586372,channel1,36,374.44,378.6,So that will really depend on your lifestyle. Is that the one that you would like to go?
+en_AU_Energy_1586372,channel1,37,379.0,388.92,"Your home all day. So if you're home all day, I suggest our regular services would probably suit you best."
+en_AU_Energy_1586372,channel1,38,391.88,400.36,"Okay, no problem. So Jenny, you will receive a confirmation of your account creation as well as"
+en_AU_Energy_1586372,channel1,39,400.36,406.68,the installation date that is booked for you next Tuesday in your email account soon. And
+en_AU_Energy_1586372,channel1,40,407.24,410.36,"if you have any other questions, please feel free to call us back."
+en_AU_Energy_1586372,channel1,41,413.08,422.6,"Thank you and good luck with the move. Thanks, bye-bye."
+en_AU_Energy_1586372,channel2,1,0.0,15.28,"Hi, my name is Jenny and I'm just moving to a new address and I'm looking at getting electricity"
+en_AU_Energy_1586372,channel2,2,15.28,34.28,"into my house. And I was wondering if you could help me with that? Oh no, I'd like to be a"
+en_AU_Energy_1586372,channel2,3,34.28,61.28,"new customer, please. At the moment it's the only one. We're just doing it slowly, yep."
+en_AU_Energy_1586372,channel2,4,62.28,86.28,"Yeah, it's Jennifer Carol O'Brien. Oh, it will be yes. Yes."
+en_AU_Energy_1586372,channel2,5,86.28,101.28,"It will be 31 David Street, Sydney. 41225."
+en_AU_Energy_1586372,channel2,6,101.28,118.28,04 419 2514. Yeah.
+en_AU_Energy_1586372,channel2,7,118.28,129.28,"Yeah. Um, yes, please. Yes, yes."
+en_AU_Energy_1586372,channel2,8,129.28,143.28,"It's Jenny, all lower cases, triple one, 2018 at Outlock.com."
+en_AU_Energy_1586372,channel2,9,160.28,175.28,"No, yeah, no, it's just me."
+en_AU_Energy_1586372,channel2,10,175.28,181.28,I do. I have a make alarm. Yeah.
+en_AU_Energy_1586372,channel2,11,205.28,234.28,"Um, well, we move in on Wednesday. So I would really like it available the day before, so Tuesday, the next Tuesday, so the fifth of November."
+en_AU_Energy_1586372,channel2,12,234.28,247.28,Okay. Yeah.
+en_AU_Energy_1586372,channel2,13,247.28,260.28,"Um, just a question, sorry. Are there any installation charges?"
+en_AU_Energy_1586372,channel2,14,260.28,265.28,"Okay, cool. No, that's all right."
+en_AU_Energy_1586372,channel2,15,265.28,271.28,"Oh, yeah."
+en_AU_Energy_1586372,channel2,16,271.28,300.28,"Um, just about the billing cycles. How does it present itself like? How does it go?"
+en_AU_Energy_1586372,channel2,17,300.28,327.28,"Um, online, please."
+en_AU_Energy_1586372,channel2,18,327.28,333.28,Cool. And do you just one more question? Do you have any optional plans?
+en_AU_Energy_1586372,channel2,19,333.28,336.28,"Oh, are they all the same?"
+en_AU_Energy_1586372,channel2,20,363.28,379.28,Right.
+en_AU_Energy_1586372,channel2,21,379.28,389.28,"Um, no, I'm home all day."
+en_AU_Energy_1586372,channel2,22,389.28,411.28,"All right, that sounds like a plan. Thank you."
+en_AU_Energy_1586372,channel2,23,411.28,415.28,"Okay, that'd be great. Thank you."
+en_AU_Energy_1586372,channel2,24,415.28,421.28,Thank you. Bye.

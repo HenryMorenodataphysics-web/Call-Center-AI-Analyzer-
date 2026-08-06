@@ -1,0 +1,413 @@
+{
+  "contract_version": "1.0.0",
+  "contract_id": "ai_analyzer_analytical_contract_v1",
+  "status": "portfolio_demo",
+  "dataset_release_id": "apptek_100_calls_v1",
+  "source_dataset": "apptek-com/apptek_callcenter_dialogues",
+  "canonical_sources": {
+    "call_registry": "data/metadata/calls_metadata.csv",
+    "turn_analysis": "data/final_outputs/*_turn_fusion.csv",
+    "call_analysis": "data/final_outputs/*_call_summary.csv",
+    "all_calls": "data/final_outputs/all_calls_summary.csv",
+    "agent_analysis": "data/dashboard_data/agent_dashboard_summary.csv"
+  },
+  "models": {
+    "asr": {
+      "provider": "faster-whisper",
+      "model_id": "small",
+      "device": "cpu",
+      "compute_type": "int8"
+    },
+    "sentiment": {
+      "provider": "huggingface",
+      "model_id": "cardiffnlp/twitter-roberta-base-sentiment-latest"
+    },
+    "acoustic_features": {
+      "provider": "librosa",
+      "normalization": "within-call terciles at 0.33 and 0.66"
+    }
+  },
+  "entities": {
+    "metadata": {
+      "grain": "one row per call",
+      "primary_key": ["call_id"],
+      "file_pattern": "data/metadata/calls_metadata.csv",
+      "required_columns": [
+        "call_id",
+        "agent_id",
+        "agent_name",
+        "agent_folder",
+        "agent_call_number",
+        "channel1_path",
+        "channel2_path",
+        "source_dataset"
+      ]
+    },
+    "transcript": {
+      "grain": "one ASR segment per call and channel",
+      "primary_key": ["call_id", "channel", "segment_id"],
+      "file_pattern": "data/transcripts/*_transcript.csv",
+      "required_columns": [
+        "call_id",
+        "channel",
+        "segment_id",
+        "start_time",
+        "end_time",
+        "text"
+      ]
+    },
+    "speaker_turn": {
+      "grain": "one normalized speaker turn per call",
+      "primary_key": ["call_id", "turn_id"],
+      "file_pattern": "data/speaker_turns/*_speaker_turns.csv",
+      "required_columns": [
+        "call_id",
+        "turn_id",
+        "speaker",
+        "channel",
+        "start_time",
+        "end_time",
+        "text"
+      ]
+    },
+    "text_analysis": {
+      "grain": "one analyzed speaker turn per call",
+      "primary_key": ["call_id", "turn_id"],
+      "file_pattern": "data/text_analysis/*_text_analysis.csv",
+      "required_columns": [
+        "call_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "sentiment_label",
+        "sentiment_score",
+        "frustration_flag",
+        "empathy_flag",
+        "probing_flag",
+        "ownership_flag",
+        "next_steps_flag"
+      ]
+    },
+    "acoustic_analysis": {
+      "grain": "one text and acoustic feature row per call turn",
+      "primary_key": ["call_id", "turn_id"],
+      "file_pattern": "data/acoustic_features/*_acoustic_features.csv",
+      "required_columns": [
+        "call_id",
+        "turn_id",
+        "speaker",
+        "segment_duration_sec",
+        "rms_db",
+        "pitch_mean_hz",
+        "pitch_std_hz",
+        "speaking_rate_wps",
+        "volume_level",
+        "speaking_rate_level",
+        "pitch_level"
+      ]
+    },
+    "call_turn": {
+      "grain": "one fused analytical row per call turn",
+      "primary_key": ["call_id", "turn_id"],
+      "file_pattern": "data/final_outputs/*_turn_fusion.csv",
+      "required_columns": [
+        "call_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "normalized_sentiment",
+        "vocal_intensity_level",
+        "turn_risk_score",
+        "turn_risk_level",
+        "turn_reason_codes",
+        "evidence_id",
+        "signal_coverage_confidence",
+        "analytical_contract_version",
+        "risk_rubric_version",
+        "risk_score_type",
+        "risk_score_calibrated",
+        "asr_model_id",
+        "sentiment_model_id"
+      ]
+    },
+    "call_summary": {
+      "grain": "one analytical summary per call",
+      "primary_key": ["call_id"],
+      "file_pattern": "data/final_outputs/*_call_summary.csv",
+      "required_columns": [
+        "call_id",
+        "agent_id",
+        "agent_name",
+        "agent_call_number",
+        "total_turns",
+        "customer_turns",
+        "agent_turns",
+        "conversation_risk_score",
+        "conversation_risk_level",
+        "needs_manual_review",
+        "reason_codes",
+        "evidence_json",
+        "signal_coverage_confidence",
+        "analytical_contract_version",
+        "risk_rubric_version",
+        "risk_score_type",
+        "risk_score_calibrated",
+        "real_outcome_available",
+        "analytical_limitations"
+      ]
+    },
+    "agent_summary": {
+      "grain": "one portfolio-period analytical summary per agent",
+      "primary_key": ["agent_id"],
+      "file_pattern": "data/dashboard_data/agent_dashboard_summary.csv",
+      "required_columns": [
+        "agent_id",
+        "agent_name",
+        "total_calls",
+        "avg_risk_score",
+        "avg_heuristic_quality_proxy",
+        "avg_signal_coverage_confidence",
+        "min_signal_coverage_confidence",
+        "agent_rank_by_heuristic_risk",
+        "analytical_contract_version",
+        "risk_rubric_version",
+        "risk_score_type",
+        "risk_score_calibrated"
+      ]
+    }
+  },
+  "metric_catalog": {
+    "sentiment_label": {
+      "category": "observed_signal",
+      "grain": "call_turn",
+      "source": "Hugging Face sentiment classifier",
+      "confidence_field": "sentiment_score",
+      "limitation": "Text sentiment does not measure vocal tone or customer outcome."
+    },
+    "vocal_intensity_level": {
+      "category": "derived_signal",
+      "grain": "call_turn",
+      "source": "Within-call acoustic feature levels",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Relative to the same call; not a population-calibrated emotion label."
+    },
+    "empathy_flag": {
+      "category": "observed_rule_signal",
+      "grain": "call_turn",
+      "source": "Phrase-pattern rules",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Detects configured phrases and can miss implicit empathy."
+    },
+    "probing_flag": {
+      "category": "observed_rule_signal",
+      "grain": "call_turn",
+      "source": "Question and phrase-pattern rules",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Presence does not prove that the question was useful."
+    },
+    "ownership_flag": {
+      "category": "observed_rule_signal",
+      "grain": "call_turn",
+      "source": "Phrase-pattern rules",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Detects configured phrases and can miss implicit ownership."
+    },
+    "next_steps_flag": {
+      "category": "observed_rule_signal",
+      "grain": "call_turn",
+      "source": "Phrase-pattern rules",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Presence does not verify that the next step was correct."
+    },
+    "conversation_risk_score": {
+      "category": "derived_proxy",
+      "grain": "call_summary",
+      "source": "conversation_risk_v1 heuristic rubric",
+      "range": [0, 100],
+      "direction": "higher_is_more_risk",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Uncalibrated heuristic; not a probability, QA score, CSAT score, or survey forecast."
+    },
+    "heuristic_quality_proxy": {
+      "category": "derived_proxy",
+      "grain": "call_summary",
+      "source": "100 minus conversation_risk_score",
+      "range": [0, 100],
+      "direction": "higher_is_less_heuristic_risk",
+      "confidence_field": "signal_coverage_confidence",
+      "limitation": "Display aid only; not measured service quality."
+    },
+    "estimated_aht_sec": {
+      "category": "operational_proxy",
+      "grain": "call_summary",
+      "source": "Maximum duration of the two audio channels",
+      "direction": "context_dependent",
+      "limitation": "Not official AHT because hold, after-call work, and system timing are unavailable."
+    },
+    "call_duration_sec": {
+      "category": "observed_operational_signal",
+      "grain": "call_summary",
+      "source": "Maximum duration of the two audio channels",
+      "direction": "context_dependent",
+      "limitation": "Audio duration alone does not explain call complexity or service quality."
+    },
+    "total_calls": {
+      "category": "volume_metric",
+      "grain": "agent_summary",
+      "source": "Distinct canonical call summaries per agent",
+      "direction": "context_dependent",
+      "limitation": "Volume is not performance and must be interpreted with workload and call mix."
+    },
+    "avg_risk_score": {
+      "category": "derived_proxy",
+      "grain": "agent_summary",
+      "source": "Mean conversation_risk_score across the agent sample",
+      "direction": "higher_is_more_heuristic_risk",
+      "confidence_field": "avg_signal_coverage_confidence",
+      "limitation": "Not adjusted for call mix, complexity, or sample size; not an official performance score."
+    },
+    "manual_review_rate": {
+      "category": "workflow_metric",
+      "grain": "agent_summary",
+      "source": "Share of calls flagged by the heuristic review rule",
+      "direction": "higher_means_more_review_candidates",
+      "limitation": "A review flag is a prioritization aid, not proof of poor service."
+    },
+    "empathy_call_rate": {
+      "category": "behavior_signal_rate",
+      "grain": "agent_summary",
+      "source": "Share of calls with at least one detected empathy phrase",
+      "direction": "context_dependent",
+      "limitation": "Rule-based phrase coverage can miss implicit empathy and does not measure appropriateness."
+    },
+    "probing_call_rate": {
+      "category": "behavior_signal_rate",
+      "grain": "agent_summary",
+      "source": "Share of calls with at least one detected probing question",
+      "direction": "context_dependent",
+      "limitation": "Does not measure whether probing was necessary or effective."
+    },
+    "ownership_call_rate": {
+      "category": "behavior_signal_rate",
+      "grain": "agent_summary",
+      "source": "Share of calls with at least one detected ownership phrase",
+      "direction": "context_dependent",
+      "limitation": "Configured phrases can undercount or overcount actual ownership behavior."
+    },
+    "next_steps_call_rate": {
+      "category": "behavior_signal_rate",
+      "grain": "agent_summary",
+      "source": "Share of calls with at least one detected next-step phrase",
+      "direction": "context_dependent",
+      "limitation": "Does not verify that the next step was accurate or completed."
+    },
+    "avg_signal_coverage_confidence": {
+      "category": "data_quality_metric",
+      "grain": "agent_summary",
+      "source": "Mean text, sentiment, and acoustic input coverage",
+      "direction": "higher_is_more_complete",
+      "limitation": "Measures signal availability, not prediction accuracy."
+    },
+    "agent_rank_by_heuristic_risk": {
+      "category": "descriptive_ordering",
+      "grain": "agent_summary",
+      "source": "Dense ascending rank of avg_risk_score",
+      "direction": "lower_rank_has_lower_unadjusted_proxy",
+      "limitation": "Not an official performance ranking and not fair for management decisions without call-mix adjustment."
+    },
+    "official_aht_sec": {
+      "category": "real_outcome",
+      "availability": "not_available",
+      "required_source": "call-center workforce or telephony system"
+    },
+    "csat": {
+      "category": "real_outcome",
+      "availability": "not_available",
+      "required_source": "call-center survey system"
+    },
+    "nps": {
+      "category": "real_outcome",
+      "availability": "not_available",
+      "required_source": "customer feedback system"
+    },
+    "qa_score": {
+      "category": "real_outcome",
+      "availability": "not_available",
+      "required_source": "call-center QA system"
+    },
+    "five_stars": {
+      "category": "real_outcome",
+      "availability": "not_available",
+      "required_source": "customer rating system"
+    },
+    "survey_result": {
+      "category": "real_outcome",
+      "availability": "not_available",
+      "required_source": "call-level labeled survey outcome"
+    }
+  },
+  "risk_rubric": {
+    "version": "conversation_risk_v1",
+    "type": "heuristic_proxy",
+    "calibrated": false,
+    "thresholds": {
+      "low": [0, 29],
+      "medium": [30, 59],
+      "high": [60, 100]
+    },
+    "observed_distribution_on_apptek_100": {
+      "minimum": 0,
+      "maximum": 47,
+      "low_calls": 76,
+      "medium_calls": 24,
+      "high_calls": 0
+    },
+    "turn_weights": {
+      "CUST_NEGATIVE_SENTIMENT": 15,
+      "CUST_FRUSTRATION_LANGUAGE": 25,
+      "CUST_HIGH_VOCAL_INTENSITY": 15,
+      "CUST_MEDIUM_VOCAL_INTENSITY": 5,
+      "AGENT_NEGATIVE_SENTIMENT": 8,
+      "AGENT_EMPATHY": -10,
+      "AGENT_PROBING": -5,
+      "AGENT_OWNERSHIP": -5,
+      "AGENT_NEXT_STEPS": -5
+    },
+    "call_weights": {
+      "CUST_NEGATIVE_SENTIMENT": 15,
+      "CUST_FRUSTRATION_LANGUAGE": 25,
+      "CUST_HIGH_VOCAL_INTENSITY": 15,
+      "AGENT_NO_EMPATHY_AFTER_FRUSTRATION": 15,
+      "AGENT_EMPATHY": -10,
+      "AGENT_PROBING": -8,
+      "AGENT_NO_PROBING": 8,
+      "AGENT_OWNERSHIP": -8,
+      "AGENT_NO_OWNERSHIP": 8,
+      "AGENT_NEXT_STEPS": -8,
+      "AGENT_NO_NEXT_STEPS": 8
+    }
+  },
+  "reason_codes": {
+    "CUST_NEGATIVE_SENTIMENT": "Customer turn classified as negative text sentiment.",
+    "CUST_FRUSTRATION_LANGUAGE": "Configured frustration language detected in a customer turn.",
+    "CUST_HIGH_VOCAL_INTENSITY": "Customer turn has high within-call vocal intensity.",
+    "CUST_MEDIUM_VOCAL_INTENSITY": "Customer turn has medium within-call vocal intensity.",
+    "AGENT_NEGATIVE_SENTIMENT": "Agent turn classified as negative text sentiment.",
+    "AGENT_EMPATHY": "Configured empathy language detected in an agent turn.",
+    "AGENT_PROBING": "A probing question was detected in an agent turn.",
+    "AGENT_OWNERSHIP": "Configured ownership language detected in an agent turn.",
+    "AGENT_NEXT_STEPS": "Configured next-step language detected in an agent turn.",
+    "AGENT_NO_EMPATHY_AFTER_FRUSTRATION": "Customer frustration occurred without detected agent empathy.",
+    "AGENT_NO_PROBING": "No probing question was detected during the call.",
+    "AGENT_NO_OWNERSHIP": "No configured ownership language was detected during the call.",
+    "AGENT_NO_NEXT_STEPS": "No configured next-step language was detected during the call.",
+    "NO_STRONG_SIGNAL": "No configured strong signal was detected for the turn."
+  },
+  "analytical_limitations": [
+    "NO_GROUND_TRUTH_OUTCOME",
+    "HEURISTIC_RISK_NOT_CALIBRATED",
+    "RELATIVE_WITHIN_CALL_ACOUSTIC_LEVELS",
+    "RULE_BASED_BEHAVIOR_FLAGS",
+    "PORTFOLIO_SAMPLE_NOT_PRODUCTION_POPULATION"
+  ]
+}

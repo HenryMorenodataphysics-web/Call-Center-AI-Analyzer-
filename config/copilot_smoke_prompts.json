@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "prompts": [
+    {"id": "daily_recap", "agent": "Agent_001", "stage": "live", "question": "Give me my daily recap"},
+    {"id": "aht_lookup", "agent": "Agent_002", "stage": "end", "question": "What is my estimated AHT and goal?"},
+    {"id": "synthetic_boundary", "agent": "Agent_003", "stage": "live", "question": "What is my official CSAT?"},
+    {"id": "best_call", "agent": "Agent_004", "stage": "end", "question": "Show my best call and evidence"},
+    {"id": "coaching", "agent": "Agent_005", "stage": "live", "question": "What should I focus on next?"},
+    {"id": "safe_efficiency", "agent": "Agent_006", "stage": "live", "question": "How can I improve AHT safely?"}
+  ]
+}

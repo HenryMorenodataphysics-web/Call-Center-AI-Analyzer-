@@ -1,0 +1,85 @@
+call_id,channel,segment_id,start_time,end_time,text
+en_AU_Retail_1590908,channel1,1,0.0,28.0,Hi. Thanks for calling TicketTech. You're with Tom. How can I help you today?
+en_AU_Retail_1590908,channel1,2,28.0,39.0,"Okay. Can I start just to bring up your account? I'll just grab your name, postcode and the last three letters of your email address. Thank you."
+en_AU_Retail_1590908,channel1,3,43.0,50.0,It was your postcode and the last three letters of your email address.
+en_AU_Retail_1590908,channel1,4,58.0,67.0,"Yeah. Yes, please. That would be handy. Just before the at symbol would be great."
+en_AU_Retail_1590908,channel1,5,70.0,83.0,Okay. Perfect. I'm just bringing that up now. Okay. Awesome. So I've got your account up here. So what event were you looking to purchase tickets for?
+en_AU_Retail_1590908,channel1,6,89.0,93.0,Okay. Streamer. And what was the specifics about the festival?
+en_AU_Retail_1590908,channel1,7,96.0,102.0,"As in, were you looking to purchase tickets early or like we just general enquiry about the tickets?"
+en_AU_Retail_1590908,channel1,8,107.0,110.0,Okay. And when did you hear about this code?
+en_AU_Retail_1590908,channel1,9,119.0,125.0,"Okay. Well, let me just find out the source of that email. Do you still have that email on you?"
+en_AU_Retail_1590908,channel1,10,125.0,148.0,Okay. So to check that it's a legitimate email from TicketTech. Could you please tell me what the end few letters were in the email or just even the whole email address that it came from?
+en_AU_Retail_1590908,channel1,11,156.0,172.0,Okay. So all of our emails will come from at TicketTechCorp.com.au. So that doesn't to me sound like it is a legitimate email.
+en_AU_Retail_1590908,channel1,12,173.0,177.0,Did you click on anything in that and did I ask for any personal details?
+en_AU_Retail_1590908,channel1,13,186.0,198.0,"Okay. So it was for streamer. Yeah, it was for streamer. I can see here that the tickets did go on sale to general admission at 10 a.m. today."
+en_AU_Retail_1590908,channel1,14,198.0,220.0,"So unfortunately, you have missed the pre-sale. And looking at your account, I don't actually see that you've got access to the VIP TicketTech system that's reserved for people that do spend a certain amount of money or buy a certain amount of tickets every year."
+en_AU_Retail_1590908,channel1,15,221.0,231.0,"And while I can see that you've purchased tickets last year, it doesn't look like you quite hit the minimum to be eligible for that. But you're absolutely able to access general admission tickets."
+en_AU_Retail_1590908,channel1,16,232.0,234.0,I can see there's still a few available here for you.
+en_AU_Retail_1590908,channel1,17,235.0,256.0,"Looking here, they range from about $150 to $200. The VIP tickets that would have been accessible with the code, they were $300, but they were at the front of the venue and did include an early admission."
+en_AU_Retail_1590908,channel1,18,257.0,261.0,"However, if you were looking to purchase those as a general customer, there would be $600."
+en_AU_Retail_1590908,channel1,19,265.0,276.0,"Okay, just general admission. Were you wanting to purchase those right now, or were you wanting those to be held for you?"
+en_AU_Retail_1590908,channel1,20,276.0,290.0,"Well, it's not actually something that we sort of publicly advertise, but given that you have received a spam email, which, and again, I thank you for bringing that to our attention."
+en_AU_Retail_1590908,channel1,21,291.0,294.0,It just seems to be constant with everywhere in the world at the moment.
+en_AU_Retail_1590908,channel1,22,294.0,304.0,"I would be able to add two tickets to your account until 5pm, and then they'll be released back to the pool of tickets for other people to buy."
+en_AU_Retail_1590908,channel1,23,305.0,310.0,Do you think you'll be able to confirm if you'd like those tickets placed on hold until that time?
+en_AU_Retail_1590908,channel1,24,310.0,332.0,"Well, the ones that I'll put into the hold pool would be $150, so they're not right up the back. They're not right at the front, but they are in the middle with that type of seating right for you."
+en_AU_Retail_1590908,channel1,25,340.0,355.0,"Okay, no worries. Well, because I've got your details here, we have to add those two tickets into your account."
+en_AU_Retail_1590908,channel1,26,356.0,360.0,"So the next time you log in or refresh the page, you'll see pending transaction there."
+en_AU_Retail_1590908,channel1,27,361.0,367.0,"And if you just click on that and add in your payment details, you'll be able to purchase the tickets."
+en_AU_Retail_1590908,channel1,28,368.0,372.0,"Yeah, but that would be released after the 24 hours."
+en_AU_Retail_1590908,channel1,29,373.0,380.0,"But just after you mentioned, sort of not too sure if you need the tickets or not, we do offer the resale platform on Ticketek."
+en_AU_Retail_1590908,channel1,30,381.0,390.0,"So you would be able to pop those back into a resale queue if you did purchase them and then needed to sell them at a later date, because unfortunately we don't offer refunds."
+en_AU_Retail_1590908,channel1,31,398.0,404.0,So we do charge a processing fee. That's only $2 per ticket.
+en_AU_Retail_1590908,channel1,32,405.0,419.0,"So in your case, if you were looking at purchasing two tickets, that would be a $4 processing fee, you can put them in for whatever price you like, but it can't be more than 5% additional charge."
+en_AU_Retail_1590908,channel1,33,420.0,426.0,So you can go as low as you like. How low can you go? But it can't be above 5%.
+en_AU_Retail_1590908,channel1,34,427.0,454.0,"So 5% would probably be about, if we're looking at $100 few dollars, so that's $300 for two tickets, it would probably be about $15 additional that you'd be receiving back."
+en_AU_Retail_1590908,channel1,35,454.0,462.0,"So minus the $4 processing and handling fee, that would be $13. And I just do all that in my head."
+en_AU_Retail_1590908,channel1,36,462.0,491.0,"Yeah, no worries. We call it the ticket moral here, because we know all too well the difficulty about trying to purchase tickets, especially with things like Coldplay, for example."
+en_AU_Retail_1590908,channel1,37,492.0,507.0,"Let's not get started on that. So just to recap, I will put two tickets, a general admission, middle seating for $150 each into your account that will be on hold until 5pm today."
+en_AU_Retail_1590908,channel1,38,508.0,516.0,"You just need to look into your account to process that one, otherwise the tickets will be released back into the general pool."
+en_AU_Retail_1590908,channel1,39,522.0,532.0,"That's okay. And what I've still got you here, because of the issues today, and like I said, I appreciate you bringing this to our attention that there are those types of emails out there."
+en_AU_Retail_1590908,channel1,40,533.0,543.0,Would you like to send a note or put a note on your account that you are interested in our VIP program so you can receive those legitimate discount codes in future next time?
+en_AU_Retail_1590908,channel1,41,544.0,560.0,"So as I mentioned previously, you do have to spend a certain amount with TicketTech every year. However, I do understand that you have been through a certain situation and you were still looking to purchase tickets."
+en_AU_Retail_1590908,channel1,42,561.0,569.0,So I can send this on and you should receive an email with instructions on how to join our TicketTech VIP club.
+en_AU_Retail_1590908,channel1,43,570.0,577.0,Not a problem. So you can expect the ticket details in an email as well as in your account.
+en_AU_Retail_1590908,channel1,44,578.0,586.0,"And then in the next two to three business days, you should receive an email from our TicketTech VIP team with instructions on how to access our club."
+en_AU_Retail_1590908,channel1,45,589.0,593.0,"Not a problem. Is there anything else I could help you with today, Laura?"
+en_AU_Retail_1590908,channel1,46,599.0,603.0,"That's it. Well, thanks for calling TicketTech and enjoy streaming."
+en_AU_Retail_1590908,channel1,47,605.0,606.0,You too. Bye.
+en_AU_Retail_1590908,channel2,1,0.0,22.0,"Hey, Tom, I'm just trying to organize to buy some tickets, funnily enough."
+en_AU_Retail_1590908,channel2,2,22.0,24.84,"And I had a code, but it doesn't seem to be working."
+en_AU_Retail_1590908,channel2,3,24.84,39.84,I got it sent to me on an email a little while ago.
+en_AU_Retail_1590908,channel2,4,39.84,50.84,"Yeah, it's Laura. Sorry, what was the other things?"
+en_AU_Retail_1590908,channel2,5,50.84,57.84,"Yeah, so postcode is 3-1-2-1 and the last three letters of my email address."
+en_AU_Retail_1590908,channel2,6,57.84,67.84,"I mean, that'd be .com. Do you want before that?"
+en_AU_Retail_1590908,channel2,7,67.84,83.84,"Yeah, so TRE."
+en_AU_Retail_1590908,channel2,8,83.84,90.84,"Oh, just a festival that's coming up. It's called Strayma."
+en_AU_Retail_1590908,channel2,9,90.84,94.84,Yeah.
+en_AU_Retail_1590908,channel2,10,94.84,101.84,What do you mean?
+en_AU_Retail_1590908,channel2,11,101.84,110.84,"Yeah, it was like a code so you could get them early and also discount it."
+en_AU_Retail_1590908,channel2,12,110.84,126.84,"I got an email was a while ago now and I tried to copy and paste the code into there, but it just like isn't working for me."
+en_AU_Retail_1590908,channel2,13,126.84,134.84,"Oh, yeah, let me check. Just give me a sec. I've just got to go through a few emails here."
+en_AU_Retail_1590908,channel2,14,134.84,149.84,"Yeah, all right. Yeah, now I've got it."
+en_AU_Retail_1590908,channel2,15,149.84,177.84,"Yeah, looks like it's no replied tic-a-tac. Oh, there's a dash, so no replied dash tic-a-tac-1 at tic-a-tac.com."
+en_AU_Retail_1590908,channel2,16,177.84,198.84,"Oh, you're kidding me. No, I didn't give any personal details over, which is lucky, but I think I might have missed the tickets now."
+en_AU_Retail_1590908,channel2,17,198.84,227.84,Mm-hmm.
+en_AU_Retail_1590908,channel2,18,227.84,246.84,"Okay, general admission, how much are they?"
+en_AU_Retail_1590908,channel2,19,246.84,261.84,Okay.
+en_AU_Retail_1590908,channel2,20,261.84,276.84,"Wow, okay. I probably am going to have to go the general admission, I reckon."
+en_AU_Retail_1590908,channel2,21,276.84,291.84,"Oh, you can hold them. How long can you hold tickets for?"
+en_AU_Retail_1590908,channel2,22,306.84,331.84,"Yeah, I just want to check with my friend to make sure they're happy to pay that price. What was the price again?"
+en_AU_Retail_1590908,channel2,23,332.84,343.84,"Yeah, look, it should be fine, but I just want to really double check with my friend first. Obviously, I don't want to go ahead and purchase it and then they're not happy and then I'm stuck with two tickets to go by myself."
+en_AU_Retail_1590908,channel2,24,343.84,356.84,So I just want to double check. So that hold would be really beneficial.
+en_AU_Retail_1590908,channel2,25,356.84,384.84,Okay.
+en_AU_Retail_1590908,channel2,26,384.84,413.84,"Okay. With the resell platform, like, do I still get the same amount back or is there fees? How does it work?"
+en_AU_Retail_1590908,channel2,27,415.84,426.84,Mm-hmm.
+en_AU_Retail_1590908,channel2,28,426.84,436.84,"Okay, but yeah, that's not too bad. I didn't know if it'd be like a decent amount of the ticket or something. So really, we could almost get that processing feedback if we went up a little bit."
+en_AU_Retail_1590908,channel2,29,436.84,462.84,I don't even know how much 5% is.
+en_AU_Retail_1590908,channel2,30,462.84,477.84,"All right, cool. That's not too bad. So I might still use the hold though, if that's okay, just so I can check with my friend and just make sure, just saves the, you know, rigmarole of buying the tickets and happening to do all that."
+en_AU_Retail_1590908,channel2,31,477.84,506.84,But it's good to know that's options there just in case anything changes.
+en_AU_Retail_1590908,channel2,32,506.84,519.84,"Okay. Yeah, not a problem. That sounds really good. Thank you."
+en_AU_Retail_1590908,channel2,33,536.84,547.84,"Yeah, what did I have to do to be part of the VIP program?"
+en_AU_Retail_1590908,channel2,34,567.84,586.84,Okay. That sounds really good. Thanks.
+en_AU_Retail_1590908,channel2,35,586.84,592.84,All right. Sounds good to me. Thank you.
+en_AU_Retail_1590908,channel2,36,593.84,603.84,"No, I think that was everything. Go get on to my friend now and try and work out these ticket situations."
+en_AU_Retail_1590908,channel2,37,603.84,605.84,Thanks a lot. Take care.

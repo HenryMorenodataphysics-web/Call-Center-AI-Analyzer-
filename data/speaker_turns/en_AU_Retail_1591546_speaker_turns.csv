@@ -1,0 +1,117 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Retail_1591546,1,customer,channel2,1,0.0,25.88,"Hi, I think I've lost a parcel or something. It was meant to be coming and I can't find"
+en_AU_Retail_1591546,2,agent,channel1,1,0.0,28.48,"Good afternoon, this is Julia Post Deliveries and I'm happy to help you."
+en_AU_Retail_1591546,3,customer,channel2,2,25.88,43.32,it. Like it's not at my house. I thought it was coming today. It just said that it's on
+en_AU_Retail_1591546,4,agent,channel1,2,28.48,35.48,"Okay, do you know what the expected delivery date was for that one?"
+en_AU_Retail_1591546,5,agent,channel1,3,35.48,57.48,"Okay, and how are you alerted that the delivery has been made?"
+en_AU_Retail_1591546,6,customer,channel2,3,43.32,49.4,"its way to be delivered on the Auspost app, but then I've got home and there's nothing"
+en_AU_Retail_1591546,7,customer,channel2,4,49.72,56.52,"here. And it doesn't say delivered though. It just says should be delivered today, but it's 5pm."
+en_AU_Retail_1591546,8,customer,channel2,5,56.52,77.8,"Yeah, it's 4-7-8."
+en_AU_Retail_1591546,9,agent,channel1,4,57.48,63.48,"Okay, well, sometimes we do use a third party delivery partner like Star Trek."
+en_AU_Retail_1591546,10,agent,channel1,5,63.48,69.48,"So it may still be on its way out, particularly if it is a large or bulky item."
+en_AU_Retail_1591546,11,agent,channel1,6,69.48,78.48,"Could I just start with the last three digits of your mobile number to bring up your account, please?"
+en_AU_Retail_1591546,12,agent,channel1,7,78.48,83.48,"Four seven eight, perfect. And I'll just confirm your name, thank you."
+en_AU_Retail_1591546,13,customer,channel2,6,82.84,83.32,Laura.
+en_AU_Retail_1591546,14,agent,channel1,8,83.48,88.48,"Laura, great, thanks Laura. Just bringing up your account details here."
+en_AU_Retail_1591546,15,customer,channel2,7,86.84,105.8,"Yeah, let me check."
+en_AU_Retail_1591546,16,agent,channel1,9,88.48,96.48,"Great, so I do see that you have a number of parcels on the way, a couple that were due today."
+en_AU_Retail_1591546,17,agent,channel1,10,96.48,107.48,Could you please confirm the last three digits of the delivery tracking code?
+en_AU_Retail_1591546,18,customer,channel2,8,105.8,117.08,2-6-2.
+en_AU_Retail_1591546,19,agent,channel1,11,108.48,112.48,"262, okay, perfect. Just bringing that up now."
+en_AU_Retail_1591546,20,agent,channel1,12,112.48,119.48,"Great, so I can actually see that there was an attempted delivery."
+en_AU_Retail_1591546,21,customer,channel2,9,117.08,136.36,"Ah, okay, cool. So how do I go about getting that? Does it get delivered again or do I have to pick it up?"
+en_AU_Retail_1591546,22,agent,channel1,13,119.48,122.48,It was actually attempted to be delivered twice today.
+en_AU_Retail_1591546,23,agent,channel1,14,122.48,127.48,So it has been delivered to a nearby post office for you.
+en_AU_Retail_1591546,24,agent,channel1,15,127.48,143.48,"Well, we can send it out for re-delivery, however, but we'll come with a tenderly re-delivery cost,"
+en_AU_Retail_1591546,25,agent,channel1,16,143.48,147.48,just because we did attempt to deliver that twice today.
+en_AU_Retail_1591546,26,customer,channel2,10,147.08,176.84,"So that's okay. I can come pick it up. So Peren, where"
+en_AU_Retail_1591546,27,agent,channel1,17,147.48,149.48,"And unfortunately, there was no answer."
+en_AU_Retail_1591546,28,agent,channel1,18,149.48,154.48,"And with the instructions listed against the parcel, it was do not leave unattended."
+en_AU_Retail_1591546,29,agent,channel1,19,154.48,159.48,"So, yeah, you're more than welcome to pop into an Australia Post outlet."
+en_AU_Retail_1591546,30,agent,channel1,20,159.48,165.48,"It's got here, Paran, as where the parcel is currently located."
+en_AU_Retail_1591546,31,agent,channel1,21,165.48,178.48,"Otherwise, we can definitely organise for that to be re-sent out to you, but there will be that additional cost."
+en_AU_Retail_1591546,32,customer,channel2,11,177.08,184.36,is the post office located?
+en_AU_Retail_1591546,33,agent,channel1,22,178.48,181.48,"Yeah, so that's 51 Chapel Street there at Paran."
+en_AU_Retail_1591546,34,agent,channel1,23,182.48,188.48,"If you know the town hall, it's just a little bit further down within the Paran arcade."
+en_AU_Retail_1591546,35,agent,channel1,24,188.48,192.48,"Just don't get that confused with the Windsor Australia Post outlet,"
+en_AU_Retail_1591546,36,agent,channel1,25,192.48,195.48,because they are located quite close together.
+en_AU_Retail_1591546,37,agent,channel1,26,195.48,199.48,So you just need to make sure that you do attend the correct one.
+en_AU_Retail_1591546,38,customer,channel2,12,196.68,200.36,Okay. Yeah.
+en_AU_Retail_1591546,39,agent,channel1,27,199.48,209.48,"We are open tomorrow from 10am to 3pm, closed for an hour between 12 and 1pm,"
+en_AU_Retail_1591546,40,customer,channel2,13,207.4,225.88,"Okay, not a problem. I can definitely do that. All right, wonderful. So yeah, head down with an ID."
+en_AU_Retail_1591546,41,agent,channel1,28,209.48,213.48,just as it is a light staffing time.
+en_AU_Retail_1591546,42,agent,channel1,29,213.48,217.48,"Yeah, you just do need to bring Photo ID with you for that one."
+en_AU_Retail_1591546,43,customer,channel2,14,227.08,232.6,"While I've got you, I actually need to post a couple of items with Christmas coming up,"
+en_AU_Retail_1591546,44,customer,channel2,15,232.6,238.12,just some Christmas presents. I need a couple within Australia and actually a couple overseas
+en_AU_Retail_1591546,45,customer,channel2,16,238.12,240.92,and I'm just wondering if you can give me a bit of information to help me with
+en_AU_Retail_1591546,46,agent,channel1,30,239.48,250.48,"Yeah, no worries. So if you're posting cash, you can send it to me."
+en_AU_Retail_1591546,47,customer,channel2,17,242.2,253.88,"what I need to do, how early do I need to get in before Christmas, all that kind of stuff?"
+en_AU_Retail_1591546,48,agent,channel1,31,250.48,252.48,"No, I joke."
+en_AU_Retail_1591546,49,agent,channel1,32,252.48,258.48,Were you looking at sending parcels or just greeting cards?
+en_AU_Retail_1591546,50,customer,channel2,18,254.04,262.2,"No presents, so parcels."
+en_AU_Retail_1591546,51,agent,channel1,33,261.48,267.48,"Okay, and approximately, do you know what dimensions those ones will be?"
+en_AU_Retail_1591546,52,customer,channel2,19,268.68,274.28,Haven't got all the presents yet. I'm not that organised. I will be shortly. Some Black Friday
+en_AU_Retail_1591546,53,agent,channel1,34,269.48,271.48,I don't know.
+en_AU_Retail_1591546,54,customer,channel2,20,274.28,279.08,"sales coming up, so I reckon I'm going to go and try and organise them all by this weekend"
+en_AU_Retail_1591546,55,customer,channel2,21,279.08,285.96,"and just get it all sorted. But yeah, I couldn't say 100%. I know a couple of them"
+en_AU_Retail_1591546,56,customer,channel2,22,285.96,295.56,"are about 30 centimetres by about 20 for about two of the gifts, but then the others I haven't"
+en_AU_Retail_1591546,57,customer,channel2,23,295.56,301.48,"actually purchased yet. But I am mindful that I'll be posting, especially with posting overseas."
+en_AU_Retail_1591546,58,agent,channel1,35,299.48,316.48,"Yeah, well, interestingly, Australia Post has actually moved to charging postage fees by dimensions,"
+en_AU_Retail_1591546,59,customer,channel2,24,301.48,307.64,"I don't want to get anything too crazy in size because yeah, I'd imagine that it can get quite"
+en_AU_Retail_1591546,60,customer,channel2,25,307.64,319.96,expensive to send stuff overseas.
+en_AU_Retail_1591546,61,agent,channel1,36,316.48,318.48,rather than weight.
+en_AU_Retail_1591546,62,agent,channel1,37,318.48,322.48,So you all find there for posting books these days.
+en_AU_Retail_1591546,63,customer,channel2,26,319.96,345.0,"So, for the overseas ones, I've got one that I need to get to London and the other one"
+en_AU_Retail_1591546,64,agent,channel1,38,322.48,328.48,"That's just down to the large volume of, I guess, online retailers these days."
+en_AU_Retail_1591546,65,agent,channel1,39,328.48,330.48,So it is based on dimensions.
+en_AU_Retail_1591546,66,agent,channel1,40,330.48,334.48,What regions were you looking at posting to overseas?
+en_AU_Retail_1591546,67,customer,channel2,27,345.0,348.44,is going to be in America that's going to Nashville.
+en_AU_Retail_1591546,68,agent,channel1,41,348.48,351.48,"Okay, wow, two very separate areas."
+en_AU_Retail_1591546,69,customer,channel2,28,352.2,358.44,"My family has moved away from me in all kinds of areas, so they travel a lot and they found"
+en_AU_Retail_1591546,70,customer,channel2,29,358.44,363.88,"relationships while they were travelling and yeah, it makes Christmas either me travelling to"
+en_AU_Retail_1591546,71,agent,channel1,42,358.48,374.48,"Well, to me, it sounds like your Christmas present to them should be buying yourself a trip overseas to see them."
+en_AU_Retail_1591546,72,customer,channel2,30,363.96,367.16,"say them or I'm sending presents. So yeah, it's one or the other."
+en_AU_Retail_1591546,73,customer,channel2,31,374.68,377.8,"Yeah, that's probably not a bad idea. I try and do it as much as I can."
+en_AU_Retail_1591546,74,customer,channel2,32,378.76,382.04,"You know, it does get expensive trying to see them every single year. So,"
+en_AU_Retail_1591546,75,customer,channel2,33,382.76,388.04,"you know, one of those things. But yeah, we do try and get to eat the country as much as we"
+en_AU_Retail_1591546,76,customer,channel2,34,388.04,392.36,"can. America's a little crazy at the moment, so we have been going to London a little bit more."
+en_AU_Retail_1591546,77,agent,channel1,43,388.48,404.48,"Sure. So if you were looking at posting a regular size parcel, so 30 centimetres roughly within all the dimensions,"
+en_AU_Retail_1591546,78,customer,channel2,35,392.36,398.68,"But yeah, we do enjoy going to say them."
+en_AU_Retail_1591546,79,agent,channel1,44,404.48,409.48,to be safe and just posting via regular parcel post.
+en_AU_Retail_1591546,80,agent,channel1,45,409.48,415.48,"Actually, I have just had a reminder pop up on my screen."
+en_AU_Retail_1591546,81,agent,channel1,46,415.48,431.48,Australia Post has actually halted parcel deliveries to the UK just because of the tariff laws that passed recently.
+en_AU_Retail_1591546,82,customer,channel2,36,422.36,438.68,"So, not sending any parcels to the UK at all. America, I thought you said the UK just sends."
+en_AU_Retail_1591546,83,agent,channel1,47,431.48,436.48,"America, that is, so yeah, there's..."
+en_AU_Retail_1591546,84,agent,channel1,48,437.48,439.48,"Well, that's okay."
+en_AU_Retail_1591546,85,agent,channel1,49,439.48,445.48,"So yeah, so there isn't actually an Australia Post parcel delivery service to the United States at the moment."
+en_AU_Retail_1591546,86,agent,channel1,50,445.48,449.48,We absolutely still are able to deliver greeting cards.
+en_AU_Retail_1591546,87,agent,channel1,51,449.48,455.48,"However, if you were looking at getting a parcel delivered, you would need to look at a third party provider,"
+en_AU_Retail_1591546,88,customer,channel2,37,452.36,472.68,"Okay, so they could probably do both the UK parcel and the American parcel. Is that right?"
+en_AU_Retail_1591546,89,agent,channel1,52,455.48,463.48,"again, like DHL or Star Trek or something like that that would be able to factor in those tariff costs to your delivery."
+en_AU_Retail_1591546,90,agent,channel1,53,467.48,472.48,"Yeah, yeah, that's right."
+en_AU_Retail_1591546,91,agent,channel1,54,472.48,475.48,"And they actually, DHL, they do have their own fleet of aeroplanes."
+en_AU_Retail_1591546,92,agent,channel1,55,475.48,484.48,So postage would be a little quicker and not subject to the same timelines that Australia Post is just because we are dealing with the whole country's post.
+en_AU_Retail_1591546,93,customer,channel2,38,482.36,502.68,"Oh, wow. Never heard anyone sell me on a different company before. That's pretty funny."
+en_AU_Retail_1591546,94,agent,channel1,56,484.48,491.48,"However, it does come at a significantly higher rate, but you can rest short in most cases."
+en_AU_Retail_1591546,95,agent,channel1,57,491.48,493.48,It could get there within 48 hours.
+en_AU_Retail_1591546,96,agent,channel1,58,497.48,507.48,"Well, yeah, we do understand all too well the impacts that these tariffs, the US tariffs do have on parcel delivery."
+en_AU_Retail_1591546,97,agent,channel1,59,507.48,515.48,So that's why we're more than happy to help you through the different options that are still available to our current and value customers.
+en_AU_Retail_1591546,98,customer,channel2,39,513.32,523.08,"No, I really appreciate that. It's good to know. Yeah, look, I might do a bit of a comparison or"
+en_AU_Retail_1591546,99,customer,channel2,40,523.08,529.08,"obviously I don't have everything yet. So, I'll need to have a look at what I actually end up buying"
+en_AU_Retail_1591546,100,agent,channel1,60,526.48,548.48,"Yeah, not a problem at all."
+en_AU_Retail_1591546,101,customer,channel2,41,529.08,536.28,"and all that kind of stuff. I'll see how their pricing works. And obviously, if that's easy,"
+en_AU_Retail_1591546,102,customer,channel2,42,536.36,542.68,"I might just do all in one. And if not, I might do the UK one with you guys and say"
+en_AU_Retail_1591546,103,customer,channel2,43,542.68,552.2,the other stuff to America through one of those companies that you just mentioned.
+en_AU_Retail_1591546,104,agent,channel1,61,549.48,557.48,"Well, if you were looking at doing just the UK package through us, given we are approaching the silly season,"
+en_AU_Retail_1591546,105,agent,channel1,62,557.48,565.48,it would be best to get that sorted within the next week or so just so you can have that peace of mind that your parcel will be delivered before Christmas.
+en_AU_Retail_1591546,106,agent,channel1,63,565.48,575.48,"Otherwise, the ultimate cutoff for a parcel to be delivered to London would be December 10."
+en_AU_Retail_1591546,107,customer,channel2,44,566.6,592.92,"Okay, not a problem. That sounds good. Thank you so much for all the information."
+en_AU_Retail_1591546,108,agent,channel1,64,575.48,583.48,So that gives you about two and a bit weeks to get that one in the mail.
+en_AU_Retail_1591546,109,agent,channel1,65,583.48,597.48,"So cutoff is 5 p.m. Wednesday, December 10."
+en_AU_Retail_1591546,110,customer,channel2,45,593.0,605.56,Greatly appreciated. I will get out there and do all my shopping and get this sorted out shortly.
+en_AU_Retail_1591546,111,agent,channel1,66,598.48,607.48,"Well, if it's not too early to say, I hope you have a merry Christmas and I hope you pick up your parcel tomorrow from Paran Australia Post and get your parcels sent overseas."
+en_AU_Retail_1591546,112,agent,channel1,67,607.48,608.48,Okay.
+en_AU_Retail_1591546,113,customer,channel2,46,609.4,611.88,"Yeah, definitely will. Thank you so much for all the info."
+en_AU_Retail_1591546,114,agent,channel1,68,611.48,613.48,Not a problem. Have a good one.
+en_AU_Retail_1591546,115,customer,channel2,47,614.68,615.56,You too. Take care. Bye.
+en_AU_Retail_1591546,116,agent,channel1,69,627.48,629.48,Thank you.

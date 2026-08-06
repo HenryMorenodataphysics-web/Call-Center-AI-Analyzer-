@@ -1,0 +1,153 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Retail_1593610,1,agent,channel1,1,0.0,25.28,"Hello, thank you for calling Newencers Store, this is Teddy speaking, how can I help you",neutral,0.5319,False,False,False,False,False
+en_AU_Retail_1593610,2,customer,channel2,1,0.0,29.24,"Hi Teddy, my name is Belinda.",neutral,0.7341,False,False,False,False,False
+en_AU_Retail_1593610,3,agent,channel1,2,25.28,27.52,today?,neutral,0.8298,False,False,True,False,False
+en_AU_Retail_1593610,4,customer,channel2,2,29.24,35.04,I'm just looking for some Christmas decor for the holiday season.,neutral,0.6559,False,False,False,False,False
+en_AU_Retail_1593610,5,customer,channel2,3,35.04,36.84,I've lost all of mine.,negative,0.7753,False,False,False,False,False
+en_AU_Retail_1593610,6,customer,channel2,4,36.84,38.04,I don't know where it's gone.,negative,0.6111,False,False,False,False,False
+en_AU_Retail_1593610,7,customer,channel2,5,39.28,41.36,Do you have much in stock at the moment?,neutral,0.9544,False,False,False,False,False
+en_AU_Retail_1593610,8,customer,channel2,6,41.36,60.0,"Oh darling, I need it all.",positive,0.8818,False,False,False,False,False
+en_AU_Retail_1593610,9,agent,channel1,3,42.64,47.28,"Absolutely, we have a great selection of seasonal decor for Christmas right now,",positive,0.9862,False,False,False,False,False
+en_AU_Retail_1593610,10,agent,channel1,4,47.28,51.44,"could you specify which items you're looking for such as holiday wreaths,",neutral,0.9032,False,False,True,False,False
+en_AU_Retail_1593610,11,agent,channel1,5,51.44,57.68,"table settings, garlands or anything more specific that you were wanting to find?",neutral,0.907,False,False,True,False,False
+en_AU_Retail_1593610,12,customer,channel2,7,60.0,62.64,I've like actually just lost it.,negative,0.878,False,False,False,False,False
+en_AU_Retail_1593610,13,customer,channel2,8,62.64,69.64,"I don't know where my boxes have gone, but I just can't find any of my Christmas decor.",negative,0.8324,False,False,False,False,False
+en_AU_Retail_1593610,14,customer,channel2,9,69.64,75.36,"I need a whole new set up, I need the outdoor setting, I need the Christmas tree lights,",positive,0.5372,False,False,False,False,False
+en_AU_Retail_1593610,15,customer,channel2,10,75.36,80.52,"I need the baubles, I need the theme back, you know?",neutral,0.5667,False,False,False,False,False
+en_AU_Retail_1593610,16,customer,channel2,11,80.52,81.32,I need it all.,positive,0.5971,False,False,False,False,False
+en_AU_Retail_1593610,17,agent,channel1,6,82.16,88.88,"Absolutely, well we do have lots of those things in stock at the moment.",positive,0.7876,False,False,False,False,False
+en_AU_Retail_1593610,18,agent,channel1,7,90.88,96.08,"Right, so if you're needing everything, we have several different Christmas things in stock I can",neutral,0.5566,False,False,False,False,False
+en_AU_Retail_1593610,19,agent,channel1,8,96.08,100.72,"help you with, and you're needing a Christmas tree as well because unfortunately we do not",negative,0.6101,False,False,False,False,False
+en_AU_Retail_1593610,20,customer,channel2,12,99.64,110.52,"I mean, I'm still tossing up between a plastic one and a real one, you know, like everyone.",neutral,0.7315,False,False,False,False,False
+en_AU_Retail_1593610,21,agent,channel1,9,100.8,102.16,stock Christmas trees.,neutral,0.7822,False,False,False,False,False
+en_AU_Retail_1593610,22,customer,channel2,13,110.52,112.12,I guess it depends on my theme.,neutral,0.8311,False,False,False,False,False
+en_AU_Retail_1593610,23,agent,channel1,10,112.96,121.92,"Absolutely, well we can recommend a list of suppliers if you are seeking either a real life tree or if",neutral,0.5363,False,False,False,False,False
+en_AU_Retail_1593610,24,agent,channel1,11,121.92,126.96,"you are seeking a plastic one, we also do have some partner organizations that can assist you with",neutral,0.8174,False,False,False,False,False
+en_AU_Retail_1593610,25,agent,channel1,12,127.44,131.92,"that but we have everything else that you will need for holiday stock, so we have Christmas",positive,0.5981,False,False,False,False,False
+en_AU_Retail_1593610,26,customer,channel2,14,129.64,154.64,"Yeah, I would love your really good things.",positive,0.9805,False,False,False,False,False
+en_AU_Retail_1593610,27,agent,channel1,13,131.92,138.0,"trees in stock along with the holiday figurines, festive centerpieces, would you like to know about",neutral,0.8761,False,False,False,False,False
+en_AU_Retail_1593610,28,agent,channel1,14,138.0,147.84,"some of the specific styles or designs that we have? Absolutely, for some of the things I can",neutral,0.5652,False,False,True,False,False
+en_AU_Retail_1593610,29,agent,channel1,15,147.84,154.72,"advise you on, we have our Christmas trees, so we have a traditional green and red wreath that",neutral,0.7118,False,False,False,False,False
+en_AU_Retail_1593610,30,agent,channel1,16,154.72,162.88,"is 24 inches which features pine combs and with red berries, so we currently have 10 in stock for that,",neutral,0.6755,False,False,False,False,False
+en_AU_Retail_1593610,31,agent,channel1,17,163.52,170.56,"we have a frosted white wreath which is 28 inches, perfect for more of a winter theme as it has",positive,0.8989,False,False,False,False,False
+en_AU_Retail_1593610,32,agent,channel1,18,170.56,179.52,"silver accents, we currently have five in stock, we have a gold and white wreath which is 26 inches",neutral,0.7162,False,False,False,False,False
+en_AU_Retail_1593610,33,agent,channel1,19,179.52,186.56,"so our middle size which we have glitter finishes, it also has LED lights that are battery operated,",neutral,0.7446,False,False,False,False,False
+en_AU_Retail_1593610,34,customer,channel2,15,184.64,193.92,"Okay, can I ask you a few questions?",neutral,0.9047,False,False,False,False,False
+en_AU_Retail_1593610,35,agent,channel1,20,186.56,188.08,currently have three in stock.,neutral,0.7842,False,False,False,False,False
+en_AU_Retail_1593610,36,agent,channel1,21,192.24,204.24,Absolutely.,neutral,0.4856,False,False,False,False,False
+en_AU_Retail_1593610,37,customer,channel2,16,193.92,200.28,"So my theme, I think I want a bit more of an eccentric theme this Christmas.",positive,0.5039,False,False,False,False,False
+en_AU_Retail_1593610,38,customer,channel2,17,200.28,212.24,"I think I want to go from some really interesting animal type of like, not baubles, sorry.",neutral,0.5766,False,False,False,False,False
+en_AU_Retail_1593610,39,customer,channel2,18,212.24,215.36,I want figurines for the Christmas tree.,neutral,0.5975,False,False,False,False,False
+en_AU_Retail_1593610,40,customer,channel2,19,215.36,225.16,"I want koalas, I want elephants, I want all my favourite animals and I think if I can get",positive,0.7312,False,False,False,False,False
+en_AU_Retail_1593610,41,customer,channel2,20,225.16,235.72,"that done, I get my pink and my gold tinsel for my tree and I think I'll go for the",positive,0.5014,False,False,False,False,False
+en_AU_Retail_1593610,42,customer,channel2,21,235.72,243.24,"golden white wreath throughout the front and if I can get a few little extra figurines, animal",neutral,0.7356,False,False,False,False,False
+en_AU_Retail_1593610,43,agent,channel1,22,239.52,268.24,"So, all of the lights we",neutral,0.7962,False,False,False,False,False
+en_AU_Retail_1593610,44,customer,channel2,22,243.24,251.44,"based figurines, then I think I'll put those on the wreath outside too and then I also want",positive,0.5515,False,False,False,False,False
+en_AU_Retail_1593610,45,customer,channel2,23,251.44,258.6,"some lights and I'm thinking is it possible, hear me out, possible to get pink lights?",neutral,0.7132,False,False,False,False,False
+en_AU_Retail_1593610,46,customer,channel2,24,258.6,262.8,You think that's safe because I've heard that pink lights can cause fires but I don't,negative,0.5195,False,False,False,False,False
+en_AU_Retail_1593610,47,customer,channel2,25,262.8,263.8,know.,neutral,0.6679,False,False,False,False,False
+en_AU_Retail_1593610,48,customer,channel2,26,263.8,264.88,I think that's safe.,positive,0.5517,False,False,False,False,False
+en_AU_Retail_1593610,49,agent,channel1,23,268.24,275.12,"have in stock, we don't have pink Christmas lights in our seasonal decor range but in our",neutral,0.7757,False,False,False,False,False
+en_AU_Retail_1593610,50,agent,channel1,24,276.0,283.84,"sort of general stock that we carry, we do have pink lights that could be applicable to use",neutral,0.7387,False,False,False,False,False
+en_AU_Retail_1593610,51,agent,channel1,25,285.52,292.16,in terms all of our lights are sort of tested and we have very strict guidelines on what must,neutral,0.8451,False,False,False,False,False
+en_AU_Retail_1593610,52,agent,channel1,26,292.16,300.96,"be followed, so I can't advise on the fire aspect but I can very much guarantee you we've never had",neutral,0.5878,False,False,False,False,False
+en_AU_Retail_1593610,53,customer,channel2,27,293.8,314.24,"Okay, I just want sparkle on the tree, I just want it to look stunning, you know, stunning.",positive,0.861,False,False,False,False,False
+en_AU_Retail_1593610,54,agent,channel1,27,300.96,316.88,any reports of any of the lights that we sell that produce fires.,negative,0.5504,False,False,False,False,False
+en_AU_Retail_1593610,55,customer,channel2,28,314.24,322.48,"And so I just think I really need this gold, white and pink theme with my animals, does",neutral,0.4923,False,False,False,False,False
+en_AU_Retail_1593610,56,customer,channel2,29,322.48,323.56,that make sense?,neutral,0.7819,False,False,False,False,False
+en_AU_Retail_1593610,57,agent,channel1,28,322.8,332.24,"Absolutely, so if you're wanting sort of decorative figurines, we carry actually we have snowman figurines",neutral,0.499,False,False,False,False,False
+en_AU_Retail_1593610,58,agent,channel1,29,332.24,340.8,"that we can be fun and whimsical, we've also got reindeer figurines and we have an Australian",positive,0.8156,False,False,False,False,False
+en_AU_Retail_1593610,59,agent,channel1,30,340.8,348.8,"collection that runs in our general decor outside of our seasonal decor, so if you're",neutral,0.8897,False,False,False,False,False
+en_AU_Retail_1593610,60,agent,channel1,31,348.8,354.72,"wanting sort of animals there, we have lots of those also got I believe some leftover stock from",neutral,0.6391,False,False,False,False,False
+en_AU_Retail_1593610,61,customer,channel2,30,352.48,368.56,Do you have any elephants?,neutral,0.906,False,False,False,False,False
+en_AU_Retail_1593610,62,agent,channel1,32,354.72,361.12,when we did a dinosaur collection earlier in the year so we've got some different dinosaurs,neutral,0.7394,False,False,True,False,False
+en_AU_Retail_1593610,63,agent,channel1,33,361.12,363.36,and just sort of other animals in stock.,neutral,0.8841,False,False,False,False,False
+en_AU_Retail_1593610,64,agent,channel1,34,367.04,371.04,"You'll have to let me check the system to see if we've got any elephants in stock,",neutral,0.8815,False,False,False,True,False
+en_AU_Retail_1593610,65,customer,channel2,31,368.56,378.88,"Yeah, do you have like giraffes as well, I do love a giraffe, ooh and a sloth, I do love",positive,0.961,False,False,False,False,False
+en_AU_Retail_1593610,66,agent,channel1,35,371.04,383.28,if you could just bear with me for a moment.,neutral,0.6704,False,False,False,False,False
+en_AU_Retail_1593610,67,customer,channel2,32,378.88,384.64,"a sloth of my Christmas tree, ooh and maybe if my angel, instead of it's an angel, hear",neutral,0.6352,False,False,False,False,False
+en_AU_Retail_1593610,68,agent,channel1,36,383.52,403.92,"Size wise, I'm not sure if I could find something for the top of the Christmas tree in terms of a",negative,0.5443,False,False,False,False,False
+en_AU_Retail_1593610,69,customer,channel2,33,384.64,386.16,"me out, hear me out.",neutral,0.7133,False,False,False,False,False
+en_AU_Retail_1593610,70,customer,channel2,34,386.16,393.44,I think that I need a big Noah's Alk on top of the Christmas tree.,neutral,0.5913,False,False,False,False,False
+en_AU_Retail_1593610,71,agent,channel1,37,403.92,411.04,Noah's Ark but we have different nativity scenes and different animals that could play out a Noah's,neutral,0.8739,False,False,False,False,False
+en_AU_Retail_1593610,72,agent,channel1,38,411.04,417.76,"Ark for you, so I've just checked on our system, we don't have any sloths unfortunately but we do",neutral,0.6715,False,False,False,False,False
+en_AU_Retail_1593610,73,customer,channel2,35,416.16,433.04,"Alright, chuck it in my basket, also really, what angel, like Christmas tree toppers do you",neutral,0.6838,False,False,False,False,False
+en_AU_Retail_1593610,74,agent,channel1,39,417.76,424.48,have two small elephant figurines in stock that could act as baubles if that's what you're wanting.,neutral,0.7574,False,False,False,False,False
+en_AU_Retail_1593610,75,agent,channel1,40,424.48,446.0,"We have plenty of different angels that can go at the top of a Christmas tree, we do have your",positive,0.5253,False,False,False,False,False
+en_AU_Retail_1593610,76,customer,channel2,36,433.04,434.04,have then?,neutral,0.8502,False,False,False,False,False
+en_AU_Retail_1593610,77,customer,channel2,37,434.04,440.24,"If you don't have Noah's Alk, what else do you have?",neutral,0.6662,False,False,False,False,False
+en_AU_Retail_1593610,78,customer,channel2,38,440.32,462.32,I'm not sure if I want an angel though.,neutral,0.5738,False,False,False,False,False
+en_AU_Retail_1593610,79,agent,channel1,41,446.0,455.2,standard stars but in terms of angels we actually have a silver angel so that would match your,neutral,0.7948,False,False,False,False,False
+en_AU_Retail_1593610,80,agent,channel1,42,455.2,468.64,"gold and white theme. Otherwise we have sort of some general stars, we actually have a",neutral,0.6599,False,False,False,False,False
+en_AU_Retail_1593610,81,customer,channel2,39,462.32,485.4,"What about a disco ball, do you have disco ball ones?",neutral,0.8896,False,False,False,False,False
+en_AU_Retail_1593610,82,agent,channel1,43,468.64,476.56,"gold and white star that does have, it's a battery operated with a remote LED lights built into it",neutral,0.786,False,False,False,False,False
+en_AU_Retail_1593610,83,agent,channel1,44,477.2,479.36,so you can put that.,neutral,0.8828,False,False,False,False,False
+en_AU_Retail_1593610,84,agent,channel1,45,483.2,489.92,"Disco balls for the top of a Christmas tree, I'm not exactly sure how you could get it to stay",negative,0.618,False,False,False,False,False
+en_AU_Retail_1593610,85,customer,channel2,40,485.4,508.48,"Okay, I think, I think we're on the right track, I think we're on the right track.",positive,0.9041,False,False,False,False,False
+en_AU_Retail_1593610,86,agent,channel1,46,489.92,495.28,at the top of a Christmas tree but we do stock as small disco balls that would be small enough,neutral,0.6888,False,False,False,False,False
+en_AU_Retail_1593610,87,agent,channel1,47,495.28,500.8,to go on top of a Christmas tree but the practicality of how you're actually going to get it on top of,neutral,0.7323,False,False,False,False,False
+en_AU_Retail_1593610,88,agent,channel1,48,500.8,506.48,the Christmas tree unfortunately I can't advise you we are doing some sort of consulting with some,negative,0.6163,False,False,False,False,False
+en_AU_Retail_1593610,89,agent,channel1,49,506.48,510.48,of my colleagues on the best action that you could take for that.,neutral,0.6791,False,False,False,False,False
+en_AU_Retail_1593610,90,customer,channel2,41,508.48,525.88,"Is there any possibility of getting a deal or like a sale, are there any sales or promotions",neutral,0.9309,False,False,False,False,False
+en_AU_Retail_1593610,91,agent,channel1,50,525.28,537.44,Absolutely so we are running a Christmas special where if you buy five baubles with us,positive,0.724,False,False,False,False,False
+en_AU_Retail_1593610,92,customer,channel2,42,525.88,526.56,on these things?,neutral,0.7475,False,False,False,False,False
+en_AU_Retail_1593610,93,customer,channel2,43,538.48,555.36,"Okay, so does the ball balls include my animal and my Australian figurines for my Christmas",neutral,0.8684,False,False,False,False,False
+en_AU_Retail_1593610,94,agent,channel1,51,539.04,546.96,and a wreath is a collective deal for $220.,neutral,0.8153,False,False,False,False,False
+en_AU_Retail_1593610,95,customer,channel2,44,555.36,556.36,tree?,neutral,0.8621,False,False,False,False,False
+en_AU_Retail_1593610,96,agent,channel1,52,555.44,563.04,If you just give me one sec let me check on our system and I'm sure I'll be able to do a deal,neutral,0.5679,False,False,False,True,False
+en_AU_Retail_1593610,97,customer,channel2,45,556.36,581.64,"Okay, okay, thank you.",positive,0.8554,False,False,False,False,False
+en_AU_Retail_1593610,98,agent,channel1,53,563.04,569.68,for you or find you something just as they're not directly baubles but I'm sure I can find,neutral,0.7968,False,False,False,False,False
+en_AU_Retail_1593610,99,agent,channel1,54,569.68,574.8,something to get you a good deal since you are seeking to buy multiple items with us if you,positive,0.591,False,False,False,False,False
+en_AU_Retail_1593610,100,agent,channel1,55,574.8,578.96,could just bear with me for a sec.,neutral,0.6555,False,False,False,False,False
+en_AU_Retail_1593610,101,customer,channel2,46,581.64,610.92,Can I make that 40?,neutral,0.7078,False,False,False,False,False
+en_AU_Retail_1593610,102,agent,channel1,56,585.6,592.72,Absolutely so we actually currently have a holiday sale on so we have 20% off all of our,positive,0.93,False,False,False,False,False
+en_AU_Retail_1593610,103,agent,channel1,57,592.72,602.56,holiday decor so that would take 20% off your total so we can still go ahead with I have,neutral,0.6579,False,False,False,False,False
+en_AU_Retail_1593610,104,agent,channel1,58,602.56,607.84,checked on our system and I can do your five requested figurines.,neutral,0.7792,False,False,False,False,False
+en_AU_Retail_1593610,105,customer,channel2,47,611.04,622.12,I feel like I just need 40 of them.,neutral,0.6296,False,False,False,False,False
+en_AU_Retail_1593610,106,agent,channel1,59,616.8,627.84,Just to clarify you are seeking 40 figurines.,neutral,0.875,False,False,False,False,False
+en_AU_Retail_1593610,107,customer,channel2,48,622.12,629.48,"Yes, yes, I'm going to have a massive tree and it's going to have my pink tinsel, my",positive,0.9309,False,False,False,False,False
+en_AU_Retail_1593610,108,customer,channel2,49,629.48,634.52,"gold, I think I'm going to go with gold lights now not pink lights and then all my little",neutral,0.5994,False,False,False,False,False
+en_AU_Retail_1593610,109,customer,channel2,50,634.52,639.68,"animal figurines scattered around the tree so I've got my elephants, I've got my giraffes,",neutral,0.6844,False,False,False,False,False
+en_AU_Retail_1593610,110,customer,channel2,51,639.8,648.64,"I've got my zebras, I've got my Australian wildlife and then I'm going to go pick some flowers",positive,0.624,False,False,False,False,False
+en_AU_Retail_1593610,111,customer,channel2,52,648.64,652.0,and dry out my flowers and put them on my tree too but you don't need to worry about,neutral,0.7603,False,False,False,False,False
+en_AU_Retail_1593610,112,customer,channel2,53,652.0,658.84,"that, that's fine and then I think I want that LED star on the top of my tree as long",positive,0.6019,False,False,False,False,False
+en_AU_Retail_1593610,113,customer,channel2,54,658.84,663.96,as it can do all the colors I'm happy because I feel like an LED star on top that,positive,0.9685,False,False,False,False,False
+en_AU_Retail_1593610,114,customer,channel2,55,663.96,672.24,"can create a disco nativity for me but yet chuck it all in the cart, I'll buy 40 of the",neutral,0.5775,False,False,False,False,False
+en_AU_Retail_1593610,115,customer,channel2,56,672.24,677.2,"animal figurines, get me every single one that you have, any animal, you find a sloth",neutral,0.5286,False,False,False,False,False
+en_AU_Retail_1593610,116,customer,channel2,57,677.2,685.28,"at the back of the storage room, put it in there and I would also really really appreciate",positive,0.7112,False,False,False,False,False
+en_AU_Retail_1593610,117,customer,channel2,58,685.28,689.68,"if you could like throw it all together, my husband's going to pick it up and we",neutral,0.7345,False,False,False,False,False
+en_AU_Retail_1593610,118,customer,channel2,59,689.68,692.32,can organize a pick up time for my husband to come and get it.,neutral,0.8444,False,False,False,False,False
+en_AU_Retail_1593610,119,agent,channel1,60,693.52,699.28,Absolutely if you can just give me one second I'll get this all sorted for you.,positive,0.6951,False,False,False,False,False
+en_AU_Retail_1593610,120,agent,channel1,61,702.64,708.0,Yes so if you are seeking 40 figurines so we do 40 figurines our figurines sell for,neutral,0.7461,False,False,False,False,False
+en_AU_Retail_1593610,121,agent,channel1,62,708.56,718.0,4.95 each so that by 40 is 198 but with our current 20% off sale that would bring the,neutral,0.7856,False,False,False,False,False
+en_AU_Retail_1593610,122,agent,channel1,63,718.08,721.68,total down to 158.,neutral,0.8824,False,False,False,False,False
+en_AU_Retail_1593610,123,customer,channel2,60,720.4,721.4,Amazing.,positive,0.9149,False,False,False,False,False
+en_AU_Retail_1593610,124,agent,channel1,64,722.8,729.36,The angel sort of LED star that you're actually wanting to chase it's not really an angel,neutral,0.5977,False,False,False,False,False
+en_AU_Retail_1593610,125,agent,channel1,65,730.0,735.84,some people want the angel but we actually currently have a deal on those as well so,neutral,0.7989,False,False,False,False,False
+en_AU_Retail_1593610,126,agent,channel1,66,735.84,743.36,they actually fall under our 20% so then that would bring your total.,neutral,0.8603,False,False,False,False,False
+en_AU_Retail_1593610,127,agent,channel1,67,744.16,747.04,Are you still seeking to get the lights from us as well?,neutral,0.9447,False,False,True,False,False
+en_AU_Retail_1593610,128,customer,channel2,61,746.12,747.64,"Yeah, that would be fabulous.",positive,0.9794,False,False,False,False,False
+en_AU_Retail_1593610,129,customer,channel2,62,747.64,754.36,Yeah that would be fabulous. I really want the gold ones and I really want some,positive,0.9784,False,False,False,False,False
+en_AU_Retail_1593610,130,agent,channel1,68,748.32,768.56,Certainly so all of that together with the 20% off sale let me just apply the promo,neutral,0.5898,False,False,False,False,False
+en_AU_Retail_1593610,131,customer,channel2,63,754.36,758.08,pink tinsel as well please.,neutral,0.5905,False,False,False,False,False
+en_AU_Retail_1593610,132,agent,channel1,69,769.2,781.52,to your basket so that would come to a collective total of $460 but we do offer free,neutral,0.7275,False,False,False,False,False
+en_AU_Retail_1593610,133,customer,channel2,64,777.64,798.32,If I hadn't just lost all of my Christmas decorations I would have said yeah but,negative,0.6645,False,False,False,False,False
+en_AU_Retail_1593610,134,agent,channel1,70,781.52,787.44,grift wrapping with any patch just a $50 or more so if you are needing some of your figurines,neutral,0.8129,False,False,False,False,False
+en_AU_Retail_1593610,135,agent,channel1,71,787.44,791.12,sort of gift wrapped for anyone else we can do those as well.,neutral,0.863,False,False,False,False,False
+en_AU_Retail_1593610,136,customer,channel2,65,798.32,805.68,this is just my new my new tree you know I just want to have it like that.,neutral,0.5757,False,False,False,False,False
+en_AU_Retail_1593610,137,agent,channel1,72,798.56,811.04,Yep absolutely so we do offer install pickup as you've requested.,positive,0.6006,False,False,False,False,False
+en_AU_Retail_1593610,138,customer,channel2,66,807.64,833.88,Yeah that's perfect. Tomorrow will be great. Tomorrow afternoon just chug down my husband's,positive,0.9843,False,False,False,False,False
+en_AU_Retail_1593610,139,agent,channel1,73,813.12,819.12,What would work best just for the amount of items that you have requested we wouldn't be,neutral,0.6859,False,False,True,False,False
+en_AU_Retail_1593610,140,agent,channel1,74,819.12,825.28,able to sort this until tomorrow but we can organise a pickup time for tomorrow if you'd,neutral,0.8545,False,False,False,False,False
+en_AU_Retail_1593610,141,agent,channel1,75,825.28,827.28,like or for later in the week.,neutral,0.9018,False,False,False,False,False
+en_AU_Retail_1593610,142,agent,channel1,76,836.8,843.92,Certainly so Robert Roger will be collecting I will advise we do have a car park at the back,neutral,0.6541,False,False,False,False,False
+en_AU_Retail_1593610,143,agent,channel1,77,843.92,848.8,of our building we do advise that he parks and they're just due to the amount of things that,neutral,0.7789,False,False,False,False,False
+en_AU_Retail_1593610,144,agent,channel1,78,848.8,855.76,you've got you'll be collecting so tomorrow afternoon Roger will come and collect all of these,neutral,0.6593,False,False,False,False,False
+en_AU_Retail_1593610,145,agent,channel1,79,855.76,860.96,and we'll email you across the confirmation of everything and if you've got any questions please,neutral,0.8406,False,False,False,False,False
+en_AU_Retail_1593610,146,agent,channel1,80,860.96,862.72,give us a call but is that all for today?,neutral,0.9377,False,False,True,False,False
+en_AU_Retail_1593610,147,customer,channel2,67,863.88,868.08,hair. Thank you so much for your help darling. Really appreciate it. I mean while,positive,0.9776,False,False,False,False,False
+en_AU_Retail_1593610,148,customer,channel2,68,868.08,871.2,you will be there tomorrow.,neutral,0.6151,False,False,False,False,False
+en_AU_Retail_1593610,149,agent,channel1,81,870.16,876.16,Thank you and with your Christmas tree feel free once it's all set up to tag us on a post,positive,0.9097,False,False,False,False,False
+en_AU_Retail_1593610,150,agent,channel1,82,876.16,879.52,in social media we'd love to see how your tree turns out.,positive,0.8758,False,False,False,False,False
+en_AU_Retail_1593610,151,agent,channel1,83,880.16,892.08,Thank you have a lovely day.,positive,0.9689,False,False,False,False,False
+en_AU_Retail_1593610,152,customer,channel2,69,880.2,885.12,Be there. Thank you.,positive,0.8561,False,False,False,False,False

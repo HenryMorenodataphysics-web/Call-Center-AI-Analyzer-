@@ -1,0 +1,42 @@
+{
+  "manifest_version": "1.0.0",
+  "manifest_created_at_utc": "2026-07-15T01:48:03.904543+00:00",
+  "contract_version": "1.0.0",
+  "dataset_release_id": "apptek_100_calls_v1",
+  "source_dataset": "apptek-com/apptek_callcenter_dialogues",
+  "risk_rubric_version": "conversation_risk_v1",
+  "risk_score_type": "heuristic_proxy",
+  "risk_score_calibrated": false,
+  "models": {
+    "asr": {
+      "provider": "faster-whisper",
+      "model_id": "small",
+      "device": "cpu",
+      "compute_type": "int8"
+    },
+    "sentiment": {
+      "provider": "huggingface",
+      "model_id": "cardiffnlp/twitter-roberta-base-sentiment-latest"
+    },
+    "acoustic_features": {
+      "provider": "librosa",
+      "normalization": "within-call terciles at 0.33 and 0.66"
+    }
+  },
+  "package_versions": {
+    "faster-whisper": "1.2.1",
+    "transformers": "5.12.1",
+    "torch": "2.12.1+cpu",
+    "librosa": "0.11.0",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6"
+  },
+  "legacy_inference_timestamp_note": "Exact per-call inference timestamps were not captured before contract v1. The manifest timestamp records contract application, not original model execution.",
+  "analytical_limitations": [
+    "NO_GROUND_TRUTH_OUTCOME",
+    "HEURISTIC_RISK_NOT_CALIBRATED",
+    "RELATIVE_WITHIN_CALL_ACOUSTIC_LEVELS",
+    "RULE_BASED_BEHAVIOR_FLAGS",
+    "PORTFOLIO_SAMPLE_NOT_PRODUCTION_POPULATION"
+  ]
+}

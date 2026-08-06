@@ -1,0 +1,128 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Food_1585413,1,agent,channel1,1,0.0,20.72,"Hello, this is Jim with Ultimate Food and Catering, how can I help you today?",neutral,0.5542,False,False,True,False,False
+en_AU_Food_1585413,2,customer,channel2,1,0.0,29.92,"Alright, I've heard Jim, yes, I'm with the Farsad Corporate Group.",neutral,0.7739,False,False,False,False,False
+en_AU_Food_1585413,3,customer,channel2,2,29.92,38.92,And we've got a huge team meeting coming up to celebrate our 13th year in the business.,positive,0.9668,False,False,False,False,False
+en_AU_Food_1585413,4,agent,channel1,2,30.0,55.16,"Absolutely, hit me with anything, any questions that are on your mind and I'll have the answers",positive,0.5489,False,False,False,False,False
+en_AU_Food_1585413,5,customer,channel2,3,38.92,44.92,And I have a number of questions to put to you today.,neutral,0.8077,False,False,False,False,False
+en_AU_Food_1585413,6,customer,channel2,4,44.92,48.92,And you have the time for me to go through everything?,negative,0.5399,False,False,False,False,False
+en_AU_Food_1585413,7,customer,channel2,5,48.92,61.92,"Okay, I'll break it down then, I think it's probably the easiest way to go.",positive,0.6593,False,False,False,False,False
+en_AU_Food_1585413,8,agent,channel1,3,55.16,56.16,"for you, mate.",neutral,0.7493,False,False,False,False,False
+en_AU_Food_1585413,9,agent,channel1,4,56.16,79.52,"So, we can cater for up to a thousand people per event and we can do, you know, we can downsize",neutral,0.6972,False,False,False,False,False
+en_AU_Food_1585413,10,customer,channel2,6,61.92,68.92,"What different sizes do you, number of internal people do you cater for?",neutral,0.8766,False,False,False,False,False
+en_AU_Food_1585413,11,customer,channel2,7,78.92,100.92,"Okay, we're 1,000. We're putting out all the invites. At the moment we've got 27, so it doesn't really matter then what number is.",neutral,0.7024,False,False,False,False,False
+en_AU_Food_1585413,12,agent,channel1,5,79.52,84.4,as well to sort of fit your needs but we currently have the staff and the capability,neutral,0.5694,False,False,False,False,False
+en_AU_Food_1585413,13,agent,channel1,6,84.4,88.6,to staff to cater for a thousand people at the moment.,neutral,0.8053,False,False,False,False,False
+en_AU_Food_1585413,14,customer,channel2,8,100.92,108.92,"If we go ahead with the, with it today, I can give you the numbers as soon as I'm doing that.",neutral,0.8911,False,False,False,False,False
+en_AU_Food_1585413,15,customer,channel2,9,108.92,120.92,"So we have, when it comes to, so to say we've got 30 people, we're always going to have different diet restrictions from various people.",neutral,0.8146,False,False,False,False,False
+en_AU_Food_1585413,16,agent,channel1,7,114.4,133.56,"Absolutely, so all of our food is actually made to order and our chefs are really, really",positive,0.915,False,False,False,False,False
+en_AU_Food_1585413,17,customer,channel2,10,120.92,125.92,"Do you cater for vegans and glitter free, et cetera, et cetera?",neutral,0.7946,False,False,False,False,False
+en_AU_Food_1585413,18,customer,channel2,11,130.92,155.92,That's fantastic.,positive,0.9721,False,False,False,False,False
+en_AU_Food_1585413,19,agent,channel1,8,133.56,140.76,"our world class, so any sort of dietary restriction we can cater to whether it be vegetarian, pescatarian,",neutral,0.7677,False,False,False,False,False
+en_AU_Food_1585413,20,agent,channel1,9,140.76,151.08,"vegan, ovarian, carnivore, omnivore, halal, kosher, anything that you need we can provide",neutral,0.5609,False,False,False,False,False
+en_AU_Food_1585413,21,agent,channel1,10,151.08,151.4,for.,neutral,0.7266,False,False,False,False,False
+en_AU_Food_1585413,22,customer,channel2,12,155.92,166.92,"Okay, and how much notice do you need, or is it possible to do it on the day when we place orders for food or do we have to play?",neutral,0.9317,False,False,False,False,False
+en_AU_Food_1585413,23,customer,channel2,13,166.92,174.92,"Once you know the exact number, do we have to give you the order prior to the day, or do we, or can we do it on the day?",neutral,0.9374,False,False,False,False,False
+en_AU_Food_1585413,24,agent,channel1,11,170.76,182.36,"Really good question there, so we do offer two different packages, so we can have the",positive,0.9352,False,False,False,False,False
+en_AU_Food_1585413,25,agent,channel1,12,182.36,187.04,food pre-made and then just delivered to you and we can provide the catering service,neutral,0.6855,False,False,False,False,False
+en_AU_Food_1585413,26,customer,channel2,14,185.92,210.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1585413,27,agent,channel1,13,187.04,194.28,"that way or we do also have, it's kind of like a food truck set up where if you've",neutral,0.9091,False,False,False,False,False
+en_AU_Food_1585413,28,agent,channel1,14,194.28,200.4,"already got a venue in mind and this space allowing, we could make the food for you on",neutral,0.5885,False,False,False,False,False
+en_AU_Food_1585413,29,agent,channel1,15,200.4,203.88,"site freshly done, I personally would recommend that.",positive,0.9521,False,False,False,False,False
+en_AU_Food_1585413,30,agent,channel1,16,203.88,210.44,I think the food is just so much more enjoyable and fresh and flavorful when you get it fresh,positive,0.9605,False,False,False,False,False
+en_AU_Food_1585413,31,agent,channel1,17,210.44,214.84,out of the trucks but obviously it does depend on what sort of venue that you're looking,neutral,0.9135,False,False,False,False,False
+en_AU_Food_1585413,32,customer,channel2,15,210.92,239.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1585413,33,agent,channel1,18,214.84,221.24,"at for the team meeting but in terms of answering your question, you would have",neutral,0.8618,False,False,False,False,False
+en_AU_Food_1585413,34,agent,channel1,19,221.32,231.84,"to be upfront about the orders in both cases, not so much with the fresh food trucks, you",neutral,0.7726,False,False,False,False,False
+en_AU_Food_1585413,35,agent,channel1,20,231.84,236.72,would just have to let us know the dietary requirements and any allergies and that sort,neutral,0.8668,False,False,False,False,False
+en_AU_Food_1585413,36,agent,channel1,21,236.72,241.88,of stuff and then for the actual pre-made catering order then we would have to know,neutral,0.932,False,False,False,False,False
+en_AU_Food_1585413,37,customer,channel2,16,239.92,253.92,"Okay, before I go any further, I should just double check that the venue is available.",neutral,0.8675,False,False,False,False,False
+en_AU_Food_1585413,38,agent,channel1,22,241.88,243.64,numbers for specific orders.,neutral,0.927,False,False,False,False,False
+en_AU_Food_1585413,39,agent,channel1,23,251.24,276.68,"Absolutely, so for the Saturday, let me just check the calendar real quick, so this Saturday",neutral,0.5038,False,False,False,False,False
+en_AU_Food_1585413,40,customer,channel2,17,253.92,263.92,"We've got two, we've got two options here. Is the venue available that's coming Saturday the 13th or the following Saturday the 20th?",neutral,0.8783,False,False,False,False,False
+en_AU_Food_1585413,41,customer,channel2,18,263.92,292.92,Saturday is your venue available.,neutral,0.8614,False,False,False,False,False
+en_AU_Food_1585413,42,agent,channel1,24,276.76,283.04,"coming up, it's actually not available, we've got another corporate group that has booked",neutral,0.5417,False,False,False,False,False
+en_AU_Food_1585413,43,agent,channel1,25,283.04,288.32,"that, however the next Saturday I can block that out and keep that reserved for you guys",neutral,0.7565,False,False,False,False,False
+en_AU_Food_1585413,44,agent,channel1,26,288.32,290.6,if you'd be happy to go ahead with that.,positive,0.6481,False,False,False,False,False
+en_AU_Food_1585413,45,customer,channel2,19,292.92,298.92,"Okay, yeah, we'll see how we go have a chat and it sounds like it'd be the possibility.",neutral,0.7563,False,False,False,False,False
+en_AU_Food_1585413,46,customer,channel2,20,298.92,306.92,"The next thing I need to know then is, let's just say we've got 30 people.",neutral,0.8416,False,False,False,False,False
+en_AU_Food_1585413,47,agent,channel1,27,306.68,322.96,"No, I don't mind you asking it all, it's a really good question, it's probably one of",positive,0.877,False,False,False,False,False
+en_AU_Food_1585413,48,customer,channel2,21,306.92,316.92,What would the pricing be per person? Do you discover a person or depending on the food or do you have a standard price for your food?,neutral,0.9094,False,False,False,False,False
+en_AU_Food_1585413,49,customer,channel2,22,316.92,319.92,"Okay, how does all that work without mommy asking?",neutral,0.7948,False,False,False,False,False
+en_AU_Food_1585413,50,agent,channel1,28,322.96,330.8,"the more important questions, so we do do our pricing per person and the price per person",neutral,0.8932,False,False,False,False,False
+en_AU_Food_1585413,51,agent,channel1,29,330.8,335.08,"does change based on which package you're going for, so naturally it's going to be",neutral,0.9136,False,False,False,False,False
+en_AU_Food_1585413,52,agent,channel1,30,335.08,340.64,"a little bit cheaper per person to go with the pre-made food package, it is a little bit",neutral,0.7697,False,False,False,False,False
+en_AU_Food_1585413,53,agent,channel1,31,340.64,349.68,"dearer, so for the pre-made food package it's about $30 per person, that's with two courses",neutral,0.8803,False,False,False,False,False
+en_AU_Food_1585413,54,customer,channel2,23,346.92,373.92,"Okay, that sounds fantastic.",positive,0.9827,False,False,False,False,False
+en_AU_Food_1585413,55,agent,channel1,32,349.68,357.72,"and drink included, whereas the fresh food package is about $45 to $50 depending on",neutral,0.8214,False,False,False,False,False
+en_AU_Food_1585413,56,agent,channel1,33,357.72,364.24,which food truck you're after for the catering but I honestly can wholeheartedly,neutral,0.5314,False,False,False,False,False
+en_AU_Food_1585413,57,agent,channel1,34,364.24,369.6,"endorse the fresh food option, it is honestly so worth the money.",positive,0.9663,False,False,False,False,False
+en_AU_Food_1585413,58,customer,channel2,24,373.92,383.92,"And in terms of getting delivered to us, how much notice do you need for the food on the day?",neutral,0.928,False,False,False,False,False
+en_AU_Food_1585413,59,customer,channel2,25,383.92,396.92,So I suppose just thinking out loud that my best option is to have it in the afternoon and do you need to call the night before or in the morning?,neutral,0.9036,False,False,False,False,False
+en_AU_Food_1585413,60,agent,channel1,35,394.24,410.04,"So, it would be preferable if we had the food orders within two days of the due date for",neutral,0.7602,False,False,False,False,False
+en_AU_Food_1585413,61,customer,channel2,26,396.92,401.92,How much in advance would you need to know the food?,neutral,0.9399,False,False,False,False,False
+en_AU_Food_1585413,62,agent,channel1,36,410.04,414.32,"the booking, just so we have time to source ingredients, prepare the food trucks and",neutral,0.8648,False,False,False,False,False
+en_AU_Food_1585413,63,agent,channel1,37,414.32,421.04,"that sort of thing, if you do have any last minute changes we can cater to that, but",neutral,0.8359,False,False,False,False,False
+en_AU_Food_1585413,64,agent,channel1,38,421.04,426.24,"as long as the majority, the bulk of the order is in within sort of like the 48 day",neutral,0.8054,False,False,False,False,False
+en_AU_Food_1585413,65,agent,channel1,39,426.24,434.84,"previous to the booking, that's as little warning we need for the orders basically.",neutral,0.7105,False,False,False,False,False
+en_AU_Food_1585413,66,customer,channel2,27,426.92,445.92,"And how many, I know we touched on it earlier, but how many different types of menus do you have?",neutral,0.926,False,False,False,False,False
+en_AU_Food_1585413,67,agent,channel1,40,434.84,453.72,"Yeah, yeah, really awesome question as well, so in terms of our pre-made food, it's pretty",positive,0.9894,False,False,False,False,False
+en_AU_Food_1585413,68,customer,channel2,28,445.92,472.92,"Okay, thank you.",positive,0.8129,False,False,False,False,False
+en_AU_Food_1585413,69,agent,channel1,41,453.72,459.36,"similar food across the board, we offer some burritos, some sandwiches, we do also have",neutral,0.7365,False,False,False,False,False
+en_AU_Food_1585413,70,agent,channel1,42,459.36,466.36,"some gluten free options in the salads and also some more meat options, we do have sort",neutral,0.5855,False,False,False,False,False
+en_AU_Food_1585413,71,agent,channel1,43,466.36,474.48,of like a rotisserie chicken or like chicken kebab sort of meals in that package.,neutral,0.9201,False,False,False,False,False
+en_AU_Food_1585413,72,customer,channel2,29,472.92,501.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1585413,73,agent,channel1,44,474.48,480.72,"In terms of the fresh food, we have an absolutely amazing Mexican food truck, we have a wood",positive,0.9824,False,False,False,False,False
+en_AU_Food_1585413,74,agent,channel1,45,480.72,490.44,"fire pizza truck, we also have sort of like an Asian fusion style, it's like a Korean mixed",neutral,0.7452,False,False,False,False,False
+en_AU_Food_1585413,75,agent,channel1,46,490.44,498.68,"with sort of like a Vietnamese, it's really amazing the far from that truck is to die for,",positive,0.8981,False,False,False,False,False
+en_AU_Food_1585413,76,agent,channel1,47,498.68,506.64,"but we can cater based on whatever sort of cuisine your group is looking for basically,",neutral,0.7388,False,False,False,False,False
+en_AU_Food_1585413,77,customer,channel2,30,501.92,514.92,"Okay, that sounds good. Looking quite positive.",positive,0.9742,False,False,False,False,False
+en_AU_Food_1585413,78,agent,channel1,48,506.64,529.96,we have a very wide variety of the fresh food trucks.,positive,0.7321,False,False,False,False,False
+en_AU_Food_1585413,79,customer,channel2,31,514.92,527.92,"And what about cutlery and cutlery and all that, you know, those sources, et cetera, et cetera, do you provide them and is it an additional cost?",neutral,0.6441,False,False,False,False,False
+en_AU_Food_1585413,80,agent,channel1,49,529.96,538.52,"Absolutely, so we do provide all of the cutlery, the crockery, so cups and plates are all included",positive,0.6047,False,False,False,False,False
+en_AU_Food_1585413,81,agent,channel1,50,538.52,547.16,"knives, forks, spoons as well, we do also offer like sort of one beverage per person, if you",neutral,0.8208,False,False,False,False,False
+en_AU_Food_1585413,82,customer,channel2,32,544.92,569.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1585413,83,agent,channel1,51,547.16,554.4,"do want an extra drink, it is an additional cost and that varies based on the actual",neutral,0.845,False,False,False,False,False
+en_AU_Food_1585413,84,agent,channel1,52,554.4,560.68,"drink that you're after, so we will have like a drinks menu with the food trucks as well",neutral,0.7678,False,False,False,False,False
+en_AU_Food_1585413,85,agent,channel1,53,560.68,565.44,and that could be up to the discretion of each person whether they want to indulge in,neutral,0.8377,False,False,False,False,False
+en_AU_Food_1585413,86,agent,channel1,54,565.44,582.64,an additional drink or not.,neutral,0.9034,False,False,False,False,False
+en_AU_Food_1585413,87,customer,channel2,33,569.92,582.92,And you obviously will provide us prior to the event the types of alcohol that you can supply.,neutral,0.7381,False,False,False,False,False
+en_AU_Food_1585413,88,agent,channel1,55,582.64,600.0,"Yeah, absolutely.",positive,0.4347,False,False,False,False,False
+en_AU_Food_1585413,89,customer,channel2,34,582.92,598.92,"Now I just, how much, and okay, so the other question that I need to find out for is do you provide any music musicians or anything of that nature?",neutral,0.8833,False,False,False,False,False
+en_AU_Food_1585413,90,agent,channel1,56,600.0,608.64,"Unfortunately not, us as the catering company, we're really, really focusing on the experience",negative,0.7374,False,False,False,False,False
+en_AU_Food_1585413,91,agent,channel1,57,608.64,614.96,"being with the food and the food service itself, so unfortunately we don't provide any live",negative,0.7512,False,False,False,False,False
+en_AU_Food_1585413,92,customer,channel2,35,612.92,632.92,"And would you have in the previous experiences, not anybody that we could contact in that regard?",neutral,0.8445,False,False,False,False,False
+en_AU_Food_1585413,93,agent,channel1,58,614.96,620.64,"entertainment or music with catering, but it could be something that we're looking",neutral,0.8904,False,False,False,False,False
+en_AU_Food_1585413,94,agent,channel1,59,620.64,633.72,into in the future.,neutral,0.8321,False,False,False,False,False
+en_AU_Food_1585413,95,customer,channel2,36,632.92,661.92,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Food_1585413,96,agent,channel1,60,633.72,638.24,"Absolutely there's a couple of local artists that I could recommend for you, just sort",positive,0.5395,False,False,False,False,False
+en_AU_Food_1585413,97,agent,channel1,61,638.28,643.64,"of based on the sort of energy you want, we have a couple of DJs, there's some sort of more",neutral,0.8597,False,False,False,False,False
+en_AU_Food_1585413,98,agent,channel1,62,643.64,651.4,"low-key chill acoustic guitar artists or even just, even if you're not looking for music,",neutral,0.7411,False,False,False,False,False
+en_AU_Food_1585413,99,agent,channel1,63,651.4,659.16,"we do have sort of entertainers, we could have a quiz host come around or there's things",neutral,0.7679,False,False,False,False,False
+en_AU_Food_1585413,100,agent,channel1,64,659.16,664.16,"like juggling and comedians and things like that, so it's up to sort of what kind",neutral,0.8683,False,False,False,False,False
+en_AU_Food_1585413,101,customer,channel2,37,661.92,671.92,"Okay, I heard that the Arctic Bears were playing in this area.",neutral,0.9299,False,False,False,False,False
+en_AU_Food_1585413,102,agent,channel1,65,664.16,678.12,of energy you want for the event.,neutral,0.7727,False,False,False,False,False
+en_AU_Food_1585413,103,customer,channel2,38,671.92,700.92,Are there somebody that you would know that we could get hold of them to be at the event?,neutral,0.9417,False,False,False,False,False
+en_AU_Food_1585413,104,agent,channel1,66,678.12,683.96,"Yeah, so I'm really awesome, I'm really excited that you brought them up because the Arctic",positive,0.9892,False,False,False,False,False
+en_AU_Food_1585413,105,agent,channel1,67,683.96,692.92,Bears are an awesome local band doing like a really high energy rock kind of genre,positive,0.9775,False,False,False,False,False
+en_AU_Food_1585413,106,agent,channel1,68,692.96,697.52,sort of for the music and really amazing performers.,positive,0.9779,False,False,False,False,False
+en_AU_Food_1585413,107,agent,channel1,69,697.52,702.84,"I think if you paired the Arctic Bears with our wood fire pizza truck, it could be an",neutral,0.6659,False,False,False,False,False
+en_AU_Food_1585413,108,customer,channel2,39,700.92,711.92,That sounds fantastic.,positive,0.9788,False,False,False,False,False
+en_AU_Food_1585413,109,agent,channel1,70,702.84,709.16,awesome experience and a really good way to celebrate your 13th year in the industry.,positive,0.9906,False,False,False,False,False
+en_AU_Food_1585413,110,customer,channel2,40,711.92,713.92,"Look, I think we'll go ahead with this.",positive,0.691,False,False,False,False,False
+en_AU_Food_1585413,111,customer,channel2,41,713.92,724.92,"Now I wonder, are you able to send us a, or we could drop by or somebody from your department drop by a sample menu?",neutral,0.939,False,False,False,False,False
+en_AU_Food_1585413,112,agent,channel1,71,722.92,749.72,"For sure, for sure, I will grab an email from you just after the call on that email that you've",positive,0.5219,False,False,False,False,False
+en_AU_Food_1585413,113,customer,channel2,42,724.92,734.92,And just let me confirm what the foods that is available on their menu and because some of that I guess would have to be made on the day.,neutral,0.901,False,False,False,False,False
+en_AU_Food_1585413,114,customer,channel2,43,734.92,763.92,"Other kind of information, I wonder if we could possibly arrange something there.",neutral,0.8607,False,False,False,False,False
+en_AU_Food_1585413,115,agent,channel1,72,749.72,756.56,corresponded to me previously and I'll send through a bunch of sample menus and on the menus,neutral,0.926,False,False,False,False,False
+en_AU_Food_1585413,116,agent,channel1,73,756.56,763.4,"themselves, the food that can be catered towards vegetarian, vegan, gluten-free, all of that",neutral,0.7507,False,False,False,False,False
+en_AU_Food_1585413,117,agent,channel1,74,763.4,765.52,is listed on the actual menu.,neutral,0.9388,False,False,False,False,False
+en_AU_Food_1585413,118,customer,channel2,44,763.92,774.92,"Yes, please.",positive,0.5949,False,False,False,False,False
+en_AU_Food_1585413,119,agent,channel1,75,766.88,773.56,"If that's the case, would you want me to lock in the Saturday after next for the event?",neutral,0.9522,False,False,True,False,False
+en_AU_Food_1585413,120,customer,channel2,45,774.92,778.92,That would be fantastic if we can go ahead with what we talked about today.,positive,0.9812,False,False,False,False,False
+en_AU_Food_1585413,121,customer,channel2,46,778.92,789.92,That would be awesome.,positive,0.9777,False,False,False,False,False
+en_AU_Food_1585413,122,agent,channel1,76,780.44,782.76,"Absolutely, I'll book you in now.",positive,0.8504,False,False,False,False,False
+en_AU_Food_1585413,123,agent,channel1,77,783.44,786.08,So I've got that blocked out for your corporate event.,negative,0.5705,False,False,False,False,False
+en_AU_Food_1585413,124,agent,channel1,78,786.12,788.88,"And yeah, I look forward to hearing back from you.",positive,0.9512,False,False,False,False,False
+en_AU_Food_1585413,125,customer,channel2,47,789.92,793.92,"All right, thank you very much for your time.",positive,0.9406,False,False,False,False,False
+en_AU_Food_1585413,126,agent,channel1,79,792.0,793.2,"No worries, have a good day.",positive,0.9503,False,False,False,False,False
+en_AU_Food_1585413,127,customer,channel2,48,793.92,807.92,Thank you.,positive,0.8345,False,False,False,False,False

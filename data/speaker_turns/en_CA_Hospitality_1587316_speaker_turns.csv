@@ -1,0 +1,75 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_CA_Hospitality_1587316,1,agent,channel1,1,0.0,17.12,"Good afternoon, thank you for calling the Grand View Hotel and Suite."
+en_CA_Hospitality_1587316,2,customer,channel2,1,0.0,29.0,"Hi, Sophie. My name is Daniel Ace. I have a reservation for this weekend and I was wondering if there's a chance to upgrade my room."
+en_CA_Hospitality_1587316,3,agent,channel1,2,17.12,26.0,"This is Sophie speaking, how may I assist you today?"
+en_CA_Hospitality_1587316,4,agent,channel1,3,26.0,36.0,"Oh, congratulations, may I ask what you're celebrating?"
+en_CA_Hospitality_1587316,5,customer,channel2,2,29.0,35.0,It's actually a special occasion.
+en_CA_Hospitality_1587316,6,customer,channel2,3,35.0,58.0,"That's my wedding anniversary. 10 years. My wife and I wanted to do something nice, so I thought a better room might make it extra special."
+en_CA_Hospitality_1587316,7,agent,channel1,4,36.0,53.0,"Oh, that's wonderful. Congratulations to both of you. We'd love to make your day memorable."
+en_CA_Hospitality_1587316,8,agent,channel1,5,53.0,67.0,Could I have your check-in date and the name on the reservation so I can look up your booking?
+en_CA_Hospitality_1587316,9,customer,channel2,4,58.0,83.0,"Sure. It's under Daniel Ace, checking in this Saturday, November 2nd."
+en_CA_Hospitality_1587316,10,agent,channel1,6,67.0,74.0,"Thanks. Okay, one moment while I pull up your reservation."
+en_CA_Hospitality_1587316,11,agent,channel1,7,74.0,86.0,"All right, I see that you're currently booked for a king deluxe room for two nights. Checking out Monday morning, is that correct?"
+en_CA_Hospitality_1587316,12,customer,channel2,5,83.0,100.0,"Yes, that's the one."
+en_CA_Hospitality_1587316,13,agent,channel1,8,86.0,94.0,"Oh, perfect. Okay, so you're interested in an upgrade. So we have a few options that might suit an anniversary celebration."
+en_CA_Hospitality_1587316,14,agent,channel1,9,94.0,112.0,"Can I ask what kind of upgrade you had in mind, like for example a suite or a room with a view?"
+en_CA_Hospitality_1587316,15,customer,channel2,6,100.0,111.0,I was thinking maybe a suite if the price isn't too crazy. Something with a bit more space. Maybe a nice view or jacuzzi top.
+en_CA_Hospitality_1587316,16,agent,channel1,10,112.0,118.0,"Yeah, absolutely, we can check that. So we currently have two suite types available for your dates."
+en_CA_Hospitality_1587316,17,agent,channel1,11,118.0,128.0,"There's the executive suite, so it has a separate living area, city, skyline view and a deep soaking tub."
+en_CA_Hospitality_1587316,18,agent,channel1,12,128.0,138.0,"And the honeymoon suite offers a jacuzzi, a balcony overlooking the river and has complimentary champagne and chocolate strawberries upon arrival."
+en_CA_Hospitality_1587316,19,customer,channel2,7,130.0,149.0,"Hmm, that second one sounds like it was made for us. What's the price difference compared to what I already asked?"
+en_CA_Hospitality_1587316,20,agent,channel1,13,149.0,157.0,"Yeah, let's take a look. So your current rate for the king deluxe room is $225 per night."
+en_CA_Hospitality_1587316,21,agent,channel1,14,157.0,166.0,So the executive suite is $310 per night and the honeymoon suite is $365 per night.
+en_CA_Hospitality_1587316,22,agent,channel1,15,167.0,175.0,"Since it's an anniversary, I can apply our celebration offer, so it gives you 10% off suite upgrades."
+en_CA_Hospitality_1587316,23,agent,channel1,16,175.0,181.0,So that would bring this honeymoon suite down to about $329 per night.
+en_CA_Hospitality_1587316,24,customer,channel2,8,179.0,208.0,"Hmm, that's actually not bad at all. Is the honeymoon suite still available for both Saturday and Sunday?"
+en_CA_Hospitality_1587316,25,agent,channel1,17,181.0,199.0,"Yeah, it is, but I should mention we just have one of those suites and the weekends tend to book quickly."
+en_CA_Hospitality_1587316,26,agent,channel1,18,199.0,207.0,"But if you'd like, I can hold it for up to 15 minutes while you decide or we can upgrade you right now to secure it."
+en_CA_Hospitality_1587316,27,customer,channel2,9,208.0,231.0,"Okay, let's go ahead and upgrade now. My wife will love that jacuzzi in the balcony. Yeah."
+en_CA_Hospitality_1587316,28,agent,channel1,19,211.0,220.0,"Excellent choice. Okay, so I'll make that change for you."
+en_CA_Hospitality_1587316,29,agent,channel1,20,220.0,226.0,It'll just adjust your total to reflect the new room rate.
+en_CA_Hospitality_1587316,30,agent,channel1,21,226.0,234.0,So would you like me to keep the same payment method on file for the difference?
+en_CA_Hospitality_1587316,31,customer,channel2,10,231.0,242.0,"Yes, please."
+en_CA_Hospitality_1587316,32,agent,channel1,22,234.0,245.0,"Okay. So while I'm finalizing the upgrade, would you like me to go over the amenities that's included with your new suite?"
+en_CA_Hospitality_1587316,33,customer,channel2,11,242.0,245.0,Would that be great?
+en_CA_Hospitality_1587316,34,agent,channel1,23,245.0,255.0,"Okay, so the honeymoon suite includes a private jacuzzi tub and furnished balcony with a river view, complimentary welcome champagne and desserts,"
+en_CA_Hospitality_1587316,35,agent,channel1,24,255.0,266.0,"24-hour room service and turned down service in the evening, access to the executive lounge, which offers breakfast, snacks and evening cocktails,"
+en_CA_Hospitality_1587316,36,agent,channel1,25,266.0,271.0,"permanent free Wi-Fi, spa access and priority check-in service."
+en_CA_Hospitality_1587316,37,agent,channel1,26,271.0,292.0,And you'll also receive early access to our spa facilities if you'd like to book a couple's massage during your stay.
+en_CA_Hospitality_1587316,38,customer,channel2,12,272.0,301.0,"Wow, that sounds amazing. I didn't even know about the spa access. That's a nice bonus. My wife loves sash. I'm a surpiser with that."
+en_CA_Hospitality_1587316,39,agent,channel1,27,292.0,307.0,"Oh, that would be a wonderful surprise. I can send you a link to our spa menu and you can book a treatment directly through your guest portal."
+en_CA_Hospitality_1587316,40,customer,channel2,13,301.0,309.0,Please do. I'll definitely check that out later.
+en_CA_Hospitality_1587316,41,agent,channel1,28,307.0,325.0,Okay.
+en_CA_Hospitality_1587316,42,customer,channel2,14,309.0,324.0,"Actually, since we'll be driving in from out of town, is there any chance for an early check in? Maybe around 1pm? Possibly a late check out on Monday?"
+en_CA_Hospitality_1587316,43,agent,channel1,29,325.0,329.0,Let me see what we can do.
+en_CA_Hospitality_1587316,44,agent,channel1,30,329.0,337.0,"So early check-in is normally at 3 p.m., but since it's a special occasion and the honeymoon suite is available the night before,"
+en_CA_Hospitality_1587316,45,agent,channel1,31,337.0,343.0,I can request a complimentary early check-in at 1 p.m. for you.
+en_CA_Hospitality_1587316,46,customer,channel2,15,339.0,368.0,I'll definitely join the rewards program if that means a late check out for free. I can see my wife wanting to rush Monday morning.
+en_CA_Hospitality_1587316,47,agent,channel1,32,343.0,348.0,"As for late check-out, our standard time is 11 a.m."
+en_CA_Hospitality_1587316,48,agent,channel1,33,348.0,370.0,"But we can extend it to 1 p.m. for a $50 fee or complimentary if you join our loyalty guest rewards program, which is free to sign up."
+en_CA_Hospitality_1587316,49,customer,channel2,16,368.0,386.0,Yeah.
+en_CA_Hospitality_1587316,50,agent,channel1,34,370.0,376.0,"Yeah, sounds perfect. So I'll enroll you right now. It only takes a moment."
+en_CA_Hospitality_1587316,51,agent,channel1,35,376.0,382.0,You'll get an email with your membership ID and benefits summary shortly.
+en_CA_Hospitality_1587316,52,agent,channel1,36,382.0,393.0,And with that I can confirm your late check-out at 1 p.m. free of charge.
+en_CA_Hospitality_1587316,53,customer,channel2,17,386.0,392.0,Fantastic. That's a big out. Thanks for arranging that.
+en_CA_Hospitality_1587316,54,agent,channel1,37,393.0,399.0,"Yeah, my pleasure, Daniel. So just to confirm everything for you,"
+en_CA_Hospitality_1587316,55,agent,channel1,38,399.0,405.0,I hope you get graded to the honeymoon suite for November 2nd to 4th.
+en_CA_Hospitality_1587316,56,agent,channel1,39,405.0,411.0,"You'll receive an early check-in at 1 p.m., a late check-out at 1 p.m.,"
+en_CA_Hospitality_1587316,57,agent,channel1,40,411.0,417.0,complimentary champagne and chocolate-covered strawberries will be waiting in your suite.
+en_CA_Hospitality_1587316,58,customer,channel2,18,416.0,440.0,"Alright, everything sounds perfect. I really appreciate you putting this together for me. Sophie, thank you."
+en_CA_Hospitality_1587316,59,agent,channel1,41,417.0,424.0,You'll receive a link for spa services and your loyalty guest rewards membership details via email.
+en_CA_Hospitality_1587316,60,agent,channel1,42,424.0,440.0,"Total for your stay is $658, inclusive of the discount and taxes. Does all of that sound correct?"
+en_CA_Hospitality_1587316,61,agent,channel1,43,440.0,448.0,"Oh, you're both welcome. My pleasure. It's my pleasure to help to make your anniversary stay extra special."
+en_CA_Hospitality_1587316,62,customer,channel2,19,446.0,475.0,"Oh, that's a nice touch. Could you write to my beautiful wife, here's to 10 wonderful years. Love, Daniel."
+en_CA_Hospitality_1587316,63,agent,channel1,44,448.0,466.0,Would you like me to add a personal note or a special message for your wife on the welcome card?
+en_CA_Hospitality_1587316,64,agent,channel1,45,466.0,483.0,"Oh, absolutely. I'll make sure that's included with the champagne. So she'll see it waiting when you arrive in the room."
+en_CA_Hospitality_1587316,65,customer,channel2,20,475.0,483.0,"Thank you. She's going to love that. Thank you again, Sophie. You've been amazing."
+en_CA_Hospitality_1587316,66,agent,channel1,46,483.0,490.0,"It was truly my pleasure, Daniel. So you're all set for your anniversary weekend at the Grandview Hotel."
+en_CA_Hospitality_1587316,67,agent,channel1,47,490.0,498.0,"So you'll get an updated confirmation email within the next few minutes, including your suite details and early check-in note."
+en_CA_Hospitality_1587316,68,agent,channel1,48,498.0,512.0,"So if you have any questions or need further help before arrival, feel free to call or email us anytime."
+en_CA_Hospitality_1587316,69,customer,channel2,21,505.0,512.0,"We'll do. Thanks again, Sophie. You've made my playing this a lot easier."
+en_CA_Hospitality_1587316,70,agent,channel1,49,512.0,523.0,"Oh, you're very welcome. So we look forward to welcoming you and your wife this weekend. Have a great day and happy anniversary in advance."
+en_CA_Hospitality_1587316,71,customer,channel2,22,520.0,523.0,"Thanks. Take care, Sophie."
+en_CA_Hospitality_1587316,72,agent,channel1,50,523.0,538.0,"Take care, Daniel. Goodbye."
+en_CA_Hospitality_1587316,73,customer,channel2,23,535.0,538.0,Thank you.
+en_CA_Hospitality_1587316,74,agent,channel1,51,538.0,540.0,Thank you.

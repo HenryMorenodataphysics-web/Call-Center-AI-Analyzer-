@@ -1,0 +1,250 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Travel_1592683,1,agent,channel1,1,0.0,18.16,"Good afternoon, thanks for calling Wonder Travel Holidays, this is Danielle speaking, how can"
+en_AU_Travel_1592683,2,customer,channel2,1,0.0,27.1,"Oh, hey Danielle, I'm looking into booking a vacation package for the theme park."
+en_AU_Travel_1592683,3,agent,channel1,2,18.16,19.08,I help you today?
+en_AU_Travel_1592683,4,customer,channel2,2,27.1,29.24,I just don't really know where to start.
+en_AU_Travel_1592683,5,customer,channel2,3,29.24,33.6,Like I figured I should talk to a human before I confuse myself more online.
+en_AU_Travel_1592683,6,agent,channel1,3,30.0,41.08,"Totally understandable, look, there are so many options available online. I can walk you through"
+en_AU_Travel_1592683,7,agent,channel1,4,41.08,44.72,"everything. Now, look, are you planning for a particular time of year?"
+en_AU_Travel_1592683,8,agent,channel1,5,44.72,61.52,"Yeah, great. So summer is always the most popular season. Let me pull up availability for those"
+en_AU_Travel_1592683,9,customer,channel2,4,45.5,51.1,"Yeah, like sometime in summer, maybe mid December, maybe early January."
+en_AU_Travel_1592683,10,customer,channel2,5,51.1,54.5,"It just really depends on a few things, but I'm pretty flexible."
+en_AU_Travel_1592683,11,customer,channel2,6,58.1,59.1,Okay.
+en_AU_Travel_1592683,12,agent,channel1,6,61.52,70.16,"dates, one moment please. Alright, so mid-December still has good amount of availability. Early"
+en_AU_Travel_1592683,13,customer,channel2,7,67.1,68.1,"Ah, okay, good."
+en_AU_Travel_1592683,14,customer,channel2,8,68.1,71.1,I was worried it would all be gone by now.
+en_AU_Travel_1592683,15,agent,channel1,7,70.16,79.8,"January is busy but not completely booked out yet. Nope, not yet, you're still in luck."
+en_AU_Travel_1592683,16,agent,channel1,8,79.8,84.64,"So are you interested in any of the, interested in the full package, sorry, so that will be"
+en_AU_Travel_1592683,17,agent,channel1,9,84.64,98.48,"hotel, park tickets, meals, all of that, or just the entry passes? Yeah, fair enough."
+en_AU_Travel_1592683,18,customer,channel2,9,88.1,92.1,"Um, look, definitely I think the full package."
+en_AU_Travel_1592683,19,customer,channel2,10,92.1,95.1,I don't want to plan everything piece by piece.
+en_AU_Travel_1592683,20,customer,channel2,11,95.1,96.1,I lose my mind.
+en_AU_Travel_1592683,21,agent,channel1,10,98.48,103.72,"Look, our standard vacation package includes three nights at a partner hotel, park entry"
+en_AU_Travel_1592683,22,agent,channel1,11,103.72,109.92,"for each day, breakfast daily, and a shuttle to the park. Then there are the optional add-ons"
+en_AU_Travel_1592683,23,agent,channel1,12,109.92,122.32,"like meal vouchers and ride fast track passes. Yeah, most families do three, but you can"
+en_AU_Travel_1592683,24,customer,channel2,12,113.1,115.1,That sounds perfect.
+en_AU_Travel_1592683,25,customer,channel2,13,115.1,117.1,"Um, and is it three nights?"
+en_AU_Travel_1592683,26,customer,channel2,14,117.1,119.1,Is three nights the standard?
+en_AU_Travel_1592683,27,agent,channel1,13,122.32,127.96,"extend it if you wanted to, so the school holiday crowds can be intense. So some people"
+en_AU_Travel_1592683,28,agent,channel1,14,127.96,139.52,like doing an extra night to rest. They do. Mid-December is usually a little more affordable. Early January
+en_AU_Travel_1592683,29,customer,channel2,15,130.1,131.1,"Yeah, that makes sense."
+en_AU_Travel_1592683,30,customer,channel2,16,131.1,134.1,And do prices change depending on the week?
+en_AU_Travel_1592683,31,customer,channel2,17,134.1,144.1,Okay.
+en_AU_Travel_1592683,32,agent,channel1,15,139.52,151.16,"bumps up a bit because of the new year, not a massive difference but noticeable. Yes,"
+en_AU_Travel_1592683,33,customer,channel2,18,144.1,145.1,That's good to know.
+en_AU_Travel_1592683,34,customer,channel2,19,145.1,147.1,"Um, what about deals?"
+en_AU_Travel_1592683,35,customer,channel2,20,147.1,150.1,Any summer specials you've got going?
+en_AU_Travel_1592683,36,agent,channel1,16,151.16,155.56,"so if you book before the end of this month, you get 10% off the base package and you've"
+en_AU_Travel_1592683,37,agent,channel1,17,155.56,169.8,"got kids meals vouchers, they're discounted too. Yep, so you can cancel for up to 14 days"
+en_AU_Travel_1592683,38,customer,channel2,21,159.1,161.1,"Okay, that's interesting."
+en_AU_Travel_1592683,39,customer,channel2,22,162.1,165.1,"Um, what about the cancellation policy?"
+en_AU_Travel_1592683,40,customer,channel2,23,165.1,166.1,What's that like?
+en_AU_Travel_1592683,41,agent,channel1,18,169.8,175.0,"for free before your check-in day. After that, there's a sliding scale of partial refunds"
+en_AU_Travel_1592683,42,agent,channel1,19,175.0,187.24,"depending on how close to arrival it is. Nope, just a 20% deposit to secure the booking. The"
+en_AU_Travel_1592683,43,customer,channel2,24,177.1,179.1,"Okay, that's pretty reasonable."
+en_AU_Travel_1592683,44,customer,channel2,25,179.1,183.1,"Um, and do you need me to pay everything up front?"
+en_AU_Travel_1592683,45,agent,channel1,20,187.24,211.2,"rest is due a week before you travel. Yep, okay, so regarding your question, we've got both."
+en_AU_Travel_1592683,46,customer,channel2,26,189.1,190.1,Perfect.
+en_AU_Travel_1592683,47,customer,channel2,27,190.1,194.1,Now you mentioned partner hotels.
+en_AU_Travel_1592683,48,customer,channel2,28,194.1,198.1,"Um, could we please talk about the rooms?"
+en_AU_Travel_1592683,49,customer,channel2,29,198.1,203.1,"I've got two kids, so we probably need a family room or maybe even two doubles."
+en_AU_Travel_1592683,50,customer,channel2,30,203.1,208.1,"Do you, um, would you be able to help me a little bit with that?"
+en_AU_Travel_1592683,51,agent,channel1,21,211.2,220.12,The family suites usually come with a bunk beds or two doubles. They're really popular
+en_AU_Travel_1592683,52,agent,channel1,22,220.12,231.84,"for summer, but I'm seeing a few still available for the mid-December week that you mentioned."
+en_AU_Travel_1592683,53,customer,channel2,31,221.1,222.1,Okay.
+en_AU_Travel_1592683,54,customer,channel2,32,222.1,223.1,That's really good.
+en_AU_Travel_1592683,55,customer,channel2,33,223.1,228.1,"Um, so the price for the family suite with the full package, what would that be?"
+en_AU_Travel_1592683,56,agent,channel1,23,231.84,235.88,"Yeah, so this will now depend on the exact dates and the number of park days, but it"
+en_AU_Travel_1592683,57,agent,channel1,24,235.88,240.44,falls in the mid-range. I can put together a detailed quote so you can see everything
+en_AU_Travel_1592683,58,customer,channel2,34,236.1,238.1,"Yeah, that'd be great."
+en_AU_Travel_1592683,59,customer,channel2,35,238.1,241.1,"Um, and meal vouchers, how do they work again?"
+en_AU_Travel_1592683,60,agent,channel1,25,240.44,250.44,"clearly. That's usually the easiest way. Yep, a great question, so they're flexible. You can"
+en_AU_Travel_1592683,61,customer,channel2,36,242.1,244.1,"Oh, you're telling me."
+en_AU_Travel_1592683,62,customer,channel2,37,244.1,248.1,"Look, knowing my kids, that might be a good idea."
+en_AU_Travel_1592683,63,customer,channel2,38,248.1,252.1,"And those fast track ride passes, are they worth adding?"
+en_AU_Travel_1592683,64,agent,channel1,26,250.44,255.2,"use them anywhere in the park, snacks, drink, lunch, whatever you want. Adults get a higher"
+en_AU_Travel_1592683,65,customer,channel2,39,252.1,254.1,"Yeah, that'd be great."
+en_AU_Travel_1592683,66,customer,channel2,40,254.1,258.1,"Um, and meal vouchers, how do they work again?"
+en_AU_Travel_1592683,67,agent,channel1,27,255.2,259.16,"value one, kids get the smaller ones. It's handy because you don't have to pull out"
+en_AU_Travel_1592683,68,customer,channel2,41,258.1,261.1,"Oh, you're telling me."
+en_AU_Travel_1592683,69,agent,channel1,28,259.16,274.96,"your wallet every five minutes. In summer, yeah, honestly definitely worth it. Wait times"
+en_AU_Travel_1592683,70,customer,channel2,42,261.1,265.1,"Look, knowing my kids, that might be a good idea."
+en_AU_Travel_1592683,71,customer,channel2,43,265.1,269.1,"And those fast track ride passes, are they worth adding?"
+en_AU_Travel_1592683,72,customer,channel2,44,270.1,272.1,"Yeah, right."
+en_AU_Travel_1592683,73,customer,channel2,45,272.1,273.1,Okay.
+en_AU_Travel_1592683,74,customer,channel2,46,273.1,274.1,I'll think about that.
+en_AU_Travel_1592683,75,customer,channel2,47,274.1,277.1,"Um, yeah."
+en_AU_Travel_1592683,76,agent,channel1,29,274.96,283.24,"can get pretty long. As you can imagine, everyone's doing the annual move to the theme parks"
+en_AU_Travel_1592683,77,customer,channel2,48,277.1,281.1,"Look, the other thing is how long can you hold,"
+en_AU_Travel_1592683,78,customer,channel2,49,281.1,283.1,how long can you hold?
+en_AU_Travel_1592683,79,customer,channel2,50,283.1,285.1,"Um, you know, I guess you can hold,"
+en_AU_Travel_1592683,80,agent,channel1,30,283.24,289.08,"there, and they do get quite busy. So a half day pass or even a full day one of fast track"
+en_AU_Travel_1592683,81,customer,channel2,51,285.1,288.1,"maybe in a few minutes, or maybe after 2 minutes."
+en_AU_Travel_1592683,82,customer,channel2,52,288.1,289.1,"So, so, so, so,"
+en_AU_Travel_1592683,83,agent,channel1,31,289.08,312.76,"can make the whole trip smoother. Yep, so 48 hours. So given it's Sunday the 7th of December,"
+en_AU_Travel_1592683,84,customer,channel2,53,289.1,290.1,"so, so, so, so,"
+en_AU_Travel_1592683,85,customer,channel2,54,290.1,291.1,"so, so, so,"
+en_AU_Travel_1592683,86,customer,channel2,55,291.1,292.1,"so, so, so,"
+en_AU_Travel_1592683,87,customer,channel2,56,292.1,293.1,"so, so, so, so,"
+en_AU_Travel_1592683,88,customer,channel2,57,293.1,294.1,"so, so, so,"
+en_AU_Travel_1592683,89,customer,channel2,58,294.1,295.1,"so, so, so, so,"
+en_AU_Travel_1592683,90,customer,channel2,59,295.1,296.1,"so, so, so,"
+en_AU_Travel_1592683,91,customer,channel2,60,296.1,297.1,"so, so, so,"
+en_AU_Travel_1592683,92,customer,channel2,61,297.1,298.1,"so, so,"
+en_AU_Travel_1592683,93,customer,channel2,62,298.1,300.06,How long can you hold a quote for?
+en_AU_Travel_1592683,94,customer,channel2,63,300.06,302.86,"Like say if you gave me a quote today,"
+en_AU_Travel_1592683,95,customer,channel2,64,302.86,304.06,"like a formal quote,"
+en_AU_Travel_1592683,96,customer,channel2,65,304.06,306.06,"well, how long could you hold that for?"
+en_AU_Travel_1592683,97,agent,channel1,32,313.76,318.92,the quote will be valid until lunchtime on Tuesday for you to make your decision. After
+en_AU_Travel_1592683,98,agent,channel1,33,318.92,323.76,"that, room availability might change, particularly for those family suites, and of course we're"
+en_AU_Travel_1592683,99,agent,channel1,34,323.76,339.92,looking at the period. Just your name and your email address. No payment details yet.
+en_AU_Travel_1592683,100,customer,channel2,66,325.46,328.0,"Yeah, look, that's fair enough."
+en_AU_Travel_1592683,101,customer,channel2,67,328.0,330.36,"So if I go ahead with the mid-December week,"
+en_AU_Travel_1592683,102,customer,channel2,68,330.36,333.52,"the family suite, the full package,"
+en_AU_Travel_1592683,103,customer,channel2,69,333.52,335.92,what would you need from me to set up the quote?
+en_AU_Travel_1592683,104,agent,channel1,35,339.92,349.48,"Of course, this quote is just for review. Exactly. So once the deposits in your booking is locked"
+en_AU_Travel_1592683,105,customer,channel2,70,342.12,342.96,"Okay, great."
+en_AU_Travel_1592683,106,customer,channel2,71,342.96,346.64,"And then if I confirm, that's when I pay the deposit."
+en_AU_Travel_1592683,107,agent,channel1,36,349.48,354.64,"and confirmed, you can still add extras later, things like fast track or photo passes as"
+en_AU_Travel_1592683,108,agent,channel1,37,354.64,365.84,"well. Yeah, look, that's what I'm here for. I'll send you the quote out today. If"
+en_AU_Travel_1592683,109,customer,channel2,72,355.2,356.36,"Oh, that's brilliant."
+en_AU_Travel_1592683,110,customer,channel2,73,356.36,358.6,"Yeah, this has honestly been way easier"
+en_AU_Travel_1592683,111,customer,channel2,74,358.6,360.6,than trying to decode the website.
+en_AU_Travel_1592683,112,agent,channel1,38,366.76,372.48,"anything, you know, is confusing or if you want to tweak anything, just reply to the email or of"
+en_AU_Travel_1592683,113,agent,channel1,39,372.48,383.88,"course, so forgive me not buzz. You're very welcome, Maria. So in terms of enjoying, in terms of"
+en_AU_Travel_1592683,114,customer,channel2,75,374.64,375.56,Amazing.
+en_AU_Travel_1592683,115,customer,channel2,76,375.56,377.6,"Thank you so much, Danielle."
+en_AU_Travel_1592683,116,agent,channel1,40,383.88,389.36,"planning the trip, you know, were there any theme parks specifically that you were, you know,"
+en_AU_Travel_1592683,117,customer,channel2,77,386.36,387.2,Thank you.
+en_AU_Travel_1592683,118,agent,channel1,41,389.36,396.64,"looking at booking, you know, there are like quite a few parks up there, sometimes just for you to"
+en_AU_Travel_1592683,119,agent,channel1,42,396.64,402.92,know as well. Some of the parks do have better deals than others. Which are the ones were you
+en_AU_Travel_1592683,120,agent,channel1,43,402.92,404.24,looking at specifically?
+en_AU_Travel_1592683,121,customer,channel2,78,404.6,408.44,"So, like we were looking at SeaWorld as well."
+en_AU_Travel_1592683,122,customer,channel2,79,408.44,411.12,"Like I know that, like,"
+en_AU_Travel_1592683,123,customer,channel2,80,411.12,414.64,"obviously we're talking to you guys, so there's DreamWorld."
+en_AU_Travel_1592683,124,customer,channel2,81,414.64,419.16,"And if we were to look at SeaWorld as well,"
+en_AU_Travel_1592683,125,customer,channel2,82,419.16,420.96,is there a way that you could combine it
+en_AU_Travel_1592683,126,agent,channel1,44,419.36,436.36,Do you mean on the same day or?
+en_AU_Travel_1592683,127,customer,channel2,83,420.96,425.2,"so that you could do like maybe, you know,"
+en_AU_Travel_1592683,128,customer,channel2,84,425.2,427.0,some time with DreamWorld
+en_AU_Travel_1592683,129,customer,channel2,85,427.0,428.68,and then we could stay in the same hotel
+en_AU_Travel_1592683,130,customer,channel2,86,428.68,429.76,and we could do SeaWorld?
+en_AU_Travel_1592683,131,customer,channel2,87,429.76,431.6,"Is that like, is that an option?"
+en_AU_Travel_1592683,132,customer,channel2,88,431.6,432.6,Do people do that?
+en_AU_Travel_1592683,133,customer,channel2,89,437.04,439.44,"No, I mean like say we did,"
+en_AU_Travel_1592683,134,customer,channel2,90,439.44,443.04,because obviously we'd wanna like take the full package
+en_AU_Travel_1592683,135,customer,channel2,91,443.08,447.4,"of like three, four days at your park"
+en_AU_Travel_1592683,136,customer,channel2,92,447.4,449.72,"and then like shift to the next park,"
+en_AU_Travel_1592683,137,agent,channel1,45,449.36,460.36,Right. So what I would recommend is a longer hotel booking. So you can remember how I mentioned we
+en_AU_Travel_1592683,138,customer,channel2,93,449.72,451.96,but maybe we could stay in the same hotel.
+en_AU_Travel_1592683,139,agent,channel1,46,460.36,465.84,had some people they decide because it's so intense to do the three parks back to back. They
+en_AU_Travel_1592683,140,agent,channel1,47,465.84,474.12,"might add an extra night or two. Yeah, so what I would recommend is just making a longer hotel"
+en_AU_Travel_1592683,141,customer,channel2,94,468.12,469.92,"Yeah, you mentioned that, yeah."
+en_AU_Travel_1592683,142,customer,channel2,95,473.04,473.88,Yeah.
+en_AU_Travel_1592683,143,agent,channel1,48,474.12,481.36,"booking. When it does come to the parks as well, because transfers are actually included to and from"
+en_AU_Travel_1592683,144,agent,channel1,49,481.36,488.52,"the parks, you need to book those ones in. So let's just say you're going from Monday to Friday."
+en_AU_Travel_1592683,145,customer,channel2,96,489.24,490.08,Uh-huh.
+en_AU_Travel_1592683,146,agent,channel1,50,490.04,497.64,"You might want to do our parks on Monday, Tuesday and Thursday. And then that will leave you the"
+en_AU_Travel_1592683,147,agent,channel1,51,497.64,506.76,"opportunity to, you know, book the other park, you know, SeaWorld on, say, the Wednesday. SeaWorld"
+en_AU_Travel_1592683,148,customer,channel2,97,503.04,503.88,Yeah.
+en_AU_Travel_1592683,149,agent,channel1,52,506.76,512.6,"is, you know, typically known to be a bit of a different pace as well. So it might not bother"
+en_AU_Travel_1592683,150,agent,channel1,53,512.6,519.32,"you so much to do all the days back to back. But typically, like it does depend too on the ages of"
+en_AU_Travel_1592683,151,agent,channel1,54,519.32,524.52,"the kids going, you know, what's the age range of the children, Maria?"
+en_AU_Travel_1592683,152,customer,channel2,98,524.8,527.56,"Yeah, there's four kids"
+en_AU_Travel_1592683,153,customer,channel2,99,527.56,531.76,"and we've got four kids, two twin girls."
+en_AU_Travel_1592683,154,agent,channel1,55,527.64,547.56,"Yeah, so definitely in that, like, you know, a bit younger age range. My recommendation would"
+en_AU_Travel_1592683,155,customer,channel2,100,531.8,534.68,They're four and a half
+en_AU_Travel_1592683,156,customer,channel2,101,534.68,537.32,"and you know, they've got two older brothers."
+en_AU_Travel_1592683,157,customer,channel2,102,537.32,539.8,So one is seven and one is eight.
+en_AU_Travel_1592683,158,customer,channel2,103,539.8,541.08,So there's four kids.
+en_AU_Travel_1592683,159,agent,channel1,56,547.56,554.28,"certainly be either considering booking, perhaps even at six nights, if you didn't want to do,"
+en_AU_Travel_1592683,160,agent,channel1,57,554.52,562.68,"you know, back to back days, that'll allow you to stay at the same hotel. We don't unfortunately do"
+en_AU_Travel_1592683,161,customer,channel2,104,561.76,563.76,"Um, that would be really good, Daniel."
+en_AU_Travel_1592683,162,agent,channel1,58,562.68,569.72,"transfers with SeaWorld. However, I do or I can recommend a list of companies that will pick"
+en_AU_Travel_1592683,163,customer,channel2,105,563.76,565.56,Do you think you could pop that in the email
+en_AU_Travel_1592683,164,customer,channel2,106,565.56,567.56,when you send the quote across?
+en_AU_Travel_1592683,165,agent,channel1,59,569.72,575.72,"you up from our hotel, partner hotels, and they can get you out there if you don't manage,"
+en_AU_Travel_1592683,166,customer,channel2,107,575.56,576.4,Yeah.
+en_AU_Travel_1592683,167,agent,channel1,60,575.72,578.52,"of course, to book it with the park directly."
+en_AU_Travel_1592683,168,customer,channel2,108,576.4,577.24,Yeah.
+en_AU_Travel_1592683,169,customer,channel2,109,577.24,578.08,Yeah.
+en_AU_Travel_1592683,170,customer,channel2,110,578.08,578.92,Yeah.
+en_AU_Travel_1592683,171,customer,channel2,111,578.92,579.76,Yeah.
+en_AU_Travel_1592683,172,customer,channel2,112,579.76,580.6,Yeah.
+en_AU_Travel_1592683,173,customer,channel2,113,580.6,581.44,Yeah.
+en_AU_Travel_1592683,174,customer,channel2,114,581.44,582.28,Yeah.
+en_AU_Travel_1592683,175,customer,channel2,115,582.28,583.12,Yeah.
+en_AU_Travel_1592683,176,customer,channel2,116,583.12,583.96,Yeah.
+en_AU_Travel_1592683,177,customer,channel2,117,583.96,584.8,Yeah.
+en_AU_Travel_1592683,178,agent,channel1,61,584.68,591.32,"Yeah, I'm happy to include all of those details. Now, will you be looking at doing anything else"
+en_AU_Travel_1592683,179,customer,channel2,118,584.8,585.64,Yeah.
+en_AU_Travel_1592683,180,customer,channel2,119,585.64,586.48,Yeah.
+en_AU_Travel_1592683,181,customer,channel2,120,586.48,587.32,Yeah.
+en_AU_Travel_1592683,182,customer,channel2,121,587.32,588.16,Yeah.
+en_AU_Travel_1592683,183,customer,channel2,122,588.16,589.0,Yeah.
+en_AU_Travel_1592683,184,customer,channel2,123,589.0,589.84,Yeah.
+en_AU_Travel_1592683,185,customer,channel2,124,589.84,590.68,Yeah.
+en_AU_Travel_1592683,186,customer,channel2,125,590.68,591.52,Yeah.
+en_AU_Travel_1592683,187,agent,channel1,62,591.32,600.2,"whilst you're, you know, in Queensland?"
+en_AU_Travel_1592683,188,customer,channel2,126,591.52,592.36,Yeah.
+en_AU_Travel_1592683,189,customer,channel2,127,595.16,598.44,My daughters really want to go to butterfly world.
+en_AU_Travel_1592683,190,customer,channel2,128,599.44,602.2,They are just obsessed with butterflies.
+en_AU_Travel_1592683,191,customer,channel2,129,602.2,604.0,"At that age, you can imagine, right?"
+en_AU_Travel_1592683,192,customer,channel2,130,604.0,607.84,"So, oh, but the boys don't want to go."
+en_AU_Travel_1592683,193,customer,channel2,131,607.84,612.84,"But like, yeah, like, and because it's also like"
+en_AU_Travel_1592683,194,customer,channel2,132,612.84,616.24,it's another 40 minutes drive into the hinterland
+en_AU_Travel_1592683,195,agent,channel1,63,614.68,633.32,We do actually. So I'm happy to inquire what some of the latest deals might be. I did read the other
+en_AU_Travel_1592683,196,customer,channel2,133,616.24,617.88,to get to butterfly world.
+en_AU_Travel_1592683,197,customer,channel2,134,619.24,620.44,We were weighing it up.
+en_AU_Travel_1592683,198,customer,channel2,135,620.44,623.56,Do you guys have any partner deals with butterfly world?
+en_AU_Travel_1592683,199,agent,channel1,64,633.32,639.56,"day that they were looking at doing, you know, a sort of two for one adults and children pass."
+en_AU_Travel_1592683,200,agent,channel1,65,639.56,646.52,"So for every, you know, adult that goes, two children are allowed in for free. So that might"
+en_AU_Travel_1592683,201,agent,channel1,66,646.52,653.48,"be something that, you know, might convince you to consider that a book. You know, again,"
+en_AU_Travel_1592683,202,customer,channel2,136,650.44,662.52,"Oh, that would be awesome."
+en_AU_Travel_1592683,203,agent,channel1,67,653.48,657.08,"of course, if the whole family doesn't want to go, there's that opportunity for, you know,"
+en_AU_Travel_1592683,204,agent,channel1,68,657.08,673.0,yourself to take the two girls just depends on what you want to do really.
+en_AU_Travel_1592683,205,customer,channel2,137,662.52,665.84,"Yeah, Daniel, please include pricing for that"
+en_AU_Travel_1592683,206,customer,channel2,138,665.84,667.88,or any information you could provide.
+en_AU_Travel_1592683,207,customer,channel2,139,667.88,670.6,"And I might even just the girls,"
+en_AU_Travel_1592683,208,customer,channel2,140,670.6,671.96,they're coming up on their birthday.
+en_AU_Travel_1592683,209,customer,channel2,141,671.96,675.4,So I might even just hold that one close.
+en_AU_Travel_1592683,210,agent,channel1,69,673.0,693.16,"Oh, yeah, that sounds like a great idea. Listen, Maria, what were the details to send you the"
+en_AU_Travel_1592683,211,customer,channel2,142,675.4,677.96,"And like, I might just surprise them for their birthday"
+en_AU_Travel_1592683,212,customer,channel2,143,677.96,682.08,and let the boys have a day with their dad as well.
+en_AU_Travel_1592683,213,customer,channel2,144,682.08,684.76,And maybe they can go like quad biking or something.
+en_AU_Travel_1592683,214,agent,channel1,70,693.16,699.08,"quote and that additional information? So just to confirm, I'll send you the options of the"
+en_AU_Travel_1592683,215,agent,channel1,71,699.08,706.76,"three, five and six night packages we've got. I'll also send you those additional contact details"
+en_AU_Travel_1592683,216,agent,channel1,72,706.76,714.92,"for the transfers, if you'd like to inquire with those. And is there anything else you'd like me to"
+en_AU_Travel_1592683,217,customer,channel2,145,708.96,709.96,Yeah.
+en_AU_Travel_1592683,218,customer,channel2,146,713.96,716.96,"I think I was just like, you mentioned the discount"
+en_AU_Travel_1592683,219,agent,channel1,73,714.92,726.2,"send you? Yeah, of course, I'll include that. Yeah, that'll all be included in the email."
+en_AU_Travel_1592683,220,customer,channel2,147,716.96,717.96,for butterfly world.
+en_AU_Travel_1592683,221,customer,channel2,148,717.96,718.96,Yeah.
+en_AU_Travel_1592683,222,customer,channel2,149,718.96,719.96,"No, you've covered all that."
+en_AU_Travel_1592683,223,customer,channel2,150,719.96,720.96,Yeah.
+en_AU_Travel_1592683,224,customer,channel2,151,720.96,721.96,Yeah.
+en_AU_Travel_1592683,225,customer,channel2,152,722.96,723.96,Yes.
+en_AU_Travel_1592683,226,customer,channel2,153,723.96,724.96,"That covers everything, Daniel."
+en_AU_Travel_1592683,227,customer,channel2,154,724.96,725.96,Thank you so much.
+en_AU_Travel_1592683,228,agent,channel1,74,730.28,735.0,"Brilliant. And if I could just please take your email address and phone number,"
+en_AU_Travel_1592683,229,customer,channel2,155,733.96,734.96,Of course.
+en_AU_Travel_1592683,230,agent,channel1,75,735.0,736.92,I'll get those over to you by the end of today.
+en_AU_Travel_1592683,231,customer,channel2,156,735.96,737.96,"Oh, of course."
+en_AU_Travel_1592683,232,customer,channel2,157,737.96,738.96,Of course.
+en_AU_Travel_1592683,233,customer,channel2,158,738.96,739.96,Yes.
+en_AU_Travel_1592683,234,customer,channel2,159,739.96,740.96,Okay.
+en_AU_Travel_1592683,235,customer,channel2,160,740.96,746.96,Not the Brady Bunch at gmail.com.
+en_AU_Travel_1592683,236,agent,channel1,76,745.48,752.2,Yep. No problem. That's brilliant. And your best phone number?
+en_AU_Travel_1592683,237,customer,channel2,161,751.96,759.96,"Yeah, it's 0411 22397."
+en_AU_Travel_1592683,238,agent,channel1,77,761.8,768.36,"Brilliant. Right, I'm going to send that across to you. Now, do review the quote. Of course,"
+en_AU_Travel_1592683,239,customer,channel2,162,764.96,766.96,Yeah.
+en_AU_Travel_1592683,240,agent,channel1,78,768.36,773.48,"if you've got any questions, feel free to give me a buzz back. If you'd like to go ahead with"
+en_AU_Travel_1592683,241,agent,channel1,79,773.48,777.8,"the booking, of course, you can just give me a buzz. Remind about when we will take the deposit"
+en_AU_Travel_1592683,242,agent,channel1,80,777.8,786.6,from you. And the deposit is just 25% at this stage of the booking. And then we will take the
+en_AU_Travel_1592683,243,agent,channel1,81,786.6,795.56,"full amount, you know, a couple of weeks before the booking. If I don't hear from you by Tuesday,"
+en_AU_Travel_1592683,244,customer,channel2,163,794.96,807.72,"Yeah, look, that's fine, Danielle. That gives me plenty of time. I'll be definitely coming"
+en_AU_Travel_1592683,245,agent,channel1,82,795.56,801.56,"I will try and give you a buzz Tuesday morning. But other after that, the quote will"
+en_AU_Travel_1592683,246,agent,channel1,83,801.56,813.64,"be forfeited. Okay, brilliant. Now, Marie, is there anything else you'd like to help with?"
+en_AU_Travel_1592683,247,customer,channel2,164,807.72,817.28,"back to you before then. No, look, thank you so much. You've saved me battling the website"
+en_AU_Travel_1592683,248,agent,channel1,84,813.64,821.72,"No problem. Take care, Maria."
+en_AU_Travel_1592683,249,customer,channel2,165,817.28,825.04,"and I really appreciate all your help. Thanks, Danielle. See ya. Bye."

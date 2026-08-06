@@ -1,0 +1,59 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text,sentiment_label,sentiment_score,frustration_flag,empathy_flag,probing_flag,ownership_flag,next_steps_flag
+en_AU_Health_1586372,1,agent,channel1,1,0.0,18.0,"Hi, thank you for calling Austin Health. This is Emily. How can I help you today?",positive,0.6051,False,False,True,False,False
+en_AU_Health_1586372,2,customer,channel2,1,0.0,24.6,"Hi, my name is Jenny. I'm calling to schedule up a follow-up appointment with my doctor.",neutral,0.8578,False,False,False,False,False
+en_AU_Health_1586372,3,agent,channel1,2,18.0,34.0,Can I ask what this appointment is for?,neutral,0.9333,False,False,True,False,False
+en_AU_Health_1586372,4,customer,channel2,2,24.6,35.6,I'm here to see Dr James and I'm just hoping I can see him sometime next week.,positive,0.8838,False,False,False,False,False
+en_AU_Health_1586372,5,agent,channel1,3,34.0,54.0,What is your full name so I can bring you up or if you want to give me your date of birth?,neutral,0.9354,False,False,True,False,False
+en_AU_Health_1586372,6,customer,channel2,3,35.6,48.6,I just need some prescriptions refilled.,neutral,0.7383,False,False,False,False,False
+en_AU_Health_1586372,7,customer,channel2,4,48.6,70.6,"Jennifer O'Brien, 8th of July, 83.",neutral,0.924,False,False,False,False,False
+en_AU_Health_1586372,8,agent,channel1,4,54.0,74.0,Did you say you wanted this week?,neutral,0.8801,False,False,True,False,False
+en_AU_Health_1586372,9,customer,channel2,5,70.6,88.6,He's in the week if possible.,neutral,0.8133,False,False,False,False,False
+en_AU_Health_1586372,10,agent,channel1,5,74.0,95.0,Nothing this week unfortunately but I can see the doctors got some availability for Monday afternoon. The 23rd would that work for you?,neutral,0.5209,False,False,True,False,False
+en_AU_Health_1586372,11,customer,channel2,6,88.6,117.6,Let me just check my diary for a second.,neutral,0.8356,False,False,False,False,False
+en_AU_Health_1586372,12,agent,channel1,6,95.0,123.0,So Monday I can do 245 on Monday and you also mentioned that you need a prescription refill is that right?,neutral,0.8966,False,False,True,False,False
+en_AU_Health_1586372,13,customer,channel2,7,117.6,129.6,"Yeah, I've only got a few doses left. Yeah, so I need the prescription refill.",neutral,0.6023,False,False,False,False,False
+en_AU_Health_1586372,14,agent,channel1,7,123.0,137.0,Can you tell me the medication name and I can make a note of that on your file?,neutral,0.9266,False,False,True,False,False
+en_AU_Health_1586372,15,customer,channel2,8,129.6,158.6,I need to speak to another person as well.,neutral,0.8644,False,False,False,False,False
+en_AU_Health_1586372,16,agent,channel1,8,137.0,160.0,So the other option is if it's just for the medication would you prefer phone appointment and then that way you can talk to your doctor and then medication can be sent directly to your local pharmacy would that help you?,neutral,0.9127,False,False,True,False,False
+en_AU_Health_1586372,17,customer,channel2,9,158.6,184.6,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Health_1586372,18,agent,channel1,9,160.0,176.0,"Alright, that's not a problem. I have now booked this appointment for you. Did you have any other test results or did you need any other referral letters?",neutral,0.6392,False,False,True,False,False
+en_AU_Health_1586372,19,agent,channel1,10,176.0,189.0,Apologies I'm asking all of this because I need to understand whether I allocate a short consult or a longer consult for you.,neutral,0.6716,False,False,False,False,False
+en_AU_Health_1586372,20,customer,channel2,10,184.6,206.6,"I'm just wondering, can you do the prescriptions without seeing the doctor?",neutral,0.8759,False,False,False,False,False
+en_AU_Health_1586372,21,agent,channel1,11,190.0,206.0,"Well, that's what I was trying to explain before because I can and then what will do we will provide them to the pharmacy like your local pharmacy and then you will just need to go there and pick up the medication from there.",neutral,0.8775,False,False,False,False,False
+en_AU_Health_1586372,22,agent,channel1,12,206.0,209.0,Is that what you want to do?,neutral,0.9008,False,False,True,False,False
+en_AU_Health_1586372,23,customer,channel2,11,206.6,225.6,"Oh, yes, sorry, I got very confused, but yes, that's fine. It's called old age.",neutral,0.5502,False,False,False,False,False
+en_AU_Health_1586372,24,agent,channel1,13,209.0,227.0,"Oh, that's okay. That's okay. No, no, no, that's all good. So let me just make a couple of notes here and what I'll do and so you've been taking this medication for long.",neutral,0.5721,False,False,False,False,False
+en_AU_Health_1586372,25,customer,channel2,12,225.6,254.6,I'm about three years now.,neutral,0.8576,False,False,False,False,False
+en_AU_Health_1586372,26,agent,channel1,14,227.0,240.0,"Okay, yeah, sure. So what I'll do is I'll put this on your file. The doctor will contact you if they need any more information or will contact you.",neutral,0.8256,False,False,False,False,False
+en_AU_Health_1586372,27,agent,channel1,15,240.0,250.0,"But what will happen now is if the doctor reviews your file and if it is approved, then the prescription can be sent directly to your local pharmacy.",neutral,0.9054,False,False,False,False,False
+en_AU_Health_1586372,28,agent,channel1,16,250.0,257.0,And for that I'll need the location and the name of the pharmacy that is closest to you.,neutral,0.8648,False,False,False,False,False
+en_AU_Health_1586372,29,customer,channel2,13,256.6,270.6,"Oh, yeah. So the pharmacy that's closest to me is called Robert's Pharmacy.",neutral,0.7314,False,False,False,False,False
+en_AU_Health_1586372,30,agent,channel1,17,264.0,270.0,Robert's pharmacy. Yes. And what's the neighborhood or the postcode?,neutral,0.7957,False,False,True,False,False
+en_AU_Health_1586372,31,customer,channel2,14,270.6,292.6,The postcode is 244.,neutral,0.9106,False,False,False,False,False
+en_AU_Health_1586372,32,agent,channel1,18,271.0,277.0,244,neutral,0.5878,False,False,False,False,False
+en_AU_Health_1586372,33,agent,channel1,19,279.0,283.0,R-O-B-E-R-T-S pharmacy.,neutral,0.8493,False,False,False,False,False
+en_AU_Health_1586372,34,agent,channel1,20,284.0,292.0,"Oh, yeah, yeah. Okay, I found it. Thank you so much for that. Did you recently have to do any tests for this?",positive,0.8882,False,False,True,False,False
+en_AU_Health_1586372,35,customer,channel2,15,292.6,321.6,"No, no.",neutral,0.5906,False,False,False,False,False
+en_AU_Health_1586372,36,agent,channel1,21,295.0,296.0,Okay.,neutral,0.5693,False,False,False,False,False
+en_AU_Health_1586372,37,agent,channel1,22,296.0,311.0,"I can see that the latest test results came through about two and a half years ago. So if the doctor needs any tests or anything, we'll be contacting with you.",neutral,0.8725,False,False,False,False,False
+en_AU_Health_1586372,38,agent,channel1,23,311.0,323.0,"But otherwise, I think you can expect the medications to be sent like the prescription to be sent to your local pharmacy by midday tomorrow.",neutral,0.9061,False,False,False,False,False
+en_AU_Health_1586372,39,customer,channel2,16,322.6,347.6,"Oh, yep, that'd be great.",positive,0.9827,False,False,False,False,False
+en_AU_Health_1586372,40,agent,channel1,24,323.0,328.0,What I will do is we will send you a confirmation message if that's gone through.,neutral,0.8616,False,False,True,False,False
+en_AU_Health_1586372,41,agent,channel1,25,328.0,336.0,"Otherwise, you may need to call us back and book your appointment to go through further details with your doctor.",neutral,0.9156,False,False,False,False,False
+en_AU_Health_1586372,42,agent,channel1,26,336.0,345.0,All of this will be in the confirmation message and then that's what you will know what your next steps are.,neutral,0.9071,False,False,False,False,False
+en_AU_Health_1586372,43,agent,channel1,27,345.0,348.0,Is that all clear for you?,neutral,0.9159,False,False,True,False,False
+en_AU_Health_1586372,44,customer,channel2,17,348.6,354.6,"Yeah, that's really good. Thank you.",positive,0.9855,False,False,False,False,False
+en_AU_Health_1586372,45,agent,channel1,28,349.0,354.0,"Okay, no problem. Was there anything else that I can help you today?",positive,0.631,False,False,True,True,False
+en_AU_Health_1586372,46,customer,channel2,18,354.6,375.6,"No, I think that's all for today.",neutral,0.7411,False,False,False,False,False
+en_AU_Health_1586372,47,agent,channel1,29,357.0,364.0,"One other thing before I let you go, I will also need to check your billing details.",neutral,0.7934,False,False,False,False,False
+en_AU_Health_1586372,48,agent,channel1,30,365.0,375.0,Have they changed recently because I understand for prescription refill only we won't charge you.,neutral,0.7998,False,True,False,False,False
+en_AU_Health_1586372,49,agent,channel1,31,375.0,381.0,"But if there are any additional information needed, we might need to book a telehealth for you.",neutral,0.9105,False,False,False,False,False
+en_AU_Health_1586372,50,customer,channel2,19,375.6,383.6,Yeah.,neutral,0.5798,False,False,False,False,False
+en_AU_Health_1586372,51,agent,channel1,32,381.0,383.0,Have they changed at all?,neutral,0.8828,False,False,True,False,False
+en_AU_Health_1586372,52,customer,channel2,20,383.6,400.6,"No, no. No, it's all the same.",negative,0.6734,False,False,False,False,False
+en_AU_Health_1586372,53,agent,channel1,33,386.0,390.0,"Okay, and contact details on your addresses is still the same.",neutral,0.8403,False,False,False,False,False
+en_AU_Health_1586372,54,agent,channel1,34,391.0,401.0,"Okay, fantastic. Thank you so much for that and thank you so much for calling Austin Health and good luck with receiving your prescriptions.",positive,0.9847,False,False,False,False,False
+en_AU_Health_1586372,55,customer,channel2,21,400.6,404.6,Thank you.,positive,0.8345,False,False,False,False,False
+en_AU_Health_1586372,56,agent,channel1,35,401.0,405.0,Thank you so much. Have a great day.,positive,0.9824,False,False,False,False,False
+en_AU_Health_1586372,57,customer,channel2,22,404.6,421.6,You too.,neutral,0.5769,False,False,False,False,False
+en_AU_Health_1586372,58,agent,channel1,36,420.0,423.0,Thank you.,positive,0.8345,False,False,False,False,False

@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "default_provider": "deterministic",
+  "default_stage": "live",
+  "generation": {
+    "temperature": 0.1,
+    "max_tokens": 220,
+    "context_tokens": 4096,
+    "timeout_sec": 180
+  },
+  "llama_cpp_server": {
+    "base_url": "http://127.0.0.1:8080",
+    "model": "Qwen3-4B-Q4_K_M.gguf"
+  },
+  "model_candidates": [
+    {
+      "id": "qwen3_4b_q4_k_m",
+      "provider": "llama_cpp_server",
+      "repository": "Qwen/Qwen3-4B-GGUF",
+      "filename": "Qwen3-4B-Q4_K_M.gguf",
+      "format": "GGUF",
+      "quantization": "Q4_K_M",
+      "approx_download_gb": 2.5,
+      "recommended_for_current_demo": true,
+      "reason": "Official 4B GGUF is compact enough for a 4 GB laptop GPU with partial offload or CPU fallback."
+    },
+    {
+      "id": "phi_4_mini_instruct",
+      "provider": "llama_cpp_server",
+      "repository": "microsoft/Phi-4-mini-instruct",
+      "format": "safetensors_or_trusted_gguf_conversion",
+      "parameters_billion": 3.8,
+      "recommended_for_current_demo": false,
+      "reason": "Keep as the comparison candidate; use a reviewed GGUF conversion before local llama.cpp testing."
+    }
+  ]
+}

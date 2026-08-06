@@ -1,0 +1,70 @@
+call_id,turn_id,speaker,channel,segment_id,start_time,end_time,text
+en_AU_Health_1593611,1,agent,channel1,1,0.0,19.8,"Hello, thank you for calling HealthWorks."
+en_AU_Health_1593611,2,customer,channel2,1,0.0,29.92,Hi Jenny. My name is Ella. I just wanted to schedule an appointment.
+en_AU_Health_1593611,3,agent,channel1,2,19.8,23.52,"This is Jenny speaking, how can I assist you today?"
+en_AU_Health_1593611,4,customer,channel2,2,29.92,36.0,for my flu vaccination and probably maybe my COVID vaccination. Do you have any availability of the
+en_AU_Health_1593611,5,agent,channel1,3,30.0,52.92,"Absolutely, and was it just flu and COVID-19 vaccinations as we offer a wide variety of vaccinations?"
+en_AU_Health_1593611,6,customer,channel2,3,36.0,51.84,"next couple of days? Oh, what vaccinations do you offer?"
+en_AU_Health_1593611,7,agent,channel1,4,52.92,68.28,"It's sort of dependent if any sort of situations, if you need catch-ups or if you're behind or if you're travelling based on what your personal circumstances are would be dependent on what you need."
+en_AU_Health_1593611,8,customer,channel2,4,59.92,75.12,I think I just need flu and COVID to be honest with you. I just thought I could get stabbed
+en_AU_Health_1593611,9,customer,channel2,5,75.12,91.04,more times with the shots. But I think flu and COVID would be great.
+en_AU_Health_1593611,10,agent,channel1,5,83.92,87.92,"Absolutely, we do offer those."
+en_AU_Health_1593611,11,agent,channel1,6,87.92,90.92,So we've got several openings this week.
+en_AU_Health_1593611,12,agent,channel1,7,90.92,102.92,So we have an opening on Wednesday at quarter past 10 or we have 2.30.
+en_AU_Health_1593611,13,agent,channel1,8,103.92,108.92,"And we've also got appointment times, anything after four till seven."
+en_AU_Health_1593611,14,customer,channel2,6,105.12,125.52,"Hmm, only thing for a second. I've got a few things going on this week. Let me just check the calendar."
+en_AU_Health_1593611,15,agent,channel1,9,108.92,112.92,"Otherwise, we've got some availability Thursday and Friday."
+en_AU_Health_1593611,16,agent,channel1,10,112.92,115.92,Do any of these times suit you?
+en_AU_Health_1593611,17,agent,channel1,11,115.92,136.92,"Yeah, if you just bear with me, I'll check our system."
+en_AU_Health_1593611,18,customer,channel2,7,126.32,131.12,Do you have any like Thursday 4pm?
+en_AU_Health_1593611,19,agent,channel1,12,136.92,141.92,I could do quarter past four on Thursday.
+en_AU_Health_1593611,20,customer,channel2,8,143.44,147.68,"Quarter past four on Thursday? Yeah, that sounds good. Does it take long?"
+en_AU_Health_1593611,21,agent,channel1,13,146.92,154.92,"So because you're receiving two different vaccinations, we will take approximately 20 minutes."
+en_AU_Health_1593611,22,agent,channel1,14,154.92,160.92,"However, we do have you sit just 15 minutes afterwards just to monitor for any side effects."
+en_AU_Health_1593611,23,customer,channel2,9,156.16,172.16,"Okay, who would have thought being stabbed in the arm by a nurse would get you 15 extra minutes in the"
+en_AU_Health_1593611,24,customer,channel2,10,172.16,180.48,"waiting room? Gee, all right, that's all right. So Thursday at 4.15, is that right?"
+en_AU_Health_1593611,25,agent,channel1,15,176.92,185.92,"Yes, so you should be out of our clinic by five o'clock."
+en_AU_Health_1593611,26,customer,channel2,11,185.52,201.44,"All right, I've got a few friends that also need their flu shots done. I'll walk you in a little bit."
+en_AU_Health_1593611,27,agent,channel1,16,185.92,205.92,"For vaccinations, we do recommend prior booking to assure we have enough staff available and enough stock just to ensure that we can order stock in."
+en_AU_Health_1593611,28,agent,channel1,17,205.92,210.92,"While we do accept walk-ins in certain situations, appointments are prioritised."
+en_AU_Health_1593611,29,agent,channel1,18,210.92,215.92,Booking events guarantee that you'll be seen at the scheduled time as if you are a walk-in.
+en_AU_Health_1593611,30,customer,channel2,12,215.52,231.36,"All right, all right, I'll let them know. Okay, and do I need to do anything for this flu shot"
+en_AU_Health_1593611,31,agent,channel1,19,215.92,221.92,We could advise that it could be up to a two hour wait for injection.
+en_AU_Health_1593611,32,customer,channel2,13,231.36,239.44,"and COVID shot? Like, do I have to like, fast or like, drink something to prepare for it?"
+en_AU_Health_1593611,33,agent,channel1,20,235.92,243.92,There is no specific fasting requirements for the flu shot or for COVID.
+en_AU_Health_1593611,34,agent,channel1,21,243.92,255.92,"However, I do recommend that you drink plenty of water and eat a light meal beforehand to help prevent any lightheadedness or dizzying, which could be a side effect from receiving the vaccinations."
+en_AU_Health_1593611,35,agent,channel1,22,255.92,265.92,It's also a good idea to wear a loose sort of fitting shirt or something where we can easily access your shoulders with the sleeves rolled up for the injection.
+en_AU_Health_1593611,36,agent,channel1,23,265.92,272.92,"And if you have any allergies or are on any specific medications, it's always good to inform the healthcare provider."
+en_AU_Health_1593611,37,agent,channel1,24,272.92,284.92,So the nurse that will be administering your vaccinations that you do have any sort of medical conditions or advice just so that they can be aware for any adverse side effects.
+en_AU_Health_1593611,38,customer,channel2,14,275.52,295.44,"All right, all right, that sounds good. Are there any adverse side effects that I should be concerned about?"
+en_AU_Health_1593611,39,agent,channel1,25,285.92,297.92,Because these are sort of your standard injections.
+en_AU_Health_1593611,40,agent,channel1,26,297.92,307.92,"No, it might just be a little bit of bruising, a little bit of bleeding arm can be sore for maybe usually the next day, maybe two to three days afterwards."
+en_AU_Health_1593611,41,customer,channel2,15,305.52,331.44,"Okay, okay, um, and say I'm sick on the day, am I still allowed to get my injections while I'm sick?"
+en_AU_Health_1593611,42,agent,channel1,27,307.92,327.92,"So if you can try and avoid sort of heavy lifting, but nothing out of the ordinary, these are very routine injections and we deliver them every single day."
+en_AU_Health_1593611,43,agent,channel1,28,328.92,343.92,"We do recommend to not actually get these injections when you are sick, just because we're not sure whether you're having sort of a side effect if you are sick, or if it is just you being sick."
+en_AU_Health_1593611,44,customer,channel2,16,335.52,355.44,"All right, and do I need to isolate after getting the COVID vaccination?"
+en_AU_Health_1593611,45,agent,channel1,29,343.92,355.92,So if you are sick on the day we do ask that you give us a call and we can always reschedule.
+en_AU_Health_1593611,46,agent,channel1,30,355.92,382.92,"Absolutely not. There is no need to isolate or anything like that. The only thing afterwards is, as I said, sitting in our waiting room for 15 minutes just so you can be monitored."
+en_AU_Health_1593611,47,customer,channel2,17,365.52,381.44,"Oh, okay, okay. And with the flu shot, what's in it? So I've heard that people put stuff in it. That's not just the flu shot."
+en_AU_Health_1593611,48,agent,channel1,31,382.92,393.92,And I can certainly guarantee you that that is not the case. So everything will come out of the medical fridge. So everything is delivered to us by our medical supplier.
+en_AU_Health_1593611,49,agent,channel1,32,393.92,407.92,So all of the injections that we approve use in our facility are medically approved. And there is random testing that can be done at times just to ensure that the batches are up to date.
+en_AU_Health_1593611,50,customer,channel2,18,395.52,421.44,"All right, okay, that's good. Just a while I last told me at lunch the other day that I've got to be careful about these shots,"
+en_AU_Health_1593611,51,agent,channel1,33,407.92,414.92,We've never had any sort of issues. Everything is government approved and regulated.
+en_AU_Health_1593611,52,customer,channel2,19,421.76,427.44,"because the government put something in them. And I got a little bit concerned because I was like, oh,"
+en_AU_Health_1593611,53,customer,channel2,20,428.16,433.6,"what if something's in them? And then she was like, yeah, yeah, you've got to check the ingredients"
+en_AU_Health_1593611,54,customer,channel2,21,433.6,440.64,"before they jab you. I was like, nah, nah, surely they wouldn't do that. It's Australia. And then"
+en_AU_Health_1593611,55,agent,channel1,34,437.92,465.92,So Thursday at quarter past four we have you booked in for.
+en_AU_Health_1593611,56,customer,channel2,22,440.64,444.72,"I had to think about it a little bit more. But anyway, anyway, just telling you all my thoughts"
+en_AU_Health_1593611,57,customer,channel2,23,444.72,449.76,don't need to do that. So I'll be coming in Wednesday at 2.15.
+en_AU_Health_1593611,58,customer,channel2,24,459.12,466.0,"I put it in my calendar incorrectly. Okay, that sounds good. So Thursday 4.15."
+en_AU_Health_1593611,59,agent,channel1,35,465.92,475.92,Yes.
+en_AU_Health_1593611,60,customer,channel2,25,466.88,481.92,"Okay, okay, that sounds good. That's all good then. I think I will be able to do that well."
+en_AU_Health_1593611,61,agent,channel1,36,475.92,494.92,"Yes, certainly do you need anything else? Do you need us to book in for a medical appointment or do you have any prescriptions that you need to follow up for?"
+en_AU_Health_1593611,62,customer,channel2,26,482.16,496.24,"Now, I don't really like to see the JP. I just like thought I should just get the flu shot and"
+en_AU_Health_1593611,63,agent,channel1,37,494.92,512.92,Certainly. So I'll just confirm with you that we've got you scheduled a quarter past four on Thursday for both the flu shots and for the COVID vaccine.
+en_AU_Health_1593611,64,customer,channel2,27,496.24,508.56,"the COVID shot just to be sure, you know, love."
+en_AU_Health_1593611,65,agent,channel1,38,512.92,527.92,"And just remember to drink plenty of water, have comfortable clothes to wear and just ensure that you eat before as well or at least have eaten something a decent meal prior to coming in just to help avoid any lightheadedness."
+en_AU_Health_1593611,66,customer,channel2,28,526.8,539.36,"Beautiful. Thank you so much for your help, love."
+en_AU_Health_1593611,67,agent,channel1,39,527.92,539.92,"You'll receive a confirmation email shortly with all the details. If you do have any questions or if you do feel sick on the day, please give us a call."
+en_AU_Health_1593611,68,agent,channel1,40,539.92,561.92,All right. Thank you. Have a lovely day and we'll see you on Thursday for your vaccinations.
+en_AU_Health_1593611,69,customer,channel2,29,545.84,548.56,Awesome. See you then.
