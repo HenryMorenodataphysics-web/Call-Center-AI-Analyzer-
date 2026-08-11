@@ -6,15 +6,12 @@
        width="280">
 </p>
 
-An evidence-first customer-service analytics system that transforms dual-channel
+An evidence-first customer-service analytics system that transforms
 calls into auditable coaching signals for agents and supervisors. It combines
 pretrained speech and language models, acoustic analysis, deterministic
 contracts, role-specific dashboards, and optional grounded local LLMs—without
 presenting a heuristic as an employee score.
 
-> **Portfolio boundary:** this project prioritizes evidence for human review. It
-> does not authorize discipline, compensation, hiring, termination, or automated
-> customer remediation.
 
 ## Portfolio snapshot
 
