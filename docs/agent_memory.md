@@ -1,4 +1,4 @@
-# Agent Memory v1
+# Agent Memory v1.1
 
 ## Purpose
 
@@ -29,6 +29,12 @@ Each row contains:
 - supporting and missing-evidence call IDs;
 - dataset-derived source-domain profiles;
 - a structured summary for controlled Copilot retrieval.
+- stage-to-stage behavior-coverage changes against the agent's own prior stage;
+- one personalized coaching focus, action, reason codes, time window, and call evidence;
+- an optional dataset-derived context selected only when it contains at least three calls.
+
+The recommendation uses only the selected agent's accumulated evidence. It does
+not rank agents or claim that an observed behavior caused an outcome.
 
 ## Important boundaries
 
@@ -65,14 +71,33 @@ The builder reads:
 Questions containing concepts such as memory, history, accumulated patterns,
 or strengths route to the controlled `agent_memory` tool. The tool selects only
 the active agent and stage, returns structured evidence, and cites both the
-memory row and supporting canonical calls. Deterministic and Qwen providers use
-the same tool output and guardrails.
+memory row and supporting canonical calls. It now also returns the personalized
+focus and states whether it is an initial baseline or a change from the prior
+stage. Deterministic and Qwen providers use the same tool output and guardrails.
+
+## Phase 5 evaluation
+
+Run the fixed portfolio evaluation after rebuilding Agent Memory:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.personalization.evaluate_personalization
+```
+
+The versioned evaluation checks recommendation variation across agents and
+stages, call evidence, confidence labels, prior-stage trends, context-proxy
+labels, and the absence of fabricated dates. Its outputs are:
+
+- `data/validation/personalization_evaluation_results.json`;
+- `reports/personalization_evaluation_report.md`.
+
+The portfolio gate passes. The separate operational gate remains blocked as
+`NO_GOVERNED_DATED_HISTORY`.
 
 ## Not included in v1
 
 - persisted dated snapshots across real days or weeks;
 - approved business call taxonomy and complexity labels;
-- context-matched peer comparisons;
+- governed context-matched peer comparisons;
 - cross-agent suggestions;
 - causal explanations;
 - calibrated outcome predictions.

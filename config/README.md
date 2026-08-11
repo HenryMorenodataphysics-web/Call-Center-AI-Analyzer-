@@ -15,6 +15,10 @@ results belong in `dashboard/`, `data/`, or `reports/`.
   warnings, and response rules.
 - `copilot_smoke_prompts.json`: small prompt set used to verify the optional
   local model.
+- `copilot_evaluation_prompts_v1.json`: 30-case Phase 4 evaluation set and
+  completion thresholds for both Copilot surfaces.
+- `personalization_evaluation_v1.json`: fixed Phase 5 recommendation-variation,
+  evidence, confidence, context, and self-history gates.
 - `demo_kpi_targets.json`: clearly labeled demonstration targets used by the KPI
   dashboard; they are not employer targets.
 - `knowledge_ingestion_contract_v1.json`: approved formats, metadata, storage,

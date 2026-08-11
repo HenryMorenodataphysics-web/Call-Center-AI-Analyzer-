@@ -2,12 +2,15 @@ param(
     [int]$Port = 8080,
     [int]$Threads = 8,
     [int]$ContextSize = 4096,
-    [int]$GpuLayers = 0
+    [int]$GpuLayers = 20,
+    [ValidateSet("auto", "cpu", "vulkan")]
+    [string]$Backend = "auto"
 )
 
 $ErrorActionPreference = "Stop"
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
-$Server = Join-Path $ProjectRoot "tools\llama.cpp\llama-server.exe"
+$CpuServer = Join-Path $ProjectRoot "tools\llama.cpp\llama-server.exe"
+$VulkanServer = Join-Path $ProjectRoot "tools\llama.cpp\vulkan-b10012\llama-server.exe"
 $Model = Join-Path $ProjectRoot "models\qwen3-4b\Qwen3-4B-Q4_K_M.gguf"
 $RuntimeDir = Join-Path $ProjectRoot ".runtime"
 $ApiKeyFile = Join-Path $RuntimeDir "copilot_api_key.txt"
@@ -15,8 +18,25 @@ $PidFile = Join-Path $RuntimeDir "llama_server.pid"
 $StdoutLog = Join-Path $RuntimeDir "llama_server.stdout.log"
 $StderrLog = Join-Path $RuntimeDir "llama_server.stderr.log"
 
+$RequestedBackend = $Backend
+if ($Backend -eq "auto") {
+    $Backend = if (Test-Path -LiteralPath $VulkanServer) { "vulkan" } else { "cpu" }
+}
+$Server = if ($Backend -eq "vulkan") { $VulkanServer } else { $CpuServer }
+
 if (-not (Test-Path -LiteralPath $Server)) {
-    throw "llama-server was not found at $Server"
+    throw "The $Backend llama-server was not found at $Server"
+}
+if ($Backend -eq "vulkan") {
+    $DeviceList = (& $Server --list-devices 2>&1 | Out-String)
+    if ($LASTEXITCODE -ne 0 -or $DeviceList -notmatch "Vulkan0:\s+NVIDIA") {
+        if ($RequestedBackend -eq "auto" -and (Test-Path -LiteralPath $CpuServer)) {
+            $Backend = "cpu"
+            $Server = $CpuServer
+        } else {
+            throw "Vulkan0 is not an NVIDIA GPU. Available devices:`n$DeviceList"
+        }
+    }
 }
 if (-not (Test-Path -LiteralPath $Model)) {
     throw "Qwen GGUF was not found at $Model"
@@ -44,7 +64,6 @@ $Arguments = @(
     "--port", $Port,
     "-c", $ContextSize,
     "-t", $Threads,
-    "-ngl", $GpuLayers,
     "-np", "1",
     "--no-cont-batching",
     "--reasoning", "off",
@@ -52,6 +71,11 @@ $Arguments = @(
     "--cors-origins", "localhost",
     "--api-key-file", ('"' + $ApiKeyFile + '"')
 )
+if ($Backend -eq "vulkan") {
+    $Arguments += @("-ngl", $GpuLayers, "--device", "Vulkan0")
+} else {
+    $Arguments += @("-ngl", "0")
+}
 
 $Process = Start-Process -FilePath $Server `
     -ArgumentList $Arguments `
@@ -70,7 +94,11 @@ for ($Attempt = 1; $Attempt -le 45; $Attempt++) {
     }
     try {
         Invoke-RestMethod -Uri "http://127.0.0.1:$Port/health" -Headers $Headers -TimeoutSec 2 | Out-Null
-        Write-Host "Qwen local model ready at http://127.0.0.1:$Port (PID $($Process.Id))."
+        Write-Host (
+            "Qwen local model ready at http://127.0.0.1:$Port " +
+            "(PID $($Process.Id), backend $Backend, GPU layers " +
+            "$(if ($Backend -eq 'vulkan') { $GpuLayers } else { 0 }))."
+        )
         exit 0
     }
     catch {

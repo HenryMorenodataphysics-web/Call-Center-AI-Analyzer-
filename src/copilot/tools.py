@@ -75,6 +75,7 @@ class KpiLookupTool:
         content: list[str] = []
         normalized_question = request.question.casefold()
         asks_for_official = any(term in normalized_question for term in ("official", "oficial"))
+        asks_for_demo = any(term in normalized_question for term in ("demo", "synthetic", "sintet"))
         for row in rows:
             citation_id = f"kpi:{request.agent_id}:{request.stage_id}:{slug(row['metric'])}"
             citations.append(
@@ -85,7 +86,11 @@ class KpiLookupTool:
                     row["source_type"],
                 )
             )
-            if asks_for_official and row["source_type"] == "synthetic_demo":
+            if (
+                asks_for_official
+                and not asks_for_demo
+                and row["source_type"] == "synthetic_demo"
+            ):
                 official_name = row["metric"].split(" - ", 1)[0]
                 content.append(
                     f"Official {official_name} is unavailable. A synthetic demo fixture exists, "
@@ -293,6 +298,29 @@ class AgentMemoryTool:
             ),
             f"History boundary: {summary['history_limit']} [{memory_citation_id}]",
         ]
+        personalization = row.get("personalization")
+        if personalization:
+            recommendation = personalization["recommendation"]
+            previous_stage = personalization["self_history"]["previous_stage_id"]
+            history_basis = (
+                "initial baseline"
+                if previous_stage is None
+                else f"change since the {previous_stage} stage"
+            )
+            content.extend(
+                [
+                    (
+                        f"Personalized recommendation ({history_basis}, "
+                        f"{recommendation['sample_confidence']} confidence): "
+                        f"{recommendation['text']} [{memory_citation_id}]"
+                    ),
+                    (
+                        "Recommendation boundary: "
+                        f"{recommendation['interpretation_limit']} "
+                        f"[{memory_citation_id}]"
+                    ),
+                ]
+            )
         if row["source_domain_profiles"]:
             context_descriptions = [
                 (
@@ -321,8 +349,20 @@ class AgentMemoryTool:
         evidence_ids = list(
             dict.fromkeys(
                 call_id
-                for pattern in row["observed_strengths"] + row["coaching_opportunities"]
-                for call_id in pattern["supporting_call_ids"] + pattern["missing_call_ids"]
+                for call_id in (
+                    [
+                        evidence_id
+                        for pattern in row["observed_strengths"]
+                        + row["coaching_opportunities"]
+                        for evidence_id in pattern["supporting_call_ids"]
+                        + pattern["missing_call_ids"]
+                    ]
+                    + (
+                        row.get("personalization", {})
+                        .get("recommendation", {})
+                        .get("supporting_call_ids", [])
+                    )
+                )
             )
         )
         citations.extend(

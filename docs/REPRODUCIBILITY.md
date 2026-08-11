@@ -33,7 +33,8 @@ automatically when it exists.
 2. validates the versioned analytical contract across 100 calls and 11,056
    fused turns.
 3. Rebuilds the agent and supervisor canonical dashboard artifacts.
-4. Rebuilds the 30-row Agent Memory v1 artifact.
+4. Rebuilds the 30-row Agent Memory v1.1 artifact and validates the Phase 5
+   personalization gates.
 5. Normalizes the supplied synthetic survey fixture while preserving its
    provenance.
 6. Rebuilds the synthetic survey representativeness artifact.

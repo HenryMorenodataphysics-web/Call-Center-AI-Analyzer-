@@ -62,6 +62,18 @@ class CopilotTests(unittest.TestCase):
         self.assertIn("value is withheld", result.content[0])
         self.assertNotIn(str(result.data[0]["current"]), result.content[0])
 
+    def test_explicit_demo_request_returns_value_with_synthetic_label(self):
+        result = KpiLookupTool(self.repository).run(
+            CopilotRequest(
+                "Show the demo CSAT value and explain whether it is official",
+                "Agent_001",
+                "live",
+            )
+        )
+        self.assertIn(str(result.data[0]["current"]), result.content[0])
+        self.assertEqual(result.data[0]["source_type"], "synthetic_demo")
+        self.assertTrue(any("not official" in warning for warning in result.warnings))
+
     def test_daily_recap_limits_kpis_to_three(self):
         result = KpiLookupTool(self.repository).run(
             CopilotRequest("Give me my daily recap", "Agent_001", "live")

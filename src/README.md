@@ -20,12 +20,13 @@ and reproduced independently.
 - `contracts/`: applies and validates the versioned analytical contract.
 - `dashboard/`: builds the portable KPI and supervisor artifacts.
 - `copilot/`: provides controlled tools, retrieval, provider adapters,
-  guardrails, CLI/service orchestration, and deterministic fallback behavior.
+  guardrails, CLI/service orchestration, deterministic fallback behavior, and
+  the Phase 4 evaluation runner.
 - `outcomes/`: imports synthetic survey fixtures, checks real-label readiness,
   measures survey representativeness, and contains the guarded baseline
   training workflow.
-- `personalization/`: builds and reads deterministic accumulated Agent Memory
-  summaries for the selected agent and analysis stage.
+- `personalization/`: builds deterministic Agent Memory, derives conservative
+  self-history recommendations, and evaluates the Phase 5 portfolio gates.
 - `validation/`: prepares and evaluates the human risk-review pilot and runs
   analytical-contract validation.
 

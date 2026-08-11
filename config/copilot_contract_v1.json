@@ -1,6 +1,6 @@
 {
-  "contract_version": "1.0.0",
-  "purpose": "Grounded local Customer Service copilot for the AI Analyzer portfolio demo.",
+  "contract_version": "1.1.0",
+  "purpose": "Grounded local agent and supervisor copilots for the AI Analyzer portfolio demo.",
   "required_agent_context": true,
   "supported_shift_views": ["start", "live", "end"],
   "providers": ["deterministic", "llama_cpp_server"],
@@ -13,6 +13,20 @@
     "survey_representativeness",
     "agent_memory"
   ],
+  "supervisor_agent": {
+    "required_agent_context": false,
+    "max_tool_calls": 4,
+    "data_access": "read_only_canonical_artifacts",
+    "controlled_tools": [
+      "team_metrics",
+      "agent_team_comparison",
+      "coaching_queue",
+      "review_calls",
+      "team_statistics",
+      "agent_memory",
+      "policy_search"
+    ]
+  },
   "response_fields": [
     "answer",
     "agent_id",
@@ -33,6 +47,9 @@
     "Fall back to deterministic wording if the model introduces unsupported numbers.",
     "Treat local playbooks as portfolio examples, not employer policy.",
     "Treat Agent Memory as descriptive accumulated evidence with explicit sample and history limitations.",
-    "Never present dataset source domains as approved business call types."
+    "Never present dataset source domains as approved business call types.",
+    "Limit Supervisor Agent planning to four read-only controlled tools.",
+    "Never present supervisor triage or agent-team comparisons as rankings or disciplinary findings.",
+    "Require human review of cited call evidence before supervisor action."
   ]
 }

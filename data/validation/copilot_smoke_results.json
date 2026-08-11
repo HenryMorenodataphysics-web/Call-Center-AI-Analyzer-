@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-15T03:12:16.588854+00:00",
+  "generated_at": "2026-08-11T01:56:15.300676+00:00",
   "configured_provider": "llama_cpp_server",
   "prompt_count": 6,
   "grounded_count": 6,
-  "fallback_count": 2,
-  "direct_provider_count": 4,
+  "fallback_count": 0,
+  "direct_provider_count": 6,
   "latency_ms": {
-    "average": 22490.07,
-    "median": 20912.95,
-    "maximum": 39429.47
+    "average": 14794.62,
+    "median": 11869.55,
+    "maximum": 33929.16
   },
   "results": [
     {
@@ -26,8 +26,8 @@
       ],
       "citation_count": 6,
       "warning_count": 2,
-      "latency_ms": 39429.47,
-      "answer": "Daily recap focus: Next steps. Key KPIs: Estimated AHT (674 sec, trend down, needs attention); CSAT (90.8%, trend down, on track); QA (89.9%, trend up, watch). Call example: Call #7 showed strong ownership and probing, while call #5 had high negative sentiment and vocal intensity. Next steps appeared in 14% of calls, below the 70% benchmark. [recap:Agent_001:live]\n\nEvidence: [recap:Agent_001:live], [kpi:Agent_001:live:estimated-aht], [kpi:Agent_001:live:csat-synthetic-demo], [kpi:Agent_001:live:qa-synthetic-demo], [call:en_AU_Banking_1586330], [call:en_AU_Aviation_1592663]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- CSAT, QA, NPS, and Five Stars are synthetic portfolio fixtures, not official outcomes."
+      "latency_ms": 33929.16,
+      "answer": "Daily recap: Focus is on next steps. Key KPIs: Estimated AHT is 674 sec (needs attention), CSAT is 90.8% (on track), QA is 89.9% (watch). Best analyzed call: #7, with AGENT_PROBING at turns 3, 9, 11. Most coachable candidate: #5, with CUST_NEGATIVE_SENTIMENT at turns 57, 61, 119. Next steps appeared in 14% of calls, below the 70% benchmark. [recap:Agent_001:live]\n\nEvidence: [recap:Agent_001:live], [kpi:Agent_001:live:estimated-aht], [kpi:Agent_001:live:csat-synthetic-demo], [kpi:Agent_001:live:qa-synthetic-demo], [call:en_AU_Banking_1586330], [call:en_AU_Aviation_1592663]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- CSAT, QA, NPS, and Five Stars are synthetic portfolio fixtures, not official outcomes."
     },
     {
       "id": "aht_lookup",
@@ -42,8 +42,8 @@
       ],
       "citation_count": 1,
       "warning_count": 1,
-      "latency_ms": 14992.72,
-      "answer": "Estimated AHT is 614 sec, with a goal of 600 sec. The trend shows a decrease of 30 sec, which is better. Projection remains at 614 sec. Status is Watch. Focus on improving AHT to meet the goal. Call example: Agent_002 ended with estimated AHT of 614 sec. Note: Estimated AHT is a proxy, not an exact measure. Risk is a heuristic, not a calibrated metric.\n\nEvidence: [kpi:Agent_002:end:estimated-aht]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic."
+      "latency_ms": 14297.56,
+      "answer": "Your estimated AHT is 614 seconds, with a goal of 600 seconds. The trend shows improvement by 30 seconds. Projection remains at 614 seconds. Status: Watch. Focus on reducing AHT to meet the goal. Call example: Recent interaction lasted 614 seconds, aligning with current estimates. Note: Estimated AHT is a proxy, not exact measurement.\n\nEvidence: [kpi:Agent_002:end:estimated-aht]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic."
     },
     {
       "id": "synthetic_boundary",
@@ -58,41 +58,41 @@
       ],
       "citation_count": 1,
       "warning_count": 2,
-      "latency_ms": 14548.64,
-      "answer": "Official CSAT is unavailable. A synthetic demo fixture exists, but its value is withheld from official-KPI answers [kpi:Agent_003:live:csat-synthetic-demo]. Estimated AHT is an audio-duration proxy. CSAT, QA, NPS, and Five Stars are synthetic portfolio fixtures, not official outcomes. No official KPI available for CSAT. Synthetic demo value not provided. No call example available.\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- CSAT, QA, NPS, and Five Stars are synthetic portfolio fixtures, not official outcomes."
+      "latency_ms": 8035.76,
+      "answer": "Official CSAT is unavailable. A synthetic demo fixture exists, but its value is withheld from official-KPI answers. Estimated AHT is an audio-duration proxy. CSAT, QA, NPS, and Five Stars are synthetic portfolio fixtures. No official KPI value provided. Synthetic demo CSAT: [kpi:Agent_003:live:csat-synthetic-demo]. Avoid generalizing synthetic results to agent performance. Use caution with sample skew. No call example provided.\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- CSAT, QA, NPS, and Five Stars are synthetic portfolio fixtures, not official outcomes."
     },
     {
       "id": "best_call",
       "agent": "Agent_004",
       "stage": "end",
       "question": "Show my best call and evidence",
-      "provider": "deterministic",
+      "provider": "llama_cpp_server",
       "grounded": true,
-      "fallback_reason": "provider introduced unsupported numeric values: 5",
+      "fallback_reason": null,
       "tool_calls": [
         "call_evidence"
       ],
       "citation_count": 2,
       "warning_count": 1,
-      "latency_ms": 27786.79,
-      "answer": "Call evidence:\n- Best analyzed call - heuristic: call #6 (en_AU_Hospitality_1586372), risk proxy 0.0, estimated AHT 391.0 sec. Evidence: CUST_NEGATIVE_SENTIMENT: turns 3; AGENT_EMPATHY: turns 50; AGENT_PROBING: turns 1, 4, 6 [call:en_AU_Hospitality_1586372]\n- Most coachable candidate - heuristic: call #1 (en_AU_Health_1591532), risk proxy 38.0, estimated AHT 628.12 sec. Evidence: CUST_NEGATIVE_SENTIMENT: turns 10, 47, 50; CUST_HIGH_VOCAL_INTENSITY: turns 49, 50, 68; AGENT_PROBING: turns 4, 18, 25 [call:en_AU_Health_1591532]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic."
+      "latency_ms": 13452.85,
+      "answer": "Best call: #6 (en_AU_Hospitality_1586372), risk proxy 0.0, estimated AHT 391.0 sec. Evidence: 3 negative sentiment turns, 50 empathy turns. Best coachable candidate: #1 (en_AU_Health_1591532), risk proxy 38.0, estimated AHT 628.12 sec. Evidence: 10 negative sentiment turns, 3 high vocal intensity turns, 3 probing turns. Note: Estimated AHT is a proxy, risk is a heuristic.\n\nEvidence: [call:en_AU_Hospitality_1586372], [call:en_AU_Health_1591532]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic."
     },
     {
       "id": "coaching",
       "agent": "Agent_005",
       "stage": "live",
       "question": "What should I focus on next?",
-      "provider": "deterministic",
+      "provider": "llama_cpp_server",
       "grounded": true,
-      "fallback_reason": "provider introduced unsupported numeric values: 24",
+      "fallback_reason": null,
       "tool_calls": [
         "coaching_context",
         "policy_search"
       ],
       "citation_count": 4,
-      "warning_count": 2,
-      "latency_ms": 11349.63,
-      "answer": "Coaching focus:\n- Focus area: Next steps. Observed fact (do not invert): Next steps appeared in 14% of the calls in this view, below the 70% portfolio coaching benchmark.\n- Recommended action: End with owner, action, and expected timing in one concise recap.\n- Guardrail: Treat the flag as coaching evidence, not as an official QA failure. [coaching:Agent_005:live:next-steps]\n\nRelevant playbook guidance:\n- Next steps: Close with a concise owner-action-timing recap. Confirm that the customer understands the next step and knows how to reconnect if the expected result does not occur. [policy:customer-service-playbook-md:next-steps]\n- Ownership: State what you will do next, what the customer must do, and what remains under your ownership. Do not promise an outcome or timeline that is outside the agent's control. [policy:customer-service-playbook-md:ownership]\n- Coaching use: Use analyzed calls to find examples and practice opportunities. A missing rule-based behavior flag does not prove that the behavior was absent, and a single call should not be used for disciplinary conclusions. [policy:qa-policy-demo-md:coaching-use]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- Retrieved policies are portfolio examples, not employer-approved procedures."
+      "warning_count": 3,
+      "latency_ms": 8766.17,
+      "answer": "Focus on closing calls with a concise owner-action-timing recap. Next steps appeared in 14% of calls, below the 70% benchmark. Use analyzed calls to find practice opportunities, not for disciplinary conclusions. Ensure customers understand next steps and how to reconnect. Follow policy: Close with owner, action, timing. Avoid promises outside agent's control. [coaching:Agent_005:live:next-steps]\n\nEvidence: [coaching:Agent_005:live:next-steps], [policy:customer-service-playbook-md:next-steps], [policy:customer-service-playbook-md:ownership], [policy:qa-policy-demo-md:coaching-use]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- Retrieved policy passages require human review before operational action.\n- Checked-in portfolio policies are examples, not employer-approved procedures."
     },
     {
       "id": "safe_efficiency",
@@ -108,9 +108,9 @@
         "policy_search"
       ],
       "citation_count": 5,
-      "warning_count": 2,
-      "latency_ms": 26833.18,
-      "answer": "To improve AHT safely, focus on empathy and conversation risk. Empathy is below the 60% benchmark, so acknowledge the customer's impact before solving. Avoid reducing service quality or exposing personal data. Use call IDs for evidence. Next steps: Close with a concise owner-action-timing recap. Confirm the customer understands the next step and knows how to reconnect if needed. AHT is a proxy, not an exact measure. Stay within guardrails to preserve compliance and customer protection.\n\nEvidence: [kpi:Agent_006:live:estimated-aht], [coaching:Agent_006:live:empathy], [policy:compliance-guardrails-md:safe-efficiency], [policy:compliance-guardrails-md:privacy], [policy:customer-service-playbook-md:next-steps]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- Retrieved policies are portfolio examples, not employer-approved procedures."
+      "warning_count": 3,
+      "latency_ms": 10286.25,
+      "answer": "To improve AHT safely, focus on empathy, which is below the 60% benchmark. Acknowledge the customer’s impact before offering solutions. Avoid reducing service quality or exposing sensitive data. Use call IDs for evidence. Next steps: Confirm understanding and reconnect if needed. AHT is a proxy, not a direct measure. Empathy is a key factor. Stay within compliance guardrails. No action to reduce AHT without compromising quality. Review policies before operational changes. Keep responses concise and compliant.\n\nEvidence: [kpi:Agent_006:live:estimated-aht], [coaching:Agent_006:live:empathy], [policy:compliance-guardrails-md:safe-efficiency], [policy:compliance-guardrails-md:privacy], [policy:customer-service-playbook-md:next-steps]\n\nLimits:\n- Estimated AHT is an audio-duration proxy and conversation risk is an uncalibrated heuristic.\n- Retrieved policy passages require human review before operational action.\n- Checked-in portfolio policies are examples, not employer-approved procedures."
     }
   ]
 }

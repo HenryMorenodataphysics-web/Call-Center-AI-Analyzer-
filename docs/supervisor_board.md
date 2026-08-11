@@ -5,6 +5,18 @@ deserves attention, which behaviors need coaching support, and which calls can
 be reviewed or shared. It runs entirely from the existing analytical outputs;
 the local Qwen model and Copilot are not started or required.
 
+The integrated Streamlit application also includes an optional **Supervisor
+Copilot**. It reads this same artifact through controlled tools for team
+metrics, agent-versus-team context, coaching queues, review calls, and
+descriptive statistics. It can additionally reuse Agent Memory and policy
+retrieval when a specific agent or policy question requires them.
+
+In deterministic mode, a safe router selects tools without starting a model.
+In Local Qwen mode, the model may plan at most four calls from the fixed
+read-only catalog; invalid or unavailable plans fall back to the deterministic
+router. The model never receives raw SQL access and all numerical claims remain
+subject to the existing grounding validator.
+
 ## What the MVP includes
 
 - Start, live, and end simulated shift views covering 30, 70, and 100 calls.
@@ -28,6 +40,8 @@ Triage uses only the existing Estimated AHT and Heuristic risk statuses:
 
 These categories order evidence review. They are not a performance ranking,
 official QA decision, disciplinary finding, or customer-outcome prediction.
+Supervisor Copilot preserves the same boundary and requires human inspection
+of cited call evidence before action.
 
 ## Data boundary
 

@@ -4,8 +4,10 @@ from app.dashboard import (
     KPI_ARTIFACT,
     MEMORY_ARTIFACT,
     PROJECT_ROOT,
+    SUPERVISOR_ARTIFACT,
     SURVEY_ARTIFACT,
     build_copilot_service,
+    build_supervisor_agent_service,
     dataset_frames,
     filter_frame,
     load_artifacts,
@@ -67,6 +69,19 @@ class StreamlitDashboardTests(unittest.TestCase):
         self.assertEqual(int(summary["calls_analyzed"].sum()), 100)
         self.assertEqual(int(summary["surveys_received"].sum()), 30)
         self.assertEqual(int(summary["real_survey_labels"].sum()), 0)
+
+    def test_streamlit_supervisor_agent_uses_controlled_team_tools(self):
+        config_path = PROJECT_ROOT / "config" / "copilot_config.json"
+        service = build_supervisor_agent_service(
+            "deterministic",
+            SUPERVISOR_ARTIFACT.stat().st_mtime_ns,
+            MEMORY_ARTIFACT.stat().st_mtime_ns,
+            config_path.stat().st_mtime_ns,
+        )
+        response = service.ask("Summarize team health", "end")
+        self.assertEqual(response.agent_id, "team")
+        self.assertEqual(response.tool_calls, ["team_metrics"])
+        self.assertIn("Evidence:", response.answer)
 
 
 if __name__ == "__main__":

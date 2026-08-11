@@ -41,7 +41,7 @@
 \begin{center}
 {\LARGE\color{navy}\textbf{AI Analyzer Core}}\\[3pt]
 {\large Technical Portfolio Brief}\\[4pt]
-Henry -- Data Science Portfolio \hfill July 2026
+Henry -- Data Science Portfolio \hfill August 2026
 \end{center}
 \vspace{3pt}
 \hrule
@@ -77,10 +77,11 @@ Evidence & Result & Interpretation \\
 \midrule
 Analytical coverage & 100 calls; 11,056 turns & Exact metadata reconciliation; ten calls per agent. \\
 Contract validation & Pass; zero blockers & Version 1.0.0 applied to canonical outputs. \\
-Automated verification & 47 tests passing & Contracts, dashboards, Copilot, outcomes, and risk pilot. \\
+Automated verification & 85 tests passing & Contracts, dashboards, both Copilots, evaluations, outcomes, and risk pilot. \\
 Risk distribution & 76 low; 24 medium; 0 high & Uncalibrated heuristic, not proof of call quality. \\
 Survey labels & 0 real; 30 synthetic & Training remains blocked by design. \\
-Local Copilot smoke set & 6/6 grounded; 2 fallbacks & Guardrail rejected unsupported numeric claims. \\
+Phase 4 Copilot evaluation & 30/30 prompts; 0 fallbacks & All fixed safety and grounding gates passed. \\
+Phase 5 personalization & 9/9 gates passed & Portfolio gate complete; dated operational history blocked. \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -96,8 +97,9 @@ Local Copilot smoke set & 6/6 grounded; 2 fallbacks & Guardrail rejected unsuppo
   values are explicitly synthetic fixtures.
   \item Agent comparisons are not adjusted for call complexity, language, market,
   or workload.
-  \item Local Qwen averaged 22.49 seconds on CPU, so the current Copilot is a
-  post-call/end-of-day prototype, not live assistance.
+  \item The Phase 4 GPU evaluation measured 11.33-second median and 21.64-second
+  p95 latency, so local Qwen remains a post-call/end-of-day prototype rather
+  than live assistance.
 \end{compactitem}
 
 \clearpage
@@ -166,10 +168,9 @@ Controlled retrieval $\longrightarrow$ optional local Qwen $\longrightarrow$ out
 
 \subsection{Roadmap boundary}
 
-Phases 0--3 are complete: pipeline stabilization, analytical contract, agent tracker,
-and grounded local Copilot. The supervisor MVP and survey-readiness layer are
-delivered. Comparative LLM evaluation, longitudinal personalization, context-matched
-cross-agent learning, and calibrated outcome prediction remain explicit extensions.
+Phases 0--5 are complete for the bounded portfolio scope. Governed longitudinal
+history and context-matched cross-agent learning remain extensions; see
+\path{ROADMAP.md} for the authoritative gates.
 The authoritative phase gates live in \path{ROADMAP.md}.
 
 \clearpage
@@ -341,10 +342,18 @@ findings or employee ratings.
 
 \subsection{Personalization and cross-agent learning boundary}
 
-Current personalization is within the available shift window: agent-specific baselines,
-signals, call evidence, and recommended focus. It is not yet a longitudinal learner.
-Context-matched cross-agent transfer remains future work because advice should compare
-similar call types, languages, markets, and difficulty rather than copying the
+Agent Memory v1.1 compares each agent's cumulative start, live, and end evidence. It
+records behavior-coverage changes against the prior stage and emits one personalized
+focus with an action, reason codes, low-confidence label, call-sequence window, and
+supporting call IDs. When at least three examples exist, it may identify a
+dataset-derived source domain for review; that domain is explicitly not an approved
+business call type. The Phase 5 evaluator passes all nine fixed portfolio gates,
+including recommendation variation, evidence, confidence, self-history, and context
+boundaries. Operational longitudinal use remains blocked by
+\path{NO_GOVERNED_DATED_HISTORY}.
+
+Context-matched cross-agent transfer remains Phase 6 work because advice should compare
+similar approved call types, languages, markets, and difficulty rather than copying the
 highest-ranked agent. A safe future pattern is:
 
 \begin{compactenum}
@@ -361,8 +370,7 @@ The complete dashboard semantics are documented in
 \clearpage
 \section{Grounded Local Copilot}
 
-\subsection*{5{.}1\quad Trust boundary}
-\setcounter{subsection}{1}
+\subsection{Trust boundary}
 
 \begin{figure}[ht]
 \centering
@@ -396,16 +404,20 @@ question therefore withholds the synthetic value rather than disguising it as re
 
 \subsection{Measured result and product decision}
 
-The six-prompt smoke set covered recap, AHT, the official-CSAT boundary, best call,
-coaching, and safe efficiency. All six final answers were grounded: four Qwen answers
-passed directly and two were replaced after unsupported numbers were detected.
+The Phase 3 six-prompt CPU smoke set covered recap, AHT, the official-CSAT boundary,
+best call, coaching, and safe efficiency. All six final answers were grounded: four
+Qwen answers passed directly and two were replaced after unsupported numbers were
+detected. Phase 4 added a versioned 30-prompt set across Agent and Supervisor
+Copilots, including privacy, prompt injection, personalization, statistics, and
+anti-ranking guardrails.
 
 \begin{center}\small
 \begin{tabular}{lrrr}
 \toprule
-CPU smoke set & Mean & Median & Maximum \\
+Evaluation & Mean & Median & P95/Maximum \\
 \midrule
-End-to-end latency & 22.49 s & 20.91 s & 39.43 s \\
+Phase 3 CPU smoke & 22.49 s & 20.91 s & 39.43 s max \\
+Phase 4 Vulkan & 12.32 s & 11.33 s & 21.64 s p95 \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -414,8 +426,11 @@ This latency is unacceptable for live in-call assistance. The current Copilot is
 intentionally a \textbf{post-call/end-of-day explanation prototype} after deterministic
 artifacts already exist. A real-time product would require an explicit latency budget,
 cached deterministic answers, smaller or hosted inference, concurrency testing, and
-graceful degradation. Formal model comparison is deferred and consumes no resources
-unless explicitly started.
+graceful degradation. Qwen3-4B Q4\_K\_M passed all ten Phase 4 completion gates with
+30/30 safe cases, 100\% direct acceptance, and zero fallbacks. It is the selected
+optional local model; deterministic mode remains the zero-resource application
+default. Actionability and personalization scores are automated rubric proxies rather
+than human preference or coaching-effectiveness judgments.
 
 \clearpage
 \section{Outcome Readiness and Human Validation}
@@ -470,13 +485,12 @@ The labeling protocol and commands live in \path{docs/risk_proxy_validation_pilo
 \clearpage
 \section{Validation, Failures, and Responsible Use}
 
-\subsection*{7.1\quad Validation coverage}
-\setcounter{subsection}{1}
+\subsection{Validation coverage}
 
-The lightweight package currently passes 47 unit and integration tests across seven
-areas: analytical contracts, duplicate-safe aggregation, agent dashboard provenance,
-supervisor reconciliation, Copilot grounding, survey gates, and score-blinded risk
-pilot preparation. The contract validator independently checks schemas, primary keys,
+The lightweight package currently passes 85 unit and integration tests across the
+analytical contract, duplicate-safe aggregation, both dashboards, both Copilots,
+the versioned Copilot and personalization evaluations, survey gates, and score-blinded risk-pilot
+preparation. The contract validator independently checks schemas, primary keys,
 call coverage, domains, reason evidence, versions, score types, and declared limits.
 
 \begin{center}\small
@@ -487,7 +501,8 @@ Validation target & Result & Remaining blocker \\
 Population and lineage & Pass & Production freshness/monitoring not implemented. \\
 Analytical contract & Pass with one warning & Risk has no completed ground truth. \\
 Agent/supervisor dashboards & Structural and deterministic QA pass & Final browser screenshots pending. \\
-Local Copilot smoke set & 6/6 grounded & Formal comparative evaluation deferred. \\
+Local Copilot evaluation & 30/30 gated prompts passed & Human preference testing not performed. \\
+Agent personalization & 9/9 portfolio gates passed & Governed dated history unavailable. \\
 Survey modeling & Correctly blocked & No governed real outcome labels. \\
 Human risk pilot & Prepared and tested & Human labels not yet completed. \\
 \bottomrule
@@ -508,8 +523,8 @@ Human risk pilot & Prepared and tested & Human labels not yet completed. \\
   \item Synthetic KPI fixtures demonstrate interfaces but cannot validate business
   impact or employee performance.
   \item Comparisons are unadjusted for call mix and cannot support causal statements.
-  \item Longitudinal personalization, context-matched cross-agent learning, browser
-  screenshots, and the final demonstration video remain incomplete.
+  \item Governed dated longitudinal history, context-matched cross-agent learning,
+  browser screenshots, and the final demonstration video remain incomplete.
 \end{compactitem}
 
 \subsection{Human, privacy, and fairness boundaries}
@@ -599,6 +614,7 @@ Reference & Scope \\
 \path{docs/analytical_contract.md} & Entity grains, metrics, reasons, evidence, and limitations. \\
 \path{docs/kpi_performance_tracker.md} & Agent views, KPI semantics, and synthetic fixtures. \\
 \path{docs/supervisor_board.md} & Team triage, coaching queue, and decision boundaries. \\
+\path{docs/agent_memory.md} & Self-history personalization, evidence, confidence, and operational gate. \\
 \path{docs/local_customer_service_copilot.md} & Tools, provider, guardrails, smoke set, and latency. \\
 \path{docs/survey_outcome_prediction.md} & Target definition, leakage controls, readiness, and evaluation. \\
 \path{docs/risk_proxy_validation_pilot.md} & Human labeling and exploratory evaluation protocol. \\
