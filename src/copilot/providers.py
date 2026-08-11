@@ -96,6 +96,7 @@ class DeterministicProvider(CopilotProvider):
                 "coaching_queue": "Supervisor coaching queue",
                 "review_calls": "Calls for supervisor review",
                 "team_statistics": "Descriptive team statistics",
+                "cross_agent_learning": "Anonymous transferable technique candidates",
             }.get(result.name, result.name.replace("_", " ").title())
             sections.append(title + ":\n- " + "\n- ".join(lines))
         return "\n\n".join(sections)

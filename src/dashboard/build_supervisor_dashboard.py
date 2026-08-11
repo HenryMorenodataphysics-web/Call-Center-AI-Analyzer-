@@ -12,6 +12,7 @@ from statistics import mean
 from typing import Any
 
 from . import build_kpi_dashboard as agent_dashboard
+from src.personalization import build_cross_agent_learning as cross_agent
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -46,6 +47,12 @@ def build_supervisor_datasets(
     generated_at: str,
 ) -> dict[str, list[dict[str, Any]]]:
     base = agent_dashboard.build_datasets(calls, config, generated_at)
+    cross_agent_artifact = cross_agent.build_artifact(
+        calls,
+        config,
+        cross_agent.read_json(cross_agent.DEFAULT_CONTRACT),
+        generated_at,
+    )
     datasets: dict[str, list[dict[str, Any]]] = {
         "team_summary": [],
         "agent_overview": [],
@@ -53,6 +60,9 @@ def build_supervisor_datasets(
         "team_behavior_coverage": [],
         "coaching_queue": [],
         "review_calls": [],
+        "cross_agent_suggestions": cross_agent_artifact["snapshot"]["datasets"][
+            "cross_agent_suggestions"
+        ],
     }
 
     summaries = base["kpi_summary"]
@@ -236,7 +246,25 @@ def source_specs(generated_at: str) -> list[dict[str, Any]]:
         "Needs attention = AHT or heuristic-risk proxy has Needs attention status; Watch applies only when neither proxy needs attention.",
         "Coaching queue is an evidence-review aid, not an employee ranking or disciplinary score.",
     ]
-    return [call_source, rule_source]
+    cross_agent_source = {
+        "id": "cross_agent_rules",
+        "label": "Anonymized context-matched coaching candidates",
+        "path": "config/cross_agent_learning_contract_v1.json",
+        "version": "1.0.0",
+        "retrievedAt": generated_at,
+        "query": {
+            "description": (
+                "Requires matching language-market and dataset source domain, minimum "
+                "sample sizes, multiple anonymous agents, and recurring behavior evidence."
+            ),
+            "metric_definitions": [
+                "Suggestions describe recurring observed behaviors, not outcome lift or best-performing agents.",
+                "Peer identity is excluded; call IDs remain only as auditable evidence locators.",
+                "Production outcome learning is blocked until governed outcomes and approved contexts exist.",
+            ],
+        },
+    }
+    return [call_source, rule_source, cross_agent_source]
 
 
 def build_artifact(
@@ -360,6 +388,30 @@ def build_artifact(
 
     tables = [
         {
+            "id": "cross_agent_suggestions_table",
+            "title": "Transferable technique candidates",
+            "subtitle": (
+                "Recurring behaviors in matched dataset contexts across anonymous agents; "
+                "not best practices, rankings, or outcome effects."
+            ),
+            "dataset": "cross_agent_suggestions",
+            "sourceId": "cross_agent_rules",
+            "defaultSort": {"field": "behavior_call_coverage", "direction": "desc"},
+            "density": "dense",
+            "layout": "full",
+            "columns": [
+                {"field": "language_market", "label": "Language-market", "type": "text"},
+                {"field": "source_domain", "label": "Dataset context", "type": "text"},
+                {"field": "behavior_label", "label": "Technique", "type": "text"},
+                {"field": "context_calls", "label": "Context calls", "format": "number"},
+                {"field": "behavior_anonymous_agents", "label": "Anonymous agents", "format": "number"},
+                {"field": "behavior_call_coverage", "label": "Observed coverage", "format": "percent"},
+                {"field": "coaching_action", "label": "Transferable action", "type": "text"},
+                {"field": "sample_confidence", "label": "Confidence", "type": "text"},
+                {"field": "interpretation_limit", "label": "Limit", "type": "text"},
+            ],
+        },
+        {
             "id": "coaching_queue_table",
             "title": "Coaching queue",
             "subtitle": "One explainable action per agent, ordered for evidence review rather than discipline.",
@@ -459,6 +511,12 @@ def build_artifact(
             {"id": "proxy_map_block", "type": "chart", "chartId": "agent_proxy_map", "layout": "half"},
             {"id": "distribution_block", "type": "chart", "chartId": "attention_distribution", "layout": "half"},
             {"id": "behavior_block", "type": "chart", "chartId": "team_behaviors", "layout": "full"},
+            {
+                "id": "cross_agent_suggestions_block",
+                "type": "table",
+                "tableId": "cross_agent_suggestions_table",
+                "layout": "full",
+            },
             {"id": "coaching_queue_block", "type": "table", "tableId": "coaching_queue_table", "layout": "full"},
             {"id": "agent_context_block", "type": "table", "tableId": "agent_overview_table", "layout": "full"},
             {"id": "review_calls_block", "type": "table", "tableId": "review_calls_table", "layout": "full"},

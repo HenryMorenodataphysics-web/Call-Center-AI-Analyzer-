@@ -77,11 +77,11 @@ Evidence & Result & Interpretation \\
 \midrule
 Analytical coverage & 100 calls; 11,056 turns & Exact metadata reconciliation; ten calls per agent. \\
 Contract validation & Pass; zero blockers & Version 1.0.0 applied to canonical outputs. \\
-Automated verification & 85 tests passing & Contracts, dashboards, both Copilots, evaluations, outcomes, and risk pilot. \\
+Automated verification & 90 tests passing & Contracts, dashboards, both Copilots, evaluations, outcomes, and risk pilot. \\
 Risk distribution & 76 low; 24 medium; 0 high & Uncalibrated heuristic, not proof of call quality. \\
 Survey labels & 0 real; 30 synthetic & Training remains blocked by design. \\
 Phase 4 Copilot evaluation & 30/30 prompts; 0 fallbacks & All fixed safety and grounding gates passed. \\
-Phase 5 personalization & 9/9 gates passed & Portfolio gate complete; dated operational history blocked. \\
+Phases 5--6 personalization & Both portfolio gates pass & Dated history and governed outcome learning remain blocked. \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -168,10 +168,9 @@ Controlled retrieval $\longrightarrow$ optional local Qwen $\longrightarrow$ out
 
 \subsection{Roadmap boundary}
 
-Phases 0--5 are complete for the bounded portfolio scope. Governed longitudinal
-history and context-matched cross-agent learning remain extensions; see
+Phases 0--6 are complete for the bounded portfolio scope. Governed longitudinal
+history and outcome-validated cross-agent learning remain blocked; see
 \path{ROADMAP.md} for the authoritative gates.
-The authoritative phase gates live in \path{ROADMAP.md}.
 
 \clearpage
 \section{Data, Models, and Lineage}
@@ -352,17 +351,19 @@ including recommendation variation, evidence, confidence, self-history, and cont
 boundaries. Operational longitudinal use remains blocked by
 \path{NO_GOVERNED_DATED_HISTORY}.
 
-Context-matched cross-agent transfer remains Phase 6 work because advice should compare
-similar approved call types, languages, markets, and difficulty rather than copying the
-highest-ranked agent. A safe future pattern is:
+Phase 6 now adds seven low-confidence technique candidates across four exact
+language-market and source-domain contexts in the end view. A context requires at
+least four calls and two agents; a behavior must recur in at least two calls from two
+agents. Peer identity is hidden, every candidate cites canonical calls, and the
+Supervisor Copilot can retrieve at most four candidates through a controlled read-only
+tool. Start and live views return insufficient evidence rather than using later calls.
 
-\begin{compactenum}
-  \item identify a recurring context and behavior with sufficient samples;
-  \item estimate whether the behavior is associated with better governed outcomes;
-  \item verify stability across agents and call-mix slices;
-  \item express the recommendation as a technique, not as employee imitation;
-  \item monitor adoption and outcome change with human review.
-\end{compactenum}
+These candidates describe recurring observations, not best practices, rankings,
+causal effects, or validated outcome improvements. Because there are no governed
+outcomes or approved call-type, complexity, language-market, and workload controls,
+operational learning remains blocked by
+\path{NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING}. Conversation risk cannot validate
+the candidates because behavior absence is already part of that deterministic rubric.
 
 The complete dashboard semantics are documented in
 \path{docs/kpi_performance_tracker.md} and \path{docs/supervisor_board.md}.
@@ -487,9 +488,9 @@ The labeling protocol and commands live in \path{docs/risk_proxy_validation_pilo
 
 \subsection{Validation coverage}
 
-The lightweight package currently passes 85 unit and integration tests across the
+The lightweight package currently passes 90 unit and integration tests across the
 analytical contract, duplicate-safe aggregation, both dashboards, both Copilots,
-the versioned Copilot and personalization evaluations, survey gates, and score-blinded risk-pilot
+the versioned Copilot, personalization, and cross-agent evaluations, survey gates, and score-blinded risk-pilot
 preparation. The contract validator independently checks schemas, primary keys,
 call coverage, domains, reason evidence, versions, score types, and declared limits.
 
@@ -503,6 +504,7 @@ Analytical contract & Pass with one warning & Risk has no completed ground truth
 Agent/supervisor dashboards & Structural and deterministic QA pass & Final browser screenshots pending. \\
 Local Copilot evaluation & 30/30 gated prompts passed & Human preference testing not performed. \\
 Agent personalization & 9/9 portfolio gates passed & Governed dated history unavailable. \\
+Cross-agent learning & 10/10 portfolio gates passed & Governed outcome learning unavailable. \\
 Survey modeling & Correctly blocked & No governed real outcome labels. \\
 Human risk pilot & Prepared and tested & Human labels not yet completed. \\
 \bottomrule
@@ -523,7 +525,7 @@ Human risk pilot & Prepared and tested & Human labels not yet completed. \\
   \item Synthetic KPI fixtures demonstrate interfaces but cannot validate business
   impact or employee performance.
   \item Comparisons are unadjusted for call mix and cannot support causal statements.
-  \item Governed dated longitudinal history, context-matched cross-agent learning,
+  \item Governed dated longitudinal history, production outcome learning,
   browser screenshots, and the final demonstration video remain incomplete.
 \end{compactitem}
 
@@ -613,7 +615,7 @@ Reference & Scope \\
 \midrule
 \path{docs/analytical_contract.md} & Entity grains, metrics, reasons, evidence, and limitations. \\
 \path{docs/kpi_performance_tracker.md} & Agent views, KPI semantics, and synthetic fixtures. \\
-\path{docs/supervisor_board.md} & Team triage, coaching queue, and decision boundaries. \\
+\path{docs/supervisor_board.md} & Team triage, cross-agent candidates, and decision boundaries. \\
 \path{docs/agent_memory.md} & Self-history personalization, evidence, confidence, and operational gate. \\
 \path{docs/local_customer_service_copilot.md} & Tools, provider, guardrails, smoke set, and latency. \\
 \path{docs/survey_outcome_prediction.md} & Target definition, leakage controls, readiness, and evaluation. \\

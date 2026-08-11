@@ -36,6 +36,10 @@ CONTEXT_WARNING = (
     "Agent comparisons are descriptive and do not adjust for call complexity, language, "
     "market, or workload."
 )
+CROSS_AGENT_WARNING = (
+    "Cross-agent suggestions are anonymous recurrence candidates, not best practices, "
+    "rankings, causal effects, or validated outcome improvements."
+)
 
 
 def normalize_text(value: str) -> str:
@@ -359,6 +363,60 @@ class TeamStatisticsTool:
         )
 
 
+class CrossAgentLearningTool:
+    name = "cross_agent_learning"
+
+    def __init__(self, repository: SupervisorRepository):
+        self.repository = repository
+
+    def run(self, request: CopilotRequest) -> ToolResult:
+        rows = self.repository.rows("cross_agent_suggestions", request.stage_id)
+        rows = sorted(
+            rows,
+            key=lambda row: (
+                -row["behavior_anonymous_agents"],
+                -row["behavior_call_coverage"],
+                row["suggestion_id"],
+            ),
+        )[:4]
+        if not rows:
+            return ToolResult(
+                self.name,
+                [
+                    "There is insufficient matched cross-agent evidence in this shift "
+                    "view; later-stage calls were not used."
+                ],
+                [],
+                [_citation("cross_agent_suggestions", request.stage_id, "none")],
+                [CROSS_AGENT_WARNING, SUPERVISOR_WARNING],
+            )
+
+        content = [
+            (
+                f"{row['language_market']} / {row['source_domain']}: "
+                f"{row['behavior_label']} recurred in {row['behavior_calls']} of "
+                f"{row['context_calls']} matched calls across "
+                f"{row['behavior_anonymous_agents']} anonymous agents. "
+                f"Candidate action: {row['coaching_action']} No governed outcome "
+                "association is available."
+            )
+            for row in rows
+        ]
+        citations = [
+            _citation(
+                "cross_agent_suggestions", request.stage_id, row["suggestion_id"]
+            )
+            for row in rows
+        ]
+        return ToolResult(
+            self.name,
+            content,
+            rows,
+            citations,
+            [CROSS_AGENT_WARNING, CONTEXT_WARNING, SUPERVISOR_WARNING],
+        )
+
+
 class SupervisorToolRouter:
     """Safe fallback planner and validator for model-selected tool names."""
 
@@ -368,6 +426,7 @@ class SupervisorToolRouter:
         "coaching_queue",
         "review_calls",
         "team_statistics",
+        "cross_agent_learning",
         "agent_memory",
         "policy_search",
     )
@@ -385,6 +444,22 @@ class SupervisorToolRouter:
     def deterministic_plan(self, question: str, has_agent: bool) -> list[str]:
         normalized = normalize_text(question)
         names: list[str] = []
+        cross_agent_query = any(
+            term in normalized
+            for term in (
+                "transfer",
+                "transferable",
+                "transferible",
+                "technique",
+                "tecnica",
+                "similar",
+                "peer",
+                "cross agent",
+                "across agents",
+                "entre agentes",
+                "best practice",
+            )
+        )
         if any(
             term in normalized
             for term in ("team", "equipo", "overall", "general", "health")
@@ -408,7 +483,7 @@ class SupervisorToolRouter:
             for term in ("coach", "feedback", "attention", "atencion", "focus")
         ):
             names.append("coaching_queue")
-        if any(
+        if not cross_agent_query and any(
             term in normalized
             for term in ("call", "llamada", "best", "mejor", "evidence", "evidencia")
         ):
@@ -427,6 +502,8 @@ class SupervisorToolRouter:
             )
         ):
             names.append("team_statistics")
+        if cross_agent_query:
+            names.append("cross_agent_learning")
         if has_agent and any(
             term in normalized
             for term in ("memory", "memoria", "history", "historial", "pattern", "patron")
@@ -463,6 +540,7 @@ class SupervisorToolRouter:
             "coaching_queue": lambda: CoachingQueueTool(self.repository),
             "review_calls": lambda: ReviewCallsTool(self.repository),
             "team_statistics": lambda: TeamStatisticsTool(self.repository),
+            "cross_agent_learning": lambda: CrossAgentLearningTool(self.repository),
             "agent_memory": lambda: AgentMemoryTool(self.memory_repository),
             "policy_search": lambda: PolicySearchTool(self.retriever, question),
         }

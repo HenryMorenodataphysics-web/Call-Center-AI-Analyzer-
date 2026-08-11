@@ -1,0 +1,55 @@
+{
+  "contract_version": "1.0.0",
+  "purpose": "Context-matched, anonymized transferable coaching candidates from recurring observed behaviors.",
+  "thresholds": {
+    "minimum_context_calls": 4,
+    "minimum_context_agents": 2,
+    "minimum_behavior_calls": 2,
+    "minimum_behavior_agents": 2,
+    "maximum_suggestions_per_context": 2,
+    "maximum_evidence_calls": 4
+  },
+  "behaviors": [
+    {
+      "id": "empathy",
+      "label": "Empathy",
+      "source_field": "agent_empathy_turns",
+      "coaching_action": "Acknowledge the customer's concern explicitly before proposing the next action."
+    },
+    {
+      "id": "probing",
+      "label": "Probing",
+      "source_field": "agent_probing_turns",
+      "coaching_action": "Use one concise clarifying question before selecting a resolution path."
+    },
+    {
+      "id": "ownership",
+      "label": "Ownership",
+      "source_field": "agent_ownership_turns",
+      "coaching_action": "State what you will do next and what remains under the customer's control."
+    },
+    {
+      "id": "next_steps",
+      "label": "Next steps",
+      "source_field": "agent_next_steps_turns",
+      "coaching_action": "Close with the next action, owner, and expected timing."
+    }
+  ],
+  "blocked_operational_gate": {
+    "code": "NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING",
+    "required_fields": [
+      "governed_outcome",
+      "approved_business_call_type",
+      "approved_complexity",
+      "approved_language_market",
+      "workload_context"
+    ]
+  },
+  "guardrails": [
+    "Suggestions describe recurring observed techniques, not better-performing agents or proven best practices.",
+    "Peer identity must remain hidden in cross-agent suggestions.",
+    "Dataset source domains are matching proxies, not approved business call types.",
+    "Conversation risk cannot validate these suggestions because behavior absence is part of its deterministic rubric.",
+    "No suggestion authorizes employee ranking, discipline, compensation, hiring, or termination."
+  ]
+}

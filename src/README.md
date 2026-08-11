@@ -25,8 +25,9 @@ and reproduced independently.
 - `outcomes/`: imports synthetic survey fixtures, checks real-label readiness,
   measures survey representativeness, and contains the guarded baseline
   training workflow.
-- `personalization/`: builds deterministic Agent Memory, derives conservative
-  self-history recommendations, and evaluates the Phase 5 portfolio gates.
+- `personalization/`: builds deterministic Agent Memory and anonymous
+  context-matched technique candidates, then evaluates the Phase 5 and Phase 6
+  portfolio gates.
 - `validation/`: prepares and evaluates the human risk-review pilot and runs
   analytical-contract validation.
 

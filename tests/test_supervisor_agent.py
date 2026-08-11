@@ -75,6 +75,18 @@ class SupervisorAgentTests(unittest.TestCase):
         self.assertGreaterEqual(len(call_citations), 1)
         self.assertLessEqual(len(call_citations), 4)
 
+    def test_cross_agent_learning_is_anonymous_and_noncausal(self):
+        response = SupervisorAgentService().ask(
+            "Which techniques recur across similar calls without ranking agents?", "end"
+        )
+        self.assertIn("cross_agent_learning", response.tool_calls)
+        self.assertIn("anonymous agents", response.answer)
+        self.assertIn("No governed outcome association", response.answer)
+        self.assertNotIn("Agent_", response.answer)
+        self.assertTrue(
+            any("not best practices" in warning for warning in response.warnings)
+        )
+
     def test_unsupported_number_uses_safe_fallback(self):
         response = SupervisorAgentService(
             provider=HallucinatingSupervisorProvider()

@@ -18,6 +18,8 @@ behaviors, acoustic features, versioned fusion, an agent KPI tracker, and a
 supervisor review board. The optional local Qwen copilots explain only facts
 retrieved by controlled tools; they never calculate KPI truth. The bounded
 Supervisor Copilot can plan up to four read-only team or agent evidence tools.
+Its Phase 6 tool also surfaces anonymous recurring techniques only within
+matched dataset-derived contexts.
 
 **Evidence boundaries.** The system separates observed/model
 signals, derived proxies, synthetic UI fixtures, and real outcomes. Agent
@@ -25,7 +27,7 @@ ordering by mean risk is descriptive, unadjusted for call mix, and **not
 suitable for employment decisions**. The system prioritizes evidence for human
 review; it does not authorize discipline, compensation, or termination.
 
-**Validated scope.** All 100 calls reconcile to metadata, 85 automated
+**Validated scope.** All 100 calls reconcile to metadata, 90 automated
 tests pass, both dashboards rebuild deterministically, and the analytical
 contract has zero blocking issues. The risk rubric is still an uncalibrated
 proxy: there are 76 low, 24 medium, and 0 high-risk calls. A score-blinded
@@ -44,6 +46,7 @@ been labeled yet.
   architecture, core formulas, evidence, product decisions, and limitations
 - [Human risk-validation pilot](docs/risk_proxy_validation_pilot.md)
 - [Phase 4 Copilot evaluation](reports/copilot_evaluation_report.md)
+- [Phase 6 cross-agent evaluation](reports/cross_agent_learning_evaluation_report.md)
 - [Reproducibility guide](docs/REPRODUCIBILITY.md)
 - [Project structure and reviewer path](docs/PROJECT_STRUCTURE.md)
 
@@ -126,6 +129,10 @@ Whisper, Transformers, Qwen, llama.cpp, or a GPU workload.
   dataset-derived context, but it contains only sequence-based snapshots with
   at most 10 calls per agent. Every recommendation is labeled low confidence;
   production longitudinal use is blocked by `NO_GOVERNED_DATED_HISTORY`.
+- Cross-agent learning exposes 7 low-confidence anonymous technique candidates
+  across 4 exact matched contexts. It does not rank agents or validate outcome
+  improvement; operational use is blocked by
+  `NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING`.
 - The local Qwen Phase 4 evaluation had 11.33-second median and 21.64-second
   p95 latency with partial GPU offload. It is therefore a
   **post-call/end-of-day explanation prototype**, not live in-call assistance.
@@ -153,5 +160,6 @@ and derived analytical artifacts are governed separately; see
 - [Analytical contract](docs/analytical_contract.md)
 - [Agent Memory](docs/agent_memory.md)
 - [Phase 5 personalization evaluation](reports/personalization_evaluation_report.md)
+- [Phase 6 cross-agent evaluation](reports/cross_agent_learning_evaluation_report.md)
 - [Knowledge ingestion](docs/knowledge_ingestion.md)
 - [Roadmap](ROADMAP.md)
