@@ -58,6 +58,18 @@ been labeled yet.
 | --- | --- |
 | ![Agent Copilot](docs/assets/streamlit-agent-copilot.png) | ![Supervisor Board](docs/assets/streamlit-supervisor-board.png) |
 
+### Phase 6: anonymous cross-agent learning
+
+<p align="center">
+  <img src="docs/assets/phase6-cross-agent-learning.png"
+       alt="Phase 6 anonymous cross-agent learning mark"
+       width="320">
+</p>
+
+*Conceptual Phase 6 mark. It does not display agent rankings or
+validated outcome effects; every production recommendation still requires
+governed outcomes and human review.*
+
 The Streamlit app reads the same checked-in analytical artifacts as the
 self-contained HTML fallbacks. No API key, GPU, or LLM is required.
 
