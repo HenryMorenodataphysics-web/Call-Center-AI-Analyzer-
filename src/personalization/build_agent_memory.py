@@ -164,6 +164,7 @@ def context_profiles(
                     "label": opportunity["label"],
                     "benchmark_gap": opportunity["benchmark_gap"],
                 },
+                "behavior_patterns": patterns,
                 "call_ids": [
                     row["call_id"]
                     for row in sorted(rows, key=lambda row: integer(row, "agent_call_number"))
@@ -175,6 +176,166 @@ def context_profiles(
             }
         )
     return profiles
+
+
+def personalization_profile(
+    calls: list[dict[str, str]],
+    stage: dict[str, Any],
+    confidence: str,
+    patterns: list[dict[str, Any]],
+    opportunities: list[dict[str, Any]],
+    contexts: list[dict[str, Any]],
+    contract: dict[str, Any],
+    previous_memory: dict[str, Any] | None,
+) -> dict[str, Any]:
+    """Create a conservative self-history recommendation with explicit evidence."""
+
+    rules = contract["personalization_rules"]
+    threshold = float(rules["meaningful_coverage_delta"])
+    behavior_config = {item["id"]: item for item in contract["behaviors"]}
+    pattern_by_id = {item["behavior_id"]: item for item in patterns}
+    previous_patterns = {
+        item["behavior_id"]: item
+        for item in (previous_memory or {}).get("behavior_patterns", [])
+    }
+
+    changes = []
+    for behavior_id, current in pattern_by_id.items():
+        previous = previous_patterns.get(behavior_id)
+        delta = None if previous is None else round(
+            current["call_coverage"] - previous["call_coverage"], 4
+        )
+        if delta is None:
+            movement = "baseline_only"
+        elif delta >= threshold:
+            movement = "higher_observed_coverage"
+        elif delta <= -threshold:
+            movement = "lower_observed_coverage"
+        else:
+            movement = "stable_observed_coverage"
+        changes.append(
+            {
+                "behavior_id": behavior_id,
+                "label": current["label"],
+                "previous_call_coverage": (
+                    None if previous is None else previous["call_coverage"]
+                ),
+                "current_call_coverage": current["call_coverage"],
+                "coverage_delta": delta,
+                "movement": movement,
+            }
+        )
+
+    focus = (
+        opportunities[0]
+        if opportunities
+        else sorted(patterns, key=lambda item: (item["benchmark_gap"], item["label"]))[0]
+    )
+    focus_change = next(
+        item for item in changes if item["behavior_id"] == focus["behavior_id"]
+    )
+    previous_opportunity_ids = {
+        item["behavior_id"]
+        for item in (previous_memory or {}).get("coaching_opportunities", [])
+    }
+    persistent = focus["behavior_id"] in previous_opportunity_ids
+
+    minimum_context_calls = int(rules["minimum_context_calls"])
+    eligible_contexts = []
+    for profile in contexts:
+        if profile["calls_analyzed"] < minimum_context_calls:
+            continue
+        context_pattern = next(
+            item
+            for item in profile["behavior_patterns"]
+            if item["behavior_id"] == focus["behavior_id"]
+        )
+        eligible_contexts.append((profile, context_pattern))
+    eligible_contexts.sort(
+        key=lambda item: (
+            item[1]["call_coverage"],
+            -item[0]["calls_analyzed"],
+            item[0]["source_domain"],
+        )
+    )
+    selected_context = None
+    if eligible_contexts:
+        profile, context_pattern = eligible_contexts[0]
+        selected_context = {
+            "source_domain": profile["source_domain"],
+            "context_status": "dataset_proxy_not_approved_business_type",
+            "calls_analyzed": profile["calls_analyzed"],
+            "sample_confidence": profile["sample_confidence"],
+            "focus_call_coverage": context_pattern["call_coverage"],
+            "supporting_call_ids": profile["call_ids"],
+        }
+
+    reason_codes = ["LOW_SAMPLE_CONFIDENCE"]
+    if previous_memory is None:
+        reason_codes.append("INITIAL_BASELINE_ONLY")
+    elif persistent:
+        reason_codes.append("PERSISTENT_BEHAVIOR_GAP")
+    else:
+        reason_codes.append("CURRENT_BEHAVIOR_GAP")
+    if focus_change["movement"] == "higher_observed_coverage":
+        reason_codes.append("HIGHER_SELF_HISTORY_COVERAGE")
+    elif focus_change["movement"] == "lower_observed_coverage":
+        reason_codes.append("LOWER_SELF_HISTORY_COVERAGE")
+    if selected_context:
+        reason_codes.append("DATASET_CONTEXT_PROXY")
+
+    evidence_ids = list(
+        dict.fromkeys(
+            focus["supporting_call_ids"]
+            + focus["missing_call_ids"]
+            + (selected_context or {}).get("supporting_call_ids", [])
+        )
+    )
+    action = behavior_config[focus["behavior_id"]]["coaching_action"]
+    context_text = (
+        f" Review it first in {selected_context['source_domain']} examples"
+        if selected_context
+        else " Review it across the available calls"
+    )
+    return {
+        "status": "portfolio_personalization_only",
+        "time_window": {
+            "type": "portfolio_call_sequence",
+            "stage_id": stage["id"],
+            "first_agent_call_number": integer(calls[0], "agent_call_number"),
+            "last_agent_call_number": integer(calls[-1], "agent_call_number"),
+            "governed_dates_available": False,
+        },
+        "self_history": {
+            "previous_stage_id": (
+                None if previous_memory is None else previous_memory["stage_id"]
+            ),
+            "previous_calls_analyzed": (
+                0 if previous_memory is None else previous_memory["calls_analyzed"]
+            ),
+            "additional_calls_analyzed": len(calls)
+            - (0 if previous_memory is None else previous_memory["calls_analyzed"]),
+            "behavior_changes": changes,
+        },
+        "recommendation": {
+            "focus_behavior_id": focus["behavior_id"],
+            "focus_label": focus["label"],
+            "sample_confidence": confidence,
+            "reason_codes": reason_codes,
+            "action": action,
+            "text": (
+                f"Personalized portfolio focus: {focus['label']}. {action}"
+                f"{context_text}, then reassess after at least "
+                f"{int(rules['minimum_additional_calls_before_reassessment'])} additional calls."
+            ),
+            "selected_context": selected_context,
+            "supporting_call_ids": evidence_ids,
+            "interpretation_limit": (
+                "Descriptive low-sample coaching evidence only; no governed dated history, "
+                "approved business call type, causal effect, or employment decision is available."
+            ),
+        },
+    }
 
 
 def selected_patterns(
@@ -253,6 +414,7 @@ def build_memory_row(
     calls: list[dict[str, str]],
     stage: dict[str, Any],
     contract: dict[str, Any],
+    previous_memory: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     ordered = sorted(calls, key=lambda row: integer(row, "agent_call_number"))
     selected = ordered[: min(int(stage["calls"]), len(ordered))]
@@ -261,7 +423,7 @@ def build_memory_row(
     risk = risk_profile(selected)
     confidence = sample_confidence(len(selected), contract)
     contexts = [source_context(row["call_id"]) for row in selected]
-    return {
+    row = {
         "business_id": contract["default_business_id"],
         "business_profile_status": "planned_not_resolved",
         "agent_id": selected[0]["agent_id"],
@@ -294,6 +456,17 @@ def build_memory_row(
         ),
         "supporting_call_ids": [row["call_id"] for row in selected],
     }
+    row["personalization"] = personalization_profile(
+        selected,
+        stage,
+        confidence,
+        patterns,
+        opportunities,
+        row["source_domain_profiles"],
+        contract,
+        previous_memory,
+    )
+    return row
 
 
 def build_artifact(
@@ -307,16 +480,20 @@ def build_artifact(
     for row in calls:
         grouped[row["agent_id"]].append(row)
 
-    memories = [
-        build_memory_row(grouped[agent_id], stage, contract)
-        for agent_id in sorted(grouped)
-        for stage in stage_config["stages"]
-    ]
+    memories = []
+    for agent_id in sorted(grouped):
+        previous_memory = None
+        for stage in stage_config["stages"]:
+            memory = build_memory_row(
+                grouped[agent_id], stage, contract, previous_memory=previous_memory
+            )
+            memories.append(memory)
+            previous_memory = memory
     end_rows = [row for row in memories if row["stage_id"] == "end"]
     return {
         "schemaVersion": "agent_memory_v1",
         "generatedAt": generated_at,
-        "status": "portfolio_initial_memory",
+        "status": "portfolio_personalization_validated_history_blocked",
         "businessContext": {
             "business_id": contract["default_business_id"],
             "profile_status": "planned_not_resolved",

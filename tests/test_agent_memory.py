@@ -58,6 +58,47 @@ class AgentMemoryTests(unittest.TestCase):
             all(row["business_profile_status"] == "planned_not_resolved" for row in self.rows)
         )
 
+    def test_personalization_tracks_self_history_without_fabricating_dates(self):
+        for agent_id in {row["agent_id"] for row in self.rows}:
+            agent_rows = {
+                row["stage_id"]: row for row in self.rows if row["agent_id"] == agent_id
+            }
+            self.assertIsNone(
+                agent_rows["start"]["personalization"]["self_history"]["previous_stage_id"]
+            )
+            self.assertEqual(
+                agent_rows["live"]["personalization"]["self_history"]["previous_stage_id"],
+                "start",
+            )
+            self.assertEqual(
+                agent_rows["end"]["personalization"]["self_history"]["previous_stage_id"],
+                "live",
+            )
+            self.assertTrue(
+                all(
+                    not row["personalization"]["time_window"]["governed_dates_available"]
+                    for row in agent_rows.values()
+                )
+            )
+
+    def test_personalized_recommendations_change_and_preserve_evidence(self):
+        end_rows = [row for row in self.rows if row["stage_id"] == "end"]
+        focuses = {
+            row["personalization"]["recommendation"]["focus_behavior_id"]
+            for row in end_rows
+        }
+        recommendations = {
+            row["personalization"]["recommendation"]["text"] for row in end_rows
+        }
+        self.assertGreaterEqual(len(focuses), 2)
+        self.assertGreaterEqual(len(recommendations), 8)
+        for row in self.rows:
+            recommendation = row["personalization"]["recommendation"]
+            self.assertEqual(recommendation["sample_confidence"], "low")
+            self.assertTrue(recommendation["supporting_call_ids"])
+            self.assertTrue(set(recommendation["supporting_call_ids"]) <= self.call_ids)
+            self.assertIn("no governed dated history", recommendation["interpretation_limit"])
+
     def test_pattern_evidence_references_canonical_calls(self):
         referenced = {
             call_id
@@ -92,6 +133,7 @@ class AgentMemoryTests(unittest.TestCase):
         self.assertTrue(response.grounded)
         self.assertIn("agent_memory", response.tool_calls)
         self.assertIn("Accumulated agent memory", response.answer)
+        self.assertIn("Personalized recommendation", response.answer)
         self.assertIn("low sample confidence", response.answer)
         self.assertIn("not approved business call types", response.answer)
         self.assertTrue(

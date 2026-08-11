@@ -115,8 +115,12 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
                     [python, "-m", "src.dashboard.build_supervisor_dashboard"],
                 ),
                 run_step(
-                    "Agent Memory v1 canonical artifact",
+                    "Agent Memory v1.1 canonical artifact",
                     [python, "-m", "src.personalization.build_agent_memory"],
+                ),
+                run_step(
+                    "Phase 5 personalization evaluation",
+                    [python, "-m", "src.personalization.evaluate_personalization"],
                 ),
                 run_step(
                     "Knowledge ingestion dependency smoke",
@@ -156,6 +160,12 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
     synthetic_quality = read_json(PROJECT_ROOT / "data/validation/synthetic_survey_fixture_quality.json")
     survey_mix = read_json(PROJECT_ROOT / "dashboard/survey_representativeness_artifact.json")
     agent_memory = read_json(PROJECT_ROOT / "dashboard/agent_memory_artifact.json")
+    personalization_evaluation = read_json(
+        PROJECT_ROOT / "data/validation/personalization_evaluation_results.json"
+    )
+    copilot_evaluation = read_json(
+        PROJECT_ROOT / "data/validation/copilot_evaluation_results.json"
+    )
     knowledge_contract = read_json(
         PROJECT_ROOT / "config/knowledge_ingestion_contract_v1.json"
     )
@@ -175,6 +185,17 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
         and "NO_REAL_SURVEY_LABELS" in {item["code"] for item in survey_readiness["issues"]},
         "REAL_SURVEY_GATE",
         "Real survey modeling remains blocked because no governed labels exist.",
+        checks,
+    )
+    check(
+        personalization_evaluation["status"] == "pass"
+        and personalization_evaluation["portfolio_gate"]["status"] == "pass"
+        and personalization_evaluation["operational_longitudinal_gate"]["status"]
+        == "blocked"
+        and personalization_evaluation["operational_longitudinal_gate"]["code"]
+        == "NO_GOVERNED_DATED_HISTORY",
+        "PHASE_5_PERSONALIZATION_GATE",
+        "Phase 5 passes the bounded portfolio gates while governed longitudinal history remains blocked.",
         checks,
     )
     check(
@@ -229,6 +250,14 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
         "Knowledge ingestion is business-scoped, local-only, and limited to four approved formats.",
         checks,
     )
+    check(
+        copilot_evaluation["status"] == "pass"
+        and copilot_evaluation["prompt_count"] == 30
+        and copilot_evaluation["gates"]["status"] == "pass",
+        "COPILOT_PHASE_4_EVALUATION",
+        "The 30-prompt Agent and Supervisor Copilot evaluation passes all completion gates.",
+        checks,
+    )
     check(len(risk_blinded) == 30, "RISK_PILOT_SIZE", "Human risk-review pilot contains 30 calls.", checks)
     check(
         len({row["call_id"] for row in risk_blinded}) == 30,
@@ -259,10 +288,16 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
         PROJECT_ROOT / "dashboard/supervisor_artifact.json",
         PROJECT_ROOT / "dashboard/survey_representativeness_artifact.json",
         PROJECT_ROOT / "dashboard/agent_memory_artifact.json",
+        PROJECT_ROOT / "config/personalization_evaluation_v1.json",
+        PROJECT_ROOT / "data/validation/personalization_evaluation_results.json",
+        PROJECT_ROOT / "reports/personalization_evaluation_report.md",
         PROJECT_ROOT / "config/knowledge_ingestion_contract_v1.json",
         PROJECT_ROOT / "reports/synthetic_survey_quality_report.html",
         PROJECT_ROOT / "data/validation/analytical_contract_validation.json",
         PROJECT_ROOT / "data/validation/survey_prediction_readiness.json",
+        PROJECT_ROOT / "config/copilot_evaluation_prompts_v1.json",
+        PROJECT_ROOT / "data/validation/copilot_evaluation_results.json",
+        PROJECT_ROOT / "reports/copilot_evaluation_report.md",
         PROJECT_ROOT / "docs/AI_Analyzer_Technical_Design.pdf",
         PROJECT_ROOT / "docs/risk_proxy_validation_pilot.md",
         PROJECT_ROOT / "data/validation/risk_review_pilot_blinded.csv",
@@ -273,6 +308,10 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
         [
             artifact_entry(PROJECT_ROOT / "models/qwen3-4b/Qwen3-4B-Q4_K_M.gguf", required=False),
             artifact_entry(PROJECT_ROOT / "tools/llama.cpp/llama-server.exe", required=False),
+            artifact_entry(
+                PROJECT_ROOT / "tools/llama.cpp/vulkan-b10012/llama-server.exe",
+                required=False,
+            ),
         ]
     )
     for artifact in artifacts:
@@ -309,7 +348,7 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
             "calls": len(calls),
             "agents": len({row["agent_id"] for row in calls}),
             "turn_rows": contract["profile"]["turn_rows"],
-            "test_count": 68,
+            "test_count": 85,
             "real_survey_labels": survey_readiness["profile"]["completed_survey_labels"],
             "synthetic_survey_rows": synthetic_quality["profile"]["synthetic_rows"],
         },

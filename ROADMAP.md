@@ -106,9 +106,10 @@ tools; explicit agent context; call and policy citations; synthetic/proxy
 warnings; unsupported-number and inverted-coverage fallbacks; CLI; synchronized
 localhost dashboard and chat interface; authenticated local runtime scripts;
 official Qwen3-4B Q4_K_M GGUF; six-prompt real-model smoke harness; and automated
-tests. The final Phase 3 smoke run grounded all six answers: four were accepted
-directly from Qwen and two safely used deterministic wording after the model
-introduced unsupported numbers. Comparative model evaluation remains Phase 4.
+tests. The final Phase 3 CPU smoke run grounded all six answers: four were
+accepted directly from Qwen and two safely used deterministic wording after the
+model introduced unsupported numbers. Phase 4 later completed the formal
+evaluation on the validated Vulkan configuration.
 
 **Business knowledge extension delivered:** Local Knowledge Base Admin in
 Streamlit; business-scoped PDF, DOCX, TXT, and Markdown ingestion; required
@@ -121,7 +122,7 @@ and document lifecycle approval remain future production adapters.
 
 ## Phase 4 — Copilot evaluation
 
-**Status:** Deferred — optional local-model work
+**Status:** Completed
 
 - Create a 25–50 prompt evaluation set covering summaries, KPI explanations,
   coaching, evidence requests, unavailable metrics, privacy, and guardrails.
@@ -133,13 +134,30 @@ and document lifecycle approval remain future production adapters.
 **Definition of done:** The selected small model passes a documented evaluation
 and its limitations are visible in the portfolio.
 
-**Resource boundary:** This phase consumes model resources only when
+**Delivered:** Versioned 30-prompt evaluation set spanning the Agent Copilot
+and Supervisor Copilot; deterministic rubrics for tool routing, citations,
+required concepts, forbidden claims, numerical grounding, actionability, and
+personalization; critical safety gates; latency and memory sampling; JSON and
+Markdown reports; and automated evaluator tests. Qwen3-4B Q4_K_M passed all ten
+completion gates with 30/30 safe cases, 100% direct model acceptance, zero
+fallbacks, 11.33-second median latency, and 21.64-second p95 latency on the
+validated RTX 3050 Vulkan configuration.
+
+**Default decision:** Qwen3-4B Q4_K_M is the selected optional local model for
+post-call and end-of-day explanation. Deterministic mode remains the portfolio
+application default because it requires no model process and responds in under
+one millisecond in this evaluation. The automated actionability and
+personalization rubrics are transparent proxies rather than human preference
+or coaching-effectiveness judgments. A second LLM candidate was not downloaded;
+the documented comparison is against the production fallback path.
+
+**Resource boundary:** Re-running this phase consumes model resources only when
 `llama-server` and the evaluation harness are explicitly started. The pipeline,
 agent dashboard, and supervisor dashboard do not load the LLM automatically.
 
 ## Phase 5 — Agent personalization
 
-**Status:** In progress — Agent Memory v1 delivered
+**Status:** Completed for the portfolio scope — operational history gate blocked
 
 - Build an individual baseline from longitudinal behavior.
 - Compare each agent with their own history and with context-matched peers.
@@ -150,18 +168,21 @@ agent dashboard, and supervisor dashboard do not load the LLM automatically.
 **Definition of done:** Recommendations change meaningfully with the agent and
 call context, and low-confidence conclusions are labeled as such.
 
-**Delivered so far:** Deterministic Agent Memory v1 with cumulative start, live,
-and end snapshots for every agent; explicit sample-confidence bands; heuristic
-risk mix; behavior coverage; evidence-backed observed strengths and coaching
-opportunities; dataset-derived source-domain profiles; structured summaries;
-and a controlled Copilot tool with call and memory citations. The current 10
-calls per agent remain low confidence, source domains are not approved business
-call types, and no governed dated history exists yet.
+**Delivered:** Deterministic Agent Memory v1.1 with cumulative start, live, and
+end snapshots for every agent; stage-to-stage self-history deltas; explicit
+sample-confidence bands; evidence-backed strengths and opportunities; a
+personalized focus, action, reason codes, time window, and supporting calls;
+conservative dataset-context selection; controlled Copilot retrieval; and a
+versioned Phase 5 evaluator. The evaluation passes all nine portfolio gates:
+two end-stage focus behaviors, focus changes across 20% of agents, nine distinct
+end-stage recommendations across ten agents, and 100% evidence, confidence,
+history-boundary, end-context, context-proxy, and prior-stage trend coverage.
 
-**Remaining completion gate:** Add versioned dated snapshots from real operating
-periods, approved business call type and complexity context, conservative
-context-matched comparisons, and validation that recommendations change
-meaningfully without overstating low-sample patterns.
+**Operational gate:** `NO_GOVERNED_DATED_HISTORY`. The current 10 calls per
+agent remain low confidence, dataset source domains are not approved business
+call types, and the source lacks governed dates, complexity, workload, and
+approved language/market context. Production longitudinal claims remain blocked
+until those fields are supplied; this does not reopen the bounded portfolio gate.
 
 **Resource boundary:** Agent Memory is deterministic and stored outside the LLM.
 It does not start or require Qwen.
@@ -185,8 +206,12 @@ start/live/end shift views; team health cards; agent AHT-versus-risk proxy map;
 team triage distribution; behavior coverage versus coaching benchmarks;
 explainable coaching queue; agent context table; and best/coachable call review
 evidence. It runs entirely from the existing analytical artifact and does not
-start the Copilot. Context-matched cross-agent learning remains for a later
-iteration.
+start the Copilot. The integrated Streamlit app now also includes a bounded
+Supervisor Copilot with Qwen-based tool planning, a deterministic planning
+fallback, a four-tool limit, read-only team metrics, agent-versus-team context,
+coaching queue, review-call and descriptive-statistics tools, citations,
+numerical guardrails, and explicit human-review boundaries. Context-matched
+cross-agent learning remains for a later iteration.
 
 ## Phase 7 — Survey outcome prediction
 
@@ -260,8 +285,8 @@ perform the final visual portfolio review.
 
 ## Recommended portfolio milestone
 
-The current strong portfolio release centers on completed Phases 0–3, the
+The current strong portfolio release centers on completed Phases 0–4, the
 Supervisor Board MVP from Phase 6, the guarded survey-readiness layer from Phase
-7, and the reproducible documentation package from Phase 8. Formal Copilot
+7, and the reproducible documentation package from Phase 8. A second-LLM
 comparison, full longitudinal personalization, context-matched cross-agent learning,
 and real-outcome calibration remain visible extensions rather than hidden gaps.

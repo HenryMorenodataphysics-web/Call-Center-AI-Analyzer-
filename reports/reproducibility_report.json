@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "generated_at_utc": "2026-08-06T18:02:01+00:00",
+  "generated_at_utc": "2026-08-11T02:55:23+00:00",
   "scope": "lightweight_portfolio_demo",
   "excluded_runtime": [
     "raw-audio transcription and model downloads",
@@ -26,113 +26,10 @@
         "tests"
       ],
       "return_code": 0,
-      "duration_seconds": 8.57,
+      "duration_seconds": 7.473,
       "status": "pass",
       "stdout_tail": "[copilot-web] 127.0.0.1 - \"GET /api/agents HTTP/1.1\" 200 -\n[copilot-web] 127.0.0.1 - \"POST /api/chat HTTP/1.1\" 200 -\nLoading: call_1_call_summary.csv\nLoading: call_2_call_summary.csv",
-      "stderr_tail": "2026-08-06 13:01:48.861 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager\n............................................2026-08-06 13:01:50.558 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager\n........................\n----------------------------------------------------------------------\nRan 68 tests in 1.898s\n\nOK"
-    },
-    {
-      "name": "Analytical contract validation",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "src/validation/validate_analytical_contract.py"
-      ],
-      "return_code": 0,
-      "duration_seconds": 2.516,
-      "status": "pass",
-      "stdout_tail": "{\n  \"status\": \"pass\",\n  \"contract_version\": \"1.0.0\",\n  \"validated_at_utc\": \"2026-08-06T18:01:53.740102+00:00\",\n  \"profile\": {\n    \"calls\": 100,\n    \"agents\": 10,\n    \"turn_rows\": 11056\n  },\n  \"blocking_issue_count\": 0,\n  \"warning_count\": 1,\n  \"issues\": [\n    {\n      \"severity\": \"warning\",\n      \"check\": \"risk_rubric.calibration_status\",\n      \"message\": \"The heuristic risk rubric has no ground-truth calibration.\",\n      \"evidence\": {\n        \"high_risk_calls\": 0,\n        \"maximum_score\": 47,\n        \"required_action\": \"Calibrate only after real labeled outcomes exist.\"\n      }\n    }\n  ]\n}\nJSON report: C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\data\\validation\\analytical_contract_validation.json\nMarkdown report: C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\data\\validation\\analytical_contract_validation.md",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Agent dashboard canonical artifact",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-m",
-        "src.dashboard.build_kpi_dashboard"
-      ],
-      "return_code": 0,
-      "duration_seconds": 0.154,
-      "status": "pass",
-      "stdout_tail": "Wrote C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\dashboard\\artifact.json with 100 calls, 30 agent-stage KPI rows, and explicit synthetic-demo provenance.",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Supervisor dashboard canonical artifact",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-m",
-        "src.dashboard.build_supervisor_dashboard"
-      ],
-      "return_code": 0,
-      "duration_seconds": 0.132,
-      "status": "pass",
-      "stdout_tail": "Wrote C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\dashboard\\supervisor_artifact.json with 30 agent-stage rows.",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Agent Memory v1 canonical artifact",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-m",
-        "src.personalization.build_agent_memory"
-      ],
-      "return_code": 0,
-      "duration_seconds": 0.103,
-      "status": "pass",
-      "stdout_tail": "Agent Memory v1: 10 agents, 100 calls, 30 cumulative memory rows\nArtifact: dashboard\\agent_memory_artifact.json",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Knowledge ingestion dependency smoke",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-c",
-        "from langchain_core.documents import Document; from langchain_text_splitters import RecursiveCharacterTextSplitter; from pypdf import PdfReader; import docx2txt; assert RecursiveCharacterTextSplitter(chunk_size=20, chunk_overlap=2)"
-      ],
-      "return_code": 0,
-      "duration_seconds": 3.202,
-      "status": "pass",
-      "stdout_tail": "",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Synthetic survey fixture normalization",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-m",
-        "src.outcomes.import_synthetic_surveys"
-      ],
-      "return_code": 0,
-      "duration_seconds": 0.092,
-      "status": "pass",
-      "stdout_tail": "{\n  \"status\": \"fixture_only\",\n  \"profile\": {\n    \"rows\": 30,\n    \"columns\": 19,\n    \"matched_calls\": 30,\n    \"coverage_of_100_calls\": 0.3,\n    \"agents\": 10,\n    \"rows_per_agent\": {\n      \"Agent_001\": 3,\n      \"Agent_002\": 3,\n      \"Agent_003\": 3,\n      \"Agent_004\": 3,\n      \"Agent_005\": 3,\n      \"Agent_006\": 3,\n      \"Agent_007\": 3,\n      \"Agent_008\": 3,\n      \"Agent_009\": 3,\n      \"Agent_010\": 3\n    },\n    \"agent_call_numbers\": {\n      \"1\": 10,\n      \"4\": 10,\n      \"8\": 10\n    },\n    \"synthetic_rows\": 30,\n    \"blank_call_ids\": 30,\n    \"positive_synthetic_labels\": 22,\n    \"negative_synthetic_labels\": 8,\n    \"outcome_classes\": {\n      \"high_satisfaction\": 9,\n      \"low_satisfaction\": 8,\n      \"moderate_satisfaction\": 13\n    },\n    \"unique_comments\": 11,\n    \"nps_label_mismatches\": 0,\n    \"agent_name_mismatches\": 0\n  }\n}",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Synthetic survey representativeness artifact",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-m",
-        "src.outcomes.survey_representativeness"
-      ],
-      "return_code": 0,
-      "duration_seconds": 0.722,
-      "status": "pass",
-      "stdout_tail": "{\n  \"status\": \"synthetic_fixture_only\",\n  \"agents\": 10,\n  \"calls\": 100,\n  \"synthetic_surveys\": 30,\n  \"real_labels\": 0\n}",
-      "stderr_tail": ""
-    },
-    {
-      "name": "Real survey readiness gate",
-      "command": [
-        "C:\\Users\\henry\\Data Science\\Python Proyects\\ai_analyzer_core_v0\\.venv\\Scripts\\python.exe",
-        "-m",
-        "src.outcomes.survey_dataset"
-      ],
-      "return_code": 0,
-      "duration_seconds": 0.08,
-      "status": "pass",
-      "stdout_tail": "{\n  \"status\": \"blocked\",\n  \"profile\": {\n    \"analyzed_calls\": 100,\n    \"outcome_rows\": 100,\n    \"completed_survey_labels\": 0,\n    \"synthetic_completed_survey_rows\": 0,\n    \"positive_labels\": 0,\n    \"negative_labels\": 0,\n    \"agents_with_labels\": 0,\n    \"survey_types\": [],\n    \"label_definition_versions\": []\n  },\n  \"issues\": [\n    {\n      \"severity\": \"blocking\",\n      \"code\": \"NO_REAL_SURVEY_LABELS\",\n      \"message\": \"No completed real survey labels are available; training and probability display remain disabled.\"\n    }\n  ]\n}",
-      "stderr_tail": ""
+      "stderr_tail": "2026-08-10 21:55:19.070 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager\n......................................................2026-08-10 21:55:20.193 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager\n...............................\n----------------------------------------------------------------------\nRan 85 tests in 1.196s\n\nOK"
     }
   ],
   "checks": [
@@ -182,6 +79,11 @@
       "message": "Real survey modeling remains blocked because no governed labels exist."
     },
     {
+      "code": "PHASE_5_PERSONALIZATION_GATE",
+      "status": "pass",
+      "message": "Phase 5 passes the bounded portfolio gates while governed longitudinal history remains blocked."
+    },
+    {
       "code": "SYNTHETIC_SURVEY_GATE",
       "status": "pass",
       "message": "All 30 supplied survey rows remain fixture-only."
@@ -205,6 +107,11 @@
       "code": "KNOWLEDGE_INGESTION_CONTRACT",
       "status": "pass",
       "message": "Knowledge ingestion is business-scoped, local-only, and limited to four approved formats."
+    },
+    {
+      "code": "COPILOT_PHASE_4_EVALUATION",
+      "status": "pass",
+      "message": "The 30-prompt Agent and Supervisor Copilot evaluation passes all completion gates."
     },
     {
       "code": "RISK_PILOT_SIZE",
@@ -257,6 +164,21 @@
       "message": "Required artifact exists: dashboard/agent_memory_artifact.json"
     },
     {
+      "code": "ARTIFACT_CONFIG_PERSONALIZATION_EVALUATION_V1_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: config/personalization_evaluation_v1.json"
+    },
+    {
+      "code": "ARTIFACT_DATA_VALIDATION_PERSONALIZATION_EVALUATION_RESULTS_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: data/validation/personalization_evaluation_results.json"
+    },
+    {
+      "code": "ARTIFACT_REPORTS_PERSONALIZATION_EVALUATION_REPORT_MD",
+      "status": "pass",
+      "message": "Required artifact exists: reports/personalization_evaluation_report.md"
+    },
+    {
       "code": "ARTIFACT_CONFIG_KNOWLEDGE_INGESTION_CONTRACT_V1_JSON",
       "status": "pass",
       "message": "Required artifact exists: config/knowledge_ingestion_contract_v1.json"
@@ -275,6 +197,21 @@
       "code": "ARTIFACT_DATA_VALIDATION_SURVEY_PREDICTION_READINESS_JSON",
       "status": "pass",
       "message": "Required artifact exists: data/validation/survey_prediction_readiness.json"
+    },
+    {
+      "code": "ARTIFACT_CONFIG_COPILOT_EVALUATION_PROMPTS_V1_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: config/copilot_evaluation_prompts_v1.json"
+    },
+    {
+      "code": "ARTIFACT_DATA_VALIDATION_COPILOT_EVALUATION_RESULTS_JSON",
+      "status": "pass",
+      "message": "Required artifact exists: data/validation/copilot_evaluation_results.json"
+    },
+    {
+      "code": "ARTIFACT_REPORTS_COPILOT_EVALUATION_REPORT_MD",
+      "status": "pass",
+      "message": "Required artifact exists: reports/copilot_evaluation_report.md"
     },
     {
       "code": "ARTIFACT_DOCS_AI_ANALYZER_TECHNICAL_DESIGN_PDF",
@@ -337,8 +274,29 @@
       "path": "dashboard/agent_memory_artifact.json",
       "required": true,
       "exists": true,
-      "bytes": 314868,
-      "sha256": "0df103223c0767f623cee0933b9924bc6b5d52ac83eda8817d86b7f051d480cf"
+      "bytes": 646385,
+      "sha256": "97a78ca0d7d4519ca1a123de1a3b4c273ddeb799c85db3d554fa4b8b25904c90"
+    },
+    {
+      "path": "config/personalization_evaluation_v1.json",
+      "required": true,
+      "exists": true,
+      "bytes": 868,
+      "sha256": "56d12479ed398c7b95a05049d0df81014d0c8751396f00b26c08e5ca5d648ecf"
+    },
+    {
+      "path": "data/validation/personalization_evaluation_results.json",
+      "required": true,
+      "exists": true,
+      "bytes": 2830,
+      "sha256": "8a189de1c643c5a55b2986b9979e0c525a87541d78ccbf6fe3e3fa4d6c6139ea"
+    },
+    {
+      "path": "reports/personalization_evaluation_report.md",
+      "required": true,
+      "exists": true,
+      "bytes": 1278,
+      "sha256": "bcf6201a895442a6ec57cd8435e493075531e6241f77a898d441fb6b5fd2e947"
     },
     {
       "path": "config/knowledge_ingestion_contract_v1.json",
@@ -369,11 +327,32 @@
       "sha256": "b77f761cfcd50bcd994c3d19c3df77f2f500a21f70f8a4a340be85a39683407b"
     },
     {
+      "path": "config/copilot_evaluation_prompts_v1.json",
+      "required": true,
+      "exists": true,
+      "bytes": 12448,
+      "sha256": "a6e6615b7b2ce6608f8bad39e4eddd4abee71122252cb66c08c77fdfc2d5d219"
+    },
+    {
+      "path": "data/validation/copilot_evaluation_results.json",
+      "required": true,
+      "exists": true,
+      "bytes": 165879,
+      "sha256": "2ab29310c862785c665e803fb0825b089cd84b1dea369e2f88a30443333cfd37"
+    },
+    {
+      "path": "reports/copilot_evaluation_report.md",
+      "required": true,
+      "exists": true,
+      "bytes": 1854,
+      "sha256": "fe7215d4d4a502004d2767f8f1c3feafa9b4b9de0094583c9466e77e009bd217"
+    },
+    {
       "path": "docs/AI_Analyzer_Technical_Design.pdf",
       "required": true,
       "exists": true,
-      "bytes": 127602,
-      "sha256": "9266f180e12fe478e10d23d7a960230b61b8d2043bac8d9a9e24517be774cc8e"
+      "bytes": 127997,
+      "sha256": "305497b231a62bf383138bc888320e6dc9da073ae0b8ee8eb4277c99dfb7d0db"
     },
     {
       "path": "docs/risk_proxy_validation_pilot.md",
@@ -409,13 +388,20 @@
       "exists": true,
       "bytes": 9216,
       "sha256": "ce876e81e0a25e5a036f8365561337c9032628678a86b3de25dffc76a60b6839"
+    },
+    {
+      "path": "tools/llama.cpp/vulkan-b10012/llama-server.exe",
+      "required": false,
+      "exists": true,
+      "bytes": 9216,
+      "sha256": "ce876e81e0a25e5a036f8365561337c9032628678a86b3de25dffc76a60b6839"
     }
   ],
   "summary": {
     "calls": 100,
     "agents": 10,
     "turn_rows": 11056,
-    "test_count": 68,
+    "test_count": 85,
     "real_survey_labels": 0,
     "synthetic_survey_rows": 30
   }

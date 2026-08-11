@@ -15,6 +15,7 @@ import streamlit as st
 from src.copilot.providers import DeterministicProvider, LlamaCppServerProvider
 from src.copilot.retrieval import PolicyRetriever
 from src.copilot.service import CopilotService, local_api_key
+from src.copilot.supervisor_agent import SupervisorAgentService
 from src.knowledge.ingestion import KnowledgeIngestionError, KnowledgeIngestionService
 
 
@@ -120,6 +121,39 @@ def build_copilot_service(
         )
         return CopilotService(provider=provider)
     raise ValueError(f"Unsupported Copilot provider: {provider_name}")
+
+
+@st.cache_resource(show_spinner=False)
+def build_supervisor_agent_service(
+    provider_name: str,
+    supervisor_artifact_modified_time_ns: int,
+    memory_artifact_modified_time_ns: int,
+    config_modified_time_ns: int,
+) -> SupervisorAgentService:
+    """Create the bounded Supervisor Agent service for the Streamlit session."""
+
+    del (
+        supervisor_artifact_modified_time_ns,
+        memory_artifact_modified_time_ns,
+        config_modified_time_ns,
+    )
+    if provider_name == "deterministic":
+        return SupervisorAgentService(provider=DeterministicProvider())
+    if provider_name == "llama_cpp_server":
+        config_path = PROJECT_ROOT / "config" / "copilot_config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        server = config["llama_cpp_server"]
+        generation = config["generation"]
+        provider = LlamaCppServerProvider(
+            base_url=os.environ.get("COPILOT_BASE_URL", server["base_url"]),
+            model=server["model"],
+            temperature=generation["temperature"],
+            max_tokens=generation["max_tokens"],
+            timeout_sec=generation["timeout_sec"],
+            api_key=local_api_key(),
+        )
+        return SupervisorAgentService(provider=provider)
+    raise ValueError(f"Unsupported Supervisor Agent provider: {provider_name}")
 
 
 def _validate_datasets(
@@ -675,6 +709,116 @@ def render_agent_copilot(stage_id: str, agent_id: str) -> None:
         st.error(f"The Copilot could not answer: {exc}")
 
 
+def render_supervisor_copilot(
+    stage_id: str, agent_id: str | None = None
+) -> None:
+    st.header("Supervisor Copilot")
+    scope_label = agent_id or "Entire team"
+    st.caption(
+        "Ask grounded questions about team metrics, agent context, coaching queues, "
+        "review calls, and descriptive statistics. The agent can plan up to four "
+        "read-only tool calls and never receives unrestricted database access."
+    )
+    st.info(
+        f"Current scope: {scope_label}. Outputs support human review; they are not "
+        "employee rankings or disciplinary decisions."
+    )
+
+    mode_label = st.radio(
+        "Response mode",
+        list(COPILOT_MODES),
+        horizontal=True,
+        key="supervisor_copilot_mode",
+        help=(
+            "Local Qwen selects a bounded tool plan and synthesizes the answer. "
+            "If planning or generation fails, the safe deterministic workflow is used."
+        ),
+    )
+    provider_name = COPILOT_MODES[mode_label]
+    if provider_name == "llama_cpp_server":
+        st.info(
+            "Local Qwen mode selected. Start `scripts/start_local_model.ps1` in a "
+            "separate VS Code terminal before sending a question."
+        )
+
+    suggestions = (
+        "Summarize team health and the coaching queue",
+        "Show descriptive team statistics and explain their limits",
+        "Show the best calls that could support team feedback",
+        (
+            "Compare this agent with the team and recommend evidence to review"
+            if agent_id
+            else "Which team evidence deserves supervisor attention first?"
+        ),
+    )
+    selected_question: str | None = None
+    for column, suggestion in zip(st.columns(4), suggestions):
+        if column.button(suggestion, width="stretch"):
+            selected_question = suggestion
+
+    context_key = f"{provider_name}:{agent_id or 'team'}:{stage_id}"
+    histories = st.session_state.setdefault("supervisor_copilot_histories", {})
+    history = histories.setdefault(context_key, [])
+    for message in history:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+            if message["role"] == "assistant":
+                st.caption(message["metadata"])
+
+    typed_question = st.chat_input(
+        "Ask about the team, an agent, coaching evidence, calls, or statistics"
+    )
+    question = typed_question or selected_question
+    if not question:
+        return
+
+    history.append({"role": "user", "content": question})
+    with st.chat_message("user"):
+        st.markdown(question)
+
+    config_path = PROJECT_ROOT / "config" / "copilot_config.json"
+    try:
+        service = build_supervisor_agent_service(
+            provider_name,
+            SUPERVISOR_ARTIFACT.stat().st_mtime_ns,
+            MEMORY_ARTIFACT.stat().st_mtime_ns,
+            config_path.stat().st_mtime_ns,
+        )
+        with st.chat_message("assistant"):
+            with st.spinner("Planning controlled tools and validating evidence..."):
+                response = service.ask(question, stage_id, agent_id)
+            st.markdown(response.answer)
+            metadata = (
+                f"Provider: {response.provider} | Scope: {response.agent_id} | Tools: "
+                f"{', '.join(response.tool_calls) or 'none'} | Grounded: yes"
+            )
+            st.caption(metadata)
+            if response.fallback_reason:
+                st.warning(f"Safe fallback used: {response.fallback_reason}")
+            if response.citations:
+                with st.expander("Evidence citations"):
+                    st.dataframe(
+                        pd.DataFrame(
+                            [
+                                {
+                                    "citation": citation.id,
+                                    "source": citation.source,
+                                    "locator": citation.locator,
+                                    "note": citation.note,
+                                }
+                                for citation in response.citations
+                            ]
+                        ),
+                        hide_index=True,
+                        width="stretch",
+                    )
+        history.append(
+            {"role": "assistant", "content": response.answer, "metadata": metadata}
+        )
+    except (FileNotFoundError, ValueError, json.JSONDecodeError) as exc:
+        st.error(f"The Supervisor Copilot could not answer: {exc}")
+
+
 def render_methodology(
     kpi: dict[str, Any], supervisor: dict[str, Any], survey: dict[str, Any]
 ) -> None:
@@ -908,6 +1052,7 @@ def main() -> None:
             "Survey Representativeness",
             "Agent Copilot",
             "Supervisor Board",
+            "Supervisor Copilot",
             "Knowledge Base Admin",
             "Methodology",
         ),
@@ -936,6 +1081,23 @@ def main() -> None:
             "Agent", list(agent_labels), format_func=lambda value: agent_labels[value]
         )
 
+    supervisor_agent_id: str | None = None
+    if page == "Supervisor Copilot":
+        agents = (
+            kpi_frames["kpi_summary"][["agent_id", "agent_label"]]
+            .drop_duplicates()
+            .sort_values("agent_id")
+        )
+        supervisor_agent_labels = dict(zip(agents["agent_id"], agents["agent_label"]))
+        supervisor_scope = st.sidebar.selectbox(
+            "Supervisor scope",
+            ["team", *supervisor_agent_labels],
+            format_func=lambda value: (
+                "Entire team" if value == "team" else supervisor_agent_labels[value]
+            ),
+        )
+        supervisor_agent_id = None if supervisor_scope == "team" else supervisor_scope
+
     st.sidebar.divider()
     st.sidebar.caption(
         "Data source: checked-in analytical artifacts. No API key, GPU, or LLM is required."
@@ -951,6 +1113,8 @@ def main() -> None:
         render_agent_copilot(stage_id, agent_id)
     elif page == "Supervisor Board":
         render_supervisor_board(supervisor_frames, stage_id)
+    elif page == "Supervisor Copilot":
+        render_supervisor_copilot(stage_id, supervisor_agent_id)
     elif page == "Knowledge Base Admin":
         render_knowledge_base_admin()
     else:

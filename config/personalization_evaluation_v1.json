@@ -1,0 +1,25 @@
+{
+  "evaluation_version": "1.0.0",
+  "purpose": "Validate that portfolio personalization changes with agent evidence and call-sequence stage without overstating low-sample context.",
+  "gates": {
+    "minimum_distinct_end_focus_behaviors": 2,
+    "minimum_agent_stage_focus_change_rate": 0.2,
+    "minimum_distinct_end_recommendation_rate": 0.8,
+    "required_evidence_rate": 1.0,
+    "required_confidence_label_rate": 1.0,
+    "required_history_boundary_rate": 1.0,
+    "required_end_context_rate": 1.0,
+    "required_context_proxy_label_rate": 1.0,
+    "required_prior_stage_trend_rate": 1.0
+  },
+  "blocked_operational_gate": {
+    "code": "NO_GOVERNED_DATED_HISTORY",
+    "required_fields": [
+      "governed_event_timestamp",
+      "approved_business_call_type",
+      "approved_complexity",
+      "approved_language_market",
+      "workload_context"
+    ]
+  }
+}

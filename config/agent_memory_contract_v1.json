@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.0.0",
+  "contract_version": "1.1.0",
   "purpose": "Deterministic accumulated agent memory for evidence-backed coaching.",
   "default_business_id": "demo_customer_service",
   "sample_confidence_thresholds": {
@@ -10,30 +10,39 @@
     "minimum_evidence_calls": 3,
     "maximum_patterns_per_group": 2
   },
+  "personalization_rules": {
+    "meaningful_coverage_delta": 0.1,
+    "minimum_context_calls": 3,
+    "minimum_additional_calls_before_reassessment": 3
+  },
   "behaviors": [
     {
       "id": "empathy",
       "label": "Empathy",
       "source_field": "agent_empathy_turns",
-      "portfolio_benchmark": 0.6
+      "portfolio_benchmark": 0.6,
+      "coaching_action": "Acknowledge the customer concern explicitly before proposing the next action."
     },
     {
       "id": "probing",
       "label": "Probing",
       "source_field": "agent_probing_turns",
-      "portfolio_benchmark": 0.85
+      "portfolio_benchmark": 0.85,
+      "coaching_action": "Use one concise clarifying question before selecting a resolution path."
     },
     {
       "id": "ownership",
       "label": "Ownership",
       "source_field": "agent_ownership_turns",
-      "portfolio_benchmark": 0.7
+      "portfolio_benchmark": 0.7,
+      "coaching_action": "State what you will do next and what remains under the customer's control."
     },
     {
       "id": "next_steps",
       "label": "Next steps",
       "source_field": "agent_next_steps_turns",
-      "portfolio_benchmark": 0.7
+      "portfolio_benchmark": 0.7,
+      "coaching_action": "Close with the next action, owner, and expected timing."
     }
   ],
   "guardrails": [

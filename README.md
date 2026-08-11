@@ -15,8 +15,9 @@ need a simple way to understand which KPI deserves attention during a shift.
 and 11,056 fused turns. It combines Faster Whisper,
 channel-based speaker assignment, Hugging Face sentiment, rule-based service
 behaviors, acoustic features, versioned fusion, an agent KPI tracker, and a
-supervisor review board. The optional local Qwen copilot explains only facts
-retrieved by controlled tools; it never calculates KPI truth.
+supervisor review board. The optional local Qwen copilots explain only facts
+retrieved by controlled tools; they never calculate KPI truth. The bounded
+Supervisor Copilot can plan up to four read-only team or agent evidence tools.
 
 **Evidence boundaries.** The system separates observed/model
 signals, derived proxies, synthetic UI fixtures, and real outcomes. Agent
@@ -24,7 +25,7 @@ ordering by mean risk is descriptive, unadjusted for call mix, and **not
 suitable for employment decisions**. The system prioritizes evidence for human
 review; it does not authorize discipline, compensation, or termination.
 
-**Validated scope.** All 100 calls reconcile to metadata, 68 automated
+**Validated scope.** All 100 calls reconcile to metadata, 85 automated
 tests pass, both dashboards rebuild deterministically, and the analytical
 contract has zero blocking issues. The risk rubric is still an uncalibrated
 proxy: there are 76 low, 24 medium, and 0 high-risk calls. A score-blinded
@@ -35,13 +36,14 @@ been labeled yet.
 
 - **Primary interactive experience:** Streamlit dashboard with executive,
   agent KPI, synthetic survey representativeness, grounded Agent Copilot with
-  accumulated Agent Memory,
-  supervisor, Knowledge Base Admin, and methodology views.
+  accumulated Agent Memory, Supervisor Board, bounded Supervisor Copilot,
+  Knowledge Base Admin, and methodology views.
 - [Agent KPI Performance Tracker](dashboard/kpi_performance_tracker.html)
 - [Supervisor Team Performance Board](dashboard/supervisor_board.html)
 - [10-page technical brief](docs/AI_Analyzer_Technical_Design.pdf) —
   architecture, core formulas, evidence, product decisions, and limitations
 - [Human risk-validation pilot](docs/risk_proxy_validation_pilot.md)
+- [Phase 4 Copilot evaluation](reports/copilot_evaluation_report.md)
 - [Reproducibility guide](docs/REPRODUCIBILITY.md)
 - [Project structure and reviewer path](docs/PROJECT_STRUCTURE.md)
 
@@ -67,17 +69,25 @@ From the repository root in VS Code PowerShell:
 
 Open the local URL printed by Streamlit, normally `http://localhost:8501`.
 
-The Agent Copilot defaults to deterministic mode so the complete interface can
+Both Copilot views default to deterministic mode so the complete interface can
 be reviewed without a model download. To use the installed local Qwen model,
 start it in a second VS Code terminal and select **Local Qwen LLM** inside the
-Agent Copilot view:
+Agent Copilot or Supervisor Copilot view:
 
 ```powershell
 .\scripts\start_local_model.ps1
 ```
 
-If Qwen is unavailable or its response fails a grounding guardrail, the same
-view reports the reason and falls back to the deterministic provider.
+In Supervisor Copilot, Qwen first selects a maximum of four tools from a fixed
+read-only catalog and then synthesizes the cited results. If planning,
+generation, or a grounding guardrail fails, the view reports the reason and
+falls back to the deterministic workflow.
+
+The managed launcher automatically uses the validated Vulkan backend when it
+is available: 20 Qwen layers are offloaded to the RTX 3050 while CPU mode
+remains available through `-Backend cpu`. The 30-prompt Phase 4 evaluation
+selected Qwen for optional post-call explanation, while deterministic mode
+remains the zero-resource application default.
 
 Agent Memory, business-scoped knowledge ingestion, and survey
 representativeness are documented in `docs/` and available through the same
@@ -112,9 +122,12 @@ Whisper, Transformers, Qwen, llama.cpp, or a GPU workload.
   synthetic fixtures. Real survey-model training remains blocked.
 - Agent comparisons do not adjust for call complexity, language, market, or
   workload.
-- Agent Memory currently contains only sequence-based snapshots with at
-  most 10 calls per agent; every current memory is labeled low confidence.
-- The local Qwen smoke test averaged 22.49 seconds on CPU. It is therefore a
+- Agent Memory v1.1 personalizes recommendations from self-history and
+  dataset-derived context, but it contains only sequence-based snapshots with
+  at most 10 calls per agent. Every recommendation is labeled low confidence;
+  production longitudinal use is blocked by `NO_GOVERNED_DATED_HISTORY`.
+- The local Qwen Phase 4 evaluation had 11.33-second median and 21.64-second
+  p95 latency with partial GPU offload. It is therefore a
   **post-call/end-of-day explanation prototype**, not live in-call assistance.
 
 ## Data and license
@@ -139,5 +152,6 @@ and derived analytical artifacts are governed separately; see
 - [Technical brief](docs/AI_Analyzer_Technical_Design.pdf)
 - [Analytical contract](docs/analytical_contract.md)
 - [Agent Memory](docs/agent_memory.md)
+- [Phase 5 personalization evaluation](reports/personalization_evaluation_report.md)
 - [Knowledge ingestion](docs/knowledge_ingestion.md)
 - [Roadmap](ROADMAP.md)

@@ -64,13 +64,13 @@ python -m src.copilot.cli `
 
 The installed candidate is the official
 [Qwen3-4B-GGUF](https://huggingface.co/Qwen/Qwen3-4B-GGUF) `Q4_K_M` file. Its
-download size is approximately 2.5 GB. The comparison candidate for Phase 4 is
+download size is approximately 2.5 GB. A future second-LLM comparison candidate is
 [Phi-4-mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct), a
 3.8B-parameter model; use a reviewed GGUF conversion before llama.cpp testing.
 
 The runtime came from the official
 [llama.cpp releases](https://github.com/ggml-org/llama.cpp/releases). The managed
-script uses this conservative CPU baseline internally:
+script automatically selects the validated Vulkan runtime when it is present:
 
 ```powershell
 llama-server.exe `
@@ -78,12 +78,18 @@ llama-server.exe `
   --host 127.0.0.1 `
   --port 8080 `
   -c 4096 `
-  -ngl 0 `
+  -ngl 20 `
+  --device Vulkan0 `
   -np 1
 ```
 
-After the baseline works, increase `-ngl` gradually for partial GPU offload.
-With a 4 GB laptop GPU, do not assume that every layer and KV cache will fit.
+On the validated RTX 3050 Laptop GPU, 20 layers produced the best tested
+generation throughput. Full offload was slower because the 4 GB device became
+memory constrained. Force the retained CPU runtime with:
+
+```powershell
+.\scripts\start_local_model.ps1 -Backend cpu
+```
 
 Run the reproducible smoke set while the model server is active:
 
@@ -93,7 +99,14 @@ python -m src.copilot.benchmark
 ```
 
 The results are written to `data/validation/copilot_smoke_results.json`.
-Formal model comparison and a larger evaluation set belong to Phase 4.
+The Phase 4 evaluation uses `config/copilot_evaluation_prompts_v1.json`:
+
+```powershell
+python -m src.copilot.evaluation
+```
+
+It writes `data/validation/copilot_evaluation_results.json` and
+`reports/copilot_evaluation_report.md`.
 
 ## Phase 3 validation result
 
@@ -103,6 +116,25 @@ values and were replaced by the deterministic grounded fallback. Average
 end-to-end latency was 22.49 seconds, median latency was 20.91 seconds, and the
 maximum was 39.43 seconds on the CPU baseline. This fallback behavior is an
 intentional safety result, not a failed request.
+
+The later GPU smoke run produced six direct Qwen answers with zero fallbacks.
+Average latency was 14.79 seconds, median latency was 11.87 seconds, and the
+maximum was 33.93 seconds.
+
+## Phase 4 evaluation result
+
+The versioned 30-prompt set covers summaries, KPI explanations, unavailable
+metrics, evidence, coaching, privacy, prompt injection, Agent Memory, team
+statistics, supervisor tool planning, and anti-ranking guardrails. Qwen passed
+all ten completion gates: 30/30 safe cases, 100% direct model acceptance, zero
+fallbacks, and 100% scores for routing, citations, concepts, prohibited claims,
+numerical grounding, actionability, and personalization. Median latency was
+11.33 seconds and p95 latency was 21.64 seconds.
+
+Qwen3-4B Q4_K_M is therefore the selected optional local model for post-call
+and end-of-day explanation. Deterministic mode remains the application default
+because it requires no model runtime. Actionability and personalization scores
+are automated rubric proxies, not human preference or effectiveness ratings.
 
 That latency is not viable for live in-call assistance. The current product
 boundary is deliberately post-call/end-of-day explanation after deterministic
