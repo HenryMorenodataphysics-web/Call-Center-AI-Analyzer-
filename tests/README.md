@@ -10,6 +10,8 @@ grounding, survey safeguards, and human-review utilities.
   context, self-history recommendations, evidence links, and Copilot retrieval.
 - `test_personalization_evaluation.py`: Phase 5 recommendation variation,
   evidence, confidence, context-proxy, and operational-history boundaries.
+- `test_cross_agent_learning.py`: Phase 6 context matching, evidence,
+  anonymization, early-stage leakage, and blocked operational outcomes.
 - `test_analytical_contract.py`: schema and evidence-boundary validation.
 - `test_dashboard_data.py`: population reconciliation and aggregation behavior.
 - `test_kpi_dashboard.py`: KPI artifact and portable dashboard checks.
@@ -17,8 +19,8 @@ grounding, survey safeguards, and human-review utilities.
   approval gates; business isolation; prompt-injection rejection; and Copilot
   retrieval citations.
 - `test_supervisor_dashboard.py`: supervisor artifact and dashboard checks.
-- `test_supervisor_agent.py`: bounded planning, team and agent tools, citations,
-  and grounding fallback checks.
+- `test_supervisor_agent.py`: bounded planning, team, agent, and anonymous
+  cross-agent tools, citations, and grounding fallback checks.
 - `test_streamlit_dashboard.py`: Streamlit loading and interaction smoke tests.
 - `test_copilot.py`: routing, retrieval, grounding, fallback, and API behavior.
 - `test_copilot_evaluation.py`: prompt-set integrity, rubric scoring,

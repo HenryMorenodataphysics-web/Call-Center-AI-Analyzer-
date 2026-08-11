@@ -5,7 +5,7 @@
     "surface": "dashboard",
     "title": "Supervisor Team Performance Board - MVP",
     "description": "Lightweight supervisor view for team health, explainable triage, coaching actions, and call evidence without running the Copilot.",
-    "generatedAt": "2026-08-06T18:01:54+00:00",
+    "generatedAt": "2026-08-11T03:21:07+00:00",
     "filters": [
       {
         "id": "shift_view",
@@ -37,6 +37,10 @@
           },
           {
             "dataset": "review_calls",
+            "field": "stage"
+          },
+          {
+            "dataset": "cross_agent_suggestions",
             "field": "stage"
           }
         ]
@@ -234,6 +238,66 @@
     ],
     "tables": [
       {
+        "id": "cross_agent_suggestions_table",
+        "title": "Transferable technique candidates",
+        "subtitle": "Recurring behaviors in matched dataset contexts across anonymous agents; not best practices, rankings, or outcome effects.",
+        "dataset": "cross_agent_suggestions",
+        "sourceId": "cross_agent_rules",
+        "defaultSort": {
+          "field": "behavior_call_coverage",
+          "direction": "desc"
+        },
+        "density": "dense",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "language_market",
+            "label": "Language-market",
+            "type": "text"
+          },
+          {
+            "field": "source_domain",
+            "label": "Dataset context",
+            "type": "text"
+          },
+          {
+            "field": "behavior_label",
+            "label": "Technique",
+            "type": "text"
+          },
+          {
+            "field": "context_calls",
+            "label": "Context calls",
+            "format": "number"
+          },
+          {
+            "field": "behavior_anonymous_agents",
+            "label": "Anonymous agents",
+            "format": "number"
+          },
+          {
+            "field": "behavior_call_coverage",
+            "label": "Observed coverage",
+            "format": "percent"
+          },
+          {
+            "field": "coaching_action",
+            "label": "Transferable action",
+            "type": "text"
+          },
+          {
+            "field": "sample_confidence",
+            "label": "Confidence",
+            "type": "text"
+          },
+          {
+            "field": "interpretation_limit",
+            "label": "Limit",
+            "type": "text"
+          }
+        ]
+      },
+      {
         "id": "coaching_queue_table",
         "title": "Coaching queue",
         "subtitle": "One explainable action per agent, ordered for evidence review rather than discipline.",
@@ -418,7 +482,7 @@
           "engine": "sqlite",
           "language": "sql",
           "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-          "executed_at": "2026-08-06T18:01:54+00:00",
+          "executed_at": "2026-08-11T03:21:07+00:00",
           "tables_used": [
             "all_calls_summary"
           ],
@@ -442,7 +506,7 @@
           "engine": "sqlite",
           "language": "sql",
           "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-          "executed_at": "2026-08-06T18:01:54+00:00",
+          "executed_at": "2026-08-11T03:21:07+00:00",
           "tables_used": [
             "all_calls_summary"
           ],
@@ -455,6 +519,21 @@
             "Team AHT and risk = arithmetic mean of agent means; every agent contributes the same call count within a shift view.",
             "Needs attention = AHT or heuristic-risk proxy has Needs attention status; Watch applies only when neither proxy needs attention.",
             "Coaching queue is an evidence-review aid, not an employee ranking or disciplinary score."
+          ]
+        }
+      },
+      {
+        "id": "cross_agent_rules",
+        "label": "Anonymized context-matched coaching candidates",
+        "path": "config/cross_agent_learning_contract_v1.json",
+        "version": "1.0.0",
+        "retrievedAt": "2026-08-11T03:21:07+00:00",
+        "query": {
+          "description": "Requires matching language-market and dataset source domain, minimum sample sizes, multiple anonymous agents, and recurring behavior evidence.",
+          "metric_definitions": [
+            "Suggestions describe recurring observed behaviors, not outcome lift or best-performing agents.",
+            "Peer identity is excluded; call IDs remain only as auditable evidence locators.",
+            "Production outcome learning is blocked until governed outcomes and approved contexts exist."
           ]
         }
       }
@@ -495,6 +574,12 @@
         "layout": "full"
       },
       {
+        "id": "cross_agent_suggestions_block",
+        "type": "table",
+        "tableId": "cross_agent_suggestions_table",
+        "layout": "full"
+      },
+      {
         "id": "coaching_queue_block",
         "type": "table",
         "tableId": "coaching_queue_table",
@@ -521,7 +606,7 @@
   },
   "snapshot": {
     "version": 1,
-    "generatedAt": "2026-08-06T18:01:54+00:00",
+    "generatedAt": "2026-08-11T03:21:07+00:00",
     "status": "fixture",
     "datasets": {
       "team_summary": [
@@ -538,7 +623,7 @@
           "risk_threshold": 25.0,
           "next_steps_rate": 0.1333,
           "next_steps_benchmark": 0.7,
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "stage_id": "live",
@@ -553,7 +638,7 @@
           "risk_threshold": 25.0,
           "next_steps_rate": 0.1857,
           "next_steps_benchmark": 0.7,
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "stage_id": "end",
@@ -568,7 +653,7 @@
           "risk_threshold": 25.0,
           "next_steps_rate": 0.17,
           "next_steps_benchmark": 0.7,
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         }
       ],
       "agent_overview": [
@@ -592,7 +677,7 @@
           "focus_reason": "Ownership appeared in 33% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "State what you will do next and what remains under your ownership.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_002",
@@ -614,7 +699,7 @@
           "focus_reason": "Estimated AHT is 654 sec versus the 600-sec portfolio demo goal, while analyzed behavior coverage is comparatively stable.",
           "recommended_action": "Open with one clarifying question, recap the issue once, and close with a specific next step.",
           "guardrail": "Do not skip required troubleshooting, empathy, QA, or compliance steps.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_003",
@@ -636,7 +721,7 @@
           "focus_reason": "Next steps appeared in 0% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_004",
@@ -658,7 +743,7 @@
           "focus_reason": "Next steps appeared in 0% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_005",
@@ -680,7 +765,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_006",
@@ -702,7 +787,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_007",
@@ -724,7 +809,7 @@
           "focus_reason": "Next steps appeared in 0% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_008",
@@ -746,7 +831,7 @@
           "focus_reason": "Next steps appeared in 0% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_009",
@@ -768,7 +853,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_010",
@@ -790,7 +875,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_001",
@@ -812,7 +897,7 @@
           "focus_reason": "Next steps appeared in 14% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_002",
@@ -834,7 +919,7 @@
           "focus_reason": "Ownership appeared in 43% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "State what you will do next and what remains under your ownership.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_003",
@@ -856,7 +941,7 @@
           "focus_reason": "Next steps appeared in 0% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_004",
@@ -878,7 +963,7 @@
           "focus_reason": "Next steps appeared in 14% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_005",
@@ -900,7 +985,7 @@
           "focus_reason": "Next steps appeared in 14% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_006",
@@ -922,7 +1007,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_007",
@@ -944,7 +1029,7 @@
           "focus_reason": "Next steps appeared in 14% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_008",
@@ -966,7 +1051,7 @@
           "focus_reason": "Next steps appeared in 14% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_009",
@@ -988,7 +1073,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_010",
@@ -1010,7 +1095,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_001",
@@ -1032,7 +1117,7 @@
           "focus_reason": "Next steps appeared in 10% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_002",
@@ -1054,7 +1139,7 @@
           "focus_reason": "Empathy appeared in 40% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_003",
@@ -1076,7 +1161,7 @@
           "focus_reason": "Next steps appeared in 0% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_004",
@@ -1098,7 +1183,7 @@
           "focus_reason": "Next steps appeared in 20% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_005",
@@ -1120,7 +1205,7 @@
           "focus_reason": "Next steps appeared in 10% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_006",
@@ -1142,7 +1227,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_007",
@@ -1164,7 +1249,7 @@
           "focus_reason": "Next steps appeared in 10% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_008",
@@ -1186,7 +1271,7 @@
           "focus_reason": "Next steps appeared in 10% of the calls in this view, below the 70% portfolio coaching benchmark.",
           "recommended_action": "End with owner, action, and expected timing in one concise recap.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_009",
@@ -1208,7 +1293,7 @@
           "focus_reason": "Empathy appeared in 10% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         },
         {
           "agent_id": "Agent_010",
@@ -1230,7 +1315,7 @@
           "focus_reason": "Empathy appeared in 0% of the calls in this view, below the 60% portfolio coaching benchmark.",
           "recommended_action": "Acknowledge the customer's impact in one natural sentence before moving to the solution.",
           "guardrail": "Treat the flag as coaching evidence, not as an official QA failure.",
-          "freshness": "2026-08-06T18:01:54+00:00"
+          "freshness": "2026-08-11T03:21:07+00:00"
         }
       ],
       "priority_distribution": [
@@ -2881,6 +2966,208 @@
           "rubric_reasons": "negative customer sentiment detected | high customer vocal intensity detected | agent probing detected | no agent ownership detected | no clear agent next steps detected",
           "evidence": "CUST_NEGATIVE_SENTIMENT: turns 19, 21, 44; CUST_HIGH_VOCAL_INTENSITY: turns 71, 88, 89; AGENT_PROBING: turns 3, 9, 13"
         }
+      ],
+      "cross_agent_suggestions": [
+        {
+          "suggestion_id": "end:en-AU:DeliveryService:probing",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-AU",
+          "source_domain": "DeliveryService",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 5,
+          "context_anonymous_agents": 2,
+          "behavior_id": "probing",
+          "behavior_label": "Probing",
+          "behavior_calls": 5,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 1.0,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "Use one concise clarifying question before selecting a resolution path.",
+          "transferable_suggestion": "In the dataset-derived DeliveryService context, Probing appeared in 5 of 5 calls across 2 anonymous agents. Technique candidate: Use one concise clarifying question before selecting a resolution path.",
+          "supporting_call_ids": [
+            "en_AU_DeliveryService_1592668",
+            "en_AU_DeliveryService_1593457",
+            "en_AU_DeliveryService_1586330",
+            "en_AU_DeliveryService_1590919"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        },
+        {
+          "suggestion_id": "end:en-AU:Entertainment:probing",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-AU",
+          "source_domain": "Entertainment",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 5,
+          "context_anonymous_agents": 2,
+          "behavior_id": "probing",
+          "behavior_label": "Probing",
+          "behavior_calls": 5,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 1.0,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "Use one concise clarifying question before selecting a resolution path.",
+          "transferable_suggestion": "In the dataset-derived Entertainment context, Probing appeared in 5 of 5 calls across 2 anonymous agents. Technique candidate: Use one concise clarifying question before selecting a resolution path.",
+          "supporting_call_ids": [
+            "en_AU_Entertainment_1586372",
+            "en_AU_Entertainment_1586330",
+            "en_AU_Entertainment_1593460",
+            "en_AU_Entertainment_1592670"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        },
+        {
+          "suggestion_id": "end:en-AU:Entertainment:ownership",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-AU",
+          "source_domain": "Entertainment",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 5,
+          "context_anonymous_agents": 2,
+          "behavior_id": "ownership",
+          "behavior_label": "Ownership",
+          "behavior_calls": 4,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 0.8,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "State what you will do next and what remains under the customer's control.",
+          "transferable_suggestion": "In the dataset-derived Entertainment context, Ownership appeared in 4 of 5 calls across 2 anonymous agents. Technique candidate: State what you will do next and what remains under the customer's control.",
+          "supporting_call_ids": [
+            "en_AU_Entertainment_1586330",
+            "en_AU_Entertainment_1586372",
+            "en_AU_Entertainment_1592670",
+            "en_AU_Entertainment_1593460"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        },
+        {
+          "suggestion_id": "end:en-AU:Health:probing",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-AU",
+          "source_domain": "Health",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 6,
+          "context_anonymous_agents": 2,
+          "behavior_id": "probing",
+          "behavior_label": "Probing",
+          "behavior_calls": 6,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 1.0,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "Use one concise clarifying question before selecting a resolution path.",
+          "transferable_suggestion": "In the dataset-derived Health context, Probing appeared in 6 of 6 calls across 2 anonymous agents. Technique candidate: Use one concise clarifying question before selecting a resolution path.",
+          "supporting_call_ids": [
+            "en_AU_Health_1592677",
+            "en_AU_Health_1586372",
+            "en_AU_Health_1591707",
+            "en_AU_Health_1591532"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        },
+        {
+          "suggestion_id": "end:en-AU:Health:ownership",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-AU",
+          "source_domain": "Health",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 6,
+          "context_anonymous_agents": 2,
+          "behavior_id": "ownership",
+          "behavior_label": "Ownership",
+          "behavior_calls": 3,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 0.5,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "State what you will do next and what remains under the customer's control.",
+          "transferable_suggestion": "In the dataset-derived Health context, Ownership appeared in 3 of 6 calls across 2 anonymous agents. Technique candidate: State what you will do next and what remains under the customer's control.",
+          "supporting_call_ids": [
+            "en_AU_Health_1585412",
+            "en_AU_Health_1586372",
+            "en_AU_Health_1592677"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        },
+        {
+          "suggestion_id": "end:en-CA:Entertainment:probing",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-CA",
+          "source_domain": "Entertainment",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 4,
+          "context_anonymous_agents": 2,
+          "behavior_id": "probing",
+          "behavior_label": "Probing",
+          "behavior_calls": 4,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 1.0,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "Use one concise clarifying question before selecting a resolution path.",
+          "transferable_suggestion": "In the dataset-derived Entertainment context, Probing appeared in 4 of 4 calls across 2 anonymous agents. Technique candidate: Use one concise clarifying question before selecting a resolution path.",
+          "supporting_call_ids": [
+            "en_CA_Entertainment_1588691",
+            "en_CA_Entertainment_1590992",
+            "en_CA_Entertainment_1592240",
+            "en_CA_Entertainment_1587197"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        },
+        {
+          "suggestion_id": "end:en-CA:Entertainment:ownership",
+          "stage_id": "end",
+          "stage": "End view - all 10 calls",
+          "stage_label": "End view - all 10 calls",
+          "language_market": "en-CA",
+          "source_domain": "Entertainment",
+          "context_status": "dataset_proxy_not_approved_business_type",
+          "context_calls": 4,
+          "context_anonymous_agents": 2,
+          "behavior_id": "ownership",
+          "behavior_label": "Ownership",
+          "behavior_calls": 2,
+          "behavior_anonymous_agents": 2,
+          "behavior_call_coverage": 0.5,
+          "sample_confidence": "low",
+          "evidence_basis": "recurring_observed_behavior_only",
+          "outcome_association_available": false,
+          "peer_identity_hidden": true,
+          "coaching_action": "State what you will do next and what remains under the customer's control.",
+          "transferable_suggestion": "In the dataset-derived Entertainment context, Ownership appeared in 2 of 4 calls across 2 anonymous agents. Technique candidate: State what you will do next and what remains under the customer's control.",
+          "supporting_call_ids": [
+            "en_CA_Entertainment_1587197",
+            "en_CA_Entertainment_1590992"
+          ],
+          "interpretation_limit": "Recurring portfolio evidence only; peer identity is hidden, the context is not an approved business call type, and no governed outcome association or causal effect is available."
+        }
       ]
     }
   },
@@ -2893,7 +3180,7 @@
         "engine": "sqlite",
         "language": "sql",
         "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-        "executed_at": "2026-08-06T18:01:54+00:00",
+        "executed_at": "2026-08-11T03:21:07+00:00",
         "tables_used": [
           "all_calls_summary"
         ],
@@ -2917,7 +3204,7 @@
         "engine": "sqlite",
         "language": "sql",
         "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-        "executed_at": "2026-08-06T18:01:54+00:00",
+        "executed_at": "2026-08-11T03:21:07+00:00",
         "tables_used": [
           "all_calls_summary"
         ],
@@ -2930,6 +3217,21 @@
           "Team AHT and risk = arithmetic mean of agent means; every agent contributes the same call count within a shift view.",
           "Needs attention = AHT or heuristic-risk proxy has Needs attention status; Watch applies only when neither proxy needs attention.",
           "Coaching queue is an evidence-review aid, not an employee ranking or disciplinary score."
+        ]
+      }
+    },
+    {
+      "id": "cross_agent_rules",
+      "label": "Anonymized context-matched coaching candidates",
+      "path": "config/cross_agent_learning_contract_v1.json",
+      "version": "1.0.0",
+      "retrievedAt": "2026-08-11T03:21:07+00:00",
+      "query": {
+        "description": "Requires matching language-market and dataset source domain, minimum sample sizes, multiple anonymous agents, and recurring behavior evidence.",
+        "metric_definitions": [
+          "Suggestions describe recurring observed behaviors, not outcome lift or best-performing agents.",
+          "Peer identity is excluded; call IDs remain only as auditable evidence locators.",
+          "Production outcome learning is blocked until governed outcomes and approved contexts exist."
         ]
       }
     }

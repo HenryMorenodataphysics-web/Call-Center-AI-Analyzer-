@@ -1,0 +1,26 @@
+{
+  "evaluation_version": "1.0.0",
+  "purpose": "Fixed portfolio gates for anonymous context-matched cross-agent technique candidates.",
+  "gates": {
+    "minimum_end_contexts": 4,
+    "minimum_end_suggestions": 7,
+    "minimum_distinct_behaviors": 2,
+    "required_evidence_rate": 1.0,
+    "required_anonymity_rate": 1.0,
+    "required_sample_threshold_rate": 1.0,
+    "required_context_proxy_label_rate": 1.0,
+    "required_noncausal_boundary_rate": 1.0,
+    "required_outcome_block_rate": 1.0,
+    "required_no_early_stage_leakage_rate": 1.0
+  },
+  "blocked_operational_gate": {
+    "code": "NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING",
+    "required_fields": [
+      "governed_outcome",
+      "approved_business_call_type",
+      "approved_complexity",
+      "approved_language_market",
+      "workload_context"
+    ]
+  }
+}

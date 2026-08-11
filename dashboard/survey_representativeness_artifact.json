@@ -1,7 +1,7 @@
 {
   "surface": "survey_representativeness_demo",
   "version": 1,
-  "generatedAt": "2026-08-06T18:01:58+00:00",
+  "generatedAt": "2026-08-11T03:21:11+00:00",
   "status": "synthetic_fixture_only",
   "purpose": "Demonstrate whether surveyed calls resemble an agent's complete analyzed call mix.",
   "metric_definitions": {
@@ -17,7 +17,7 @@
     "Real survey response propensity remains a separate future target."
   ],
   "snapshot": {
-    "generatedAt": "2026-08-06T18:01:58+00:00",
+    "generatedAt": "2026-08-11T03:21:11+00:00",
     "status": "fixture",
     "datasets": {
       "agent_summary": [

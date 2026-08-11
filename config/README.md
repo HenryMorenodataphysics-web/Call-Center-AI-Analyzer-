@@ -19,6 +19,10 @@ results belong in `dashboard/`, `data/`, or `reports/`.
   completion thresholds for both Copilot surfaces.
 - `personalization_evaluation_v1.json`: fixed Phase 5 recommendation-variation,
   evidence, confidence, context, and self-history gates.
+- `cross_agent_learning_contract_v1.json`: Phase 6 context matching, anonymous
+  evidence thresholds, technique definitions, and operational guardrails.
+- `cross_agent_learning_evaluation_v1.json`: fixed Phase 6 evidence,
+  anonymization, noncausal-language, and early-stage leakage gates.
 - `demo_kpi_targets.json`: clearly labeled demonstration targets used by the KPI
   dashboard; they are not employer targets.
 - `knowledge_ingestion_contract_v1.json`: approved formats, metadata, storage,

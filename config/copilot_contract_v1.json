@@ -11,7 +11,8 @@
     "coaching_context",
     "policy_search",
     "survey_representativeness",
-    "agent_memory"
+    "agent_memory",
+    "cross_agent_learning"
   ],
   "supervisor_agent": {
     "required_agent_context": false,
@@ -23,6 +24,7 @@
       "coaching_queue",
       "review_calls",
       "team_statistics",
+      "cross_agent_learning",
       "agent_memory",
       "policy_search"
     ]
@@ -50,6 +52,7 @@
     "Never present dataset source domains as approved business call types.",
     "Limit Supervisor Agent planning to four read-only controlled tools.",
     "Never present supervisor triage or agent-team comparisons as rankings or disciplinary findings.",
-    "Require human review of cited call evidence before supervisor action."
+    "Require human review of cited call evidence before supervisor action.",
+    "Present cross-agent evidence only as anonymous recurring technique candidates, never as rankings, best practices, causal effects, or validated outcome improvements."
   ]
 }

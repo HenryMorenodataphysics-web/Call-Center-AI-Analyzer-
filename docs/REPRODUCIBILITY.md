@@ -1,7 +1,7 @@
 # Reproducible portfolio package
 
 The default reproduction path is intentionally lightweight. It rebuilds the
-canonical dashboards and Agent Memory, validates the analytical contract, exercises the survey
+canonical dashboards, Agent Memory, and cross-agent evidence, validates the analytical contract, exercises the survey
 provenance gates, and runs the complete automated test suite from the checked-in
 analytical outputs. It does not start Whisper, Transformers, Qwen, llama.cpp,
 or a GPU workload.
@@ -35,11 +35,13 @@ automatically when it exists.
 3. Rebuilds the agent and supervisor canonical dashboard artifacts.
 4. Rebuilds the 30-row Agent Memory v1.1 artifact and validates the Phase 5
    personalization gates.
-5. Normalizes the supplied synthetic survey fixture while preserving its
+5. Rebuilds the 7-row anonymous cross-agent suggestion artifact and validates
+   the Phase 6 portfolio gates while keeping outcome learning blocked.
+6. Normalizes the supplied synthetic survey fixture while preserving its
    provenance.
-6. Rebuilds the synthetic survey representativeness artifact.
-7. Confirms that survey training remains blocked without real labels.
-8. Verifies memory confidence, key counts, safety boundaries, expected deliverables, and SHA-256
+7. Rebuilds the synthetic survey representativeness artifact.
+8. Confirms that survey training remains blocked without real labels.
+9. Verifies memory confidence, key counts, safety boundaries, expected deliverables, and SHA-256
    hashes.
 
 The machine-readable and human-readable outputs are:

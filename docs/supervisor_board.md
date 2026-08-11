@@ -9,7 +9,8 @@ The integrated Streamlit application also includes an optional **Supervisor
 Copilot**. It reads this same artifact through controlled tools for team
 metrics, agent-versus-team context, coaching queues, review calls, and
 descriptive statistics. It can additionally reuse Agent Memory and policy
-retrieval when a specific agent or policy question requires them.
+retrieval when a specific agent or policy question requires them. A Phase 6
+tool retrieves anonymous recurring technique candidates from matched contexts.
 
 In deterministic mode, a safe router selects tools without starting a model.
 In Local Qwen mode, the model may plan at most four calls from the fixed
@@ -29,6 +30,9 @@ subject to the existing grounding validator.
 - Agent context table for exact proxy values and focus areas.
 - Best-call and coachable-call examples with call IDs, reason codes, and turn
   evidence.
+- Seven anonymous technique candidates across four exact end-view
+  language-market and source-domain contexts, with canonical call evidence and
+  explicit low-confidence limits.
 
 ## Triage definition
 
@@ -54,6 +58,12 @@ Every shift view gives each agent the same number of calls, so the team AHT and
 risk values are arithmetic means of agent means and reconcile to the underlying
 call-level mean. Goals and behavior benchmarks remain portfolio assumptions from
 `config/demo_kpi_targets.json`.
+
+Cross-agent candidates require at least four calls and two agents in the exact
+context, with each behavior recurring in at least two calls from two agents.
+They are not best practices, rankings, causal effects, or validated outcome
+improvements. Operational outcome learning remains blocked by
+`NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING`.
 
 ## Build and validation
 

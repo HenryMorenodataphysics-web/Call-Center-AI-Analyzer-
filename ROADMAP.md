@@ -189,10 +189,10 @@ It does not start or require Qwen.
 
 ## Phase 6 — Cross-agent learning and supervisor dashboard
 
-**Status:** In progress — Supervisor Board MVP delivered
+**Status:** Completed for bounded portfolio review; governed outcome learning blocked
 
 - Compare similar calls rather than ranking whole people without context.
-- Identify behaviors associated with better outcomes.
+- Identify recurring observed behaviors without implying better outcomes.
 - Translate team patterns into anonymized, transferable coaching advice.
 - Add supervisor views for team health, exceptions, coaching queue, best calls,
   coachable calls, and supporting evidence.
@@ -201,7 +201,7 @@ It does not start or require Qwen.
 **Definition of done:** Supervisors can identify where attention is needed
 without random monitoring or unnecessary micromanagement.
 
-**Delivered so far:** Self-contained Supervisor Team Performance Board with
+**Delivered:** Self-contained Supervisor Team Performance Board with
 start/live/end shift views; team health cards; agent AHT-versus-risk proxy map;
 team triage distribution; behavior coverage versus coaching benchmarks;
 explainable coaching queue; agent context table; and best/coachable call review
@@ -211,7 +211,16 @@ Supervisor Copilot with Qwen-based tool planning, a deterministic planning
 fallback, a four-tool limit, read-only team metrics, agent-versus-team context,
 coaching queue, review-call and descriptive-statistics tools, citations,
 numerical guardrails, and explicit human-review boundaries. Context-matched
-cross-agent learning remains for a later iteration.
+cross-agent learning now adds 7 anonymous technique candidates across 4 exact
+language-market and source-domain contexts. Every candidate cites canonical
+calls, requires evidence from multiple agents, carries low confidence, and is
+available through the board and a controlled Supervisor Copilot tool.
+
+**Operational gate:** `NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING`. These
+patterns are recurrence candidates, not best practices, rankings, causal
+effects, or validated outcome improvements. Operational learning remains
+blocked until governed outcomes and approved complexity, call type,
+language-market, and workload controls exist.
 
 ## Phase 7 — Survey outcome prediction
 

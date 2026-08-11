@@ -5,7 +5,7 @@
     "surface": "dashboard",
     "title": "Agent KPI Performance Tracker - Phase 2 MVP",
     "description": "Portfolio dashboard combining analyzed call signals, explicit proxies, and clearly labeled synthetic business KPI fixtures.",
-    "generatedAt": "2026-08-06T18:01:53+00:00",
+    "generatedAt": "2026-08-11T03:21:06+00:00",
     "filters": [
       {
         "id": "agent",
@@ -546,7 +546,7 @@
           "engine": "sqlite",
           "language": "sql",
           "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-          "executed_at": "2026-08-06T18:01:53+00:00",
+          "executed_at": "2026-08-11T03:21:06+00:00",
           "tables_used": [
             "all_calls_summary"
           ],
@@ -570,7 +570,7 @@
           "engine": "sqlite",
           "language": "sql",
           "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-          "executed_at": "2026-08-06T18:01:53+00:00",
+          "executed_at": "2026-08-11T03:21:06+00:00",
           "tables_used": [
             "all_calls_summary"
           ],
@@ -593,7 +593,7 @@
           "engine": "sqlite",
           "language": "sql",
           "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-          "executed_at": "2026-08-06T18:01:53+00:00",
+          "executed_at": "2026-08-11T03:21:06+00:00",
           "tables_used": [
             "all_calls_summary"
           ],
@@ -680,7 +680,7 @@
   },
   "snapshot": {
     "version": 1,
-    "generatedAt": "2026-08-06T18:01:53+00:00",
+    "generatedAt": "2026-08-11T03:21:06+00:00",
     "status": "fixture",
     "datasets": {
       "kpi_summary": [
@@ -709,7 +709,7 @@
           "five_star_demo": 0.847,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.847,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_001",
@@ -736,7 +736,7 @@
           "five_star_demo": 0.875,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8757,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_001",
@@ -763,7 +763,7 @@
           "five_star_demo": 0.88,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.88,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_002",
@@ -790,7 +790,7 @@
           "five_star_demo": 0.8846,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8846,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_002",
@@ -817,7 +817,7 @@
           "five_star_demo": 0.8639,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8598,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_002",
@@ -844,7 +844,7 @@
           "five_star_demo": 0.8551,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8551,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_003",
@@ -871,7 +871,7 @@
           "five_star_demo": 0.9099,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.9099,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_003",
@@ -898,7 +898,7 @@
           "five_star_demo": 0.8861,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8814,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_003",
@@ -925,7 +925,7 @@
           "five_star_demo": 0.8826,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8826,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_004",
@@ -952,7 +952,7 @@
           "five_star_demo": 0.7884,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7884,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_004",
@@ -979,7 +979,7 @@
           "five_star_demo": 0.7836,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7845,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_004",
@@ -1006,7 +1006,7 @@
           "five_star_demo": 0.7885,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7885,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_005",
@@ -1033,7 +1033,7 @@
           "five_star_demo": 0.7767,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7767,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_005",
@@ -1060,7 +1060,7 @@
           "five_star_demo": 0.793,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7923,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_005",
@@ -1087,7 +1087,7 @@
           "five_star_demo": 0.8026,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8026,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_006",
@@ -1114,7 +1114,7 @@
           "five_star_demo": 0.8458,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8458,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_006",
@@ -1141,7 +1141,7 @@
           "five_star_demo": 0.8086,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8006,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_006",
@@ -1168,7 +1168,7 @@
           "five_star_demo": 0.8094,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8094,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_007",
@@ -1195,7 +1195,7 @@
           "five_star_demo": 0.8279,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8279,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_007",
@@ -1222,7 +1222,7 @@
           "five_star_demo": 0.8158,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8088,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_007",
@@ -1249,7 +1249,7 @@
           "five_star_demo": 0.8043,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8043,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_008",
@@ -1276,7 +1276,7 @@
           "five_star_demo": 0.7882,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7882,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_008",
@@ -1303,7 +1303,7 @@
           "five_star_demo": 0.7867,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7851,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_008",
@@ -1330,7 +1330,7 @@
           "five_star_demo": 0.7878,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7878,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_009",
@@ -1357,7 +1357,7 @@
           "five_star_demo": 0.7651,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7651,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_009",
@@ -1384,7 +1384,7 @@
           "five_star_demo": 0.7632,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.768,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_009",
@@ -1411,7 +1411,7 @@
           "five_star_demo": 0.7642,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.7642,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_010",
@@ -1438,7 +1438,7 @@
           "five_star_demo": 0.8523,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8523,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_010",
@@ -1465,7 +1465,7 @@
           "five_star_demo": 0.8338,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8284,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         },
         {
           "agent_id": "Agent_010",
@@ -1492,7 +1492,7 @@
           "five_star_demo": 0.8594,
           "five_star_demo_goal": 0.85,
           "five_star_demo_projection": 0.8594,
-          "freshness": "2026-08-06T18:01:53+00:00"
+          "freshness": "2026-08-11T03:21:06+00:00"
         }
       ],
       "aht_trend": [
@@ -23550,7 +23550,7 @@
         "engine": "sqlite",
         "language": "sql",
         "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-        "executed_at": "2026-08-06T18:01:53+00:00",
+        "executed_at": "2026-08-11T03:21:06+00:00",
         "tables_used": [
           "all_calls_summary"
         ],
@@ -23574,7 +23574,7 @@
         "engine": "sqlite",
         "language": "sql",
         "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-        "executed_at": "2026-08-06T18:01:53+00:00",
+        "executed_at": "2026-08-11T03:21:06+00:00",
         "tables_used": [
           "all_calls_summary"
         ],
@@ -23597,7 +23597,7 @@
         "engine": "sqlite",
         "language": "sql",
         "sql": "SELECT * FROM all_calls_summary ORDER BY agent_id, CAST(agent_call_number AS INTEGER)",
-        "executed_at": "2026-08-06T18:01:53+00:00",
+        "executed_at": "2026-08-11T03:21:06+00:00",
         "tables_used": [
           "all_calls_summary"
         ],

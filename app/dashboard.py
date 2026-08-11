@@ -49,6 +49,7 @@ REQUIRED_SUPERVISOR_DATASETS = {
     "team_behavior_coverage",
     "coaching_queue",
     "review_calls",
+    "cross_agent_suggestions",
 }
 REQUIRED_SURVEY_DATASETS = {"agent_summary", "risk_mix", "surveyed_calls"}
 
@@ -260,6 +261,37 @@ def render_executive_overview(
         color_discrete_sequence=["#2563eb", "#94a3b8"],
     )
     right.plotly_chart(style_figure(behavior_fig, percent_axis=True), width="stretch")
+
+    cross_agent = filter_frame(
+        supervisor_frames["cross_agent_suggestions"], stage_id
+    )
+    st.subheader("Transferable technique candidates")
+    if cross_agent.empty:
+        st.info(
+            "This view has too few matched calls across multiple agents for a "
+            "cross-agent suggestion. No later-stage evidence is used."
+        )
+    else:
+        st.dataframe(
+            cross_agent[
+                [
+                    "language_market",
+                    "source_domain",
+                    "behavior_label",
+                    "context_calls",
+                    "behavior_anonymous_agents",
+                    "behavior_call_coverage",
+                    "coaching_action",
+                    "sample_confidence",
+                ]
+            ],
+            hide_index=True,
+            width="stretch",
+        )
+        st.caption(
+            "Dataset-derived contexts and anonymous recurrence only. These are not "
+            "best practices, rankings, causal effects, or validated outcome improvements."
+        )
 
     queue = filter_frame(supervisor_frames["coaching_queue"], stage_id)
     queue = queue.sort_values(["priority_rank", "agent_id"]).head(5)
@@ -743,7 +775,7 @@ def render_supervisor_copilot(
 
     suggestions = (
         "Summarize team health and the coaching queue",
-        "Show descriptive team statistics and explain their limits",
+        "Which techniques recur across similar calls without ranking agents?",
         "Show the best calls that could support team feedback",
         (
             "Compare this agent with the team and recommend evidence to review"

@@ -28,6 +28,7 @@ class SupervisorDashboardTests(unittest.TestCase):
         self.assertEqual(len(datasets["coaching_queue"]), 30)
         self.assertEqual(len(datasets["review_calls"]), 60)
         self.assertEqual(len(datasets["team_behavior_coverage"]), 24)
+        self.assertEqual(len(datasets["cross_agent_suggestions"]), 7)
 
     def test_end_view_reconciles_to_all_100_calls(self):
         end = next(
@@ -64,6 +65,18 @@ class SupervisorDashboardTests(unittest.TestCase):
         payload = json.dumps(self.artifact).casefold()
         self.assertNotIn("csat_demo", payload)
         self.assertNotIn("synthetic_business_kpis", payload)
+
+    def test_cross_agent_suggestions_hide_peer_identity_and_block_outcomes(self):
+        valid_calls = {call["call_id"] for call in self.calls}
+        rows = self.artifact["snapshot"]["datasets"]["cross_agent_suggestions"]
+        self.assertTrue(rows)
+        for row in rows:
+            self.assertTrue(row["peer_identity_hidden"])
+            self.assertFalse(row["outcome_association_available"])
+            self.assertGreaterEqual(row["context_calls"], 4)
+            self.assertGreaterEqual(row["context_anonymous_agents"], 2)
+            self.assertFalse({"agent_id", "agent_name", "agent_label"} & set(row))
+            self.assertTrue(set(row["supporting_call_ids"]) <= valid_calls)
 
     def test_sources_are_relative_and_artifact_is_serializable(self):
         self.assertTrue(

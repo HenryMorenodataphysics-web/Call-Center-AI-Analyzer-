@@ -111,6 +111,10 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
                     [python, "-m", "src.dashboard.build_kpi_dashboard"],
                 ),
                 run_step(
+                    "Cross-agent learning canonical artifact",
+                    [python, "-m", "src.personalization.build_cross_agent_learning"],
+                ),
+                run_step(
                     "Supervisor dashboard canonical artifact",
                     [python, "-m", "src.dashboard.build_supervisor_dashboard"],
                 ),
@@ -121,6 +125,10 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
                 run_step(
                     "Phase 5 personalization evaluation",
                     [python, "-m", "src.personalization.evaluate_personalization"],
+                ),
+                run_step(
+                    "Phase 6 cross-agent learning evaluation",
+                    [python, "-m", "src.personalization.evaluate_cross_agent_learning"],
                 ),
                 run_step(
                     "Knowledge ingestion dependency smoke",
@@ -163,6 +171,12 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
     personalization_evaluation = read_json(
         PROJECT_ROOT / "data/validation/personalization_evaluation_results.json"
     )
+    cross_agent_learning = read_json(
+        PROJECT_ROOT / "dashboard/cross_agent_learning_artifact.json"
+    )
+    cross_agent_evaluation = read_json(
+        PROJECT_ROOT / "data/validation/cross_agent_learning_evaluation_results.json"
+    )
     copilot_evaluation = read_json(
         PROJECT_ROOT / "data/validation/copilot_evaluation_results.json"
     )
@@ -196,6 +210,29 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
         == "NO_GOVERNED_DATED_HISTORY",
         "PHASE_5_PERSONALIZATION_GATE",
         "Phase 5 passes the bounded portfolio gates while governed longitudinal history remains blocked.",
+        checks,
+    )
+    cross_agent_rows = cross_agent_learning["snapshot"]["datasets"][
+        "cross_agent_suggestions"
+    ]
+    check(
+        cross_agent_learning["schemaVersion"] == "cross_agent_learning_v1"
+        and len(cross_agent_rows) == 7
+        and all(row["stage_id"] == "end" for row in cross_agent_rows)
+        and all(row["peer_identity_hidden"] for row in cross_agent_rows),
+        "CROSS_AGENT_LEARNING_POPULATION",
+        "Phase 6 exposes seven anonymous end-view technique candidates without early-stage leakage.",
+        checks,
+    )
+    check(
+        cross_agent_evaluation["status"] == "pass"
+        and cross_agent_evaluation["portfolio_gate"]["status"] == "pass"
+        and cross_agent_evaluation["operational_outcome_gate"]["status"]
+        == "blocked"
+        and cross_agent_evaluation["operational_outcome_gate"]["code"]
+        == "NO_GOVERNED_OUTCOMES_FOR_CROSS_AGENT_LEARNING",
+        "PHASE_6_CROSS_AGENT_LEARNING_GATE",
+        "Phase 6 passes its bounded portfolio gates while governed outcome learning remains blocked.",
         checks,
     )
     check(
@@ -288,9 +325,14 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
         PROJECT_ROOT / "dashboard/supervisor_artifact.json",
         PROJECT_ROOT / "dashboard/survey_representativeness_artifact.json",
         PROJECT_ROOT / "dashboard/agent_memory_artifact.json",
+        PROJECT_ROOT / "dashboard/cross_agent_learning_artifact.json",
         PROJECT_ROOT / "config/personalization_evaluation_v1.json",
         PROJECT_ROOT / "data/validation/personalization_evaluation_results.json",
         PROJECT_ROOT / "reports/personalization_evaluation_report.md",
+        PROJECT_ROOT / "config/cross_agent_learning_contract_v1.json",
+        PROJECT_ROOT / "config/cross_agent_learning_evaluation_v1.json",
+        PROJECT_ROOT / "data/validation/cross_agent_learning_evaluation_results.json",
+        PROJECT_ROOT / "reports/cross_agent_learning_evaluation_report.md",
         PROJECT_ROOT / "config/knowledge_ingestion_contract_v1.json",
         PROJECT_ROOT / "reports/synthetic_survey_quality_report.html",
         PROJECT_ROOT / "data/validation/analytical_contract_validation.json",
@@ -348,7 +390,7 @@ def build_report(skip_tests: bool = False, no_rebuild: bool = False) -> dict[str
             "calls": len(calls),
             "agents": len({row["agent_id"] for row in calls}),
             "turn_rows": contract["profile"]["turn_rows"],
-            "test_count": 85,
+            "test_count": 90,
             "real_survey_labels": survey_readiness["profile"]["completed_survey_labels"],
             "synthetic_survey_rows": synthetic_quality["profile"]["synthetic_rows"],
         },
