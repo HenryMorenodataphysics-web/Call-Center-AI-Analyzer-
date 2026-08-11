@@ -1,4 +1,5 @@
-# AI Analyzer Core
+# AI Call center Analyzer
+
 
 An evidence-first call-center analytics project: pretrained speech,
 text, and acoustic models turn calls into explainable coaching signals for
